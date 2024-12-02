@@ -1,0 +1,15 @@
+.home {
+  .header-main__logo {
+    padding-block: var(--size-7);
+  }
+
+  .site-logo {
+    justify-content: center;
+
+    &::before {
+      background-position-x: center;
+      width: clamp(6rem, 50vw, 100vw);
+      height: clamp(6rem, 50vh, 100vh);
+    }
+  }
+}

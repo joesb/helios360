@@ -1,0 +1,82 @@
+@use "../tools/grid" as grid;
+@use "../tools/respond-to" as rt;
+@use "../tools/px-to-rem" as ptr;
+
+.footer-main {
+  margin-block-start: var(--size-8);
+  background-color: var(--color-grey);
+  padding-block: var(--size-fluid-4);
+  color: var(--color-brand-white);
+  font-size: smaller;
+
+  a {
+    font-size: smaller;
+    color: var(--color-brand-white);
+
+    &:hover {
+      color: var(--color-brand-grey);
+      text-decoration-color: var(--color-brand-grey);
+    }
+  }
+}
+
+.footer-main__inner {
+  display: grid;
+  grid-auto-flow: row;
+  gap: var(--size-fluid-4);
+  padding: 3em 1.5em;
+  grid-template-rows: minmax(ptr.px-to-rem(68px), ptr.px-to-rem(90px)) auto;
+
+  @include rt.respond-to('small') {
+    grid-auto-flow: column;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @include rt.respond-to('medium') {
+    gap: 3em;
+    padding: 3em 6em;
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+.footer-main--container {
+  padding-block: var(--size-7);
+  @include grid.grid-columns();
+}
+
+.footer-main__logo {
+  .site-logo {
+    &::before {
+      width: ptr.px-to-rem(216px);
+      height: ptr.px-to-rem(68px);
+      filter: invert(100%) sepia(14%) saturate(0%) hue-rotate(60deg) brightness(101%) contrast(107%);
+    }
+  }
+}
+
+.footer-main--nav--list {
+  >* {
+    font-size: var(--font-size-0);
+    font-weight: var(--font-weight-medium);
+    margin: 0;
+    padding: 0;
+  }
+
+  .current {
+    font-weight: var(--font-weight-bold);
+  }
+}
+
+.footer-main--nav--list--item {
+  >* {
+    display: inline-block;
+    margin-block-end: var(--size-2);
+  }
+}
+
+.footer-disclaimer--text {
+  font-size: var(--font-size-0);
+  font-weight: var(--font-weight-medium);
+}
+

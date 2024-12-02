@@ -1,0 +1,19 @@
+@use "../tools/respond-to" as rt;
+@use "./site-logo";
+@use "../tools/px-to-rem" as ptr;
+
+.header-main {
+  // background-color: var(--surface-dark-1);
+  // color: var(--text-white-1);
+  // --client-color: var(--color-white);
+  position: relative;
+}
+
+.header-main__inner {
+  padding-block: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  min-block-size: 100%;
+}

@@ -1,0 +1,16 @@
+<hr />
+
+<div class="footnotes">
+  <h2 id="footnotes" tabindex="-1">
+    Footnotes
+    <a class="direct-link do-not-display" href="#footnotes" aria-hidden="true">#</a>
+  </h2>
+
+  <ol class="footnotes-list">
+  {% for note in footnotes %}
+    <li class="footnotes-note footnotes-note--n{{ loop.index }}{% if loop.first %} footnotes-note--first{% endif %}{% if loop.last %} footnotes-note--last{% endif %}">
+      {{ note | markdown | safe }}
+    </li>
+  {% endfor %}
+  </ol>
+</div>

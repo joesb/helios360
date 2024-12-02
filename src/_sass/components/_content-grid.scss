@@ -1,0 +1,62 @@
+@use "../tools/grid" as grid;
+@use "../tools/respond-to" as rt;
+
+.content-grid {
+  @include grid.grid-columns();
+}
+
+.content-grid-rows {
+  @include grid.grid-rows-2();
+}
+
+.content-grid-rows-2-1 {
+  @include grid.grid-rows-2(2fr, 1fr);
+}
+
+.content-grid,
+.content-grid-rows,
+.content-grid-rows-2-1 {
+  &.content-grid--gap-small {
+    gap: var(--size-2);
+  }
+
+  &.content-grid--align-center {
+    align-items: center
+  }
+
+  &.content-grid--align-content-center {
+    align-content: center
+  }
+}
+
+.content-grid--close {
+  @include grid.grid-columns( 20ch, 1fr, var(--size-1));
+}
+
+.content-grid--narrow {
+  @include grid.grid-columns( 15ch );
+}
+
+.content-grid-set {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  gap: var(--size-1);
+}
+
+.content-grid-set--even {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--size-1);
+}
+
+.content-grid-set--2-1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: var(--size-1);
+}
+
+@include rt.respond-to('medium') {
+  .content-grid-item-span-2 {
+    grid-column: 1 / span 2;
+  }
+}

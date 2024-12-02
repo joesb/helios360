@@ -1,0 +1,62 @@
+<head>
+  <!-- Analytics & Tag Manager -->
+  {% if env.isProd %}
+    {% include "layouts/components/google-tagmanager.njk" %}
+  {% endif %}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=contain">
+  {% set siteName = [ metadata.org, metadata.title, metadata.subtitle] %}
+  <title>{{ pageTitle or title or siteName | join(" ") }} | {{ siteName | join(" ") }}</title>
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/favicon/apple-touch-icon.png" type="image/png">
+  <link rel="icon" href="/public/favicon/favicon-16.png" type="image/png" sizes="16x16">
+  <link rel="icon" href="/public/favicon/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="/public/favicon/favicon-64.png" type="image/png" sizes="64x64">
+  <link rel="icon" href="/public/favicon/favicon.png" type="image/png" sizes="192x192">
+  <link rel="icon" href="/public/favicon/favicon-256.png" type="image/png" sizes="256x256">
+  {# <link rel="manifest" href="/static/favicon/site.webmanifest"> #}
+
+  {% if metadesc or description %}
+  <meta name="description" content="{{ description or metadesc }}" />
+  {% endif %}
+
+  {% if page.url == "/" %}
+  <link id="feedLink" rel="alternate" type="application/rss+xml" title="RSS" href="{{ '/feed.xml' | url | absoluteUrl(env.baseUrl) }} ">
+  {% endif %}
+
+  {# Google Fonts #}
+  {% include "layouts/components/head-google-fonts.njk" %}
+  
+  {% set css %}
+    {% include "assets/css/styles.css" %}
+  {% endset %}
+  <style>{{ css | cssmin | safe }}</style>
+
+  {% if styles %}
+    {% for style in styles %}
+      {% set include_style %}assets/css/{{ style }}{% endset %}
+      {% set include_css %}
+        {% include include_style %}
+      {% endset %}
+    <style>{{ include_css | cssmin | safe }}</style>
+    {% endfor %}
+  {% endif %}
+  {# <!-- Pagefind CSS --> #}
+  {# <link href="/pagefind/pagefind-ui.css" rel="stylesheet"> #}
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  {% set js %}
+    {% include "assets/js/inline.js" %}
+    {# {% include "static/js/site.js" %} #}
+  {% endset %}
+  <script>{{ js | jsmin | safe }}</script>
+  {# <!-- Pagefind JS --> #}
+  {# <script src="/pagefind/pagefind-ui.js"></script> #}
+
+  {% include "layouts/components/head-social-cards.njk" %}
+
+  {% if canonical %}
+  <link rel="canonical" href="{{ canonical }}" />
+  {% endif %}
+</head>

@@ -1,0 +1,27 @@
+@use "../tools/px-to-rem" as ptr;
+
+.social-card {
+  margin-block: var(--size-7);
+  box-shadow: inset 0 0 0 1px var(--color-platinum);
+
+  .social-card-caption-title,
+  .social-card-caption-description--description,
+  .social-card-caption-url--url {
+    margin-block-start: 0.75rem;
+  }
+}
+
+.social-card--inner {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: auto ptr.px-to-rem(160px);
+}
+
+.social-card-caption {
+  padding: var(--size-3);
+}
+
+.social-card-caption-description--description {
+  max-inline-size: unset;
+}
+

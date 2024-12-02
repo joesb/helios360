@@ -1,0 +1,24 @@
+<!doctype html>
+<html {% if section %} data-current="{{ section }}"{% endif %} lang="en">
+
+	{% include "layouts/components/head.njk" %}
+
+	<body>
+
+		{# Header #}
+		{% include "layouts/components/site-header.njk" %}
+
+		{# {%- if not home -%}
+			{% include "components/breadcrumbs.njk" %}
+		{% endif %} #}
+		<div class="main-wrap" data-pagefind-body>
+			{# Main content #}
+			{% include "layouts/components/site-main.njk" %}
+
+			{# Footer #}
+			{% include "layouts/components/site-footer.njk" %}
+		</div>
+	</body>
+	<!-- Google Analytics -->
+	<!-- End Google Analytics -->
+</html>

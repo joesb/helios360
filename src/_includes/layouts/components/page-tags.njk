@@ -1,0 +1,11 @@
+<hr />
+
+<div class="tags">
+  <ol class="bare-list inline-list tags-list">
+  {% for tag in tags %}
+    <li>
+      <a href="/tagged/{{ tag | slugify }}/">{{ tag | toTitleCase }}</a>
+    </li>
+  {% endfor %}
+  </ol>
+</div>

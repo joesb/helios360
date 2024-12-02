@@ -1,0 +1,39 @@
+    <header role="banner" class="header-main content-canvas" id="main-navigation">
+      <div class="header-main__inner content-canvas-item-wide">
+        <div class="header-main__logo">
+          {% if page.url !== '/' %}<a href="{{ '/' | url }}" class="site-logo">
+            <h1 class="h2-style visually-hidden">
+              {{ meta.title }}
+              {% if metadata.subtitle %}
+              <div class="h2-style not-bold">{{ meta.subtitle }}</div>
+              {% endif %}
+            </h1>
+          </a>
+          {% else %}
+          <span class="site-logo">
+            <h1 class="h2-style visually-hidden">
+              {{ meta.title }}
+              {% if metadata.subtitle %}
+              <div class="h2-style not-bold">{{ meta.subtitle }}</div>
+              {% endif %}
+            </h1>
+          </span>
+          {% endif %}
+        </div>
+        <div class="header-main__nav">
+          {% include "layouts/components/nav.njk" %}
+          {% include "layouts/components/nav-contact.njk" %}
+        </div>
+        <button class="header-main__menu js-closed" aria-expanded="false" href="#main-navigation">
+          <a class="css-nav css-nav--open visually-hidden" href="#main-navigation" aria-label="Open menu">Open</a>
+          <a class="css-nav css-nav--close visually-hidden" href="#" aria-label="Close menu">Close</a>
+          <div class="header-main__menu__text closed-text visually-hidden" aria-label="Open menu">Menu</div>
+          <div class="header-main__menu__text open-text visually-hidden" aria-label="Close menu">Close</div>
+          <div class="header-main__menu__burger">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </button>
+      </div>
+    </header>

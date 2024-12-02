@@ -1,0 +1,89 @@
+@use "../common/variables" as var;
+@use "../common/site-palette" as sp;
+
+html {
+  // General colours
+
+  /* Brand Colors */
+  --color-icterine: #{sp.$color-icterine-rgba};
+  --color-viridian: #{sp.$color-viridian-rgba};
+  --color-ming: #{sp.$color-ming-rgba};
+  --color-victoria: #{sp.$color-victoria-rgba};
+  --color-affair: #{sp.$color-affair-rgba};
+  --color-white: #{sp.$color-white};
+  --color-black: #{sp.$color-black};
+  --color-grey: #{sp.$color-grey};
+  --color-grey-dark: #{sp.$color-grey-dark};
+
+  --color-brand-primary: var(--color-icterine);
+  --color-brand-secondary: var(--color-ming);
+  --color-brand-tertiary: var(--color-viridian);
+  --color-brand-text: var(--color-white);
+  --color-brand-white: var(--color-white);
+  --color-brand-black: var(--color-black);
+  --color-brand-grey: var(--color-grey);
+
+
+  // Text colours
+  --color-text-black: var(--color-brand-text);
+  --color-text-white: var(--color-white);
+
+  // Border colours
+  --border-color: var(--color-grey-dark);
+  --border-top-color: var(--border-color);
+  --border-bottom-color: var(--border-color);
+  --border-color-pale: var(--color-cool-grey);
+
+  // Fonts
+  --font-primary: #{var.$primary-font};
+  --font-secondary: #{var.$secondary-font};
+  --font-headings: #{var.$headings-font};
+  --font-headings-weight: #{var.$headings-font-weight};
+  --font-weight-light: #{var.$base-font-weight-light};
+  --font-weight-medium: #{var.$base-font-weight-medium};
+  --font-weight-regular: #{var.$base-font-weight-regular};
+  --font-weight-bold: #{var.$base-font-weight-bold};
+
+  
+  --font-size-fluid-000: clamp(#{var.$body-v-sml-font-size-mobile}, 1.3vw, #{var.$body-v-sml-font-size});
+  --font-size-fluid-00: clamp(.67rem, 1.25vw, 0.75rem);
+  --font-size-fluid-0: clamp(0.75rem, 2vw, 1rem);
+  --font-size-fluid-01: clamp(0.875rem, 4vw, 1.125rem);
+  --font-size-fluid-21: clamp(#{var.$h2-font-size-mobile}, 2.5vw, #{var.$h2-font-size});
+  --font-size-fluid-3: clamp(#{var.$h1-font-size-mobile}, 4vw, #{var.$h1-font-size});
+  --font-size-fluid-4: clamp(#{var.$h1-lg-font-size-mobile}, 6vw, #{var.$h1-lg-font-size});
+
+  --size-header-4: 45ch;
+  --size-header-5: 55ch;
+
+  // Sizes
+  --size-fluid-00: clamp(0.25rem, 0.67vw, 0.5rem);
+  --size-fluid-0: clamp(0.25rem, 0.75vw, 0.75rem);
+}
+
+// :where(p,ul,ol,dl,h6) {
+//   font-size: var(--font-size-1);
+// }
+
+:where(hr) {
+  margin-block: var(--size-fluid-4);
+}
+
+:where(a):where([href]) {
+  color: var(--color-brand-primary);
+}
+
+:where(a):where(:not(:hover)) {
+  text-decoration: inherit;
+}
+
+:where(li) {
+  &:not(:last-of-type) {
+    margin-block: var(--size-2);
+  }
+}
+
+:where(body) {
+  background-color: var(--color-brand-black);
+  color: var(--color-text-white);
+}

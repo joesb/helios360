@@ -1,0 +1,17 @@
+@use "../tools/respond-to" as rt;
+
+.site-content--title {
+  font-size: var(--font-size-fluid-2);
+}
+
+@include rt.respond-to('small') {
+  .site-content--title {
+    font-size: var(--font-size-fluid-3);
+  }
+}
+
+@include rt.respond-to('medium') {
+  .site-content--title {
+    font-size: var(--font-size-fluid-4);
+  }
+}

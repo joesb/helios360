@@ -1,0 +1,12 @@
+
+    <main id="content" class="main">
+			{% if not primary %}
+			<div class="{% if page.classes %}page {{ page.classes | join(" ") }}{% endif %}">
+				{{ content | safe }}
+			</div>
+			{% else %}
+
+				{{ content | safe }}
+
+			{% endif %}
+		</main>

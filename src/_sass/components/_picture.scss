@@ -1,0 +1,65 @@
+@use "sass:color";
+@use "images";
+@use "../tools/respond-to" as rt;
+
+:where(figcaption) {
+  font-size: var(--font-size-0);
+  max-inline-size: var(--size-content-3);
+}
+
+.picture--block,
+.figure--block {
+  margin-block: 2rem;
+}
+
+.picture--outline {
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--border-color);
+}
+
+.picture--hero,
+.figure--hero {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  height: 30vh;
+  overflow: hidden;
+  background-color: var(--color-brand-black);
+
+  // img {
+  //   block-size: 100%;
+  // }
+
+  picture {
+    block-size: 100%;
+    overflow: hidden;
+  }
+
+  figcaption {
+    max-width: 35ch;
+    font-size: var(--font-size-0);
+    line-height: var(--font-lineheight-0);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    padding: var(--size-1) var(--size-2);
+    background-color: var(--color-white-transparent);
+  }
+}
+
+@include rt.respond-to('medium') {
+  .picture--hero,
+  .figure--hero {
+    height: 45vh;
+  }
+}
+
+@include rt.respond-to('large') {
+  .picture--hero,
+  .figure--hero {
+    height: 60vh;
+  }
+}

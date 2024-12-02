@@ -1,0 +1,22 @@
+---
+layout: base.njk
+image:
+  widths: [300, 620, 1200]
+page:
+  classes:
+    - content-canvas
+---
+
+
+      {% if showTitle != false and primary != true %}
+      {% include "layouts/components/title-bar.njk" %}
+      {% endif %}
+
+      {% if showContent != false %}
+        {{ content | safe }}
+      {% endif %}
+
+
+{% if pageLinks %}
+  {% include "layouts/components/page-pagelinks.njk" %}
+{% endif %}

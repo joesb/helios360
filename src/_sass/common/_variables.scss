@@ -1,0 +1,82 @@
+/* ==========================================================================
+VARIABLES
+========================================================================== */
+@use "base-variables";
+@use "../tools/px-to-rem";
+
+// Custom media queries
+$break-very-small: 26rem; // >= 416px @ 16px
+$break-small: 36rem; // >= 576px @ 16px
+$break-medium: 48rem; // >= 768px @ 16px
+$break-large: 64rem; // >= 1024px @ 16px
+$break-extra-large: 80rem; // >= 1280px @ 16px
+$break-largest: 90rem; // >= 1440px @ 16px
+
+// $xs-mobile-down: 340px;
+// $sm-mobile: 375px;
+// $md-mobile: 480px;
+$mobile: $break-small;
+$tablet: $break-medium;
+$desktop: $break-large;
+
+// Fonts
+$primary-font: "Playfair Display", var(--font-serif);
+$secondary-font: "Barlow Condensed", var(--font-sans);
+$headings-font: "Barlow Condensed", var(--font-sans);
+
+
+// Font weight
+$base-font-weight-light: 300;
+$base-font-weight-regular: 400;
+$base-font-weight-medium: 500;
+$base-font-weight-bold: 600;
+$headings-font-weight: 700;
+
+// Font sizes
+$body-v-sml-font-size-mobile: px-to-rem.px-to-rem(10px);
+$body-v-sml-font-size: px-to-rem.px-to-rem(14px);
+
+$body-sml-font-size-mobile: px-to-rem.px-to-rem(12px);
+$body-sml-font-size: px-to-rem.px-to-rem(16px);
+
+$body-font-size-mobile: px-to-rem.px-to-rem(16px);
+$body-font-size: px-to-rem.px-to-rem(base-variables.$root-font-size);
+
+$lg-body-font-size-mobile: px-to-rem.px-to-rem(19px);
+$lg-body-font-size: px-to-rem.px-to-rem(25px);
+
+$h1-lg-font-size-mobile: px-to-rem.px-to-rem(48px);
+$h1-lg-font-size: px-to-rem.px-to-rem(64px);
+
+$h1-font-size-mobile: px-to-rem.px-to-rem(36px);
+$h1-font-size: px-to-rem.px-to-rem(48px);
+
+$h2-font-size-mobile: px-to-rem.px-to-rem(22px);
+$h2-font-size: px-to-rem.px-to-rem(32px);
+
+$h3-font-size-mobile: px-to-rem.px-to-rem(18px);
+$h3-font-size: px-to-rem.px-to-rem(20px);
+
+$h4-font-size-mobile: px-to-rem.px-to-rem(17px);
+$h4-font-size: px-to-rem.px-to-rem(19px);
+
+// Font line heights
+$base-line-height: px-to-rem.px-to-rem(19px);
+
+$body-line-height-mobile: px-to-rem.px-to-rem(23px);
+$body-line-height: px-to-rem.px-to-rem(25px);
+
+$lg-body-line-height-mobile: px-to-rem.px-to-rem(26px);
+$lg-body-line-height: px-to-rem.px-to-rem(37px);
+
+$h1-line-height-mobile: px-to-rem.px-to-rem(30px);
+$h1-line-height: px-to-rem.px-to-rem(40px);
+
+$h2-line-height-mobile: px-to-rem.px-to-rem(26px);
+$h2-line-height: px-to-rem.px-to-rem(33px);
+
+$h3-line-height-mobile: px-to-rem.px-to-rem(25px);
+$h3-line-height: px-to-rem.px-to-rem(28px);
+
+$h4-line-height-mobile: px-to-rem.px-to-rem(25px);
+$h4-line-height: px-to-rem.px-to-rem(28px);

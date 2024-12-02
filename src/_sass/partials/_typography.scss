@@ -1,0 +1,287 @@
+@use "../common/variables";
+@use "../tools/mixins";
+@use "../tools/px-to-rem";
+
+/* ==========================================================================
+TYPOGRAPHY
+========================================================================== */
+
+p,
+ul,
+ol,
+dl,
+.body-style {
+  width: 100%;
+  font-family: var(--font-primary);
+  font-size: var(--font-size-fluid-01);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--font-lineheight-3);
+  font-style: normal;
+  color: inherit;
+  margin-block: 0.75rem;
+}
+
+/* Shared styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1-style,
+.h2-style,
+.h3-style,
+.h4-style,
+.h5-style,
+.h6-style {
+  color: inherit;
+  font-family: var(--font-headings);
+  font-weight: var(--font-weight-bold);
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  margin: 0;
+  mix-blend-mode: normal;
+  margin-block: 1.5rem 0.75rem;
+  position: relative;
+
+
+  // heading direct link hover
+  &:not(.hide-permalink) {
+    &:hover {
+      .direct-link {
+        font-size: var(--font-size-fluid-1);
+
+        &.do-not-display {
+          position: absolute;
+          top: -1.5rem;
+          right: 0;
+          color: var(--color-brand-primary);
+          display: inline;
+        }
+      }  
+    }
+  }
+
+  &.hide-permalink {
+    .direct-link {
+      @include mixins.do-not-display;
+    }
+  }
+
+  &.warning,
+  &.info {
+    padding-left: var(--size-8);
+    position: relative;
+
+    &::before {
+      position: absolute;
+      display: block;
+      top: 0;
+      left: 0;
+      content: '\26A0';
+      color: var(--color-alert-red);
+      width: var(--size-3);
+      height: var(--size-3);
+    }
+  }
+
+  &.info {
+    &::before {
+      color: var(--color-intent-yellow);
+    }
+  }
+}
+
+:where(h1,h2,h3,h4,h5,h6) {
+  line-height: var(--font-lineheight-0);
+
+  &.heading-wide {
+    max-inline-size: var(--size-header-3);
+  }
+}
+
+h1,
+.h1-style {
+  font-size: var(--font-size-fluid-4);
+  font-weight: variables.$headings-font-weight;
+  margin-block: 0.75rem 2rem;
+}
+//   font-size: $h1-font-size-mobile;
+//   line-height: $h1-line-height-mobile;
+//   font-weight: $headings-font-weight;
+//   margin-bottom: px-to-rem(1.5 * $base-space);
+
+//   @media only screen and (min-width: $tablet) {
+//     font-size: $h1-font-size;
+//     line-height: $h1-line-height;
+//   }
+// }
+
+h2,
+.h2-style {
+  font-size: var(--font-size-fluid-2);
+}
+//   font-size: $h2-font-size-mobile;
+//   line-height: $h2-line-height-mobile;
+//   font-weight: $headings-font-weight;
+//   margin-bottom: px-to-rem(20px);
+
+//   @include respond-to('medium') {
+//     font-size: $h2-font-size;
+//     line-height: $h2-line-height;
+//     margin-bottom: px-to-rem(23px);
+//   }
+// }
+
+h3,
+.h3-style {
+  font-size: var(--font-size-fluid-1);
+}
+//   font-size: $h3-font-size-mobile;
+//   line-height: $h3-line-height-mobile;
+//   font-weight: $headings-font-weight;
+//   margin-bottom: px-to-rem(12px);
+
+//   @include respond-to('medium') {
+//     font-size: $h3-font-size;
+//     line-height: $h3-line-height;
+//     margin-bottom: px-to-rem(16px);
+//   }
+// }
+
+// // Subheading, slightly different styling.
+h4,
+.h4-style {
+  font-size: var(--font-size-fluid-01);
+}
+
+h5,
+.h5-style {
+  font-size: var(--font-size-fluid-0);
+}
+
+h6,
+.h6-style {
+  font-size: var(--font-size-fluid-00);
+}
+
+//   font-size: $h4-font-size-mobile;
+//   line-height: $h4-line-height-mobile;
+
+//   @include respond-to('medium') {
+//     font-size: $h4-font-size;
+//     line-height: $h4-line-height;
+//   }
+// }
+
+// Helpers - Additions to help with reuseable code approach. Add classes to achieve styles rather than nesting.
+.primary-font {
+  font-family: var(--font-primary);
+  font-optical-sizing: auto;
+}
+
+.secondary-font {
+  font-family: var(--font-secondary);
+  font-optical-sizing: auto;
+}
+
+.headings-font {
+  font-family: var(--font-headings);
+}
+
+.handwriting-font {
+  font-family: var(--font-handwriting);
+}
+
+.bold {
+  font-weight: var(--font-weight-bold);
+}
+
+.medium {
+  font-weight: var(--font-weight-medium);
+}
+
+.not-bold {
+  font-weight: var(--font-weight-regular);
+}
+
+.italic,
+.emphasis {
+  font-style: italic;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.hide-text {
+  @include mixins.hide-text;
+}
+
+.visually-hidden {
+  @include mixins.visually-hidden;
+}
+
+.do-not-display {
+  @include mixins.do-not-display;
+}
+
+.smaller {
+  font-size: smaller;
+}
+
+.small {
+  font-size: var(--font-size-0);
+  font-weight: var(--font-weight-medium);
+}
+
+.larger {
+  font-size: larger;
+}
+
+.text-inherit {
+  font-size: inherit;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.letter-spacing-1px {
+  letter-spacing: 1px;
+}
+
+// Coloured text
+
+.text-black {
+  color: var(--color-brand-black);
+}
+
+.text-white {
+  color: var(--color-brand-white);
+}
+
+.text-grey {
+  color: var(--color-brand-grey);
+}
+
+.text-grey-dark {
+  color: var(--color-grey-dark);
+}
+
+// Center things
+.text-center {
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+:where(sup) {
+  font-size: var(--font-size-0);
+  padding-inline: var(--size-1);
+}

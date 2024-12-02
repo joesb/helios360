@@ -1,0 +1,11 @@
+.footnotes-list {
+  font-size: var(--font-size-fluid-0);
+}
+
+.footnotes-note {
+  max-inline-size: var(--size-content-3);
+
+  p {
+    font-size: inherit;
+  }
+}

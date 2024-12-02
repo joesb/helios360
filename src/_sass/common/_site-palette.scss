@@ -1,0 +1,30 @@
+@use "sass:color";
+
+/* SCSS HEX */
+$color-icterine-hex: #FFFC67;
+$color-viridian-hex: #3E8778;
+$color-ming-hex: #3E6287;
+$color-victoria-hex: #4B3E87;
+$color-affair-hex: #7B3E87;
+
+/* SCSS RGBA */
+$color-icterine-rgba: rgb(255, 252, 103, 1);
+$color-viridian-rgba: rgb(62, 135, 120, 1);
+$color-ming-rgba: rgb(62, 98, 135, 1);
+$color-victoria-rgba: rgb(75, 62, 135, 1);
+$color-affair-rgba: rgb(123, 62, 135, 1);
+
+/* General site colors */
+$color-white: rgb(255, 255, 255, 1);
+$color-white-transparent: rgba(255, 255, 255, 0.66);
+$color-black: rgba(0, 0, 0, 1);
+
+$color-grey: color.adjust($color-black, $lightness: -10%);
+
+$color-grey-darkish: color.adjust($color-grey, $lightness: -5%);
+$color-grey-darker: color.adjust($color-grey, $lightness: -10%);
+$color-grey-dark: color.adjust($color-grey, $lightness: -20%);
+$color-grey-darkest: color.adjust($color-grey, $lightness: -30%);
+$color-grey-lightish: color.adjust($color-grey, $lightness: 2%);
+$color-grey-lighter: color.adjust($color-grey, $lightness: 10%);
+$color-grey-light: color.adjust($color-grey, $lightness: 20%);

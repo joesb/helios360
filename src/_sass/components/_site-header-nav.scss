@@ -1,0 +1,24 @@
+@use "../tools/respond-to" as rt;
+
+.main-nav {
+  margin-block: var(--size-2);
+}
+
+.main-nav--list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  gap: 0.25rem;
+}
+
+.main-nav--list--item-link {
+  font-weight: var(--font-weight-light);
+
+  &.current {
+    font-weight: var(--font-weight-medium);
+  }
+}

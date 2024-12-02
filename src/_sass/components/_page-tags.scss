@@ -1,0 +1,32 @@
+ol,
+ul {
+  &.tags-list {
+    font-size: smaller;
+    gap: var(--size-fluid-0);
+
+    > * {
+      background-color: var(--color-platinum);
+      border-radius: var(--size-2);
+
+      &:hover {
+        background-color: var(--color-platinum-darker);
+      }
+    }
+
+    a {
+      display: inline-block;
+      padding-inline: var(--size-2);
+      padding-block: var(--size-1);
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  &.tagged-posts {
+    :where(li):not(:last-of-type) {
+      margin-block-end: var(--size-8);
+    }
+  }
+}
