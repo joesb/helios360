@@ -1,3 +1,5 @@
+@use "tools/px-to-rem" as ptr;
+
 .home {
   .header-main__logo {
     padding-block: var(--size-7);
@@ -10,6 +12,15 @@
       background-position-x: center;
       width: clamp(6rem, 50vw, 100vw);
       height: clamp(6rem, 50vh, 100vh);
+    }
+  }
+
+  .footer-main__logo {
+    .site-logo {
+      &::before {
+        width: ptr.px-to-rem(108px);
+        height: ptr.px-to-rem(108px);
+      }
     }
   }
 }

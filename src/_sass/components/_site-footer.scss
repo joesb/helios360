@@ -48,8 +48,8 @@
 .footer-main__logo {
   .site-logo {
     &::before {
-      width: ptr.px-to-rem(216px);
-      height: ptr.px-to-rem(68px);
+      width: ptr.px-to-rem(108px);
+      height: ptr.px-to-rem(108px);
       filter: invert(100%) sepia(14%) saturate(0%) hue-rotate(60deg) brightness(101%) contrast(107%);
     }
   }

@@ -1,3 +1,7 @@
+:where(input,button,textarea,select) {
+  color: var(--color-text-black);
+}
+
 .site-form {
   display: grid;
   grid-auto-flow: row;
@@ -23,3 +27,4 @@
 
   }
 }
+
