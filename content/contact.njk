@@ -1,0 +1,27 @@
+---
+title: Contact
+layout: page.njk
+---
+
+<form method="POST" action="/api/submit" class="site-form contact-form">
+
+  <div class="form-group form-group--input">
+    <label for="i-fullname">Full Name</label>
+    <input id="i-fullname" type="text" name="fullname" pattern="[A-Za-z]+" required />
+  </div>
+
+  <div class="form-group form-group--input">
+    <label for="i-email">Email Address</label>
+    <input id="i-email" type="email" name="email" required />
+  </div>
+
+  <div class="form-group form-group--input">
+    <label for="i-query">Your query</label>
+    <textarea id="i-query" name="query" required rows="5" cols="33">
+    </textarea>
+  </div>
+
+  <div class="form-group form-group--submit">
+    <button type="submit">Submit</button>
+  </div>
+</form>

@@ -1,0 +1,25 @@
+.site-form {
+  display: grid;
+  grid-auto-flow: row;
+  gap: var(--size-2);
+  margin-block: var(--size-9);
+}
+
+.form-group {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: var(--size-2);
+
+  input,
+  textarea {
+    grid-column: 2 / span 2;
+  }
+}
+
+.form-group--submit {
+  button {
+    grid-column: 2;
+
+  }
+}
