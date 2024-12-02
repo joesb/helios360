@@ -17,6 +17,7 @@
     "watch": "npx eleventy --watch",
     "serve": "(yarn clean) && (yarn sass:build) && (npx eleventy --dryrun) && npx @11ty/eleventy --serve & sass --watch --style=expanded src/_sass/:src/_includes/assets/css/",
     "up": "yarn serve",
+    "wrangler": "npx wrangler pages dev _site",
     "sass:build": "sass --style=expanded src/_sass/:src/_includes/assets/css/ & npx postcss src/_includes/assets/css/*.css --use autoprefixer -d src/_includes/assets/css"
   },
   "devDependencies": {
@@ -26,6 +27,7 @@
     "@11ty/eleventy-plugin-rss": "^2.0.2",
     "autoprefixer": "^10.4.20",
     "clean-css": "^5.3.3",
+    "dotenv": "^16.4.5",
     "markdown-it": "^14.1.0",
     "markdown-it-attrs": "^4.3.0",
     "markdown-it-eleventy-img": "^0.10.2",
@@ -34,6 +36,12 @@
     "rimraf": "^6.0.1",
     "sass": "^1.81.0",
     "sass-autoprefixer": "^1.0.1",
-    "uglify-js": "^3.19.3"
+    "uglify-js": "^3.19.3",
+    "wrangler": "^3.91.0"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "resend": "^4.0.1"
   }
 }

@@ -1,3 +1,5 @@
+@use "../tools/mixins" as mx;
+
 :where(input,button,textarea,select) {
   color: var(--color-text-black);
 }
@@ -7,6 +9,18 @@
   grid-auto-flow: row;
   gap: var(--size-2);
   margin-block: var(--size-9);
+
+  hr {
+    margin-block: var(--size-1);
+
+    &::after {
+      line-height: var(--font-lineheight-00);
+    }
+  }
+}
+
+#honey {
+  @include mx.do-not-display;
 }
 
 .form-group {

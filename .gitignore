@@ -19,3 +19,7 @@ content/public/img/
 
 .DS_Store
 .env
+
+# Wrangler
+.wrangler
+.dev.vars

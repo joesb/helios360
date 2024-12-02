@@ -1,0 +1,29 @@
+---
+layout: base.njk
+primary: true
+image:
+  widths: [300, 620, 1200]
+  widthsSmall: [300, 620]
+---
+    
+    <div class="site-content{% if page.classes %} {{ page.classes | join(" ") }}{% endif %} content-canvas">
+
+      {% if showTitle != false %}
+      {% include "layouts/components/title-bar.njk" %}
+      {% endif %}
+        
+        {{ content | safe }}
+      
+
+    </div>
+
+    
+    <div class="site-content content-canvas">
+      <div class="content-canvas-item-wide">
+      {% include "layouts/components/index-list.njk" %}
+      </div>
+    </div>
+
+{% if pageLinks %}
+  {% include "layouts/components/page-pagelinks.njk" %}
+{% endif %}

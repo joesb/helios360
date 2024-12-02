@@ -70,6 +70,6 @@
 
 @include respond-to.respond-to('medium') {
   .header-main__menu {
-    @include mixins.do-not-display;   
+    @include mixins.do-not-display;
   }
 }

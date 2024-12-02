@@ -15,10 +15,20 @@ layout: page.njk
     <input id="i-email" type="email" name="email" required />
   </div>
 
+  <label id="honey" for="contact-name">Contact Name
+      <input type="text" id="contact-name" name="contact-name">
+  </label>
+
+  <hr />
+
+  <div class="form-group form-group--input margin-block-start-md">
+    <label for="i-subject">Subject</label>
+    <input id="i-subject" type="text" name="subject" required />
+  </div>
+
   <div class="form-group form-group--input">
-    <label for="i-query">Your query</label>
-    <textarea id="i-query" name="query" required rows="5" cols="33">
-    </textarea>
+    <label for="i-message">Your message</label>
+    <textarea id="i-message" name="message" required rows="5" cols="33"></textarea>
   </div>
 
   <div class="form-group form-group--submit">

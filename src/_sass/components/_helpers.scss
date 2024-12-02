@@ -19,6 +19,14 @@
   margin-block: var(--size-2);
 }
 
+.margin-block-start-sml {
+  margin-block-start: var(--size-2);
+}
+
+.margin-block-end-sml {
+  margin-block-end: var(--size-2);
+}
+
 .margin-inline-sml {
   margin-inline: var(--size-2);
 }
@@ -29,6 +37,14 @@
 
 .margin-block-md {
   margin-block: var(--size-3);
+}
+
+.margin-block-start-md {
+  margin-block-start: var(--size-3);
+}
+
+.margin-block-end-md {
+  margin-block-end: var(--size-3);
 }
 
 .margin-inline-md {
