@@ -12,8 +12,8 @@
     "node": ">=20"
   },
   "scripts": {
-    "build:full": "(yarn install --immutable --immutable-cache) && (yarn sass:build) && (npx @11ty/eleventy --dryrun) && (npx @11ty/eleventy)",
-    "clean": "npx rimraf -v _site/* content/public/img/*",
+    "build:full": "(yarn sass:build) & (npx @11ty/eleventy --dryrun) & (npx @11ty/eleventy)",
+    "clean": "npx rimraf -v _site/* src/_includes/assets/css/*",
     "watch": "npx eleventy --watch",
     "serve": "(yarn clean) && (yarn sass:build) && (npx eleventy --dryrun) && npx @11ty/eleventy --serve & sass --watch --style=expanded src/_sass/:src/_includes/assets/css/",
     "up": "yarn serve",
