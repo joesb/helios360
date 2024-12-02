@@ -5,7 +5,7 @@
   {% endif %}
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=contain">
-  {% set siteName = [ metadata.org, metadata.title, metadata.subtitle] %}
+  {% set siteName = [ meta.org, meta.title, meta.subtitle] %}
   <title>{{ pageTitle or title or siteName | join(" ") }} | {{ siteName | join(" ") }}</title>
 
   <!-- Icons -->
