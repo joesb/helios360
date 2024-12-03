@@ -4,7 +4,7 @@
   {# {% if navKey %} #}
     {% set navPages = collections.all | eleventyNavigation %}
     
-    {% if navPages %}
+    {% if navPages.length %}
     {% for navPage in navPages %}
       {# {% if navPage.key == navKey %} #}
       <ul class="main-nav--list uppercase letter-spacing-1px">

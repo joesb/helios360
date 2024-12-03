@@ -13,6 +13,10 @@ page:
       {% endif %}
 
       {% if showContent != false %}
+        {% if jumbotron %}
+          {% include "layouts/components/jumbotron.njk" %}
+        {% endif %}
+        
         {{ content | safe }}
       {% endif %}
 

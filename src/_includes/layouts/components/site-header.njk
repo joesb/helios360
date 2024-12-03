@@ -24,6 +24,9 @@
           {% include "layouts/components/nav.njk" %}
           {% include "layouts/components/nav-contact.njk" %}
         </div>
+
+        {% set navPages = collections.all | eleventyNavigation %}
+        {% if navPages.length %}
         <button class="header-main__menu js-closed" aria-expanded="false" href="#main-navigation">
           <a class="css-nav css-nav--open visually-hidden" href="#main-navigation" aria-label="Open menu">Open</a>
           <a class="css-nav css-nav--close visually-hidden" href="#" aria-label="Close menu">Close</a>
@@ -35,5 +38,6 @@
             <div></div>
           </div>
         </button>
+        {% endif %}
       </div>
     </header>

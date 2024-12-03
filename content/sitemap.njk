@@ -1,0 +1,20 @@
+---
+permalink: /sitemap.xml
+layout:
+eleventyExcludeFromCollections: true
+date: Last Modified
+tagFilter:
+    - all
+    - promotedContent
+---
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{% for page in collections.all %}
+  <url>
+      <loc>{{ page.url | url | absoluteUrl(metadata.url) }}</loc>
+      <lastmod>{{ page.date.toISOString() }}</lastmod>
+  </url>{% endfor %}{% set taglist = collections %}{% for label, list in taglist %}{% if label not in tagFilter %}{% set newestPost = list | maxDate %}
+  <url>{% set labelSlug = label | slugify %}{% set tagUrl = ["tagged", labelSlug, "" ] | join("/") %}
+    <loc>{{ tagUrl | url | absoluteUrl(metadata.url) }}</loc>
+    <lastmod>{{ newestPost.date.toISOString() }}</lastmod>
+  </url>{% endif %}{% endfor %}
+</urlset>
