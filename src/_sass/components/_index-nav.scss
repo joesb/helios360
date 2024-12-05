@@ -1,3 +1,44 @@
+@use "../tools/px-to-rem" as ptr;
+@use "../tools/respond-to" as rt;
+
+.open-mobile {
+  position: relative;
+
+  .index-nav {
+    visibility: visible;
+    opacity: 1;
+    position: absolute;
+    display: grid;
+    grid-template-areas:
+      ". . ."
+      ". index-nav ."
+    ;
+    grid-template-columns: 1.5rem 2fr 1.5rem;
+    grid-template-rows: 3fr 2fr;
+    align-items: center;
+  }
+
+  .index-nav--content {
+    position: relative;
+    z-index: 100;
+    grid-area: index-nav;
+  }
+}
+
+.index-nav {
+  visibility: hidden;
+  opacity: 0;
+  position: initial;
+}
+
+@include rt.respond-to('medium') {
+  .index-nav {
+    visibility: visible;
+    opacity: 1;
+    position: initial;
+  } 
+}
+
 .index-nav--list {
   margin-block: 1rem;
   padding: 0;
