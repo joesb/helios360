@@ -28,14 +28,20 @@ export async function onRequestPost(context) {
     if (honeypot !== "") {
       return Response.redirect("https://helios360.co.uk/contact-confirmation", 303)
     }
+
+    const messageContent = `Sender: ${output.fullname} — ${output.email}
+    
+    ---
+
+    ${output.message}`;
     // Using text instead of email so that I don't need to sanitize it
     const resend = new Resend(context.env.RESEND_API_KEY);
     const { data, error } = await resend.emails.send({
       from: context.env.SENDER_EMAIL,
-      reply_to: output.email,
+      replyTo: output.email,
       to: context.env.RECIPIENT_EMAIL,
       subject: `[Helios360] Contact form request from ${output.fullname}: ${output.subject}`,
-      text: output.message,
+      text: messageContent,
     });
     console.log({data, error});
     if (error) {
