@@ -180,6 +180,14 @@
   }
 }
 
+.content-canvas-item-full-right {
+  grid-column: main-start/main-end;
+
+  @include respond-to.respond-to('small') {
+    grid-column: main-end/full-end;
+  }
+}
+
 .content-canvas-item-out-right {
   grid-column: main-end/wide-end;
 }
@@ -194,13 +202,14 @@
   }
 
   .content-canvas-item-right,
-  .content-canvas-item-wide-right {
+  .content-canvas-item-wide-right,
+  .content-canvas-item-full-right {
 
     &.content-canvas-item-right--span-2 {
       grid-row: span 2;
 
       &.content-canvas-span-start-content-top {
-        grid-row: 2 / span 2;
+        grid-row: 1 / span 2;
       }
 
       + * {
@@ -216,7 +225,7 @@
       grid-row: span 3;
 
       &.content-canvas-span-start-content-top {
-        grid-row: 2 / span 3;
+        grid-row: 1 / span 3;
       }
 
       + *,

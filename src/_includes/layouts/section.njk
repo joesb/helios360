@@ -4,16 +4,58 @@ primary: true
 image:
   widths: [300, 620, 1200]
   widthsSmall: [300, 620]
+navOptions:
+  listElement: "ul"
+  listItemElement: "li"
+  listClass: "index-nav--list"
+  listItemClass: "index-nav--list-item"
+  listItemHasChildrenClass: "index-nav--list-item--has-children"
+  listParentItemClass: "index-nav--list-item--parent"
+  activeListItemClass: "index-nav--list-item--active"
+  activeParentListItemClass: "index-nav--list-item--active--parent"
+  activeAnchorClass: "index-nav--list-item--link--active"
+  activeKey: eleventyNavigation.key
+  anchorClass: "index-nav--item--link"
 ---
     
-    <div class="site-content{% if page.classes %} {{ page.classes | join(" ") }}{% endif %} content-canvas">
+    <div class="site-content{% if page.classes %} {{ page.classes | join(" ") }}{% endif %} content-canvas type-section">
 
       {% if showTitle != false %}
       {% include "layouts/components/title-bar.njk" %}
       {% endif %}
         
+      {% if pending %}
+
+				{% if image.path %}
+					<figure class="{{ image.figureClass }}">
+					{% image image.path, image.alt, image.class, image.pictureClass %}
+					{% if image.caption %}
+					<figcaption>{{ image.caption | safe }}{% if image.credit %} {{ image.credit | safe }}{% endif %}</figcaption>
+					{% endif %}
+					</figure>
+				{% endif %}
+
+				{% if jumbotron %}
+				{% include "layouts/components/jumbotron.njk" %}
+				{% endif %}
+
+			{% include "layouts/components/page-item-pending.njk" %}
+
+			{% else %}
+
+				{% if jumbotron %}
+				{% include "layouts/components/jumbotron.njk" %}
+				{% endif %}
+        
         {{ content | safe }}
       
+      {% endif %}
+
+      <div class="site-content content-canvas-item-full-right content-canvas-item-right--span-2 content-canvas-span-start-content-top index-nav">
+
+			  {% include "layouts/components/index-nav.njk" %}
+
+		  </div>
 
     </div>
 

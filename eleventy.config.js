@@ -9,6 +9,7 @@ import CleanCSS from "clean-css";
 import postCSS from "postcss";
 import autoprefixer from "autoprefixer";
 import UglifyJS from "uglify-js";
+import { inspect } from "util";
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function(eleventyConfig) {
@@ -28,6 +29,8 @@ export default async function(eleventyConfig) {
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPlugin(eleventyImageOnRequestDuringServePlugin);
   eleventyConfig.addPlugin(pluginRss);
+
+  eleventyConfig.addFilter("debug", (content, inspectDepth = 4) => `<pre>${inspect(content, {depth: inspectDepth})}</pre>`);
 
     // Minify CSS
     eleventyConfig.addFilter('cssmin', function (code) {
@@ -56,6 +59,8 @@ export default async function(eleventyConfig) {
     }
     return '';
   });
+
+  eleventyConfig.addPairedShortcode("Note", (content, classes, useIcon) => '<div class="content-note margin-block padding-block-sml padding-inline-sml' + ( classes ? ' ' + classes : '' ) + (useIcon ? ' content-note-use-icon' : '') + '">' + content + '</div>');
 
   // Images
   eleventyConfig.addShortcode("image", async function (src, alt, cls, widths = [300, 620], sizes = "100vh", picCls = "") {

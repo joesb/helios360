@@ -81,65 +81,65 @@
 
 // Padding helpers
 .padding-none {
-  margin: 0;
+  padding: 0;
 }
 
 .padding-block-none {
-  margin-block: 0;
+  padding-block: 0;
 }
 
 .padding-inline-none {
-  margin-inline: 0;
+  padding-inline: 0;
 }
 
 .padding-sml {
-  margin: var(--size-2);
+  padding: var(--size-2);
 }
 
 .padding-block-sml {
-  margin-block: var(--size-2);
+  padding-block: var(--size-2);
 }
 
 .padding-inline-sml {
-  margin-inline: var(--size-2);
+  padding-inline: var(--size-2);
 }
 
 .padding-md {
-  margin: var(--size-3);
+  padding: var(--size-3);
 }
 
 .padding-block-md {
-  margin-block: var(--size-3);
+  padding-block: var(--size-3);
 }
 
 .padding-inline-md {
-  margin-inline: var(--size-3);
+  padding-inline: var(--size-3);
 }
 
 .padding-lg {
-  margin: var(--size-5);
+  padding: var(--size-5);
 }
 
 .padding-block-lg {
-  margin-block: var(--size-5);
+  padding-block: var(--size-5);
 }
 
 .padding-inline-lg {
-  margin-inline: var(--size-5);
+  padding-inline: var(--size-5);
 }
 
 .padding-block-start-lg {
-  margin-block-start: var(--size-5);
+  padding-block-start: var(--size-5);
 }
 
 .padding-inline-start-lg {
-  margin-inline-end: var(--size-5);
+  padding-inline-end: var(--size-5);
 }
 
 .padding-block-end-lg {
-  margin-block-end: var(--size-5);
+  padding-block-end: var(--size-5);
 }
 
 .padding-inline-end-lg {
-  margin-inline-end: var(--size-5);
+  padding-inline-end: var(--size-5);
 }

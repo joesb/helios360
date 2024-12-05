@@ -1,4 +1,5 @@
-      <div class="jumbotron margin-block-start-sml margin-block-end-md">
+      {# {{ data | debug | safe }} #}
+      <div class="jumbotron{% if layout != 'home.njk' %} content-canvas-item-wide-left-more{% endif %} margin-block-start-sml margin-block-end-md">
 
         {{ jumbotron | markdown | safe }}
         
