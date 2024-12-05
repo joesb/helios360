@@ -1,0 +1,7 @@
+# wrangler.toml (wrangler v3.88.0^)
+name = "submit"
+main = "functions/api/submit.js"
+compatibility_date = "2022-12-02"
+
+[observability.logs]
+enabled = true
