@@ -1,7 +1,7 @@
 
     <main id="content" class="main">
 			{% if not primary %}
-			<div class="{% if page.classes %}page {{ page.classes | join(" ") }}{% endif %}">
+			<div class="{% if page.classes %}{{ page.classes | join(" ") }}{% endif %}">
 				{{ content | safe }}
 			</div>
 			{% else %}

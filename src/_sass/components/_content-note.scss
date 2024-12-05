@@ -1,0 +1,29 @@
+// NOTE:
+// 
+// Notes in content are kinda like helpcards, so this SASS extends the helpcard.
+// 
+// cf ./_helpcard.scss
+
+.content-note {
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: calc(var(--size-fluid-1) * -2);
+    top: 0;
+    height: 100%;
+    border-color: var(--color-brand-primary);
+    border-left-width: var(--size-fluid-1);
+    border-style: solid;
+    border-radius: var(--size-1);
+  }
+
+  :where(h1, h2, h3, h4, h5, h6) {
+    border-bottom-color: var(--color-aquamarine);
+
+    &:first-child {
+      margin-block-start: 0.25rem;
+    }
+  }
+}

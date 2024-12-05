@@ -4,6 +4,7 @@ image:
   widths: [300, 620, 1200]
 page:
   classes:
+    - page
     - content-canvas
 ---
 
@@ -12,12 +13,33 @@ page:
       {% include "layouts/components/title-bar.njk" %}
       {% endif %}
 
+      {% if pending %}
+
+				{% if image.path %}
+					<figure class="{{ image.figureClass }}">
+					{% image image.path, image.alt, image.class, image.pictureClass %}
+					{% if image.caption %}
+					<figcaption>{{ image.caption | safe }}{% if image.credit %} {{ image.credit | safe }}{% endif %}</figcaption>
+					{% endif %}
+					</figure>
+				{% endif %}
+
+				{% if jumbotron %}
+				{% include "layouts/components/jumbotron.njk" %}
+				{% endif %}
+
+			{% include "layouts/components/page-item-pending.njk" %}
+
+			{% else %}
+
       {% if showContent != false %}
         {% if jumbotron %}
           {% include "layouts/components/jumbotron.njk" %}
         {% endif %}
         
         {{ content | safe }}
+      {% endif %}
+
       {% endif %}
 
 

@@ -1,0 +1,18 @@
+{% Note "content-note-info", "yes" %}
+
+{{ "## PENDING" | markdown | safe }}
+{% set pageTitle = title %}
+{% if supertitle %}
+  {% set pageTitle = [supertitle, pageTitle] | join(": ") %}
+{% endif %}
+
+{% if subtitle %}
+  {% set pageTitle = [pageTitle, subtitle] | join(" — ") %}
+{% endif %}
+
+
+{{ ["The <em>", pageTitle, "</em> page is forthcoming."] | join | markdown | safe }}
+
+{{ "It'll be here right soon. Pinky promise." | markdown | safe }}
+
+{% endNote %}

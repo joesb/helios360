@@ -1,0 +1,44 @@
+<div class="index-nav--content" data-pagefind-ignore>
+  {% set navPages = collections.all | eleventyNavigation %}
+  {% for entry in navPages %}
+  {# {{ entry | debug | safe }} #}
+  {% if entry.key == eleventyNavigation.root %}
+  <h2 class="index-nav--title h4-style">
+    <a href="{{ entry.url }}" class="index-nav--title--link">{{ entry.title }}</a></h2>
+  {% endif %}
+  {% endfor %}
+  <nav role="navigation" aria-label="In this section">
+    <div class="bold">In this section</div>
+    {% set navPages = collections.all | eleventyNavigation(eleventyNavigation.root) %}
+    {# {{ navPages | debug | safe }} #}
+    {% macro renderNavListItem(entry, index) %}
+    <{{ navOptions.listItemElement }} class="{% if navOptions.listItemClass%}{{ navOptions.listItemClass }}{% endif %}{% if entry.children.length !== 0 and navOptions.listItemHasChildrenClass%} {{ navOptions.listItemHasChildrenClass }} {{ navOptions.listParentItemClass }}--level-{{ index }}{% endif %}{% activepath entry.url, page.url, navOptions.activeListItemClass, ' ' %}">
+      <a href="{{ entry.url }}" class="{% activepath entry.url, page.url, navOptions.activeAnchorClass %}">{{ entry.title }}</a>
+      {% if entry.children.length !== 0 %}
+        {% if utilities.activePath(entry.url, page.url) %}
+      <{{ navOptions.listElement }}{% if navOptions.listClass%} class="{{ navOptions.listClass }}"{% endif %}>
+        {% for child in entry.children %}
+        {% set depth = index + 1 %}
+        {{ renderNavListItem(child, depth) }}
+        {% endfor %}
+      </{{ navOptions.listElement }}>
+        {% else %}
+        <span class="down-arrow"></span>
+        {% endif %}
+      {% endif %}
+    </{{ navOptions.listItemElement }}>
+    {% endmacro %}
+
+    {# {% set navPages = collections.all | eleventyNavigation() %} #}
+    {% if navOptions %}
+    <div {% if navOptions.listClass%} class="{{ navOptions.listClass }}--container"{% endif %}>
+      <{{ navOptions.listElement }}{% if navOptions.listClass%} class="{{ navOptions.listClass }}"{% endif %}>
+      {% for entry in navPages %}
+      {% set index = 1 %}
+      {{ renderNavListItem(entry, index) }}
+      {% endfor %}
+      </{{ navOptions.listElement }}>
+    </div>
+  {% endif%}
+  </nav>
+</div>
