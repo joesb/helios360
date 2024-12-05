@@ -5,6 +5,8 @@ excerpt: Specialist agency and SaaS product business consulting for client servi
 jumbotron: "Specialist agency and SaaS product business consulting for client services and gen-AI project delivery."
 showTitle: false
 showContent: true
+eleventyNavigation:
+  key: Home
 styles:
   - home.css
 ---
