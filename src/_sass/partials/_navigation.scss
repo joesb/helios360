@@ -12,11 +12,11 @@
     visibility: visible;
     display: grid;
     grid-template-areas:
-      ". ."
-      "main-nav nav-contact"
-      ". ."
+      ". . . ."
+      ". main-nav nav-contact ."
+      ". . . ."
     ;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.5rem 1fr 1fr 1.5rem;
     grid-template-rows: minmax(ptr.px-to-rem(160px), ptr.px-to-rem(216px)) auto minmax(ptr.px-to-rem(160px), auto);
     overflow: scroll;
     width: 100vw;
@@ -36,16 +36,16 @@
   left: 0;
   z-index: 100;
   // padding: ptr.px-to-rem(185px) ptr.px-to-rem(25px) ptr.px-to-rem(25px) ptr.px-to-rem(25px);
-  background-color: var(--color-platinum);
+  background-color: var(--color-brand-black);
 
   nav {
     grid-area: main-nav;
   }
 }
 
-.main-nav {
-  margin-inline-start: ptr.px-to-rem(36px);
-}
+// .main-nav {
+//   margin-inline-start: ptr.px-to-rem(36px);
+// }
 
 .main-nav,
 .nav-contact,
@@ -63,6 +63,7 @@
     li {
       font-weight: var.$base-font-weight-medium;
       margin-block: var(--size-fluid-000);
+      padding-inline-start: 0;
     }
   }
 

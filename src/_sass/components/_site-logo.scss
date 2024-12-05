@@ -44,7 +44,8 @@
   z-index: 110;
 }
 
-.not-home {
+.not-home,
+.open-mobile {
   .site-logo {
     &::before {
       width: clamp(ptr.px-to-rem(216px), 50vw, ptr.px-to-rem(324px));
