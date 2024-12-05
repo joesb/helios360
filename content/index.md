@@ -6,6 +6,7 @@ jumbotron: |
   Specialist agency and SaaS product business consulting for client services and gen-AI project delivery.
 showTitle: false
 showContent: true
+date: 2024-12-01
 eleventyNavigation:
   key: Home
 styles:
