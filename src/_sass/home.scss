@@ -1,28 +1,43 @@
 @use "tools/px-to-rem" as ptr;
+@use "tools/respond-to" as rt;
 
 .home {
-  &:not(.open-mobile) {
-    .header-main__logo {
-      padding-block: var(--size-7);
-    }
+  .header-main__logo {
+    padding-block: var(--size-5);
+  }
 
+  .site-logo {
+    justify-content: center;
+
+    &::before {
+      background-position-x: center;
+      width: clamp(6rem, 50vw, 100vw);
+      height: clamp(6rem, 50vh, 100vh);
+    }
+  }
+
+  .footer-main__logo {
     .site-logo {
-      justify-content: center;
+      &::before {
+        width: ptr.px-to-rem(108px);
+        height: ptr.px-to-rem(108px);
+      }
+    }
+  }
+  
+  &.open-mobile {
+    .site-logo {
+      justify-content: left;
 
       &::before {
-        background-position-x: center;
-        width: clamp(6rem, 50vw, 100vw);
-        height: clamp(6rem, 50vh, 100vh);
+        background-position-x: left;
+        width: clamp(ptr.px-to-rem(216px), 50vw, ptr.px-to-rem(324px));
+        height: clamp(ptr.px-to-rem(72px), 30vh, ptr.px-to-rem(144px));
       }
     }
 
-    .footer-main__logo {
-      .site-logo {
-        &::before {
-          width: ptr.px-to-rem(108px);
-          height: ptr.px-to-rem(108px);
-        }
-      }
+    .header-main__logo {
+      padding-block: var(--size-3);
     }
   }
 }
