@@ -26,6 +26,11 @@
   }
   
   &.open-mobile {
+
+    .header-main__logo {
+      padding-block: var(--size-3);
+    }
+
     .site-logo {
       justify-content: left;
 
@@ -34,10 +39,6 @@
         width: clamp(ptr.px-to-rem(216px), 50vw, ptr.px-to-rem(324px));
         height: clamp(ptr.px-to-rem(72px), 30vh, ptr.px-to-rem(144px));
       }
-    }
-
-    .header-main__logo {
-      padding-block: var(--size-3);
     }
   }
 }

@@ -23,6 +23,10 @@
     z-index: 100;
     grid-area: index-nav;
   }
+
+  .header-main__inner {
+    min-block-size: unset;
+  }
 }
 
 .index-nav {
