@@ -20,22 +20,6 @@
     margin-block: 3rem 0.75rem;
   }
 
-  hr {
-    background-color: unset;
-    height: unset;
-    display: grid;
-    justify-content: center;
-    margin-block: var(--size-fluid-3);
-
-    &:after {
-      content: "...";
-      letter-spacing: var(--size-3);
-      font-size: var(--font-size-5);
-      color: var(--color-brand-primary);
-      margin-inline: auto;
-    }
-  }
-
   .page-subtitle--subtitle {
     margin-block: 1.5rem;
   }

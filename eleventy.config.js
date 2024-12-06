@@ -67,7 +67,17 @@ export default async function(eleventyConfig) {
     return '';
   });
 
-  eleventyConfig.addPairedShortcode("Note", (content, classes, useIcon) => '<div class="content-note margin-block-lg padding-block-sml padding-inline-sml' + ( classes ? ' ' + classes : '' ) + (useIcon ? ' content-note-use-icon' : '') + '">' + content + '</div>');
+  eleventyConfig.addPairedShortcode("Note", function(content, mdContent = false, classes, useIcon) { 
+      content = mdContent ? markdownLibrary.render(content) : content;
+      return '<div class="content-note margin-block-lg padding-block-sml padding-inline-sml' + ( classes ? ' ' + classes : '' ) + (useIcon ? ' content-note-use-icon' : '') + '">' + content + '</div>'
+    }
+  );
+
+  eleventyConfig.addPairedShortcode("HelpCard", function(content, mdContent = false, classes) {
+      content = mdContent ? markdownLibrary.render(content) : content;
+      return '<div class="helpcard margin-block padding-block-sml padding-inline-sml margin-block-lg' + ( classes ? ' ' + classes.join(' ') : '' ) +'">' + content + '</div>'
+    }
+  );
 
   // Images
   eleventyConfig.addShortcode("image", async function (src, alt, cls, widths = [300, 620], sizes = "100vh", picCls = "") {
