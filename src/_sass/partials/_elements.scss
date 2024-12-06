@@ -13,7 +13,8 @@ html {
   --color-white: #{sp.$color-white};
   --color-black: #{sp.$color-black};
   --color-grey: #{sp.$color-grey};
-  --color-grey-dark: #{sp.$color-grey-dark};
+  --color-grey-dark: #{sp.$color-grey-darkish};
+  --color-grey-light: #{sp.$color-grey-lightish};
 
   --color-brand-primary: var(--color-icterine);
   --color-brand-secondary: var(--color-ming);

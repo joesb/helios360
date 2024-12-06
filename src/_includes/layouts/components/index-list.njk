@@ -1,4 +1,4 @@
-    <ul class="index-list index-list--{{ items | length}}">
+  <ul class="index-list index-list--{{ items | length}}">
     {% set cls = cycler("odd", "even") %}
     {% set sze = cycler("large","small") %}
     {% set listLen = items | length %}
@@ -30,7 +30,7 @@
           </div>
           {% endif %}
           <h2><a href="{{ item.url | url }}"{% activepath item.url, page.url %}>{{ item.data.title }}</a></h2>
-          {% if loop.first and item.data.description %}
+          {% if (listAllDescriptions or loop.first) and item.data.description %}
           <div class="h5-style">
           {{ item.data.description | markdown | safe }}
           </div>

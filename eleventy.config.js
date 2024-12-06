@@ -133,17 +133,27 @@ export default async function(eleventyConfig) {
   // Promoted Content collection
   eleventyConfig.addCollection('handbookPromoted', (collection) => {
     var nav = collection.getFilteredByTag('#handbookPromoted');
-    return nav.length ? sortByDate(nav).reverse() : [];
+    return nav.length ? sortByOrder(nav, 'eleventyNavigation') : [];
   });
 
 
-  function sortByOrder(collection, andSticky = false) {
-    return collection.sort((a, b) => {
-      if (andSticky && b.data.sticky) return 1;
-      else if (a.data.order < b.data.order) return -1;
-      else if (a.data.order > b.data.order) return 1;
-      else return 0;
-    });
+  function sortByOrder(collection, field = 'order', andSticky = false) {
+    if (field == 'eleventyNavigation') {
+      return collection.sort((a, b) => {
+        if (andSticky && b.data.sticky) return 1;
+        else if (a.data.eleventyNavigation.order < b.data.eleventyNavigation.order) return -1;
+        else if (a.data.eleventyNavigation.order > b.data.eleventyNavigation.order) return 1;
+        else return 0;
+      });
+    }
+    else {
+      return collection.sort((a, b) => {
+        if (andSticky && b.data.sticky) return 1;
+        else if (a.data.order < b.data.order) return -1;
+        else if (a.data.order > b.data.order) return 1;
+        else return 0;
+      });
+    }
   }
 
   function sortByDate(collection, andSticky = true) {
@@ -160,7 +170,20 @@ export default async function(eleventyConfig) {
     html: true,
     breaks: true,
     linkify: true
-  }).use(markdownItAttrs).use(markdownIt11tyImage);
+  }).use(markdownItAttrs).use(markdownIt11tyImage, {
+    imgOptions: {
+      widths: [800, 500, 300],
+      formats: ["webp", "jpeg"],
+      urlPath: "/public/img/",
+      outputDir: "./content/public/img"
+    },
+    globalAttributes: {
+      decoding: "async",
+      // If you use multiple widths,
+      // don't forget to add a `sizes` attribute.
+      sizes: "100vw"
+    }
+  });
   eleventyConfig.setLibrary("md", markdownLibrary);
 
   eleventyConfig.addFilter("markdown", (content) => {

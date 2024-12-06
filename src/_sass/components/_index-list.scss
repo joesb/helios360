@@ -42,9 +42,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-width: 1px;
-  border-style: solid;
-  border-color: var(--border-color);
   // color: var(--surface-2);
 
   // a {
@@ -114,7 +111,7 @@
 }
 
 .index-list__item-first {
-  min-height: px-to-rem.px-to-rem(216px);
+  // min-height: px-to-rem.px-to-rem(216px);
 
   :where(p) {
     font-weight: inherit;
@@ -128,17 +125,17 @@
 }
 
 @include respond-to.respond-to('small') {
-  .index-list__item {
-    min-height: px-to-rem.px-to-rem(270px);
-  }
+  // .index-list__item {
+  //   min-height: px-to-rem.px-to-rem(270px);
+  // }
 
-  .index-list__item-first {
-    min-height: px-to-rem.px-to-rem(270px);
+  // .index-list__item-first {
+  //   min-height: px-to-rem.px-to-rem(270px);
 
-    &.index-list__item--picture {
-      min-height: px-to-rem.px-to-rem(380px);
-    }
-  }
+  //   &.index-list__item--picture {
+  //     min-height: px-to-rem.px-to-rem(380px);
+  //   }
+  // }
 
   .index-list__item-small {
     grid-column: span 2;
@@ -149,27 +146,39 @@
   }
 }
 
-@include respond-to.respond-to('large') {
-  .index-list__item {
-    // grid-column: unset;
-    min-height: px-to-rem.px-to-rem(360px);
-  }
+// @include respond-to.respond-to('large') {
+//   .index-list__item {
+//     // grid-column: unset;
+//     min-height: px-to-rem.px-to-rem(360px);
+//   }
 
-  .index-list__item-first {
-    min-height: px-to-rem.px-to-rem(396px);
+//   .index-list__item-first {
+//     min-height: px-to-rem.px-to-rem(396px);
 
-    &.index-list__item--picture {
-      min-height: px-to-rem.px-to-rem(450px);
-    }
-  }
-}
+//     &.index-list__item--picture {
+//       min-height: px-to-rem.px-to-rem(450px);
+//     }
+//   }
+// }
 
 .index-list__item__content {
+  min-height: 100%;
+  min-width: 100%;
   background-color: var(--color-grey);
   border-radius: var(--size-1);
   padding: var(--size-5);
+  transition: all 0.3s ease;
 
   h2 {
     margin-block: 0.75rem;
+  }
+}
+
+.index-list__item {
+  &:hover {
+    .index-list__item__content {
+      background-color: var(--color-grey-light);
+      transition: all 0.3s ease;
+    }
   }
 }

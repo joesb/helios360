@@ -10,6 +10,8 @@ pagination:
   data: collections.handbookPromoted
   size: 11
   alias: items
+  generatePageOnEmptyData: true
+listAllDescriptions: true
 eleventyNavigation:
   key: Handbook
   parent: Home
