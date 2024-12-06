@@ -52,6 +52,10 @@
   justify-items: center;
 }
 
+.helpcard--narrow {
+  max-inline-size: 45ch;
+}
+
 .helpcard--background {
   padding: var(--size-5);
 }
