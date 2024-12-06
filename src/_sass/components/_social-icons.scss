@@ -1,0 +1,89 @@
+@use "../tools/px-to-rem" as ptr;
+.social-icon {
+  display: inline-block;
+  position: relative;
+  padding-right: 2.5em;
+
+  &:not(.social-site--no-icon) {
+    &::after {
+      display: inline-block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: ' ';
+      mask-size: contain;
+      mask-repeat: no-repeat;
+      background: var(--color-brand-primary);
+      height: ptr.px-to-rem(24px);
+      width: ptr.px-to-rem(32px);
+      transition: 0.2s;
+    }
+  }
+
+  &:hover {
+    &::after {
+      background: var(--color-brand-white);
+      transition: 0.2s;
+    }
+  }
+
+  &.email {
+    &::after {
+      mask-image: url("/public/images/icons/email.svg");
+    }
+  }
+
+  &.twitter {
+    &::after {
+      mask-image: url("/public/images/icons/twitter.svg");
+    }
+  }
+
+  &.mastodon {
+    &::after {
+      mask-image: url("/public/images/icons/mastodon.svg");
+    }
+  }
+
+  &.instagram {
+    &::after {
+      mask-image: url("/public/images/icons/instagram.svg");
+    }
+  }
+
+  &.facebook {
+    &::after {
+      mask-image: url("/public/images/icons/facebook.svg");
+    }
+  }
+
+  &.youtube {
+    &::after {
+      mask-image: url("/public/images/icons/youtube.svg");
+    }
+  }
+
+  &.soundcloud {
+    &::after {
+      mask-image: url("/public/images/icons/soundcloud.svg");
+    }
+  }
+
+  &.medium {
+    &::after {
+      mask-image: url("/public/images/icons/medium.svg");
+    }
+  }
+
+  &.bluesky {
+    &::after {
+      mask-image: url("/public/images/icons/bluesky.svg");
+    }
+  }
+
+  &.linkedin {
+    &::after {
+      mask-image: url("/public/images/icons/linkedin.svg");
+    }
+  }
+}

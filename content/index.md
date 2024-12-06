@@ -32,4 +32,6 @@ Joe has over 20 years of digital and IT consultancy sector experience, with part
 
 He has expert capability with client services delivery, governance, stakeholder management, leading cross-functional and multi-disciplinary teams.
 
+[<span class="visually-hidden">LinkedIn</span>](https://www.linkedin.com/in/joesb/){.social-icon .linkedin rel="noopener nofollow ugc" target="_blank"}
+
 {% endHelpCard %}
