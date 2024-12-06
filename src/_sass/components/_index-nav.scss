@@ -14,7 +14,7 @@
       ". index-nav ."
     ;
     grid-template-columns: 1.5rem 2fr 1.5rem;
-    grid-template-rows: 3fr 2fr;
+    grid-template-rows: 1fr 1fr;
     align-items: center;
   }
 
@@ -36,7 +36,15 @@
     visibility: visible;
     opacity: 1;
     position: initial;
-  } 
+  }
+
+  .open-mobile {
+    .index-nav {
+      visibility: visible;
+      opacity: 1;
+      position: initial;
+    }
+  }
 }
 
 .index-nav--list {
@@ -76,7 +84,7 @@
   li {
     margin: 0;
     padding-inline: 0;
-    font-size: var(--font-size-fluid-000);
+    font-size: var(--font-size-fluid-00);
     line-height: var(--font-lineheight-2);
 
     li {
