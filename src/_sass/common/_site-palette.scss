@@ -19,7 +19,7 @@ $color-white: rgb(255, 255, 255, 1);
 $color-white-transparent: rgba(255, 255, 255, 0.66);
 $color-black: rgba(0, 0, 0, 1);
 
-$color-grey: color.adjust($color-black, $lightness: -10%);
+$color-grey: color.adjust($color-black, $lightness: 10%);
 
 $color-grey-darkish: color.adjust($color-grey, $lightness: -5%);
 $color-grey-darker: color.adjust($color-grey, $lightness: -10%);

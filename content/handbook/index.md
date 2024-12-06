@@ -6,6 +6,12 @@ jumbotron: |
 
   The Chief Delivery Officer's Handbook covers the role of strategy, management and leadership for project delivery for clients within the expectations of ambitious organisations. It also covers how the CDO fits in the context of the c-suite, supporting internal and external stakeholders.{.smaller}
 pending: true
+pagination:
+  data: collections.handbookPromoted
+  size: 11
+  alias: items
+  generatePageOnEmptyData: true
+listAllDescriptions: true
 eleventyNavigation:
   key: Handbook
   parent: Home

@@ -1,5 +1,6 @@
 ---
-title: Building a delivery strategy amongst Business-as-Usual
+title: Building a delivery strategy in the thick of Business-as-Usual
+description: Thinking and acting for the now and the not yet, so the future is better than the past
 layout: section.njk
 jumbotron: |
   With active client delivery projects demanding your time and attention, how can you construct a delivery strategy that's fit for purpose?
@@ -11,4 +12,6 @@ eleventyNavigation:
   parent: Handbook
   root: Handbook
   order: 30
+tags:
+  - '#handbookPromoted'
 ---

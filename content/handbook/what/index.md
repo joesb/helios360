@@ -1,5 +1,6 @@
 ---
 title: What makes a Chief Delivery Officer?
+description: The focus, skills and responsibilities of a CDO
 layout: section.njk
 jumbotron: "A high-level look at the focus, skills and responsibilities of a Chief Delivery Officer, a Client Services Director, or a Professional Services Director"
 pending: true
@@ -8,6 +9,8 @@ eleventyNavigation:
   parent: Handbook
   root: Handbook
   order: 20
+tags:
+  - '#handbookPromoted'
 ---
 
 Commodo veniam, duis nostrud enim. Nostrud enim aliqua ea tempor. Aliqua ea tempor proident adipiscing incididunt velit duis. Tempor, proident adipiscing incididunt velit duis incididunt excepteur. Incididunt, velit duis incididunt. Incididunt, excepteur exercitation tempor duis fugiat. Tempor duis fugiat sed est officia excepteur sit. Fugiat sed est officia excepteur sit aliqua laborum. Est officia excepteur sit aliqua laborum. Excepteur sit aliqua laborum pariatur est aliquip.
