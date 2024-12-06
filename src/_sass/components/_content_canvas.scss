@@ -183,7 +183,7 @@
 .content-canvas-item-full-right {
   grid-column: main-start/main-end;
 
-  @include respond-to.respond-to('small') {
+  @include respond-to.respond-to('medium') {
     grid-column: main-end/full-end;
   }
 }
