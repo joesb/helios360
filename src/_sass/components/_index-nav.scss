@@ -29,6 +29,10 @@
   visibility: hidden;
   opacity: 0;
   position: initial;
+
+  h2 {
+    max-inline-size: var(--size-header-3);
+  }
 }
 
 @include rt.respond-to('medium') {

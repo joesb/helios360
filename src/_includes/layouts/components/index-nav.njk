@@ -1,9 +1,11 @@
 <div class="index-nav--content" data-pagefind-ignore>
-  {% set navPages = collections.all | eleventyNavigation %}
+  {% set navPages = collections.all | eleventyNavigation('Home') %}
+  {# {{ navPages | debug | safe }} #}
   {% for entry in navPages %}
+  {# {{ entry.key | debug | safe }} #}
+  {% if entry.key == eleventyNavigation.root and title != entry.title %}
   {# {{ entry | debug | safe }} #}
-  {% if entry.key == eleventyNavigation.root %}
-  <h2 class="index-nav--title h4-style">
+  <h2 class="index-nav--title h3-style">
     <a href="{{ entry.url }}" class="index-nav--title--link">{{ entry.title }}</a></h2>
   {% endif %}
   {% endfor %}

@@ -2,13 +2,14 @@
 title: The Chief Delivery Officer's Handbook
 layout: section.njk
 jumbotron: |
-  **An indispensable guide to leading delivery projects, teams and programs for agencies and product companies, with insights and guidance for professional services directors, client services directors, and other delivery principal roles.**
+  **An essential guide to leading delivery projects, teams and programs for agencies and product companies, with insights and guidance for professional services directors, client services directors, and other delivery principal roles.**
 
   The Chief Delivery Officer's Handbook covers the role of project delivery for clients within the expectations of ambitious organisations. It includes how the CDO fits in the context of the c-suite, supporting internal and external stakeholders.{.smaller}
 pending: true
 eleventyNavigation:
   key: Handbook
   parent: Home
+  title: The Chief Delivery Officer's Handbook
   root: Handbook
 ---
 

@@ -12,7 +12,7 @@
         <li><a href="{{ navPage.url }}" class="main-nav--list--item-link">Home</a></li>
         {% endif %} #}
       {% for item in navPage.children %}
-        <li><a href="{{ item.url }}" class="main-nav--list--item-link{% activepath item.url, page.url, 'current', ' ' %}">{{ item.title }}</a></li>
+        <li><a href="{{ item.url }}" class="main-nav--list--item-link{% activepath item.url, page.url, 'current', ' ' %}">{{ item.key }}</a></li>
       {% endfor %}
       </ul>
       {# {% endif %} #}

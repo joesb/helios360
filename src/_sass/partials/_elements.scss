@@ -49,7 +49,7 @@ html {
   --font-size-fluid-00: clamp(0.7rem, 1.75vw, 0.85rem);
   --font-size-fluid-0: clamp(0.75rem, 2vw, 1rem);
   --font-size-fluid-01: clamp(0.875rem, 4vw, 1.125rem);
-  --font-size-fluid-21: clamp(#{var.$h2-font-size-mobile}, 2.5vw, #{var.$h2-font-size});
+  --font-size-fluid-12: clamp(1.25rem, 5vw, 2rem);
   --font-size-fluid-3: clamp(#{var.$h1-font-size-mobile}, 4vw, #{var.$h1-font-size});
   --font-size-fluid-4: clamp(#{var.$h1-lg-font-size-mobile}, 6vw, #{var.$h1-lg-font-size});
 
