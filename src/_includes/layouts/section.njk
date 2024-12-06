@@ -2,6 +2,7 @@
 layout: base.njk
 primary: true
 image:
+  social: ./content/public/images/pexels-stephane-hurbe-1267753-21913865.jpg
   widths: [300, 620, 1200]
   widthsSmall: [300, 620]
 navOptions:
@@ -16,6 +17,7 @@ navOptions:
   activeAnchorClass: "index-nav--list-item--link--active"
   activeKey: eleventyNavigation.key
   anchorClass: "index-nav--item--link"
+showMetadata: false
 ---
     
     <div class="site-content{% if page.classes %} {{ page.classes | join(" ") }}{% endif %} content-canvas type-section">

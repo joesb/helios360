@@ -1,15 +1,18 @@
 import { IdAttributePlugin, InputPathToUrlTransformPlugin, EleventyHtmlBasePlugin } from "@11ty/eleventy";
 import markdownIt from "markdown-it";
 import markdownItAttrs from "markdown-it-attrs";
+import Image from "@11ty/eleventy-img";
 import markdownIt11tyImage from "markdown-it-eleventy-img";
 import { eleventyImageOnRequestDuringServePlugin } from "@11ty/eleventy-img";
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 import pluginRss from "@11ty/eleventy-plugin-rss";
+import timeToRead  from "eleventy-plugin-time-to-read";
 import CleanCSS from "clean-css";
 import postCSS from "postcss";
 import autoprefixer from "autoprefixer";
 import UglifyJS from "uglify-js";
 import { inspect } from "util";
+import { DateTime } from "luxon";
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function(eleventyConfig) {
@@ -29,6 +32,10 @@ export default async function(eleventyConfig) {
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPlugin(eleventyImageOnRequestDuringServePlugin);
   eleventyConfig.addPlugin(pluginRss);
+  eleventyConfig.addPlugin(timeToRead, {
+    speed: '850 characters per minute',
+    style: "short"
+  });
 
   eleventyConfig.addFilter("debug", (content, inspectDepth = 4) => `<pre>${inspect(content, {depth: inspectDepth})}</pre>`);
 
@@ -103,6 +110,50 @@ export default async function(eleventyConfig) {
     });
     return metadata;
   };
+
+  eleventyConfig.addFilter('maxDate', (list) => {
+    return list.reduce((a, b) => {
+      return new Date(a.date) > new Date(b.date) ? a : b;
+    });
+  });
+
+  // Check a string starts with a character.
+  eleventyConfig.addFilter('starts_with', function(str, prefix, not = false) {
+    return str.startsWith(prefix) !== not;
+  });
+
+   // Readable Date filter
+   eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
+		// Formatting tokens for Luxon: https://moment.github.io/luxon/#/formatting?id=table-of-tokens
+		return DateTime.fromJSDate(dateObj, { zone: zone || "utc" }).toFormat(format || "dd LLLL yyyy");
+	});
+
+    /* COLLECTIONS */
+
+  // Promoted Content collection
+  eleventyConfig.addCollection('handbookPromoted', (collection) => {
+    var nav = collection.getFilteredByTag('#handbookPromoted');
+    return nav.length ? sortByDate(nav).reverse() : [];
+  });
+
+
+  function sortByOrder(collection, andSticky = false) {
+    return collection.sort((a, b) => {
+      if (andSticky && b.data.sticky) return 1;
+      else if (a.data.order < b.data.order) return -1;
+      else if (a.data.order > b.data.order) return 1;
+      else return 0;
+    });
+  }
+
+  function sortByDate(collection, andSticky = true) {
+    return collection.sort((a, b) => {
+      if (andSticky && b.data.sticky) return -1;
+      else if (a.data.date < b.data.date) return -1;
+      else if (a.data.date > b.data.date) return 1;
+      else return 0;
+    });
+  }
 
   // Customize Markdown library and settings:
   let markdownLibrary = markdownIt({

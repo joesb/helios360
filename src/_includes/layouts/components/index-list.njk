@@ -21,7 +21,7 @@
             {% endif %}
           {% endfor %}
           <div class="metadata__tags tags">
-          {%- for tag in itemTags %}
+          {% for tag in itemTags %}
             <span class="metadata__tags__tag">{{ tag }}</span>
             {% if loop.last !== true %}
             <span class="metadata__divider divider"></span>
@@ -35,11 +35,14 @@
           {{ item.data.description | markdown | safe }}
           </div>
           {% endif %}
+          {# Only show metadata if explicitly wanted #}
+          {% if showMetadata %}
           <div class="metadata item-meta">
             <time class="item-date" datetime="{{ item.date | readableDate("yyyy-LL-dd") }}">{{ item.date | readableDate("LLLL yyyy") }}</time>
             <span class="divider"></span>
             <span class="item-reading-time">{{ item.content | timeToRead }} read</span></div>
-        </div>
+          </div>
+          {% endif %}
         {% if item.data.image.path %}
           {% if image.widths %}
             {% if loop.first %}

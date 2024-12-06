@@ -164,16 +164,12 @@
   }
 }
 
-  // .tags {
-  //   text-align: right;
+.index-list__item__content {
+  background-color: var(--color-grey);
+  border-radius: var(--size-1);
+  padding: var(--size-5);
 
-  //   > * {
-  //     padding-right: px-to-rem(5px);
-  //     border-right: 1px solid var(--text-1);
-
-  //     &:last-child {
-  //         padding-right: unset;
-  //         border-right: unset;
-  //     }
-  //   }
-  // }
+  h2 {
+    margin-block: 0.75rem;
+  }
+}
