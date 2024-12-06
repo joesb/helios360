@@ -28,7 +28,7 @@ Highly experienced consultancy services for client services and project delivery
 
 ## Joe Baker
 
-Joe has over 20 years of digital and IT consultancy sector experience, with particular expertise in regulated industries and central government digital transformation projects, with a specialist focus on delivering value in generative AI and AI agents.
+Joe has over 20 years of digital and IT consultancy sector experience, with particular expertise in regulated industries and central government digital transformation projects. He has a specialist focus on delivering value in generative AI and AI agent services.
 
 He has expert capability with client services delivery, governance, stakeholder management, leading cross-functional and multi-disciplinary teams.
 
