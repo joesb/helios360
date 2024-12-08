@@ -6,6 +6,7 @@ import markdownIt11tyImage from "markdown-it-eleventy-img";
 import { eleventyImageOnRequestDuringServePlugin } from "@11ty/eleventy-img";
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 import pluginRss from "@11ty/eleventy-plugin-rss";
+import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import timeToRead  from "eleventy-plugin-time-to-read";
 import CleanCSS from "clean-css";
 import postCSS from "postcss";
@@ -36,6 +37,24 @@ export default async function(eleventyConfig) {
     speed: '850 characters per minute',
     style: "short"
   });
+  eleventyConfig.addPlugin(feedPlugin, {
+		type: "rss", // or "atom", "json"
+		outputPath: "/feed.xml",
+		collection: {
+			name: "posts", // iterate over `collections.posts`
+			limit: 25,     // 0 means no limit
+		},
+		metadata: {
+			language: "en",
+			title: "Helios360",
+			subtitle: "Management Consulting for Client Services and Gen-AI Delivery",
+			base: "https://helios360.co.uk",
+			author: {
+				name: "Joe Baker",
+				email: "", // Optional
+			}
+		}
+	});
 
   eleventyConfig.addFilter("debug", (content, inspectDepth = 4) => `<pre>${inspect(content, {depth: inspectDepth})}</pre>`);
 
