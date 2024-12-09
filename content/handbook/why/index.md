@@ -7,6 +7,7 @@ jumbotron: |
   
   So why might you need one?
 pending: true
+date: 2024-12-04
 eleventyNavigation:
   key: Why organisations need a CDO
   parent: Handbook

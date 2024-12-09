@@ -4,6 +4,7 @@ description: The focus, skills and responsibilities of a CDO
 layout: section.njk
 jumbotron: "A high-level look at the focus, skills and responsibilities of a Chief Delivery Officer, a Client Services Director, or a Professional Services Director"
 pending: true
+date: 2024-12-04
 eleventyNavigation:
   key: What makes a CDO?
   parent: Handbook

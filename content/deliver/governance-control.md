@@ -7,6 +7,7 @@ jumbotron: |
 
   With over 20 years of digital and IT consultancy sector experience, we bring the standards, metrics, and execution for first-class project delivery and effective stakeholder management.
 pending: true
+date: 2024-12-09
 eleventyNavigation:
   key: Governance & Control
   parent: Delivery

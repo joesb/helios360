@@ -7,6 +7,7 @@ jumbotron: |
 
   Focused on successful outcomes and tracking actual project performance against forecasts, with strategic planning for agile adaptation, identifying additional opportunities, and realigning capacity and resources.
 pending: true
+date: 2024-12-09
 eleventyNavigation:
   key: Service Delivery
   parent: Delivery

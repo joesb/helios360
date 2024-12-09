@@ -7,6 +7,7 @@ jumbotron: |
 
   But it's easy to dazzled by sparkly and shiny novelties rather than delivering robust, high-performance outcomes.
 pending: true
+date: 2024-12-04
 eleventyNavigation:
   key: Innovation and hype
   parent: Handbook

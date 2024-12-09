@@ -7,6 +7,7 @@ jumbotron: |
 
   And how do you pick up an existing delivery strategy, work out what's working and what isn't, and make improvements that stick?
 pending: true
+date: 2024-12-04
 eleventyNavigation:
   key: Building a delivery strategy
   parent: Handbook

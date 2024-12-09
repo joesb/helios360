@@ -1,6 +1,7 @@
 ---
 title: We deliver
 layout: section.njk
+date: 2024-12-09
 pagination:
   data: collections.servicePromoted
   size: 3
