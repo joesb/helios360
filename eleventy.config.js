@@ -165,6 +165,12 @@ export default async function(eleventyConfig) {
     return nav.length ? sortByOrder(nav, 'eleventyNavigation') : [];
   });
 
+  // Promoted Services collection
+  eleventyConfig.addCollection('servicePromoted', (collection) => {
+    var nav = collection.getFilteredByTag('#servicePromoted');
+    return nav.length ? sortByOrder(nav, 'eleventyNavigation') : [];
+  });
+
 
   function sortByOrder(collection, field = 'order', andSticky = false) {
     if (field == 'eleventyNavigation') {
@@ -216,6 +222,10 @@ export default async function(eleventyConfig) {
   eleventyConfig.setLibrary("md", markdownLibrary);
 
   eleventyConfig.addFilter("markdown", (content) => {
+    return markdownLibrary.render(content);
+  });
+
+  eleventyConfig.addPairedShortcode("Markdown", function(content) {
     return markdownLibrary.render(content);
   });
 

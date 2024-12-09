@@ -5,6 +5,7 @@ image:
   social: ./content/public/images/pexels-stephane-hurbe-1267753-21913865.jpg
   widths: [300, 620, 1200]
   widthsSmall: [300, 620]
+showNav: true
 navOptions:
   listElement: "ul"
   listItemElement: "li"
@@ -53,18 +54,24 @@ showMetadata: false
       
       {% endif %}
 
+      {% if showNav %}
       <div class="site-content content-canvas-item-full-right content-canvas-item-right--span-2 content-canvas-span-start-content-top index-nav">
 
 			  {% include "layouts/components/index-nav.njk" %}
 
 		  </div>
+      {% endif %}
 
     </div>
 
     
     <div class="site-content content-canvas">
       <div class="content-canvas-item-wide">
+        {% if indexListType and indexListType == "simple" %}
+      {% include "layouts/components/index-list-simple.njk" %}
+        {% else %}
       {% include "layouts/components/index-list.njk" %}
+        {% endif %}
       </div>
     </div>
 

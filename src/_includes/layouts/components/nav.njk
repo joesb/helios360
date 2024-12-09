@@ -12,7 +12,9 @@
         <li><a href="{{ navPage.url }}" class="main-nav--list--item-link">Home</a></li>
         {% endif %} #}
       {% for item in navPage.children %}
+        {% if not item.hide %}
         <li><a href="{{ item.url }}" class="main-nav--list--item-link{% activepath item.url, page.url, 'current', ' ' %}">{{ item.key }}</a></li>
+        {% endif %}
       {% endfor %}
       </ul>
       {# {% endif %} #}

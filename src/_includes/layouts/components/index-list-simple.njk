@@ -1,4 +1,4 @@
-  <ul class="index-list index-list--{{ items | length}}">
+  <ul class="index-list index-list-simple index-list--{{ items | length}}">
     {% set cls = cycler("odd", "even") %}
     {% set sze = cycler("large","small") %}
     {% set listLen = items | length %}
@@ -13,6 +13,7 @@
 
       <li class="faux-block-link-parent index-list__item index-list__item-{{ loop.index }}{% if loop.first %} index-list__item-first{% endif %} index-list__item-{{ vr }}{% if loop.index != 1 %} index-list__item-{{ sze.next() }}{% endif %}{% if item.data.image.path %} index-list__item--picture{% endif %}">
         <div class="index-list__item__content">
+          {# TAGS #}
           {% if item.data.tags and showTags !== false %}
           {% set itemTags = [] %}
           {%- for tag in item.data.tags %}
@@ -32,12 +33,15 @@
           </div>
           {% endif %}
           {% endif %}
-          <h2><a href="{{ item.url | url }}"{% activepath item.url, page.url %}>{{ item.data.title }}</a></h2>
+          {# TITLE #}
+          <h2 class="h3-style"><a href="{{ item.url | url }}"{% activepath item.url, page.url %}>{{ item.data.title }}</a></h2>
+          {# DESCRIPTION #}
           {% if (listAllDescriptions or loop.first) and item.data.description %}
           <div class="description">
           {{ item.data.description | markdown | safe }}
           </div>
           {% endif %}
+          {# METADATA #}
           {# Only show metadata if explicitly wanted #}
           {% if showMetadata %}
           <div class="metadata item-meta">
@@ -46,7 +50,7 @@
             <span class="item-reading-time">{{ item.content | timeToRead }} read</span></div>
           </div>
           {% endif %}
-         {# MORE BUTTON #}
+          {# MORE BUTTON #}
           {% if listAllMoreButton %}
           <div class="link">
             <a href="{{ item.url | url }}" class="single-meta-item single-meta-forward">Learn more</a>
