@@ -6,8 +6,12 @@ jumbotron: |
   **Leadership and building high-capability, high-performance teams for end-to-end delivery of complex projects with a united service vision across the business and in one team with the client.**
 
   Focused on successful outcomes and tracking actual project performance against forecasts, with strategic planning for agile adaptation, identifying additional opportunities, and realigning capacity and resources.
-order: 10
 pending: true
+eleventyNavigation:
+  key: Service Delivery
+  parent: Delivery
+  order: 10
+  root: Delivery
 tags:
   - '#servicePromoted'
 ---

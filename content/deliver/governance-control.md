@@ -6,8 +6,12 @@ jumbotron: |
   **Governance and control is essential for successful delivery of any client project or change implementation.**
 
   With over 20 years of digital and IT consultancy sector experience, we bring the standards, metrics, and execution for first-class project delivery and effective stakeholder management.
-order: 20
 pending: true
+eleventyNavigation:
+  key: Governance & Control
+  parent: Delivery
+  root: Delivery
+  order: 20
 tags:
   - '#servicePromoted'
 ---

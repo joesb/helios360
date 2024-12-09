@@ -168,7 +168,7 @@ export default async function(eleventyConfig) {
   // Promoted Services collection
   eleventyConfig.addCollection('servicePromoted', (collection) => {
     var nav = collection.getFilteredByTag('#servicePromoted');
-    return nav.length ? sortByOrder(nav) : [];
+    return nav.length ? sortByOrder(nav, 'eleventyNavigation') : [];
   });
 
 

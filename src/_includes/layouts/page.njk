@@ -7,6 +7,20 @@ page:
   classes:
     - page
     - content-canvas
+showNav: true
+navOptions:
+  listElement: "ul"
+  listItemElement: "li"
+  listClass: "index-nav--list"
+  listItemClass: "index-nav--list-item"
+  listItemHasChildrenClass: "index-nav--list-item--has-children"
+  listParentItemClass: "index-nav--list-item--parent"
+  activeListItemClass: "index-nav--list-item--active"
+  activeParentListItemClass: "index-nav--list-item--active--parent"
+  activeAnchorClass: "index-nav--list-item--link--active"
+  activeKey: eleventyNavigation.key
+  anchorClass: "index-nav--item--link"
+showMetadata: false
 ---
 
 
@@ -41,6 +55,14 @@ page:
         {{ content | safe }}
       {% endif %}
 
+      {% endif %}
+
+      {% if showNav %}
+      <div class="site-content content-canvas-item-full-right content-canvas-item-right--span-2 content-canvas-span-start-content-top index-nav">
+
+			  {% include "layouts/components/index-nav.njk" %}
+
+		  </div>
       {% endif %}
 
 
