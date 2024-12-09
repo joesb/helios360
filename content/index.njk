@@ -9,6 +9,13 @@ showContent: true
 date: 2024-12-01
 eleventyNavigation:
   key: Home
+pagination:
+  data: collections.servicePromoted
+  size: 3
+  alias: items
+  generatePageOnEmptyData: true
+listAllDescriptions: true
+listAllMoreButton: true
 styles:
   - home.css
 helpcardStyles:
@@ -19,18 +26,29 @@ helpcardStyles:
   - helpcard--narrow
 ---
 
+{% Markdown %}
 Highly experienced consultancy services for client services and project delivery, team leadership and service development, external and internal stakeholder management, governance, in digital/design/marketing agencies and SaaS product businesses. High-performance leadership of complex projects in with multifunctional project teams delivering client-focused solutions. Specialist super-power in delivering to value in generative AI, conversational AI and AI agent contexts.
+{% endMarkdown %}
 
----
+<hr>
 
-{% HelpCard, true, helpcardStyles %}
-![Joe Baker](./content/public/images/me-july-2024-portrait.jpeg){.image-greyscale-67}
+<div class="content-canvas-item-wide">
+
+<h2 class="h3-style uppercase">We deliver:</h2>
+
+{% include "layouts/components/index-list-simple.njk" %}
+</div>
+
+<hr>
+
+{% HelpCard true, helpcardStyles %}
+![Joe Baker](./content/public/images/me-july-2024-portrait.jpeg){.image-greyscale-67 .image-rounded}
 
 ## Joe Baker
 
 Joe has over 20 years of digital and IT consultancy sector experience, with particular expertise in regulated industries and central government digital transformation projects. He has a specialist focus on delivering value in generative AI and AI agent services.
 
-He has expert capability with client services delivery, governance, stakeholder management, leading cross-functional and multi-disciplinary teams.
+He has expert capability with client services delivery, product professional services, governance and control, stakeholder management, and leading cross-functional and multi-disciplinary teams.
 
 [<span class="visually-hidden">LinkedIn</span>](https://www.linkedin.com/in/joesb/){.social-icon .linkedin rel="noopener nofollow ugc" target="_blank"}
 

@@ -12,6 +12,7 @@ pagination:
   alias: items
   generatePageOnEmptyData: true
 listAllDescriptions: true
+listAllMoreButton: false
 eleventyNavigation:
   key: Handbook
   parent: Home
