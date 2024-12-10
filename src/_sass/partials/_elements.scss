@@ -107,4 +107,12 @@ html {
     color: var(--color-brand-primary);
     margin-inline: auto;
   }
+
+  &.left {
+    justify-content: left;
+
+    &:after {
+      margin-inline-start: var(--size-9);
+    }
+  }
 }
