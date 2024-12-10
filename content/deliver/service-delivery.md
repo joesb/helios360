@@ -3,10 +3,10 @@ title: Service Delivery
 layout: page.njk
 description: High-performance client service delivery for a united service vision
 jumbotron: |
-  **Leadership and building high-capability, high-performance teams for end-to-end delivery of complex projects with a united service vision across the business and in one team with the client.**
+  **A primary focus on successful outcomes and how to get there is vital for client service delivery. The journey depends on tracking actual project performance against forecasts, with strategic planning for agile adaptation, identifying additional opportunities, and realigning capacity and resources.**
 
-  Focused on successful outcomes and tracking actual project performance against forecasts, with strategic planning for agile adaptation, identifying additional opportunities, and realigning capacity and resources.
-pending: true
+  That derives from solid leadership and building high-capability, high-performance teams for end-to-end delivery of complex projects with a united service vision across the business, achieved in one team with the client.
+pending: false
 date: 2024-12-09
 eleventyNavigation:
   key: Service Delivery
@@ -17,12 +17,53 @@ tags:
   - '#servicePromoted'
 ---
 
-Veniam ea proident lorem. Proident lorem voluptate cupidatat. Voluptate cupidatat qui in velit. Qui in velit magna, voluptate nulla mollit eu. Magna voluptate nulla mollit eu cillum irure, cupidatat. Mollit eu cillum irure cupidatat. Cillum irure cupidatat et ipsum ex eiusmod, cillum. Et ipsum, ex eiusmod cillum incididunt. Eiusmod cillum incididunt cillum mollit, ullamco sit.
+## The principles
 
-Ea proident lorem voluptate cupidatat qui in velit. Lorem voluptate cupidatat qui. Cupidatat qui in velit magna voluptate. In, velit magna voluptate nulla. Voluptate nulla mollit eu cillum irure cupidatat et. Mollit eu cillum irure cupidatat. Cillum irure cupidatat et ipsum ex eiusmod, cillum. Et ipsum, ex eiusmod cillum incididunt. Eiusmod cillum incididunt cillum mollit, ullamco sit.
+Although project and service delivery necessarily will vary from one context to another, these core principles are essential in every environment:
 
-Proident lorem voluptate cupidatat. Voluptate cupidatat qui in velit. Qui in velit magna, voluptate nulla mollit eu. Magna voluptate nulla mollit eu cillum irure, cupidatat. Mollit eu cillum irure cupidatat. Cillum irure cupidatat et ipsum ex eiusmod, cillum. Et ipsum, ex eiusmod cillum incididunt. Eiusmod cillum incididunt cillum mollit, ullamco sit. Cillum mollit ullamco sit consectetur.
+### 1. Focus on user needs{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none }
 
-Lorem voluptate cupidatat qui. Cupidatat qui in velit magna voluptate. In, velit magna voluptate nulla. Voluptate nulla mollit eu cillum irure cupidatat et. Mollit eu cillum irure cupidatat.
+  Services are only effective where they respond to true users' needs, solving real problems.{.margin-inline-start-vlg .paragraph-narrow}
 
-Voluptate cupidatat qui in velit. Qui in velit magna, voluptate nulla mollit eu. Magna voluptate nulla mollit eu cillum irure, cupidatat. Mollit eu cillum irure cupidatat. Cillum irure cupidatat et ipsum ex eiusmod, cillum. Et ipsum, ex eiusmod cillum incididunt. Eiusmod cillum incididunt cillum mollit, ullamco sit. Cillum mollit ullamco sit consectetur. Ullamco sit consectetur duis aliquip duis.
+### 2. Deliver iteratively{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none}
+
+  Deliver value to users fast, take feedback, make improvements. Repeat.{.margin-inline-start-vlg .paragraph-narrow}
+
+### 3. Keep improving how the team works{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none}
+
+  Keep talking with the team to hear what's working and identify what's not. Agree ways to fix things, and do it.{.margin-inline-start-vlg .paragraph-narrow}
+
+### 4. Fail fast and learn quickly{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none}
+
+  Prevent major failures by making small failures first <u>and learning from them</u>. Demonstrate value to senior stakeholders by releasing regularly, with evaluation on key metrics.{.margin-inline-start-vlg .paragraph-narrow}
+
+### 5. Keep planning{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none}
+
+  Use data and usage patterns to review the work and continually make plans with the delivery team for the next steps, based on progress and new insights.{.margin-inline-start-vlg .paragraph-narrow}
+
+---
+
+## The process
+
+### 1. Consultation{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none }
+
+  Objectives, capabilities, and resources:
+  Understand the business. Understand the team. Understand the client. Understand the users. Understand the project.{.margin-inline-start-vlg .paragraph-narrow}
+
+### 2. Design{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none }
+
+  Drawing on extensive experience, design a bespoke strategy for effective client service delivery.{.margin-inline-start-vlg .paragraph-narrow}
+
+### 3. Planning{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none }
+
+  Develop a thoroughgoing plan, with a view across the project from inception through delivery to live service and eventual sunset. Detail for what's now, alignment on what's next, and perspective on what's later.{.margin-inline-start-vlg .paragraph-narrow}
+
+### 4. Execution{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none }
+
+  Do it. Enabling skilled people to do things with great skill as one team, with full ongoing support, and continual review and re-planning.{.margin-inline-start-vlg .paragraph-narrow}
+
+### 5. Evaluation{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none }
+
+  It's never fully over, you're always learning. Use data and metrics to evaluate what's worked and what hasn't and be even better next time.{.margin-inline-start-vlg .paragraph-narrow}
+
+  Our approach is flexible and tailored to your business needs, your sector specialism, and your client context.

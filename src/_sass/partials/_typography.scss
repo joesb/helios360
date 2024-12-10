@@ -252,6 +252,16 @@ h6,
   letter-spacing: 1px;
 }
 
+.paragraph-narrow {
+  max-inline-size: var(--size-content-2);
+}
+
+.paragraph-tight {
+  max-inline-size: var(--size-content-1);
+}
+
+
+
 // Coloured text
 
 .text-black {
@@ -268,6 +278,18 @@ h6,
 
 .text-grey-dark {
   color: var(--color-grey-dark);
+}
+
+.text-color-brand-primary {
+  color: var(--color-brand-primary);
+}
+
+.text-color-brand-secondary {
+  color: var(--color-brand-secondary);
+}
+
+.text-color-brand-tertiary {
+  color: var(--color-brand-tertiary);
 }
 
 // Center things
