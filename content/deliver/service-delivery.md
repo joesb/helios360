@@ -67,3 +67,17 @@ Although project and service delivery necessarily will vary from one context to 
   It's never fully over, you're always learning. Use data and metrics to evaluate what's worked and what hasn't and be even better next time.{.margin-inline-start-vlg .paragraph-narrow}
 
   Our approach is flexible and tailored to your business needs, your sector specialism, and your client context.
+
+---
+
+## Client Communication
+
+We serve as the primary point of contact with your clients, providing strategic guidance and ensuring project alignment with business objectives, solving issues and handling escalation.
+
+## Account Growth and Development
+
+We partner with your clients to drive account growth through successful project delivery and by identifying new opportunities within the account. We work hard to develop and nurture healthy client relationships, ensuring long-term partnerships and repeat business.
+
+## Forecasting and Budget Management
+
+We build revenue forecasting and spend review in at ground level, with tight management of time and outcomes through milestones, continuous delivery, spend analysis and resource allocation, continually matching forecasts against actual.
