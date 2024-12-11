@@ -18,5 +18,19 @@
       "url": "/contact/",
       "external": false
     }
+  ],
+  "social_site": [
+    {
+      "name": "Bluesky",
+      "machine_name": "bluesky",
+      "url": "https://bsky.app/profile/helios360.co.uk",
+      "alias": "@helios360.co.uk"
+    },
+    {
+      "name": "LinkedIn",
+      "machine_name": "linkedin",
+      "url": "https://www.linkedin.com/company/helios360/",
+      "alias": "@Helios360"
+    }
   ]
 }

@@ -80,3 +80,8 @@
   font-weight: var(--font-weight-medium);
 }
 
+.footer__nav {
+  .footer-main--social-sites {
+    flex-flow: row wrap;
+  }
+}
