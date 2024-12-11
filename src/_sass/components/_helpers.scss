@@ -185,7 +185,7 @@
 }
 
 .padding-inline-start-lg {
-  padding-inline-end: var(--size-5) !important;
+  padding-inline-start: var(--size-5) !important;
 }
 
 .padding-block-end-lg {
@@ -194,4 +194,24 @@
 
 .padding-inline-end-lg {
   padding-inline-end: var(--size-5) !important;
+}
+
+.padding-inline-vlg {
+  padding-inline: var(--size-7) !important;
+}
+
+.padding-block-start-vlg {
+  padding-block-start: var(--size-7) !important;
+}
+
+.padding-inline-start-vlg {
+  padding-inline-start: var(--size-7) !important;
+}
+
+.padding-block-end-vlg {
+  padding-block-end: var(--size-7) !important;
+}
+
+.padding-inline-end-vlg {
+  padding-inline-end: var(--size-7) !important;
 }
