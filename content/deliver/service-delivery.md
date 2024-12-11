@@ -35,7 +35,7 @@ Although project and service delivery necessarily will vary from one context to 
 
 ### 4. Fail fast and learn quickly{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none}
 
-  Prevent major failures by making small failures first <u>and learning from them</u>. Demonstrate value to senior stakeholders by releasing regularly, with evaluation on key metrics.{.padding-inline-start-vlg .paragraph-narrow}
+  Prevent major failures by making small failures first _and learning from them_. Demonstrate value to senior stakeholders by releasing regularly, with evaluation on key metrics.{.padding-inline-start-vlg .paragraph-narrow}
 
 ### 5. Keep planning{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none}
 
@@ -84,7 +84,7 @@ We build revenue forecasting and spend review in at ground level, with tight man
 
 ---
 
-To discuss your context or any questions you have, then do please:
+To discuss service delivery leadership and support in your context or any questions you have, then do please:
 
 [Book an appointment](https://calendar.app.google/82FYHkqV3CJaNwBm9){.single-meta-forward rel="noopener nofollow ugc" target="_blank"}
 {.text-center .larger .margin-block-lg}

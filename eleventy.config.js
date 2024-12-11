@@ -1,6 +1,7 @@
 import { IdAttributePlugin, InputPathToUrlTransformPlugin, EleventyHtmlBasePlugin } from "@11ty/eleventy";
 import markdownIt from "markdown-it";
 import markdownItAttrs from "markdown-it-attrs";
+import markdownItUnderline from "markdown-it-underline";
 import Image from "@11ty/eleventy-img";
 import markdownIt11tyImage from "markdown-it-eleventy-img";
 import { eleventyImageOnRequestDuringServePlugin } from "@11ty/eleventy-img";
@@ -218,7 +219,7 @@ export default async function(eleventyConfig) {
       // don't forget to add a `sizes` attribute.
       sizes: "100vw"
     }
-  });
+  }).use(markdownItUnderline);
   eleventyConfig.setLibrary("md", markdownLibrary);
 
   eleventyConfig.addFilter("markdown", (content) => {
