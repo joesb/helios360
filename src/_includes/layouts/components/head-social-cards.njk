@@ -2,8 +2,8 @@
 
 {% set absoluteUrl %}{{ page.url | url | absoluteUrl(meta.url) }}{% endset %}
 
-{% if permalink == '/' %}
-{% set cardTitle %}{{ meta.title }} — {{ meta.alt_title }}{% endset %}
+{% if page.url == '/' %}
+{% set cardTitle %}{{ meta.title }} — {{ meta.summary }}{% endset %}
 {% set ogType %}website{% endset %}
 {% else %}
 {% set cardTitle %}{{ title }} | {{ meta.title }}{% endset %}
