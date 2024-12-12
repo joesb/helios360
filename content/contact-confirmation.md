@@ -3,6 +3,8 @@ title: "Thank you!"
 layout: page.njk
 eleventyExcludeFromCollections: true
 date: 2024-12-09
+noIndex: true
+showNav: false
 ---
 
 Thanks for your message.
