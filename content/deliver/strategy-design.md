@@ -33,7 +33,7 @@ Begin with objectives, capabilities, and resources:{.padding-inline-start-vlg .p
 
 Drawing on extensive experience, design a delivery strategy for effective client service tailored to context.{.padding-inline-start-vlg .paragraph-narrow}
 
-### 3. Experiment, learn quickly, improve{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none }
+### 3. Test{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none }
 
 Trial with a subset of client projects and a trusted team, fail fast and learn quickly. Make improvements.{.padding-inline-start-vlg .paragraph-narrow}
 
