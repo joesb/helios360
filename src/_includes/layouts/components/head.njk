@@ -59,4 +59,7 @@
   {% if canonical %}
   <link rel="canonical" href="{{ canonical }}" />
   {% endif %}
+  {% if noIndex %}
+  <meta name="robots" content="noindex">
+  {% endif %}
 </head>
