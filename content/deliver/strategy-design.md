@@ -16,7 +16,40 @@ tags:
   - '#servicePromoted'
 ---
 
+## The process
 
+### 1. Consultation{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none }
+
+Begin with objectives, capabilities, and resources:{.padding-inline-start-vlg .paragraph-narrow}
+
+- Understand the business — the vision, goals and objectives.
+- Understand the team and organisational capabilities.
+- Understand the specialisms and sectors.
+- Understand the clients and projects.
+- Understand the past, the history of triumphs and challenges.
+- Understand the future, what's needed for continued success.
+
+### 2. Design{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none }
+
+Drawing on extensive experience, design a delivery strategy for effective client service tailored to context.{.padding-inline-start-vlg .paragraph-narrow}
+
+### 3. Experiment, learn quickly, improve{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none }
+
+Trial with a subset of client projects and a trusted team, fail fast and learn quickly. Make improvements.{.padding-inline-start-vlg .paragraph-narrow}
+
+### 4. Execution{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none }
+
+Do it. Build the resources and tool kits needed to support the client service operating model (CSOM). Embed it in business-wide practices and activities.{.padding-inline-start-vlg .paragraph-narrow}
+
+### 5. Evaluation{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none }
+
+It's never fully over, you're always learning. Use data and metrics to evaluate what's worked and what hasn't.{.padding-inline-start-vlg .paragraph-narrow}
+
+### 6. Iteration{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none }
+
+Make continued improvements, carefully planned, in practices and resources.{.padding-inline-start-vlg .paragraph-narrow}
+
+Our approach is flexible and tailored to your business needs, your sector specialism, and your client context.
 
 ---
 

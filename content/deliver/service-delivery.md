@@ -45,28 +45,27 @@ Although project and service delivery necessarily will vary from one context to 
 
 ## The process
 
-### 1. Consultation{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none }
+### 1. Delivery management{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none }
 
-  Objectives, capabilities, and resources:
-  Understand the business. Understand the team. Understand the client. Understand the users. Understand the project.{.padding-inline-start-vlg .paragraph-narrow}
+Oversee the end-to-end delivery of client services, everything up to complex multi-supplier, multi-team cross-functional projects.{.padding-inline-start-vlg .paragraph-narrow}
 
-### 2. Design{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none }
+### 2. Solution delivery excellence{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none }
 
-  Drawing on extensive experience, design a delivery strategy tailored to context for effective client service.{.padding-inline-start-vlg .paragraph-narrow}
+Embedding user research and design thinking disciplines into the core of solution delivery so solutions meet user needs and deliver measurable business outcomes. Identifying areas for improvement and implementing.{.padding-inline-start-vlg .paragraph-narrow}
 
-### 3. Planning{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none }
+### 3. Account growth and development{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none }
 
-  Develop a thoroughgoing plan, with a view across the project from inception through delivery to live service and eventual sunset. Detail for what's now, alignment on what's next, and perspective on what's later.{.padding-inline-start-vlg .paragraph-narrow}
+Drive account growth through healthy client relationships and successful project delivery and by identifying new opportunities, leading to repeat business.{.padding-inline-start-vlg .paragraph-narrow}
 
-### 4. Execution{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none }
+### 4. Forecasting and review{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none }
 
-  Do it. Enabling skilled people to do things with great skill as one team, with full ongoing support, and continual review and re-planning.{.padding-inline-start-vlg .paragraph-narrow}
+  Accurate and timely projections based on project milestones, client spend, and resource allocation, tracking actual project performance against revenue forecasts; identifying and addressing discrepancies.{.padding-inline-start-vlg .paragraph-narrow}
 
-### 5. Evaluation{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none }
+### 5. Communication and negotiation{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none }
 
-  It's never fully over, you're always learning. Use data and metrics to evaluate what's worked and what hasn't and be even better next time.{.padding-inline-start-vlg .paragraph-narrow}
+  Primary point of contact for clients, providing strategic guidance and ensuring project alignment with business objectives. Effective collaboration with internal and external stakeholders of all levels of seniority. Driving project success and managing expectations.{.padding-inline-start-vlg .paragraph-narrow}
 
-  Our approach is flexible and tailored to your business needs, your sector specialism, and your client context.
+Our approach is flexible and tailored to your business needs, your sector specialism, and your client context.
 
 ---
 
