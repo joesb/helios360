@@ -52,7 +52,7 @@ Although project and service delivery necessarily will vary from one context to 
 
 ### 2. Design{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none }
 
-  Drawing on extensive experience, design a bespoke strategy for effective client service delivery.{.padding-inline-start-vlg .paragraph-narrow}
+  Drawing on extensive experience, design a delivery strategy tailored to context for effective client service.{.padding-inline-start-vlg .paragraph-narrow}
 
 ### 3. Planning{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none }
 
