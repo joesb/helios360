@@ -67,7 +67,7 @@ Drive account growth through healthy client relationships and successful project
 
 Our approach is flexible and tailored to your business needs, your sector specialism, and your client context.
 
----
+<!-- ---
 
 ## Client Communication
 
@@ -79,7 +79,7 @@ We partner with your clients to drive account growth through successful project 
 
 ## Forecasting and Budget Management
 
-We build revenue forecasting and spend review in at ground level, with tight management of time and outcomes through milestones, continuous delivery, spend analysis and resource allocation, continually matching forecasts against actual.
+We build revenue forecasting and spend review in at ground level, with tight management of time and outcomes through milestones, continuous delivery, spend analysis and resource allocation, continually matching forecasts against actual. -->
 
 ---
 
