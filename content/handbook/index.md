@@ -27,7 +27,7 @@ Photo by fauxels: https://www.pexels.com/photo/colleagues-looking-at-survey-shee
 
 This manual is the result — a thoroughgoing guidebook for service delivery for agencies and product companies.
 
-![Colleagues Looking at Analytics Sheet](/public/images/source/pexels-fauxels-3183153.jpg){.image-rounded eleventy:widths="200,300 "}
+![Colleagues Looking at Analytics Sheet](/public/images/source/pexels-fauxels-3183153.jpg){.image-rounded eleventy:widths="200,300"}
 {.content-canvas-item-wide-left-sm .content-canvas-item-left--span-2}
 
 A combination of a playbook and a reference tool, *The Chief Delivery Officer's Handbook* is designed to accelerate your route to learning, with insights into the role of Chief Delivery Officer (CDO), a Client Services Director (CSD) or Project Management Office lead (PMO), their place in the business and their role with customers.{.content-canvas-item-main-left-main-end}

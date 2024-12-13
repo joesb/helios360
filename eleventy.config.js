@@ -119,7 +119,7 @@ export default async function(eleventyConfig) {
 
   eleventyConfig.addPairedShortcode("HelpCard", function(content, mdContent = false, classes) {
       content = mdContent ? markdownLibrary.render(content) : content;
-      return '<div class="helpcard margin-block padding-block-sml padding-inline-sml margin-block-lg' + ( classes ? ' ' + classes.join(' ') : '' ) +'">' + content + '</div>'
+      return '<div class="helpcard margin-block padding-block-lg padding-inline-lg margin-block-lg' + ( classes ? ' ' + classes.join(' ') : '' ) +'">' + content + '</div>'
     }
   );
 
