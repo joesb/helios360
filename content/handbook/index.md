@@ -23,7 +23,7 @@ eleventyNavigation:
 Photo by fauxels: https://www.pexels.com/photo/colleagues-looking-at-survey-sheet-3183153/
 ---
 
-*The Chief Delivery Officer's Handbook* brings together 25 years experience of project delivery from all angles, as team member, specialism lead, delivery manager, professional and client services lead, as both provider and customer.
+*The Chief Delivery Officer's Handbook* brings together 25 years experience of project delivery from all angles, as team member, specialism lead, delivery manager, professional and client services lead, as both provider and customer, working hand-in-glove with sales and customer success teams.
 
 This manual is the result — a thoroughgoing guidebook for service delivery for agencies and product companies.
 
