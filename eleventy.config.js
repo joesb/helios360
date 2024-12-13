@@ -5,6 +5,7 @@ import markdownItUnderline from "markdown-it-underline";
 import Image from "@11ty/eleventy-img";
 import markdownIt11tyImage from "markdown-it-eleventy-img";
 import { eleventyImageOnRequestDuringServePlugin } from "@11ty/eleventy-img";
+import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 import pluginRss from "@11ty/eleventy-plugin-rss";
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
@@ -56,6 +57,29 @@ export default async function(eleventyConfig) {
 			}
 		}
 	});
+  eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+		// which file extensions to process
+		extensions: "html",
+
+		// Add any other Image utility options here:
+
+		// optional, output image formats
+		formats: ["webp", "jpeg"],
+		// formats: ["auto"],
+
+		// optional, output image widths
+		widths: [800, 500, 300],
+
+    urlPath: "/public/img/",
+    outputDir: "./content/public/img",
+
+		// optional, attributes assigned on <img> override these values.
+		defaultAttributes: {
+			loading: "lazy",
+			decoding: "async",
+			sizes: "auto",
+		},
+	});
 
   eleventyConfig.addFilter("debug", (content, inspectDepth = 4) => `<pre>${inspect(content, {depth: inspectDepth})}</pre>`);
 
@@ -95,7 +119,7 @@ export default async function(eleventyConfig) {
 
   eleventyConfig.addPairedShortcode("HelpCard", function(content, mdContent = false, classes) {
       content = mdContent ? markdownLibrary.render(content) : content;
-      return '<div class="helpcard margin-block padding-block-sml padding-inline-sml margin-block-lg' + ( classes ? ' ' + classes.join(' ') : '' ) +'">' + content + '</div>'
+      return '<div class="helpcard margin-block padding-block-lg padding-inline-lg margin-block-lg' + ( classes ? ' ' + classes.join(' ') : '' ) +'">' + content + '</div>'
     }
   );
 
@@ -206,20 +230,7 @@ export default async function(eleventyConfig) {
     html: true,
     breaks: true,
     linkify: true
-  }).use(markdownItAttrs).use(markdownIt11tyImage, {
-    imgOptions: {
-      widths: [800, 500, 300],
-      formats: ["webp", "jpeg"],
-      urlPath: "/public/img/",
-      outputDir: "./content/public/img"
-    },
-    globalAttributes: {
-      decoding: "async",
-      // If you use multiple widths,
-      // don't forget to add a `sizes` attribute.
-      sizes: "100vw"
-    }
-  }).use(markdownItUnderline);
+  }).use(markdownItAttrs).use(markdownItUnderline);
   eleventyConfig.setLibrary("md", markdownLibrary);
 
   eleventyConfig.addFilter("markdown", (content) => {

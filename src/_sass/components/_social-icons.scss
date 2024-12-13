@@ -2,7 +2,7 @@
 .social-icon {
   display: inline-block;
   position: relative;
-  padding-right: 2.5em;
+  padding: 1.25em;
 
   &:not(.social-site--no-icon) {
     &::after {
@@ -15,7 +15,7 @@
       mask-repeat: no-repeat;
       background: var(--color-brand-primary);
       height: ptr.px-to-rem(24px);
-      width: ptr.px-to-rem(32px);
+      width: ptr.px-to-rem(24px);
       transition: 0.2s;
     }
   }
