@@ -3,16 +3,20 @@
 
 .content-canvas {
   display: grid;
-  column-gap: var(--size-fluid-1);
+  column-gap: var(--size-fluid-2);
   grid-template-columns:
     [full-start]
       minmax(0, 1vw)
     [wide-start]
       minmax(0, auto)
     [main-start]
-      minmax(12ch, calc(#{variables.$break-small} - 3rem))
+      minmax(5ch, 10ch)
+    [main-left]
+      minmax(8ch, 12ch)
     [main-mid]
-      minmax(15ch, 20ch)
+      minmax(8ch, 12ch)
+    [main-right]
+      minmax(5ch, 10ch)
     [main-end]
       minmax(0, auto)
     [wide-end]
@@ -39,6 +43,28 @@
 }
 
 @include respond-to.respond-to('small') {
+  .content-canvas {
+    grid-template-columns:
+      [full-start]
+        minmax(0, 1vw)
+      [wide-start]
+        minmax(0, auto)
+      [main-start]
+        minmax(5ch, 10ch)
+      [main-left]
+        minmax(8ch, 15ch)
+      [main-mid]
+        minmax(8ch, 15ch)
+      [main-right]
+        minmax(5ch, 10ch)
+      [main-end]
+        minmax(0, auto)
+      [wide-end]
+      minmax(0, 1vw)
+      [full-end];
+    grid-auto-flow: row;
+  }
+
   .content-canvas--list {
     grid-template-columns: 
       [full-start]
@@ -46,9 +72,13 @@
       [wide-start]
         minmax(0, 2vw)
       [main-start]
-        minmax(10ch, calc(#{variables.$break-small} - 3rem))
+        minmax(5ch, 10ch)
+      [main-left]
+        minmax(8ch, 15ch)
       [main-mid]
-        minmax(10ch, auto)
+        minmax(8ch, 15ch)
+      [main-right]
+        minmax(5ch, 10ch)
       [main-end]
         minmax(18ch, 2vw)
       [wide-end]
@@ -63,9 +93,13 @@
     [wide-start]
       minmax(5vw, 10vw)
     [main-start]
-      minmax(5ch, calc(#{variables.$break-medium} - 3rem))
+      minmax(5ch, 10ch)
+    [main-left]
+      minmax(10ch, 15ch)
     [main-mid]
       minmax(10ch, 15ch)
+    [main-right]
+      minmax(5ch, 10ch)
     [main-end]
       minmax(5vw, 10vw)
     [wide-end]
@@ -75,6 +109,27 @@
 }
 
 @include respond-to.respond-to('medium') {
+  .content-canvas {
+    grid-template-columns:
+      [full-start]
+        minmax(0, 1vw)
+      [wide-start]
+        minmax(15ch, auto)
+      [main-start]
+        minmax(5ch, 10ch)
+      [main-left]
+        minmax(8ch, 15ch)
+      [main-mid]
+        minmax(8ch, 15ch)
+      [main-right]
+        minmax(5ch, 10ch)
+      [main-end]
+        minmax(15ch, auto)
+      [wide-end]
+      minmax(0, 1vw)
+      [full-end];
+    grid-auto-flow: row;
+  }
 
   .content-canvas--no-sidebar {
     grid-template-columns:
@@ -82,10 +137,14 @@
       minmax(0, 2vw)
     [wide-start]
       minmax(5vw, 15vw)
-    [main-start]
-      minmax(5ch, calc(#{variables.$break-medium} - 3rem))
+      [main-start]
+      minmax(5ch, 10ch)
+    [main-left]
+      minmax(10ch, 15ch)
     [main-mid]
-      minmax(15ch, 20ch)
+      minmax(10ch, 15ch)
+    [main-right]
+      minmax(5ch, 10ch)
     [main-end]
       minmax(5vw, 15vw)
     [wide-end]
@@ -104,9 +163,13 @@
       [wide-start]
         minmax(10vw, 15ch)
       [main-start]
-        minmax(calc(#{variables.$break-very-small} - 3rem), calc((#{variables.$break-small} - 3rem) * 3 / 5))
+        minmax(5ch, 10ch)
+      [main-left]
+        minmax(10ch, 15ch)
       [main-mid]
-        minmax(15ch, calc((#{variables.$break-small} - 3rem) * 2 / 5))
+        minmax(10ch, 15ch)
+      [main-right]
+        minmax(5ch, 10ch)
       [main-end]
         minmax(10vw, 15ch)
       [wide-end]
@@ -133,6 +196,7 @@
     }
   } 
 }
+
 @include respond-to.respond-to('medium') {
   .content-canvas-item-right {
     width: 100%;
@@ -145,15 +209,11 @@
 }
 
 .content-canvas-item-wide-left {
-  grid-column: wide-start/main-end;
-  
-  @include respond-to.respond-to('large') {
-    grid-column: wide-start/main-mid;
-  }
+  grid-column: main-start/main-end;
 }
 
 .content-canvas-item-wide-left-more {
-  grid-column: wide-start/main-end;
+  grid-column: main-start/main-end;
 }
 
 .content-canvas-item-out-left {
@@ -162,30 +222,14 @@
 
 .content-canvas-item-mid-wide-right {
   grid-column: main-mid/main-end;
-
-  @include respond-to.respond-to('medium') {
-    grid-column: main-mid/wide-end;
-  }
 }
 
 .content-canvas-item-wide-right {
   grid-column: main-start/main-end;
-
-  // @include respond-to.respond-to('small') {
-  //   grid-column: main-mid/wide-end;
-  // }
-
-  @include respond-to.respond-to('small') {
-    grid-column: main-end/wide-end;
-  }
 }
 
 .content-canvas-item-full-right {
   grid-column: main-start/main-end;
-
-  @include respond-to.respond-to('medium') {
-    grid-column: main-end/full-end;
-  }
 }
 
 .content-canvas-item-out-right {
@@ -196,12 +240,47 @@
   grid-column: full-start/full-end;
 }
 
+.content-canvas-item-wide-left-sm {
+
+}
+
+@include respond-to.respond-to('small') {
+  .content-canvas-item-wide-right {
+    grid-column: main-end/wide-end;
+  }
+  .content-canvas-item-left {
+    grid-column: main-start/main-mid;
+  }
+  .content-canvas-item-wide-left-sm {
+    grid-column: wide-start/main-left;
+  }
+  .content-canvas-item-main-left-main-end {
+    grid-column: main-left/main-end;
+  }
+  .content-canvas-item-wide-left {
+    grid-column: wide-start/main-mid;
+  }
+  .content-canvas-item-wide-left-more {
+    grid-column: wide-start/main-end;
+  }
+}
+
 @include respond-to.respond-to('medium') {
   .content-canvas-item-left {
     grid-column: main-start/main-mid;
   }
+  .content-canvas-item-wide-left-sm {
+    grid-column: wide-start/main-left;
+  }
+  .content-canvas-item-full-right {
+    grid-column: main-end/full-end;
+  }
+  .content-canvas-item-mid-wide-right {
+    grid-column: main-mid/wide-end;
+  }
 
   .content-canvas-item-right,
+  .content-canvas-item-mid-wide-right,
   .content-canvas-item-wide-right,
   .content-canvas-item-full-right {
 
@@ -286,6 +365,18 @@
     }
   }
 
+  .content-canvas-item-wide-left,
+  .content-canvas-item-left-sm,
+  .content-canvas-item-wide-left-sm {
+    &.content-canvas-item-left--span-2 {
+      grid-row: span 2;
+    }
+
+    &.content-canvas-item-left--span-3 {
+      grid-row: span 3;
+    }
+  }
+
   .pull-right {
     grid-column: main-mid/main-end;
     grid-row: span 4;
@@ -314,9 +405,7 @@
     grid-column: inner-start/inner-end;
     align-self: start;
   }
-}
 
-@include respond-to.respond-to('medium') {
   .content-canvas-inner-right {
     width: 100%;
     grid-column: inner-mid/inner-end;

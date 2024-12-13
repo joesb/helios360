@@ -10,12 +10,12 @@
   list-style: none;
   padding: 0;
   margin-block: var(--size-9);
-  gap: 1rem;
+  gap: var(--size-3);
   // row-gap: 1.5rem;
 
   li {
     margin: 0;
-    padding: 1rem;
+    padding: 0;
     position: relative;
     // background-image: var(--gradient-6);
     max-inline-size: unset;
@@ -118,6 +118,10 @@
 }
 
 @include respond-to.respond-to('small') {
+  .index-list {
+    gap: var(--size-5);
+  }
+
   // .index-list__item {
   //   min-height: px-to-rem.px-to-rem(270px);
   // }
@@ -168,6 +172,18 @@
   h2 {
     margin-block: 0.75rem;
     align-self: self-end;
+  }
+}
+
+@include respond-to.respond-to('medium') {
+  .index-list {
+    gap: var(--size-7);
+  }
+}
+
+@include respond-to.respond-to('large') {
+  .index-list {
+    gap: var(--size-8);
   }
 }
 
