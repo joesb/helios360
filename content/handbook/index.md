@@ -32,6 +32,6 @@ This manual is the result — a thoroughgoing guidebook for service delivery for
 
 A combination of a playbook and a reference tool, *The Chief Delivery Officer's Handbook* is designed to accelerate your route to learning, with insights into the role of Chief Delivery Officer (CDO), a Client Services Director (CSD) or Project Management Office lead (PMO), their place in the business and their role with customers.{.content-canvas-item-main-left-main-end}
 
-Most importantly, it puts the role of the CDO into the context of a C-suite player for organisations that understand that their success depends on high performance delivery.{.content-canvas-item-main-left-main-end}
+Most importantly, it puts the role of the CDO into the context of a C-suite player for organisations that understand that their success depends on high performance delivery.
 
 The *Handbook* covers everything you need to know, written in an accessible and practical manner for those who wish to understand their role better, for those wanting to step up into this role, or for founder-owners who are considering what this role may add to their executive team.
