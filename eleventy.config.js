@@ -182,6 +182,11 @@ export default async function(eleventyConfig) {
 		return DateTime.fromJSDate(dateObj, { zone: zone || "utc" }).toFormat(format || "dd LLLL yyyy");
 	});
 
+  // Check if a thing is a string
+  eleventyConfig.addFilter('is_string', function(obj) {
+    return typeof obj == 'string'
+  });
+
     /* COLLECTIONS */
 
   // Promoted Content collection

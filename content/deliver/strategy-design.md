@@ -14,6 +14,8 @@ eleventyNavigation:
   order: 30
 tags:
   - '#servicePromoted'
+redirect_from:
+  - /change-implementation/
 ---
 
 ## The process

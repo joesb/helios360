@@ -1,0 +1,10 @@
+---
+permalink: /_redirects
+eleventyExcludeFromCollections: true
+globalRedirects:
+tagFilter:
+    - all
+    - promotedContent
+---
+{% for page in collections.all %}{% if page.url and page.data.redirect_from %}{% if page.data.redirect_from | is_string %}{{ page.data.redirect_from }} {{ page.url }} {{ page.data.redirect_code or '301'}}{{ '\n' }}{% else %}{% for oldUrl in page.data.redirect_from %}{{ oldUrl }} {{ page.url }} {{ page.data.redirect_code or '301'}}{{ '\n' }}{% endfor %}{% endif %}{% endif %}{% endfor %}
+/feed /feed.xml 301
