@@ -2,6 +2,8 @@
 @use "tools/respond-to" as rt;
 
 .home {
+  grid-template-rows: 67vh auto auto;
+
   .header-main__logo {
     padding-block: var(--size-5);
   }
@@ -12,7 +14,7 @@
     &::before {
       background-position-x: center;
       width: clamp(6rem, 50vw, 100vw);
-      height: clamp(6rem, 50vh, 100vh);
+      height: clamp(6rem, 33vh, 50vh);
     }
   }
 
@@ -40,5 +42,13 @@
         height: clamp(ptr.px-to-rem(72px), 30vh, ptr.px-to-rem(144px));
       }
     }
+  }
+
+  .jumbotron {
+    min-height: 33vh;
+
+    // :where(p) {
+    //   font-size: var(--font-size-fluid-2);
+    // }
   }
 }
