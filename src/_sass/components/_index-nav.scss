@@ -120,6 +120,7 @@
   
   ul {
     margin-block: 0.25rem;
+    margin-block-end: 0.75rem;
   }
 
   &>li {
@@ -129,4 +130,19 @@
 
 .index-nav--list-item {
   max-inline-size: unset;
+}
+
+.index-nav--list-item--active {
+  &:has(.index-nav--list-item--active) {
+    > a {
+      &.index-nav--list-item--link--active {
+        position: relative;
+        color: var(--color-brand-primary-light);
+
+        &::before {
+          border-color: var(--color-brand-primary-light);
+        }
+      }
+    }
+  }
 }

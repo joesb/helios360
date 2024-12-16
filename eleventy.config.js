@@ -201,6 +201,12 @@ export default async function(eleventyConfig) {
     return nav.length ? sortByOrder(nav, 'eleventyNavigation') : [];
   });
 
+  // Handbook: Why collection
+  eleventyConfig.addCollection('handbookWhy', (collection) => {
+    var nav = collection.getFilteredByTag('#handbookWhy');
+    return nav.length ? sortByOrder(nav, 'eleventyNavigation') : [];
+  });
+
 
   function sortByOrder(collection, field = 'order', andSticky = false) {
     if (field == 'eleventyNavigation') {

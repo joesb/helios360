@@ -6,6 +6,7 @@ image:
   widths: [300, 620, 1200]
   widthsSmall: [300, 620]
 showNav: true
+listAllDescriptions: true
 navOptions:
   listElement: "ul"
   listItemElement: "li"
@@ -64,7 +65,7 @@ showMetadata: false
 
     </div>
 
-    
+    {% if pagination.data %}
     <div class="site-content content-canvas">
       {% if listTitle %}
       <hr>
@@ -80,6 +81,7 @@ showMetadata: false
         {% endif %}
       </div>
     </div>
+    {% endif %}
 
 {% if pageLinks %}
   {% include "layouts/components/page-pagelinks.njk" %}
