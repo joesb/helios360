@@ -1,5 +1,6 @@
 ---
 title: Understanding the impact of a Chief Delivery Officer
+description: Topics for measuring the CDO's impact, both qualitative and quantitative.
 layout: page.njk
 date: 2024-12-16
 pending: true
@@ -12,5 +13,6 @@ eleventyNavigation:
   parent: Why organisations need a CDO
   root: Handbook
   order: 40
+tags:
+  - '#handbookWhy'
 ---
-

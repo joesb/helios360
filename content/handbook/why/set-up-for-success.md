@@ -1,5 +1,6 @@
 ---
 title: Get the best our of your Chief Delivery Officer
+description: Key questions that you need to ask yourself about the CDO/CSD position and why it's important to you.
 layout: page.njk
 date: 2024-12-16
 pending: true
@@ -12,5 +13,7 @@ eleventyNavigation:
   parent: Why organisations need a CDO
   root: Handbook
   order: 30
+tags:
+  - '#handbookWhy'
 ---
 
