@@ -2,7 +2,7 @@
 title: Why an organisation needs a Chief Delivery Officer
 description: A CDO brings the integration between vision, strategy, and execution that you need to excel.
 layout: page.njk
-date: 2024-12-16
+date: 2024-12-16T12:00:00Z
 pending: true
 jumbotron: |
   Whether you're a services business or a product company, you need to deliver work for your clients. Often it's the part of the business that your clients experience most closely and, done well, is a foundation stone for your reputation.
