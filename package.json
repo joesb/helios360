@@ -38,10 +38,10 @@
     "postcss": "^8.4.49",
     "postcss-cli": "^11.0.0",
     "rimraf": "^6.0.1",
-    "sass": "^1.82.0",
+    "sass": "^1.83.0",
     "sass-autoprefixer": "^1.0.1",
     "uglify-js": "^3.19.3",
-    "wrangler": "^3.94.0"
+    "wrangler": "^3.95.0"
   },
   "dependencies": {
     "react": "^18.3.1",
