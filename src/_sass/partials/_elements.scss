@@ -24,6 +24,7 @@ html {
   --color-brand-black: var(--color-black);
   --color-brand-grey: var(--color-grey);
 
+  --color-brand-primary-light: #{sp.$color-icterine-rgba-lighter};
 
   // Text colours
   --color-text-black: var(--color-brand-black);
