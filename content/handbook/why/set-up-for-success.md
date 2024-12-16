@@ -1,5 +1,5 @@
 ---
-title: Get the best our of your Chief Delivery Officer
+title: Get the best from your Chief Delivery Officer
 description: Key questions that you need to ask yourself about the CDO/CSD position and why it's important to you.
 layout: page.njk
 date: 2024-12-16T12:20:00Z
