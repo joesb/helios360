@@ -65,7 +65,11 @@ showMetadata: false
 
     </div>
 
-    {% if pagination.data %}
+    {% if listSource %}
+    {% set items = utilities.getCollectionByName(collections, listSource) %}
+    {% endif %}
+
+    {% if pagination.data or items.length %}
     <div class="site-content content-canvas">
       {% if listTitle %}
       <hr>
