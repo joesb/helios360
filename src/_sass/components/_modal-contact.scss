@@ -42,8 +42,8 @@
   z-index: 1150;
   top: 2rem;
   right: 2rem;
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
   background-color: transparent;
   border-width: 0;
   box-shadow: none;
@@ -55,8 +55,8 @@
     outline-width: 0;
   }
 
-
   &:before {
+    font-size: larger;
     content: 'x';
   }
 }
@@ -99,6 +99,8 @@
   bottom: 2rem;
   inline-size: var(--size-fluid-7);
   block-size: var(--size-fluid-4);
+  display: grid;
+  justify-items: end;
 }
 
 .modal-contact-form-button {

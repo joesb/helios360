@@ -18,6 +18,12 @@
       line-height: var(--font-lineheight-00);
     }
   }
+
+  label {
+    span {
+      color: var(--color-brand-warning);
+    }
+  }
 }
 
 #honey {
