@@ -1,0 +1,121 @@
+@use "../tools/mixins";
+@use "../tools/respond-to" as rt;
+
+.modal-contact-form {
+  @include mixins.do-not-display;
+  position: fixed;
+  z-index: 1100;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--color-brand-black);
+  // display: grid;
+  grid-template-areas:
+    ". head ."
+    ". form ."
+  ;
+  grid-template-rows: minmax(25vh, auto) 1fr;
+  grid-template-columns: minmax(5vw, auto) minmax(auto, 45ch) minmax(5vw, auto);
+
+  &.open-modal-contact {
+    overflow: hidden;
+    display: grid;
+    height: 100vh;
+    animation: var(--animation-slide-in-up) forwards,
+      var(--animation-fade-in) forwards;
+    animation-timing-function: var(--ease-in-3);
+    animation-duration: 0.3s;
+  }
+
+  &.close-modal-slide {
+    animation: var(--animation-slide-out-down) forwards,
+    var(--animation-fade-out) forwards;
+    animation-timing-function: var(--ease-out-3);
+    animation-duration: 0.3s;
+  }
+}
+
+.modal-close {
+  @include mixins.do-not-display;
+  position: absolute;
+  z-index: 1150;
+  top: 2rem;
+  right: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: transparent;
+  border-width: 0;
+  box-shadow: none;
+  color: var(--color-brand-white);
+
+  &:hover,
+  &:focus-visible {
+    outline-color: unset;
+    outline-width: 0;
+  }
+
+
+  &:before {
+    content: 'x';
+  }
+}
+
+.open-modal-contact {
+  .modal-close {
+    display: block;
+  }
+}
+
+.modal-contact-form--header {
+  grid-area: head;
+  align-self: end;
+}
+
+.modal-contact-form--form {
+  grid-area: form;
+}
+
+@include rt.respond-to('medium') {
+  .modal-contact-form--header {
+    align-self: center;
+  }
+  .modal-contact-form {
+    grid-template-areas:
+      ". . . ."
+      ". head form ."
+      ". . . ."
+    ;
+    grid-template-rows: minmax(10vw, auto) 1fr minmax(10vw, auto);
+    grid-template-columns: minmax(10vw, auto) 1fr 1fr minmax(10vw, auto);
+    align-items: center;
+  }
+}
+
+.modal-contact-form-button-wrapper {
+  position: fixed;
+  z-index: 1000;
+  right: 2rem;
+  bottom: 2rem;
+  inline-size: var(--size-fluid-7);
+  block-size: var(--size-fluid-4);
+}
+
+.modal-contact-form-button {
+  border-radius: var(--size-2);
+  border-width: 0;
+  box-shadow: none;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: var(--color-viridian-darker);
+  transition: var(--ease-3) 0.3s;
+
+  &:hover,
+  &:focus-visible {
+    background-color: var(--color-brand-tertiary);
+    transition: var(--ease-3) 0.3s;
+    outline-color: unset;
+    outline-width: 0;
+  }
+}

@@ -24,6 +24,12 @@
 
 		{# Footer #}
 		{% include "layouts/components/site-footer.njk" %}
+
+		{# Contact #}
+		{% if eleventyNavigation.key != "Contact" %}
+		{% include "layouts/components/modal-contact-form.njk" %}
+		{% endif %}
+
 	</body>
 	<!-- Google Analytics -->
 	<!-- End Google Analytics -->

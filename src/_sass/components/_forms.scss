@@ -1,4 +1,5 @@
 @use "../tools/mixins" as mx;
+@use "../tools/respond-to" as rt;
 
 :where(input,button,textarea,select) {
   color: var(--color-text-black);
@@ -17,10 +18,6 @@
       line-height: var(--font-lineheight-00);
     }
   }
-
-  label {
-    text-align: right;
-  }
 }
 
 #honey {
@@ -29,13 +26,25 @@
 
 .form-group {
   display: grid;
-  grid-auto-flow: row;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: var(--size-3);
+  grid-template-rows: 1fr auto;
+}
 
-  input,
-  textarea {
-    grid-column: 2 / span 2;
+@include rt.respond-to('small') {
+  .site-form {
+    label {
+      text-align: right;
+    }
+  }
+
+  .form-group {
+    grid-auto-flow: row;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: var(--size-3);
+
+    input,
+    textarea {
+      grid-column: 2 / span 2;
+    }
   }
 }
 

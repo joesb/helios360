@@ -16,6 +16,7 @@ body {
   ;
   grid-template-columns: 2fr 1fr minmax(30ch, variables.$break-large) 1fr 2fr;
   grid-template-rows: minmax(px-to-rem.px-to-rem(100px), auto) auto auto;
+  position: relative;
 }
 
 header {

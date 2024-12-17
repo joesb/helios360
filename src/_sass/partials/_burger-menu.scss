@@ -26,6 +26,12 @@
     display: none;
     color: var(--text-1);
   }
+
+  &:hover,
+  &:focus-visible {
+    outline-color: unset;
+    outline-width: 0;
+  }
 }
 
 .header-main__menu__burger {

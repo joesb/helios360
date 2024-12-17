@@ -26,4 +26,33 @@ $(document).ready(function () {
       testimonialsContainer.scrollLeft(testimonial.offset().left);
     }
   }
+
+  $('.modal-contact-form-button').click(() => {
+    $('.modal-contact-form').addClass('open-modal-contact').attr('aria-expanded', 'true').removeClass('close-modal-slide');
+  });
+
+  $('.modal-close').click(() => {
+    let mCF = $('.modal-contact-form');
+    if (mCF.hasClass('open-modal-contact')) {
+      mCF.addClass('close-modal-slide').done(() => {
+        this.removeClass('open-modal-contact');
+      });
+    }
+  });
+
+  $(document).on('keyup', function(event) { 
+    if (event.key == "Escape") { 
+      let mCF = $('.modal-contact-form');
+      if (mCF.hasClass('open-modal-contact')) {
+        mCF.addClass('close-modal-slide').done(() => {
+          this.removeClass('open-modal-contact');
+        });
+      }
+      let oM = $('.open-mobile');
+      if (oM.length) {
+        oM.removeClass('open-mobile');
+        $('button.header-main__menu').attr('aria-expanded', 'false');
+      }
+    } 
+  }); 
 });
