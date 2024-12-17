@@ -63,3 +63,7 @@
 .image-obj-pos-bottom {
   object-position: center bottom;
 }
+
+:where(figcaption) {
+  filter: brightness(60%);
+}
