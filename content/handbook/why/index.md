@@ -12,14 +12,10 @@ eleventyNavigation:
   parent: Handbook
   root: Handbook
   order: 10
+listTitle: In this section
+listSource: handbookWhy
 tags:
   - '#handbookPromoted'
-listTitle: In this section
-pagination:
-  data: collections.handbookWhy
-  size: 11
-  alias: items
-  generatePageOnEmptyData: true
 ---
 
 In this section, we look at the need for a chief of delivery from all perspectives — the CDO themselves, the delivery team within the organisation, the c-suite or executive team colleagues in the business, the founder(s)/owner(s) of the company, the clients and customers of the business, the personnel team and recruiters, and more. That means that the 'you' in the question above is definitely you, whichever role you have or perspective from which you're looking.
