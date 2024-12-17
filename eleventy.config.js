@@ -165,6 +165,12 @@ export default async function(eleventyConfig) {
     return metadata;
   };
 
+  eleventyConfig.addPairedShortcode("ImgFigure", function(content, caption, classes = [], md = true) {
+    if (caption) {
+      caption = '<figcaption>' + caption + '</figcaption>';
+    }
+    return '<figure' + (classes.length ? ' class="' + classes.join(" ") + '"' : '') + '>' + (md ? markdownLibrary.render(content) : content) + caption +'</figure>'});
+
   eleventyConfig.addFilter('maxDate', (list) => {
     return list.reduce((a, b) => {
       return new Date(a.date) > new Date(b.date) ? a : b;
