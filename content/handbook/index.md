@@ -18,7 +18,7 @@ eleventyNavigation:
 image:
   classes:
     - content-canvas-item-wide-left-sm
-    - content-canvas-item-left--span-2
+    - content-canvas-item-left--span-3
   
 ---
 
