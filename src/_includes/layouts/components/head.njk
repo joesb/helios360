@@ -22,7 +22,7 @@
   {% endif %}
 
   {% if page.url == "/" %}
-  <link id="feedLink" rel="alternate" type="application/rss+xml" title="RSS" href="{{ '/feed.xml' | url | absoluteUrl(env.baseUrl) }} ">
+  <link rel="alternate" type="application/atom+xml" title="{{ meta.title }}" href="{{ '/feed.xml' | url | absoluteUrl(env.baseUrl) }}">
   {% endif %}
 
   {# Google Fonts #}
