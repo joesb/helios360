@@ -273,6 +273,8 @@ export default async function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('content/public/');
   eleventyConfig.addPassthroughCopy('./functions/');
   eleventyConfig.addWatchTarget('./src/_sass/');
+  // Put robots.txt in root
+  eleventyConfig.addPassthroughCopy({ 'content/robots.txt': '/robots.txt' });
 }
 
 export const config = {
