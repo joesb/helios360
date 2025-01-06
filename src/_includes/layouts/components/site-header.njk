@@ -3,18 +3,18 @@
         <div class="header-main__logo">
           {% if page.url !== '/' %}<a href="{{ '/' | url }}" class="site-logo">
             <h1 class="h2-style visually-hidden">
-              {{ meta.title }}
+              {{ metadata.title }}
               {% if metadata.subtitle %}
-              <div class="h2-style not-bold">{{ meta.subtitle }}</div>
+              <div class="h2-style not-bold">{{ metadata.subtitle }}</div>
               {% endif %}
             </h1>
           </a>
           {% else %}
           <span class="site-logo">
             <h1 class="h2-style visually-hidden">
-              {{ meta.title }}
+              {{ metadata.title }}
               {% if metadata.subtitle %}
-              <div class="h2-style not-bold">{{ meta.subtitle }}</div>
+              <div class="h2-style not-bold">{{ metadata.subtitle }}</div>
               {% endif %}
             </h1>
           </span>

@@ -5,8 +5,15 @@
   {% endif %}
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=contain">
-  {% set siteName = [ meta.org, meta.title, meta.subtitle] %}
+  {% set siteName = [ metadata.org, metadata.title, metadata.subtitle] %}
   <title>{{ pageTitle or title or siteName | join(" ") }} | {{ siteName | join(" ") }}</title>
+
+  {% if meta %}
+  <!-- schema.org -->
+  <script type="application/ld+json">
+  {% jsonLd meta, type, tags %}
+  </script>
+  {% endif %}
 
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/favicon/apple-touch-icon.png" type="image/png">
@@ -22,7 +29,7 @@
   {% endif %}
 
   {% if page.url == "/" %}
-  <link rel="alternate" type="application/atom+xml" title="{{ meta.title }}" href="{{ '/feed.xml' | url | absoluteUrl(env.baseUrl) }}">
+  <link rel="alternate" type="application/atom+xml" title="{{ metadata.title }}" href="{{ '/feed.xml' | url | absoluteUrl(env.baseUrl) }}">
   {% endif %}
 
   {# Google Fonts #}
@@ -44,6 +51,7 @@
   {% endif %}
   {# <!-- Pagefind CSS --> #}
   {# <link href="/pagefind/pagefind-ui.css" rel="stylesheet"> #}
+
   
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   {% set js %}

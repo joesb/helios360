@@ -2,29 +2,29 @@
   <div class="footer-main__inner content-canvas-item-wide">
     <div class="footer-main__logo">
       {% if page.url !== '/' %}<a href="{{ '/' | url }}" class="site-logo">
-          <div class="h2-style visually-hidden">{{ meta.title }}
-          {% if meta.subtitle %}{{ meta.subtitle }}{% endif %}
+          <div class="h2-style visually-hidden">{{ metadata.title }}
+          {% if metadata.subtitle %}{{ metadata.subtitle }}{% endif %}
           </div>
         </a>
       {% else %}
       <span class="site-logo">
-        <div class="h2-style visually-hidden">{{ meta.title }}
-        {% if meta.subtitle %}{{ meta.subtitle }}{% endif %}</div>
+        <div class="h2-style visually-hidden">{{ metadata.title }}
+        {% if metadata.subtitle %}{{ metadata.subtitle }}{% endif %}</div>
       </span>
       {% endif %}
     </div>
 
     <div class="footer-main__links footer__nav">
-      {% if meta.footer_links.length %}
+      {% if metadata.footer_links.length %}
       <ul class="footer-main__links--list">
-        {% for link in meta.footer_links %}
+        {% for link in metadata.footer_links %}
         <li class="footer-main__links--list-item"><a href="{{ link.url }}"{% if link.external %} target="_blank" rel="noreferrer"{% endif %}>{{ link.label }}</li>
         {% endfor %}
       </ul>
       {% endif %}
-      {% if meta.social_site.length %}
+      {% if metadata.social_site.length %}
       <ul class="footer-main--social-sites inline-list">
-        {% for item in meta.social_site %}
+        {% for item in metadata.social_site %}
         <li class="footer-main--social-sites--list-item"><a href="{{ item.url }}" class="social-icon {{ item.machine_name }}" target="_blank" rel="noreferrer noopener"><span class="hide-text">{{ item.name }}</span></a></li>
         {% endfor %}
       </ul>
