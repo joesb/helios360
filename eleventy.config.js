@@ -40,15 +40,15 @@ export default async function(eleventyConfig) {
     style: "short"
   });
   eleventyConfig.addPlugin(feedPlugin, {
-		type: "rss", // or "atom", "json"
+		type: "atom", // or "rss", "json"
 		outputPath: "/feed.xml",
 		collection: {
-			name: "posts", // iterate over `collections.posts`
+			name: "feed", // iterate over `collections.feed`
 			limit: 25,     // 0 means no limit
 		},
 		metadata: {
 			language: "en",
-			title: "Helios360",
+			title: "Helios 360",
 			subtitle: "Management Consulting for Client Services and Gen-AI Delivery",
 			base: "https://helios360.co.uk",
 			author: {
@@ -206,6 +206,18 @@ export default async function(eleventyConfig) {
     var nav = collection.getFilteredByTag('#servicePromoted');
     return nav.length ? sortByOrder(nav, 'eleventyNavigation') : [];
   });
+
+  // Content for feed.xml
+  eleventyConfig.addCollection('feed', (collection) => {
+    // var nav = collection.getFilteredByTag('#handbookPromoted');
+    // var nav1 = collection.getFilteredByTag('#servicePromoted');
+    // nav = nav.concat(nav1);
+    var nav = collection.getFilteredByGlob('./content/**/*.md');
+    console.log(nav.length);
+    return nav.length ? sortByDate(nav) : [];
+  });
+
+
 
   // Handbook: Why collection
   eleventyConfig.addCollection('handbookWhy', (collection) => {
