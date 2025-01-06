@@ -3,6 +3,9 @@ Allow: /
 Disallow: /admin/
 Disallow: /cdn-cgi/
 
+User-agent: GPTBot
+Disallow: /
+
 Host: https://helios360.co.uk/
 
 Sitemap: https://helios360.co.uk/sitemap.xml
