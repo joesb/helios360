@@ -27,6 +27,7 @@
   {% endif %}
   <meta property="twitter:site" content="{{ meta.twitter }}" />
   <meta property="og:url" content="{{ absoluteUrl }}" />
+  <meta property="og:site_name" content="{{ meta.title }}" />
   <meta property="og:title" content="{{cardTitle}}" />
   <meta property="og:description" content="{% if excerpt %}{{excerpt}}{% else %}{{meta.summary}}{% endif %}" />
   {% if image.social or image.path %}
