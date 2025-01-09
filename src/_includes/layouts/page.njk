@@ -5,8 +5,9 @@ image:
   widths: [300, 620, 1200]
 page:
   classes:
-    - page
     - content-canvas
+    - page
+    - type-page
 showNav: true
 navOptions:
   listElement: "ul"
@@ -20,7 +21,9 @@ navOptions:
   activeAnchorClass: "index-nav--list-item--link--active"
   activeKey: eleventyNavigation.key
   anchorClass: "index-nav--item--link"
-showMetadata: false
+metadata:
+  show: false
+  readingTime: true
 ---
 
 
@@ -51,6 +54,22 @@ showMetadata: false
         {% if jumbotron %}
           {% include "layouts/components/jumbotron.njk" %}
         {% endif %}
+
+      {% if metadata.show %}
+      <div class="metadata page__metadata">
+        <div class="metadata__info">
+          {% if metadata.readingTime !== false %}
+          <span class="metadata__reading-time">{{ content | timeToRead }} read</span>
+          <span class="metadata__divider divider"></span>
+          {% endif %}
+          {% set pageUri %}{{ page.url }}?referrer=bsky.app{% endset %}
+          {% set pageURL %}{{ pageUri | url | absoluteUrl(env.prodUrl) }}{% endset %}
+          {% set pageTitle %}‘{{ title }}’{% endset %}
+          {% set encodable = ["I'm reading", pageTitle, "on Helios 360:", pageURL] %}
+          <span class="metadata__share_item"><a href="https://bsky.app/intent/compose?text={{ encodable | join(' ') | encodeUri }}" class="bluesky" target="_blank" rel="nofollow ugc noopener" title="Share to Bluesky"><span class="visually-hidden">Share to Bluesky</span></a></span>
+        </div>
+      </div>
+		  {% endif %}
         
         {{ content | safe }}
       {% endif %}

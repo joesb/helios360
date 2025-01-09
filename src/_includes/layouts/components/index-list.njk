@@ -39,7 +39,7 @@
           </div>
           {% endif %}
           {# Only show metadata if explicitly wanted #}
-          {% if showMetadata %}
+          {% if metadata.cards.show %}
           <div class="metadata item-meta">
             <time class="item-date" datetime="{{ item.date | readableDate("yyyy-LL-dd") }}">{{ item.date | readableDate("LLLL yyyy") }}</time>
             <span class="divider"></span>
