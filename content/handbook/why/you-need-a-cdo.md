@@ -49,6 +49,6 @@ Project managers, delivery managers, team leads — all very straightforward and
 
 As a first impression, this is a fairly compelling way to address issues with delivering services for clients. The more clients and the more projects you have, the more people you hire to cover all the things. It's a fairly simple logic.
 
-## The Value of a CDO
+<!-- ## The Value of a CDO
 
-Something else
+Something else -->
