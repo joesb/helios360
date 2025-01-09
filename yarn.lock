@@ -2335,7 +2335,7 @@ __metadata:
     inspect: ^0.0.2
     luxon: ^3.5.0
     markdown-it: ^14.1.0
-    markdown-it-attrs: ^4.3.0
+    markdown-it-attrs: ^4.3.1
     markdown-it-eleventy-img: ^0.10.2
     markdown-it-underline: ^1.0.1
     postcss: ^8.4.49
@@ -2344,7 +2344,7 @@ __metadata:
     react-dom: ^18.3.1
     resend: ^4.0.1
     rimraf: ^6.0.1
-    sass: ^1.83.0
+    sass: ^1.83.1
     sass-autoprefixer: ^1.0.1
     uglify-js: ^3.19.3
     wrangler: ^3.95.0
@@ -2888,12 +2888,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"markdown-it-attrs@npm:^4.3.0":
-  version: 4.3.0
-  resolution: "markdown-it-attrs@npm:4.3.0"
+"markdown-it-attrs@npm:^4.3.1":
+  version: 4.3.1
+  resolution: "markdown-it-attrs@npm:4.3.1"
   peerDependencies:
     markdown-it: ">= 9.0.0"
-  checksum: da920f3c3add357a9a08251f8e445821f8ba65d4b73f4647f082ad7ad8166b168a81c2c44d4cda23e7f1bb975873c30e0b9c326e25fa7a52672e1fde47f4b405
+  checksum: 907458ef50372c3a557f883e961ba05a126c6d08878d7e6551a80e4ea19eb2589f486d7d702a771ad4746599ff00ec3cab5416b99ebc93a07e4e4c64237420ec
   languageName: node
   linkType: hard
 
@@ -3918,9 +3918,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.83.0":
-  version: 1.83.0
-  resolution: "sass@npm:1.83.0"
+"sass@npm:^1.83.1":
+  version: 1.83.1
+  resolution: "sass@npm:1.83.1"
   dependencies:
     "@parcel/watcher": ^2.4.1
     chokidar: ^4.0.0
@@ -3931,7 +3931,7 @@ __metadata:
       optional: true
   bin:
     sass: sass.js
-  checksum: ab7ba7829b3a53f4cc209dba4b515e48b67fbabfa7afc1195275991a18511e04259c1e1b19bf93d77e6f5c39556e022f2ea2ce68117668f59f6679cd8c58ddd9
+  checksum: 367a9f270c74a9ad2851955e1cf5b2a05e57d27aec4bf054be1da48eb49858076467b65ec180d8c4392b5c55c0f4d4ba644855f985652ffca15d68a20641d5e0
   languageName: node
   linkType: hard
 
