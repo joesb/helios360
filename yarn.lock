@@ -2337,6 +2337,7 @@ __metadata:
     markdown-it: ^14.1.0
     markdown-it-attrs: ^4.3.1
     markdown-it-eleventy-img: ^0.10.2
+    markdown-it-span: ^1.0.0
     markdown-it-underline: ^1.0.1
     postcss: ^8.4.49
     postcss-cli: ^11.0.0
@@ -2906,6 +2907,13 @@ __metadata:
   peerDependencies:
     markdown-it: ">= 9.0.0"
   checksum: 7d708238b3dc1f7d854e42a221acb02298fc1dcf3d262c9d7558d72c1e058d427a284b126cfb3c4ec7cc3a52663da130bd4dcf092a751c987f6adbb19013e139
+  languageName: node
+  linkType: hard
+
+"markdown-it-span@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "markdown-it-span@npm:1.0.0"
+  checksum: 68684035aeb91ce9c0bc5421cbf1e23de840b03980aba1fe9dcdb602ab3270628294ffebe006182df52b7b91d77e519d0eb558e58d62c56d8342b8730169365b
   languageName: node
   linkType: hard
 
