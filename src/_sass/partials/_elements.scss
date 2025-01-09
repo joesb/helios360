@@ -18,7 +18,7 @@ html {
 
   --color-brand-primary: var(--color-icterine);
   --color-brand-secondary: var(--color-ming);
-  --color-brand-tertiary: var(--color-viridian);
+  --color-brand-tertiary: var(--color-victoria);
   --color-brand-text: var(--color-white);
   --color-brand-white: var(--color-white);
   --color-brand-black: var(--color-black);
@@ -105,7 +105,7 @@ html {
     content: "...";
     letter-spacing: var(--size-3);
     font-size: var(--font-size-5);
-    color: var(--color-brand-primary);
+    color: var(--color-brand-secondary);
     margin-inline: auto;
   }
 

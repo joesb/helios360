@@ -19,10 +19,12 @@ navOptions:
   activeAnchorClass: "index-nav--list-item--link--active"
   activeKey: eleventyNavigation.key
   anchorClass: "index-nav--item--link"
-showMetadata: false
+metadata:
+  show: false
+  readingTime: false
 ---
     
-    <div class="site-content{% if page.classes %} {{ page.classes | join(" ") }}{% endif %} content-canvas type-section">
+    <div class="site-content{% if page.classes %} {{ page.classes | join(" ") }}{% endif %} content-canvas section type-section">
 
       {% if showTitle != false %}
       {% include "layouts/components/title-bar.njk" %}
@@ -50,6 +52,10 @@ showMetadata: false
 				{% if jumbotron %}
 				{% include "layouts/components/jumbotron.njk" %}
 				{% endif %}
+
+        {% if metadata.show %}
+        {% include "layouts/components/page-metadata.njk" %}
+        {% endif %}
         
         {{ content | safe }}
       

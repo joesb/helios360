@@ -292,6 +292,18 @@ h6,
   color: var(--color-brand-tertiary);
 }
 
+.drop-first {
+  color: var(--color-brand-secondary);
+  float: left;
+  font-size: 7rem;
+  font-weight: 700;
+  line-height: 5.5rem;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  margin-right: 4px;
+  vertical-align: text-top;
+}
+
 // Center things
 .text-center {
   text-align: center;

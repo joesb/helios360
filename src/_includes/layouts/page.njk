@@ -5,8 +5,9 @@ image:
   widths: [300, 620, 1200]
 page:
   classes:
-    - page
     - content-canvas
+    - page
+    - type-page
 showNav: true
 navOptions:
   listElement: "ul"
@@ -20,7 +21,9 @@ navOptions:
   activeAnchorClass: "index-nav--list-item--link--active"
   activeKey: eleventyNavigation.key
   anchorClass: "index-nav--item--link"
-showMetadata: false
+metadata:
+  show: false
+  readingTime: true
 ---
 
 
@@ -51,6 +54,10 @@ showMetadata: false
         {% if jumbotron %}
           {% include "layouts/components/jumbotron.njk" %}
         {% endif %}
+
+      {% if metadata.show %}
+      {% include "layouts/components/page-metadata.njk" %}
+		  {% endif %}
         
         {{ content | safe }}
       {% endif %}
