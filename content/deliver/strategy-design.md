@@ -17,10 +17,6 @@ tags:
   - '#servicePromoted'
 redirect_from:
   - /change-implementation/
-meta:
-  title: Delivery Strategy Design
-  description: Effective delivery strategy, operating model and implementation tools that align with your business goals
-  url: https://helios360.co.uk/deliver/strategy-design/
 ---
 
 ## The process

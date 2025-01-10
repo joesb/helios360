@@ -15,10 +15,6 @@ eleventyNavigation:
   order: 10
 tags:
   - '#handbookWhy'
-meta:
-  title: Why an organisation needs a Chief Delivery Officer
-  description: A CDO brings the integration between vision, strategy, and execution that you need to excel.
-  url: https://helios360.co.uk/handbook/why/you-need-a-cdo/
 metadata:
   show: true
 ---

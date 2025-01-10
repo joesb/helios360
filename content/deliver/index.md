@@ -16,8 +16,4 @@ eleventyNavigation:
   key: Delivery
   hide: true
   parent: Home
-meta:
-  title: Services we deliver
-  description: High-performance client service delivery.
-  url: https://helios360.co.uk/deliver/
 ---
