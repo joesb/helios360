@@ -2,7 +2,6 @@ import { IdAttributePlugin, InputPathToUrlTransformPlugin, EleventyHtmlBasePlugi
 import markdownIt from "markdown-it";
 import markdownItAttrs from "markdown-it-attrs";
 import markdownItUnderline from "markdown-it-underline";
-import markdownItSpan from "markdown-it-span";
 import Image from "@11ty/eleventy-img";
 import markdownIt11tyImage from "markdown-it-eleventy-img";
 import { eleventyImageOnRequestDuringServePlugin } from "@11ty/eleventy-img";
@@ -264,7 +263,7 @@ export default async function(eleventyConfig) {
     html: true,
     breaks: true,
     linkify: true
-  }).use(markdownItAttrs).use(markdownItUnderline).use(markdownItSpan);
+  }).use(markdownItAttrs).use(markdownItUnderline);
   eleventyConfig.setLibrary("md", markdownLibrary);
 
   eleventyConfig.addFilter("markdown", (content) => {
