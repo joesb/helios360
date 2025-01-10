@@ -19,7 +19,7 @@ metadata:
   show: true
 ---
 
-:H:{.drop-first}iring a CDO at the right level will be a big investment for the business. The person themselves will have costs, and they will likely also bring a team with them, maybe a mixture of internal and external people. There will be disruption to business-as-usual and a reduction in velocity whilst change is happening that itself will incur costs.
+*H*{.drop-first}iring a CDO at the right level will be a big investment for the business. The person themselves will have costs, and they will likely also bring a team with them, maybe a mixture of internal and external people. There will be disruption to business-as-usual and a reduction in velocity whilst change is happening that itself will incur costs.
 
 *So why do it?*
 
@@ -44,6 +44,37 @@ Projects need people to manage them. Work for clients needs people to be respons
 Project managers, delivery managers, team leads — all very straightforward and obvious roles, and it makes sense to hire as many project and/or delivery managers as you need, trained and empowered, to keep the show on the road.
 
 As a first impression, this is a fairly compelling way to address issues with delivering services for clients. The more clients and the more projects you have, the more people you hire to cover all the things. It's a fairly simple logic.
+
+Project management and delivery skills are important, and it's vital to have skilled and capable people in these roles so that your clients and customers get the quality of work they expect. But this approach to scaling is brittle and will inevitably come unstuck.
+
+### More than delivery
+
+There's two dimensions here where more is required, one that is mostly outward-facing, one looking more inwards. For the first, for client work to be and remain healthy it needs more than project management. With the second, for the business itself to improve and grow it needs more than people delivering (more) stuff. The broad labels for each of these two aspects are 'governance' and 'strategy'.
+
+#### Governance:
+
+Both client projects and healthy customer relationships depend on good governance, including things like:
+
+- oversight of what's been done and what's going to be happening, and why, to support effective decision-making
+- ensuring that tasks and outcomes are *and remain* aligned with user needs and business objectives, and negotiating effectively to keep expectations on track
+- tracking and monitoring project quality and performance metrics based on milestones, spend, and resources, with a particular focus on budgets and revenue
+- accurate projections and project forecasts that pinpoint risks and other discrepancies, and enable actions to be taken
+- identifying opportunities to achieve benefits, reduce risks, make savings, or seize new or unexplored possibilities or areas for growth
+
+… and so on.
+
+#### Strategy:
+
+As the business grows in its capabilities and its size, the capacity for delivery needs to increase as well, which means a focus on:
+
+- a high-performance customer experience based in a coherent client services vision with effective processes
+- identifying problems and opportunities for improvements in service delivery, practices, skills and learning, processes, and automations
+- monitoring revenue and spend with clear and timely projections that enable effective capacity planning and a smart recruitment strategy
+- tools, tool kits, processes and practices with playbooks, guides, help cards, templates and more that facilitates healthy growth and organisational development
+- motivating and empowering teams to perform at their best, fostering a positive and inclusive culture aligned with the company’s values, with helpful coaching, mentoring and feedback
+- wise approaches to innovations and new technologies, embracing change and hungry to improve whilst wary of hype and bubbles that quickly burst
+
+… and so on.
 
 <!-- ## The Value of a CDO
 
