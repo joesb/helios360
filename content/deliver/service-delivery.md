@@ -16,10 +16,6 @@ eleventyNavigation:
   root: Delivery
 tags:
   - '#servicePromoted'
-meta:
-  title: Service Delivery
-  description: High-performance client service delivery for a united service vision.
-  url: https://helios360.co.uk/deliver/service-delivery/
 ---
 
 ## The principles

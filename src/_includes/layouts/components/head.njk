@@ -8,13 +8,6 @@
   {% set siteName = [ metadata.org, metadata.title, metadata.subtitle] %}
   <title>{{ pageTitle or title or siteName | join(" ") }} | {{ siteName | join(" ") }}</title>
 
-  {% if meta %}
-  <!-- schema.org -->
-  <script type="application/ld+json">
-  {% jsonLd meta, type, tags %}
-  </script>
-  {% endif %}
-
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/favicon/apple-touch-icon.png" type="image/png">
   <link rel="icon" href="/public/favicon/favicon-16.png" type="image/png" sizes="16x16">

@@ -21,10 +21,6 @@ image:
   classes:
     - content-canvas-item-wide-left-sm
     - content-canvas-item-left--span-3
-meta:
-  title: The Chief Delivery Officer's Handbook
-  description: An essential guide to leading delivery projects, teams and programs for agencies, client service businesses and SaaS product companies, with insights and guidance for professional services directors, client services directors, and other delivery principal roles.
-  url: https://helios360.co.uk/handbook/
 metadata:
   show: true
 ---

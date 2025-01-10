@@ -17,7 +17,6 @@ import autoprefixer from "autoprefixer";
 import UglifyJS from "uglify-js";
 import { inspect } from "util";
 import { DateTime } from "luxon";
-import schema from "@quasibit/eleventy-plugin-schema";
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function(eleventyConfig) {
@@ -37,7 +36,6 @@ export default async function(eleventyConfig) {
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPlugin(eleventyImageOnRequestDuringServePlugin);
   eleventyConfig.addPlugin(pluginRss);
-  eleventyConfig.addPlugin(schema);
   eleventyConfig.addPlugin(timeToRead, {
     speed: '850 characters per minute',
     style: "short"
