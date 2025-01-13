@@ -6,7 +6,7 @@ jumbotron: |
   Why does a business need a Chief Delivery Officer (CDO) or Client Services Director (CSD)? They'll add costs and disrupt the organisation, and the business got along fine without one, right?
   
   So why might you need one?
-# date: 2024-12-04
+date: 2024-12-04
 eleventyNavigation:
   key: Why organisations need a CDO
   parent: Handbook

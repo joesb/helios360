@@ -2,7 +2,7 @@
 title: Why do Chief Delivery Officers fail?
 description: Know the most obvious pitfalls in advance to handle those upfront and create a fertile environment for success.
 layout: page.njk
-# date: 2024-12-16T12:10:00Z
+date: 2024-12-16T12:10:00Z
 pending: true
 jumbotron: |
   If having a CDO in your business is such a good idea, why do some end up failing?
