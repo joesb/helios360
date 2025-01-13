@@ -2,7 +2,7 @@
 title: Why an organisation needs a Chief Delivery Officer
 description: A CDO brings the integration between vision, strategy, and execution that you need to excel.
 layout: page.njk
-date: 2025-01-10T12:00:00Z
+date: 2025-01-13T12:11:00.960Z
 pending: false
 jumbotron: |
   Whether you're a services business or a product company, you need to deliver work for your clients. Often it's the part of the business that your clients experience most closely and, done well, is a foundation stone for your reputation.
@@ -70,12 +70,17 @@ As the business grows in its capabilities and its size, the capacity for deliver
 - a high-performance customer experience based in a coherent client services vision with effective processes
 - identifying problems and opportunities for improvements in service delivery, practices, skills and learning, processes, and automations
 - monitoring revenue and spend with clear and timely projections that enable effective capacity planning and a smart recruitment strategy
+- data, planning and activity for everything from supporting individual bids to expansion into new markets, sectors and technologies
 - tools, tool kits, processes and practices with playbooks, guides, help cards, templates and more that facilitates healthy growth and organisational development
 - motivating and empowering teams to perform at their best, fostering a positive and inclusive culture aligned with the company’s values, with helpful coaching, mentoring and feedback
 - wise approaches to innovations and new technologies, embracing change and hungry to improve whilst wary of hype and bubbles that quickly burst
 
 … and so on.
 
-<!-- ## The Value of a CDO
+## The Value of a CDO
 
-Something else -->
+All together, a Chief Delivery Officer brings a whole-organisation and cross-functional perspective to what the business does for its customers — the CDO will bring an essential unifying view to things in the business that are often otherwise disconnected, joining together marketing with relationship management, design with finance with sales, engineering with HR, and so on.
+
+This should probably be understood under the umbrella of culture shift: it will likely demand that the organisation thinks differently and acts differently.
+
+Although the CDO will have a large individual impact, one person alone will not be able to bring about the changes needed to get the best outcomes for the organisation. Even a team, small or large, will likely be overawed by the scale of the task to bring coherence to customer delivery, giving it the important and central place in the company's focus. Only when the whole business works together with the CDO and their team will the task be achievable.
