@@ -24,7 +24,6 @@
   display: grid;
   grid-auto-flow: row;
   gap: var(--size-fluid-4);
-  padding: 3em 1.5em;
   grid-template-rows: minmax(ptr.px-to-rem(68px), ptr.px-to-rem(90px)) auto;
 
   @include rt.respond-to('small') {
@@ -38,6 +37,11 @@
     padding: 3em 6em;
     grid-template-columns: 2fr 1fr;
   }
+}
+
+.footer-main__inner,
+.footer-main__badges {
+  padding: 3em 1.5em;
 }
 
 .footer-main--container {
@@ -83,5 +87,15 @@
 .footer__nav {
   .footer-main--social-sites {
     flex-flow: row wrap;
+  }
+}
+
+.footer-main__badges {
+  padding-block-start: 0;
+  
+  #wcb {
+    &.carbonbadge {
+      text-align: right;
+    }
   }
 }
