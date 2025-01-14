@@ -16,6 +16,7 @@ import autoprefixer from "autoprefixer";
 import UglifyJS from "uglify-js";
 import { inspect } from "util";
 import { DateTime } from "luxon";
+import { minify } from "html-minifier-terser";
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function(eleventyConfig) {
@@ -83,22 +84,37 @@ export default async function(eleventyConfig) {
 
   eleventyConfig.addFilter("debug", (content, inspectDepth = 4) => `<pre>${inspect(content, {depth: inspectDepth})}</pre>`);
 
-    // Minify CSS
-    eleventyConfig.addFilter('cssmin', function (code) {
-      var css = new CleanCSS({}).minify(code).styles;
-      return postCSS([ autoprefixer ]).process(css).css;
-    });
-  
-    // Minify JS
-    eleventyConfig.addFilter('jsmin', function (code) {
-      let minified = UglifyJS.minify(code);
-      if (minified.error) {
-        console.log('UglifyJS error: ', minified.error);
-        return code;
-      }
-      return minified.code;
-    });
+  // Minify CSS
+  eleventyConfig.addFilter('cssmin', function (code) {
+    var css = new CleanCSS({}).minify(code).styles;
+    return postCSS([ autoprefixer ]).process(css).css;
+  });
 
+  // Minify JS
+  eleventyConfig.addFilter('jsmin', function (code) {
+    let minified = UglifyJS.minify(code);
+    if (minified.error) {
+      console.log('UglifyJS error: ', minified.error);
+      return code;
+    }
+    return minified.code;
+  });
+
+  // Minify HTML
+  eleventyConfig.addTransform("htmlmin", function (content) {
+		if ((this.page.outputPath || "").endsWith(".html")) {
+			let minified = minify(content, {
+				useShortDoctype: true,
+				removeComments: true,
+				collapseWhitespace: true,
+			});
+
+			return minified;
+		}
+
+		// If not an HTML output, return content as-is
+		return content;
+	});
 
   // Return active path attributes
   eleventyConfig.addShortcode('activepath', function (itemUrl, currentUrl, currentClass = "current", prefix = '') {
