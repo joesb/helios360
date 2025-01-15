@@ -21,7 +21,7 @@ metadata:
 
 *G*{.drop-first}iven that it's such a good idea to hire a Chief Delivery Officer, then, what can go wrong? What might make a CDO fail? And are there ways that you can prevent that happening in your organisation? Investing time, money and effort in a CDO is a significant thing with plenty of risks associated, as we've said, but if you know in advance what could go wrong you stand a better chance of things going right.
 
-There's plenty of reasons why a Chief Delivery Officer could fail and this isn't an exhaustive list by any means, but avoiding these pitfalls will help you find a good path towards success. The first few are the most obvious and the easiest to handle. The last few will likely need a little extra head scratching.
+There's plenty of reasons why a Chief Delivery Officer could fail and this isn't an exhaustive list by any means, but avoiding these pitfalls will help you find a good path towards success. Many are obvious, but that does not make them the easiest to handle. Others may need a little extra head scratching.
 
 ## 1. Job Done{.h4-style}
 
@@ -61,4 +61,18 @@ Businesses that are structured so that decision-making is directed from a very s
 
 ## 7. Experience{.h4-style}
 
+As with any C-level role, there is some level of experience and capability you should expect from your CDO. Project and delivery management are broad and look different in different industries and sectors, and may need clear definition in your context.
+
+If necessary, ask for some help to make sure your job description is clear and practical, covering the specifics of what your organisation needs and what you expect to make sure you find candidates that match and people who are set up towards successful outcomes.
+
 ## 8. Budget{.h4-style}
+
+The last item is the most obvious, but has a little bit of a twist, too. Customer delivery means that your CDO will be managing the financial dimension of client projects, overseeing  budgets, forecasting revenues and addressing discrepancies, giving them a large degree of impact on, or even responsibility for, the company's financial health.
+
+However, your CDO will also need a dedicated budget to support the changes they need to make, through hiring or training, through building the processes, practices, tools and methods needed to execute the delivery strategy that's right for your business. To move the dial requires investment.
+
+---
+
+As you plan to hire a Chief Delivery Officer, it's wise to give due consideration to these classic issues. There may be others that you can identify that are specific to your situation, your industry, or your company's specialism.
+
+You do not necessarily need to have them all covered in advance, but it is smart to at least have thought about them and have a view on how you will address them. Having the shape of a response to each of these items and you will prevent yourself from starting out poorly, and instead be ready to take the journey towards success for you, your CDO, your team, and your customers.
