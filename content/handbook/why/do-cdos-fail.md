@@ -23,6 +23,42 @@ metadata:
 
 There's plenty of reasons why a Chief Delivery Officer could fail and this isn't an exhaustive list by any means, but avoiding these pitfalls will help you find a good path towards success. The first few are the most obvious and the easiest to handle. The last few will likely need a little extra head scratching.
 
-## 1. Exoneration{.h4-style}
+## 1. Job Done{.h4-style}
 
-Hiring a CDO is more than a tick in a box. It doesn't absolve the rest of the business from responsibilities for what the company does for its customers, and it doesn't simply make client delivery the CDO's problem. It's better, instead, to think of the role of Chief Delivery Officer as a point of focus for what you do for your customers. The customer journey with the business is closest when you're delivering your services and products to them, but it doesn't begin and end there. The organisation needs a customer focus throughout the business.
+Hiring a CDO is more than a tick in a box. It doesn't absolve the rest of the business from responsibilities for what the company does for its customers, and it doesn't simply make client delivery the CDO's problem. It's better, instead, to think of the role of Chief Delivery Officer as a point of focus for what you do for your customers.
+
+The customer journey with the business is closest when you're delivering your services and products to them, but it doesn't begin and end there. The organisation needs a customer focus throughout the business.
+
+## 2. Expectations{.h4-style}
+
+This is a reflection of the previous point, in some senses, and in this context we're talking both *for* the role and *of* the role — what the company founder/owner/leader expects the CDO will do and achieve, and what the CDO themselves expect to do and achieve.
+
+Over the rest of the handbook we'll dive in depth into understanding what the role is and can be (and we'll look more at the issue of [hype](/handbook/innovation/) later on, too). But you should certainly not expect a solution for Middle East peace in week one and for the Climate Emergency in week two. Obviously, the scale of the challenge will vary from one context to another, but a bit of realism will go a long way.
+
+## 3. Role level{.h4-style}
+
+A company can hire someone and give them the title 'Chief Delivery Officer' (or whatever equivalent: client services director; head of professional services; project management office lead; etc.), but if they're then buried umpteen levels down in the organisation no one is going to be happy.
+
+The role should have an enterprise-wide remit and whole-business perspective. The leadership qualities and strategic thinking capacity will be clear in the hiring process, so the CDO needs to have the level in the business to get stuff done.
+
+## 4. Resistance to change{.h4-style}
+
+This role is a disruptive role, in all likeliness, demanding the organisation makes changes in various places and to numerous company functions — to practices and processes, at the level both of strategy and execution.
+
+If the business does not cope well with change then this will create challenges and potential conflicts. Clearly this will need careful management, with wise forethought and good planning, expecting change and making accommodations as needed. But if you don't want to change, maybe don't hire a CDO.
+
+## 5. Company culture{.h4-style}
+
+Mistakes will be made — delivery is a people-centric role, and people, even experienced people, get stuff wrong. Then they learn, and make things better.
+
+A Chief Delivery Officer will demand changes, and innovation and adaptation involves making mistakes. If your organisation has a culture that does not tolerate mistakes, then a CDO may not be for you.
+
+## 6. Organisational structure{.h4-style}
+
+This role is necessarily one that pushes forward for enterprise-level change and needs the authority to make decisions that affects elements across the whole business. However, many organisations are structured to resist that.
+
+Businesses that are structured so that decision-making is directed from a very specific angle, driven by a specific concept of commercial goals, for instance, or are otherwise not open to a collaborative working relationship with a part of the business that your clients experience most closely, then hiring a CDO may probe problematic.
+
+## 7. Experience{.h4-style}
+
+## 8. Budget{.h4-style}
