@@ -75,4 +75,4 @@ However, your CDO will also need a dedicated budget to support the changes they 
 
 As you plan to hire a Chief Delivery Officer, it's wise to give due consideration to these classic issues. There may be others that you can identify that are specific to your situation, your industry, or your company's specialism.
 
-You do not necessarily need to have them all covered in advance, but it is smart to at least have thought about them and have a view on how you will address them. Having the shape of a response to each of these items and you will prevent yourself from starting out poorly, and instead be ready to take the journey towards success for you, your CDO, your team, and your customers.
+You don't necessarily need to have them all covered in advance, but it is smart to at least have thought about them and have a view on how you will address them. Having the shape of a response to each of these items and you will prevent yourself from starting out poorly, and instead be ready to take the journey towards success for you, your CDO, your team, and your customers.
