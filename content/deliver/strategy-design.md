@@ -1,5 +1,5 @@
 ---
-title: Delivery Strategy Design
+title: Strategy Design
 layout: page.njk
 type: page
 description: Effective delivery strategy, operating model and implementation tools that align with your business goals
