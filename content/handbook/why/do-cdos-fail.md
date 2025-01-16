@@ -21,9 +21,9 @@ metadata:
 
 *G*{.drop-first}iven that it's such a good idea to hire a Chief Delivery Officer, then, what can go wrong? What might make a CDO fail? And are there ways that you can prevent that happening in your organisation? Investing time, money and effort in a CDO is a significant thing with plenty of risks associated, as we've said, but if you know in advance what could go wrong you stand a better chance of things going right.
 
-There's plenty of reasons why a Chief Delivery Officer could fail and this isn't an exhaustive list by any means, but avoiding these pitfalls will help you find a good path towards success. Many are obvious, but that does not make them the easiest to handle. Others may need a little extra head scratching.
+There's plenty of reasons why a Chief Delivery Officer could fail and this isn't an exhaustive list by any means, but avoiding these pitfalls will help you find a good path towards success. Many are obvious, but that doesn't make them the easiest to handle. Others may need a little extra head scratching.
 
-## 1. Job Done{.h4-style}
+## 1. Job done{.h4-style}
 
 Hiring a CDO is more than a tick in a box. It doesn't absolve the rest of the business from responsibilities for what the company does for its customers, and it doesn't simply make client delivery the CDO's problem. It's better, instead, to think of the role of Chief Delivery Officer as a point of focus for what you do for your customers.
 
@@ -45,19 +45,19 @@ The role should have an enterprise-wide remit and whole-business perspective. Th
 
 This role is a disruptive role, in all likeliness, demanding the organisation makes changes in various places and to numerous company functions — to practices and processes, at the level both of strategy and execution.
 
-If the business does not cope well with change then this will create challenges and potential conflicts. Clearly this will need careful management, with wise forethought and good planning, expecting change and making accommodations as needed. But if you don't want to change, maybe don't hire a CDO.
+If the business doesn't cope well with change then this will create challenges and potential conflicts. Clearly this will need careful management, with wise forethought and good planning, expecting change and making accommodations as needed. But if you don't want to change, maybe don't hire a CDO.
 
 ## 5. Company culture{.h4-style}
 
 Mistakes will be made — delivery is a people-centric role, and people, even experienced people, get stuff wrong. Then they learn, and make things better.
 
-A Chief Delivery Officer will demand changes, and innovation and adaptation involves making mistakes. If your organisation has a culture that does not tolerate mistakes, then a CDO may not be for you.
+A Chief Delivery Officer will demand changes, and innovation and adaptation involves making mistakes. If your organisation has a culture that doesn't tolerate mistakes, then a CDO may not be for you.
 
 ## 6. Organisational structure{.h4-style}
 
 This role is necessarily one that pushes forward for enterprise-level change and needs the authority to make decisions that affects elements across the whole business. However, many organisations are structured to resist that.
 
-Businesses that are structured so that decision-making is directed from a very specific angle, driven by a specific concept of commercial goals, for instance, or are otherwise not open to a collaborative working relationship with a part of the business that your clients experience most closely, then hiring a CDO may probe problematic.
+Businesses that are structured so that decision-making is directed from a very specific angle, driven by a specific concept of commercial goals, for instance, or are otherwise not open to a collaborative working relationship with a part of the business that your clients experience most closely, then hiring a CDO may prove problematic.
 
 ## 7. Experience{.h4-style}
 
