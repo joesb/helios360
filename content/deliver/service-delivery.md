@@ -22,23 +22,23 @@ tags:
 
 Although project and service delivery necessarily will vary from one context to another, these core principles are essential in every environment:
 
-### 1. Focus on user needs{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none }
+### 1. Focus on user needs{.text-color-brand-secondary .margin-block-start-md .margin-block-end-none }
 
   Services are only effective where they respond to true users' needs, solving real problems.{.padding-inline-start-vlg .paragraph-narrow}
 
-### 2. Deliver iteratively{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none}
+### 2. Deliver iteratively{.text-color-brand-secondary .margin-block-start-md .margin-block-end-none}
 
   Deliver value to users fast, take feedback, make improvements. Repeat.{.padding-inline-start-vlg .paragraph-narrow}
 
-### 3. Keep improving how the team works{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none}
+### 3. Keep improving how the team works{.text-color-brand-secondary .margin-block-start-md .margin-block-end-none}
 
   Keep talking with the team to hear what's working and identify what's not. Agree ways to fix things, and do it.{.padding-inline-start-vlg .paragraph-narrow}
 
-### 4. Fail fast and learn quickly{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none}
+### 4. Fail fast and learn quickly{.text-color-brand-secondary .margin-block-start-md .margin-block-end-none}
 
   Prevent major failures by making small failures first _and learning from them_. Demonstrate value to senior stakeholders by releasing regularly, with evaluation on key metrics.{.padding-inline-start-vlg .paragraph-narrow}
 
-### 5. Keep planning{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none}
+### 5. Keep planning{.text-color-brand-secondary .margin-block-start-md .margin-block-end-none}
 
   Use data and usage patterns to review the work and continually make plans with the delivery team for the next steps, based on progress and new insights.{.padding-inline-start-vlg .paragraph-narrow}
 
@@ -46,23 +46,23 @@ Although project and service delivery necessarily will vary from one context to 
 
 ## The process
 
-### 1. Delivery management{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none }
+### 1. Delivery management{.text-color-brand-secondary .margin-block-start-md .margin-block-end-none }
 
 Oversee the end-to-end delivery of client services, everything up to complex multi-supplier, multi-team cross-functional projects.{.padding-inline-start-vlg .paragraph-narrow}
 
-### 2. Solution delivery excellence{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none }
+### 2. Solution delivery excellence{.text-color-brand-secondary .margin-block-start-md .margin-block-end-none }
 
 Embedding user research and design thinking disciplines into the core of solution delivery so solutions meet user needs and deliver measurable business outcomes. Identifying areas for improvement and implementing.{.padding-inline-start-vlg .paragraph-narrow}
 
-### 3. Account growth and development{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none }
+### 3. Account growth and development{.text-color-brand-secondary .margin-block-start-md .margin-block-end-none }
 
 Drive account growth through healthy client relationships and successful project delivery and by identifying new opportunities, leading to repeat business.{.padding-inline-start-vlg .paragraph-narrow}
 
-### 4. Forecasting and review{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none }
+### 4. Forecasting and review{.text-color-brand-secondary .margin-block-start-md .margin-block-end-none }
 
   Accurate and timely projections based on project milestones, client spend, and resource allocation, tracking actual project performance against revenue forecasts; identifying and addressing discrepancies.{.padding-inline-start-vlg .paragraph-narrow}
 
-### 5. Communication and negotiation{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none }
+### 5. Communication and negotiation{.text-color-brand-secondary .margin-block-start-md .margin-block-end-none }
 
   Primary point of contact for clients, providing strategic guidance and ensuring project alignment with business objectives. Effective collaboration with internal and external stakeholders of all levels of seniority. Driving project success and managing expectations.{.padding-inline-start-vlg .paragraph-narrow}
 
