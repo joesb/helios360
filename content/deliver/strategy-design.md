@@ -1,5 +1,5 @@
 ---
-title: Strategy Design
+title: Strategy Design for Client Delivery
 layout: page.njk
 type: page
 description: Effective delivery strategy, operating model and implementation tools that align with your business goals
