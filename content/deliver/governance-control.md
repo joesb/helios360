@@ -2,7 +2,7 @@
 title: Governance & Control
 layout: page.njk
 type: page
-description: Project management that provides the essential control, governance, and metrics for successful project delivery.
+description: Project management service that provides the essential control, governance, and metrics for successful project delivery.
 jumbotron: |
   **Governance and control is essential for successful delivery of any client project or change implementation.**
 
@@ -15,6 +15,9 @@ eleventyNavigation:
   order: 20
 tags:
   - '#servicePromoted'
+meta:
+  title: Governance & Control
+  description: Project management service that provides the essential control, governance, and metrics for successful project delivery.
 ---
 
 Effective delivery depends on the project governance that is appropriate, with a clear view of what's planned, what's been achieved, and what's next. This view is built on meaningful metrics, efficient risk management, and clear communication to enable thoughtful project controls and effective decision making.
