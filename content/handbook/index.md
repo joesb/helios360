@@ -21,7 +21,7 @@ image:
   classes:
     - content-canvas-item-wide-left-sm
     - content-canvas-item-left--span-3
-metadata:
+pagemeta:
   show: true
 ---
 
