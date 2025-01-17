@@ -21,7 +21,7 @@ navOptions:
   activeAnchorClass: "index-nav--list-item--link--active"
   activeKey: eleventyNavigation.key
   anchorClass: "index-nav--item--link"
-metadata:
+pagemeta:
   show: false
   readingTime: true
 ---
@@ -55,7 +55,7 @@ metadata:
           {% include "layouts/components/jumbotron.njk" %}
         {% endif %}
 
-      {% if metadata.show %}
+      {% if pagemeta.show %}
       {% include "layouts/components/page-metadata.njk" %}
 		  {% endif %}
         

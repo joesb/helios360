@@ -15,7 +15,7 @@ eleventyNavigation:
   order: 10
 tags:
   - '#handbookWhy'
-metadata:
+pagemeta:
   show: true
 ---
 

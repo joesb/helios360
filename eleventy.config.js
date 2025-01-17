@@ -17,6 +17,7 @@ import UglifyJS from "uglify-js";
 import { inspect } from "util";
 import { DateTime } from "luxon";
 import { minify } from "html-minifier-terser";
+import schema from "@quasibit/eleventy-plugin-schema";
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function(eleventyConfig) {
@@ -36,6 +37,7 @@ export default async function(eleventyConfig) {
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPlugin(eleventyImageOnRequestDuringServePlugin);
   eleventyConfig.addPlugin(pluginRss);
+  eleventyConfig.addPlugin(schema);
   eleventyConfig.addPlugin(timeToRead, {
     speed: '850 characters per minute',
     style: "short"
@@ -49,7 +51,7 @@ export default async function(eleventyConfig) {
 		},
 		metadata: {
 			language: "en",
-			title: "Helios 360",
+			title: "Helios360",
 			subtitle: "Management Consulting for Client Services and Gen-AI Delivery",
 			base: "https://helios360.co.uk",
 			author: {
