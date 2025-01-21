@@ -18,7 +18,7 @@ tags:
 pagemeta:
   show: true
 image:
-  social: /public/images/source/pexels-cottonbro-5971257.jpg
+  social: content/public/images/source/pexels-cottonbro-5971257.jpg
   classes:
     - content-canvas-item-wide-left-sm
     - content-canvas-item-left--span-3
