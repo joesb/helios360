@@ -34,7 +34,7 @@ meta:
 3. At what level of seniority will they sit?
 4. What and how are you going to invest in customer delivery?
 
-You need to have worked through the first question before you can make progress with to the other three, and hopefully this *Handbook* will help you to wrestle with the issues this question poses. The answers to the subsequent three questions will determine the reach and scope that the CDO will have. Even the best CDO around will be able to have little impact if they are stuck in the day-to-day of specific customer project work and never get the chance to stand on higher ground, to take the time to survey the horizon and build plans.
+You need to have worked through the first question before you can make progress with the other three, and hopefully this *Handbook* will help you to wrestle with the issues this question poses. The answers to the subsequent three questions will determine the reach and scope that the CDO will have. Even the best CDO around will be able to have little impact if they are stuck in the day-to-day of specific customer project work and never get the chance to stand on higher ground, to take the time to survey the horizon and build plans.
 
 Here, then, are some initial pointers for ways you can think about these things so that the CDO and the organisation are both set up for success. For context, though, it's important to remember [why the business needs a Chief Delivery Officer](/handbook/why/you-need-a-cdo/) in the first place.
 
