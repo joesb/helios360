@@ -17,6 +17,11 @@ tags:
   - '#handbookWhy'
 pagemeta:
   show: true
+image:
+  social: /public/images/source/pexels-cottonbro-5971257.jpg
+  classes:
+    - content-canvas-item-wide-left-sm
+    - content-canvas-item-left--span-3
 meta:
   title: Get the best from your Chief Delivery Officer
   description: Key questions that you need to ask yourself about the CDO/CSD position and why it's important to you.
@@ -37,7 +42,11 @@ Here, then, are some initial pointers for ways you can think about these things 
 
 We'll discuss terminology below, but for now let's consider the several aspects of client-facing roles, what's similar or shared between them, and what's distinctive about customer delivery. With that in mind it will be clearer to understand if and why customer delivery could or should be separated out from other roles, which will then help to determine what you want your Chief Delivery Officer to achieve.
 
-Whilst the sales portion of the business interacts with your customers, until they move out of the 'prospect' phase and move closer towards that 'pre-contract' phase then a customer, in truth, isn't really a customer. This latter stage of the customer journey is often referred to as pre-sales, characterised by demonstrations and technical reviews, evaluations and trials, and so on. It's fair to say then that this pre-sales stage is a customer-facing role, even though it's part of the sales experience of the customer journey.
+{% ImgFigure '<a href="https://www.pexels.com/photo/woman-using-laptop-inside-an-office-5971257/" target="_blank" rel="noopener nofollow ugc">Photo</a> by <a href="https://www.pexels.com/@cottonbro/" target="_blank" rel="noopener nofollow ugc">cottonbro studio</a>', image.classes %}
+![Woman Using Laptop Inside an Office](/public/images/source/pexels-cottonbro-5971257.jpg){.image-rounded eleventy:widths="200,350,500"}
+{% endImgFigure %}
+
+Whilst the sales portion of the business interacts with your customers, until they move out of the 'prospect' phase and move closer towards that 'pre-contract' phase then a customer, in truth, isn't really a customer. This latter stage of the customer journey is often referred to as pre-sales, characterised by demonstrations and technical reviews, evaluations and trials, and so on. It's fair to say then that this pre-sales stage is a customer-facing role, even though it's part of the sales experience of the customer journey.{.content-canvas-item-main-left-main-end}
 
 There's also an important part of the customer journey that (usually) follows on from the project delivery stage, once the work you've done for your client is in live service, whether that's a digital tool or system in live usage, a marketing strategy that's being implemented, a brand in action, or whatever. At this stage, your customer is trying to make best use of what you've created for them, to execute it successfully, to find new, interesting and innovative ways to use it and to work out what to do next. This phase is often referred to as 'customer success', and period of a special relationship with your customer that may see many opportunities for new business with them.
 
