@@ -31,7 +31,7 @@ Before you become or you hire a Chief Delivery Officer, you need to consider the
 
 You need to have worked through the first question before you can make progress with to the other three, and hopefully this *Handbook* will help you to wrestle with the issues this question poses. The answers to the subsequent three questions will determine the reach and scope that the CDO will have. Even the best CDO around will be able to have little impact if they are stuck in the day-to-day of specific customer project work and never get the chance to stand on higher ground, to take the time to survey the horizon and build plans.
 
-Here, then, are some initial pointers for ways you can think about these things so that the CDO and the organisation are both set up for success.
+Here, then, are some initial pointers for ways you can think about these things so that the CDO and the organisation are both set up for success. For context, though, it's important to remember [why the business needs a Chief Delivery Officer](/handbook/why/you-need-a-cdo/) in the first place.
 
 ## This or that
 
@@ -68,7 +68,27 @@ It can save you headaches: in transferring knowledge, and in maintaining a coher
 
 &nbsp;
 
-Whichever tack you prefer to take, the objective for your CDO will be different. With the first, your CDO is a collaborator with others, working as one of a team to create a unified customer experience from beginning to end. It also defines the relationship between your business and your customers — that they are something the business does something *for*. With the second, your CDO is responsible for the whole customer journey, with a strategy that has a whole arc from beginning to end.
+Whichever tack you prefer to take, the objective for your CDO will be different.
+
+With the first, your CDO is a collaborator with others, working as one of a team to create a unified customer experience from beginning to end. There's obvious benefits here for the business in the dependency on a collaborative organisational culture. It also defines the relationship between your business and your customers — that they are something the business does something *for*.
+
+With the second, your CDO is responsible for the whole customer journey, with a strategy that has a whole arc from beginning to end. The benefit for the business here is in having a single person with an oversight of the customer experience, bringing coherence from start to end. This approach can also foster a closer collaborative relationship with your customers — they are something the business does something *with*.
+
+## Where, what, and how
+
+Where the CDO is found in the organisation will depend, then, on the above. But it may also be a decision that is shaped by other internal factors, particularly on internal politics. This is something to be very mindful of, something that happens in any organisation, any body of people, with every new role. But it's something that's not sustainable and you will need a good, healthy response.
+
+Companies naturally change and evolve in response to events and conditions. People naturally move around in the business, and come into or move out of the company. What you want to guard against is losing valuable people, capabilities, corporate knowledge, and so on, as a result of personality clashes or perceived slight. Doing the work in advanced to understand where your Chief Delivery Officer sits in the business and why will save you a lot of pain later on.
+
+The essential guiding principle when adding a CDO role is that it needs to be in a business function that allows the CDO to have an effect across the whole company. Delivering for the organisations customers or service users is not solely the responsibility of the delivery team, it's a key focus for the whole business. Customers will not have the same sense of boundaries as the team, they're just buying a product or service from your company — organisational structure and internal politics are meaningless to the outside of the business. You should not contain your Chief Delivery Officer in a silo if you want to get the best value from them.
+
+The level of responsibility you give to the CDO role is just as significant. You have options with pros and cons for each, so they need to be considered carefully.
+
+If they **report directly to the CEO**{.text-color-brand-secondary} it'll make a powerful statement about the importance of client delivery, but you will need to think about the ramifications for others at that top leadership level.{.padding-inline-start-vlg}
+
+Conversely, you could **locate your client delivery lead inside an existing office**{.text-color-brand-secondary} in the business, such as technology or production (if you're a digital or design or marketing business), or even operations, say. That can make things tidy within an existing organisational structure, and be the position that makes the fewest changes and ruffles the fewest feathers. The problem, though, is it also contains the notion that 'customers are the responsibility of the whole business' inside an existing box.{.padding-inline-start-vlg}
+
+So a third option, and maybe the most natural, is to find a **cross-functional location**{.text-color-brand-secondary} in the business, so your CDO is not in a silo and can do full justice to the role.{.padding-inline-start-vlg}
 
 ---
 
