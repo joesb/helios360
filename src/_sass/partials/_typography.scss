@@ -260,6 +260,10 @@ h6,
   max-inline-size: var(--size-content-1);
 }
 
+.paragraph-full {
+  max-inline-size: unset;
+}
+
 
 
 // Coloured text

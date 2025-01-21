@@ -84,11 +84,11 @@ The essential guiding principle when adding a CDO role is that it needs to be in
 
 The level of responsibility you give to the CDO role is just as significant. You have options with pros and cons for each, so they need to be considered carefully.
 
-If they **report directly to the CEO**{.text-color-brand-secondary} it'll make a powerful statement about the importance of client delivery, but you will need to think about the ramifications for others at that top leadership level.{.padding-inline-start-vlg}
+1. If they **report directly to the CEO**{.text-color-brand-secondary} it'll make a powerful statement about the importance of client delivery, but you'll need to think about the ramifications for others at that top leadership level.{.paragraph-full}
+2. Conversely, you could **locate your client delivery lead inside an existing office**{.text-color-brand-secondary} in the business, such as technology or production (if you're a digital or design or marketing business), or even operations, say. That can make things tidy within an existing organisational structure, and be the position that makes the fewest changes and ruffles the fewest feathers. The problem, though, is it also contains the notion that 'customers are the responsibility of the whole business' inside an existing box.{.paragraph-full}
+3. So a third option, and maybe the most natural, is to find a **cross-functional location**{.text-color-brand-secondary} in the business, so your CDO is not in a silo and can do full justice to the role. It's important for the CDO to sit close the creative and production parts of the business but, as we've discussed, these are not the only parts of the business looking after customers and their concerns. That means that sitting close to the business with a degree of autonomy is probably important.{.paragraph-full}
 
-Conversely, you could **locate your client delivery lead inside an existing office**{.text-color-brand-secondary} in the business, such as technology or production (if you're a digital or design or marketing business), or even operations, say. That can make things tidy within an existing organisational structure, and be the position that makes the fewest changes and ruffles the fewest feathers. The problem, though, is it also contains the notion that 'customers are the responsibility of the whole business' inside an existing box.{.padding-inline-start-vlg}
-
-So a third option, and maybe the most natural, is to find a **cross-functional location**{.text-color-brand-secondary} in the business, so your CDO is not in a silo and can do full justice to the role.{.padding-inline-start-vlg}
+Whichever you determine is best for you and your context, do make sure you understand why and what difference it makes.
 
 ---
 
@@ -96,4 +96,8 @@ Before we finish here, let's take a quick look a terminology.
 
 Throughout the *Handbook* we refer to a 'Chief Delivery Officer' rather than other similar labels such as Client Services Director, a Professional Services lead (more appropriate in product or software-as-a-service [SaaS] businesses), or the head of a Project Management Office (PMO). Whilst some of those titles might make specific sense in certain contexts they don't necessarily in others (a 'director', for instance, commonly implies a board-level role, but it's increasingly used for roles of slightly-more-senior managers of things).
 
-There's also roles and responsibilities that are closely connected, such as 'customer success' — many of these are dimensions of sales processes, but the customer's experience of the company should be differentiated by the stage they're at. Moreover, all of it is part of what they're being delivered — the thinking about what they want and need (the sales stage), actually doing the thing for them (the delivery stage), and getting the most out of it or even planning what next (the success stage).
+There's also roles and responsibilities that are closely connected, as discussed above, such as 'customer success' — many of these are dimensions of sales processes, but the customer's experience of the company should be differentiated by the stage they're at. Moreover, all of it is part of what they're being delivered — the thinking about what they want and need (the sales stage), actually doing the thing for them (the delivery stage), and getting the most out of it or even planning what next (the success stage).
+
+Here, though, in the *Handbook* we will continue to use the label 'Chief Delivery Officer' primarily, and CDO as the contraction. Usually when the other terms slip in, it's to indicate a particular context or usage.
+
+Lastly, note also that despite the CDO covering lots of what might be called 'project management', we're opting to use the word 'delivery' rather than 'project' because we're using a *verb* rather than a *noun* — the Chief Delivery Officer is *doing* something, taking a thing from *here* to *there* and making sure it does that safely, rather than managing an unwieldy and unruly thing to bring it to order. *Active, rather than passive.*
