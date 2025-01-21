@@ -33,7 +33,7 @@ meta:
 This manual is the result — a thoroughgoing guidebook for service delivery for agencies and product companies.
 
 {% ImgFigure '<a href="https://www.pexels.com/photo/a-basketball-team-in-a-huddle-6767008/" target="_blank" rel="noopener nofollow ugc">Photo</a> by <a href="https://www.pexels.com/@cottonbro/" target="_blank" rel="noopener nofollow ugc">cottonbro studio</a>', image.classes %}
-![A Basketball Team in a Huddle](/public/images/source/pexels-cottonbro-6767008.jpg ){.image-rounded eleventy:widths="200,350,500"}
+![A Basketball Team in a Huddle](/public/images/source/pexels-cottonbro-6767008.jpg){.image-rounded eleventy:widths="200,350,500"}
 {% endImgFigure %}
 
 A combination of a playbook and a reference tool, *The Chief Delivery Officer's Handbook* is designed to accelerate your route to learning, with insights into the role of Chief Delivery Officer (CDO), a Client Services Director (CSD) or Project Management Office lead (PMO), their place in the business and their role with customers.{.content-canvas-item-main-left-main-end}
