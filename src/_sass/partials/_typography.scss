@@ -1,6 +1,6 @@
 @use "../common/variables";
 @use "../tools/mixins";
-@use "../tools/px-to-rem";
+@use "../tools/px-to-rem" as px;
 
 /* ==========================================================================
 TYPOGRAPHY
@@ -297,10 +297,11 @@ h6,
   float: left;
   font-size: 7rem;
   font-weight: 700;
-  line-height: 5.5rem;
+  line-height: 5.25rem;
   text-transform: uppercase;
   box-sizing: border-box;
-  margin-right: 4px;
+  margin-inline-end: px.px-to-rem(5px);
+  margin-block-end: px.px-to-rem(5px);
   vertical-align: text-top;
 
   &:is(em) {
