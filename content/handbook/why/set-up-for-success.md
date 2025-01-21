@@ -2,7 +2,7 @@
 title: "Set up for success: get the best from your Chief Delivery Officer"
 description: Get the best from a CDO — ask yourself these questions about the position and why it's important to you.
 layout: page.njk
-date: 2024-12-16T12:20:00Z
+date: 2025-01-21T12:20:00Z
 pending: false
 jumbotron: |
   Before you hire a Client Services Director or Chief Delivery Officer or you take on the role in a business yourself, there's some key questions that you need to ask about the position and why it's important to you.
