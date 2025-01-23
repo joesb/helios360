@@ -1,6 +1,6 @@
 ---
-title: "Set up for success: get the best from your Chief Delivery Officer"
-description: Get the best from a CDO — ask yourself these questions about the position and why it's important to you.
+title: "Get the best from your Chief Delivery Officer"
+description: Ask yourself these questions about the position and why it's important to you so you and your CDO are set up for success.
 layout: page.njk
 date: 2025-01-21T12:20:00Z
 pending: false
