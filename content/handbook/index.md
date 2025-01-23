@@ -23,6 +23,7 @@ image:
     - content-canvas-item-left--span-3
 pagemeta:
   show: true
+  readingTime: false
 meta:
   title: The Chief Delivery Officer's Handbook
   description: An essential guide to leading delivery projects, teams and programs for agencies, client service businesses and SaaS product companies, with insights and guidance for professional services directors, client services directors, and other delivery principal roles.
