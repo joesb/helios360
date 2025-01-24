@@ -240,6 +240,10 @@ h6,
   font-size: larger;
 }
 
+.large {
+  font-size: var(--font-size-fluid-1);
+}
+
 .text-inherit {
   font-size: inherit;
 }
