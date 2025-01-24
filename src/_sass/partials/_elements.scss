@@ -74,6 +74,11 @@ html {
 
 :where(a):where([href]) {
   color: var(--color-brand-primary);
+
+  &:where(:hover),
+  &:where(:visited) {
+    text-decoration-color: var(--color-brand-primary);
+  }
 }
 
 :where(a):where(:not(:hover)) {
