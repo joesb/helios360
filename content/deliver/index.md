@@ -14,6 +14,5 @@ showNav: false
 indexListType: simple
 eleventyNavigation:
   key: Delivery
-  hide: true
   parent: Home
 ---
