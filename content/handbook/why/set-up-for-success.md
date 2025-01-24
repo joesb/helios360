@@ -34,9 +34,23 @@ meta:
 3. At what level of seniority will they sit?
 4. What and how are you going to invest in customer delivery?
 
-You need to have worked through the first question before you can make progress with the other three, and hopefully this *Handbook* will help you to wrestle with the issues this question poses. The answers to the subsequent three questions will determine the reach and scope that the Chief Delivery Officer will have. Even the best CDO around will be able to have little impact if they are stuck in the day-to-day of specific customer project work and never get the chance to stand on higher ground, to take the time to survey the horizon, build plans, and work out how to execute them.
+You need to have worked through the first question before you can make progress with the other three, and hopefully this *Handbook* will help you to wrestle with the issues this question poses. The answers to the subsequent three questions will determine the reach and scope that the Chief Delivery Officer will have. Even the best CDO around will be able to have little impact if they are stuck in the day-to-day of specific customer project work and never get the chance to stand on higher ground, to take the time to survey the horizon, build plans, and work out how to execute them. But first they need clear objectives to work towards.
 
 Here, then, are some initial pointers for ways you can think about these things so that the CDO and the organisation are both set up for success. For context, though, it's important to remember [why the business needs a Chief Delivery Officer](/handbook/why/you-need-a-cdo/) in the first place.
+
+## A place for focus
+
+Delivery touches every part of the company, all pulling together to shape your clients' experience. But the  needs of the business will likely depend on your organisational ambitions.
+
+*👉*{.drop-first .drop-first-vsm .margin-inline-end-md} You may need someone to lead from the front, setting and maintaining the standards, giving confidence to your customers and your team, handling escalation.{.padding-inline-start-lg}
+
+*👉*{.drop-first .drop-first-vsm .margin-inline-end-md} You may need someone to design your delivery strategy — bringing order out of chaos, so you have coherence, consistency, and high performance in what you do for your clients.{.padding-inline-start-lg}
+
+*👉*{.drop-first .drop-first-vsm .margin-inline-end-md} You may need someone to work specifically on improving project governance — meaningful metrics, efficient risk management, and clear communication with your customers that enables thoughtful project oversight and effective decision making.{.padding-inline-start-lg}
+
+*👉*{.drop-first .drop-first-vsm .margin-inline-end-md} You may need someone to build your team, enabling and equipping capable people to perform at their best, bringing different skills and capabilities into alignment to deliver as one high-functioning team.{.padding-inline-start-lg}
+
+Work out what you want to achieve is the first step. That'll help to frame the job description and those vital early conversations so you and your CDO understand where you're aiming together.
 
 ## This or that
 

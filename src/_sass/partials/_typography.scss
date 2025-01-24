@@ -304,12 +304,23 @@ h6,
   line-height: 5.25rem;
   text-transform: uppercase;
   box-sizing: border-box;
+  margin-block-start: px.px-to-rem(3px);
   margin-inline-end: px.px-to-rem(5px);
   margin-block-end: px.px-to-rem(5px);
   vertical-align: text-top;
 
   &:is(em) {
     font-style: normal;
+  }
+
+  &.drop-first-sm {
+    font-size: 2.5rem;
+    line-height: 1.875rem;
+  }
+
+  &.drop-first-vsm {
+    font-size: 2rem;
+    line-height: 1.5rem;
   }
 }
 
