@@ -40,7 +40,7 @@ Here, then, are some initial pointers for ways you can think about these things 
 
 ## A place for focus
 
-Delivery touches every part of the company, all pulling together to shape your clients' experience. But the  needs of the business will likely depend on your organisational ambitions.
+Delivery touches every part of the company, all pulling together to shape your clients' experience. But the needs of the business will likely depend on your organisational ambitions.
 
 *👉*{.drop-first .drop-first-vsm .margin-inline-end-md} You may need someone to lead from the front, setting and maintaining the standards, giving confidence to your customers and your team, handling escalation.{.padding-inline-start-lg}
 
@@ -51,6 +51,10 @@ Delivery touches every part of the company, all pulling together to shape your c
 *👉*{.drop-first .drop-first-vsm .margin-inline-end-md} You may need someone to build your team, enabling and equipping capable people to perform at their best, bringing different skills and capabilities into alignment to deliver as one high-functioning team.{.padding-inline-start-lg}
 
 Work out what you want to achieve is the first step. That'll help to frame the job description and those vital early conversations so you and your CDO understand where you're aiming together.
+
+Here's some key things to keep in mind as you consider what you want your CDO to achieve, though.
+
+We'll talk more in due course about how you can [understand (and probably measure) the impact of your CDO](/handbook/why/measuring-success/). For now, though, just keep this in mind: if you set an objective, it be framed by a specific result to aim at.
 
 ## This or that
 
