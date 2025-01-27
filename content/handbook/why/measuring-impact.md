@@ -23,7 +23,7 @@ image:
     - content-canvas-item-left--span-3
 ---
 
-Having spent some time [considering the focus for the CDO](/handbook/why/set-up-for-success/), what you need them to achieve, you also want to understand the progress being made towards those outcomes.
+*H*{.drop-first}aving spent some time [considering the focus for the CDO](/handbook/why/set-up-for-success/), what you need them to achieve, you also want to understand the progress being made towards those outcomes.
 
 These categories are common ones to use for determining impact.
 
