@@ -1,6 +1,6 @@
 ---
 title: Understanding the impact of a Chief Delivery Officer
-description: Topics for measuring the CDO's impact, both qualitative and quantitative.
+description: Key topics for measuring the CDO's impact, both qualitative and quantitative.
 layout: page.njk
 date: 2025-01-24T12:30:00Z
 jumbotron: |
@@ -21,6 +21,9 @@ image:
   classes:
     - content-canvas-item-wide-left-sm
     - content-canvas-item-left--span-3
+meta:
+  title: Understanding the impact of a Chief Delivery Officer
+  description: Key topics for measuring the CDO's impact, both qualitative and quantitative
 ---
 
 *H*{.drop-first}aving spent some time [considering the focus for the CDO](/handbook/why/set-up-for-success/), what you need them to achieve, you also want to understand the progress being made towards those outcomes.
