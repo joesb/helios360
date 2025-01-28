@@ -2,18 +2,19 @@
 title: What makes a Chief Delivery Officer?
 description: The focus, skills and responsibilities of a CDO
 layout: section.njk
-jumbotron: "A high-level look at the focus, skills and responsibilities of a Chief Delivery Officer, a Client Services Director, or a Professional Services Director"
-pending: true
-date: 2024-12-04
+jumbotron: |
+  An overview of the focus, skills and responsibilities of a Chief Delivery Officer, to help understand the role and appreciate the capabilities and characteristics required for a CDO.
+pending: false
+date: 2025-01-28
 eleventyNavigation:
   key: What makes a CDO?
   parent: Handbook
   root: Handbook
   order: 20
+listTitle: In this section
+listSource: handbookWhat
 tags:
   - '#handbookPromoted'
 ---
 
-Commodo veniam, duis nostrud enim. Nostrud enim aliqua ea tempor. Aliqua ea tempor proident adipiscing incididunt velit duis. Tempor, proident adipiscing incididunt velit duis incididunt excepteur. Incididunt, velit duis incididunt. Incididunt, excepteur exercitation tempor duis fugiat. Tempor duis fugiat sed est officia excepteur sit. Fugiat sed est officia excepteur sit aliqua laborum. Est officia excepteur sit aliqua laborum. Excepteur sit aliqua laborum pariatur est aliquip.
-
-Veniam duis nostrud enim aliqua ea, tempor. Enim aliqua ea tempor proident adipiscing incididunt. Ea tempor proident adipiscing, incididunt velit duis. Adipiscing incididunt velit, duis. Duis incididunt excepteur exercitation tempor duis. Excepteur exercitation tempor duis fugiat. Tempor duis fugiat sed est officia excepteur sit. Fugiat sed est officia excepteur sit aliqua laborum. Est officia excepteur sit aliqua laborum.
+This section is mostly aimed at the Chief Delivery Officer themselves, current or aspiring, whatever title is given to the role — Chief Service Delivery Officer (CSDO); Client Services Director (CSD); Professional Services Directors (PSD); or lead or head of a Project Management Office (PMO). But the chapter may also be useful for founders and executive teams considering adding a CDO to the organisation — what skills and characteristics should you be looking for when you're recruiting someone to this role?
