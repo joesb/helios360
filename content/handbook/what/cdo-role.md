@@ -1,5 +1,5 @@
 ---
-title: The Chief Delivery Officer's Role
+title: The Chief Delivery Officer's role
 description: The role and purpose of a Chief Delivery Officer in an organisation
 layout: page.njk
 jumbotron: |

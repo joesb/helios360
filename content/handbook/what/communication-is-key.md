@@ -1,5 +1,5 @@
 ---
-title: The Essential Foundation of Communication
+title: The essential foundation of communication
 description: Showing leadership in what and how a business communicates with customers
 layout: page.njk
 jumbotron: |
