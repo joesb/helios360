@@ -1,6 +1,6 @@
 ---
 title: Why do Chief Delivery Officers fail?
-description: Know the most obvious pitfalls in advance to handle those upfront and create a fertile environment for success.
+description: Know the most obvious pitfalls in advance to handle those upfront and create a fertile environment for success
 layout: page.njk
 date: 2025-01-15T17:50:00Z
 pending: false
@@ -19,7 +19,7 @@ pagemeta:
   show: true
 meta:
   title: Why do Chief Delivery Officers fail?
-  description: Know the most obvious pitfalls in advance to handle those upfront and create a fertile environment for success.
+  description: Know the most obvious pitfalls in advance to handle those upfront and create a fertile environment for success
 ---
 
 *G*{.drop-first}iven that it's such a good idea to hire a Chief Delivery Officer, then, what can go wrong? What might make a CDO fail? And are there ways that you can prevent that happening in your organisation? Investing time, money and effort in a CDO is a significant thing with plenty of risks associated, as we've said, but if you know in advance what could go wrong you stand a better chance of things going right.

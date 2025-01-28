@@ -247,6 +247,12 @@ export default async function(eleventyConfig) {
     return nav.length ? sortByOrder(nav, 'eleventyNavigation') : [];
   });
 
+  // Handbook: What collection
+  eleventyConfig.addCollection('handbookWhat', (collection) => {
+    var nav = collection.getFilteredByTag('#handbookWhat');
+    return nav.length ? sortByOrder(nav, 'eleventyNavigation') : [];
+  });
+
 
   function sortByOrder(collection, field = 'order', andSticky = false) {
     if (field == 'eleventyNavigation') {
