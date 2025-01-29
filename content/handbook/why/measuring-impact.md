@@ -17,7 +17,7 @@ tags:
 pagemeta:
   show: true
 image:
-  social: content/public/images/source/pexels-peter-klauss-2083233-3726313-social.jpg
+  social: content/public/images/source/pexels-peter-klauss-2083233-3726313.jpg
   classes:
     - content-canvas-item-wide-left-sm
     - content-canvas-item-left--span-3
