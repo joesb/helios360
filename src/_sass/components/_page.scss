@@ -146,4 +146,15 @@
       font-style: italic;
     }
   }
+
+  &.bq-alt-2 {
+    margin-inline-start: unset;
+    font-family: var(--font-primary);
+    font-size: inherit;
+    font-style: normal;
+
+    em {
+      font-style: italic;
+    }
+  }
 }
