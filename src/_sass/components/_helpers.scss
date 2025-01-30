@@ -228,6 +228,14 @@
   @include mx.border(block-start, 2px);
 }
 
+.border-block-start-md {
+  @include mx.border(block-start, 5px);
+}
+
 .border-block-end {
   @include mx.border(block-end, 2px);
+}
+
+.border-block-end-md {
+  @include mx.border(block-end, 5px);
 }
