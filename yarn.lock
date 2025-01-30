@@ -2408,6 +2408,7 @@ __metadata:
     inspect: ^0.0.2
     luxon: ^3.5.0
     markdown-it: ^14.1.0
+    markdown-it-anchor: ^9.2.0
     markdown-it-attrs: ^4.3.1
     markdown-it-eleventy-img: ^0.10.2
     markdown-it-underline: ^1.0.1
@@ -2984,6 +2985,16 @@ __metadata:
     promise-retry: "npm:^2.0.1"
     ssri: "npm:^10.0.0"
   checksum: 5c9fad695579b79488fa100da05777213dd9365222f85e4757630f8dd2a21a79ddd3206c78cfd6f9b37346819681782b67900ac847a57cf04190f52dda5343fd
+  languageName: node
+  linkType: hard
+
+"markdown-it-anchor@npm:^9.2.0":
+  version: 9.2.0
+  resolution: "markdown-it-anchor@npm:9.2.0"
+  peerDependencies:
+    "@types/markdown-it": "*"
+    markdown-it: "*"
+  checksum: 63f9ab99332d90fc09f8cede359f4c7f1c8d9765a0cd4d006538a072a9b5c9069e4e962c246ad7bc7a87a3ebb7e655e9f22f60e696ad855bdb51b7bfbae65c33
   languageName: node
   linkType: hard
 

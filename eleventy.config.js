@@ -2,6 +2,7 @@ import { IdAttributePlugin, InputPathToUrlTransformPlugin, EleventyHtmlBasePlugi
 import markdownIt from "markdown-it";
 import markdownItAttrs from "markdown-it-attrs";
 import markdownItUnderline from "markdown-it-underline";
+import markdownItAnchor from "markdown-it-anchor";
 import Image from "@11ty/eleventy-img";
 import markdownIt11tyImage from "markdown-it-eleventy-img";
 import { eleventyImageOnRequestDuringServePlugin } from "@11ty/eleventy-img";
@@ -287,6 +288,14 @@ export default async function(eleventyConfig) {
     html: true,
     breaks: true,
     linkify: true
+  }).use(markdownItAnchor, {
+    permalink: markdownItAnchor.permalink.ariaHidden({
+      placement: "after",
+      class: "direct-link do-not-display",
+      symbol: "#",
+      level: [1,2,3,4],
+    }),
+    slugify: eleventyConfig.getFilter("slug")
   }).use(markdownItAttrs).use(markdownItUnderline);
   eleventyConfig.setLibrary("md", markdownLibrary);
 

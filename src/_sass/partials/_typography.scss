@@ -48,13 +48,15 @@ h6,
 
   // heading direct link hover
   &:not(.hide-permalink) {
+    padding-inline-end: 1.25rem;
+
     &:hover {
       .direct-link {
         font-size: var(--font-size-fluid-1);
 
         &.do-not-display {
           position: absolute;
-          top: -1.5rem;
+          top: 0;
           right: 0;
           color: var(--color-brand-primary);
           display: inline;

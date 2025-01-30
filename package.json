@@ -34,6 +34,7 @@
     "inspect": "^0.0.2",
     "luxon": "^3.5.0",
     "markdown-it": "^14.1.0",
+    "markdown-it-anchor": "^9.2.0",
     "markdown-it-attrs": "^4.3.1",
     "markdown-it-eleventy-img": "^0.10.2",
     "markdown-it-underline": "^1.0.1",
