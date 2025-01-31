@@ -2515,6 +2515,7 @@ __metadata:
     markdown-it: ^14.1.0
     markdown-it-anchor: ^9.2.0
     markdown-it-attrs: ^4.3.1
+    markdown-it-deflist: ^3.0.0
     markdown-it-eleventy-img: ^0.10.2
     markdown-it-underline: ^1.0.1
     postcss: ^8.5.1
@@ -3143,6 +3144,13 @@ __metadata:
   peerDependencies:
     markdown-it: ">= 9.0.0"
   checksum: 907458ef50372c3a557f883e961ba05a126c6d08878d7e6551a80e4ea19eb2589f486d7d702a771ad4746599ff00ec3cab5416b99ebc93a07e4e4c64237420ec
+  languageName: node
+  linkType: hard
+
+"markdown-it-deflist@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "markdown-it-deflist@npm:3.0.0"
+  checksum: c2419cbfb327d53ae6a821fd021fe12a2f415b45f903686a7b86a8be3e995e851e2dbcfb8b6f53925d2228e64c2ba901e8d65c38db1683cc577a1700162ddde5
   languageName: node
   linkType: hard
 
