@@ -66,10 +66,38 @@ Service delivery does not sit in sweet isolation, of course. It's a core part of
 
 Coherence throughout that customer journey is vital.
 
-- The CDO's delivery strategy and its execution will, in part, determine what that customer journey looks like and how it functions.
+- The CDO's delivery strategy and its execution will determine what that customer journey looks like and how it functions.
 - The CDO's delivery strategy and its execution will make demands on the marketing and sales process, so that the 'right' customers in the 'right' state are purchasing products and services from the business.
 - The CDO's delivery strategy and its execution will define how successfully your customers use your products and services, and whether they come back as continued clients or even but more from you.
 
 In summary, then, the Chief Delivery Officer is the person responsible for how you deliver your services and products. That gives them a distinctive and vital contribution to role to play at the executive level.
 
-### Delivery aligned with business goals
+### Delivery alignment
+
+The second part here is about the orientation of the company's service delivery, both the strategy and the execution.
+
+There's two areas of focus when deciding how to shape the service delivery:
+
+1. aligned with **business goals**
+2. aligned with **customer needs**
+
+**Note:** the term 'customer' is being used in a very broad sense with this second focus, and tucked inside are *users* — the people who will actually be using the thing being addressed in your delivery project.{.smaller .italic}
+
+These two are distinct from each other, and it's rare to find them parallel let alone convergent. They may even be perpendicular. As a consequence, the role of the CDO requires the ability to hold a creative tension between business goals and customer (and user) needs.
+
+In other words, the CDO will find themselves sitting in a strange in between place, as advocates of both the customer and the business. Balancing those needs, which may often be competing, is a key challenge.
+
+Here's some things to remember:
+
+The customer has bought something{.text-color-brand-secondary}
+  : And they should rightly expect something in return
+
+The customer is not always right{.text-color-brand-secondary}
+  : Despite the adage, your highest duty is to bring clarity to your clients, to help them achieve the right outcomes — you do that as experts in your field, and you bring that expertise to your delivery
+
+The business has a vision and a direction of travel{.text-color-brand-secondary}
+  : What you do for your clients must allow the company to take the next step on the path there
+
+The business doesn't need to get there in one go{.text-color-brand-secondary}
+  : The path to the business's goals will be a zigzag route. Some latitude is important — as long as the trend is in the right direction, all good. And there's lots to learn along the way, lots of which could end up being useful for the journey as a whole.
+
