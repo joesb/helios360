@@ -127,3 +127,7 @@ html {
     }
   }
 }
+
+:where(dd) {
+  margin-inline-start: var(--size-5);
+}

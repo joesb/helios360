@@ -1,3 +1,5 @@
+@use "../tools/mixins" as mx;
+
 // Margin helpers
 .margin-none {
   margin: 0 !important;
@@ -104,31 +106,31 @@
 }
 
 .margin-vlg {
-  margin: var(--size-7) !important;
+  margin: var(--size-8) !important;
 }
 
 .margin-block-vlg {
-  margin-block: var(--size-7) !important;
+  margin-block: var(--size-8) !important;
 }
 
 .margin-inline-vlg {
-  margin-inline: var(--size-7) !important;
+  margin-inline: var(--size-8) !important;
 }
 
 .margin-block-start-vlg {
-  margin-block-start: var(--size-7) !important;
+  margin-block-start: var(--size-8) !important;
 }
 
 .margin-inline-start-vlg {
-  margin-inline-start: var(--size-7) !important;
+  margin-inline-start: var(--size-8) !important;
 }
 
 .margin-block-end-vlg {
-  margin-block-end: var(--size-7) !important;
+  margin-block-end: var(--size-8) !important;
 }
 
 .margin-inline-end-vlg {
-  margin-inline-end: var(--size-7) !important;
+  margin-inline-end: var(--size-8) !important;
 }
 
 // Padding helpers
@@ -201,21 +203,39 @@
 }
 
 .padding-inline-vlg {
-  padding-inline: var(--size-7) !important;
+  padding-inline: var(--size-8) !important;
 }
 
 .padding-block-start-vlg {
-  padding-block-start: var(--size-7) !important;
+  padding-block-start: var(--size-8) !important;
 }
 
 .padding-inline-start-vlg {
-  padding-inline-start: var(--size-7) !important;
+  padding-inline-start: var(--size-8) !important;
 }
 
 .padding-block-end-vlg {
-  padding-block-end: var(--size-7) !important;
+  padding-block-end: var(--size-8) !important;
 }
 
 .padding-inline-end-vlg {
-  padding-inline-end: var(--size-7) !important;
+  padding-inline-end: var(--size-8) !important;
+}
+
+// Borders
+
+.border-block-start {
+  @include mx.border(block-start, 2px);
+}
+
+.border-block-start-md {
+  @include mx.border(block-start, 5px);
+}
+
+.border-block-end {
+  @include mx.border(block-end, 2px);
+}
+
+.border-block-end-md {
+  @include mx.border(block-end, 5px);
 }
