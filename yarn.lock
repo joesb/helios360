@@ -49,7 +49,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@11ty/eleventy-fetch@npm:^4.0.0, @11ty/eleventy-fetch@npm:^4.0.1":
+"@11ty/eleventy-fetch@npm:^4.0.0":
   version: 4.0.1
   resolution: "@11ty/eleventy-fetch@npm:4.0.1"
   dependencies:
@@ -58,6 +58,19 @@ __metadata:
     node-fetch: "npm:^2.6.7"
     p-queue: "npm:^6.6.2"
   checksum: 98d0f56ebe8027c1f94a27dbce1c215ffa819037f90b357ce693467a0adbc167b7b8e9e0f93d67236fd2670c027c1155192478c7f4e6b35aeae36d002699db85
+  languageName: node
+  linkType: hard
+
+"@11ty/eleventy-fetch@npm:^5.0.2":
+  version: 5.0.2
+  resolution: "@11ty/eleventy-fetch@npm:5.0.2"
+  dependencies:
+    "@rgrove/parse-xml": ^4.2.0
+    debug: ^4.3.7
+    flat-cache: ^6.1.1
+    graceful-fs: ^4.2.11
+    p-queue: 6.6.2
+  checksum: c6fa41b2d4383b1fad560ee6f9b65e346dde44cb5fd8321308d0ea989e8679258c43dfabab82348e72fcaf6738251e7cae18e376d1d5bc2dacb3e14a540f0e99
   languageName: node
   linkType: hard
 
@@ -76,19 +89,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@11ty/eleventy-img@npm:^5.0.0":
-  version: 5.0.0
-  resolution: "@11ty/eleventy-img@npm:5.0.0"
+"@11ty/eleventy-img@npm:^6.0.1":
+  version: 6.0.1
+  resolution: "@11ty/eleventy-img@npm:6.0.1"
   dependencies:
-    "@11ty/eleventy-fetch": "npm:^4.0.1"
-    "@11ty/eleventy-utils": "npm:^1.0.3"
-    brotli-size: "npm:^4.0.0"
-    debug: "npm:^4.3.7"
-    entities: "npm:^5.0.0"
-    image-size: "npm:^1.1.1"
-    p-queue: "npm:^6.6.2"
-    sharp: "npm:^0.33.5"
-  checksum: 2365575d17a9a12610645ab82717c37af65ccd4b3d461fda3079e427d56a15f108090dab5ec26ae85bc0147ebf1abf0ec449f7586667a83ee9d2caa9ff9f98ea
+    "@11ty/eleventy-fetch": ^5.0.2
+    "@11ty/eleventy-utils": ^2.0.0
+    brotli-size: ^4.0.0
+    debug: ^4.4.0
+    entities: ^6.0.0
+    image-size: ^1.2.0
+    p-queue: ^6.6.2
+    sharp: ^0.33.5
+  checksum: 9184391383d3c389249760aff4f9bade4c4c775001e752e8e5d612f88e160e70b982a629f9f3c7b76d78e89c2bd1d785d5a7a686711594c7b922aa909ed0458a
   languageName: node
   linkType: hard
 
@@ -741,6 +754,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@keyv/serialize@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "@keyv/serialize@npm:1.0.2"
+  dependencies:
+    buffer: ^6.0.3
+  checksum: c1788186d490521d67f3f6367effe2a2ccf2804960f449d728dc50a65ff2840501865f95ed5181c4b773cdeed61ebedb01c0f781a881034c8f3dafc1b98fef12
+  languageName: node
+  linkType: hard
+
 "@nodelib/fs.scandir@npm:2.1.5":
   version: 2.1.5
   resolution: "@nodelib/fs.scandir@npm:2.1.5"
@@ -968,6 +990,13 @@ __metadata:
     react: ^18.0 || ^19.0 || ^19.0.0-rc
     react-dom: ^18.0 || ^19.0 || ^19.0.0-rc
   checksum: 4caa2eca37c1e128edbc2095949a07566cb9f1cf8e855d4e3a338832dd4d010fd25548b2ed296b46547e7b182aa6a5ba68b36dd18631ed6f79786dc0f547c755
+  languageName: node
+  linkType: hard
+
+"@rgrove/parse-xml@npm:^4.2.0":
+  version: 4.2.0
+  resolution: "@rgrove/parse-xml@npm:4.2.0"
+  checksum: 4f746303386bdf3b07af4703c4212653f7d8b24158f3b5647b8d9646753517e55cfc64f6aa952b8e1ed9ce82b344eb73ce56f467d527bfe41ca4a2bdd8e34193
   languageName: node
   linkType: hard
 
@@ -1203,6 +1232,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"base64-js@npm:^1.3.1":
+  version: 1.5.1
+  resolution: "base64-js@npm:1.5.1"
+  checksum: 669632eb3745404c2f822a18fc3a0122d2f9a7a13f7fb8b5823ee19d1d2ff9ee5b52c53367176ea4ad093c332fd5ab4bd0ebae5a8e27917a4105a4cfc86b1005
+  languageName: node
+  linkType: hard
+
 "bcp-47-match@npm:^2.0.0":
   version: 2.0.3
   resolution: "bcp-47-match@npm:2.0.3"
@@ -1303,6 +1339,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"buffer@npm:^6.0.3":
+  version: 6.0.3
+  resolution: "buffer@npm:6.0.3"
+  dependencies:
+    base64-js: ^1.3.1
+    ieee754: ^1.2.1
+  checksum: 5ad23293d9a731e4318e420025800b42bf0d264004c0286c8cc010af7a270c7a0f6522e84f54b9ad65cbd6db20b8badbfd8d2ebf4f80fa03dab093b89e68c3f9
+  languageName: node
+  linkType: hard
+
 "cacache@npm:^18.0.0":
   version: 18.0.4
   resolution: "cacache@npm:18.0.4"
@@ -1320,6 +1366,16 @@ __metadata:
     tar: "npm:^6.1.11"
     unique-filename: "npm:^3.0.0"
   checksum: b7422c113b4ec750f33beeca0f426a0024c28e3172f332218f48f963e5b970647fa1ac05679fe5bb448832c51efea9fda4456b9a95c3a1af1105fe6c1833cde2
+  languageName: node
+  linkType: hard
+
+"cacheable@npm:^1.8.8":
+  version: 1.8.8
+  resolution: "cacheable@npm:1.8.8"
+  dependencies:
+    hookified: ^1.7.0
+    keyv: ^5.2.3
+  checksum: 1bf786d12874a9fb4ab3dea91e1c72bcfc405de691154ffd6e19cb869f416d0be9e6958e1ed7d558d2ead65cc1417c0761b2dc6c8e42af1277108201fea9ca50
   languageName: node
   linkType: hard
 
@@ -1858,6 +1914,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"entities@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "entities@npm:6.0.0"
+  checksum: 4e964b5549b0f1e7a88836527d38181aa7b2f87222ed2424e78309781b17212de684c84094435f53bea69a7e7e2505268fd96772af166adb686d086d64361435
+  languageName: node
+  linkType: hard
+
 "env-paths@npm:^2.2.0":
   version: 2.2.1
   resolution: "env-paths@npm:2.2.1"
@@ -2154,7 +2217,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"flatted@npm:^3.2.9":
+"flat-cache@npm:^6.1.1":
+  version: 6.1.6
+  resolution: "flat-cache@npm:6.1.6"
+  dependencies:
+    cacheable: ^1.8.8
+    flatted: ^3.3.2
+    hookified: ^1.7.0
+  checksum: c5e4eb30222951b7eaf4153f0285795b196ea5e0575d5061eda4527e3cb1c02c524f3b55fae3da756359d15e0b737766300a5ccfc14553e7fbf924a36d5a566e
+  languageName: node
+  linkType: hard
+
+"flatted@npm:^3.2.9, flatted@npm:^3.3.2":
   version: 3.3.2
   resolution: "flatted@npm:3.3.2"
   checksum: ac3c159742e01d0e860a861164bcfd35bb567ccbebb8a0dd041e61cf3c64a435b917dd1e7ed1c380c2ebca85735fb16644485ec33665bc6aafc3b316aa1eed44
@@ -2427,7 +2501,7 @@ __metadata:
   resolution: "helios360@workspace:."
   dependencies:
     "@11ty/eleventy": ^3.0.0
-    "@11ty/eleventy-img": ^5.0.0
+    "@11ty/eleventy-img": ^6.0.1
     "@11ty/eleventy-navigation": ^0.3.5
     "@11ty/eleventy-plugin-rss": ^2.0.3
     "@quasibit/eleventy-plugin-schema": ^1.11.1
@@ -2454,6 +2528,13 @@ __metadata:
     wrangler: ^3.95.0
   languageName: unknown
   linkType: soft
+
+"hookified@npm:^1.7.0":
+  version: 1.7.0
+  resolution: "hookified@npm:1.7.0"
+  checksum: a7c8059540dcce84b0c72e0145c12cd90efd6f1feeed584dad68dca380f0b9fb46c27160915d0060ab8337eb66275c195b45a399869cee6ecb2eda0149feb1d2
+  languageName: node
+  linkType: hard
 
 "html-minifier-terser@npm:^7.2.0":
   version: 7.2.0
@@ -2565,6 +2646,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"ieee754@npm:^1.2.1":
+  version: 1.2.1
+  resolution: "ieee754@npm:1.2.1"
+  checksum: 5144c0c9815e54ada181d80a0b810221a253562422e7c6c3a60b1901154184f49326ec239d618c416c1c5945a2e197107aee8d986a3dd836b53dffefd99b5e7e
+  languageName: node
+  linkType: hard
+
 "ignore@npm:^5.2.4":
   version: 5.3.2
   resolution: "ignore@npm:5.3.2"
@@ -2580,6 +2668,17 @@ __metadata:
   bin:
     image-size: bin/image-size.js
   checksum: 23b3a515dded89e7f967d52b885b430d6a5a903da954fce703130bfb6069d738d80e6588efd29acfaf5b6933424a56535aa7bf06867e4ebd0250c2ee51f19a4a
+  languageName: node
+  linkType: hard
+
+"image-size@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "image-size@npm:1.2.0"
+  dependencies:
+    queue: 6.0.2
+  bin:
+    image-size: bin/image-size.js
+  checksum: 6264ae22ea6f349480c5305f84cd1e64f9757442abf4baac79e29519cba38f7ccab90488996e5e4d0c232b2f44dc720576fdf3e7e63c161e49eb1d099e563f82
   languageName: node
   linkType: hard
 
@@ -2889,6 +2988,15 @@ __metadata:
   dependencies:
     json-buffer: "npm:3.0.1"
   checksum: 74a24395b1c34bd44ad5cb2b49140d087553e170625240b86755a6604cd65aa16efdbdeae5cdb17ba1284a0fbb25ad06263755dbc71b8d8b06f74232ce3cdd72
+  languageName: node
+  linkType: hard
+
+"keyv@npm:^5.2.3":
+  version: 5.2.3
+  resolution: "keyv@npm:5.2.3"
+  dependencies:
+    "@keyv/serialize": ^1.0.2
+  checksum: b317a71550431ba6238bc8c71ce9ab263560df2227ca7933f7a3f18f0fa1a931312b02951cbcce9d316689709f67c5e4a4095e8e6b9aa13d19ce82c5dd7293e2
   languageName: node
   linkType: hard
 
@@ -3516,7 +3624,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"p-queue@npm:^6.6.2":
+"p-queue@npm:6.6.2, p-queue@npm:^6.6.2":
   version: 6.6.2
   resolution: "p-queue@npm:6.6.2"
   dependencies:
