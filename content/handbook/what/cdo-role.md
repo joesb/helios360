@@ -7,7 +7,7 @@ jumbotron: |
 
   What does a CDO actually do, and why is that important?
 pending: false
-date: 2025-01-28
+date: 2025-01-31
 eleventyNavigation:
   key: The CDO role
   parent: What makes a CDO?
