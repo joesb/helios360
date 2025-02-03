@@ -113,17 +113,16 @@ The CDO is bringing a specific focus to the organisation: delivering for custome
 
 Of course, the business will already have been doing this for a long time — whether its a service business, where service delivery is the essence of their offer, or a product business where client services are a wrap-around element for their product, the company will not have been able to get to the current place without delivering stuff for customers.
 
-However, the arrival of a Chief Delivery Officer is a signal that the business intends to raise the prominence of its clients' experience — that the customer journey will have a new importance for the organisation, that it's essential to the future of the business.
+However, the arrival of a Chief Delivery Officer is a signal that the business intends to raise the prominence of its clients' experience — that the customer journey will have a new importance for the organisation, that it's essential to the future of the business. It's a really good sign if the organisation wants to bring customers into the heart of what they do. We'll talk more about the motivations for this elsewhere. For now, though, keep in mind that understanding what motivations are the driving for of this move is really important when you're taking on the role as a Chief Delivery Officer.
 
-That means the CDO is responsible for the whole delivery lifecycle (the actual elements of the lifecycle are outside this current discussion — we'll cover that elsewhere), from one end to another, ensuring coherence, professionalism and agility throughout. That requires a multi-dimensional perspective on what is meant by service or project delivery.
+That means the CDO is responsible for the whole delivery lifecycle for the company's customers (the actual elements of the lifecycle are outside this current discussion — we'll cover that elsewhere), from one end to another, ensuring coherence, professionalism and agility throughout. That requires a multi-dimensional perspective on what is meant by service or project delivery.
 
 - That means planning and execution
 - That means governance, management and steering
 - That means quality and standards
+- That means metrics and insights
 - That means client communication, negotiation, and expectation management
 - That means forecasting and financial management
 - That means team support and leadership
 
-Yes, you're ensuring work for customers move smoothly through all the steps, from beginning to successful end. But at every step along that path you need to be taking different views simultaneously.
-
-It's a really good sign if the organisation wants to bring customers into the heart of what they do. We'll talk more about the motivations for this elsewhere. For now, though, keep in mind that understanding what motivations are the driving for of this move is really important when you're taking on the role as a Chief Delivery Officer.
+Yes, you're ensuring work for customers moves smoothly through all the steps, from beginning to successful end. But at every step along that path you need to be able to combine different views. As the CDO, you're building the practices, processes and tools that enable that, all wrapped around with a thoroughgoing professionalism to give coherence to the customer journey.
