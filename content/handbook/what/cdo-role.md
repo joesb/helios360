@@ -36,7 +36,7 @@ The role of Chief Delivery Officer is a relatively new label for a set of duties
 
 ## So, what actually is a Chief Delivery Officer?
 
-We've already set out a definition of the Chief Delivery Officer previously, at the [beginning of this *Handbook*](/handbook/), but it may be useful to reiterate some of that here.
+We've already set out a definition of the Chief Delivery Officer previously, at the [beginning of this *Handbook*](/handbook/#what-is-a-chief-delivery-officer), but it may be useful to reiterate some of that here.
 
 > The Chief Delivery Officer (CDO) is a key leadership role.
 >
@@ -101,3 +101,29 @@ The business has a vision and a direction of travel{.text-color-brand-secondary}
 The business doesn't need to get there in one go{.text-color-brand-secondary}
   : The path to the business's goals will be a zigzag route. Some latitude is important — as long as the trend is in the right direction, all good. And there's lots to learn along the way, lots of which could end up being useful for the journey as a whole.
 
+---
+
+## Delivering what?
+
+So, now it's time to get more specific, taking on the next section of our [working definition of a CDO](/handbook/#what-is-a-chief-delivery-officer):
+
+> A Chief Delivery Officer is responsible for the successful delivery of projects through the entire delivery lifecycle, from discovery, planning and design through execution and onwards into live service and evaluation. This usually means the delivery of a service for customers, commonly in creative and digital agencies or for product or SaaS companies, but could just as well apply in large infrastructure or transformation projects and programs as well.
+
+The CDO is bringing a specific focus to the organisation: delivering for customers.
+
+Of course, the business will already have been doing this for a long time — whether its a service business, where service delivery is the essence of their offer, or a product business where client services are a wrap-around element for their product, the company will not have been able to get to the current place without delivering stuff for customers.
+
+However, the arrival of a Chief Delivery Officer is a signal that the business intends to raise the prominence of its clients' experience — that the customer journey will have a new importance for the organisation, that it's essential to the future of the business.
+
+That means the CDO is responsible for the whole delivery lifecycle (the actual elements of the lifecycle are outside this current discussion — we'll cover that elsewhere), from one end to another, ensuring coherence, professionalism and agility throughout. That requires a multi-dimensional perspective on what is meant by service or project delivery.
+
+- That means planning and execution
+- That means governance, management and steering
+- That means quality and standards
+- That means client communication, negotiation, and expectation management
+- That means forecasting and financial management
+- That means team support and leadership
+
+Yes, you're ensuring work for customers move smoothly through all the steps, from beginning to successful end. But at every step along that path you need to be taking different views simultaneously.
+
+It's a really good sign if the organisation wants to bring customers into the heart of what they do. We'll talk more about the motivations for this elsewhere. For now, though, keep in mind that understanding what motivations are the driving for of this move is really important when you're taking on the role as a Chief Delivery Officer.

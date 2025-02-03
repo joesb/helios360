@@ -1,5 +1,5 @@
 @use "../common/variables";
-@use "../tools/px-to-rem";
+@use "../tools/px-to-rem" as ptr;
 @use "../tools/respond-to";
 
 /* ==========================================================================
@@ -15,7 +15,7 @@ body {
     "foot foot foot foot foot"
   ;
   grid-template-columns: 2fr 1fr minmax(30ch, variables.$break-large) 1fr 2fr;
-  grid-template-rows: minmax(px-to-rem.px-to-rem(100px), auto) auto auto;
+  grid-template-rows: minmax(ptr.px-to-rem(100px), auto) auto auto;
 }
 
 header {
