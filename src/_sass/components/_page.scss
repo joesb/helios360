@@ -12,6 +12,10 @@
   .h2-style,
   .h3-style {
     margin-block: 3rem 0.75rem;
+
+    &:first-of-type {
+      margin-block-start: 0.75rem;
+    }
   }
 
   h4,
