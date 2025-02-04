@@ -126,3 +126,43 @@ That means the CDO is responsible for the whole delivery lifecycle for the compa
 - That means team support and leadership
 
 Yes, you're ensuring work for customers moves smoothly through all the steps, from beginning to successful end. But at every step along that path you need to be able to combine different views. As the CDO, you're building the practices, processes and tools that enable that, all wrapped around with a thoroughgoing professionalism to give coherence to the customer journey.
+
+---
+
+## Foundations for a reputation
+
+The next part of our [working definition of a CDO](/handbook/#what-is-a-chief-delivery-officer) describes an element that is often overlooked:
+
+> More than overseeing delivery, though, the Chief Delivery Officer is the focus point for a customer's experience of the business. Service delivery is often the part of the business that clients experience most closely and, done well, is a foundation stone for an organisation's reputation.
+
+A customer's most direct experience of the business is at the time they are using what it offers. This period is crucial for defining the organisation's reputation.
+
+For a service business, that's *most* of what they do for their customers. But it's also true for product businesses.
+
+For example:
+
+iPhone users experience of Apple is largely mediated by the device in their hand. But all iPhone users will have wandered into an Apple store at some point or another, and the experience of the Apple store is every bit as significant as the device itself — the minimalist design aesthetic and the way their products are displayed; no pay points, no cash registers; the sheer number of staff on the floor, all knowledgeable, with their own expertise; the support desk is called the Genius Bar; and so on.
+
+These are all part of Apple's service delivery that is wrapped around their products, and they all contribute to an iPhone user's sense to Apple as a company. That service experience is essential to Apple's reputation and every person in those primary-colour t-shirts contributes to that.
+
+This is the realm of the Chief Delivery Officer — what customers experience of the company and how they experience it as they're using it's services.
+
+### The professionalism cornerstone
+
+What this means in practice is your task.
+
+- You define the delivery processes, from beginning to middle to end.
+- You set out the elements of the lifecycle (again, more on those elsewhere)
+- You choose what happens when at all the steps along the way, and even what names are used for those steps
+- You create the tools and toolkits that make it happen
+- You support the delivery team to do their best work within that framework
+- You set the tenor for how you communicate with clients, with the rest of the business, and with each other
+- You set the language, the vocabulary, and the tone of voice
+- You determine what to measure, and when, and how
+- You choose how that data is used to make decisions about the future of the organisation
+
+This is how you, the Chief Delivery Officer, present a professional experience of the business. This is the framework for service delivery for which you are responsible, and to which you give shape and body. When these components are slick and polished, when they all work together as one coherent whole, then you are doing your best work.
+
+Professionalism across each of these things is how ambitious businesses distinguish themselves from the rest.
+
+We'll be exploring all of these in greater depths as we progress through the *Handbook*, of course.
