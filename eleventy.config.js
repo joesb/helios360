@@ -20,6 +20,7 @@ import { inspect } from "util";
 import { DateTime } from "luxon";
 import { minify } from "html-minifier-terser";
 import schema from "@quasibit/eleventy-plugin-schema";
+import pluginTOC from "eleventy-plugin-toc";
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function(eleventyConfig) {
@@ -40,6 +41,11 @@ export default async function(eleventyConfig) {
   eleventyConfig.addPlugin(eleventyImageOnRequestDuringServePlugin);
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(schema);
+  eleventyConfig.addPlugin(pluginTOC, {
+    tags: ['h2', 'h3', 'h4'],
+    wrapper: 'nav',
+    wrapperClass: 'page-toc'
+  });
   eleventyConfig.addPlugin(timeToRead, {
     speed: '850 characters per minute',
     style: "short"
