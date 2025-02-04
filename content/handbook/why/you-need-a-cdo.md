@@ -40,7 +40,7 @@ Firstly, of course they did — they wouldn’t be in business otherwise.
 
 However, secondly, it quite likely that the business hasn't actually been doing that well, struggling in one or more aspects of delivering for clients, without acknowledging it or really understanding why. Sometimes, it's obvious that something's not working — stressed staff, unhappy clients, missed deadlines, etc. Sometimes, it's only through interpreting secondary symptoms that you realise there's a problem — the business feels like it's hit a ceiling of growth that it just can't push through, say. Sometimes, it's just a sense that the founder(s) or CEO has that things could be better.
 
-## Delivery, Governance, Strategy
+## Delivery, governance, strategy
 
 Projects need people to manage them. Work for clients needs people to be responsible for making sure it gets delivered, making sure the right people are doing the right things at the right time in the right way, with the resources and tools they need to get it done, with problems identified and risks raised and all handled appropriately to keep things on track and to get things to the destination as planned.
 
@@ -54,7 +54,7 @@ Project management and delivery skills are important, and it's vital to have ski
 
 There's two dimensions here where more is required, one that is mostly outward-facing, one looking more inwards. For the first, for client work to be and remain healthy it needs more than project management. With the second, for the business itself to improve and grow it needs more than people delivering (more) stuff. The broad labels for each of these two aspects are 'governance' and 'strategy'.
 
-#### Governance:
+#### Governance
 
 Both client projects and healthy customer relationships depend on good governance, including things like:
 
@@ -66,7 +66,7 @@ Both client projects and healthy customer relationships depend on good governanc
 
 … and so on.
 
-#### Strategy:
+#### Strategy
 
 As the business grows in its capabilities and its size, the capacity for delivery needs to increase as well, which means a focus on:
 
@@ -80,7 +80,7 @@ As the business grows in its capabilities and its size, the capacity for deliver
 
 … and so on.
 
-## The Value of a CDO
+## The value of a CDO
 
 All together, a Chief Delivery Officer brings a whole-organisation and cross-functional perspective to what the business does for its customers — the CDO will bring an essential unifying view to things in the business that are often otherwise disconnected, joining together marketing with relationship management, design with finance with sales, engineering with HR, and so on.
 

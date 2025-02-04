@@ -162,3 +162,16 @@
     }
   }
 }
+
+.page-toc {
+  ul,
+  ol {
+    list-style: none;
+    width: 100%;
+    padding-inline-start: 0;
+
+    > * {
+      padding-inline-start: 1rem;
+    }
+  }
+}

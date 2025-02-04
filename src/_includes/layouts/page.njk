@@ -55,10 +55,15 @@ pagemeta:
           {% include "layouts/components/jumbotron.njk" %}
         {% endif %}
 
+      <aside>
+        <h2 class="h3-style">Covered here:</h2>
+      {{ content | toc | safe }}
+      </aside>
+
       {% if pagemeta.show %}
       {% include "layouts/components/page-metadata.njk" %}
 		  {% endif %}
-        
+
         {{ content | safe }}
       {% endif %}
 
