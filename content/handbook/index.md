@@ -61,6 +61,8 @@ A CDO is responsible for the successful delivery of projects through the entire 
 
 More than overseeing delivery, though, the Chief Delivery Officer is the focus point for a customer's experience of the business. Service delivery is often the part of the business that clients experience most closely and, done well, is a foundation stone for an organisation's reputation.{.padding-inline-start-lg}
 
-Consequently, the CDO takes the responsibility for a large part of the customer journey. They design and execute a delivery strategy that aligns with the company's business goals, operating capabilities, sector and specialisms, and their clients' needs. They lead and support the company's delivery teams — the delivery managers, designers, engineers, consultants, analysts, and so on — making sure they have the training, resources, tools, processes and guidance that results in coherence across the business and enables consistently high-quality outcomes for customers.{.padding-inline-start-lg .margin-block-end-vlg .padding-block-end-vlg .border-block-end-md}
+Consequently, the CDO takes the responsibility for a large part of the customer journey.{.padding-inline-start-lg}
+
+They design and execute a delivery strategy that aligns with the company's business goals, operating capabilities, sector and specialisms, and their clients' needs. They lead and support the company's delivery teams — the delivery managers, designers, engineers, consultants, analysts, and so on — making sure they have the training, resources, tools, processes and guidance that results in coherence across the business and enables consistently high-quality outcomes for customers.{.padding-inline-start-lg .margin-block-end-vlg .padding-block-end-vlg .border-block-end-md}
 
 We'll come back to this definition in due course, in many other sections of this *Handbook*. For now, though, this is a good place to start.
