@@ -147,15 +147,23 @@ These are all part of Apple's service delivery that is wrapped around their prod
 
 This is the realm of the Chief Delivery Officer — what customers experience of the company and how they experience it as they're using it's services.
 
-### The professionalism cornerstone
+---
+
+## The professionalism cornerstone
+
+And now, in the final part of the [working definition of a CDO](/handbook/#what-is-a-chief-delivery-officer), we look at some of the details and how the CDO brings those details to all work in harmony together:
+
+> Consequently, the CDO takes the responsibility for a large part of the customer journey.
+>
+> They design and execute a delivery strategy that aligns with the company's business goals, operating capabilities, sector and specialisms, and their clients' needs. They lead and support the company's delivery teams — the delivery managers, designers, engineers, consultants, analysts, and so on — making sure they have the training, resources, tools, processes and guidance that results in coherence across the business and enables consistently high-quality outcomes for customers.
 
 What this means in practice is your task.
 
-- You define the delivery processes, from beginning to middle to end.
+- You define the delivery processes, from beginning to middle to end
 - You set out the elements of the lifecycle (again, more on those elsewhere)
 - You choose what happens when at all the steps along the way, and even what names are used for those steps
 - You create the tools and toolkits that make it happen
-- You support the delivery team to do their best work within that framework
+- You support and enable the delivery team to do their best work within that framework
 - You set the tenor for how you communicate with clients, with the rest of the business, and with each other
 - You set the language, the vocabulary, and the tone of voice
 - You determine what to measure, and when, and how
@@ -163,6 +171,6 @@ What this means in practice is your task.
 
 This is how you, the Chief Delivery Officer, present a professional experience of the business. This is the framework for service delivery for which you are responsible, and to which you give shape and body. When these components are slick and polished, when they all work together as one coherent whole, then you are doing your best work.
 
-Professionalism across each of these things is how ambitious businesses distinguish themselves from the rest.
+Professionalism across each of these things is how ambitious businesses distinguish themselves from the rest. Although many of the items in this list are oriented *internally*, these are the how you create and execute a polished and efficient delivery practice. Consequently, *externally*, customers experience that as professionalism. They will feel able to trust you, which you will be able to give them the clarity and quality they expect in return.
 
 We'll be exploring all of these in greater depths as we progress through the *Handbook*, of course.
