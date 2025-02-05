@@ -159,7 +159,7 @@ And now, in the final part of the [working definition of a CDO](/handbook/#what-
 
 What this means in practice is your task.
 
-- You define the delivery processes, from beginning to middle to end.
+- You define the delivery processes, from beginning to middle to end
 - You set out the elements of the lifecycle (again, more on those elsewhere)
 - You choose what happens when at all the steps along the way, and even what names are used for those steps
 - You create the tools and toolkits that make it happen
