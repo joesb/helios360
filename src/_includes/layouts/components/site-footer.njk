@@ -14,7 +14,7 @@
       {% endif %}
     </div>
 
-    <div class="footer-main__links footer__nav">
+    <nav class="footer-main__links footer__nav" role="navigation" aria-label="Footer navigation">
       {% set navPages = collections.all | eleventyNavigation %}
       {% if navPages.length %}
       {% for navPage in navPages %}
@@ -34,7 +34,7 @@
         {% endfor %}
       </ul>
       {% endif %}
-    </div>
+    </nav>
   </div>
 
   {% if env.isProd %}
