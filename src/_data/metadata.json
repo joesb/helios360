@@ -10,7 +10,7 @@
   "footer_links" : [
     {
       "label": "Delivery",
-      "url": "/delivery/",
+      "url": "/deliver/",
       "external": false
     },
     {
