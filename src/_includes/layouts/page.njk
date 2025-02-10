@@ -56,10 +56,13 @@ pagemeta:
           {% endif %}
 
           {% if showTOC != false %}
+          {% set tocContent = content | toc %}
+          {% if tocContent | length %}
           <aside>
             <h2 class="h3-style">Covered here:</h2>
-            {{ content | toc | safe }}
+            {{ tocContent | safe }}
           </aside>
+          {% endif %}
           {% endif %}
 
           {% if pagemeta.show %}
