@@ -27,7 +27,7 @@ It's a multidimensional quality, involving spoken and written communication, hig
 
 Excellence in communication is an essential quality for a CDO.
 
-*👉*{.drop-first .drop-first-vsm .margin-inline-end-md} The CDO needs to give *clarity* at all points of a project's lifecycle, so that everyone with a concern can understand what's being done currently, what's already been done, what's going to be done next, and what will be done in due course — and why.{.padding-inline-start-lg}
+*👉*{.drop-first .drop-first-vsm .margin-inline-end-md} The CDO needs to give *clarity* at all points of a project's lifecycle, so that everyone with a concern can understand what's being done currently, what's already been done, what's going to be done next, what will be done in due course, what won't be done — and why.{.padding-inline-start-lg}
 
 *👉*{.drop-first .drop-first-vsm .margin-inline-end-md} You will need to offer *understanding*, making hard or complex subjects, often technical ones, intelligible and engaging for non-specialists, frequently with the aim of winning hearts and minds for taking a particular path together.{.padding-inline-start-lg}
 
