@@ -21,6 +21,8 @@ image:
   classes:
     - content-canvas-item-wide-left-sm
     - content-canvas-item-left--span-3
+redirect_from:
+  - /handbook/why/measuring-success/
 meta:
   title: Understanding the impact of a Chief Delivery Officer
   description: Key topics for measuring the CDO's impact, both qualitative and quantitative
