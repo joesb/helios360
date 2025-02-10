@@ -37,4 +37,4 @@ Excellence in communication is an essential quality for a CDO.
 
 *👉*{.drop-first .drop-first-vsm .margin-inline-end-md} The CDO will need to be *credible* when communicating with business decision-makers, both on the customer's side and C-suite or leadership team itself, presenting the objectives, the route to take to get there, together with the rationale, the implications, the risks and the benefits.{.padding-inline-start-lg}
 
-*👉*{.drop-first .drop-first-vsm .margin-inline-end-md} The CDO needs to communicate effectively with *experts*, whether on a given subject matter, a technology or platform, a process, or whatever.{.padding-inline-start-lg}
+*👉*{.drop-first .drop-first-vsm .margin-inline-end-md} The CDO needs to communicate effectively and credibly with *experts*, whether on a given subject matter, a technology or platform, a process, or something else, understanding their domain, seeking clarification and conformation and absorbing that knowledge to make use of it as appropriate.{.padding-inline-start-lg}
