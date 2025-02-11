@@ -97,4 +97,4 @@ Effective communicators will use multiple modes of communicating simultaneously 
 
 Gifted communicators will know their audience and perceive their favoured intelligence type(s) and speak with them in that mode.
 
-The most gifted communicators will have their audience think that they are speaking with someone like them — their communication is fully rounded and makes strong and healthy use of as many modes as possible.
+The most gifted communicators will have their audience think that they are speaking with someone like them — the person sounds like them because their communication is fully rounded and makes strong and healthy use simultaneously of as many modes as possible.
