@@ -76,7 +76,7 @@ Usually, people will favour anything from 2 to 4 of these types. Most will make 
 
 There's no need to discuss Gardner's [theory of multiple intelligences](https://en.wikipedia.org/wiki/Theory_of_multiple_intelligences){target=_blank rel="nofollow ugc noreferrer"} fully here (though [reading further on multiple intelligences](https://www.verywellmind.com/gardners-theory-of-multiple-intelligences-2795161){target=_blank rel="nofollow ugc noreferrer"} could be rewarding), and certainly the thesis has [important criticisms](https://en.wikipedia.org/wiki/Theory_of_multiple_intelligences#Criticism){target=_blank rel="nofollow ugc noreferrer"} that should temper an overblown enthusiasm for the concept.
 
-Nonetheless, there are some helpful insights to learn and absorb without needing to adopt Gardner's theory wholescale.
+Nonetheless, there are some helpful insights to learn and absorb without needing to adopt Gardner's theory wholesale.
 
 - People are not uniform. What works well for one person will not work well for another.
 - This simple-powerful understanding is as important in communication as it is in any other work task.
