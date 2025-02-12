@@ -12,6 +12,8 @@ listAllDescriptions: true
 listAllMoreButton: true
 showNav: false
 indexListType: simple
+redirect_from:
+  - /delivery/
 eleventyNavigation:
   key: Delivery
   parent: Home
