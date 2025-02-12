@@ -217,6 +217,10 @@ h6,
   text-transform: uppercase;
 }
 
+.capitalize {
+  text-transform: capitalize;
+}
+
 .hide-text {
   @include mixins.hide-text;
 }

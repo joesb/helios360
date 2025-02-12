@@ -14,6 +14,7 @@ eleventyNavigation:
   order: 20
 tags:
   - '#handbookWhat'
+  - '#handbookPromotedHP'
 meta:
   title: The Central Importance of Communication
   description: Showing leadership in what and how a business communicates

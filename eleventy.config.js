@@ -232,6 +232,12 @@ export default async function(eleventyConfig) {
     return nav.length ? sortByOrder(nav, 'eleventyNavigation') : [];
   });
 
+  // Promoted Handbook Content for Homepage collection
+  eleventyConfig.addCollection('handbookPromotedHP', (collection) => {
+    var nav = collection.getFilteredByTag('#handbookPromotedHP');
+    return nav.length ? sortByOrder(nav, 'eleventyNavigation') : [];
+  });
+
   // Promoted Services collection
   eleventyConfig.addCollection('servicePromoted', (collection) => {
     var nav = collection.getFilteredByTag('#servicePromoted');

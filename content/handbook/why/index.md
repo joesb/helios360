@@ -16,6 +16,7 @@ listTitle: In this section
 listSource: handbookWhy
 tags:
   - '#handbookPromoted'
+  - '#handbookPromotedHP'
 pagemeta:
   show: true
 meta:
