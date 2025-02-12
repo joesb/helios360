@@ -15,6 +15,7 @@ listTitle: In this section
 listSource: handbookWhat
 tags:
   - '#handbookPromoted'
+  - '#handbookPromotedHP'
 ---
 
 This section is mostly aimed at the Chief Delivery Officer themselves, current or aspiring, whatever title is given to the role — Chief Delivery Officer (CDO); Chief Service Delivery Officer (CSDO); Client Services Director (CSD); Professional Services Directors (PSD); or director, lead, or head of a Project Management Office (PMO). But the chapter may also be useful for founders and executive teams considering adding a CDO to the organisation — what skills and characteristics should you be looking for when you're recruiting someone to this role?
