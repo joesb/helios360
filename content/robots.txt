@@ -3,20 +3,6 @@ Allow: /
 Disallow: /admin/
 Disallow: /cdn-cgi/
 
-# Block AI bots
-User-agent: GPTBot
-Disallow: /
-User-agent: ChatGPT-User
-Disallow: /
-
-User-agent: CCBot
-Disallow: /
-
-User-agent: anthropic-ai
-Disallow: /
-User-agent: ClaudeBot
-Disallow: /
-
 
 Host: https://helios360.co.uk/
 
