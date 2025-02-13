@@ -3,7 +3,7 @@ title: The CDO and delivering things
 layout: section.njk
 description: "Think slow, act fast, or the subtle art of getting stuff done"
 jumbotron: |
-  When it comes to delivering for clients, it's common to want to be seen doing things, being busy, making stuff happen. But that's the straight road to Problemsville.
+  When it comes to delivering for clients, it's common to want to be seen doing things, being busy, making stuff happen. But that's the straight and easy road to Problemsville.
 
   So, instead: *think slow, act fast.*
   
