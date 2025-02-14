@@ -6,7 +6,7 @@ jumbotron: |
   Clear and coherent communication is a fundamental requirement for a Chief Delivery Officer, an essential skill that should be particularly well developed.
   
   The CDO is responsible for effective communication between all parties on projects: clear communication is vital to achieve outcomes. The CDO determines what and how a business communicates with customers and stakeholders. And so the the CDO should show distinctive leadership in this key area.{.smaller}
-date: 2025-02-11T12:36:00Z
+date: 2025-02-14T12:19:00Z
 eleventyNavigation:
   key: Excellent communication
   parent: What makes a CDO?
@@ -99,3 +99,87 @@ Effective communicators will use multiple modes of communicating simultaneously 
 Gifted communicators will know their audience and perceive their favoured intelligence type(s) and speak with them in that mode.
 
 The most gifted communicators will have their audience think that they are speaking with someone like them — the person sounds like them because their communication is fully rounded and makes strong and healthy use simultaneously of as many modes as possible.
+
+---
+
+## Communication with customers
+
+During the delivery phase of any work for customers, the organisation's relationship to it's clients is at its closest. It's vital, then, that the type and quality of communication at this stage is at its highest point.
+
+This is a core duty for a CDO, which means communication of this type has to also be a core skill. The CDO chooses the language, the style, and the format of communication for delivery teams, and this is both a reflection and a representation of the personality of the business.
+
+What we're talking about here is *professionalism* in communication with customers.
+
+### Communicating *how* with customers — 'one team'
+
+You are not trying to be the expert in the sector, government or commerce or transport or whatever, when communicating — your clients are the experts in their industry.
+
+Rather the objective of your communication as CDO is to bring diverse and divergent skills and expertise together into *one team* — you and your people, the customer and their people, and suppliers and their people — and enable them to take a task from the very beginning to the very end, consistently.
+
+In terms of communication, that means:
+
+- **at the earliest stages:**
+  - deep and patient listening
+    - to the expertise of your clients
+    - to the experts in your delivery team
+  - asking thoroughgoing questions
+  - playing it back to be confident in what you've learnt
+  - checking, validating and revalidating
+  - interpreting and analysing what you've heard …
+  - … so you can turn that into valid plans
+  - … and checking and rechecking the plans are actually valid (more on this later!)
+- **at later stages:**
+  - explaining
+    - the goals and objectives
+    - the starting place
+    - and the plan for getting from here to there
+  - portraying what has been done
+  - describing what will be done next
+  - preparing what will be done in due course
+  - accounting for what won't be done
+  - … and why
+
+There are lots of ways to do this, and the means you choose will depend on lots of things:
+
+- the type of project
+- the size (and length) of the project
+- the sector or industry for the project
+- the persona of the business
+- the needs of the delivery team
+- your personality and preference(s)
+- and more
+
+#### A note on *frequency*
+
+An important component of how you communicate with customers is about the frequency of your communication. There is nothing harder here than some rules of thumb.
+
+**Firstly,**{.text-color-brand-secondary} more transparency is always better than less, and full transparency is the optimum.{.padding-inline-start-lg}
+
+Most projects go wrong because problems are hidden or withheld until it's too late to do anything about them. The more transparent you are able to be, and the earlier and clearer you talk about problems as one team and work what to do about them.{.padding-inline-start-lg}
+
+**Secondly,**{.text-color-brand-secondary} frequent communication makes it easier to make sure things are clear for everyone involved, helps to prevent misunderstanding, and enables the project work to stay on the right track.{.padding-inline-start-lg}
+
+**Thirdly,**{.text-color-brand-secondary} though, a lot of that will be determined by personalities. Part of your role is making sure your delivery team have what they need to get stuff done, and that often means time to focus. So, while a shared direct messaging  channel (e.g. Slack) can seem helpful, if you have particularly chatty, verbose, or opinionated clients that can cause problems. In cases like this, you may need to protect your team's ability to focus and find a different means for clear and frequent communication with the customer.{.padding-inline-start-lg}
+
+### Communicating *what* with customers
+
+We'll cover many of the specifics in [later sections of this *Handbook*](/handbook/outside/), but for now the things you should have in mind might include:
+
+- **the persona you use in written communication**
+  - especially in emails, but also,
+  - templated items (e.g. 'welcome' packs and messages; slide decks; start/end of sprint/phase documents; etc.), and
+  - in written documents (e.g. reports; schedule/scope of work documents; technical documentation; etc.), and
+  - in more off-the-cuff formats such in direct messaging platforms (e.g. Slack, etc.)
+- **the meetings you arrange, including**
+  - the names you choose to use for those events (e.g. kick-off; inception; workshop; consultation; show-and-tell; project status; stakeholder review; etc.), and
+  - the frequency of them
+  - the openness of and audiences for them
+- **the tools you use**
+  - open shared folders for project documents
+  - project management tools with graphical and/or configurable interfaces for different audiences
+  - slide decks from meetings that you share directly and/or export to a permanent document
+  - sprint/phase start and end documents
+  - key reports at key moments in the overall progress
+  - specific reports or data for key stakeholders
+
+We'll return to all of these at various points elsewhere in the *Handbook*.
