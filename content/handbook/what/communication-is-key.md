@@ -65,7 +65,7 @@ In the 1970s and '80s, developmental psychologist Howard Gardner proposed the id
 1. Visual–spatial
 2. Linguistic–verbal
 3. Logical–mathematical
-4. Body–kinesthetic
+4. Body–kinaesthetic
 5. Musical
 6. Interpersonal
 7. Intrapersonal
