@@ -153,13 +153,13 @@ There are lots of ways to do this, and the means you choose will depend on lots 
 
 An important component of how you communicate with customers is about the frequency of your communication. There is nothing harder here than some rules of thumb.
 
-**Firstly,**{.text-color-brand-secondary} more transparency is always better than less, and full transparency is the optimum.{.padding-inline-start-lg}
+**Firstly**{.text-color-brand-secondary}, more transparency is always better than less, and full transparency is the optimum.{.padding-inline-start-lg}
 
 Most projects go wrong because problems are hidden or withheld until it's too late to do anything about them. The more transparent you are able to be, and the earlier and clearer you talk about problems as one team and work what to do about them.{.padding-inline-start-lg}
 
-**Secondly,**{.text-color-brand-secondary} frequent communication makes it easier to make sure things are clear for everyone involved, helps to prevent misunderstanding, and enables the project work to stay on the right track.{.padding-inline-start-lg}
+**Secondly**{.text-color-brand-secondary}, frequent communication makes it easier to make sure things are clear for everyone involved, helps to prevent misunderstanding, and enables the project work to stay on the right track.{.padding-inline-start-lg}
 
-**Thirdly,**{.text-color-brand-secondary} though, a lot of that will be determined by personalities. Part of your role is making sure your delivery team have what they need to get stuff done, and that often means time to focus. So, while a shared direct messaging  channel (e.g. Slack) can seem helpful, if you have particularly chatty, verbose, or opinionated clients that can cause problems. In cases like this, you may need to protect your team's ability to focus and find a different means for clear and frequent communication with the customer.{.padding-inline-start-lg}
+**Thirdly**{.text-color-brand-secondary}, though, a lot of that will be determined by personalities. Part of your role is making sure your delivery team have what they need to get stuff done, and that often means time to focus. So, while a shared direct messaging  channel (e.g. Slack) can seem helpful, if you have particularly chatty, verbose, or opinionated clients that can cause problems. In cases like this, you may need to protect your team's ability to focus and find a different means for clear and frequent communication with the customer.{.padding-inline-start-lg}
 
 ### Communicating *what* with customers
 
