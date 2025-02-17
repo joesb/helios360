@@ -6,7 +6,7 @@ jumbotron: |
   Clear and coherent communication is a fundamental requirement for a Chief Delivery Officer, an essential skill that should be particularly well developed.
   
   The CDO is responsible for effective communication between all parties on projects: clear communication is vital to achieve outcomes. The CDO determines what and how a business communicates with customers and stakeholders. And so the the CDO should show distinctive leadership in this key area.{.smaller}
-date: 2025-02-14T12:19:00Z
+date: 2025-02-17T14:59:00Z
 eleventyNavigation:
   key: Excellent communication
   parent: What makes a CDO?
@@ -183,3 +183,58 @@ We'll cover many of the specifics in [later sections of this *Handbook*](/handbo
   - specific reports or data for key stakeholders
 
 We'll return to all of these at various points elsewhere in the *Handbook*.
+
+---
+
+## Communication inside the business
+
+Whatever business you join, regardless of whether its a company you've known from outside or in a sector you're familiar with, you mustn't assume that you understand it from the off. Even if you're moving within the same industry, the business itself will be unique and distinctive.
+
+It's vital that you take time to understand the company and the way it works — its orientation and focus, its qualities and culture, the structures and team members within it, and so on — if you are going to be able to talk sensibly and coherently to the experts, specialists, practitioners, and key stakeholders in the business.
+
+This is about understanding how the company pulls together towards its common goal. It's *not* about trying to become an expert in areas where others are already experts — strength doesn't come from everyone being the same. Rather, it's about comprehending how the matrix team works in the business. And it's about working out how you can help the company get the best from its expertise and capabilities when delivering things for its clients.
+
+### Communicating *how* with the business
+
+When you join the business, then, you'll need to spend time with particular subject matter experts in the business. That' i's definitely those involved in delivering the services or products that the business offers. But it will absolutely include numerous others as well.
+
+- **The CEO and/or founders**{.text-color-brand-secondary}, to understand the essence of the business, where it's come from and where it's going, and the specifics of its plans for next 6 months, year, 3 years, 5 years, and 10 years.
+- **The Chief Operating Officer (COO) and/or managing director (MD)**{.text-color-brand-secondary}, to understand the key processes and frameworks for how the business runs
+- **The Chief Technology Officer (CTO)**{.text-color-brand-secondary}, to understand the technologies, architectures, technical choices, technical limitations, lifecycles, and so on for what the company does and can do.
+- **The Chief Data Officer (the *other* CDO!)**{.text-color-brand-secondary}, to understand the data climate, requirements, insights, and so on of what the business understands about itself and its customers.
+- **The Chief Commercial Officer (CCO)**{.text-color-brand-secondary}, along with the heads of marketing, sales, and customer success (such as a Chief Customer Officer), to understand how the company presents itself to the outside, communicates and interacts with prospective customers, the commercial goals and/or drivers, etc.
+- **The Chief People Officer (CPO)**{.text-color-brand-secondary} or other head of personnel role, to understand the culture and behaviours of the business, how the company treats its people, the hiring processes, and so on.
+- You may also consider meeting with **some of the board members**{.text-color-brand-secondary}, particular the chair, if the board is especially active or has a particular stakeholder or reporting needs.
+- If the company has an international dimension, you'll probably also want to talk with the CEO/MD of each region (EMEA, NA or Americas, LATAM, APAC, Aus/NZ, etc.)
+
+When you're joining the business, try to spend this time together in person where possible, even if that means travelling to be together. And schedule an extended amount of time together, to really understand each other's worlds and particular perspective.
+
+And there are numerous other key people to connect with, depending on the kind (and size!) of business you're joining:
+
+- If it's a digital service or SaaS product business:
+  - the technical leads and technical architects, both frontend and backend
+  - the Chief Product Officer, or other head of product role
+  - the Chief Design Officer, or other design lead
+  - the user research lead
+  - engineering manager(s)
+  - the head of the support function
+- If it's a design service business, or a marketing or branding agency, say:
+  - The Creative Director and/or Chief Design Officer
+  - The Strategy Director, or other strategy lead role
+  - those in technical leadership roles, if/where that is a significant part of the design offering
+
+And there's plenty of other examples besides, of course.
+
+#### Keep on communicating with the business
+
+Having made these connections, you'll need to consider how you maintain them. This will be different for each person and each role in the business. That said, it will be important for you to look out for opportunities to talk, to find times when people can be kept informed, and to be conscious of situations and contexts where people should be involved or consulted.
+
+Wherever there's a crossover, or it's likely you'll need to pull on the expertise or time of someone wearing a particular hat, make sure you put in time so that your communication with them is at its best.{.padding-inline-start-lg .emphasis}
+
+So, pay attention to things like regular demonstrations happening in other teams — get yourself invited along, and find a chance to ask some pertinent questions.
+
+It's probably a good idea to consult the Chief Technology and Chief Data Officers regularly, especially for client projects with a significant technical dimension — they'll have important things to say about design, architecture, security, maintainability, and so on.
+
+It's also a smart approach to talk plenty and often with the commercial and customer team leads — to understand what the pipeline looks like, what customer relationships are like outside the delivery phase, any alteration or shifts in strategy, and so on.
+
+You may also want to consider scheduling a regular check-in with some key people, such as the product director, creative director, technical leads, engineering managers, and so on — these are people with roles that probably have quite a bit of overlap with your concerns.
