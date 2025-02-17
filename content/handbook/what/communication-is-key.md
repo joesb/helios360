@@ -151,7 +151,7 @@ There are lots of ways to do this, and the means you choose will depend on lots 
 
 #### A note on *frequency*
 
-An important component of how you communicate with customers is about the frequency of your communication. There is nothing harder here than some rules of thumb.
+An important component of how you communicate with customers is about the frequency of your communication. Here's some rules of thumb or things to consider on the question of frequency.
 
 **Firstly**{.text-color-brand-secondary}, more transparency is always better than less, and full transparency is the optimum.{.padding-inline-start-lg}
 
