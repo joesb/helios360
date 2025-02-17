@@ -192,7 +192,9 @@ Whatever business you join, regardless of whether its a company you've known fro
 
 It's vital that you take time to understand the company and the way it works — its orientation and focus, its qualities and culture, the structures and team members within it, and so on — if you are going to be able to talk sensibly and coherently to the experts, specialists, practitioners, and key stakeholders in the business.
 
-This is about understanding how the company pulls together towards its common goal. It's not about trying to become an expert in areas where others are already experts — strength doesn't come from everyone having the same expertise. Rather it's about comprehending how the matrix team works in the business. And it's about working out how you can help the company get the best from its expertise and capabilities when delivering things for its clients.
+This is about understanding how the company pulls together towards its common goal. It's *not* about trying to become an expert in areas where others are already experts — strength doesn't come from everyone being the same. Rather, it's about comprehending how the matrix team works in the business. And it's about working out how you can help the company get the best from its expertise and capabilities when delivering things for its clients.
+
+### Communicating *how* with the business
 
 When you join the business, then, you'll need to spend time with particular subject matter experts in the business. That' i's definitely those involved in delivering the services or products that the business offers. But it will absolutely include numerous others as well.
 
@@ -205,7 +207,9 @@ When you join the business, then, you'll need to spend time with particular subj
 - You may also consider meeting with **some of the board members**{.text-color-brand-secondary}, particular the chair, if the board is especially active or has a particular stakeholder or reporting needs.
 - If the company has an international dimension, you'll probably also want to talk with the CEO/MD of each region (EMEA, NA or Americas, LATAM, APAC, Aus/NZ, etc.)
 
-And there are numerous other key people, depending on the kind of business you're joining:
+When you're joining the business, try to spend this time together in person where possible, even if that means travelling to be together. And schedule an extended amount of time together, to really understand each other's worlds and particular perspective.
+
+And there are numerous other key people to connect with, depending on the kind (and size!) of business you're joining:
 
 - If it's a digital service or SaaS product business:
   - the technical leads and technical architects, both frontend and backend
@@ -218,3 +222,19 @@ And there are numerous other key people, depending on the kind of business you'r
   - The Creative Director and/or Chief Design Officer
   - The Strategy Director, or other strategy lead role
   - those in technical leadership roles, if/where that is a significant part of the design offering
+
+And there's plenty of other examples besides, of course.
+
+#### Keep on communicating with the business
+
+Having made these connections, you'll need to consider how you maintain them. This will be different for each person and each role in the business. That said, it will be important for you to look out for opportunities to talk, to find times when people can be kept informed, and to be conscious of situations and contexts where people should be involved or consulted.
+
+Wherever there's a crossover, or it's likely you'll need to pull on the expertise or time of someone wearing a particular hat, make sure you put in time so that your communication with them is at its best.{.padding-inline-start-lg .emphasis}
+
+So, pay attention to things like regular demonstrations happening in other teams — get yourself invited along, and find a chance to ask some pertinent questions.
+
+It's probably a good idea to consult the Chief Technology and Chief Data Officers regularly, especially for client projects with a significant technical dimension — they'll have important things to say about design, architecture, security, maintainability, and so on.
+
+It's also a smart approach to talk plenty and often with the commercial and customer team leads — to understand what the pipeline looks like, what customer relationships are like outside the delivery phase, any alteration or shifts in strategy, and so on.
+
+You may also want to consider scheduling a regular check-in with some key people, such as the product director, creative director, technical leads, engineering managers, and so on — these are people with roles that probably have quite a bit of overlap with your concerns.
