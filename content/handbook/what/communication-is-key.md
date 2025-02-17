@@ -192,9 +192,9 @@ Whatever business you join, regardless of whether its a company you've known fro
 
 It's vital that you take time to understand the company and the way it works — its orientation and focus, its qualities and culture, the structures and team members within it, and so on — if you are going to be able to talk sensibly and coherently to the experts, specialists, practitioners, and key stakeholders in the business.
 
-When you join the business, then, you'll need to spend time with particular subject matter experts in the business. That' i's definitely those involved in delivering the services or products that the business offers. But it will absolutely include numerous others as well.
-
 This is about understanding how the company pulls together towards its common goal. It's not about trying to become an expert in areas where others are already experts — strength doesn't come from everyone having the same expertise. Rather it's about comprehending how the matrix team works in the business. And it's about working out how you can help the company get the best from its expertise and capabilities when delivering things for its clients.
+
+When you join the business, then, you'll need to spend time with particular subject matter experts in the business. That' i's definitely those involved in delivering the services or products that the business offers. But it will absolutely include numerous others as well.
 
 - **The CEO and/or founders**{.text-color-brand-secondary}, to understand the essence of the business, where it's come from and where it's going, and the specifics of its plans for next 6 months, year, 3 years, 5 years, and 10 years.
 - **The Chief Operating Officer (COO) and/or managing director (MD)**{.text-color-brand-secondary}, to understand the key processes and frameworks for how the business runs
