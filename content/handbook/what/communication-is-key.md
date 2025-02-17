@@ -118,7 +118,7 @@ Rather the objective of your communication as CDO is to bring diverse and diverg
 
 In terms of communication, that means:
 
-- **at the earliest stages:**
+- **at the earliest stages of projects:**
   - deep and patient listening
     - to the expertise of your clients
     - to the experts in your delivery team
@@ -128,7 +128,7 @@ In terms of communication, that means:
   - interpreting and analysing what you've heard …
   - … so you can turn that into valid plans
   - … and checking and rechecking the plans are actually valid (more on this later!)
-- **at later stages:**
+- **at later stages of projects:**
   - explaining
     - the goals and objectives
     - the starting place
