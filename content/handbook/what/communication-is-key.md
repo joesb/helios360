@@ -155,7 +155,7 @@ An important component of how you communicate with customers is about the freque
 
 **Firstly**{.text-color-brand-secondary}, more transparency is always better than less, and full transparency is the optimum.{.padding-inline-start-lg}
 
-Most projects go wrong because problems are hidden or withheld until it's too late to do anything about them. The more transparent you are able to be, and the earlier and clearer you talk about problems as one team and work what to do about them.{.padding-inline-start-lg}
+Most projects go wrong because problems are hidden or withheld until it's too late to do anything about them. The more transparent you are able to be, the earlier you talk about problems, the clearer you can discuss them, then the better placed you are to understand the issues, decide what to do about them, and then take actions that will work, as one team.{.padding-inline-start-lg}
 
 **Secondly**{.text-color-brand-secondary}, frequent communication makes it easier to make sure things are clear for everyone involved, helps to prevent misunderstanding, and enables the project work to stay on the right track.{.padding-inline-start-lg}
 
