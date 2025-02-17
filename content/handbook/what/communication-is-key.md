@@ -6,7 +6,7 @@ jumbotron: |
   Clear and coherent communication is a fundamental requirement for a Chief Delivery Officer, an essential skill that should be particularly well developed.
   
   The CDO is responsible for effective communication between all parties on projects: clear communication is vital to achieve outcomes. The CDO determines what and how a business communicates with customers and stakeholders. And so the the CDO should show distinctive leadership in this key area.{.smaller}
-date: 2025-02-14T12:19:00Z
+date: 2025-02-17T14:59:00Z
 eleventyNavigation:
   key: Excellent communication
   parent: What makes a CDO?
