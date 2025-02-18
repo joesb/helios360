@@ -4,16 +4,19 @@
     {% include "layouts/components/google-tagmanager.njk" %}
   {% endif %}
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=contain">
-  {% set siteName = [ meta.org, meta.title, meta.subtitle] %}
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {% set siteName = [ metadata.org, metadata.title, metadata.subtitle] %}
   <title>{{ pageTitle or title or siteName | join(" ") }} | {{ siteName | join(" ") }}</title>
+
+  <!-- structured data -->
+  {% jsonLdScript meta, type, tags %}
 
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/favicon/apple-touch-icon.png" type="image/png">
   <link rel="icon" href="/public/favicon/favicon-16.png" type="image/png" sizes="16x16">
   <link rel="icon" href="/public/favicon/favicon-32.png" type="image/png" sizes="32x32">
   <link rel="icon" href="/public/favicon/favicon-64.png" type="image/png" sizes="64x64">
-  <link rel="icon" href="/public/favicon/favicon.png" type="image/png" sizes="192x192">
+  <link rel="icon" href="/public/favicon/favicon-192.png" type="image/png" sizes="192x192">
   <link rel="icon" href="/public/favicon/favicon-256.png" type="image/png" sizes="256x256">
   {# <link rel="manifest" href="/static/favicon/site.webmanifest"> #}
 
@@ -22,12 +25,17 @@
   {% endif %}
 
   {% if page.url == "/" %}
-  <link id="feedLink" rel="alternate" type="application/rss+xml" title="RSS" href="{{ '/feed.xml' | url | absoluteUrl(env.baseUrl) }} ">
+  <link rel="alternate" type="application/atom+xml" title="{{ metadata.title }}" href="{{ '/feed.xml' | url | absoluteUrl(env.baseUrl) }}">
   {% endif %}
 
   {# Google Fonts #}
   {% include "layouts/components/head-google-fonts.njk" %}
   
+  {# OpenProps #}
+  <link rel="stylesheet" href="//unpkg.com/open-props" />
+  <link rel="stylesheet" href="//unpkg.com/open-props/normalize.light.min.css" />
+  <link rel="stylesheet" href="//unpkg.com/open-props/buttons.light.min.css" />
+  {# Styles #}
   {% set css %}
     {% include "assets/css/styles.css" %}
   {% endset %}
@@ -44,6 +52,7 @@
   {% endif %}
   {# <!-- Pagefind CSS --> #}
   {# <link href="/pagefind/pagefind-ui.css" rel="stylesheet"> #}
+
   
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   {% set js %}
@@ -56,9 +65,8 @@
 
   {% include "layouts/components/head-social-cards.njk" %}
 
-  {% if canonical %}
-  <link rel="canonical" href="{{ canonical }}" />
-  {% endif %}
+  <link rel="canonical" href="{% if canonical %}{{ canonical }}{% else %}{{ page.url | url | absoluteUrl(metadata.url) }}{% endif %}" />
+  
   {% if noIndex %}
   <meta name="robots" content="noindex">
   {% endif %}

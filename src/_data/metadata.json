@@ -1,6 +1,6 @@
 {
   "title": "Helios360",
-  "summary": "Management and Business Consulting for Client Services and Gen-AI Service Delivery",
+  "summary": "Specialist Consulting for Client Services Delivery",
   "url": "https://helios360.co.uk",
   "language": "en",
   "author": {
@@ -8,6 +8,11 @@
     "url": "https://www.jsbaker.co.uk/about/"
   },
   "footer_links" : [
+    {
+      "label": "Delivery",
+      "url": "/deliver/",
+      "external": false
+    },
     {
       "label": "Handbook",
       "url": "/handbook/",

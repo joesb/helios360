@@ -5,8 +5,9 @@ image:
   widths: [300, 620, 1200]
 page:
   classes:
-    - page
     - content-canvas
+    - page
+    - type-page
 showNav: true
 navOptions:
   listElement: "ul"
@@ -20,7 +21,9 @@ navOptions:
   activeAnchorClass: "index-nav--list-item--link--active"
   activeKey: eleventyNavigation.key
   anchorClass: "index-nav--item--link"
-showMetadata: false
+pagemeta:
+  show: false
+  readingTime: true
 ---
 
 
@@ -47,13 +50,27 @@ showMetadata: false
 
 			{% else %}
 
-      {% if showContent != false %}
-        {% if jumbotron %}
-          {% include "layouts/components/jumbotron.njk" %}
+        {% if showContent != false %}
+          {% if jumbotron %}
+            {% include "layouts/components/jumbotron.njk" %}
+          {% endif %}
+
+          {% if showTOC != false %}
+          {% set tocContent = content | toc %}
+          {% if tocContent | length %}
+          <aside>
+            <h2 class="h3-style">Covered here:</h2>
+            {{ tocContent | safe }}
+          </aside>
+          {% endif %}
+          {% endif %}
+
+          {% if pagemeta.show %}
+          {% include "layouts/components/page-metadata.njk" %}
+          {% endif %}
+
+          {{ content | safe }}
         {% endif %}
-        
-        {{ content | safe }}
-      {% endif %}
 
       {% endif %}
 

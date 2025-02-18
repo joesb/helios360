@@ -1,9 +1,14 @@
 @use "../tools/px-to-rem" as ptr;
 @use "../tools/respond-to" as rt;
 
-.site-logo {
+.header-main__logo {
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+.site-logo {
+  display: inline-block;
   margin: 0;
   padding: 0;
   text-decoration: none;
@@ -14,10 +19,10 @@
 
   &::before {
     display: inline-block;
-    width: clamp(ptr.px-to-rem(288px), 75vw, ptr.px-to-rem(486px));
+    width: clamp(ptr.px-to-rem(108px), 30vh, ptr.px-to-rem(180px));
     height: clamp(ptr.px-to-rem(108px), 30vh, ptr.px-to-rem(120px));
     content: " ";
-    background-image: url("/public/images/logo-01.svg");
+    background-image: url("/public/images/logo-02-sml.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position-y: center;
@@ -31,8 +36,7 @@
 @include rt.respond-to('medium') {
   .site-logo {
     &::before {
-      width: clamp(ptr.px-to-rem(288px), 75vw, ptr.px-to-rem(486px));
-      height: clamp(ptr.px-to-rem(108px), 30vh, ptr.px-to-rem(180px));
+      background-image: url("/public/images/logo-02-md.png");
     }
   }
 }
@@ -46,9 +50,13 @@
 
 .not-home,
 .open-mobile {
+  .header-main__logo {
+    justify-content: left;
+  }
+
   .site-logo {
     &::before {
-      width: clamp(ptr.px-to-rem(216px), 50vw, ptr.px-to-rem(324px));
+      width: clamp(ptr.px-to-rem(72px), 30vh, ptr.px-to-rem(144px));
       height: clamp(ptr.px-to-rem(72px), 30vh, ptr.px-to-rem(144px));
     }   
   } 

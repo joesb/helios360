@@ -61,5 +61,11 @@
         mask-image: url("/public/images/icons/bluesky.svg");
       }
     }
+
+    &.linkedin {
+      &::after {
+        mask-image: url("/public/images/icons/linkedin.svg");
+      }
+    }
   }
 }

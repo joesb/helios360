@@ -18,6 +18,6 @@ tags:
   - '#handbookPromoted'
 ---
 
-Commodo veniam, duis nostrud enim. Nostrud enim aliqua ea tempor. Aliqua ea tempor proident adipiscing incididunt velit duis. Tempor, proident adipiscing incididunt velit duis incididunt excepteur. Incididunt, velit duis incididunt. Incididunt, excepteur exercitation tempor duis fugiat. Tempor duis fugiat sed est officia excepteur sit. Fugiat sed est officia excepteur sit aliqua laborum. Est officia excepteur sit aliqua laborum. Excepteur sit aliqua laborum pariatur est aliquip.
+## Chief Delivery Officer (CDO) vs Client Services Director (CSD)
 
-Veniam duis nostrud enim aliqua ea, tempor. Enim aliqua ea tempor proident adipiscing incididunt. Ea tempor proident adipiscing, incididunt velit duis. Adipiscing incididunt velit, duis. Duis incididunt excepteur exercitation tempor duis. Excepteur exercitation tempor duis fugiat. Tempor duis fugiat sed est officia excepteur sit. Fugiat sed est officia excepteur sit aliqua laborum. Est officia excepteur sit aliqua laborum.
+## Chief Delivery Officer (CDO) vs Project Management Office lead (PMO)

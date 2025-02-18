@@ -2,6 +2,8 @@ import { IdAttributePlugin, InputPathToUrlTransformPlugin, EleventyHtmlBasePlugi
 import markdownIt from "markdown-it";
 import markdownItAttrs from "markdown-it-attrs";
 import markdownItUnderline from "markdown-it-underline";
+import markdownItAnchor from "markdown-it-anchor";
+import markdownItDefList from "markdown-it-deflist";
 import Image from "@11ty/eleventy-img";
 import markdownIt11tyImage from "markdown-it-eleventy-img";
 import { eleventyImageOnRequestDuringServePlugin } from "@11ty/eleventy-img";
@@ -16,6 +18,9 @@ import autoprefixer from "autoprefixer";
 import UglifyJS from "uglify-js";
 import { inspect } from "util";
 import { DateTime } from "luxon";
+import { minify } from "html-minifier-terser";
+import schema from "@quasibit/eleventy-plugin-schema";
+import pluginTOC from "eleventy-plugin-toc";
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function(eleventyConfig) {
@@ -35,15 +40,21 @@ export default async function(eleventyConfig) {
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPlugin(eleventyImageOnRequestDuringServePlugin);
   eleventyConfig.addPlugin(pluginRss);
+  eleventyConfig.addPlugin(schema);
+  eleventyConfig.addPlugin(pluginTOC, {
+    tags: ['h2', 'h3', 'h4'],
+    wrapper: 'nav',
+    wrapperClass: 'page-toc'
+  });
   eleventyConfig.addPlugin(timeToRead, {
     speed: '850 characters per minute',
     style: "short"
   });
   eleventyConfig.addPlugin(feedPlugin, {
-		type: "rss", // or "atom", "json"
+		type: "atom", // or "rss", "json"
 		outputPath: "/feed.xml",
 		collection: {
-			name: "posts", // iterate over `collections.posts`
+			name: "feed", // iterate over `collections.feed`
 			limit: 25,     // 0 means no limit
 		},
 		metadata: {
@@ -83,22 +94,37 @@ export default async function(eleventyConfig) {
 
   eleventyConfig.addFilter("debug", (content, inspectDepth = 4) => `<pre>${inspect(content, {depth: inspectDepth})}</pre>`);
 
-    // Minify CSS
-    eleventyConfig.addFilter('cssmin', function (code) {
-      var css = new CleanCSS({}).minify(code).styles;
-      return postCSS([ autoprefixer ]).process(css).css;
-    });
-  
-    // Minify JS
-    eleventyConfig.addFilter('jsmin', function (code) {
-      let minified = UglifyJS.minify(code);
-      if (minified.error) {
-        console.log('UglifyJS error: ', minified.error);
-        return code;
-      }
-      return minified.code;
-    });
+  // Minify CSS
+  eleventyConfig.addFilter('cssmin', function (code) {
+    var css = new CleanCSS({}).minify(code).styles;
+    return postCSS([ autoprefixer ]).process(css).css;
+  });
 
+  // Minify JS
+  eleventyConfig.addFilter('jsmin', function (code) {
+    let minified = UglifyJS.minify(code);
+    if (minified.error) {
+      console.log('UglifyJS error: ', minified.error);
+      return code;
+    }
+    return minified.code;
+  });
+
+  // Minify HTML
+  eleventyConfig.addTransform("htmlmin", function (content) {
+		if ((this.page.outputPath || "").endsWith(".html")) {
+			let minified = minify(content, {
+				useShortDoctype: true,
+				removeComments: true,
+				collapseWhitespace: true,
+			});
+
+			return minified;
+		}
+
+		// If not an HTML output, return content as-is
+		return content;
+	});
 
   // Return active path attributes
   eleventyConfig.addShortcode('activepath', function (itemUrl, currentUrl, currentClass = "current", prefix = '') {
@@ -193,11 +219,22 @@ export default async function(eleventyConfig) {
     return typeof obj == 'string'
   });
 
+  // Encode a URL string
+  eleventyConfig.addFilter('encodeUri', (text) => {
+    return encodeURI(text);
+  });
+
     /* COLLECTIONS */
 
   // Promoted Content collection
   eleventyConfig.addCollection('handbookPromoted', (collection) => {
     var nav = collection.getFilteredByTag('#handbookPromoted');
+    return nav.length ? sortByOrder(nav, 'eleventyNavigation') : [];
+  });
+
+  // Promoted Handbook Content for Homepage collection
+  eleventyConfig.addCollection('handbookPromotedHP', (collection) => {
+    var nav = collection.getFilteredByTag('#handbookPromotedHP');
     return nav.length ? sortByOrder(nav, 'eleventyNavigation') : [];
   });
 
@@ -207,9 +244,26 @@ export default async function(eleventyConfig) {
     return nav.length ? sortByOrder(nav, 'eleventyNavigation') : [];
   });
 
+  // Content for feed.xml
+  eleventyConfig.addCollection('feed', (collection) => {
+    // var nav = collection.getFilteredByTag('#handbookPromoted');
+    // var nav1 = collection.getFilteredByTag('#servicePromoted');
+    // nav = nav.concat(nav1);
+    var nav = collection.getFilteredByGlob('./content/**/*.md');
+    return nav.length ? sortByDate(nav) : [];
+  });
+
+
+
   // Handbook: Why collection
   eleventyConfig.addCollection('handbookWhy', (collection) => {
     var nav = collection.getFilteredByTag('#handbookWhy');
+    return nav.length ? sortByOrder(nav, 'eleventyNavigation') : [];
+  });
+
+  // Handbook: What collection
+  eleventyConfig.addCollection('handbookWhat', (collection) => {
+    var nav = collection.getFilteredByTag('#handbookWhat');
     return nav.length ? sortByOrder(nav, 'eleventyNavigation') : [];
   });
 
@@ -247,7 +301,15 @@ export default async function(eleventyConfig) {
     html: true,
     breaks: true,
     linkify: true
-  }).use(markdownItAttrs).use(markdownItUnderline);
+  }).use(markdownItAnchor, {
+    permalink: markdownItAnchor.permalink.ariaHidden({
+      placement: "after",
+      class: "direct-link do-not-display",
+      symbol: "#",
+      level: [1,2,3,4],
+    }),
+    slugify: eleventyConfig.getFilter("slug")
+  }).use(markdownItAttrs).use(markdownItUnderline).use(markdownItDefList);
   eleventyConfig.setLibrary("md", markdownLibrary);
 
   eleventyConfig.addFilter("markdown", (content) => {
@@ -261,6 +323,8 @@ export default async function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('content/public/');
   eleventyConfig.addPassthroughCopy('./functions/');
   eleventyConfig.addWatchTarget('./src/_sass/');
+  // Put robots.txt in root
+  eleventyConfig.addPassthroughCopy({ 'content/robots.txt': '/robots.txt' });
 }
 
 export const config = {

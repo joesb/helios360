@@ -1,6 +1,7 @@
 ---
-title: Delivery Strategy Design
+title: Strategy Design for Client Delivery
 layout: page.njk
+type: page
 description: Effective delivery strategy, operating model and implementation tools that align with your business goals
 jumbotron: |
   **Your organisation's delivery strategy needs to align with your business goals, your operating capabilities, your sector and specialism, and your clients' needs.**
@@ -16,11 +17,14 @@ tags:
   - '#servicePromoted'
 redirect_from:
   - /change-implementation/
+meta:
+  title: Strategy Design for Client Delivery
+  description: Effective delivery strategy, operating model and implementation tools that align with your business goals
 ---
 
 ## The process
 
-### 1. Consultation{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none }
+### 1. Consultation{.text-color-brand-secondary .margin-block-start-md .margin-block-end-none }
 
 Begin with objectives, capabilities, and resources:{.padding-inline-start-vlg .paragraph-narrow}
 
@@ -31,23 +35,23 @@ Begin with objectives, capabilities, and resources:{.padding-inline-start-vlg .p
 - Understand the past, the history of triumphs and challenges.
 - Understand the future, what's needed for continued success.
 
-### 2. Design{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none }
+### 2. Design{.text-color-brand-secondary .margin-block-start-md .margin-block-end-none }
 
 Drawing on extensive experience, design a delivery strategy for effective client service tailored to context.{.padding-inline-start-vlg .paragraph-narrow}
 
-### 3. Experiment{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none }
+### 3. Experiment{.text-color-brand-secondary .margin-block-start-md .margin-block-end-none }
 
 Trial with a subset of client projects and a trusted team, fail fast and learn quickly. Make improvements.{.padding-inline-start-vlg .paragraph-narrow}
 
-### 4. Execution{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none }
+### 4. Execution{.text-color-brand-secondary .margin-block-start-md .margin-block-end-none }
 
 Do it. Build the resources and tool kits needed to support the client service operating model (CSOM). Embed it in business-wide practices and activities.{.padding-inline-start-vlg .paragraph-narrow}
 
-### 5. Evaluation{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none }
+### 5. Evaluation{.text-color-brand-secondary .margin-block-start-md .margin-block-end-none }
 
 It's never fully over, you're always learning. Use data and metrics to evaluate what's worked and what hasn't.{.padding-inline-start-vlg .paragraph-narrow}
 
-### 6. Iteration{.text-color-brand-tertiary .margin-block-start-md .margin-block-end-none }
+### 6. Iteration{.text-color-brand-secondary .margin-block-start-md .margin-block-end-none }
 
 Make continued improvements, carefully planned, in practices and resources.{.padding-inline-start-vlg .paragraph-narrow}
 

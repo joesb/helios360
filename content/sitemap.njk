@@ -9,9 +9,11 @@ tagFilter:
     - handbookPromoted
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{% for page in collections.all %}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{% for page in collections.all %}{% if page.url !== '/feed.xml' %}
   <url>
-      <loc>{{ page.url | url | absoluteUrl(meta.url) }}</loc>
+      <loc>{{ page.url | url | absoluteUrl(metadata.url) }}</loc>
       <lastmod>{% if page.changed %}{{ page.changed.toISOString() }}{% else %}{{ page.date.toISOString() }}{% endif %}</lastmod>
-  </url>{% endfor %}
+      {% if page.data.sitemap.changefreq %}<changefreq>{{ page.data.sitemap.changefreq }}</changefreq>{% endif %}
+      <priority>{% if page.data.sitemap.priority %}{{ page.data.sitemap.priority }}{% else %}0.5{% endif %}</priority>
+  </url>{% endif %}{% endfor %}
 </urlset>

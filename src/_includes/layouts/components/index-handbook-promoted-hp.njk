@@ -1,0 +1,12 @@
+
+    {% set items = collections.handbookPromotedHP %}
+
+    {% if items | length %}
+      <div class="content-canvas-item-wide">
+        {% if indexListType and indexListType == "simple" %}
+      {% include "layouts/components/index-list-simple.njk" %}
+        {% else %}
+      {% include "layouts/components/index-list.njk" %}
+        {% endif %}
+      </div>
+    {% endif %}

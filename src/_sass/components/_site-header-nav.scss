@@ -17,8 +17,15 @@
 
 .main-nav--list--item-link {
   font-weight: var(--font-weight-light);
+  margin-block-end: var(--size-2);
 
   &.current {
     font-weight: var(--font-weight-medium);
+  }
+}
+
+@include rt.respond-to('medium') {
+  .main-nav--list--item-link {
+    margin-block-end: unset;
   }
 }

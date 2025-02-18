@@ -18,7 +18,7 @@ html {
 
   --color-brand-primary: var(--color-icterine);
   --color-brand-secondary: var(--color-ming);
-  --color-brand-tertiary: var(--color-viridian);
+  --color-brand-tertiary: var(--color-victoria);
   --color-brand-text: var(--color-white);
   --color-brand-white: var(--color-white);
   --color-brand-black: var(--color-black);
@@ -52,7 +52,9 @@ html {
   --font-size-fluid-000: clamp(#{var.$body-v-sml-font-size-mobile}, 1.3vw, #{var.$body-v-sml-font-size});
   --font-size-fluid-00: clamp(0.7rem, 1.75vw, 0.85rem);
   --font-size-fluid-0: clamp(0.75rem, 2vw, 1rem);
+  --font-size-fluid-010: clamp(0.8rem, 4vw, 1.1rem);
   --font-size-fluid-01: clamp(0.875rem, 4vw, 1.125rem);
+  --font-size-fluid-02: clamp(0.925rem, 4vw, 1.25rem);
   --font-size-fluid-12: clamp(1.25rem, 5vw, 2rem);
   --font-size-fluid-3: clamp(#{var.$h1-font-size-mobile}, 4vw, #{var.$h1-font-size});
   --font-size-fluid-4: clamp(#{var.$h1-lg-font-size-mobile}, 6vw, #{var.$h1-lg-font-size});
@@ -75,6 +77,11 @@ html {
 
 :where(a):where([href]) {
   color: var(--color-brand-primary);
+
+  &:where(:hover),
+  &:where(:visited) {
+    text-decoration-color: var(--color-brand-primary);
+  }
 }
 
 :where(a):where(:not(:hover)) {
@@ -83,7 +90,10 @@ html {
 
 :where(li) {
   &:not(:last-of-type) {
-    margin-block: var(--size-2);
+    margin-block-end: var(--size-1);
+  }
+  &:is(:last-of-type) {
+    margin-block-end: var(--size-2);
   }
 }
 
@@ -107,7 +117,7 @@ html {
     content: "...";
     letter-spacing: var(--size-3);
     font-size: var(--font-size-5);
-    color: var(--color-brand-primary);
+    color: var(--color-brand-secondary);
     margin-inline: auto;
   }
 
@@ -118,4 +128,8 @@ html {
       margin-inline-start: var(--size-9);
     }
   }
+}
+
+:where(dd) {
+  margin-inline-start: var(--size-5);
 }
