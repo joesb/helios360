@@ -15,6 +15,11 @@ eleventyNavigation:
 tags:
   - '#handbookWhat'
   - '#handbookPromotedHP'
+image:
+  social: content/public/images/source/pexels-fauxels-3182747.jpg
+  classes:
+    - content-canvas-item-wide-left-sm
+    - content-canvas-item-left--span-3
 meta:
   title: The Central Importance of Communication
   description: Showing leadership in what and how a business communicates
@@ -46,9 +51,13 @@ Excellence in communication is an essential quality for a CDO.
 
 *👉*{.drop-first .drop-first-vsm .margin-inline-end-md} A CDO will need to lean on a deep *emotional intelligence*, understanding what individuals, team members and whole groups both want and need. In particular, the CDO will need to be able to perceive often what is not being said, to project one's self into another person's experience and discern how they may be feeling, how things will be heard from their point of view, or the challenges they may be facing. Often times, it is important to do this ahead of time, to anticipate how things could land and to act in advance accordingly and with wisdom.{.padding-inline-start-lg}
 
-A Chief Delivery Officer needs an unusually comprehensive skillset in this area of communication.
+{% ImgFigure '<a href="https://www.pexels.com/photo/photo-of-man-talking-to-a-woman-3182747/" target="_blank" rel="noopener nofollow ugc">Photo</a> by <a href="https://www.pexels.com/@fauxels/" target="_blank" rel="noopener nofollow ugc">fauxels</a>', image.classes %}
+![Photo of a Woman Talking to a Man](/public/images/source/pexels-fauxels-3182747.jpg){.image-rounded eleventy:widths="200,350,500"}
+{% endImgFigure %}
 
-This overview is a helpful way to start understanding the subject, but we'll turn now to look at what this means in the different settings of service and project delivery, what communication skills are required in the context of:
+A Chief Delivery Officer needs an unusually comprehensive skillset in this area of communication.{.content-canvas-item-main-left-main-end}
+
+This overview is a helpful way to start understanding the subject, but we'll turn now to look at what this means in the different settings of service and project delivery, what communication skills are required in the context of:{.content-canvas-item-main-left-main-end}
 
 - the customers
 - leading the delivery team
