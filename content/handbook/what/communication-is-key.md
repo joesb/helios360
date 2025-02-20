@@ -114,13 +114,15 @@ What we're talking about here is *professionalism* in communication with custome
 
 There's two distinct phases of working with customers, and two modes of communication that go with them.
 
-**At the early stages**, the project doesn't have a plan. At this point, then, you are seeking understanding — trying to learn as much as possible in order to understand the objective of the work. This understanding will shape the plans that are needed to achieve those objectives, and to give you a healthy way to deal with the inevitable stuff that's unforeseen.
+**At the early stages**{.text-color-brand-secondary}, the project doesn't have a plan, when you are seeking understanding.
 
-**At the later stages**, when the project *does* have a plan, the mode of communication shifts towards informing the customer and agreeing on the path forward. At this stage, issues arise. As the leader of the delivery efforts, your task is to handle those issues in a way that maintains momentum and does not lose sight of the objective.
+**At the later stages**{.text-color-brand-secondary}, the project *does* have a plan and the delivery work is underway, when you are seeking agreement and healthy decision-making.
 
 In terms of communication, that means:
 
 #### At the earliest stages of projects
+
+At this point, you are seeking understanding — trying to learn as much as possible in order to understand the objective of the work. This understanding will shape the plans that are needed to achieve those objectives, and to give you a healthy way to deal with the inevitable stuff that's unforeseen.
 
 - deep and patient listening
   - to the expertise of your clients
@@ -134,6 +136,10 @@ In terms of communication, that means:
 
 #### At later stages of projects
 
+Now, the mode of communication shifts towards informing the customer and agreeing together on the path forward.
+
+At this stage, issues arise. As the leader of the delivery efforts, your task is to makes sure you have a healthy way to handle those issues, a way that maintains momentum and does not lose sight of the objective. We'll talk about this in more depth elsewhere.
+
 - explaining
   - the goals and objectives
   - the starting place
@@ -143,6 +149,10 @@ In terms of communication, that means:
 - preparing what will be done in due course
 - accounting for what won't be done
 - … and why
+- giving clarity on issues and challenges that arise
+- … and facilitating the decisions that need to be made about them
+
+&nbsp;
 
 There are lots of ways to do this, and the means you choose will depend on lots of things:
 
@@ -154,15 +164,15 @@ There are lots of ways to do this, and the means you choose will depend on lots 
 - your personality and preference(s)
 - and more
 
-We'll discuss project planning later.
+Project planning itself is a big subject, and we'll discuss that later.
 
 #### Building 'one team'
 
-You are not trying to be the expert in the sector, government or commerce or transport or whatever, when communicating — your clients are the experts in their industry.
+A primary objective of your communication as CDO is to bring diverse and divergent skills and expertise together into *'one team'* — you and your people, the customer and their people, and suppliers and their people — and enable them to work together towards the shared objective of the project.
 
-Rather the objective of your communication as CDO is to bring diverse and divergent skills and expertise together into *one team* — you and your people, the customer and their people, and suppliers and their people — and enable them to work together towards the shared objective of the project.
+Remember, you are not trying to be the expert in the sector, whatever that might be — government or commerce or transport, or anything else. Your clients are the experts in their industry. Similarly, third-party suppliers are part of the 'one team' of the project specifically for the expertise they bring.
 
-The 'one team' needs to agree easy ways to coordinate their activities, communicate progress and collaborate. Transparency and openness within the team is a key trait — you can help achieve this by putting the shared objective at the centre of the team, such that the barriers that distinguish groups within the team are less relevant than the outcomes you're all working towards.
+The 'one team' for the project needs to agree easy ways to coordinate their activities, communicate progress and collaborate. Transparency and openness within the team is a key trait — you can help achieve this by putting the shared objective at the centre of the team, such that the barriers that distinguish groups within the team are less relevant than the outcomes you're all working towards.
 
 We'll return to this in more depth elsewhere in the handbook.
 
