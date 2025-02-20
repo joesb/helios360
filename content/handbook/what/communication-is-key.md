@@ -110,34 +110,49 @@ This is a core duty for a CDO, which means communication of this type has to als
 
 What we're talking about here is *professionalism* in communication with customers.
 
-### Communicating *how* with customers — 'one team'
+### Communicating *how* with customers
 
-You are not trying to be the expert in the sector, government or commerce or transport or whatever, when communicating — your clients are the experts in their industry.
+There's two distinct phases of working with customers, and two modes of communication that go with them.
 
-Rather the objective of your communication as CDO is to bring diverse and divergent skills and expertise together into *one team* — you and your people, the customer and their people, and suppliers and their people — and enable them to take a task from the very beginning to the very end, consistently.
+**At the early stages**{.text-color-brand-secondary}, the project doesn't have a plan, when you are seeking understanding.
+
+**At the later stages**{.text-color-brand-secondary}, the project *does* have a plan and the delivery work is underway, when you are seeking agreement and healthy decision-making.
 
 In terms of communication, that means:
 
-- **at the earliest stages of projects:**
-  - deep and patient listening
-    - to the expertise of your clients
-    - to the experts in your delivery team
-  - asking thoroughgoing questions
-  - playing it back to be confident in what you've learnt
-  - checking, validating and revalidating
-  - interpreting and analysing what you've heard …
-  - … so you can turn that into valid plans
-  - … and checking and rechecking the plans are actually valid (more on this later!)
-- **at later stages of projects:**
-  - explaining
-    - the goals and objectives
-    - the starting place
-    - and the plan for getting from here to there
-  - portraying what has been done
-  - describing what will be done next
-  - preparing what will be done in due course
-  - accounting for what won't be done
-  - … and why
+#### At the earliest stages of projects
+
+At this point, you are seeking understanding — trying to learn as much as possible in order to understand the objective of the work. This understanding will shape the plans that are needed to achieve those objectives, and to give you a healthy way to deal with the inevitable stuff that's unforeseen.
+
+- deep and patient listening
+  - to the expertise of your clients
+  - to the experts in your delivery team
+- asking thoroughgoing questions
+- playing it back to be confident in what you've learnt
+- checking, validating and revalidating
+- interpreting and analysing what you've heard …
+- … so you can turn that into valid plans
+- … and checking and rechecking the plans are actually valid (more on this later!)
+
+#### At later stages of projects
+
+Now, the mode of communication shifts towards informing the customer and agreeing together on the path forward.
+
+At this stage, issues arise. As the leader of the delivery efforts, your task is to makes sure you have a healthy way to handle those issues, a way that maintains momentum and does not lose sight of the objective. We'll talk about this in more depth elsewhere.
+
+- explaining
+  - the goals and objectives
+  - the starting place
+  - and the plan for getting from here to there
+- portraying what has been done
+- describing what will be done next
+- preparing what will be done in due course
+- accounting for what won't be done
+- … and why
+- giving clarity on issues and challenges that arise
+- … and facilitating the decisions that need to be made about them
+
+&nbsp;
 
 There are lots of ways to do this, and the means you choose will depend on lots of things:
 
@@ -148,6 +163,18 @@ There are lots of ways to do this, and the means you choose will depend on lots 
 - the needs of the delivery team
 - your personality and preference(s)
 - and more
+
+Project planning itself is a big subject, and we'll discuss that later.
+
+#### Building 'one team'
+
+A primary objective of your communication as CDO is to bring diverse and divergent skills and expertise together into *'one team'* — you and your people, the customer and their people, and suppliers and their people — and enable them to work together towards the shared objective of the project.
+
+Remember, you are not trying to be the expert in the sector, whatever that might be — government or commerce or transport, or anything else. Your clients are the experts in their industry. Similarly, third-party suppliers are part of the 'one team' of the project specifically for the expertise they bring.
+
+The 'one team' for the project needs to agree easy ways to coordinate their activities, communicate progress and collaborate. Transparency and openness within the team is a key trait — you can help achieve this by putting the shared objective at the centre of the team, such that the barriers that distinguish groups within the team are less relevant than the outcomes you're all working towards.
+
+We'll return to this in more depth elsewhere in the handbook.
 
 #### A note on *frequency*
 
@@ -225,7 +252,7 @@ And there are numerous other key people to connect with, depending on the kind (
 
 And there's plenty of other examples besides, of course.
 
-#### Keep on communicating with the business
+### Keep on communicating with the business
 
 Having made these connections, you'll need to consider how you maintain them. This will be different for each person and each role in the business. That said, it will be important for you to look out for opportunities to talk, to find times when people can be kept informed, and to be conscious of situations and contexts where people should be involved or consulted.
 
