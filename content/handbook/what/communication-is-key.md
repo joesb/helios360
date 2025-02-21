@@ -173,7 +173,7 @@ There are lots of ways to do this, and the means you choose will depend on lots 
 - your personality and preference(s)
 - and more
 
-Project planning itself is a big subject, and we'll discuss that later.
+Project planning itself is a big subject, so we'll [discuss the arena of planning later](/handbook/delivery/).
 
 #### Building 'one team'
 
