@@ -6,7 +6,7 @@ jumbotron: |
   Clear and coherent communication is a fundamental requirement for a Chief Delivery Officer, an essential skill that should be particularly well developed.
   
   The CDO is responsible for effective communication between all parties on projects: clear communication is vital to achieve outcomes. The CDO determines what and how a business communicates with customers and stakeholders. And so the the CDO should show distinctive leadership in this key area.{.smaller}
-date: 2025-02-20T10:39:00Z
+date: 2025-02-21T10:39:00Z
 eleventyNavigation:
   key: Excellent communication
   parent: What makes a CDO?
@@ -267,10 +267,15 @@ Having made these connections, you'll need to consider how you maintain them. Th
 
 Wherever there's a crossover, or it's likely you'll need to pull on the expertise or time of someone wearing a particular hat, make sure you put in time so that your communication with them is at its best.{.padding-inline-start-lg .emphasis}
 
-So, pay attention to things like regular demonstrations happening in other teams — get yourself invited along, and find a chance to ask some pertinent questions.
+Have a regular diary booking.
+Meet up in person.
+Have lunch together.
+Etc.{.padding-inline-start-lg .emphasis}
+
+Pay attention to things like regular demonstrations happening in other teams as well — get yourself invited along; find a chance to ask some pertinent questions; follow up on the things other people ask.
 
 It's probably a good idea to consult the Chief Technology and Chief Data Officers regularly, especially for client projects with a significant technical dimension — they'll have important things to say about design, architecture, security, maintainability, and so on.
 
-It's also a smart approach to talk plenty and often with the commercial and customer team leads — to understand what the pipeline looks like, what customer relationships are like outside the delivery phase, any alteration or shifts in strategy, and so on.
+It's also a smart approach to talk plenty and often with the Commercial and Customer Office team leads — to understand what the pipeline looks like, what customer relationships are like outside the delivery phase, any alteration or shifts in strategy, and so on.
 
 You may also want to consider scheduling a regular check-in with some key people, such as the product director, creative director, technical leads, engineering managers, and so on — these are people with roles that probably have quite a bit of overlap with your concerns.
