@@ -267,6 +267,12 @@ export default async function(eleventyConfig) {
     return nav.length ? sortByOrder(nav, 'eleventyNavigation') : [];
   });
 
+  // Handbook: Delivery collection
+  eleventyConfig.addCollection('handbookDelivery', (collection) => {
+    var nav = collection.getFilteredByTag('#handbookDelivery');
+    return nav.length ? sortByOrder(nav, 'eleventyNavigation') : [];
+  });
+
 
   function sortByOrder(collection, field = 'order', andSticky = false) {
     if (field == 'eleventyNavigation') {
