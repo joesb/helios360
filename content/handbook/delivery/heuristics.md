@@ -65,7 +65,7 @@ Before you commit to a project, especially a large one, identify:{.padding-inlin
 
 - the biggest risks to success
 - the hardest things that you'll have to do
-- the most important elements to achieve or delivery
+- the most important elements to achieve or deliver
 
 Create experiments and spikes of activity on these so you know in depth how you're going to deal with them. As above: fail fast, learn quickly.{.padding-inline-start-lg}
 
