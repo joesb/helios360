@@ -82,7 +82,7 @@ Use those as decision points — times to understand what you've achieved, what 
 - Decide what are the next priorities.
 - Adapt the plan.
 
-#### Break things into phases
+#### Slice things into phases
 
 Projects should be approached in phases:{.padding-inline-start-lg}
 
