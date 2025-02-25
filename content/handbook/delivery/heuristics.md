@@ -45,7 +45,7 @@ Ask the customer why they are doing this thing. Understand the problem that need
 
 #### Ask what
 
-Ask service users what they want to achieve, and what they expect to happen.{.padding-inline-start-lg}
+Ask service users what they want to achieve, and what makes it hard to do that.{.padding-inline-start-lg}
 
 #### Focus on user needs
 
