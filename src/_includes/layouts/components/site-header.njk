@@ -1,22 +1,22 @@
     <header role="banner" class="header-main content-canvas" id="main-navigation">
       <div class="header-main__inner content-canvas-item-wide">
         <div class="header-main__logo">
-          {% if page.url !== '/' %}<a href="{{ '/' | url }}" class="site-logo">
-            <h1 class="h2-style visually-hidden">
+          {% if page.url !== '/' %}<a href="{{ '/' | url }}" class="site-logo" title="{{ metadata.title }}">
+            <div class="h2-style visually-hidden">
               {{ metadata.title }}
               {% if metadata.subtitle %}
               <div class="h2-style not-bold">{{ metadata.subtitle }}</div>
               {% endif %}
-            </h1>
+            </div>
           </a>
           {% else %}
-          <span class="site-logo">
-            <h1 class="h2-style visually-hidden">
+          <span class="site-logo" title="{{ metadata.title }}">
+            <div class="h2-style visually-hidden">
               {{ metadata.title }}
               {% if metadata.subtitle %}
               <div class="h2-style not-bold">{{ metadata.subtitle }}</div>
               {% endif %}
-            </h1>
+            </div>
           </span>
           {% endif %}
         </div>
