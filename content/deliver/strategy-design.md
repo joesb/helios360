@@ -7,7 +7,7 @@ jumbotron: |
   **Your organisation's delivery strategy needs to align with your business goals, your operating capabilities, your sector and specialism, and your clients' needs.**
 
   Designed with a focus on modernisation, best-practice adoption, with training and resources to ensure rock solid adoption.
-date: 2024-12-12
+date: 2025-02-27
 eleventyNavigation:
   key: Strategy Design
   parent: Delivery
