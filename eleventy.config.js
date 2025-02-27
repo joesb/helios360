@@ -126,6 +126,11 @@ export default async function(eleventyConfig) {
 		return content;
 	});
 
+  // JSON output stringify filter
+  eleventyConfig.addFilter('stringify', (data) => {
+    return JSON.stringify(data, null, "\t")
+  })
+
   // Return active path attributes
   eleventyConfig.addShortcode('activepath', function (itemUrl, currentUrl, currentClass = "current", prefix = '') {
     if (itemUrl == '/' && itemUrl !== currentUrl) {
