@@ -9,6 +9,7 @@ jumbotron: |
 date: 2025-02-24T11:39:00Z
 tags:
   - '#handbookDelivery'
+  - '#handbookPromotedHP'
 eleventyNavigation:
   key: Delivery leadership heuristics
   parent: Getting things done
