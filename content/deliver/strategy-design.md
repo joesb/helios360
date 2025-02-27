@@ -20,6 +20,7 @@ redirect_from:
 meta:
   title: Strategy Design for Client Delivery
   description: Effective delivery strategy, operating model and implementation tools that align with your business goals
+showTOC: false
 ---
 
 ## The process

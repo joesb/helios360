@@ -19,6 +19,7 @@ tags:
 meta:
   title: Service Delivery
   description: High-performance client and professional services delivery for a united service vision
+showTOC: false
 ---
 
 ## The principles
