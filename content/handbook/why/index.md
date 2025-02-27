@@ -1,5 +1,5 @@
 ---
-title: Why does an organisation need a Chief Delivery Officer?
+title: Why do you need a Chief Delivery Officer?
 description: End-to-end quality, efficiency, and customer satisfaction from the heart of the business outwards
 layout: section.njk
 jumbotron: |
