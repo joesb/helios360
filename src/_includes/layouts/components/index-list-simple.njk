@@ -53,7 +53,7 @@
           {# MORE BUTTON #}
           {% if listAllMoreButton %}
           <div class="link">
-            <a href="{{ item.url | url }}" class="single-meta-item single-meta-forward">Learn more</a>
+            <a href="{{ item.url | url }}" class="single-meta-item single-meta-forward" title="Learn more about {{ item.data.title }}">Learn more</a>
           </div>
           {% endif %}
         {% if item.data.image.path %}
