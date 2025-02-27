@@ -1,0 +1,19 @@
+      {% if eleventyNavigation.key not in ["Home", "Contact"] %}
+      {% set navPages = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key, { includeSelf: true }) %}
+			{% if navPages | length %}
+			<nav aria-label="Breadcrumb" class="breadcrumb content-canvas-item-wide-left-more">
+				<ul class="{{ navigationOptions.listClass }}">
+			{% for entry in navPages %}
+					<li>
+            {% set entryTitle %}{% if entry.key == 'Handbook' %}The CDO's Handbook{% else %}{{ entry.key }}{% endif %}{% endset %}
+						{% if loop.last %}
+						<span aria-current="page">{{ entryTitle }}</span>
+						{% else %}
+						<a href="{{ entry.url }}">{{ entryTitle }}</a>
+						{% endif %}
+					</li>
+			{% endfor %}
+				</ul>
+			</nav>
+			{% endif %}
+			{% endif %}

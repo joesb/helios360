@@ -1,0 +1,12 @@
+.breadcrumb-list {
+  > * {
+    &:not(:last-of-type) {
+
+      &::after {
+        content: "/";
+        display: inline-block;
+        padding-inline-start: var(--size-2);
+      }
+    }
+  }
+}

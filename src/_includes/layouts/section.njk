@@ -26,6 +26,10 @@ pagemeta:
     
     <div class="site-content{% if page.classes %} {{ page.classes | join(" ") }}{% endif %} content-canvas section type-section">
 
+			{% if eleventyNavigation %}
+			{% include "layouts/components/page-breadcrumb.njk" %}
+			{% endif %}
+
       {% if showTitle != false %}
       {% include "layouts/components/title-bar.njk" %}
       {% endif %}
