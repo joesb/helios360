@@ -55,7 +55,7 @@ Work out what you want to achieve is the first step. That'll help to frame the j
 
 Here's some key things to keep in mind as you consider what you want your CDO to achieve, though.
 
-We'll talk more in due course about how you can [understand (and probably measure) the impact of your CDO](/handbook/why/measuring-success/). For now, though, just keep this in mind: if you set an objective, it be framed by a specific result to aim at.
+We'll talk more in due course about how you can [understand (and probably measure) the impact of your CDO](/handbook/why/measuring-impact/). For now, though, just keep this in mind: if you set an objective, it be framed by a specific result to aim at.
 
 ## This or that
 
