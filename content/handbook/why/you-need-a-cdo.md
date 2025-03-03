@@ -17,6 +17,9 @@ tags:
   - '#handbookWhy'
 image:
   social: content/public/images/source/pexels-fauxels-3182762.jpg
+  classes:
+    - content-canvas-item-wide-left-sm
+    - content-canvas-item-left--span-3
 pagemeta:
   show: true
 meta:
@@ -38,9 +41,17 @@ It's worth reflecting here, though — *did the business actually get along just
 
 There's at least two answers to that question.
 
-Firstly, of course they did — they wouldn’t be in business otherwise.
+{% ImgFigure '<a href="https://www.pexels.com/photo/photo-of-people-sitting-beside-wooden-table-3182762/" target="_blank" rel="noopener nofollow ugc">Photo</a> by <a href="https://www.pexels.com/@fauxels/" target="_blank" rel="noopener nofollow ugc">fauxels</a>', image.classes %}
+![People sitting around a wooden table while they work](/public/images/source/pexels-fauxels-3182762.jpg){.image-rounded eleventy:widths="200,350,500"}
+{% endImgFigure %}
 
-However, secondly, it quite likely that the business hasn't actually been doing that well, struggling in one or more aspects of delivering for clients, without acknowledging it or really understanding why. Sometimes, it's obvious that something's not working — stressed staff, unhappy clients, missed deadlines, etc. Sometimes, it's only through interpreting secondary symptoms that you realise there's a problem — the business feels like it's hit a ceiling of growth that it just can't push through, say. Sometimes, it's just a sense that the founder(s) or CEO has that things could be better.
+Firstly, of course they did — they wouldn’t be in business otherwise.{.content-canvas-item-main-left-main-end}
+
+Secondly, though, it's quite likely that the business hasn't actually been doing that well, struggling in one or more aspects of delivering for clients, without acknowledging it or really understanding why.{.content-canvas-item-main-left-main-end}
+
+Sometimes, it's obvious that something's not working — stressed staff, unhappy clients, missed deadlines, etc.{.content-canvas-item-main-left-main-end}
+
+Sometimes, it's only through interpreting secondary symptoms that you realise there's a problem — the business feels like it's hit a ceiling of growth that it just can't push through, say. Sometimes, it's just a sense that the founder(s) or CEO has that things could be better.
 
 ## Delivery, governance, strategy
 
