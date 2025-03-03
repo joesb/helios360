@@ -15,6 +15,8 @@ eleventyNavigation:
   order: 10
 tags:
   - '#handbookWhy'
+image:
+  social: content/public/images/source/pexels-fauxels-3182762.jpg
 pagemeta:
   show: true
 meta:
