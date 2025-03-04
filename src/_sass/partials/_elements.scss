@@ -50,9 +50,9 @@ html {
   --font-size-fluid-000: clamp(#{var.$body-v-sml-font-size-mobile}, 1.3vw, #{var.$body-v-sml-font-size});
   --font-size-fluid-00: clamp(0.7rem, 1.75vw, 0.85rem);
   --font-size-fluid-0: clamp(0.75rem, 2vw, 1rem);
-  --font-size-fluid-010: clamp(0.8rem, 4vw, 1.1rem);
-  --font-size-fluid-01: clamp(0.875rem, 4vw, 1.125rem);
-  --font-size-fluid-02: clamp(0.925rem, 4vw, 1.25rem);
+  --font-size-fluid-010: clamp(0.8rem, 3vw, 1.1rem);
+  --font-size-fluid-01: clamp(0.875rem, 3vw, 1.125rem);
+  --font-size-fluid-02: clamp(0.875rem, 3vw, 1.25rem);
   --font-size-fluid-12: clamp(1.25rem, 5vw, 1.75rem);
   --font-size-fluid-3: clamp(#{var.$h1-font-size-mobile}, 4vw, #{var.$h1-font-size});
   --font-size-fluid-4: clamp(#{var.$h1-lg-font-size-mobile}, 6vw, #{var.$h1-lg-font-size});
@@ -61,6 +61,7 @@ html {
   --size-header-5: 55ch;
 
   // Sizes
+  --size-fluid-000: clamp(0.125rem, 0.5vw, 0.25rem);
   --size-fluid-00: clamp(0.25rem, 0.67vw, 0.5rem);
   --size-fluid-0: clamp(0.25rem, 0.75vw, 0.75rem);
 }
@@ -75,6 +76,9 @@ html {
 
 :where(a):where([href]) {
   color: var(--color-brand-primary);
+  accent-color: var(--color-brand-primary);
+  text-decoration: inherit;
+  font-weight: 500;
 
   &:where(:hover),
   &:where(:visited) {

@@ -90,7 +90,9 @@
 
 .footer__nav {
   a {
+    font-size: var(--font-size-fluid-01);
     color: var(--color-brand-white);
+    padding-block: var(--size-fluid-000);
 
     &:hover {
       color: var( --color-brand-white);
@@ -159,5 +161,12 @@
   .footer-main__nav__list {
     display: initial;
     margin-block-end: 0;
+  }
+
+  .footer__nav {
+    a {
+      font-size: var(--font-size-fluid-0);
+      padding-block: unset;
+    }
   }
 }

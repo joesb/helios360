@@ -9,8 +9,8 @@
     font-size: var(--font-size-fluid-1);
   }
 
-  :where(small) {
-    font-size: var(--font-size-fluid-01);
+  :where(.small) {
+    font-size: var(--font-size-fluid-02);
     line-height: 0.5;
   }
 
@@ -19,5 +19,5 @@
     margin-inline: calc(var(--size-1)*-1);
     padding-block:var(--size-00);
     padding-inline: var(--size-1)
-}
+  }
 }
