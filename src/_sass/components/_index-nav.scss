@@ -10,18 +10,21 @@
     position: absolute;
     display: grid;
     grid-template-areas:
-      ". . ."
-      ". index-nav ."
+      ". ."
+      ". index-nav"
     ;
-    grid-template-columns: 1.5rem 2fr 1.5rem;
-    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 1.5rem auto;
+    grid-template-rows: 1fr 3fr;
     align-items: center;
+    max-height: 70vh;
   }
 
   .index-nav--content {
     position: relative;
     z-index: 100;
     grid-area: index-nav;
+    overflow-y: scroll;
+    max-height: 50vh;
   }
 
   .header-main__inner {
