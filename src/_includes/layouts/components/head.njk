@@ -12,14 +12,14 @@
   {% jsonLdScript meta, type, tags %}
 
   <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/favicon/apple-touch-icon.png" type="image/png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/public/favicon/apple-touch-icon.png" type="image/png">
   <link rel="icon" href="/public/favicon/favicon.png" type="image/png" sizes="16x16">
   <link rel="icon" href="/public/favicon/favicon-16.png" type="image/png" sizes="16x16">
   <link rel="icon" href="/public/favicon/favicon-32.png" type="image/png" sizes="32x32">
   <link rel="icon" href="/public/favicon/favicon-64.png" type="image/png" sizes="64x64">
   <link rel="icon" href="/public/favicon/favicon-192.png" type="image/png" sizes="192x192">
   <link rel="icon" href="/public/favicon/favicon-256.png" type="image/png" sizes="256x256">
-  {# <link rel="manifest" href="/static/favicon/site.webmanifest"> #}
+  <link rel="manifest" href="/site.webmanifest">
 
   {% if metadesc or description %}
   <meta name="description" content="{{ description or metadesc }}" />

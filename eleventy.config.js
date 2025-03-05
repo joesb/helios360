@@ -336,6 +336,8 @@ export default async function(eleventyConfig) {
   eleventyConfig.addWatchTarget('./src/_sass/');
   // Put robots.txt in root
   eleventyConfig.addPassthroughCopy({ 'content/robots.txt': '/robots.txt' });
+  eleventyConfig.addPassthroughCopy({ 'content/favicon.ico': '/favicon.ico' });
+  eleventyConfig.addPassthroughCopy({ 'content/site.webmanifest': '/site.webmanifest' });
 }
 
 export const config = {
