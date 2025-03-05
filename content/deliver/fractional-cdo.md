@@ -1,0 +1,39 @@
+---
+title: What is a fractional Chief Delivery Officer (CDO)?
+layout: page.njk
+type: page
+description: Experienced fractional CDO and service delivery principal working with UK & USA-based CEOs and founders of ambitious businesses.
+jumbotron: |
+  A trusted customer relationship partner for CEOs and founders
+eleventyNavigation:
+  key: What is a fractional Chief Delivery Officer (CDO)?
+  parent: Delivery
+  root: Delivery
+  order: 50
+  hide: true
+showTOC: false
+---
+A fractional Chief Delivery Officer (CDO) is a senior executive who works closely with a CEO or founder to align the client delivery strategy and execution with both the business goals and their customers' needs. A fractional leader will likely hold part-time leadership roles across several companies simultaneously.
+
+A fractional CDO gives part of their professional attention, effort and expertise to a business. But it’s not only about time — the [key metrics](/handbook/why/set-up-for-success/) for a fractional CDO’s contribution are primarily focused on value, impact, or results.
+
+A fractional Chief Delivery Officer offer particular impact because they will bring extensive real-world experience, maturity, and expertise. The fractional CDO is both a subject matter expert, designing the delivery strategy that is right for the business, and is able to implement and embed the customer delivery practices in executing the CDO role for the business.
+
+More than overseeing delivery, though, the fractional Chief Delivery Officer models how to optimise a customer's experience of the business. Service delivery is often the part of the business that clients experience most closely and, done well, is a foundation stone for an organisation's reputation.
+
+---
+
+## Working with me as your fractional CDO
+
+### How I work as a fractional CDO
+
+I work part-time in your leadership team as Chief Delivery Officer. As a fractional CDO I lead delivery teams, represent your business and am fully embedded within your company.
+
+You, your leadership team and investors get:
+
+- Hands-on, high leverage and experienced senior leadership
+- Equivalent of one, two or three days per week working hands-on within your team as your CDO
+- Extensive resources, clear processes, embedded practices, and delivery toolkits tailored to your specific context
+- Unlimited 1:1 access to me via Slack, email & phone
+
+[Contact me to discuss my fractional CDO service](/contact/){.single-meta-forward}
