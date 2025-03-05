@@ -14,6 +14,7 @@
     {% set navPages = collections.all | eleventyNavigation(eleventyNavigation.root) %}
     {# {{ navPages | debug | safe }} #}
     {% macro renderNavListItem(entry, index) %}
+    {% if entry.hide != true %}
     <{{ navOptions.listItemElement }} class="{% if navOptions.listItemClass%}{{ navOptions.listItemClass }}{% endif %}{% if entry.children.length !== 0 and navOptions.listItemHasChildrenClass%} {{ navOptions.listItemHasChildrenClass }} {{ navOptions.listParentItemClass }}--level-{{ index }}{% endif %}{% activepath entry.url, page.url, navOptions.activeListItemClass, ' ' %}">
       <a href="{{ entry.url }}" class="{% activepath entry.url, page.url, navOptions.activeAnchorClass %}">{{ entry.title }}</a>
       {% if entry.children.length !== 0 %}
@@ -29,6 +30,7 @@
         {% endif %}
       {% endif %}
     </{{ navOptions.listItemElement }}>
+    {% endif %}
     {% endmacro %}
 
     {# {% set navPages = collections.all | eleventyNavigation() %} #}
