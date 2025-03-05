@@ -13,9 +13,9 @@ eleventyNavigation:
   hide: true
 showTOC: false
 ---
-A fractional Chief Delivery Officer (CDO) is a senior executive who works closely with a CEO or founder to align the client delivery strategy and execution with both the business goals and their customers' needs. A fractional leader will likely hold part-time leadership roles across several companies simultaneously.
+A fractional Chief Delivery Officer (CDO) is a senior executive who works closely with a CEO or founder to [align the client delivery strategy and execution](/handbook/why/you-need-a-cdo/) with both the business goals and their customers' needs. A fractional leader will likely hold part-time leadership roles across several organisations simultaneously.
 
-A fractional CDO gives part of their professional attention, effort and expertise to a business. But it’s not only about time — the [key metrics](/handbook/why/set-up-for-success/) for a fractional CDO’s contribution are primarily focused on value, impact, or results.
+A fractional CDO gives part of their professional attention, effort and expertise to a business. But it’s not only about time — the [key metrics](/handbook/why/measuring-impact/) for a fractional CDO’s contribution are primarily focused on [value, impact, or results](/handbook/why/set-up-for-success/).
 
 A fractional Chief Delivery Officer offers particular impact because they bring extensive real-world experience, maturity, and expertise. The fractional CDO is both a subject matter expert, designing the delivery strategy that is right for the business, and works to implement and embed the customer delivery practices in executing the CDO role for the business.
 
