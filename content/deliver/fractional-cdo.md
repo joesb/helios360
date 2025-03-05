@@ -4,7 +4,7 @@ layout: page.njk
 type: page
 description: Experienced fractional CDO and service delivery principal working with UK & USA-based CEOs and founders of ambitious businesses.
 jumbotron: |
-  A trusted customer relationship partner for CEOs and founders
+  A trusted service delivery partner for CEOs and founders
 eleventyNavigation:
   key: What is a fractional Chief Delivery Officer (CDO)?
   parent: Delivery
