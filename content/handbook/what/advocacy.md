@@ -13,6 +13,8 @@ image:
   classes:
     - content-canvas-item-wide-left-more
     - margin-block-lg
+  classesSml:
+    - margin-block-lg
 eleventyNavigation:
   key: The ultimate advocate
   parent: What makes a CDO?
@@ -36,12 +38,62 @@ That puts the Chief Delivery Officer in a particularly unusual place, in between
 - to comprehend what the client wants to achieve and represent that to the business so that it can prepare all that's needed to reach those outcomes
 - to understand that the business itself has objectives and capabilities, and what it does for its customers has to align with those goals as well
 
-{% ImgFigure 'The CDO in between two things', image.classes %}![The CDO in between two things](/public/images/handbook/what-cdo-advocate.png){.image-rounded eleventy:widths="200,350,500,750,1280"}{% endImgFigure %}
+{% ImgFigure 'The CDO between two things', image.classes %}![The CDO between two things](/public/images/handbook/what-cdo-advocate.png){.image-rounded eleventy:widths="200,350,500,750,1280"}{% endImgFigure %}
 
 To add complication to this position, both of those things are often irregularly shaped, zigzag and edgy in unexpected places, with unusual or specific needs or practices that need to be respected. Compounding the challenge, those two sets of needs are in competition with each other in many areas, with only a limited number of places where they connect smoothly.
+
+## The CDO as two-way advocate
 
 So, the client and the business need the CDO to be an intermediary, to act as the interface between the two.
 
 The word that's most appropriate here is **advocacy**{.text-color-brand-secondary}.
 
+{% ImgFigure "Dictionary definition of the word 'Advocate' — a person who puts a case on someone else's behalf", image.classesSml %}![Dictionary definition of the word 'Advocate' — a person who puts a case on someone else's behalf](/public/images/handbook/what-cdo-advocate-defn.jpg){.image-rounded .image-border eleventy:widths="200,350,500,750,1280"}{% endImgFigure %}
+
 The delivery principal is the advocate for both the organisation and the customer, simultaneously.
+
+### To your company you are the voice of the customer:
+
+You represent the customer's objectives and the needs of their team with coherence and clarity, with the deepest understanding of what they are aiming to achieve and why they want to do that, continually maintaining a tight focus on goals and keeping a close watch on progress.{.padding-inline-start-lg}
+
+### To the client you are the voice of the company:
+
+You continually put the case for the expertise and capabilities of your business and the people within it, portraying what has been done, describing what will be done next, preparing what will be done in due course, giving clarity on issues and facilitating decisions to address them, looking forward to what could be done in future business together.{.padding-inline-start-lg}
+
+&nbsp;
+
+That can be an uncomfortable place to sit — in the middle, as both things and neither at the same time. And it's certainly a demanding role as well. But it's absolutely necessary if you are going to get the best for both your business and your customers.
+
+## Three-way advocacy
+
+In truth though, a delivery principal sits in the middle of three things:
+
+1. The customer
+2. The business
+3. *The delivery team*
+
+{% ImgFigure 'The CDO between THREE things', image.classes %}![The CDO between THREE things](/public/images/handbook/what-cdo-advocate-delivery-team.png){.image-rounded eleventy:widths="200,350,500,750,1280"}{% endImgFigure %}
+
+This third element, the delivery team, is your closest set of collaborators as you work to deliver things for customers.
+
+Like you, the delivery team sits super-close to the client. They have a powerful sense of what works (and what doesn't!) in the real world. They have an in-depth understanding about building efficient, high-performance, secure *and useful* things that work for real users.
+
+And, like you, they also understand how to take the irregularly shaped, zigzag and edgy things of your company and smooth them out for your customers.
+
+But they have their own needs — in order for delivery teams to do their best work they have their own quirks and requirements. For example, they need …
+
+- a project vision and clear objectives,
+- a robust plan to follow,
+- managed capacity,
+- to have the right things and knowledge in place in good time,
+- a rhythm to the work,
+- a strong sense of team,
+- a safe space to do their best work,
+- … and raise issues or concerns early,
+- time and opportunity to lean into their expertise,
+- meaningful support and feedback
+- an effective means to pull on the wider organisation for extra mojo when needed
+
+… and so on.
+
+This means that the Chief Delivery Officer is an advocate for the delivery team as well — both to the customer, so they have what then need when they need it; and to your business, so the delivery get the help and support that's necessary to get stuff done.

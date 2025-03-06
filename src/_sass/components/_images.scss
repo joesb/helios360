@@ -42,6 +42,12 @@
   border-radius: var(--size-2);
 }
 
+.image-border {
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--border-color-pale);
+}
+
 .image-obj-cover {
   block-size: 100%;
   object-fit: cover;
