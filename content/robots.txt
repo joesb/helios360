@@ -1,7 +1,5 @@
 User-agent: *
 Allow: /
-Disallow: /admin/
-Disallow: /cdn-cgi/
 
 User-agent: Google-Extended
 Allow: /
