@@ -9,6 +9,7 @@ jumbotron: |
 pending: false
 date: 2025-03-05T13:07:00Z
 image:
+  social: content/public/images/handbook/what-cdo-advocate.png
   classes:
     - content-canvas-item-wide-left-more
     - margin-block-lg
