@@ -7,7 +7,7 @@ jumbotron: |
 
   CDOs have to be able to engage credibly and effectively with clients at all levels. They need to represent the delivery team, supporting them to do their best work. And they also need to see progress towards the goals of the business. It's a strange, important position to occupy.{.smaller}
 pending: false
-date: 2025-03-05T13:07:00Z
+date: 2025-03-06T12:07:00Z
 image:
   social: content/public/images/handbook/what-cdo-advocate.png
   classes:
