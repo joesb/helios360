@@ -3,6 +3,8 @@ Allow: /
 Disallow: /admin/
 Disallow: /cdn-cgi/
 
+User-agent: Google-Extended
+Allow: /
 
 Host: https://helios360.co.uk/
 
