@@ -60,7 +60,7 @@ I am a highly accomplished technical delivery leadership expert, with extensive 
 
 I've worked in Agile delivery contexts for 20 years, using all the Agile project management tools, with most significant part of my delivery experience formed by the UK Government Delivery Service (GDS) Agile delivery framework.{.content-canvas-item-main-left-main-end}
 
-I'm passionate about building engaged, motivated and inclusive cross-functional teams of experts, working hard to lift teams to high performance.{.content-canvas-item-main-left-main-end}
+I'm passionate about building engaged, motivated and inclusive cross-functional teams of experts, working hard to lift teams to high performance.
 
 [Contact me to discuss my fractional CDO service](/contact/){.single-meta-forward}
 
