@@ -21,6 +21,8 @@ showTOC: false
 pagemeta:
   show: true
   readingTime: false
+tags:
+  - '#servicePromoted'
 image:
   classes:
     - content-canvas-item-wide-left-sm
