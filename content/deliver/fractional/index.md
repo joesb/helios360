@@ -12,7 +12,7 @@ jumbotron: |
   **Get support —** for ambitious CEOs and founders.{.emphasis}
 
   [Working with me as your fractional CDO](#working-with-me-as-your-fractional-chief-delivery-officer){.single-meta-forward .single-meta-forward-button .small}
-  [How I work as a fractional CDO](#working-with-me-as-your-fractional-chief-delivery-officer){.single-meta-forward .single-meta-forward-button .small}
+  [How I work as a fractional CDO](#how-i-work-as-a-fractional-cdo){.single-meta-forward .single-meta-forward-button .small}
 eleventyNavigation:
   key: Fractional CDO
   parent: Delivery
