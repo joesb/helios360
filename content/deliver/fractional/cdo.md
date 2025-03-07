@@ -3,6 +3,7 @@ title: What is a fractional Chief Delivery Officer (CDO)?
 layout: page.njk
 type: page
 description: An experienced, independent service delivery principal who's a trusted partner for CEOs and founders of ambitious businesses
+date: 2025-03-07T12:59:47Z
 jumbotron: |
   A trusted partner for CEOs and founders of ambitious businesses
 eleventyNavigation:
