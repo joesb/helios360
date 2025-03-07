@@ -12,7 +12,6 @@ eleventyNavigation:
   root: Delivery
   order: 50
 showTOC: false
-date: 2025-03-05T17:33:00Z
 meta:
   title: What is a fractional Chief Delivery Officer (CDO)?
   description: An experienced, independent service delivery principal who's a trusted partner for CEOs and founders of ambitious businesses
