@@ -20,6 +20,7 @@ image:
   classes:
     - content-canvas-item-wide-left-sm
     - content-canvas-item-left--span-3
+    - margin-block-lg
 pagemeta:
   show: true
 meta:
@@ -41,9 +42,7 @@ It's worth reflecting here, though — *did the business actually get along just
 
 There's at least two answers to that question.
 
-{% ImgFigure '<a href="https://www.pexels.com/photo/photo-of-people-sitting-beside-wooden-table-3182762/" target="_blank" rel="noopener nofollow ugc">Photo</a> by <a href="https://www.pexels.com/@fauxels/" target="_blank" rel="noopener nofollow ugc">fauxels</a>', image.classes %}
-![People sitting around a wooden table while they work](/public/images/source/pexels-fauxels-3182762.jpg){.image-rounded eleventy:widths="200,350,500"}
-{% endImgFigure %}
+{% ImgFigure '<a href="https://www.pexels.com/photo/photo-of-people-sitting-beside-wooden-table-3182762/" target="_blank" rel="noopener nofollow ugc">Photo</a> by <a href="https://www.pexels.com/@fauxels/" target="_blank" rel="noopener nofollow ugc">fauxels</a>', image.classes %}![People sitting around a wooden table while they work](/public/images/source/pexels-fauxels-3182762.jpg){.image-rounded eleventy:widths="200,350,500"}{% endImgFigure %}
 
 Firstly, of course they did — they wouldn’t be in business otherwise.{.content-canvas-item-main-left-main-end}
 

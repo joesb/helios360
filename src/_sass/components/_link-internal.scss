@@ -153,10 +153,12 @@
 }
 
 .single-meta-forward-button {
+  display: inline-block;
   font-family: var(--font-headings);
   background-color: var(--color-brand-primary);
   color: var(--color-black);
   padding-inline : var(--size-6) var(--size-7);
+  padding-block: var(--size-3);
   border-radius: var(--size-3);
   transition: background-color 0.2s ease;
 

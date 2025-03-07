@@ -2,10 +2,10 @@
 title: We deliver
 layout: section.njk
 type: page
-date: 2024-12-09
+date: 2025-03-07T12:59:47Z
 pagination:
   data: collections.servicePromoted
-  size: 3
+  size: 6
   alias: items
   generatePageOnEmptyData: true
 listAllDescriptions: true
