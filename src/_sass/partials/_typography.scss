@@ -101,6 +101,17 @@ h6,
   &.heading-wide {
     max-inline-size: var(--size-header-3);
   }
+
+  &.heading-v-wide {
+    max-inline-size: var(--size-header-4);
+  }
+
+  &.heading-vv-wide {
+    max-inline-size: var(--size-header-5);
+  }
+  &.heading-full {
+    max-inline-size: unset;
+  }
 }
 
 h1,
