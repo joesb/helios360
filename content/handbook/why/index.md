@@ -14,6 +14,7 @@ eleventyNavigation:
   order: 10
 listTitle: In this section
 listSource: handbookWhy
+listAllMoreButton: true
 tags:
   - '#handbookPromoted'
   - '#handbookPromotedHP'

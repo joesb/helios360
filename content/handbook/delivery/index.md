@@ -12,6 +12,7 @@ pending: true
 date: 2025-02-24T11:38:00Z
 listTitle: In this section
 listSource: handbookDelivery
+listAllMoreButton: true
 eleventyNavigation:
   key: Getting things done
   parent: Handbook
