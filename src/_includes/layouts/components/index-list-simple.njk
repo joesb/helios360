@@ -34,7 +34,7 @@
           {% endif %}
           {% endif %}
           {# TITLE #}
-          <h2 class="h3-style"><a href="{{ item.url | url }}"{% activepath item.url, page.url %}>{{ item.data.title }}</a></h2>
+          <h2 class="h3-style">{{ item.data.title }}</h2>
           {# DESCRIPTION #}
           {% if (listAllDescriptions or loop.first) and item.data.description %}
           <div class="description">
@@ -53,7 +53,7 @@
           {# MORE BUTTON #}
           {% if listAllMoreButton %}
           <div class="link">
-            <a href="{{ item.url | url }}" class="single-meta-item single-meta-forward" title="Learn more about {{ item.data.title }}">Learn more</a>
+            <span class="single-meta-item single-meta-forward text-color-brand-primary" title="Learn more about {{ item.data.title }}">Learn more</span>
           </div>
           {% endif %}
         {% if item.data.image.path %}
