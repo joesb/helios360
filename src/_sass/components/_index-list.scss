@@ -76,7 +76,8 @@
     color: var(--color-brand-black);
   }
 
-  h2 {
+  h2,
+  h3 {
     color: var(--color-brand-primary);
   }
 }
@@ -198,7 +199,8 @@
       transition: all 0.3s ease;
     }
 
-    h2 {
+    h2,
+    h3 {
       text-decoration: underline;
     }
   }

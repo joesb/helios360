@@ -32,7 +32,7 @@
           </div>
           {% endif %}
           {% endif %}
-          <h2>{{ item.data.title }}</h2>
+          <h3 class="h2-style">{{ item.data.title }}</h3>
           {% if (listAllDescriptions or loop.first) and item.data.description %}
           <div class="description">
           {{ item.data.description | markdown | safe }}
