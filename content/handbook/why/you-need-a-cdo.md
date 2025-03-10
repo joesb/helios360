@@ -99,3 +99,11 @@ All together, a Chief Delivery Officer brings a whole-organisation and cross-fun
 This should probably be understood under the umbrella of culture shift: it will likely demand that the organisation thinks differently and acts differently.
 
 Although the CDO will have a large individual impact, one person alone will not be able to bring about the changes needed to get the best outcomes for the organisation. Even a team, small or large, will likely be overawed by the scale of the task to bring coherence to customer delivery, giving it the important and central place in the company's focus. Only when the whole business works together with the CDO and their team will the task be achievable.
+
+### A fractional CDO
+
+For some businesses, particularly ambitious companies that understand the need for high professionalism but, for whatever reason, don't want to take on a full-time CDO hire, a [fractional Chief Delivery Officer](/deliver/fractional/) may be an option.
+
+A [fractional CDO](/deliver/fractional/cdo/) will work closely with a CEO or founder to align the client delivery strategy and execution with both the business goals and their customers' needs.
+
+The right fractional CDO will give you the combination of strategic insight and deep hands-on customer delivery expertise that you need as you scale your business. And that means a fractional Chief Delivery Officer will help you overcome scaling challenges without the cost and commitment of a full-time hire.
