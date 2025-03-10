@@ -12,7 +12,7 @@
     "node": ">=20"
   },
   "scripts": {
-    "build:full": "(yarn sass:build) && (npx @11ty/eleventy --dryrun) && (npx @11ty/eleventy)",
+    "build:full": "(yarn install --immutable-cache) && (yarn sass:build) && (npx @11ty/eleventy --dryrun) && (npx @11ty/eleventy)",
     "clean": "npx rimraf -v _site/ src/_includes/assets/css/*",
     "watch": "npx eleventy --watch",
     "go": "yarn serve",
@@ -49,9 +49,10 @@
     "wrangler": "^3.95.0"
   },
   "dependencies": {
+    "@types/markdown-it": "^14.1.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "resend": "^4.0.1"
   },
-  "packageManager": "yarn@3.8.6"
+  "packageManager": "yarn@3.8.7"
 }
