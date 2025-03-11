@@ -27,6 +27,8 @@ html {
 
   --color-brand-primary-light: #{sp.$color-icterine-rgba-lighter};
   --color-brand-primary-dark: #{sp.$color-icterine-rgba-darker};
+  --color-brand-secondary-light: #{sp.$color-ming-rgba-lighter};
+  --color-brand-secondary-dark: #{sp.$color-ming-rgba-darker};
 
   // Text colours
   --color-text-black: var(--color-brand-black);

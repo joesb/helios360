@@ -33,3 +33,5 @@ $color-grey-light: color.adjust($color-grey, $lightness: 20%);
 // Variants
 $color-icterine-rgba-lighter: color.adjust($color-icterine-rgba, $lightness: 15%);
 $color-icterine-rgba-darker: color.adjust($color-icterine-rgba, $lightness: -15%);
+$color-ming-rgba-lighter: color.adjust($color-ming-rgba, $lightness: 15%);
+$color-ming-rgba-darker: color.adjust($color-ming-rgba, $lightness: -15%);
