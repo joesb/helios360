@@ -32,6 +32,14 @@
   {# Google Fonts #}
   {% include "layouts/components/head-google-fonts.njk" %}
   
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  {% if isHome %}
+  <!-- jQuery Modal -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"></script>
+  {% endif %}
+  
   {# OpenProps #}
   <link rel="stylesheet" href="//unpkg.com/open-props" />
   <link rel="stylesheet" href="//unpkg.com/open-props/normalize.light.min.css" />
@@ -54,13 +62,22 @@
   {# <!-- Pagefind CSS --> #}
   {# <link href="/pagefind/pagefind-ui.css" rel="stylesheet"> #}
 
-  
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   {% set js %}
     {% include "assets/js/inline.js" %}
     {# {% include "static/js/site.js" %} #}
   {% endset %}
   <script>{{ js | jsmin | safe }}</script>
+
+  {% if scripts %}
+  {% for script in scripts %}
+    {% set include_script %}assets/js/{{ script }}{% endset %}
+      {% set include_js %}
+        {% include include_script %}
+      {% endset %}
+    <script>{{ include_js | jsmin | safe }}</script>
+  {% endfor %}
+  {% endif %}
+
   {# <!-- Pagefind JS --> #}
   {# <script src="/pagefind/pagefind-ui.js"></script> #}
 

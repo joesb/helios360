@@ -1,0 +1,10 @@
+.jquery-modal {
+  z-index: 450;
+}
+
+.modal {
+  &.newsletter-modal {
+    background-color: var(--color-grey);
+    z-index: 500;
+  }
+}
