@@ -1,11 +1,11 @@
 ---
-title: Heuristics for better delivery leadership
+title: Heuristics for better project delivery leadership
 description: Fast and frugal rules of thumb to help project delivery start out on the right track and stay there
 layout: page.njk
 jumbotron: |
   Delivery is complex and fraught with ways for things to go wrong.
   
-  Here are a set of heuristics — fast and frugal rules of thumb — learnt from 20+ years of experience, reading, and researching to simplify complex things, and help service and project delivery start out on the right track and stay there.{.smaller}
+  Here are a set of heuristics for Chief Delivery Officers and delivery principals — fast and frugal rules of thumb — learnt from 20+ years of experience, reading, and researching to simplify complex things, and help service and project delivery start out on the right track and stay there.{.smaller}
 date: 2025-02-24T11:39:00Z
 tags:
   - '#handbookDelivery'
@@ -16,7 +16,7 @@ eleventyNavigation:
   root: Handbook
   order: 80
 meta:
-  title: Heuristics for better delivery leadership
+  title: Heuristics for better project delivery leadership
   description: Fast and frugal rules of thumb to help project delivery start out on the right track and stay there
 pagemeta:
   show: true
