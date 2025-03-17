@@ -24,6 +24,8 @@ pagemeta:
   readingTime: false
 tags:
   - '#servicePromoted'
+redirect_from:
+  - /fractional/
 image:
   classes:
     - content-canvas-item-wide-left-sm
