@@ -46,13 +46,13 @@
     "sass": "^1.85.1",
     "sass-autoprefixer": "^1.0.1",
     "uglify-js": "^3.19.3",
-    "wrangler": "^3.95.0"
+    "wrangler": "^3.114.1"
   },
   "dependencies": {
     "@types/markdown-it": "^14.1.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "resend": "^4.0.1"
+    "resend": "^4.1.2"
   },
   "packageManager": "yarn@3.8.7"
 }
