@@ -13,10 +13,10 @@
   },
   "scripts": {
     "build:full": "(yarn install --immutable-cache) && (yarn sass:build) && (npx @11ty/eleventy --dryrun) && (npx @11ty/eleventy)",
-    "clean": "npx rimraf -v _site/ src/_includes/assets/css/*",
+    "clean": "npx rimraf -v _site/ src/_includes/assets/css/* content/public/img/*",
     "watch": "npx eleventy --watch",
     "go": "yarn serve",
-    "serve": "(yarn clean) && (yarn sass:build) && (npx @11ty/eleventy --dryrun) & npx @11ty/eleventy --serve & sass --watch --style=expanded ./src/_sass/:./src/_includes/assets/css/",
+    "serve": "(yarn clean) && (yarn sass:build) && (npx @11ty/eleventy --dryrun) && npx @11ty/eleventy --serve & sass --watch --style=expanded ./src/_sass/:./src/_includes/assets/css/",
     "wrangler": "npx wrangler pages dev _site",
     "sass:build": "sass --style=expanded ./src/_sass/:./src/_includes/assets/css/ && npx postcss ./src/_includes/assets/css/*.css --use autoprefixer -d ./src/_includes/assets/css"
   },
@@ -26,7 +26,7 @@
     "@11ty/eleventy-navigation": "^0.3.5",
     "@11ty/eleventy-plugin-rss": "^2.0.3",
     "@quasibit/eleventy-plugin-schema": "^1.11.1",
-    "autoprefixer": "^10.4.20",
+    "autoprefixer": "^10.4.21",
     "clean-css": "^5.3.3",
     "dotenv": "^16.4.7",
     "eleventy-plugin-time-to-read": "^1.3.0",
@@ -40,18 +40,18 @@
     "markdown-it-deflist": "^3.0.0",
     "markdown-it-eleventy-img": "^0.10.2",
     "markdown-it-underline": "^1.0.1",
-    "postcss": "^8.5.1",
-    "postcss-cli": "^11.0.0",
+    "postcss": "^8.5.3",
+    "postcss-cli": "^11.0.1",
     "rimraf": "^6.0.1",
-    "sass": "^1.83.4",
+    "sass": "^1.85.1",
     "sass-autoprefixer": "^1.0.1",
     "uglify-js": "^3.19.3",
     "wrangler": "^3.95.0"
   },
   "dependencies": {
     "@types/markdown-it": "^14.1.2",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "resend": "^4.0.1"
   },
   "packageManager": "yarn@3.8.7"
