@@ -2,7 +2,7 @@
 @use "tools/respond-to" as rt;
 
 .home {
-  grid-template-rows: 55vh auto auto;
+  grid-template-rows: 50vh auto auto;
 
   .header-main__logo {
     padding-block: var(--size-5);
@@ -57,7 +57,7 @@
 
   .jumbotron {
     margin-block-start: 0;
-    min-height: 45vh;
+    min-height: 50vh;
 
     // :where(p) {
     //   font-size: var(--font-size-fluid-2);
