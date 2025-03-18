@@ -2,7 +2,7 @@
 title: Why an organisation needs a Chief Delivery Officer
 description: A CDO brings the integration between vision, strategy, and execution that you need to excel.
 layout: page.njk
-date: 2025-03-10T13:11:00.960Z
+date: 2025-03-18T17:11:49Z
 pending: false
 jumbotron: |
   Whether you're a services business or a product company, you need to deliver work for your clients. Often it's the part of the business that your clients experience most closely and, done well, is a foundation stone for your reputation.
@@ -54,17 +54,29 @@ Sometimes, it's only through interpreting secondary symptoms that you realise th
 
 ## Delivery, governance, strategy
 
-Projects need people to manage them. Work for clients needs people to be responsible for making sure it gets delivered, making sure the right people are doing the right things at the right time in the right way, with the resources and tools they need to get it done, with problems identified and risks raised and all handled appropriately to keep things on track and to get things to the destination as planned.
+Projects need people to lead them.
+
+Work for a client needs someone to be responsible for making sure it gets delivered.
+
+That person makes sure the right people are doing the right things at the right time in the right way, with the resources and tools they need to get it done, with problems identified and risks raised and all handled appropriately to keep things on track and to get things to the destination as planned.
 
 Project managers, delivery managers, team leads — all very straightforward and obvious roles, and it makes sense to hire as many project and/or delivery managers as you need, trained and empowered, to keep the show on the road.
 
 As a first impression, this is a fairly compelling way to address issues with delivering services for clients. The more clients and the more projects you have, the more people you hire to cover all the things. It's a fairly simple logic.
 
-Project management and delivery skills are important, and it's vital to have skilled and capable people in these roles so that your clients and customers get the quality of work they expect. But this approach to scaling is brittle and will inevitably come unstuck.
+Project management and delivery skills are important, and it's vital to have skilled and capable people in these roles so that your clients and customers get the quality of work they expect.
+
+But this approach to scaling is brittle and will inevitably come unstuck.
 
 ### More than delivery
 
-There's two dimensions here where more is required, one that is mostly outward-facing, one looking more inwards. For the first, for client work to be and remain healthy it needs more than project management. With the second, for the business itself to improve and grow it needs more than people delivering (more) stuff. The broad labels for each of these two aspects are 'governance' and 'strategy'.
+There's two dimensions here where more is required than just adding more delivery managers, one that is mostly outward-facing, one looking more inwards. These two dimensions are the key places where a Chief Delivery Officer brings value.
+
+*👉*{.drop-first .drop-first-vsm .margin-inline-end-md}For the first, for client work to be and remain healthy it needs *more than just project management*. It needs healthy and productive client relationships with good oversight, consistent focus on the objectives, and effective decisions.{.padding-inline-start-lg}
+
+*👉*{.drop-first .drop-first-vsm .margin-inline-end-md}With the second, for the business itself to improve and grow it needs *more than extra people* delivering (more) stuff. It needs a destination to achieve, and a path of growth and improvement to get there.{.padding-inline-start-lg}
+
+The broad labels for each of these two aspects are *governance* and *strategy*.
 
 #### Governance
 
@@ -94,11 +106,21 @@ As the business grows in its capabilities and its size, the capacity for deliver
 
 ## The value of a CDO
 
-All together, a Chief Delivery Officer brings a whole-organisation and cross-functional perspective to what the business does for its customers — the CDO will bring an essential unifying view to things in the business that are often otherwise disconnected, joining together marketing with relationship management, design with finance with sales, engineering with HR, and so on.
+All together, a Chief Delivery Officer brings a whole-organisation and cross-functional perspective to what the business does for its customers.
 
-This should probably be understood under the umbrella of culture shift: it will likely demand that the organisation thinks differently and acts differently.
+An effective CDO will have the customer's complete journey, from first encounter to repeat business, in their sights as the design a delivery strategy fit for use and then execute it to embed it in the business.
 
-Although the CDO will have a large individual impact, one person alone will not be able to bring about the changes needed to get the best outcomes for the organisation. Even a team, small or large, will likely be overawed by the scale of the task to bring coherence to customer delivery, giving it the important and central place in the company's focus. Only when the whole business works together with the CDO and their team will the task be achievable.
+As a consequence, the CDO will bring an essential unifying view to those things in the business that often are otherwise disconnected, joining together marketing with relationship management, design with finance with sales, engineering with HR, and so on. The intention is that the character of the business, its voice and it's messaging, are unified in the customer experience so that there's a consistent experience from beginning to end.
+
+### Bringing organisational change
+
+This should probably be understood under the umbrella of *culture shift*: it will likely demand that the organisation thinks differently and acts differently.
+
+Although the CDO will have a large individual impact, one person alone will not be able to bring about the changes needed to get the best outcomes for the organisation.
+
+Even a team, small or large, will likely be overawed by the scale of the task to bring coherence to customer delivery, giving it the important and central place in the company's focus.
+
+Only when the whole business works together with the CDO and their team will the task be achievable.
 
 ### A fractional CDO
 
