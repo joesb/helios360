@@ -8,7 +8,7 @@ jumbotron: |
 
   That derives from solid leadership and building high-capability, high-performance teams for end-to-end delivery of complex projects with a united service vision across the business, achieved in one team with the client.
 pending: false
-date: 2025-02-27
+date: 2025-03-18T16:04:00Z
 eleventyNavigation:
   key: Service Delivery
   parent: Delivery
@@ -90,5 +90,5 @@ We build revenue forecasting and spend review in at ground level, with tight man
 
 To discuss service delivery leadership and support in your context or any questions you have, then do please:
 
-[Book an appointment](https://calendar.app.google/82FYHkqV3CJaNwBm9){.single-meta-forward rel="noopener nofollow ugc" target="_blank"}
+[Book a call](https://calendar.app.google/82FYHkqV3CJaNwBm9){.single-meta-forward rel="noopener nofollow ugc" target="_blank"}
 {.text-center .larger .margin-block-lg}
