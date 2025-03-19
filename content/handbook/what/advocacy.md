@@ -125,7 +125,7 @@ So, we've looked at three groups whose needs the CDO has to mediate — the clie
 
 A Chief Delivery Officer has one final duty of advocacy:
 
-For the reputation of the business.{.padding-inline-start-lg .emphasis}
+For the reputation of the business.{.padding-inline-start-lg .emphasis .large}
 
 This, of course, is not the sole responsibility of the CDO — everyone is involved in building and maintaining the reputation, from top to bottom.
 
