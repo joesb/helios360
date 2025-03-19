@@ -248,6 +248,11 @@ h6,
   font-size: smaller;
 }
 
+.vsmall {
+  font-size: var(--font-size-fluid-0);
+  font-weight: var(--font-weight-medium);
+}
+
 .small {
   font-size: var(--font-size-0);
   font-weight: var(--font-weight-medium);
