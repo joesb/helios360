@@ -22,7 +22,7 @@
     width: clamp(ptr.px-to-rem(108px), 30vh, ptr.px-to-rem(180px));
     height: clamp(ptr.px-to-rem(108px), 30vh, ptr.px-to-rem(120px));
     content: " ";
-    background-image: url("/public/images/logo-02-sml.png");
+    background-image: url("/public/images/logo-02-sml.webp");
     background-repeat: no-repeat;
     background-size: contain;
     background-position-y: center;
@@ -36,7 +36,7 @@
 @include rt.respond-to('medium') {
   .site-logo {
     &::before {
-      background-image: url("/public/images/logo-02-md.png");
+      background-image: url("/public/images/logo-02-md.webp");
     }
   }
 }
