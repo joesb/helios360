@@ -20,6 +20,8 @@ eleventyNavigation:
   parent: What makes a CDO?
   root: Handbook
   order: 30
+pagemeta:
+  show: true
 tags:
   - '#handbookWhat'
 meta:
