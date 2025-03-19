@@ -33,9 +33,14 @@
   {% include "layouts/components/head-google-fonts.njk" %}
   
   {# OpenProps #}
-  <link rel="stylesheet" href="//unpkg.com/open-props@1.7.13/open-props.min.css" />
-  <link rel="stylesheet" href="//unpkg.com/open-props@1.7.13/normalize.light.min.css" />
-  <link rel="stylesheet" href="//unpkg.com/open-props@1.7.13/buttons.light.min.css" />
+  <link rel="preload" href="//unpkg.com/open-props@1.7.13/open-props.min.css" as="style" fetchPriority="low" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="//unpkg.com/open-props@1.7.13/normalize.light.min.css" as="style" fetchPriority="low" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="//unpkg.com/open-props@1.7.13/buttons.light.min.css" as="style" fetchPriority="low" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="//unpkg.com/open-props@1.7.13/open-props.min.css" />
+    <link rel="stylesheet" href="//unpkg.com/open-props@1.7.13/normalize.light.min.css" />
+    <link rel="stylesheet" href="//unpkg.com/open-props@1.7.13/buttons.light.min.css" />
+  </noscript>
   {# Styles #}
   {% set css %}
     {% include "assets/css/styles.css" %}
