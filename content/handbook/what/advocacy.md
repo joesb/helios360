@@ -7,7 +7,7 @@ jumbotron: |
 
   CDOs have to be able to engage credibly and effectively with clients at all levels. They need to represent the delivery team, supporting them to do their best work. And they also need to see progress towards the goals of the business. It's a strange, important position to occupy.{.smaller}
 pending: false
-date: 2025-03-06T12:07:00Z
+date: 2025-03-19T14:27:00Z
 image:
   social: content/public/images/handbook/what-cdo-advocate.png
   classes:
@@ -56,13 +56,19 @@ The delivery principal is the advocate for both the organisation and the custome
 
 You represent the customer's objectives and the needs of their team with coherence and clarity, with the deepest understanding of what they are aiming to achieve and why they want to do that, continually maintaining a tight focus on goals and keeping a close watch on progress.{.padding-inline-start-lg}
 
+You are also an advocate for prioritising the *needs* of customers in the company. Whatever stage of growth the business is at, and regardless of whether it's primarily a services business of a product company, the needs of customers must come top of priorities.{.padding-inline-start-lg}
+
+That means that the business as a whole needs to have agility and adaptability baked into its core character, so that when something unexpected happens for a customer or a client project then help can be made available with the appropriate urgency.{.padding-inline-start-lg}
+
 ### To the client you are the voice of the company:
 
 You continually put the case for the expertise and capabilities of your business and the people within it, portraying what has been done, describing what will be done next, preparing what will be done in due course, giving clarity on issues and facilitating decisions to address them, looking forward to what could be done in future business together.{.padding-inline-start-lg}
 
 &nbsp;
 
-That can be an uncomfortable place to sit — in the middle, as both things and neither at the same time. And it's certainly a demanding role as well. But it's absolutely necessary if you are going to get the best for both your business and your customers.
+That can be an uncomfortable place to sit — in the middle, as both things and neither at the same time. And it's certainly a demanding role as well.
+
+But it's absolutely necessary if you are going to get the best for both your business and your customers.
 
 ## Three-way advocacy
 
@@ -78,9 +84,15 @@ This third element, the delivery team, is your closest set of collaborators as y
 
 Like you, the delivery team sits super-close to the client. They have a powerful sense of what works (and what doesn't!) in the real world. They have an in-depth understanding about building efficient, high-performance, secure *and useful* things that work for real users.
 
-And, like you, they also understand how to take the irregularly shaped, zigzag and edgy things of your company and smooth them out for your customers.
+And, like you, they also understand how to take the irregularly shaped, zigzag and edgy things of your company and *smooth them out for your customers*.
 
-But they have their own needs — in order for delivery teams to do their best work they have their own quirks and requirements. For example, they need …
+### The delivery team's needs
+
+But the delivery team also have their own needs.
+
+In order for delivery teams to do their best work they have their own quirks and requirements, to which the CDO needs to be attentive.
+
+For example, they need …
 
 - a project vision and clear objectives,
 - a robust plan to follow,
@@ -96,4 +108,31 @@ But they have their own needs — in order for delivery teams to do their best w
 
 … and so on.
 
-This means that the Chief Delivery Officer is an advocate for the delivery team as well — both to the customer, so they have what then need when they need it; and to your business, so the delivery get the help and support that's necessary to get stuff done.
+The CDO will need to look both ways to make sure the delivery team has what they need.
+
+1. **The CDO needs to look to the customer …**{.larger}
+to make sure the delivery team has the things they need in good time — information, resources, the attention and focus of the right people, etc. — and in the right form for them to be able to perform their work.
+2. **The CDO needs to look to the business …**{.larger}
+to make sure the delivery team has the support they need — time from the right personnel (engineers, devops, product, Chief Technical Officer, Chief Data Officer, Design principals, etc.), technical and other resources that are available and usable without convoluted configuration, etc. — to execute their work efficiently and effectively.{.margin-block-start-md}
+
+This means that the Chief Delivery Officer is an advocate for the delivery team as well — both to the customer, so they have what they need when they need it; and to your business, so the delivery get the help and support that's necessary to get stuff done.
+
+## The ultimate advocate
+
+So, we've looked at three groups whose needs the CDO has to mediate — the client, the company, and the delivery team.
+
+A Chief Delivery Officer has one final duty of advocacy:
+
+For the reputation of the business.{.padding-inline-start-lg .emphasis}
+
+This, of course, is not the sole responsibility of the CDO — everyone is involved in building and maintaining the reputation, from top to bottom.
+
+*However*, a Chief Delivery Officer has a special concern for the stature and character of the business, and a unique influence over that organisational reputation.
+
+*👉*{.drop-first .drop-first-vsm .margin-inline-end-md}The CDO's interest lies with there being a *strong internal coherence in the business*. That means that whichever way you cut it, however you engage with it, the persona, the ways of acting and behaving, the language and the tone of voice of the business is consistent all the way through.{.padding-inline-start-lg}
+
+*👉*{.drop-first .drop-first-vsm .margin-inline-end-md}The CDO's responsibility lies in *presenting and representing that persona and tone of voice* to the customer with consistency — in the way the delivery team executes on the CDO's patterns, processes, tools, language, project rhythm and ceremonies, and so on.{.padding-inline-start-lg}
+
+Client delivery is the foundation stone for the organisation's reputation, and each client's experience adds to the structure built on top.
+
+And that means that a Chief Delivery Officer takes the role of the ultimate advocate.
