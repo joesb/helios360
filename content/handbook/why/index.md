@@ -3,7 +3,7 @@ title: Why do you need a Chief Delivery Officer?
 description: End-to-end quality, efficiency, and customer satisfaction from the heart of the business outwards
 layout: section.njk
 jumbotron: |
-  Why does a business need a Chief Delivery Officer (CDO) or Client Services Director (CSD)? They'll add costs and disrupt the organisation, and the business got along fine without one, right?
+  Why does a business need a Chief Delivery Officer (CDO) or some sort of delivery principal? They'll add costs and disrupt the organisation, and the business got along fine without one, right?
   
   So why might you need one?
 date: 2024-12-28
