@@ -29,7 +29,7 @@ In this section, we look at the need for a chief of delivery from all perspectiv
 
 In the question above there's a presumption of success — that the Chief Delivery Officer will bring rigour and performance to your client delivery processes and practices, seeing improvements in project or service delivery and triumphs across the board. But not all CDOs are successful, or aren't able to be, so we'll also look at the reasons why client delivery leadership can falter and what could be going on in those situations.
 
-This section will also cover how you can get the best our of your CDO — what do you actually do when you have a Chief Delivery Officer on Client Services Director on board?
+This section will also cover how you can get the best our of your CDO — what do you actually do when you have a Chief Delivery Officer, Client Services Director, or other delivery principal on board?
 
 And finally we'll take a view of things through the lens of metrics — how to understand the impact that your CDO is making to the business.
 
