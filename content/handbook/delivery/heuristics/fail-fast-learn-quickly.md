@@ -4,6 +4,7 @@ description: All too often, projects fail big — major issues arise too late to
 layout: page.njk
 jumbotron: |
   All too often, projects fail big — major issues arise too late to do anything about them, and time and costs balloon. It doesn't have to be this way.
+date: 2025-03-20T15:19:06Z
 eleventyNavigation:
   key: Fail fast, learn quickly
   parent: Delivery leadership heuristics
