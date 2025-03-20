@@ -6,7 +6,7 @@ jumbotron: |
   Delivery is complex and fraught with ways for things to go wrong.
   
   Here are a set of heuristics for Chief Delivery Officers and delivery principals — fast and frugal rules of thumb — learnt from 20+ years of experience, reading, and researching to simplify complex things, and help service and project delivery start out on the right track and stay there.{.smaller}
-date: 2025-02-24T11:39:00Z
+date: 2025-03-20T15:29:06Z
 tags:
   - '#handbookDelivery'
   - '#handbookPromotedHP'
@@ -59,6 +59,8 @@ Prioritise user needs over everyone else’s, including those of your senior sta
 Do experiments, especially early on, and don't be afraid to fail. That way you can spot problems early and resolve them quickly.{.padding-inline-start-lg}
 
 Be happy with doing things that fail, and create a culture that learns from failure.{.padding-inline-start-lg}
+
+[Deep Dive: Fail fast, learn quickly](/handbook/delivery/heuristics/fail-fast-learn-quickly/){.single-meta-forward .smaller}{.padding-inline-start-lg}
 
 #### Try out the risky, difficult and important stuff first
 
