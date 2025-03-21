@@ -3,7 +3,7 @@ title: Fractional Chief Delivery Officer (CDO) for ambitious businesses
 layout: page.njk
 type: page
 description: Experienced fractional CDO and service delivery principal working with UK & USA-based CEOs and founders of ambitious businesses.
-date: 2025-03-07T12:59:47Z
+date: 2025-03-21T15:59:47Z
 jumbotron: |
   Struggling with scaling? Wrestling with workload? Need to smarten up your strategy, management and client delivery leadership?{.bold}
 
