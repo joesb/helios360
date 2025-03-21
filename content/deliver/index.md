@@ -23,7 +23,7 @@ eleventyNavigation:
   parent: Home
 ---
 
-There's four ways that I help founders and CEOs of ambitious businesses to tame the chaos and rekindle the fire as you smarten up your agency or SaaS product company.
+There's four ways that I help founders and CEOs of ambitious businesses to tame the chaos and rekindle the fire.
 
 - Delivery leadership as a [fractional Chief Delivery Officer (CDO)](/deliver/fractional)
 - Practical support for [project or service delivery teams](/deliver/service-delivery/)
