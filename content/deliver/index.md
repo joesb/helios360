@@ -6,7 +6,7 @@ date: 2025-03-21T15:29:44Z
 jumbotron: |
   Your business is growing and really taking off, but keeping customers happy as you scale up is an unexpected challenge.{.bold}
 
-  And it's starting to threaten the health and growth of the company, dampening your passion as a founder.{.smaller .emphasis}
+  And it's starting to threaten the health and growth of the company, affecting your passion as a founder.{.smaller .emphasis}
 pagination:
   data: collections.servicePromoted
   size: 6
