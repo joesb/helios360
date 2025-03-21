@@ -48,7 +48,7 @@ There's constant challenges that are constantly changing as the business changes
 
 Or you may find that the way you used to run the business doesn't work now that you've grown, those old rules of thumb don't fit any more.
 
-Most significantly of all, you may find that customer work becomes problematic as it gets bigger, becomes harder to deliver on time without pulling all your time or burning out your team, even begins to feel stressful, chaotic and out of control.
+Most significantly, you may find that customer work becomes problematic as it gets bigger, becomes harder to deliver on time without demanding all your focus or burning out your team, even begins to feel stressful, chaotic and out of control.
 
 Bringing in a fractional Chief Delivery Officer (CDO) will help you overcome scaling challenges without the cost and commitment of a full-time hire.
 
