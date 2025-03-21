@@ -2,7 +2,11 @@
 title: We deliver
 layout: section.njk
 type: page
-date: 2025-03-07T12:59:47Z
+date: 2025-03-21T15:29:44Z
+jumbotron: |
+  Your business is growing and really taking off, but keeping customers happy as you scale up is an unexpected challenge.{.bold}
+
+  And it's starting to threaten the health and growth of the company, dampening your passion as a founder.{.smaller .emphasis}
 pagination:
   data: collections.servicePromoted
   size: 6
@@ -18,3 +22,10 @@ eleventyNavigation:
   key: Delivery
   parent: Home
 ---
+
+There's four ways that I help founders and CEOs of ambitious businesses to tame the chaos and rekindle the fire as you smarten up your agency or SaaS product company.
+
+- Delivery leadership as a [fractional Chief Delivery Officer (CDO)](/deliver/fractional)
+- Practical support for [project or service delivery teams](/deliver/service-delivery/)
+- Consultancy for [delivery strategy design](/deliver/strategy-design/) to solve problems fast
+- Standards and metrics for [effective governance and control](/deliver/governance-control/) of critical projects

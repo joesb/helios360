@@ -1,24 +1,24 @@
 ---
-title: Service Delivery
+title: Project or Service Delivery
 layout: page.njk
 type: page
-description: High-performance client and professional services delivery for a united service vision
+description: High-performance project and professional services delivery support for a united service vision
 jumbotron: |
-  **A primary focus on successful outcomes and how to get there is vital for client service delivery. The journey depends on tracking actual project performance against forecasts, with strategic planning for agile adaptation, identifying additional opportunities, and realigning capacity and resources.**
+  **A primary focus on successful outcomes and how to get there is vital for project or client service delivery. The journey depends on tracking actual project performance against forecasts, with strategic planning for agile adaptation, identifying additional opportunities, and realigning capacity and resources.**
 
   That derives from solid leadership and building high-capability, high-performance teams for end-to-end delivery of complex projects with a united service vision across the business, achieved in one team with the client.
 pending: false
-date: 2025-03-18T16:04:00Z
+date: 2025-03-21T15:24:33Z
 eleventyNavigation:
-  key: Service Delivery
+  key: Project Delivery
   parent: Delivery
   order: 10
   root: Delivery
 tags:
   - '#servicePromoted'
 meta:
-  title: Service Delivery
-  description: High-performance client and professional services delivery for a united service vision
+  title: Project or Service Delivery
+  description: High-performance project and professional services delivery support for a united service vision
 showTOC: false
 ---
 
