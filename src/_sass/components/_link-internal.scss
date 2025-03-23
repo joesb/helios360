@@ -19,8 +19,9 @@
   &::before {
     position: absolute;
     content: "\23F4";
-    top: calc(50% - 10px);
-    left: calc(-1 * var(--size-4));
+    top: calc(50% - 8px);
+    left: 0;
+    padding-inline-start: calc(-1 * var(--size-4));
     font-size: var(--size-3);
     height: ptr.px-to-rem(18px);
     width: ptr.px-to-rem(18px);
@@ -152,7 +153,7 @@
   }
 }
 
-.single-meta-forward-button {
+.single-meta-button {
   display: inline-block;
   font-family: var(--font-headings);
   background-color: var(--color-brand-primary);
@@ -162,11 +163,6 @@
   border-radius: var(--size-3);
   transition: all 0.2s ease;
   text-decoration: none;
-
-  &::after {
-    right: 1rem;
-    top: calc(50% - 0.5rem);
-  }
 
   &:hover {
     background-color: var(--color-brand-primary-dark);
@@ -182,5 +178,19 @@
     &:hover {
       background-color: var(--color-brand-secondary-dark);
     }
+  }
+}
+
+.single-meta-forward-button {
+  &::after {
+    right: 1rem;
+    top: calc(50% - 0.5rem);
+  }
+}
+
+.single-meta-back-button {
+  &::before {
+    left: 0.675rem;
+    top: calc(50% - 0.5rem);
   }
 }
