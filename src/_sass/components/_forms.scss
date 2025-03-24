@@ -46,3 +46,47 @@
   }
 }
 
+:where([type=submit],form button:not([type],[disabled])) {
+  background: var(--color-brand-primary);
+  border: 0;
+  border-radius: var(--size-3);
+  transition: all 0.2s ease;
+  box-shadow: unset;
+  text-shadow: unset;
+
+  &:hover {
+    background: var(--color-brand-primary-dark);
+    border-radius: var(--size-1);
+    transition: all 0.2s ease;
+  }
+}
+
+.embeddable-buttondown-form {
+  input {
+    display: inline-block;
+    height: var(--size-8);
+  }
+
+  :where([type=submit],form button:not([type],[disabled])) {
+    border-radius: 0 var(--size-3) var(--size-3) 0;
+
+    &:hover {
+      border-radius: 0 var(--size-1) var(--size-1) 0;
+    }
+  }
+
+  :where([type=email]) {
+    background-color: transparent;
+    color: var(--color-brand-white);
+    border: 1px solid var(--color-brand-primary);
+    border-radius: var(--size-3) 0 0 var(--size-3);
+    padding-inline: var(--size-3);
+    outline-offset: 0;
+    outline-color: unset;
+
+    &::placeholder {
+      color: var(--color-brand-white);
+      opacity: 0.67;
+    }
+  }
+}
