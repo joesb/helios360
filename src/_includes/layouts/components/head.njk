@@ -61,12 +61,13 @@
 
   
   {# <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> #}
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  {# <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> #}
   {% set js %}
-    {% include "assets/js/inline.js" %}
+    {# {% include "assets/js/inline.js" %} #}
+    {% include "assets/js/nav.js" %}
     {# {% include "static/js/site.js" %} #}
   {% endset %}
-  <script>{{ js | jsmin | safe }}</script>
+  <script defer>{{ js | jsmin | safe }}</script>
   {# <!-- Pagefind JS --> #}
   {# <script src="/pagefind/pagefind-ui.js"></script> #}
 

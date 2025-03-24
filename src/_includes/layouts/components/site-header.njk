@@ -1,4 +1,4 @@
-    <header role="banner" class="header-main content-canvas" id="main-navigation">
+    <header role="banner" class="header-main content-canvas">
       <div class="header-main__inner content-canvas-item-wide">
         <div class="header-main__logo">
           {% if page.url !== '/' %}<a href="{{ '/' | url }}" class="site-logo" title="{{ metadata.title }}">
@@ -20,14 +20,14 @@
           </span>
           {% endif %}
         </div>
-        <div class="header-main__nav">
+        <div class="header-main__nav" id="main-navigation">
           {% include "layouts/components/nav.njk" %}
           {% include "layouts/components/nav-contact.njk" %}
         </div>
 
         {% set navPages = collections.all | eleventyNavigation %}
         {% if navPages.length %}
-        <button class="header-main__menu js-closed" aria-expanded="false" href="#main-navigation">
+        <button class="header-main__menu" aria-expanded="false" aria-controls="main-navigation" href="#main-navigation" id="hamburger">
           <a class="css-nav css-nav--open visually-hidden" href="#main-navigation" aria-label="Open menu">Open</a>
           <a class="css-nav css-nav--close visually-hidden" href="#" aria-label="Close menu">Close</a>
           <div class="header-main__menu__text closed-text visually-hidden" aria-label="Open menu">Menu</div>
