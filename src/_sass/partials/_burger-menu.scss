@@ -46,7 +46,7 @@
 .open-mobile {
   overflow: hidden;
 
-  .js-closed {
+  // .js-closed {
     .header-main__menu__burger {
       div {
         background-color: var(--color-brand-primary);
@@ -65,7 +65,7 @@
         transform: rotate(-45deg);
       }
     }
-  }
+  // }
 }
 
 @include respond-to.respond-to('medium') {

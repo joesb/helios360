@@ -14,16 +14,4 @@ $(document).ready(function () {
       $('button.header-main__menu').attr('aria-expanded', 'true');
     }
   });
-
-  if ($('.testimonials--container')[0] && $('.testimonials--container').data('testimonial-count') > 1) {
-    var container = $('.testimonials--container');
-    var testimonialsContainer = container.find('.testimonials');
-    var count = container.data('testimonial-count');
-    var rand = Math.floor((Math.random() * count) + 1);
-    var name = '.testimonial--' + rand;
-    if (rand > 1) {
-      var testimonial = $(name);
-      testimonialsContainer.scrollLeft(testimonial.offset().left);
-    }
-  }
 });
