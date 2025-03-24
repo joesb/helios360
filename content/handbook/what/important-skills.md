@@ -21,9 +21,14 @@ meta:
 ---
 
 - build relationships
+- build trust
+- credibility built from wide knowledge, often technical
+- cheerleader for people and initiatives
 - expert problem solver
 - catalyst for change and transformation
 - analytical
 - structured thinking
 - systematic and process-driven
 - comfortable with many things spinning at once
+- recruit good people
+- lucky!
