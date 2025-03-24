@@ -1,7 +1,7 @@
 ---
 title: Newsletter
 layout: page.njk
-date: 2025-03-12T16:27:00Z
+date: 2025-03-24T12:27:00Z
 jumbotron: |
   Sign up for The Chief Delivery Officer's Newsletter.
 
