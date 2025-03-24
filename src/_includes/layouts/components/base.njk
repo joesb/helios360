@@ -4,6 +4,10 @@
 	{% include "layouts/components/head.njk" %}
 
 	<body>
+		{% if env.isProd %}
+    <!-- Tag Manager -->
+    	{% include "layouts/components/google-tagmanager-body.njk" %}
+  	{% endif %}
 
 		{# Header #}
 		{% include "layouts/components/site-header.njk" %}
