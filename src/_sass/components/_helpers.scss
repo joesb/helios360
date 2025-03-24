@@ -224,6 +224,24 @@
 
 // Borders
 
+.border {
+  border-width: 2px;
+  border-style: solid;
+  border-color: var(--brand-color-white);
+
+  &.border-rounded {
+    border-radius: var(--size-1);
+  }
+
+  &.border-round-md {
+    border-radius: var(--size-2);
+  }
+
+  &.border-round-lg {
+    border-radius: var(--size-3);
+  }
+}
+
 .border-block-start {
   @include mx.border(block-start, 2px);
 }
