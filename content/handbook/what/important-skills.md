@@ -6,7 +6,7 @@ jumbotron: |
   Beyond communication and advocacy, there's several skills, characteristics and capabilities that a Chief Delivery Officer will need.
 
   Let's look at each in turn.
-pending: false
+pending: true
 date: 2025-03-04
 eleventyNavigation:
   key: Other important qualities
