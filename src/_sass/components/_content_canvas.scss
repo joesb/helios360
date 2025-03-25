@@ -246,7 +246,7 @@
 
 @include respond-to.respond-to('small') {
   .content-canvas-item-wide-right {
-    grid-column: main-end/wide-end;
+    grid-column: main-start/wide-end;
   }
   .content-canvas-item-left {
     grid-column: main-start/main-mid;

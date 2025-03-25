@@ -3,6 +3,10 @@
     font-size: var(--font-size-fluid-12);
     line-height: var(--font-lineheight-2);
     margin-block: 1.25rem;
+
+    &:first-of-type {
+      margin-block-start: 0;
+    }
   }
 
   .smaller {

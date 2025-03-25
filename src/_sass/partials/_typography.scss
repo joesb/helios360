@@ -47,7 +47,7 @@ h6,
 
 
   // heading direct link hover
-  &:not(.hide-permalink) {
+  &:not(.hide-permalink, .title-bar--title) {
     padding-inline-end: 1.25rem;
 
     &:hover {
