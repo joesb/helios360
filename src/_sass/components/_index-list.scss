@@ -231,5 +231,16 @@
 }
 
 .index-list--4 {
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
+
+  @include respond-to.respond-to('small') {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .index-list__item-first,
+  .index-list__item,
+  .index-list__item-small,
+  .index-list__item-large {
+    grid-column: span 1;
+  }
 }

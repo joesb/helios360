@@ -5,7 +5,7 @@ layout: section.njk
 jumbotron: |
   An overview of the focus, skills and responsibilities of a Chief Delivery Officer, to help understand the role and appreciate the capabilities and characteristics required for a CDO.
 pending: false
-date: 2025-01-28
+date: 2025-03-25T13:15:21Z
 eleventyNavigation:
   key: What makes a CDO?
   parent: Handbook
@@ -14,6 +14,7 @@ eleventyNavigation:
 listTitle: In this section
 listSource: handbookWhat
 listAllMoreButton: true
+listItemTitle: nav
 tags:
   - '#handbookPromoted'
   - '#handbookPromotedHP'

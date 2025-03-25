@@ -32,7 +32,7 @@
           </div>
           {% endif %}
           {% endif %}
-          <h3 class="h2-style">{{ item.data.title }}</h3>
+          <h3 class="h2-style">{% if listItemTitle and listItemTitle == 'nav' %}{{ item.data.eleventyNavigation.key }}{% else %}{{ item.data.title }}{% endif %}</h3>
           {% if (listAllDescriptions or loop.first) and item.data.description %}
           <div class="description">
           {{ item.data.description | markdown | safe }}
