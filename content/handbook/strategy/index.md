@@ -1,5 +1,5 @@
 ---
-title: Building a delivery strategy in the thick of Business-as-Usual
+title: Building a delivery strategy amidst Business-as-Usual
 description: Thinking and acting for the now and the not yet, so the future is better than the past
 layout: section.njk
 jumbotron: |
@@ -7,7 +7,7 @@ jumbotron: |
 
   And how do you pick up an existing delivery strategy, work out what's working and what isn't, and make improvements that stick?
 pending: true
-date: 2024-12-04
+date: 2025-03-24T14:54:03Z
 eleventyNavigation:
   key: Building a delivery strategy
   parent: Handbook
@@ -15,4 +15,7 @@ eleventyNavigation:
   order: 30
 tags:
   - '#handbookPromoted'
+meta:
+  title: Building a delivery strategy amidst Business-as-Usual
+  description: Thinking and acting for the now and the not yet, so the future is better than the past
 ---
