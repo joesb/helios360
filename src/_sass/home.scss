@@ -2,7 +2,15 @@
 @use "tools/respond-to" as rt;
 
 .home {
-  grid-template-rows: 35vh auto auto;
+  grid-template-rows: ptr.px-to-rem(324px) auto auto;
+
+  @include rt.respond-to('small') {
+    grid-template-rows: ptr.px-to-rem(350px) auto auto;
+  }
+
+  @include rt.respond-to('medium') {
+    grid-template-rows: minmax(30vh, 45vh) auto auto;
+  }
 
   .header-main__logo {
     padding-block: var(--size-5);
@@ -13,8 +21,8 @@
 
     &::before {
       background-position-x: center;
-      width: clamp(6rem, 35vw, 50vw);
-      height: clamp(6rem, 20vh, 40vh);
+      width: clamp(6rem, 12rem, 14rem);
+      height: clamp(6rem, 12rem, 14rem);
     }
   }
 
@@ -58,7 +66,8 @@
 
   .jumbotron {
     margin-block-start: 0;
-    min-height: 65vh;
+    min-height: ptr.px-to-rem(594px);
+    max-height: 60vh;
 
     :where(p) {
       font-size: var(--font-size-fluid-02);
