@@ -9,10 +9,11 @@ jumbotron: |
   
   Or, the subtle art of getting stuff done.
 pending: true
-date: 2025-02-24T11:38:00Z
+date: 2025-03-25T13:15:21Z
 listTitle: In this section
 listSource: handbookDelivery
 listAllMoreButton: true
+listItemTitle: nav
 eleventyNavigation:
   key: Getting things done
   parent: Handbook

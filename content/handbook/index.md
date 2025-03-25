@@ -7,11 +7,12 @@ jumbotron: |
   **An essential guide to leading delivery projects, teams and programs for agencies, client service businesses and SaaS product companies, with insights and guidance for professional services directors, client services directors, and other delivery principal roles.**
 
   *The Chief Delivery Officer's Handbook* covers the role of strategy, management and leadership for project delivery for clients within the expectations of ambitious organisations. It also covers how the CDO fits in the context of the c-suite, supporting internal and external stakeholders.{.smaller .margin-block-start-vlg}
-date: 2025-02-13T12:23:00Z
+date: 2025-03-25T13:51:04Z
 listAllDescriptions: true
 listAllMoreButton: true
 listTitle: In the handbook
 listSource: handbookPromoted
+listItemTitle: nav
 eleventyNavigation:
   key: Handbook
   parent: Home
@@ -41,7 +42,7 @@ This manual is the result — a thoroughgoing guidebook for service delivery for
 ![A Basketball Team in a Huddle](/public/images/source/pexels-cottonbro-6767008.jpg){.image-rounded eleventy:widths="200,350,500"}
 {% endImgFigure %}
 
-A combination of a playbook and a reference tool, *The Chief Delivery Officer's Handbook* is designed to accelerate your route to learning, with insights into the role of Chief Delivery Officer (CDO), a Client Services Director (CSD) or Project Management Office lead (PMO), their place in the business and their role with customers.{.content-canvas-item-main-left-main-end}
+A combination of a playbook and a reference tool, *The Handbook* is designed to accelerate your route to learning, with insights into the role of Chief Delivery Officer (CDO), a Client Services Director (CSD) or Project Management Office lead (PMO), their place in the business and their role with customers.{.content-canvas-item-main-left-main-end}
 
 Most importantly, it puts the role of the CDO into the context of a C-suite player for organisations that understand that their success depends on high performance delivery.{.content-canvas-item-main-left-main-end}
 
@@ -53,7 +54,7 @@ The *Handbook* covers everything you need to know, written in an accessible and 
 
 The most important question first:
 
-*What even is a Chief Delivery Officer?*{.padding-inline-start-lg .large}
+*What even is a CDO?*{.padding-inline-start-lg .large}
 
 Here is a working definition:
 
@@ -63,7 +64,7 @@ Normally an executive-level role, the CDO works closely with other leaders in th
 
 A CDO is responsible for the successful delivery of projects through the entire customer lifecycle, from delivery discovery, planning and design through execution and onwards into live service and evaluation. This usually means the delivery of a service for customers, commonly in creative and digital agencies or for product or SaaS companies, but could just as well apply in large infrastructure or transformation projects and programs as well.{.padding-inline-start-lg}
 
-More than overseeing delivery, though, the Chief Delivery Officer is the focus point for a customer's experience of the business. Service delivery is often the part of the business that clients experience most closely and, done well, is a foundation stone for an organisation's reputation.{.padding-inline-start-lg}
+More than overseeing delivery, though, the CDO is the focus point for a customer's experience of the business. Service delivery is often the part of the business that clients experience most closely and, done well, is a foundation stone for an organisation's reputation.{.padding-inline-start-lg}
 
 Consequently, the CDO takes the responsibility for a large part of the customer journey.{.padding-inline-start-lg}
 
