@@ -2,6 +2,7 @@
 
 .site-content--title {
   font-size: var(--font-size-fluid-3);
+  max-inline-size: var(--size-header-3);
 }
 
 @include rt.respond-to('medium') {

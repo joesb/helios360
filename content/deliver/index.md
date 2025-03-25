@@ -1,8 +1,9 @@
 ---
 title: We deliver
+description: Four ways that I help founders and CEOs of ambitious businesses to tame the chaos and rekindle the fire
 layout: section.njk
 type: page
-date: 2025-03-21T15:29:44Z
+date: 2025-03-25T14:29:44Z
 jumbotron: |
   Your business is growing and really taking off, but keeping customers happy as you scale up is an unexpected challenge.{.bold}
 
@@ -21,6 +22,9 @@ redirect_from:
 eleventyNavigation:
   key: Delivery
   parent: Home
+meta:
+  title: We deliver
+  description: Four ways that I help founders and CEOs of ambitious businesses to tame the chaos and rekindle the fire
 ---
 
 There's four ways that I help founders and CEOs of ambitious businesses to tame the chaos and rekindle the fire.

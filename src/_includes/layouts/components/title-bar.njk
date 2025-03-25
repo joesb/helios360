@@ -1,4 +1,4 @@
-<div class="title-bar{% if showIcon and pagelink.icon_class %} icon-base--before {{ pagelink.icon_class }}{% endif %}{% if isHome != true %}{%if page.classes.length and 'page--with-hero' in page.classes %}{% else %} content-canvas-item-wide-left{% endif %}{% endif %}">
+<div class="title-bar{% if showIcon and pagelink.icon_class %} icon-base--before {{ pagelink.icon_class }}{% endif %}{% if isHome != true %}{%if page.classes.length and 'page--with-hero' in page.classes %}{% else %} content-canvas-item-wide-left-more{% endif %}{% endif %}">
   
   {% if supertitle %}
     <div class="h3-style not-bold title-bar--supertitle">{% if supertitleLinkBack %}<a href="{{ supertitleLinkBack }}" class="single-meta-back single-meta-item-black single-meta-item-black-bg single-meta-item-circle">{{ supertitle | safe }}</a>{% else %}{{ supertitle | safe }}{% endif %}</div>
