@@ -25,7 +25,7 @@ eleventyNavigation:
 
 There's four ways that I help founders and CEOs of ambitious businesses to tame the chaos and rekindle the fire.
 
-- Delivery leadership as a [fractional Chief Delivery Officer (CDO)](/deliver/fractional)
+- Delivery leadership as a [fractional Chief Delivery Officer (CDO)](/deliver/fractional/)
 - Practical support for [project or service delivery teams](/deliver/service-delivery/)
 - Consultancy for [delivery strategy design](/deliver/strategy-design/) to solve problems fast
 - Standards and metrics for [effective governance and control](/deliver/governance-control/) of critical projects
