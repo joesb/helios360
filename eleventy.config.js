@@ -234,7 +234,7 @@ export default async function(eleventyConfig) {
     return encodeURI(text);
   });
 
-  eleventyConfig.addFilter('trimTrailingChars', (text, charToTrim) => {
+  eleventyConfig.addFilter('trimTrailingChars', (text, charToTrim = '/') => {
     return trimTrailingChars(text, charToTrim);
   });
 
