@@ -24,9 +24,6 @@ pagemeta:
   show: true
 tags:
   - '#handbookWhat'
-meta:
-  title: The Ultimate Advocate
-  description: The Chief Delivery Officer sits between the company and its clients, advocating for both
 ---
 
 As a delivery principal, your role demands that you sit in a peculiar place.

@@ -22,9 +22,6 @@ redirect_from:
 eleventyNavigation:
   key: Delivery
   parent: Home
-meta:
-  title: We deliver
-  description: Four ways that I help founders and CEOs of ambitious businesses to tame the chaos and rekindle the fire
 ---
 
 There's four ways that I help founders and CEOs of ambitious businesses to tame the chaos and rekindle the fire.

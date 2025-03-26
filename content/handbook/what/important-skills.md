@@ -15,8 +15,5 @@ eleventyNavigation:
   order: 40
 tags:
   - '#handbookWhat'
-meta:
-  title: More secret qualities of a Chief Delivery Officer
-  description: A longer look at some more skills and characteristics that are important for a CDO
 ---
 

@@ -12,9 +12,6 @@ eleventyNavigation:
   order: 20
 pagemeta:
   show: true
-meta:
-  title:  How do you start out on the right track and stay there? Fail fast and learn quickly
-  description: All too often, projects fail big — major issues arise too late to do anything about them, and time and costs balloon. It doesn't have to be this way.
 pending: false
 image:
   social: content/public/images/source/pexels-gustavo-fring-7489033.jpg
