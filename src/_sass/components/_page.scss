@@ -146,8 +146,9 @@
     font-size: var(--font-size-fluid-1);
     border-inline-start-width: 0;
 
+    .emphasis,
     em {
-      font-style: italic;
+      font-style: normal;
     }
   }
 

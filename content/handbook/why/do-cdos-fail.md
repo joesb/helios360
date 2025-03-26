@@ -26,7 +26,7 @@ meta:
 
 There's plenty of reasons why a Chief Delivery Officer could fail and this isn't an exhaustive list by any means, but avoiding these pitfalls will help you find a good path towards success. Many are obvious, but that doesn't make them the easiest to handle. Others may need a little extra head scratching.
 
-> Think of the role of CDO as a point of focus for what you do for your customers
+> Think of the role of CDO as **a point of focus**{.text-color-brand-secondary} for what you do for your customers
 {.bq-alt}
 
 ---
