@@ -9,7 +9,7 @@ jumbotron: |
   
   And most important, understanding the relationship the CDO has with the Chief Executive Officer (CEO).
 pending: true
-date: 2024-12-04
+date: 2024-03-26
 eleventyNavigation:
   key: The CDO and the business
   parent: Handbook
