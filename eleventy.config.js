@@ -234,6 +234,10 @@ export default async function(eleventyConfig) {
     return encodeURI(text);
   });
 
+  eleventyConfig.addFilter('trimTrailingChars', (text, charToTrim) => {
+    return trimTrailingChars(text, charToTrim);
+  });
+
     /* COLLECTIONS */
 
   // Promoted Content collection
@@ -262,8 +266,6 @@ export default async function(eleventyConfig) {
     var nav = collection.getFilteredByGlob('./content/**/*.md');
     return nav.length ? sortByDate(nav) : [];
   });
-
-
 
   // Handbook: Why collection
   eleventyConfig.addCollection('handbookWhy', (collection) => {
@@ -310,6 +312,13 @@ export default async function(eleventyConfig) {
       else if (a.data.date > b.data.date) return 1;
       else return 0;
     });
+  }
+
+  function trimTrailingChars(s, charToTrim) {
+    var regExp = new RegExp(charToTrim + "+$");
+    var result = s.replace(regExp, "");
+
+    return result;
   }
 
   // Customize Markdown library and settings:
