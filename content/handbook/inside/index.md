@@ -17,4 +17,7 @@ eleventyNavigation:
   order: 40
 tags:
   - '#handbookPromoted'
+meta:
+  title: The Chief Delivery Officer inside the business
+  description: High-performance delivery at the heart of ambitious organisations
 ---
