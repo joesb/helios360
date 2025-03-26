@@ -2,6 +2,10 @@
       <div class="header-main__inner content-canvas-item-wide">
         <div class="header-main__logo">
           {% if page.url !== '/' %}<a href="{{ '/' | url }}" class="site-logo" title="{{ metadata.title }}">
+            <picture>
+              <source type="image/webp" srcset="/public/images/logo-02-sml.webp 220w" sizes="auto">
+              <img decoding="async" src="/public/images/logo-02-sml.webp" alt="Helios360 logo" class="site-logo-image" width="110" height="129" srcset="/public/images/logo-02-sml.webp 220w" sizes="auto" eleventy:ignore>
+            </picture>
             <div class="h2-style visually-hidden">
               {{ metadata.title }}
               {% if metadata.subtitle %}
@@ -11,6 +15,10 @@
           </a>
           {% else %}
           <span class="site-logo" title="{{ metadata.title }}">
+            <picture>
+              <source type="image/webp" srcset="/public/images/logo-02-sml.webp 110w" sizes="auto">
+              <img decoding="async" src="/public/images/logo-02-sml.webp" alt="Helios360 logo" class="site-logo-image" width="164" height="192" srcset="/public/images/logo-02-sml.webp 110w" sizes="auto" eleventy:ignore>
+            </picture>
             <div class="h2-style visually-hidden">
               {{ metadata.title }}
               {% if metadata.subtitle %}
