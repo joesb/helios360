@@ -10,7 +10,7 @@ eleventyComputed:
         width: "{{ metadata.logo.width }}"
         height: "{{ metadata.logo.height }}"
     image:
-      src: "{% if image.social %}{{ metadata.url }}{% imageData image.social %}{% endif %}"
+      src: "{% if image.social %}{{ metadata.url | trimTrailingChars('/') }}{% imageData image.social %}{% endif %}"
     language: "{{ metadata.language }}"
     organization:
       name: "{{ metadata.title }}"
