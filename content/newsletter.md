@@ -15,6 +15,6 @@ The newsletter focusses on project delivery and team leadership. Sometimes it’
 
 It features insights and vital perspectives — principles and practices without the usual management speak or corporate junk talk.
 
-A regular dose of inspiration. A fresh perspective.
+A regular dose of inspiration. A fresh perspective on things that matter.
 
 Subscribe, and you’ll get thought-provoking items and motivating posts directly in your inbox.
