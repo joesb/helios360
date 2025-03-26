@@ -20,3 +20,17 @@ meta:
   description: A longer look at some more skills and characteristics that are important for a CDO
 ---
 
+So, we've established that [communication is the key skill for a Chief Delivery Officer](/handbook/what/communication-is-key).
+
+- build relationships
+- build trust
+- credibility built from wide knowledge, often technical
+- cheerleader for people and initiatives
+- expert problem solver
+- catalyst for change and transformation
+- analytical
+- structured thinking
+- systematic and process-driven
+- comfortable with many things spinning at once
+- recruit good people
+- lucky!
