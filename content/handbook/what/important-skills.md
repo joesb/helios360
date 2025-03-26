@@ -6,7 +6,7 @@ jumbotron: |
   Beyond communication and advocacy, there's several skills, characteristics and capabilities that a CDO will need.
 
   Let's look at each in turn.
-pending: true
+pending: false
 date: 2025-03-04
 eleventyNavigation:
   key: Other important qualities
@@ -22,7 +22,7 @@ meta:
 
 So, we've established that [communication is the key skill for a delivery principal](/handbook/what/communication-is-key). Beyond that, though, what other traits or abilities are important to lead customer delivery?
 
-Here's a list, and we'll look at each in turn below.
+Here's a list of seven CDO super-powers, and we'll look at each below.
 
 - Build relationships
   - build trust
