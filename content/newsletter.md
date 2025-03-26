@@ -1,7 +1,7 @@
 ---
 title: Newsletter
 layout: page.njk
-date: 2025-03-24T12:27:00Z
+date: 2025-03-26T11:27:32Z
 jumbotron: |
   A free newsletter about delivery leadership in digital and creative agencies and SaaS product businesses.{.smaller}
 

@@ -3,7 +3,7 @@ title: Understanding the impact of a Chief Delivery Officer
 description: Key topics for measuring the CDO's effect on the business, both qualitative and quantitative.
 titleList: The impact of a Chief Delivery Officer
 layout: page.njk
-date: 2025-01-24T12:30:00Z
+date: 2025-03-26T11:38:20Z
 jumbotron: |
   Just as important as knowing you want to hire (or be hired as) a CDO, is understanding the CDO's effect on the business.
 
