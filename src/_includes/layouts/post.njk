@@ -1,13 +1,15 @@
 ---
 layout: base.njk
-primary: true
 image:
   social: ./content/public/images/pexels-stephane-hurbe-1267753-21913865.jpg
   widths: [300, 620, 1200]
-  widthsSmall: [300, 620]
+page:
+  classes:
+    - content-canvas
+    - page
+    - type-page
 showNav: true
-listAllDescriptions: true
-type: page
+type: post
 navOptions:
   listElement: "ul"
   listItemElement: "li"
@@ -22,19 +24,23 @@ navOptions:
   anchorClass: "index-nav--item--link"
 pagemeta:
   show: false
-  readingTime: false
+  readingTime: true
+meta:
+  author:
+    name: Joe Baker
+eleventyComputed:
+  meta:
+    author:
+      name: "{{ metadata.author.name }}"
+    published: "{{ date | iso8601 }}"
+    modified: "{% if changed %}{{ changed | iso8601 }}{% endif %}"
 ---
-    
-    <div class="site-content{% if page.classes %} {{ page.classes | join(" ") }}{% endif %} content-canvas section type-section">
 
-			{% if eleventyNavigation %}
-			{% include "layouts/components/page-breadcrumb.njk" %}
-			{% endif %}
 
-      {% if showTitle != false %}
+      {% if showTitle != false and primary != true %}
       {% include "layouts/components/title-bar.njk" %}
       {% endif %}
-        
+
       {% if pending %}
 
 				{% if image.path %}
@@ -54,16 +60,28 @@ pagemeta:
 
 			{% else %}
 
-				{% if jumbotron %}
-				{% include "layouts/components/jumbotron.njk" %}
-				{% endif %}
+        {% if showContent != false %}
+          {% if jumbotron %}
+            {% include "layouts/components/jumbotron.njk" %}
+          {% endif %}
 
-        {% if pagemeta.show %}
-        {% include "layouts/components/page-metadata.njk" %}
+          {% if showTOC != false %}
+          {% set tocContent = content | toc %}
+          {% if tocContent | length %}
+          <aside>
+            <h2 class="h3-style">Covered here:</h2>
+            {{ tocContent | safe }}
+          </aside>
+          {% endif %}
+          {% endif %}
+
+          {% if pagemeta.show %}
+          {% include "layouts/components/page-metadata.njk" %}
+          {% endif %}
+
+          {{ content | safe }}
         {% endif %}
-        
-        {{ content | safe }}
-      
+
       {% endif %}
 
       {% if showNav %}
@@ -74,29 +92,6 @@ pagemeta:
 		  </div>
       {% endif %}
 
-    </div>
-
-    {% if listSource %}
-    {% set items = utilities.getCollectionByName(collections, listSource) %}
-    {% endif %}
-
-    {% if pagination.data or items.length %}
-    <div class="site-content content-canvas">
-      {% if listTitle %}
-      <hr>
-
-      <h2 class="content-canvas-item-wide">{{ listTitle }}</h2>
-
-      {% endif %}
-      <div class="content-canvas-item-wide">
-        {% if indexListType and indexListType == "simple" %}
-      {% include "layouts/components/index-list-simple.njk" %}
-        {% else %}
-      {% include "layouts/components/index-list.njk" %}
-        {% endif %}
-      </div>
-    </div>
-    {% endif %}
 
 {% if pageLinks %}
   {% include "layouts/components/page-pagelinks.njk" %}
