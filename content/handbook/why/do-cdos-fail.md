@@ -1,6 +1,7 @@
 ---
 title: Why do Chief Delivery Officers fail?
 description: Know the most obvious pitfalls in advance to handle those upfront and create a fertile environment for success
+titleList: Why do CDOs fail?
 layout: page.njk
 date: 2025-01-15T17:50:00Z
 pending: false
