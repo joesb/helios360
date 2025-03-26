@@ -1,8 +1,13 @@
 {
   "title": "Helios360",
-  "summary": "Specialist Consulting for Client Services Delivery",
-  "url": "https://helios360.co.uk",
-  "language": "en",
+  "summary": "Specialist project delivery consulting for ambitious businesses",
+  "url": "https://helios360.co.uk/",
+  "logo": {
+    "src": "https://helios360.co.uk/public/images/logo-02.webp",
+    "width": "1000",
+    "height": "1000"
+  },
+  "language": "en-GB",
   "author": {
     "name": "Joe Baker",
     "url": "https://www.jsbaker.co.uk/about/"

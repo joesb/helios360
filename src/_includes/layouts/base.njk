@@ -1,53 +1,56 @@
 ---
-meta:
-  site:
-    name: Helios360
-    description: Specialist Consulting for Services Delivery
-    url: https://helios360.co.uk
-    logo:
-      src: https://helios360.co.uk/public/images/logo-01.png
-      width: 1000
-      height: 1000
-  image:
-    src:
-  language: en-GB
-  organization:
-    name: Helios360
-    url: https://helios360.co.uk
-    logo: https://helios360.co.uk/public/images/logo-01.png
-    description: Specialist Consulting for Services Delivery
-    founders:
-      - name: Joe Baker
+eleventyComputed:
+  meta:
+    site:
+      name: "{{ metadata.title }}"
+      description: "{{ metadata.summary }}"
+      url: "{{ metadata.url }}"
+      logo:
+        src: "{{ metadata.logo.src }}"
+        width: "{{ metadata.logo.width }}"
+        height: "{{ metadata.logo.height }}"
+    image:
+      src: "{% if image.social %}{{ metadata.url | trimTrailingSlash }}{% imageData image.social %}{% endif %}"
+    language: "{{ metadata.language }}"
+    organization:
+      name: "{{ metadata.title }}"
+      url: "{{ metadata.url }}"
+      logo: "{{ metadata.logo.src }}"
+      description: "{{ metadata.summary }}"
+      founders:
+        - name: "{{ metadata.author.name }}"
+    title: "{% if meta.title %}{{ meta.title }}{% else %}{{ title }}{% endif %}"
+    description: "{% if meta.description %}{{ meta.description }}{% else %}{{ description }}{% endif %}"
 navigationOptions:
   listClass: "inline-list bare-list breadcrumb-list smaller"
 ---
 <!DOCTYPE html>
 <html {% if section %} data-current="{{ section }}"{% endif %} lang="en">
 
-	{% include "layouts/components/head.njk" %}
+  {% include "layouts/components/head.njk" %}
 
-	{% if page.url == "/" %}
-		{% set bodyClass = "home" %} 
-	{% else %}
-		{% set bodyClass = "not-home" %}
-	{% endif %}
-	<body class="{{ bodyClass }}">
-		{% if env.isProd %}
-		<!-- Google Tag Manager (noscript) -->
-		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5VC2GNSD"
-		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-		<!-- End Google Tag Manager (noscript) -->
-		{% endif %}
+  {% if page.url == "/" %}
+    {% set bodyClass = "home" %} 
+  {% else %}
+    {% set bodyClass = "not-home" %}
+  {% endif %}
+  <body class="{{ bodyClass }}">
+    {% if env.isProd %}
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5VC2GNSD"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    {% endif %}
 
-		{# Header #}
-		{% include "layouts/components/site-header.njk" %}
+    {# Header #}
+    {% include "layouts/components/site-header.njk" %}
 
-		{# Main content #}
-		{% include "layouts/components/site-main.njk" %}
+    {# Main content #}
+    {% include "layouts/components/site-main.njk" %}
 
-		{# Footer #}
-		{% include "layouts/components/site-footer.njk" %}
-	</body>
-	<!-- Google Analytics -->
-	<!-- End Google Analytics -->
+    {# Footer #}
+    {% include "layouts/components/site-footer.njk" %}
+  </body>
+  <!-- Google Analytics -->
+  <!-- End Google Analytics -->
 </html>

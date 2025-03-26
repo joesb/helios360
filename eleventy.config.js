@@ -131,6 +131,11 @@ export default async function(eleventyConfig) {
     return JSON.stringify(data, null, "\t")
   })
 
+  // Date filter to convert date objects to ISO 8601 format
+  eleventyConfig.addFilter('iso8601', (dateObj) => {
+    return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toISO()
+  })
+
   // Return active path attributes
   eleventyConfig.addShortcode('activepath', function (itemUrl, currentUrl, currentClass = "current", prefix = '') {
     if (itemUrl == '/' && itemUrl !== currentUrl) {
@@ -229,6 +234,14 @@ export default async function(eleventyConfig) {
     return encodeURI(text);
   });
 
+  eleventyConfig.addFilter('trimTrailingSlash', (text) => {
+    return trimTrailingChars(text,  '/');
+  });
+
+  eleventyConfig.addFilter('trimTrailingChars', (text, charToTrim = '/') => {
+    return trimTrailingChars(text, charToTrim);
+  });
+
     /* COLLECTIONS */
 
   // Promoted Content collection
@@ -257,8 +270,6 @@ export default async function(eleventyConfig) {
     var nav = collection.getFilteredByGlob('./content/**/*.md');
     return nav.length ? sortByDate(nav) : [];
   });
-
-
 
   // Handbook: Why collection
   eleventyConfig.addCollection('handbookWhy', (collection) => {
@@ -305,6 +316,13 @@ export default async function(eleventyConfig) {
       else if (a.data.date > b.data.date) return 1;
       else return 0;
     });
+  }
+
+  function trimTrailingChars(s, charToTrim) {
+    var regExp = new RegExp(charToTrim + "+$");
+    var result = s.replace(regExp, "");
+
+    return result;
   }
 
   // Customize Markdown library and settings:

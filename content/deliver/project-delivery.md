@@ -16,9 +16,6 @@ eleventyNavigation:
   root: Delivery
 tags:
   - '#servicePromoted'
-meta:
-  title: Project or Service Delivery
-  description: High-performance project and professional services delivery support for a united service vision
 showTOC: false
 redirect_from:
   /deliver/service-delivery/

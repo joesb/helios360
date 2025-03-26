@@ -15,9 +15,6 @@ eleventyNavigation:
   order: 20
 tags:
   - '#servicePromoted'
-meta:
-  title: Governance & Control
-  description: Project management service that provides the essential control, governance, and metrics for successful project delivery.
 showTOC: false
 ---
 
