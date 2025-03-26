@@ -10,7 +10,7 @@ eleventyComputed:
         width: "{{ metadata.logo.width }}"
         height: "{{ metadata.logo.height }}"
     image:
-      src:
+      src: "{% if image.social %}{{ metadata.url }}{% imageData image.social %}{% endif %}"
     language: "{{ metadata.language }}"
     organization:
       name: "{{ metadata.title }}"
@@ -19,6 +19,8 @@ eleventyComputed:
       description: "{{ metadata.summary }}"
       founders:
         - name: "{{ metadata.author.name }}"
+    title: "{% if meta.title %}{{ meta.title }}{% else %}{{ title }}{% endif %}"
+    description: "{% if meta.description %}{{ meta.description }}{% else %}{{ description }}{% endif %}"
 navigationOptions:
   listClass: "inline-list bare-list breadcrumb-list smaller"
 ---
