@@ -20,9 +20,6 @@ image:
   classes:
     - content-canvas-item-wide-left-sm
     - content-canvas-item-left--span-3
-meta:
-  title: The Central Importance of Communication
-  description: Showing leadership in what and how a business communicates
 pagemeta:
   show: true
 ---

@@ -23,9 +23,6 @@ image:
     - margin-block-lg
 pagemeta:
   show: true
-meta:
-  title: Why an organisation needs a Chief Delivery Officer
-  description: Delivery touches every part of your organisation. A CDO brings the integration between vision, strategy, and execution that you need to excel.
 ---
 
 *H*{.drop-first}iring a CDO at the right level will be a big investment for the business. The person themselves will have costs, and they will likely also bring a team with them, maybe a mixture of internal and external people. There will be disruption to business-as-usual and a reduction in velocity whilst change is happening that itself will incur costs.

@@ -15,7 +15,4 @@ eleventyNavigation:
   order: 30
 tags:
   - '#handbookPromoted'
-meta:
-  title: Building a delivery strategy amidst Business-as-Usual
-  description: Thinking and acting for the now and the not yet, so the future is better than the past
 ---

@@ -17,9 +17,6 @@ tags:
   - '#handbookWhat'
 pagemeta:
   show: true
-meta:
-  title: The Chief Delivery Officer's Role
-  description: The role and purpose of a Chief Delivery Officer in an organisation
 ---
 
 The Chief Delivery Officer has a distinctive role amongst other C-suite colleagues, and it's important that we spend some time here looking at the role in the round before progressing into specific areas in the rest of the *Handbook*.

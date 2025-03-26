@@ -24,9 +24,6 @@ image:
   classes:
     - content-canvas-item-wide-left-sm
     - content-canvas-item-left--span-3
-meta:
-  title: Get the best from your Chief Delivery Officer
-  description: Key questions that you need to ask yourself about the CDO/CSD position and why it's important to you.
 ---
 
 *B*{.drop-first}efore you become or you hire a Chief Delivery Officer, you need to consider the following questions and know how the business is going to answer them.

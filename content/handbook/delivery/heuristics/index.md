@@ -15,9 +15,6 @@ eleventyNavigation:
   parent: Getting things done
   root: Handbook
   order: 80
-meta:
-  title: Heuristics for better project delivery leadership
-  description: Fast and frugal rules of thumb to help project delivery start out on the right track and stay there
 pagemeta:
   show: true
 ---
