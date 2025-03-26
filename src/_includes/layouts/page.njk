@@ -33,6 +33,8 @@ eleventyComputed:
     modified: "{% if changed %}{{ changed | iso8601 }}{% endif %}"
     image:
       src: "{% if image.social %}{{ metadata.url }}{% imageData image.social %}{% endif %}"
+    title: "{% if meta.title %}{{ meta.title }}{% else %}{{ title }}{% endif %}"
+    description: "{% if meta.description %}{{ meta.description }}{% else %}{{ description }}{% endif %}"
 ---
 
 
