@@ -18,12 +18,11 @@
 
   .site-logo {
     justify-content: center;
+  }
 
-    &::before {
-      background-position-x: center;
-      width: clamp(6rem, 12rem, 14rem);
-      height: clamp(6rem, 12rem, 14rem);
-    }
+  .site-logo-image {
+    width: clamp(ptr.px-to-rem(80px), 40vw, ptr.px-to-rem(185px));
+    height: auto;
   }
 
   .footer-main__logo {
