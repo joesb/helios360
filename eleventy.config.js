@@ -131,6 +131,11 @@ export default async function(eleventyConfig) {
     return JSON.stringify(data, null, "\t")
   })
 
+  // Date filter to convert date objects to ISO 8601 format
+  eleventyConfig.addFilter('iso8601', (dateObj) => {
+    return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toISO()
+  })
+
   // Return active path attributes
   eleventyConfig.addShortcode('activepath', function (itemUrl, currentUrl, currentClass = "current", prefix = '') {
     if (itemUrl == '/' && itemUrl !== currentUrl) {
