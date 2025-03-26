@@ -1,8 +1,8 @@
 ---
-title: Why do Chief Delivery Officers fail?
+title: Why do CDOs fail?
 description: Know the most obvious pitfalls in advance to handle those upfront and create a fertile environment for success
 layout: page.njk
-date: 2025-01-15T17:50:00Z
+date: 2025-03-26T11:50:00Z
 pending: false
 jumbotron: |
   If having a CDO in your business is such a good idea, why do some end up failing?
@@ -18,7 +18,7 @@ tags:
 pagemeta:
   show: true
 meta:
-  title: Why do Chief Delivery Officers fail?
+  title: Why do CDOs fail?
   description: Know the most obvious pitfalls in advance to handle those upfront and create a fertile environment for success
 ---
 
@@ -26,9 +26,16 @@ meta:
 
 There's plenty of reasons why a Chief Delivery Officer could fail and this isn't an exhaustive list by any means, but avoiding these pitfalls will help you find a good path towards success. Many are obvious, but that doesn't make them the easiest to handle. Others may need a little extra head scratching.
 
+> Think of the role of CDO as **a point of focus**{.text-color-brand-secondary} for what you do for your customers
+{.bq-alt}
+
+---
+
 ## 1. Job done{.h4-style}
 
-Hiring a CDO is more than a tick in a box. It doesn't absolve the rest of the business from responsibilities for what the company does for its customers, and it doesn't simply make client delivery the CDO's problem. It's better, instead, to think of the role of Chief Delivery Officer as a point of focus for what you do for your customers.
+Hiring a CDO is more than a tick in a box. It doesn't absolve the rest of the business from responsibilities for what the company does for its customers, and it doesn't simply make client delivery the CDO's problem.
+
+It's better, instead, to think of the role of CDO as a point of focus for what you do for your customers.
 
 The customer journey with the business is closest when you're delivering your services and products to them, but it doesn't begin and end there. The organisation needs a customer focus throughout the business.
 
@@ -54,7 +61,7 @@ If the business doesn't cope well with change then this will create challenges a
 
 Mistakes will be made — delivery is a people-centric role, and people, even experienced people, get stuff wrong. Then they learn, and make things better.
 
-A Chief Delivery Officer will demand changes, and innovation and adaptation involves making mistakes. If your organisation has a culture that doesn't tolerate mistakes, then a CDO may not be for you.
+A CDO will demand changes, and innovation and adaptation involves making mistakes. If your organisation has a culture that doesn't tolerate mistakes, then a CDO may not be for you.
 
 ## 6. Organisational structure{.h4-style}
 

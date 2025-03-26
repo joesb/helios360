@@ -1,12 +1,13 @@
 ---
 title: Understanding the impact of a Chief Delivery Officer
-description: Key topics for measuring the CDO's impact, both qualitative and quantitative.
+description: Key topics for measuring the CDO's effect on the business, both qualitative and quantitative.
+titleList: The impact of a Chief Delivery Officer
 layout: page.njk
-date: 2025-01-24T12:30:00Z
+date: 2025-03-26T11:38:20Z
 jumbotron: |
-  Just as important as knowing you want to hire (or be hired as) a CDO or CSD, is understanding the effect of your Chief Delivery Officer on the business.
+  Just as important as knowing you want to hire (or be hired as) a CDO, is understanding the CDO's effect on the business.
 
-  Here's some areas for you to determine a way of measuring the shape of that impact, both qualitative and quantitative.
+  Here's some areas to think about so you can determine how you might measure the shape of that impact, both qualitative and quantitative.
 eleventyNavigation:
   key: CDOs and impact
   parent: Why organisations need a CDO
@@ -25,7 +26,7 @@ redirect_from:
   - /handbook/why/measuring-success/
 meta:
   title: Understanding the impact of a Chief Delivery Officer
-  description: Key topics for measuring the CDO's impact, both qualitative and quantitative
+  description: Key topics for measuring the CDO's effect on the business, both qualitative and quantitative
 ---
 
 *H*{.drop-first}aving spent some time [considering the focus for the CDO](/handbook/why/set-up-for-success/), what you need them to achieve, you also want to understand the progress being made towards those outcomes.
@@ -49,19 +50,38 @@ There are clear metrics for some of these. Others will take a bit of discussion 
 
 ## Making sense of what to measure
 
-The top of the list is where a Chief Delivery Officer gets the basics done — consistently achieving successful outcomes for your customers. That's true whether you're a creative or technical service business, a product or SaaS company with a professional services wrap-around, a heavy engineering firm, a not-for-profit organisation, or whatever — doing what you say you'll do for your clients is the primary task of a CDO.
+### 1. Delivery success and client satisfaction
+
+The top of the list is where the CDO gets the basics done — consistently achieving successful outcomes for your customers. That's true whether you're a creative or technical service business, a product or SaaS company with a professional services wrap-around, a heavy engineering firm, a not-for-profit organisation, or whatever — doing what you say you'll do for your clients is the primary task of a CDO.
 
 {% ImgFigure '<a href="https://www.pexels.com/photo/thermometer-and-hydrometer-in-golden-frame-3726313/" target="_blank" rel="noopener nofollow ugc">Photo</a> by <a href="https://www.pexels.com/@peter-klauss-2083233/" target="_blank" rel="noopener nofollow ugc">Peter Klauss</a>', image.classes %}
 ![Thermometer and Hydrometer in Golden Frame](/public/images/source/pexels-peter-klauss-2083233-3726313.jpg){.image-rounded eleventy:widths="200,350,500"}
 {% endImgFigure %}
 
-From that comes the next two — the income from what you do for your clients. That means both overall revenue from your client-facing work, and the new opportunities that arise from healthy client relationships.{.content-canvas-item-main-left-main-end}
+### 2. Service revenue and account growth{.content-canvas-item-main-left-main-end}
 
-When your focus has moved further down the list then you know your service delivery is maturing and becoming a significant asset to the business — growing your team, in number, skills, and capabilities; finding problems in the business and working on solutions.{.content-canvas-item-main-left-main-end}
+From that comes the next two — the income from what you do for your clients.{.content-canvas-item-main-left-main-end}
+
+That means both overall revenue from your client-facing work, and the new opportunities that arise from healthy client relationships.{.content-canvas-item-main-left-main-end}
+
+### 3. Team development and problem sourcing
+
+When your focus has moved further down the list then you know your service delivery is maturing and becoming a significant asset to the business:
+
+- Growing your team, in number, skills, and capabilities
+- Finding problems in delivery practices or processes, challenges in the team, and the business as a whole, and working towards solutions
+
+### 3. Service channels and supplier management
 
 When you're looking at the items at the end of the list you're brining finesse and polish to what you do, through new products and services, servicing new sectors with better relationships, really pushing the boundaries of what you can do.
 
-That is not to say that you need to work from the top to the bottom, and the context, the health and maturity, and the ambitions of your organisation will determine where you need to concentrate. Nor are the labels for these categories universally applicable across all industries and sectors — a not-for-profit, for example, is unlikely to want to be framed by the revenue from their service delivery: you may want or need to find alternative or equivalent terms that are meaningful in your organisation, sector and context.
+&nbsp;
+
+That is not to say that you need to work from the top to the bottom, and the context, the health and maturity, and the ambitions of your organisation will determine where you need to concentrate.
+
+Nor are the labels for these categories universally applicable across all industries and sectors — a not-for-profit, for example, is unlikely to want to be framed by the revenue from their service delivery: you may want or need to find alternative or equivalent terms that are meaningful in your organisation, sector and context.
+
+---
 
 ## Remember to celebrate
 
