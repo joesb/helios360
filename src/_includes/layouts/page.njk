@@ -32,7 +32,7 @@ eleventyComputed:
     published: "{{ date | iso8601 }}"
     modified: "{% if changed %}{{ changed | iso8601 }}{% endif %}"
 ---
-
+  <article>
 
       {% if showTitle != false and primary != true %}
       {% include "layouts/components/title-bar.njk" %}
@@ -89,6 +89,7 @@ eleventyComputed:
 		  </div>
       {% endif %}
 
+  </article>
 
 {% if pageLinks %}
   {% include "layouts/components/page-pagelinks.njk" %}

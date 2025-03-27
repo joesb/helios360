@@ -24,8 +24,8 @@ pagemeta:
   show: false
   readingTime: false
 ---
-    
-    <div class="site-content{% if page.classes %} {{ page.classes | join(" ") }}{% endif %} content-canvas section type-section">
+  
+    <article class="site-content{% if page.classes %} {{ page.classes | join(" ") }}{% endif %} content-canvas section type-section">
 
 			{% if eleventyNavigation %}
 			{% include "layouts/components/page-breadcrumb.njk" %}
@@ -74,14 +74,14 @@ pagemeta:
 		  </div>
       {% endif %}
 
-    </div>
+    </article>
 
     {% if listSource %}
     {% set items = utilities.getCollectionByName(collections, listSource) %}
     {% endif %}
 
     {% if pagination.data or items.length %}
-    <div class="site-content content-canvas">
+    <aside class="site-content content-canvas">
       {% if listTitle %}
       <hr>
 
@@ -95,7 +95,7 @@ pagemeta:
       {% include "layouts/components/index-list.njk" %}
         {% endif %}
       </div>
-    </div>
+    </aside>
     {% endif %}
 
 {% if pageLinks %}
