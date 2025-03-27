@@ -52,6 +52,12 @@
 .footer-main__logo {
   .site-logo {
     &::before {
+      display: inline-block;
+      content: " ";
+      background-image: url("/public/images/logo-02-sml.webp");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position-y: center;
       width: ptr.px-to-rem(108px);
       height: ptr.px-to-rem(108px);
       filter: invert(100%) sepia(14%) saturate(0%) hue-rotate(60deg) brightness(101%) contrast(107%);
