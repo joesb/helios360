@@ -59,5 +59,5 @@ Our approach is flexible and tailored to your business needs, your sector specia
 
 To discuss service delivery strategy design and support in your context or any questions you have, then do please:
 
-[Book a call](https://calendar.app.google/82FYHkqV3CJaNwBm9){.single-meta-forward rel="noopener nofollow ugc" target="_blank"}
+[Book a call](https://calendar.app.google/82FYHkqV3CJaNwBm9){.single-meta-forward rel="noopener ugc" target="_blank"}
 {.text-center .larger .margin-block-lg}

@@ -21,7 +21,11 @@ pagemeta:
 
 The Chief Delivery Officer has a distinctive role amongst other C-suite colleagues, and it's important that we spend some time here looking at the role in the round before progressing into specific areas in the rest of the *Handbook*.
 
-There's similarities, of course — the CDO is a domain specialist, like a Chief Financial Officer, Chief Marketing Officer, or Chief Technology Officer, say. The CDO also affects elements across the whole business, like a Chief Operating Officer or Chief Data Officer.
+There's similarities, of course.
+
+The CDO is a domain specialist, like the C-suite peers with Financial (CFO), Marketing (CMO), or Technology (CTO) portfolios, say.
+
+The CDO also affects elements across the whole business, like an Operations (COO) or Data (the *other* CDO 😉) principal.
 
 But the role of a Chief Delivery Officer stands out for some important and distinctive reasons.
 
