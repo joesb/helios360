@@ -22,6 +22,7 @@ redirect_from:
 eleventyNavigation:
   key: Delivery
   parent: Home
+  footer: true
 ---
 
 There's four ways that I help founders and CEOs of ambitious businesses to tame the chaos and rekindle the fire.

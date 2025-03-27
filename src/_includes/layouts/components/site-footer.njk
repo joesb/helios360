@@ -20,7 +20,7 @@
       {% for navPage in navPages %}
       <ul class="footer-main__links--list">
         {% for link in navPage.children %}
-        {% if not item.hide %}
+        {% if link.footer %}
         <li class="footer-main__links--list-item"><a href="{{ link.url }}">{{ link.key }}</li>
         {% endif %}
         {% endfor %}
