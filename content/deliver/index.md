@@ -20,7 +20,7 @@ indexListType: simple
 redirect_from:
   - /delivery/
 eleventyNavigation:
-  key: Delivery
+  key: We Deliver
   parent: Home
   footer: true
 ---

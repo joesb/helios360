@@ -2,7 +2,7 @@
 title: Fractional Chief Delivery Officer for ambitious businesses
 layout: page.njk
 type: page
-description: Experienced fractional CDO and service delivery principal working with UK & USA-based CEOs and founders of ambitious businesses.
+description: Experienced delivery principal working with UK & USA-based CEOs and founders of ambitious businesses.
 date: 2025-03-21T15:59:47Z
 jumbotron: |
   Struggling with scaling? Wrestling with workload? Need to smarten up your strategy, management and client delivery leadership?{.bold}
@@ -15,8 +15,8 @@ jumbotron: |
   [How I work as a fractional CDO](#how-i-work-as-a-fractional-cdo){.single-meta-forward .single-meta-button .single-meta-forward-button .small}
 eleventyNavigation:
   key: Fractional CDO
-  parent: Delivery
-  root: Delivery
+  parent: We Deliver
+  root: We Deliver
   order: 50
 showTOC: false
 pagemeta:

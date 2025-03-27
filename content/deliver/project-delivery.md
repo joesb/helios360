@@ -1,8 +1,8 @@
 ---
-title: Project or Service Delivery
+title: Project or Service Delivery Support
 layout: page.njk
 type: page
-description: High-performance project and professional services delivery support for a united service vision
+description: High-performance project and professional services support for a united service vision
 jumbotron: |
   **A primary focus on successful outcomes and how to get there is vital for project or client service delivery. The journey depends on tracking actual project performance against forecasts, with strategic planning for agile adaptation, identifying additional opportunities, and realigning capacity and resources.**
 
@@ -11,9 +11,9 @@ pending: false
 date: 2025-03-21T15:24:33Z
 eleventyNavigation:
   key: Project Delivery
-  parent: Delivery
+  parent: We Deliver
   order: 10
-  root: Delivery
+  root: We Deliver
 tags:
   - '#servicePromoted'
 showTOC: false

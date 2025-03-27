@@ -2,7 +2,7 @@
 title: Governance & Control
 layout: page.njk
 type: page
-description: Project management service that provides the essential control, governance, and metrics for successful project delivery.
+description: The essential control, governance, and metrics for high performance projects.
 jumbotron: |
   **Governance and control is essential for successful delivery of any client project or change implementation.**
 
@@ -10,8 +10,8 @@ jumbotron: |
 date: 2025-03-18T16:04:00Z
 eleventyNavigation:
   key: Governance & Control
-  parent: Delivery
-  root: Delivery
+  root: We Deliver
+  parent: We Deliver
   order: 20
 tags:
   - '#servicePromoted'

@@ -9,7 +9,7 @@ jumbotron: |
 eleventyNavigation:
   key: What is a fractional CDO?
   parent: Fractional CDO
-  root: Delivery
+  root: We Deliver
   order: 50
 showTOC: false
 redirect_from:

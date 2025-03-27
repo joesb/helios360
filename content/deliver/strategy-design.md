@@ -1,5 +1,5 @@
 ---
-title: Strategy Design for Client Delivery
+title: Strategy Design
 layout: page.njk
 type: page
 description: Effective delivery strategy, operating model and implementation tools that align with your business goals
@@ -10,8 +10,8 @@ jumbotron: |
 date: 2025-03-18T16:04:00Z
 eleventyNavigation:
   key: Strategy Design
-  parent: Delivery
-  root: Delivery
+  parent: We Deliver
+  root: We Deliver
   order: 30
 tags:
   - '#servicePromoted'
