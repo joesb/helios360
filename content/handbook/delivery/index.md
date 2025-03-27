@@ -8,7 +8,7 @@ jumbotron: |
   So, instead: *think slow, act fast.*
   
   Or, the subtle art of getting stuff done.
-pending: true
+pending: false
 date: 2025-03-25T13:15:21Z
 listTitle: In this section
 listSource: handbookDelivery
@@ -22,3 +22,5 @@ eleventyNavigation:
 tags:
   - '#handbookPromoted'
 ---
+
+In this section we look at important things to bear in mind when actually delivering work for customers, especially what the means for you as a delivery leader.
