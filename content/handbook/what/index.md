@@ -27,7 +27,7 @@ image:
   social: content/public/images/source/pexels-ketut-subiyanto-4623475.jpg
 ---
 
-{% ImgFigure 'A man moving sticky notes <a href="https://www.pexels.com/photo/a-man-putting-sticky-notes-4623475/" target="_blank" rel="noopener ugc">Photo</a> by <a href="https://www.pexels.com/@ketut-subiyanto/" target="_blank" rel="noopener ugc">Ketut Subiyanto</a> on Pexels.', image.classes %}
+{% ImgFigure 'A man moving sticky notes. <a href="https://www.pexels.com/photo/a-man-putting-sticky-notes-4623475/" target="_blank" rel="noopener ugc">Photo</a> by <a href="https://www.pexels.com/@ketut-subiyanto/" target="_blank" rel="noopener ugc">Ketut Subiyanto</a> on Pexels.', image.classes %}
 ![A man moving sticky notes.](/public/images/source/pexels-ketut-subiyanto-4623475.jpg){.image-rounded eleventy:widths="200,350,500,780"}
 {% endImgFigure %}
 
