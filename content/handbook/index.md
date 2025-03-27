@@ -35,7 +35,7 @@ redirect_from:
 
 This manual is the result — a thoroughgoing guidebook for service delivery for agencies and product companies.
 
-{% ImgFigure '<a href="https://www.pexels.com/photo/a-basketball-team-in-a-huddle-6767008/" target="_blank" rel="noopener nofollow ugc">Photo</a> by <a href="https://www.pexels.com/@cottonbro/" target="_blank" rel="noopener nofollow ugc">cottonbro studio</a>', image.classes %}
+{% ImgFigure '<a href="https://www.pexels.com/photo/a-basketball-team-in-a-huddle-6767008/" target="_blank" rel="noopener ugc">Photo</a> by <a href="https://www.pexels.com/@cottonbro/" target="_blank" rel="noopener ugc">cottonbro studio</a>', image.classes %}
 ![A Basketball Team in a Huddle](/public/images/source/pexels-cottonbro-6767008.jpg){.image-rounded eleventy:widths="200,350,500"}
 {% endImgFigure %}
 

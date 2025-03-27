@@ -48,7 +48,7 @@ Excellence in communication is an essential quality for a CDO.
 
 *👉*{.drop-first .drop-first-vsm .margin-inline-end-md} A CDO will need to lean on a deep *emotional intelligence*, understanding what individuals, team members and whole groups both want and need. In particular, the CDO will need to be able to perceive often what is not being said, to project one's self into another person's experience and discern how they may be feeling, how things will be heard from their point of view, or the challenges they may be facing. Often times, it is important to do this ahead of time, to anticipate how things could land and to act in advance accordingly and with wisdom.{.padding-inline-start-lg}
 
-{% ImgFigure '<a href="https://www.pexels.com/photo/photo-of-man-talking-to-a-woman-3182747/" target="_blank" rel="noopener nofollow ugc">Photo</a> by <a href="https://www.pexels.com/@fauxels/" target="_blank" rel="noopener nofollow ugc">fauxels</a>', image.classes %}
+{% ImgFigure '<a href="https://www.pexels.com/photo/photo-of-man-talking-to-a-woman-3182747/" target="_blank" rel="noopener ugc">Photo</a> by <a href="https://www.pexels.com/@fauxels/" target="_blank" rel="noopener ugc">fauxels</a>', image.classes %}
 ![Photo of a Woman Talking to a Man](/public/images/source/pexels-fauxels-3182747.jpg){.image-rounded eleventy:widths="200,350,500"}
 {% endImgFigure %}
 

@@ -89,5 +89,5 @@ We build revenue forecasting and spend review in at ground level, with tight man
 
 To discuss service delivery leadership and support in your context or any questions you have, then do please:
 
-[Book a call](https://calendar.app.google/82FYHkqV3CJaNwBm9){.single-meta-forward rel="noopener nofollow ugc" target="_blank"}
+[Book a call](https://calendar.app.google/82FYHkqV3CJaNwBm9){.single-meta-forward rel="noopener ugc" target="_blank"}
 {.text-center .larger .margin-block-lg}
