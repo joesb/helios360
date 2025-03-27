@@ -18,6 +18,7 @@ eleventyNavigation:
   parent: Home
   title: The Chief Delivery Officer's Handbook
   root: Handbook
+  footer: true
 image:
   classes:
     - content-canvas-item-wide-left-sm

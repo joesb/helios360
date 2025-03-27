@@ -7,6 +7,13 @@ jumbotron: |
 
   Tailor made for current or aspiring CDOs and founders or leaders of ambitious businesses.{.small}
 showTOC: false
+eleventyNavigation:
+  key: Newsletter
+  parent: Home
+  root: Home
+  order: 100
+  hide: true
+  footer: true
 ---
 
 {% include "layouts/components/newsletter-embed.njk" %}
