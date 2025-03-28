@@ -35,7 +35,7 @@ pagemeta:
 ![A man moving sticky notes](/public/images/source/pexels-ketut-subiyanto-4623475.jpg){.image-rounded eleventy:widths="200,350,500,780"}
 {% endImgFigure %}
 
-This section is mostly aimed at the Chief Delivery Officer themselves, current or aspiring, whatever title is given to the role:
+This section is mostly aimed at the CDO themselves, current or aspiring, whatever title is given to the role:
 
 - Chief Delivery Officer (CDO)
 - Chief Service Delivery Officer (CSDO)
