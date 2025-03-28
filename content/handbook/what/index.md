@@ -10,7 +10,7 @@ jumbotron: |
   We also look at the essential qualities and skills of a CDO, with unusual mastery in communication and as a capable advocate for customer and team, as well as outlining seven other key skills for a CDO.{.small}
 pending: false
 date: 2025-03-25T13:15:21Z
-updated: 2025-03-27T10:15:21Z
+updated: 2025-03-28T10:45:21Z
 eleventyNavigation:
   key: What makes a CDO?
   parent: Handbook
@@ -43,7 +43,11 @@ This section is mostly aimed at the CDO themselves, current or aspiring, whateve
 - Professional Services Director (PSD), or
 - Director, principal, lead, or head of a Project Management Office (PMO)
 
-Each role name as a distinctive emphasis or indicates a slightly different focus. Some will be more commercial in direction, closer to the sales and account management end of the spectrum. Others focus more on project planning, implementation, and continuous development phases. And others will be more attentive to the live service stage, with concern for support, maintenance, and client satisfaction. All share things in common, however, and this section explores those commonalities.
+Each role name as a distinctive emphasis or indicates a slightly different focus.
+
+Some are more commercial in direction, closer to the sales and account management end of the spectrum. Others focus more on project planning, implementation, and continuous development phases. And others will be more attentive to the live service stage, with concern for support, maintenance, and client satisfaction.
+
+All share things in common, however, and this section explores those commonalities.
 
 The chapter may also be useful for founders and executive teams considering adding a CDO to the organisation:
 
