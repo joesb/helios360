@@ -2,14 +2,14 @@
     <main id="content" class="main">
 
 			{% if primary != true %}
-			<div class="{% if page.classes %}{{ page.classes | join(" ") }}{% endif %}">
+			<article class="{% if page.classes %}{{ page.classes | join(" ") }}{% endif %}">
 
 			{% if eleventyNavigation %}
 			{% include "layouts/components/page-breadcrumb.njk" %}
 			{% endif %}
 
 				{{ content | safe }}
-			</div>
+			</article>
 			{% else %}
 
 				{{ content | safe }}
