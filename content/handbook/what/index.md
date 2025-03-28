@@ -35,13 +35,15 @@ pagemeta:
 ![A man moving sticky notes](/public/images/source/pexels-ketut-subiyanto-4623475.jpg){.image-rounded eleventy:widths="200,350,500,780"}
 {% endImgFigure %}
 
-This section is mostly aimed at the CDO themselves, current or aspiring, whatever title is given to the role:
+This section is mostly aimed at the CDO themselves, current or aspiring, whatever title or variation of project management leadership label is given to the role:
 
 - Chief Delivery Officer (CDO)
 - Chief Service Delivery Officer (CSDO)
 - Client Services Director (CSD)
 - Professional Services Director (PSD), or
 - Director, principal, lead, or head of a Project Management Office (PMO)
+
+Each role name as a distinctive emphasis or indicates a slightly different focus. Some will be more commercial in direction, closer to the sales and account management end of the spectrum. Others focus more on project planning, implementation, and continuous development phases. And others will be more attentive to the live service stage, with concern for support, maintenance, and client satisfaction. All share things in common, however, and this section explores those commonalities.
 
 The chapter may also be useful for founders and executive teams considering adding a CDO to the organisation:
 
