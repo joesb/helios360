@@ -1,5 +1,6 @@
 ---
-title: Newsletter
+title: The Chief Delivery Officer's Newsletter
+description: A free newsletter about delivery leadership in digital and creative agencies and SaaS product businesses.
 layout: page.njk
 date: 2025-03-26T11:27:32Z
 jumbotron: |
