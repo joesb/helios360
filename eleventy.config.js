@@ -290,6 +290,9 @@ export default async function(eleventyConfig) {
     return nav.length ? sortByOrder(nav, 'eleventyNavigation') : [];
   });
 
+  eleventyConfig.addFilter('sortByDate', (collection, andSticky = true) => {
+    return sortByDate(collection, andSticky);
+  });
 
   function sortByOrder(collection, field = 'order', andSticky = false) {
     if (field == 'eleventyNavigation') {
@@ -313,6 +316,8 @@ export default async function(eleventyConfig) {
   function sortByDate(collection, andSticky = true) {
     return collection.sort((a, b) => {
       if (andSticky && b.data.sticky) return -1;
+      else if (a.data.date < b.data.updated) return -1;
+      else if (a.data.date > b.data.updated) return 1;
       else if (a.data.date < b.data.date) return -1;
       else if (a.data.date > b.data.date) return 1;
       else return 0;

@@ -9,7 +9,7 @@ tagFilter:
     - handbookPromoted
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{% for page in collections.all %}{% if page.url !== '/feed.xml' %}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{% for page in collections.all | sortByDate %}{% if page.url !== '/feed.xml' %}
   <url>
       <loc>{{ page.url | url | absoluteUrl(metadata.url) }}</loc>
       <lastmod>{% if page.data.updated %}{{ page.data.updated.toISOString() }}{% else %}{{ page.date.toISOString() }}{% endif %}</lastmod>{% if page.data.sitemap.changefreq %}
