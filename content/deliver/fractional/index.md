@@ -4,6 +4,7 @@ layout: page.njk
 type: page
 description: Experienced delivery principal working with UK & USA-based CEOs and founders of ambitious businesses.
 date: 2025-03-21T15:59:47Z
+updated: 2025-03-31T12:18:19Z
 jumbotron: |
   Struggling with scaling? Wrestling with workload? Need to smarten up your strategy, management and client delivery leadership?{.bold}
 
@@ -58,7 +59,7 @@ The right fractional CDO will give you the combination of strategic insight and 
 
 {% ImgFigure '', image.classes %}![Joe Baker](/public/images/me-july-2024-portrait.jpeg){.image-greyscale-50 .image-rounded eleventy:widths="200,350,500"}{% endImgFigure %}
 
-I am a highly accomplished technical delivery leadership expert, with extensive experience in service delivery, client services, professional services for creative and digital agencies, SaaS product businesses, and UK central government digital transformation. I have a strong record of delivering successful digital projects at scale.{.content-canvas-item-main-left-main-end}
+I am a highly accomplished technical delivery leadership expert, with extensive experience in technical project delivery and professional services for ambitious creative and digital agencies, SaaS product businesses, and UK central government digital transformation. I have a strong record of delivering successful digital projects at scale.{.content-canvas-item-main-left-main-end}
 
 I've worked in Agile delivery contexts for 20 years, using all the Agile project management tools, with most significant part of my delivery experience formed by the UK Government Delivery Service (GDS) Agile delivery framework.{.content-canvas-item-main-left-main-end}
 
