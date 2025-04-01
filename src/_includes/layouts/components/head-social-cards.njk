@@ -3,10 +3,10 @@
 {% set absolutePostUrl %}{{ page.url | url | absoluteUrl(metadata.url) }}{% endset %}
 
 {% if page.url == '/' %}
-{% set cardTitle %}{{ metadata.title }} — {{ metadata.summary }}{% endset %}
+{% set cardTitle %}{{ metadata.summary }}{% endset %}
 {% set ogType %}website{% endset %}
 {% else %}
-{% set cardTitle %}{{ title }} | {{ metadata.title }}{% endset %}
+{% set cardTitle %}{{ title }}{% endset %}
 {% set ogType %}article{% endset %}
 {% endif %}
 
