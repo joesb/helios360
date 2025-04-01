@@ -9,7 +9,7 @@
   }
 
   @include rt.respond-to('medium') {
-    grid-template-rows: minmax(30vh, 45vh) auto auto;
+    grid-template-rows: minmax(40vh, 50vh) auto auto;
   }
 
   .header-main__logo {
