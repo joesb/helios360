@@ -25,10 +25,6 @@
   <link rel="icon" href="/public/favicon/favicon-256.png" type="image/png" sizes="256x256">
   <link rel="manifest" href="/site.webmanifest">
 
-  {% if metadesc or description %}
-  <meta name="description" content="{{ description or metadesc }}" />
-  {% endif %}
-
   {% if page.url == "/" %}
   <link rel="alternate" type="application/atom+xml" title="{{ metadata.title }}" href="{{ '/feed.xml' | url | absoluteUrl(env.baseUrl) }}">
   {% endif %}
