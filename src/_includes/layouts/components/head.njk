@@ -6,10 +6,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   {% set siteName = [ metadata.org, metadata.title, metadata.subtitle] %}
-  <title>{{ pageTitle or title or siteName | join(" ") }} | {{ siteName | join(" ") }}</title>
+  <title>{{ pageTitle or title or siteName | join(" ") }}</title>
 
   <!-- structured data -->
   {% jsonLdScript meta, type, tags %}
+
+  <!-- meta -->
+  <meta name="author" itemprop="author" content="{{ metadata.author.name }}">
+  <meta name="description" itemprop="description" content="{{ description }}">
 
   <!-- Icons -->
   <link rel="apple-touch-icon" sizes="180x180" href="/public/favicon/apple-touch-icon.png" type="image/png">
