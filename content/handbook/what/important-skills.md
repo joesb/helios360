@@ -63,7 +63,7 @@ In other words, the trust that a Chief Delivery Officer has to rely on means the
 
 Respect is reciprocal.
 
-As you give respect — to your customer and the specialists in their team, and to your colleagues and peers in your own company, the experts you have around you — and both display and act with empathy and understanding to their situation and contextx, so you will be given respect in return.
+As you give respect — to your customer and the specialists in their team, and to your colleagues and peers in your own company, the experts you have around you — and both display and act with empathy and understanding to their situation and context, so you will be given respect in return.
 
 ---
 
