@@ -20,6 +20,8 @@ tags:
   - '#handbookWhat'
 image:
   social: content/public/images/source/pexels-cottonbro-8371715.jpg
+  classes:
+    - margin-block-end-vlg
 ---
 
 So, we've established that [communication is the key skill for a delivery principal](/handbook/what/communication-is-key). Beyond that, though, what other traits or abilities are important to lead customer delivery?
