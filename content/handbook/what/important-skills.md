@@ -8,7 +8,9 @@ jumbotron: |
   Let's look at each in turn.
 pending: false
 date: 2025-03-04
-updated: 2025-03-27T17:06:15Z
+updated: 2025-04-03T12:46:11Z
+pagemeta:
+  show: true
 eleventyNavigation:
   key: Other important qualities
   parent: What makes a CDO?
@@ -18,15 +20,53 @@ tags:
   - '#handbookWhat'
 image:
   social: content/public/images/source/pexels-cottonbro-8371715.jpg
+  classes:
+    - margin-block-end-vlg
 ---
 
 So, we've established that [communication is the key skill for a delivery principal](/handbook/what/communication-is-key). Beyond that, though, what other traits or abilities are important to lead customer delivery?
 
 Here's a list of seven CDO super-powers, and we'll look at each below.
 
-- Build relationships
-  - build trust
-  - build respect
+
+{% ImgFigure 'A hand holding a folder of Top Secret files. <a href="https://www.pexels.com/photo/a-person-holding-a-folder-of-a-top-secret-files-label-8371715/" target="_blank" rel="noopener ugc">Photo</a> by <a href="https://www.pexels.com/@cottonbro/" target="_blank" rel="noopener ugc">cottonbro studio</a> on Pexels.', image.classes %}
+![A hand holding a folder of Top Secret files](/public/images/source/pexels-cottonbro-8371715.jpg){.image-rounded eleventy:widths="200,350,500,780"}
+{% endImgFigure %}
+
+## Building relationships
+
+The CDO needs to be a master at relationship building.
+
+Most obviously, projects get done because people do them, and the better those people are connected to the focus and purpose of the task, the higher quality the outcomes. Consequently, fostering personal connection is a vital component of delivering stuff.
+
+There's a wider view, though.
+
+The CDO will need the support of peers in the C-suite to achieve the delivery strategy vision. You will need the help of others in the wider business to execute the delivery strategy effectively: the technical and/or design specialists who engage directly with customer needs; the business's support and success services for ongoing health of what's built for clients; sales and marketing for landing the right kind of customers, and for a coherent persona and customer experience from beginning to end; and so on.
+
+**Rapport**{.text-color-brand-secondary} is essential to nurture long and healthy relationships with customers, of course. You need to connect in order to see the world from their perspective, to understand their needs and the goals their aiming to achieve, and for the client to trust that you're focused on the right outcomes for them.
+
+Occasionally, the CDO will need to go toe-to-toe with colleagues to advocate for things that are important or to achieve certain necessary ends. But the most effective results will be achieved through building strong and healthy interpersonal connections.
+
+### Building trust{.margin-block-start-vlg}
+
+Clients and people in your own organisation, at all levels, alike will need to trust you. At times, they will need to have faith in you to make judgement calls.
+
+Trust is especially important when taking on big or risky challenges with lots at stake.
+
+Trust doesn't come from nowhere. It's not a switch to be just turned on.
+
+It derives from consistency, honesty, and reliability, from behaving with empathy and consideration, and it requires transparency in actions and decisions.
+
+In other words, the trust that a Chief Delivery Officer has to rely on means they must be a person of **integrity**{.text-color-brand-secondary}.
+
+### Building respect{.margin-block-start-vlg}
+
+Respect is reciprocal.
+
+As you give respect — to your customer and the specialists in their team, and to your colleagues and peers in your own company, the experts you have around you — and both display and act with empathy and understanding to their situation and context, so you will be given respect in return.
+
+---
+
 - Strategist
   - large vision of how things should be
   - tactical — what can be done now, what could be done next, i.e. how to get there in steps

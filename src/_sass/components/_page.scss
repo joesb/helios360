@@ -182,13 +182,19 @@
     ul,
     ol {
       font-size: var(--font-size-fluid-0);
-      list-style-type: "\27A1";
+      // list-style-type: "\27A1";
+      list-style-type: disc;
       color: var(--color-brand-primary);
       margin-block-start: 0;
 
       > * {
         margin-inline-start: 2rem;
         padding-inline-start: 0.5rem;
+      }
+
+      ul,
+      ol {
+        list-style-type: "-";
       }
     }
   }
