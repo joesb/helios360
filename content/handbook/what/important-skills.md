@@ -28,7 +28,6 @@ So, we've established that [communication is the key skill for a delivery princi
 
 Here's a list of seven CDO super-powers, and we'll look at each below.
 
-
 {% ImgFigure 'A hand holding a folder of Top Secret files. <a href="https://www.pexels.com/photo/a-person-holding-a-folder-of-a-top-secret-files-label-8371715/" target="_blank" rel="noopener ugc">Photo</a> by <a href="https://www.pexels.com/@cottonbro/" target="_blank" rel="noopener ugc">cottonbro studio</a> on Pexels.', image.classes %}
 ![A hand holding a folder of Top Secret files](/public/images/source/pexels-cottonbro-8371715.jpg){.image-rounded eleventy:widths="200,350,500,780"}
 {% endImgFigure %}
