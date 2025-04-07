@@ -8,7 +8,7 @@ jumbotron: |
   Let's look at each in turn.
 pending: false
 date: 2025-03-04
-updated: 2025-04-03T12:46:11Z
+updated: 2025-04-07T12:46:11Z
 pagemeta:
   show: true
 eleventyNavigation:
@@ -27,7 +27,6 @@ image:
 So, we've established that [communication is the key skill for a delivery principal](/handbook/what/communication-is-key). Beyond that, though, what other traits or abilities are important to lead customer delivery?
 
 Here's a list of seven CDO super-powers, and we'll look at each below.
-
 
 {% ImgFigure 'A hand holding a folder of Top Secret files. <a href="https://www.pexels.com/photo/a-person-holding-a-folder-of-a-top-secret-files-label-8371715/" target="_blank" rel="noopener ugc">Photo</a> by <a href="https://www.pexels.com/@cottonbro/" target="_blank" rel="noopener ugc">cottonbro studio</a> on Pexels.', image.classes %}
 ![A hand holding a folder of Top Secret files](/public/images/source/pexels-cottonbro-8371715.jpg){.image-rounded eleventy:widths="200,350,500,780"}
@@ -64,6 +63,16 @@ In other words, the trust that a Chief Delivery Officer has to rely on means the
 Respect is reciprocal.
 
 As you give respect — to your customer and the specialists in their team, and to your colleagues and peers in your own company, the experts you have around you — and both display and act with empathy and understanding to their situation and context, so you will be given respect in return.
+
+In particular, this is about recognising expertise in other people.
+
+As a CDO or a delivery lead of any kind, you do not need to be the fount of all knowledge, and it's not your job to determine what needs to be done.
+
+Instead, your role is to facilitate a collaborative effort. You convene a group of capable and experienced people to pool their wisdom and their efforts together in order to reach a particular, shared outcome.
+
+The heart of that is respect — the effectiveness of that collaborative venture is determined in large part by the high regard a team of people with great expertise show to each other.
+
+Build respect, then, and you lay the ground to achieve great things.
 
 ---
 
