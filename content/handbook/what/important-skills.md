@@ -22,6 +22,9 @@ image:
   social: content/public/images/source/pexels-cottonbro-8371715.jpg
   classes:
     - margin-block-end-vlg
+  side_classes:
+    - content-canvas-item-wide-left-sm
+    - content-canvas-item-left--span-3
 ---
 
 So, we've established that [communication is the key skill for a delivery principal](/handbook/what/communication-is-key). Beyond that, though, what other traits or abilities are important to lead customer delivery?
@@ -76,11 +79,31 @@ Build respect, then, and you lay the ground to achieve great things.
 
 ---
 
-- Strategist
-  - large vision of how things should be
-  - tactical — what can be done now, what could be done next, i.e. how to get there in steps
-  - expert problem solver
-  - catalyst for change and transformation
+## Strategic vision, tactical view
+
+{% ImgFigure 'Hiker exploring in Torres del Paine, Chile. <a href="https://www.pexels.com/photo/exploring-17301681/" target="_blank" rel="noopener ugc">Photo</a> by <a href="https://www.pexels.com/@marek-piwnicki-3907296/" target="_blank" rel="noopener ugc">Marek Piwnicki</a>.', image.side_classes %}
+![Hiker exploring in Torres del Paine, Chile](/public/images/source/pexels-marek-piwnicki-3907296-17301681.jpg){.image-rounded eleventy:widths="200,350"}
+{% endImgFigure %}
+
+### Strategy: Walk up the hill to see the horizon{.content-canvas-item-main-left-main-end}
+
+- large vision of how things should be
+{.content-canvas-item-main-left-main-end}
+
+### Tactics: Ground work at ground level
+
+- tactical — what can be done now, what could be done next, i.e. how to get there in steps
+
+### Solving problems
+
+- expert problem solver
+
+### Catalyst for change
+
+- catalyst for change and transformation
+
+---
+
 - Structured thinking
   - analytical
   - systematic
