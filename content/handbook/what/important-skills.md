@@ -64,6 +64,16 @@ Respect is reciprocal.
 
 As you give respect — to your customer and the specialists in their team, and to your colleagues and peers in your own company, the experts you have around you — and both display and act with empathy and understanding to their situation and context, so you will be given respect in return.
 
+In particular, this is about recognising expertise in other people.
+
+As a CDO or a delivery lead of any kind, you do not need to be the fount of all knowledge, and it's not your job to determine what needs to be done.
+
+Instead, your role is to facilitate a collaborative effort. You convene a group of capable and experienced people to pool their wisdom and their efforts together in order to reach a particular, shared outcome.
+
+The heart of that is respect — the effectiveness of that collaborative venture is determined in large part by the high regard a team of people with great expertise show to each other.
+
+Build respect, then, and you lay the ground to achieve great things.
+
 ---
 
 - Strategist
