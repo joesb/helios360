@@ -8,7 +8,7 @@ jumbotron: |
   Let's look at each in turn.
 pending: false
 date: 2025-03-04
-updated: 2025-04-07T12:46:11Z
+updated: 2025-04-08T12:36:11Z
 pagemeta:
   show: true
 eleventyNavigation:
@@ -22,15 +22,17 @@ image:
   social: content/public/images/source/pexels-cottonbro-8371715.jpg
   classes:
     - margin-block-end-vlg
+  side_classes:
+    - content-canvas-item-wide-left-sm
+    - content-canvas-item-left--span-3
+    - margin-block-md
 ---
 
 So, we've established that [communication is the key skill for a delivery principal](/handbook/what/communication-is-key). Beyond that, though, what other traits or abilities are important to lead customer delivery?
 
 Here's a list of seven CDO super-powers, and we'll look at each below.
 
-{% ImgFigure 'A hand holding a folder of Top Secret files. <a href="https://www.pexels.com/photo/a-person-holding-a-folder-of-a-top-secret-files-label-8371715/" target="_blank" rel="noopener ugc">Photo</a> by <a href="https://www.pexels.com/@cottonbro/" target="_blank" rel="noopener ugc">cottonbro studio</a> on Pexels.', image.classes %}
-![A hand holding a folder of Top Secret files](/public/images/source/pexels-cottonbro-8371715.jpg){.image-rounded eleventy:widths="200,350,500,780"}
-{% endImgFigure %}
+{% ImgFigure 'A hand holding a folder of Top Secret files. <a href="https://www.pexels.com/photo/a-person-holding-a-folder-of-a-top-secret-files-label-8371715/" target="_blank" rel="noopener ugc">Photo</a> by <a href="https://www.pexels.com/@cottonbro/" target="_blank" rel="noopener ugc">cottonbro studio</a> on Pexels.', image.classes %}![A hand holding a folder of Top Secret files](/public/images/source/pexels-cottonbro-8371715.jpg){.image-rounded eleventy:widths="200,350,500,780"}{% endImgFigure %}
 
 ## Building relationships
 
@@ -76,11 +78,82 @@ Build respect, then, and you lay the ground to achieve great things.
 
 ---
 
-- Strategist
-  - large vision of how things should be
-  - tactical — what can be done now, what could be done next, i.e. how to get there in steps
-  - expert problem solver
-  - catalyst for change and transformation
+## Strategic vision, tactical view
+
+{% ImgFigure 'Hiker exploring in Torres del Paine, Chile. <a href="https://www.pexels.com/photo/exploring-17301681/" target="_blank" rel="noopener ugc">Photo</a> by <a href="https://www.pexels.com/@marek-piwnicki-3907296/" target="_blank" rel="noopener ugc">Marek Piwnicki</a>.', image.side_classes %}![Hiker exploring in Torres del Paine, Chile](/public/images/source/pexels-marek-piwnicki-3907296-17301681.jpg){.image-rounded eleventy:widths="200,350"}{% endImgFigure %}
+
+As with many aspects of the CDO role, being able to hold a creative tension between strategy and execution is a distinctive quality.{.content-canvas-item-main-left-main-end}
+
+The role requires you to do both — to see far ahead, and determine how to get where you're going; and, to take one step at a time on the path you've set, without getting distracted or discouraged.{.content-canvas-item-main-left-main-end}
+
+Or, to put it differently, it's about altitudes of thinking — taking the time to stand on higher ground to get the long view, whilst knowing that things are put into action back at ground level.{.content-canvas-item-main-left-main-end}
+
+### Strategy: Walk up the hill to see the horizon
+
+You'll be familiar, from your long experience of running customer projects, how important it is to start with a focus on the outcomes and to keep that focus all the way through. The same is true when working out how the business should be interacting with customers and delivering on its promises.
+
+At ground level, things can appear quite suddenly and erratically, almost as if out of nowhere. That'll cause you big problems, as if you're always putting in effort just to stand still. And it's because your view is too short — the horizon is very close, where things can hit you without much warning.
+
+You need to get to higher ground where the horizon is further out and your view is both longer and broader, taking in the landscape all around you.
+
+From higher ground you'll have a clearer view of your objective, and of the lay of the land in between, the immovable objects that have to be dealt with, the rivers, forests, canyons, and so on. From this loftier view, you'll be able to work out the best path to get to your goal.
+
+You'll also have a better perspective on things that are moving, the weather, the challenges or opposition that may impede you on your way, etc.
+
+This drawn-out metaphor is what *strategy*{.text-color-brand-secondary} is all about.
+
+- Keep focused on the end-goal, on the outcome you want
+- Take account of what's immovable in between
+- Evaluate what's moving, and understand the risk it poses on your path
+- Choose the optimum route to get to that destination
+- Work out a plan for the journey you're going to take
+- Test that plan as thoroughly as you can, so you're not unduly surprised
+- Break the whole thing down into achievable steps
+- Work out how you're going to know how you're getting on when your vision isn't as clear, when things get tough
+- Put in place the team and the equipment you'll need along the way
+
+You can only do all this if you take yourself off up the hill first.
+
+### Tactics: Ground work at ground level
+
+Lovely though the views are, you're static on the mountain top. The journey doesn't happen here.
+
+To get stuff done you have to come back down to ground level.
+
+If you've put in good planning time, then you'll have a clear step-by-step directions to follow. You'll definitely know the landmarks and way-points. But should know a lot more than that, something close to a turn-by-turn guide to follow.
+
+One of the things you should have identified is the challenges and risks to your big venture. In your thorough planning, you'll have worked out how you're going to tackle particular obstacles, the bigger challenges you know are on your path ahead.
+
+This is the definition of *tactics*{.text-color-brand-secondary}, pretty much — how you're going to address specific things that are part of the larger plan, the distinct things you need to achieve or overcome in order to get where you're going.
+
+Your tactics are the hard work you do at ground level, in the day to day. And your tactics are the reason why you've drawn together this specific the team and these particular tools — so that you can handle what you know is coming at you.
+
+#### Beware of too much improvisation, too often
+
+Often the term 'tactics' is used as a synonym of 'improvise', but that's not really right. Yes, occasionally you will have to react, to be spontaneous. But if you're doing that too often then it's a strong clue that you didn't spend long enough at high altitude, that you were impatient.
+
+If that's the case, you probably have a fundamental flaw to deal with.
+
+Pause.
+
+And go back up the hill.
+
+### Think slow, act fast
+
+It's cheaper and quicker to find problems and see things fail when you're still planning your work. Reduce uncertainty with low-cost planning.
+
+Then, move quickly and deliver rapidly based on the thoroughgoing plans you've made.
+
+### Solving problems
+
+- expert problem solver
+
+### Catalyst for change
+
+- catalyst for change and transformation
+
+---
+
 - Structured thinking
   - analytical
   - systematic
