@@ -340,7 +340,7 @@ export default async function(eleventyConfig) {
     permalink: markdownItAnchor.permalink.ariaHidden({
       placement: "after",
       class: "direct-link do-not-display",
-      symbol: "#",
+      symbol: "§",
       level: [1,2,3,4],
     }),
     slugify: eleventyConfig.getFilter("slug")

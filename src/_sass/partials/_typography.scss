@@ -45,23 +45,27 @@ h6,
   margin-block: 1.5rem 0.75rem;
   position: relative;
 
-
   // heading direct link hover
   &:not(.hide-permalink, .title-bar--title) {
-    padding-inline-end: 1.25rem;
+    margin-inline-start: calc(px.px-to-rem(18px) * -1);
+    padding-inline-start: px.px-to-rem(18px);
+
+    .direct-link {
+      font-size: var(--font-size-fluid-0);
+      font-weight: var(--font-weight-regular);
+
+      &.do-not-display {
+        position: absolute;
+        top: 0;
+        left: px.px-to-rem(6px);
+        color: var(--color-brand-primary);
+      }
+    }
 
     &:hover {
-      .direct-link {
-        font-size: var(--font-size-fluid-1);
-
-        &.do-not-display {
-          position: absolute;
-          top: 0;
-          right: 0;
-          color: var(--color-brand-primary);
-          display: inline;
-        }
-      }  
+      .do-not-display {
+        display: inline;
+      }
     }
   }
 
@@ -70,6 +74,8 @@ h6,
       @include mixins.do-not-display;
     }
   }
+
+
 
   &.warning,
   &.info {
