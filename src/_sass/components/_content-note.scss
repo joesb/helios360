@@ -6,24 +6,32 @@
 
 .content-note {
   position: relative;
+  --note-border-color: var(--color-brand-primary);
+  background-color: var(--color-grey-lighter);
 
   &::before {
     content: '';
     position: absolute;
-    left: calc(var(--size-fluid-1) * -1.25);
+    left: calc(var(--size-fluid-1) * -1.125);
     top: 0;
     height: 100%;
-    border-color: var(--color-brand-primary);
+    border-color: var(--note-border-color);
     border-left-width: var(--size-fluid-1);
     border-style: solid;
-    border-radius: var(--size-1);
+    border-radius: var(--size-1) 0 0 var(--size-1);
   }
 
-  :where(h1, h2, h3, h4, h5, h6) {
-    border-bottom-color: var(--color-aquamarine);
+  :where(h1, h2, h3, h4, h5, h6, .border-bottom) {
+    border-bottom-color: var(--color-brand-white);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
 
     &:first-child {
       margin-block-start: 0.25rem;
     }
+  }
+
+  &.content-note-info {
+    --note-border-color: var(--color-brand-secondary);
   }
 }

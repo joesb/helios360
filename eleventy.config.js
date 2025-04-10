@@ -147,9 +147,9 @@ export default async function(eleventyConfig) {
     return '';
   });
 
-  eleventyConfig.addPairedShortcode("Note", function(content, mdContent = false, classes, useIcon) { 
+  eleventyConfig.addPairedShortcode("Note", function(content, mdContent = false, classes, useIcon = false) { 
       content = mdContent ? markdownLibrary.render(content) : content;
-      return '<div class="content-note margin-block-lg padding-block-sml padding-inline-sml' + ( classes ? ' ' + classes : '' ) + (useIcon ? ' content-note-use-icon' : '') + '">' + content + '</div>'
+      return '<div class="content-note margin-block-lg padding-md' + ( classes ? ' ' + classes : '' ) + (useIcon ? ' content-note-use-icon' : '') + '">' + content + '</div>'
     }
   );
 
