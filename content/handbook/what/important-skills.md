@@ -48,6 +48,20 @@ The CDO will need the support of peers in the C-suite to achieve the delivery st
 
 Occasionally, the CDO will need to go toe-to-toe with colleagues to advocate for things that are important or to achieve certain necessary ends. But the most effective results will be achieved through building strong and healthy interpersonal connections.
 
+### The power of cake{.margin-block-start-vlg}
+
+It's astonishingly important to spend social time with people.
+
+{% ImgFigure 'Women eating cakes and looking at a cellphone. <a href="https://www.pexels.com/photo/women-eating-cakes-and-looking-at-a-cellphone-4347208/" target="_blank" rel="noopener ugc">Photo</a> by <a href="https://www.pexels.com/@edmond-dantes/" target="_blank" rel="noopener ugc">Edmond Dantès</a> on Pexels.', image.side_classes %}![Women eating cakes and looking at a cellphone](/public/images/source/pexels-edmond-dantes-4347208.jpg){.image-rounded eleventy:widths="200,350"}{% endImgFigure %}
+
+Taking time out to share a piece of cake, to have a coffee with a colleague, or breakfast, or if food's not your thing then going for a walk together — it's powerful.{.content-canvas-item-main-left-main-end}
+
+Informal settings put everyone at ease, and vital to take time to talk informally, about wider topics — hopes and dreams, frustrations and challenges, personal stories of how we got here, what matters to us, what keeps us awake at night, and so on — to help build strong bonds.{.content-canvas-item-main-left-main-end}
+
+It helps to understand what motivates people. It creates safety to talk about struggles or difficulties. It opens up new insights into ways that you can help.
+
+Cake is powerful.
+
 ### Building trust{.margin-block-start-vlg}
 
 Clients and people in your own organisation, at all levels, alike will need to trust you. At times, they will need to have faith in you to make judgement calls.
@@ -80,9 +94,9 @@ Build respect, then, and you lay the ground to achieve great things.
 
 ## Strategic vision, tactical view
 
-{% ImgFigure 'Hiker exploring in Torres del Paine, Chile. <a href="https://www.pexels.com/photo/exploring-17301681/" target="_blank" rel="noopener ugc">Photo</a> by <a href="https://www.pexels.com/@marek-piwnicki-3907296/" target="_blank" rel="noopener ugc">Marek Piwnicki</a>.', image.side_classes %}![Hiker exploring in Torres del Paine, Chile](/public/images/source/pexels-marek-piwnicki-3907296-17301681.jpg){.image-rounded eleventy:widths="200,350"}{% endImgFigure %}
+As with many aspects of the CDO role, being able to hold a creative tension between strategy and execution is a distinctive quality.
 
-As with many aspects of the CDO role, being able to hold a creative tension between strategy and execution is a distinctive quality.{.content-canvas-item-main-left-main-end}
+{% ImgFigure 'Hiker exploring in Torres del Paine, Chile. <a href="https://www.pexels.com/photo/exploring-17301681/" target="_blank" rel="noopener ugc">Photo</a> by <a href="https://www.pexels.com/@marek-piwnicki-3907296/" target="_blank" rel="noopener ugc">Marek Piwnicki</a>.', image.side_classes %}![Hiker exploring in Torres del Paine, Chile](/public/images/source/pexels-marek-piwnicki-3907296-17301681.jpg){.image-rounded eleventy:widths="200,350"}{% endImgFigure %}
 
 The role requires you to do both — to see far ahead, and determine how to get where you're going; and, to take one step at a time on the path you've set, without getting distracted or discouraged.{.content-canvas-item-main-left-main-end}
 
@@ -127,6 +141,20 @@ One of the things you should have identified is the challenges and risks to your
 This is the definition of *tactics*{.text-color-brand-secondary}, pretty much — how you're going to address specific things that are part of the larger plan, the distinct things you need to achieve or overcome in order to get where you're going.
 
 Your tactics are the hard work you do at ground level, in the day to day. And your tactics are the reason why you've drawn together this specific the team and these particular tools — so that you can handle what you know is coming at you.
+
+{% Note true, "content-note-info", "yes" %}
+**Note:**{.h3-style}
+{.border-bottom .margin-block-end-lg}
+
+*Strategy should always come first.*{.larger}
+
+Tactics (i.e. coordinated action taken in a *specific* situation) will be fairly impotent, or worse, a potential liability without reference to a larger context that gives them meaning.
+
+Tactics need to be directed toward a goal or outcome in order to have focus and purpose.
+
+Tactics depend on strategy.
+
+{% endNote %}
 
 #### Beware of too much improvisation, too often
 
