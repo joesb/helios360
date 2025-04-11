@@ -8,7 +8,7 @@ jumbotron: |
   Let's look at each in turn.
 pending: false
 date: 2025-03-04
-updated: 2025-04-10T12:36:11Z
+updated: 2025-04-11T12:56:11Z
 pagemeta:
   show: true
 eleventyNavigation:
@@ -166,33 +166,66 @@ Pause.
 
 And go back up the hill.
 
+### Master for solving problems
+
+That said, problem-solving is a core constituent of delivery leadership, and excellent CDOs will be exceptional in this area. The skill is equally important when analysing your challenges and planning out how you'll address them as it is when needing to adapt to an obstruction on the fly.
+
+Part of your credibility ([discussed below](#credibility) in more depth) is your own pre-existing expertise in the organisation's industry, sector, and core business. You may also have important experience from a distinct specialism, data or design or engineering, say. You will undoubtedly lean on that history and long experience when tackling difficult problems — the pattern of thinking about problems that you've acquired over your career to date are transferable skills and will remain vital.
+
+The problems you'll experience when building your delivery strategy and executing on it will be approached in the same way:
+
+- define the problem;
+- analyse it;
+- generate solutions;
+- evaluate them;
+- select one (or two) as promising options;
+  - determine how you'll know it's a valid fix;
+- try out your options;
+  - (depending on the scale, you may just skip straight on [small] or run a pilot [large])
+- implement the best;
+- measure the impact and make adjustments.
+
+You know how it goes.
+
+### Catalyst for change
+
+- catalyst for change and transformation
+
 ### Think slow, act fast
 
 It's cheaper and quicker to find problems and see things fail when you're still planning your work. Reduce uncertainty with low-cost planning.
 
 Then, move quickly and deliver rapidly based on the thoroughgoing plans you've made.
 
-### Solving problems
+---
 
-- expert problem solver
+## Structured thinking
 
-### Catalyst for change
-
-- catalyst for change and transformation
+- analytical
+- systematic
+- focussed on usable processes
 
 ---
 
-- Structured thinking
-  - analytical
-  - systematic
-  - focussed on usable processes
-- Credibility
-  - built from wide knowledge, often technical
-  - authority on the subject
-- People-centric
-  - cheerleader for people and initiatives
-  - recruit good people
-- Calm under pressure
-  - comfortable with many things spinning at once
-  - tamer of chaos
-- Lucky!
+## Credibility
+
+- built from wide knowledge, often technical
+- authority on the subject
+
+---
+
+## People-centric
+
+- cheerleader for people and initiatives
+- recruit good people
+
+---
+
+## Calm under pressure
+
+- comfortable with many things spinning at once
+- tamer of chaos
+
+---
+
+## Lucky!
