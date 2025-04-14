@@ -8,7 +8,7 @@ jumbotron: |
   Let's look at each in turn.
 pending: false
 date: 2025-03-04
-updated: 2025-04-11T12:56:11Z
+updated: 2025-04-14T11:25:16Z
 pagemeta:
   show: true
 eleventyNavigation:
@@ -189,13 +189,32 @@ You know how it goes.
 
 ### Catalyst for change
 
-- catalyst for change and transformation
+If you're the first CDO the organisation has taken on, it's inevitable that you'll be the author of substantial change in the business. If you're a successor to a previous incumbent, change is still probably your watchword as you evaluate and revise — to whatever degree — the way the organisation delivers for its customers.
+
+Enabling change depends on all of the dimensions discussed here.
+
+In particular, it requires you to have strong and [healthy working relationships](#building-relationships) with colleagues across the business — not only will they be a vital support for what you're aiming to do, but in certain areas you'll need direct help as you transform the things that need transforming.
+
+It also leans heavily on your [potent skills of communication](/handbook/what/communication-is-key/), which we've already discussed at length — you'll need to be painting pictures about what you're changing, why you're changing it, how things will change, what that means for everyone, what difference it'll make and how it'll help, and so on, all the way through. Don't underestimate the need to communicate, and to keep on communicating, as you embed the transformation you're aiming for.
+
+Of course, it won't all be plain sailing, and we'll talk about the quality of [resilience](#calm-under-pressure) below.
 
 ### Think slow, act fast
 
-It's cheaper and quicker to find problems and see things fail when you're still planning your work. Reduce uncertainty with low-cost planning.
+This is one of the [key heuristics for delivery leadership](/handbook/delivery/heuristics/) that you'll already know well, but when doing stuff it's vital to take time up front to think things through thoroughly before you get on with implementing things.
 
-Then, move quickly and deliver rapidly based on the thoroughgoing plans you've made.
+You can boil all that down into a single phrase, coined by [Bent Flyvbjerg](https://www.linkedin.com/in/flyvbjerg/){target=_blank rel="noreferrer ugc nofollow"}, the project management guru and Professor of Major Program Management:
+
+> Think slow, act fast
+{.bq-alt}
+
+See Flyberg's book, [*How Big Things Get Done*](https://sites.prh.com/how-big-things-get-done-book){target=_blank rel="noreferrer ugc nofollow"} for all the deep thinking behind this pithy phrase.{.smaller .margin-inline-start-lg}
+
+It's cheaper and quicker to find problems and see things fail when you're still planning your work. Reduce uncertainty with low-cost research, testing, prototyping, and then roll those insights into better planning.
+
+Then, *move quickly and deliver rapidly* based on the thoroughgoing plans you've made. The longer you spend in the execution and the slower you move at this stage, the more space it gives for things being adapted — either needing to, or being forced to.
+
+If change is foreseen or forced on you, then Agile methodologies are extremely helpful.
 
 ---
 
@@ -225,6 +244,7 @@ Then, move quickly and deliver rapidly based on the thoroughgoing plans you've m
 
 - comfortable with many things spinning at once
 - tamer of chaos
+- resilient
 
 ---
 
