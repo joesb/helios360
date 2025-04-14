@@ -20,6 +20,14 @@ tags:
   - '#handbookWhat'
 pagemeta:
   show: true
+image:
+  social: content/public/images/source/pexels-shvetsa-5324892.jpg
+  classes:
+    - margin-block-end-vlg
+  side_classes:
+    - content-canvas-item-wide-left-sm
+    - content-canvas-item-left--span-3
+    - margin-block-md
 ---
 
 The Chief Delivery Officer has a distinctive role amongst other C-suite colleagues, and it's important that we spend some time here looking at the position in the round before progressing into specific areas in the rest of the *Handbook*.
@@ -30,9 +38,11 @@ The CDO is a domain specialist, like the C-suite peers with Financial (CFO), Mar
 
 The CDO also affects elements across the whole business, like an Operations (COO) or Data (the *other* CDO 😉) principal.
 
-But the role of a Chief Delivery Officer stands out for some important and distinctive reasons.
+{% ImgFigure 'Focused colleagues having briefing in an office. <a href="https://www.pexels.com/photo/focused-colleagues-having-briefing-in-office-5324892/" target="_blank" rel="noopener ugc">Photo</a> by <a href="https://www.pexels.com/@shvetsa/" target="_blank" rel="noopener ugc">Anna Shvets</a>.', image.side_classes %}![Focused colleagues having briefing in an office](/public/images/source/pexels-shvetsa-5324892.jpg){.image-rounded eleventy:widths="200,350"}{% endImgFigure %}
 
-Here we'll explored what those are, why they're important — both for the CDO and for the business — and how they frame the position and function of the CDO in the organisation.
+But the role of a Chief Delivery Officer stands out for some important and distinctive reasons.{.content-canvas-item-main-left-main-end}
+
+Here we'll explored what those are, why they're important — both for the CDO and for the business — and how they frame the position and function of the CDO in the organisation.{.content-canvas-item-main-left-main-end}
 
 The role of Chief Delivery Officer is a relatively new label for a set of duties and responsibilities in the organisation. Previously these functions might have been handled by someone at a different level in the business who reports, directly or maybe indirectly, to someone at executive level — maybe the Chief Operating Officer, say. Here we are going to examine the case for viewing this position as an executive-level role in itself.
 
