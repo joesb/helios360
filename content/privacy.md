@@ -15,7 +15,7 @@ eleventyNavigation:
   footer_class_link: smaller
 ---
 
-Privacy policy wordings.
+Privacy policy wordings and disclosures.
 
 ---
 
