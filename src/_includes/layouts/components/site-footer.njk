@@ -21,7 +21,7 @@
       <ul class="footer-main__links--list">
         {% for link in navPage.children %}
         {% if link.footer %}
-        <li class="footer-main__links--list-item"><a href="{{ link.url }}">{{ link.key }}</li>
+        <li class="footer-main__links--list-item{% if link.footer_class %} {{ link.footer_class }}{% endif %}"><a href="{{ link.url }}"{% if link.footer_class_link %} class="{{ link.footer_class_link }}"{% endif %}>{{ link.key }}</li>
         {% endif %}
         {% endfor %}
       </ul>
