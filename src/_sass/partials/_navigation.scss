@@ -98,6 +98,10 @@
       color: var( --color-brand-white);
       text-decoration: underline;
     }
+
+    &.smaller {
+      font-size: var(--font-size-fluid-00);
+    }
   }
 }
 
