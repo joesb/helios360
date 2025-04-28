@@ -1,0 +1,15 @@
+---
+permalink: /indexnow.sh
+layout:
+eleventyExcludeFromCollections: true
+---
+curl -i -X POST https://api.indexnow.org/IndexNow \
+  -H "Content-Type: application/json; charset=utf-8" \
+  -d '{
+    "host": "helios360.co.uk",
+    "key":"44ce983d229a4af5bc3794403478dc39",
+    "keyLocation": "https://helios360.co.uk/44ce983d229a4af5bc3794403478dc39.txt",
+    "urlList": [{% for page in collections.all | sortByDate %}
+      "{{ page.url | url | absoluteUrl(metadata.url) }}"{% if not loop.last %},{% endif %}{% endfor %}
+    ]
+  }'
