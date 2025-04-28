@@ -21,6 +21,7 @@ import { DateTime } from "luxon";
 import { minify } from "html-minifier-terser";
 import schema from "@quasibit/eleventy-plugin-schema";
 import pluginTOC from "eleventy-plugin-toc";
+import dotenv from "dotenv/config";
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function(eleventyConfig) {
@@ -54,8 +55,8 @@ export default async function(eleventyConfig) {
 		type: "atom", // or "rss", "json"
 		outputPath: "/feed.xml",
 		collection: {
-			name: "feed", // iterate over `collections.feed`
-			limit: 25,     // 0 means no limit
+			name: "all", // iterate over `collections.all`
+			limit: 100,  // 0 means no limit
 		},
 		metadata: {
 			language: "en",
@@ -364,6 +365,10 @@ export default async function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ 'content/site.webmanifest': '/site.webmanifest' });
   // IndexNow key
   eleventyConfig.addPassthroughCopy({ 'content/44ce983d229a4af5bc3794403478dc39.txt': '/44ce983d229a4af5bc3794403478dc39.txt' });
+
+  if (process.env.ELEVENTY_ENV !== 'local') {
+    eleventyConfig.ignores.add('content/indexnow.njk');
+  }
 }
 
 export const config = {
