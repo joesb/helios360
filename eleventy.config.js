@@ -362,6 +362,8 @@ export default async function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ 'content/robots.txt': '/robots.txt' });
   eleventyConfig.addPassthroughCopy({ 'content/favicon.ico': '/favicon.ico' });
   eleventyConfig.addPassthroughCopy({ 'content/site.webmanifest': '/site.webmanifest' });
+  // IndexNow key
+  eleventyConfig.addPassthroughCopy({ 'content/44ce983d229a4af5bc3794403478dc39.txt': '/44ce983d229a4af5bc3794403478dc39.txt' });
 }
 
 export const config = {
