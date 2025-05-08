@@ -4,6 +4,7 @@ import markdownItAttrs from "markdown-it-attrs";
 import markdownItUnderline from "markdown-it-underline";
 import markdownItAnchor from "markdown-it-anchor";
 import markdownItDefList from "markdown-it-deflist";
+import markdownItSpan from "markdown-it-span";
 import Image from "@11ty/eleventy-img";
 import markdownIt11tyImage from "markdown-it-eleventy-img";
 import { eleventyImageOnRequestDuringServePlugin } from "@11ty/eleventy-img";
@@ -345,7 +346,7 @@ export default async function(eleventyConfig) {
       level: [1,2,3,4],
     }),
     slugify: eleventyConfig.getFilter("slug")
-  }).use(markdownItAttrs).use(markdownItUnderline).use(markdownItDefList);
+  }).use(markdownItAttrs).use(markdownItUnderline).use(markdownItDefList).use(markdownItSpan);
   eleventyConfig.setLibrary("md", markdownLibrary);
 
   eleventyConfig.addFilter("markdown", (content) => {
