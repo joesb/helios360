@@ -28,7 +28,7 @@ image:
     - margin-block-md
 ---
 
-So, we've established that [communication is the key skill for a delivery principal](/handbook/what/communication-is-key). Beyond that, though, what other traits or abilities are important to lead customer delivery?
+So, we've established that [communication is the key skill for a delivery principal](/handbook/what/communication-is-key) followed closely by [advocacy, which often looks like diplomacy](/handbook/what/advocacy/). Beyond that, though, what other traits or abilities are important to lead customer delivery?
 
 Here's a list of seven CDO super-powers, and we'll look at each below.
 
@@ -148,11 +148,11 @@ Your tactics are the hard work you do at ground level, in the day to day. And yo
 
 *Strategy should always come first.*{.larger}
 
-Tactics (i.e. coordinated action taken in a *specific* situation) will be fairly impotent, or worse, a potential liability without reference to a larger context that gives them meaning.
+Tactics (i.e. coordinated action taken in a *specific* situation) will be fairly impotent, or worse, a potential liability, without reference to a larger context that gives them meaning.
 
-Tactics need to be directed toward a goal or outcome in order to have focus and purpose.
+Tactics need to be *directed* toward a *goal or outcome* in order to have *focus and purpose*.
 
-Tactics depend on strategy.
+:Tactics *depend* on strategy.:{.larger}
 
 {% endNote %}
 
@@ -220,9 +220,13 @@ If change is foreseen or forced on you, then Agile methodologies are extremely h
 
 ## Structured thinking
 
-- analytical
-- systematic
-- focussed on usable processes
+Strong organisational skills are one of the most important dimensions of your work as a CDO.
+
+### Analytical
+
+### Systematic
+
+### Focussed on usable processes
 
 ---
 
@@ -235,6 +239,7 @@ If change is foreseen or forced on you, then Agile methodologies are extremely h
 
 ## People-centric
 
+- especially high emotional intelligence (EQ)
 - cheerleader for people and initiatives
 - recruit good people
 
