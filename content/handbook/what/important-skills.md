@@ -245,9 +245,11 @@ Analytical approaches then do two things.
 
 ### Systematic
 
-### Focussed on usable processes
+Complex information then needs to be addressed in a logical manner, piece by piece.
 
-### Frameworks and tools
+Being systematic means that your analysis covers each element and gives it the attention it deserves. Being methodical allows you to be appropriately thorough.
+
+### Focussed on usable processes
 
 ---
 
