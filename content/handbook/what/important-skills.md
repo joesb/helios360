@@ -152,7 +152,7 @@ Tactics (i.e. coordinated action taken in a *specific* situation) will be fairly
 
 Tactics need to be *directed* toward a *goal or outcome* in order to have *focus and purpose*.
 
-:Tactics *depend* on strategy.:{.larger}
+*Tactics *depend* on strategy.*{.larger}
 
 {% endNote %}
 
