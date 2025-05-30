@@ -8,7 +8,7 @@ jumbotron: |
   Let's look at each in turn.
 pending: false
 date: 2025-03-04
-updated: 2025-04-14T11:25:16Z
+updated: 2025-05-30T16:05:16Z
 pagemeta:
   show: true
 eleventyNavigation:
@@ -28,7 +28,7 @@ image:
     - margin-block-md
 ---
 
-So, we've established that [communication is the key skill for a delivery principal](/handbook/what/communication-is-key). Beyond that, though, what other traits or abilities are important to lead customer delivery?
+So, we've established that [communication is the key skill for a delivery principal](/handbook/what/communication-is-key) followed closely by [advocacy, which often looks like diplomacy](/handbook/what/advocacy/). Beyond that, though, what other traits or abilities are important to lead customer delivery?
 
 Here's a list of seven CDO super-powers, and we'll look at each below.
 
@@ -148,11 +148,11 @@ Your tactics are the hard work you do at ground level, in the day to day. And yo
 
 *Strategy should always come first.*{.larger}
 
-Tactics (i.e. coordinated action taken in a *specific* situation) will be fairly impotent, or worse, a potential liability without reference to a larger context that gives them meaning.
+Tactics (i.e. coordinated action taken in a *specific* situation) will be fairly impotent, or worse, a potential liability, without reference to a larger context that gives them meaning.
 
-Tactics need to be directed toward a goal or outcome in order to have focus and purpose.
+Tactics need to be *directed* toward a *goal or outcome* in order to have *focus and purpose*.
 
-Tactics depend on strategy.
+*Tactics *depend* on strategy.*{.larger}
 
 {% endNote %}
 
@@ -220,21 +220,80 @@ If change is foreseen or forced on you, then Agile methodologies are extremely h
 
 ## Structured thinking
 
-- analytical
-- systematic
-- focussed on usable processes
+Strong organisational skills are one of the most important dimensions of your work as a CDO, and these are something that will have been a feature of your career all along, no doubt.
+
+{% ImgFigure 'Close-up shot of a person pointing at an evidence board. <a href="https://www.pexels.com/photo/close-up-shot-of-a-person-pointing-at-evidence-board-8369524/" target="_blank" rel="noopener ugc">Photo</a> by <a href="https://www.pexels.com/@cottonbro/" target="_blank" rel="noopener ugc">cottonbro studio</a>.', image.side_classes %}![Close-up shot of a person pointing at an evidence board](/public/images/source/pexels-cottonbro-8369524.jpg){.image-rounded eleventy:widths="200,350"}{% endImgFigure %}
+
+But organisational skills are functional skills that need to be focussed through a specific lens that we might call *structured thinking* — the ability to …{.content-canvas-item-main-left-main-end}
+
+- tackle difficult things methodically,
+- to analyse demands, needs, situations and more in a systematic manner, and
+- to work with reasoning, likely with reference to a framework, towards usable solutions or outcomes.
+{.content-canvas-item-main-left-main-end}
+
+Let's explore this in more depth.
+
+### Analytical
+
+The analytical mindset is about taking a set of information —  whether succinct, such as business goals or client objectives, or loose and open, such as usage or performance data, or user needs from interviews, say — and performing several actions on it.
+
+Analytical approaches then do two things.
+
+**First**, they decompose that information into smaller elements, maybe even into constituent parts. Complex things are tackled more easily when they are broken into smaller pieces. Although the whole thing operates together as a unit, the effect of the whole is achieved by the traits and characteristics contributed by the components.
+
+**And secondly**, analysis requires that individual significance AND the relative importance of each part is identified. What does each part do? Why is it important? And how should the effect of each be weighed in relation to the other parts?
+
+### Systematic
+
+Complex information then needs to be addressed in a logical manner, piece by piece.
+
+Being systematic means that your analysis covers each element and gives it the attention it deserves. Being methodical allows you to be appropriately thorough.
+
+### Focused on usable processes
+
+As you construct processes, tools and practices for your business, it's essential that they sit aside from you as the CDO. They cannot, they must not depend on you to be implemented in practice.
+
+Delivery processes need to be replicable by others in the business. Ideally, they should be usable by people who aren't delivery management specialists — designed to be used by non-specialists.
+
+If a project or a customer needs to switch the project manager for any reason (illness, scale, personality, sector specialism, whatever) it should not feel like totally different delivery experience.
 
 ---
 
 ## Credibility
 
-- built from wide knowledge, often technical
-- authority on the subject
+The art of [building relationships](#building-relationships) discussed above is built in part on credibility.
+
+{% ImgFigure 'Group of people listening intently to a presentation. <a href="https://www.pexels.com/photo/group-of-people-listening-intently-to-a-presentation-18999533/" target="_blank" rel="noopener ugc">Photo</a> by <a href="https://www.pexels.com/@bertellifotografia/" target="_blank" rel="noopener ugc">Matheus Bertelli</a>.', image.side_classes %}![Group of people listening intently to a presentation](/public/images/source/pexels-bertellifotografia-18999533.jpg){.image-rounded eleventy:widths="200,350"}{% endImgFigure %}
+
+A CDO must be credible to the CEO, the founder(s) and the board, their colleagues, the business as a whole, and vitally, to customers.{.content-canvas-item-main-left-main-end}
+
+The business as a whole needs to be confident in the CDO, especially as they introduce (potentially) big ideas and significant changes — credibility is essential.{.content-canvas-item-main-left-main-end}
+
+### Credibility and knowledge
+
+A large degree of your credibility will be derived from specialist knowledge.
+
+A new CDO will need to have a thorough understanding of delivery methodologies and frameworks, both theoretical and practical. And you need a thirst to learn more, to keep up with innovations in the field, reading articles and books, attending conferences, and so on. But that isn't enough.
+
+Credibility also benefits from a good working knowledge of the field, sector, or specialism of the business. The better you understand the challenges and needs of the delivery teams you're overseeing, and the optimum working context of the experts in your teams, the better you are able to serve and support them. If you're leading digital engineering delivery work, for instance, then a background as an engineer, programmer, system admin, or similar is hugely advantageous. The same if it's a design business, a marketing agency, and so on.
+
+In many cases, you will need to be a translator, between customer, business, and team. Each will need to feel they are represented, that you're not necessarily on anyone's 'side' in particular (see previously, on being [the ultimate advocate](/handbook/what/advocacy/)) — you are on the side of outcomes … and those don't flourish in silos! You can only do that if your knowledge of the business's specialism is rock solid.
+
+### Credibility and authority
+
+High performance CDOs must have authority.
+
+But the only true and valid authority derives from credibility. Authority is established through credibility, rather than the other way around.
+
+Ideally, authority to effect change and implement practices that affect the whole business will be projected through clear support from above. But without credibility, that will quickly ring hollow.
+
+Be consistent, stay focused — the credibility will build itself.
 
 ---
 
 ## People-centric
 
+- especially high emotional intelligence (EQ)
 - cheerleader for people and initiatives
 - recruit good people
 
