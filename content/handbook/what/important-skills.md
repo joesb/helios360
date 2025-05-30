@@ -8,7 +8,7 @@ jumbotron: |
   Let's look at each in turn.
 pending: false
 date: 2025-03-04
-updated: 2025-04-14T11:25:16Z
+updated: 2025-05-30T16:05:16Z
 pagemeta:
   show: true
 eleventyNavigation:
@@ -249,14 +249,41 @@ Complex information then needs to be addressed in a logical manner, piece by pie
 
 Being systematic means that your analysis covers each element and gives it the attention it deserves. Being methodical allows you to be appropriately thorough.
 
-### Focussed on usable processes
+### Focused on usable processes
+
+As you construct processes, tools and practices for your business, it's essential that they sit aside from you as the CDO. They cannot, they must not depend on you to be implemented in practice.
+
+Delivery processes need to be replicable by others in the business. Ideally, they should be usable by people who aren't delivery management specialists — designed to be used by non-specialists.
+
+If a project or a customer needs to switch the project manager for any reason (illness, scale, personality, sector specialism, whatever) it should not feel like totally different delivery experience.
 
 ---
 
 ## Credibility
 
-- built from wide knowledge, often technical
-- authority on the subject
+The art of [building relationships](#building-relationships) discussed above is built in part on credibility. A CDO must be credible to the CEO, the founder(s) and the board, their colleagues, the business as a whole, and vitally, to customers.
+
+The business as a whole needs to be confident in the CDO, especially as they introduce (potentially) big ideas and significant changes — credibility is essential.
+
+### Credibility and knowledge
+
+A large degree of your credibility will be derived from specialist knowledge.
+
+A new CDO will need to have a thorough understanding of delivery methodologies and frameworks, both theoretical and practical. And you need a thirst to learn more, to keep up with innovations in the field, reading articles and books, attending conferences, and so on. But that isn't enough.
+
+Credibility also benefits from a good working knowledge of the field, sector, or specialism of the business. The better you understand the challenges and needs of the delivery teams you're overseeing, and the optimum working context of the experts in your teams, the better you are able to serve and support them. If you're leading digital engineering delivery work, for instance, then a background as an engineer, programmer, system admin, or similar is hugely advantageous. The same if it's a design business, a marketing agency, and so on.
+
+In many cases, you will need to be a translator, between customer, business, and team. Each will need to feel they are represented, that you're not necessarily on anyone's 'side' in particular (see previously, on being [the ultimate advocate](/handbook/what/advocacy/)) — you are on the side of outcomes … and those don't flourish in silos! You can only do that if your knowledge of the business's specialism is rock solid.
+
+### Credibility and authority
+
+High performance CDOs must have authority.
+
+But the only true and valid authority derives from credibility. Authority is established through credibility, rather than the other way around.
+
+Ideally, authority to effect change and implement practices that affect the whole business will be projected through clear support from above. But without credibility, that will quickly ring hollow.
+
+Be consistent, stay focused — the credibility will build itself.
 
 ---
 
