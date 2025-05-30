@@ -261,9 +261,13 @@ If a project or a customer needs to switch the project manager for any reason (i
 
 ## Credibility
 
-The art of [building relationships](#building-relationships) discussed above is built in part on credibility. A CDO must be credible to the CEO, the founder(s) and the board, their colleagues, the business as a whole, and vitally, to customers.
+The art of [building relationships](#building-relationships) discussed above is built in part on credibility.
 
-The business as a whole needs to be confident in the CDO, especially as they introduce (potentially) big ideas and significant changes — credibility is essential.
+{% ImgFigure 'Group of people listening intently to a presentation. <a href="https://www.pexels.com/photo/group-of-people-listening-intently-to-a-presentation-18999533/" target="_blank" rel="noopener ugc">Photo</a> by <a href="https://www.pexels.com/@bertellifotografia/" target="_blank" rel="noopener ugc">Matheus Bertelli</a>.', image.side_classes %}![Group of people listening intently to a presentation](/public/images/source/pexels-bertellifotografia-18999533.jpg){.image-rounded eleventy:widths="200,350"}{% endImgFigure %}
+
+A CDO must be credible to the CEO, the founder(s) and the board, their colleagues, the business as a whole, and vitally, to customers.{.content-canvas-item-main-left-main-end}
+
+The business as a whole needs to be confident in the CDO, especially as they introduce (potentially) big ideas and significant changes — credibility is essential.{.content-canvas-item-main-left-main-end}
 
 ### Credibility and knowledge
 
