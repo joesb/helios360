@@ -10,13 +10,11 @@
     position: absolute;
     display: grid;
     grid-template-areas:
-      ". ."
-      ". index-nav"
+      ". . index-nav ."
     ;
-    grid-template-columns: 1.5rem auto;
-    grid-template-rows: 1fr 3fr;
+    grid-template-columns: 1.5rem 12ch auto 1rem;
     align-items: center;
-    max-height: 65vh;
+    max-height: 75vh;
   }
 
   .index-nav--content {
@@ -24,7 +22,25 @@
     z-index: 100;
     grid-area: index-nav;
     overflow-y: scroll;
-    max-height: 45vh;
+    max-height: 75vh;
+
+    .margin-block-lg {
+      margin-block: var(--size-2) !important
+    }
+
+    hr {
+      margin-block: var(--size-fluid-1);
+
+      &.left {
+        &::after {
+          font-size: var(--font-size-4);
+        }
+      }
+    }
+    
+    .single-meta-button {
+      padding-block: var(--size-1);
+    }
   }
 
   .header-main__inner {

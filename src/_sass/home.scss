@@ -49,6 +49,10 @@
         height: clamp(ptr.px-to-rem(72px), 30vh, ptr.px-to-rem(144px));
       }
     }
+  
+    .site-logo-image {
+      width: clamp(ptr.px-to-rem(80px), 30vw, ptr.px-to-rem(110px));
+    }
   }
   .site-content--title {
     font-size: var(--font-size-fluid-2);
