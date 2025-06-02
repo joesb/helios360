@@ -60,7 +60,7 @@ The Chief Delivery Officer (CDO) is a key leadership role.{.padding-inline-start
 
 Normally an executive-level role, the CDO works closely with other leaders in the organisation — the CEO, Chief Technology Officer, Creative Director, Chief Operating Officer, Commercial Director, and so on — to align the client delivery strategy with both the business goals and customers' needs.{.padding-inline-start-lg}
 
-A Chief Delivery Officer is responsible for the success of client projects through the entire customer lifecycle, from delivery discovery, planning and design through execution and onwards into live service and evaluation. This usually means the delivering a service for customers, commonly in creative and digital agencies or for product or SaaS companies, but could just as well apply in large infrastructure or transformation projects and programs as well.{.padding-inline-start-lg}
+A Chief Delivery Officer is responsible for the success of client projects through the entire customer lifecycle, from delivery discovery, planning and design through execution and onwards into live service and evaluation. This usually means delivering a service for customers, commonly in creative and digital agencies or for product or SaaS companies, but could just as well apply in large infrastructure or transformation projects and programs as well.{.padding-inline-start-lg}
 
 More than overseeing the day-to-day, week-to-week client project work, though, the CDO is the focus point for a customer's experience of the business. Service delivery is often the part of the business that clients experience most closely and, done well, is a foundation stone for an organisation's reputation.{.padding-inline-start-lg}
 
