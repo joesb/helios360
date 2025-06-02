@@ -17,7 +17,7 @@
       ". . . ."
     ;
     grid-template-columns: 1.5rem 1fr 1fr 1.5rem;
-    grid-template-rows: minmax(ptr.px-to-rem(160px), ptr.px-to-rem(216px)) min-content minmax(ptr.px-to-rem(160px), auto);
+    grid-template-rows: minmax(ptr.px-to-rem(144px), ptr.px-to-rem(180px)) min-content minmax(ptr.px-to-rem(160px), auto);
     overflow: scroll;
     width: 100vw;
     align-items: start;
