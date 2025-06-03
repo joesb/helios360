@@ -107,7 +107,7 @@ Importantly, the delivery principal should build themselves out of the systems a
 
 They should be understood by everyone on the team, easy to explain to customers, replicable by those in the delivery team who need to use them. Moreover, if a customer or project needs to switch delivery personnel for whatever reason, it should not feel like a totally different experience.
 
-### Delivery … and jazz
+### Delivery as jazz
 
 However, it’s easy to confuse the focus between *processes* on the one hand and *outcomes* on the other.
 
