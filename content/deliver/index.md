@@ -1,6 +1,6 @@
 ---
-title: We deliver
-description: Four ways that I help founders and CEOs of ambitious businesses to tame the chaos and rekindle the fire
+title: We deliver for founders of ambitious businesses
+description: Four ways that I help founders and CEOs to tame the chaos and rekindle the fire
 layout: section.njk
 type: page
 date: 2025-03-25T14:29:44Z
