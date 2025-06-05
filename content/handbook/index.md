@@ -32,7 +32,7 @@ redirect_from:
   - /tagged/handbookpromoted/
 ---
 
-*The Chief Delivery Officer's Handbook* brings together 25 years' experience of project delivery from all angles, as team member, specialism lead, project manager, professional and client services lead, as both provider and customer, working hand-in-glove with sales and customer success teams.
+*The CDO's Handbook* brings together 25 years' experience of project delivery from all angles, as team member, specialism lead, project manager, professional and client services lead, as both provider and customer, working hand-in-glove with sales and customer success teams.
 
 This manual is the result — a thoroughgoing guidebook for service delivery for agencies and product companies.
 
@@ -56,11 +56,11 @@ The most important question first:
 
 Here is a working definition:
 
-The Chief Delivery Officer (CDO) is a key leadership role.{.padding-inline-start-lg .margin-block-start-vlg .padding-block-start-vlg .border-block-start-md}
+The Chief Delivery Officer is a key leadership role.{.padding-inline-start-lg .margin-block-start-vlg .padding-block-start-vlg .border-block-start-md}
 
 Normally an executive-level role, the CDO works closely with other leaders in the organisation — the CEO, Chief Technology Officer, Creative Director, Chief Operating Officer, Commercial Director, and so on — to align the client delivery strategy with both the business goals and customers' needs.{.padding-inline-start-lg}
 
-A Chief Delivery Officer is responsible for the success of client projects through the entire customer lifecycle, from delivery discovery, planning and design through execution and onwards into live service and evaluation. This usually means delivering a service for customers, commonly in creative and digital agencies or for product or SaaS companies, but could just as well apply in large infrastructure or transformation projects and programs as well.{.padding-inline-start-lg}
+A CDO is responsible for the success of client projects through the entire customer lifecycle, from delivery discovery, planning and design through execution and onwards into live service and evaluation. This usually means delivering a service for customers, commonly in creative and digital agencies or for product or SaaS companies, but could just as well apply in large infrastructure or transformation projects and programs as well.{.padding-inline-start-lg}
 
 More than overseeing the day-to-day, week-to-week client project work, though, the CDO is the focus point for a customer's experience of the business. Service delivery is often the part of the business that clients experience most closely and, done well, is a foundation stone for an organisation's reputation.{.padding-inline-start-lg}
 
