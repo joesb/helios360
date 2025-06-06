@@ -116,7 +116,7 @@ While the working thing is the primary aim, do no neglect documentation. When th
 
 ## Flyvbjerg's ten heuristics for getting things done
 
-This set of project leadership rules is taken from Bent Flyvbjerg's book, [*How Big Things Get Done*](https://sites.prh.com/how-big-things-get-done-book){target=_blank rel="noreferrer ugc nofollow"}.
+This set of project leadership rules is taken from Bent Flyvbjerg's book, [*How Big Things Get Done*](https://sites.prh.com/how-big-things-get-done-book){target=_blank rel="noreferrer nofollow"}.
 
 ### 1. Hire a master builder
 
@@ -142,7 +142,7 @@ Then, deliver rapidly on the thoroughgoing plans you have made.{.padding-inline-
 
 ### 6. Take the outside view
 
-Plan using [Reference Class Forecasting](https://conceptually.org/concepts/reference-class-forecasting){target=_blank rel="noreferrer ugc nofollow"}.{.padding-inline-start-lg}
+Plan using [Reference Class Forecasting](https://conceptually.org/concepts/reference-class-forecasting){target=_blank rel="noreferrer nofollow"}.{.padding-inline-start-lg}
 
 Always try to think that 'this' is 'one of those'.{.padding-inline-start-lg}
 

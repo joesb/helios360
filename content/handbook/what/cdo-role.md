@@ -38,7 +38,7 @@ The CDO is a domain specialist, like the C-suite peers with Financial (CFO), Mar
 
 The CDO also affects elements across the whole business, like an Operations (COO) or Data (the *other* CDO 😉) principal.
 
-{% ImgFigure 'Focused colleagues having briefing in an office. <a href="https://www.pexels.com/photo/focused-colleagues-having-briefing-in-office-5324892/" target="_blank" rel="noopener ugc">Photo</a> by <a href="https://www.pexels.com/@shvetsa/" target="_blank" rel="noopener ugc">Anna Shvets</a>.', image.side_classes %}![Focused colleagues having briefing in an office](/public/images/source/pexels-shvetsa-5324892.jpg){.image-rounded eleventy:widths="200,350"}{% endImgFigure %}
+{% ImgFigure 'Focused colleagues having briefing in an office. <a href="https://www.pexels.com/photo/focused-colleagues-having-briefing-in-office-5324892/" target="_blank" rel="noopener">Photo</a> by <a href="https://www.pexels.com/@shvetsa/" target="_blank" rel="noopener">Anna Shvets</a>.', image.side_classes %}![Focused colleagues having briefing in an office](/public/images/source/pexels-shvetsa-5324892.jpg){.image-rounded eleventy:widths="200,350"}{% endImgFigure %}
 
 But the role of a Chief Delivery Officer stands out for some important and distinctive reasons.{.content-canvas-item-main-left-main-end}
 

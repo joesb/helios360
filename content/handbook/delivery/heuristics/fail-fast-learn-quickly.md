@@ -37,7 +37,7 @@ This heuristic (a fast and frugal rule of thumb) is so important for a Chief Del
 
 This heuristic — fail fast and learn quickly — is strongly related to the previous one, the most important principle — discover stuff first of all.
 
-{% ImgFigure 'People playing Jenga as the tower falls down. <a href="https://www.pexels.com/photo/a-people-playing-jenga-7489033/" target="_blank" rel="noopener ugc">Photo</a> by <a href="https://www.pexels.com/@gustavo-fring/" target="_blank" rel="noopener ugc">Gustavo Fring</a> on Pexels.', image.classes %}
+{% ImgFigure 'People playing Jenga as the tower falls down. <a href="https://www.pexels.com/photo/a-people-playing-jenga-7489033/" target="_blank" rel="noopener">Photo</a> by <a href="https://www.pexels.com/@gustavo-fring/" target="_blank" rel="noopener">Gustavo Fring</a> on Pexels.', image.classes %}
 ![People playing Jenga as the tower falls down.](/public/images/source/pexels-gustavo-fring-7489033.jpg){.image-rounded eleventy:widths="200,350,500,780"}
 {% endImgFigure %}
 

@@ -77,5 +77,5 @@ Good governance is simple and supportive. It trusts individuals and gives decisi
 
 To discuss Governance and Control delivery aspects in your context or any questions you have, then do please:
 
-[Book a call](https://calendar.app.google/82FYHkqV3CJaNwBm9){.single-meta-forward rel="noopener ugc" target="_blank"}
+[Book a call](https://calendar.app.google/82FYHkqV3CJaNwBm9){.single-meta-forward rel="noopener" target="_blank"}
 {.text-center .larger .margin-block-lg}

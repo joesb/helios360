@@ -22,7 +22,7 @@ tags:
 
 This chapter is about managing expectations and appropriate triggers to innovation, about how to stay at the sharp end of technology without being distracted by mirages.
 
-We'll refer to the infamous [Gartner hype cycle](https://en.wikipedia.org/wiki/Gartner_hype_cycle){target=_blank rel="noreferrer ugc"} and look at how to exploit the hype cycle to our advantage.
+We'll refer to the infamous [Gartner hype cycle](https://en.wikipedia.org/wiki/Gartner_hype_cycle){target=_blank rel="noreferrer"} and look at how to exploit the hype cycle to our advantage.
 
 In particular, we'll explore how to use new innovations and frontier technologies as a trigger to research and deep learning that's focused on the drivers of an emerging technology’s commercial promise.
 

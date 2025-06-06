@@ -59,7 +59,7 @@ We'll talk more in due course about how you can [understand (and probably measur
 
 We'll discuss terminology below, but for now let's consider the several aspects of client-facing roles, what's similar or shared between them, and what's distinctive about customer delivery. With that in mind it will be clearer to understand if and why customer delivery could or should be separated out from other roles, which will then help to determine what you want your Chief Delivery Officer to achieve.
 
-{% ImgFigure '<a href="https://www.pexels.com/photo/woman-using-laptop-inside-an-office-5971257/" target="_blank" rel="noopener ugc">Photo</a> by <a href="https://www.pexels.com/@cottonbro/" target="_blank" rel="noopener ugc">cottonbro studio</a>', image.classes %}
+{% ImgFigure '<a href="https://www.pexels.com/photo/woman-using-laptop-inside-an-office-5971257/" target="_blank" rel="noopener">Photo</a> by <a href="https://www.pexels.com/@cottonbro/" target="_blank" rel="noopener">cottonbro studio</a>', image.classes %}
 ![Woman Using Laptop Inside an Office](/public/images/source/pexels-cottonbro-5971257.jpg){.image-rounded eleventy:widths="200,350,500"}
 {% endImgFigure %}
 

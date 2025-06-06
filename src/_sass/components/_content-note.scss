@@ -34,4 +34,8 @@
   &.content-note-info {
     --note-border-color: var(--color-brand-secondary);
   }
+
+  &.content-note-warning {
+    --note-border-color: var(--color-brand-tertiary);
+  }
 }

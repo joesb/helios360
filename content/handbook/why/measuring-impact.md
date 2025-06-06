@@ -51,7 +51,7 @@ There are clear metrics for some of these. Others will take a bit of discussion 
 
 The top of the list is where the CDO gets the basics done — consistently achieving successful outcomes for your customers. That's true whether you're a creative or technical service business, a product or SaaS company with a professional services wrap-around, a heavy engineering firm, a not-for-profit organisation, or whatever — doing what you say you'll do for your clients is the primary task of a CDO.
 
-{% ImgFigure '<a href="https://www.pexels.com/photo/thermometer-and-hydrometer-in-golden-frame-3726313/" target="_blank" rel="noopener ugc">Photo</a> by <a href="https://www.pexels.com/@peter-klauss-2083233/" target="_blank" rel="noopener ugc">Peter Klauss</a>', image.classes %}
+{% ImgFigure '<a href="https://www.pexels.com/photo/thermometer-and-hydrometer-in-golden-frame-3726313/" target="_blank" rel="noopener">Photo</a> by <a href="https://www.pexels.com/@peter-klauss-2083233/" target="_blank" rel="noopener">Peter Klauss</a>', image.classes %}
 ![Thermometer and Hydrometer in Golden Frame](/public/images/source/pexels-peter-klauss-2083233-3726313.jpg){.image-rounded eleventy:widths="200,350,500"}
 {% endImgFigure %}
 
