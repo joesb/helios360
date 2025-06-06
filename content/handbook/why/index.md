@@ -28,7 +28,7 @@ image:
     - content-canvas-item-left--span-3
 ---
 
-{% ImgFigure 'Two women having a meeting in a glass-panelled office. <a href="https://www.pexels.com/photo/two-women-having-a-meeting-inside-glass-panel-office-1181615/" target="_blank" rel="noopener ugc">Photo</a> by <a href="https://www.pexels.com/@divinetechygirl/" target="_blank" rel="noopener ugc">Christina Morillo</a> on Pexels.', image.classes %}
+{% ImgFigure 'Two women having a meeting in a glass-panelled office. <a href="https://www.pexels.com/photo/two-women-having-a-meeting-inside-glass-panel-office-1181615/" target="_blank" rel="noopener">Photo</a> by <a href="https://www.pexels.com/@divinetechygirl/" target="_blank" rel="noopener">Christina Morillo</a> on Pexels.', image.classes %}
 ![Two women having a meeting in a glass-panelled office](/public/images/source/pexels-divinetechygirl-1181615.jpg){.image-rounded eleventy:widths="200,350,500,780"}
 {% endImgFigure %}
 
