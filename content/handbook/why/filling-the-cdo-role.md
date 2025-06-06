@@ -39,11 +39,11 @@ I spoke to several CEOs/founders to hear their specific experiences of appointin
 
 The particular mix of characteristics and strengths needed in this position in the business is necessarily different at each stage of growth. CEOs recognise that the business changes at several headcount breakpoints, commonly around 10/15 (when the founder begins to lead the business, rather than just be one of the team), at 30/35 (when the founder becomes a CEO, leading the leaders of teams), and again at 75ish (when the CEO begins to leave the day-to-day to others in order to focus on ), and then further up at 300+ also.
 
-[Jake Goldman](https://www.linkedin.com/in/jacobgoldman/){target=_blank rel="noreferrer nofollow ugc noopener"}, president and founder of [10up](https://10up.com/){target=_blank rel="noreferrer ugc noopener"} and partner at [Fueled](https://fueled.com/){target=_blank rel="noreferrer ugc noopener"}, is clear that the person you need in this role in a 10–15-person business is very different from what you need in a 30–50-person business, or in a 80–120-person business, or a 300-person-plus business.
+[Jake Goldman](https://www.linkedin.com/in/jacobgoldman/){target=_blank rel="noreferrer nofollow noopener"}, president and founder of [10up](https://10up.com/){target=_blank rel="noreferrer noopener"} and partner at [Fueled](https://fueled.com/){target=_blank rel="noreferrer noopener"}, is clear that the person you need in this role in a 10–15-person business is very different from what you need in a 30–50-person business, or in a 80–120-person business, or a 300-person-plus business.
 
 > The person you need at 10 people is not the same person that you need at 30 people, at 75, at 150, at 300 or beyond.{.large}
 >
-> *Jake Goldman, president and founder, [10up](https://10up.com/){target=_blank rel="noreferrer ugc noopener"}*
+> *Jake Goldman, president and founder, [10up](https://10up.com/){target=_blank rel="noreferrer noopener"}*
 {.content-canvas-item-wide-left .content-canvas-item-left--span-2 .bq-alt-2}
 
 Jake has seen the challenges of these stages of growth up close at 10up and latterly in the merger with Fueled.{.content-canvas-item-right}
@@ -54,11 +54,11 @@ In the earliest phases of a small or young company though, he says, the business
 
 That can scale a bit, maybe being adequate up to 2 or 3 simultaneous customers, but it quickly becomes fragile. As the business grows, something more thoroughgoing is needed.
 
-[Karim Marucci](https://www.linkedin.com/in/karimmarucchi/){target=_blank rel="noreferrer nofollow ugc noopener"}, CEO of [Crowd Favorite](https://crowdfavorite.com/){target=_blank rel="noreferrer ugc noopener"}, goes even further.
+[Karim Marucci](https://www.linkedin.com/in/karimmarucchi/){target=_blank rel="noreferrer nofollow noopener"}, CEO of [Crowd Favorite](https://crowdfavorite.com/){target=_blank rel="noreferrer noopener"}, goes even further.
 
 Having a CDO in position is essential, he says, if the business is going to grow past the 60/75 person threshold. It's at this stage that you're creating value in the value chain for the customer and that's only possible with any consistency with a delivery principal in place.
 
-This necessity is particularly clear in the story of growth for [Syde](https://syde.com/){target=_blank rel="noreferrer ugc noopener"}, Europe's biggest WordPress agency. 2019 was a year of hyper-growth for Syde when they won several big clients back-to-back, and went from ~35 people to ~120 people as a consequence. [Alex Frison](https://www.linkedin.com/in/alexfrison/){target=_blank rel="noreferrer nofollow ugc noopener"}, CEO, describes how things moved at such a pace that they carried structures and practices for 30 people over knowing they were not fit to continue. Something needed to change. So Syde created the Delivery Director role and hired specifically for the role.
+This necessity is particularly clear in the story of growth for [Syde](https://syde.com/){target=_blank rel="noreferrer noopener"}, Europe's biggest WordPress agency. 2019 was a year of hyper-growth for Syde when they won several big clients back-to-back, and went from ~35 people to ~120 people as a consequence. [Alex Frison](https://www.linkedin.com/in/alexfrison/){target=_blank rel="noreferrer nofollow noopener"}, CEO, describes how things moved at such a pace that they carried structures and practices for 30 people over knowing they were not fit to continue. Something needed to change. So Syde created the Delivery Director role and hired specifically for the role.
 
 ### A CDO for a mature business
 
@@ -73,7 +73,7 @@ That said, a large part of delivery professionalism can be summarised fairly sim
 - … that reflect the organisation’s persona
 - … and are in tight alignment with business objectives.
 
-That is true for client delivery just as it is for any other part of the business. This is the CDO's role says [Myles Lagolago-Craig](https://www.linkedin.com/in/myleslc/){target=_blank rel="noreferrer nofollow ugc noopener"}, CEO of [XWP](https://xwp.co/){target=_blank rel="noreferrer ugc noopener"}: to set the standards, hold people accountable to them, a make them meaningful so they're a metric for progress towards successful outcomes.
+That is true for client delivery just as it is for any other part of the business. This is the CDO's role says [Myles Lagolago-Craig](https://www.linkedin.com/in/myleslc/){target=_blank rel="noreferrer nofollow noopener"}, CEO of [XWP](https://xwp.co/){target=_blank rel="noreferrer noopener"}: to set the standards, hold people accountable to them, a make them meaningful so they're a metric for progress towards successful outcomes.
 
 There is an important balance, though.
 
@@ -84,7 +84,7 @@ In other words, in a mature business the delivery principal has to hold the tens
 - systematic and thoroughgoing processes on the one hand, and
 - space for creativity, innovation and situational agility on the other.
 
-It's easy for project management to rule the roost. [Tom Willmot](https://www.linkedin.com/in/tomwillmot/){target=_blank rel="noreferrer nofollow ugc noopener"}, CEO of [Human Made](https://humanmade.com/){target=_blank rel="noreferrer ugc noopener"}, talks of how easy it is for a business to focus on adhering to those high capacity delivery processes — they certainly can enable scaling. Human Made was able to take on into 7-figure client projects as a result. Similarly, Alex enabled Syde to cope with sudden growth by bringing in someone to make their delivery processes robust and reliable. But it's problematic when the processes themselves become the focus, and Tom and Alex both advocate strongly for project work to remain steadfastly outcome-focused.
+It's easy for project management to rule the roost. [Tom Willmot](https://www.linkedin.com/in/tomwillmot/){target=_blank rel="noreferrer nofollow noopener"}, CEO of [Human Made](https://humanmade.com/){target=_blank rel="noreferrer noopener"}, talks of how easy it is for a business to focus on adhering to those high capacity delivery processes — they certainly can enable scaling. Human Made was able to take on into 7-figure client projects as a result. Similarly, Alex enabled Syde to cope with sudden growth by bringing in someone to make their delivery processes robust and reliable. But it's problematic when the processes themselves become the focus, and Tom and Alex both advocate strongly for project work to remain steadfastly outcome-focused.
 
 {% Note true, "content-note-warning", "yes" %}
 **Note: beware chaos-addicts**{.h3-style}
