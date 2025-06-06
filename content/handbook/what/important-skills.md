@@ -203,12 +203,12 @@ Of course, it won't all be plain sailing, and we'll talk about the quality of [r
 
 This is one of the [key heuristics for delivery leadership](/handbook/delivery/heuristics/) that you'll already know well, but when doing stuff it's vital to take time up front to think things through thoroughly before you get on with implementing things.
 
-You can boil all that down into a single phrase, coined by [Bent Flyvbjerg](https://www.linkedin.com/in/flyvbjerg/){target=_blank rel="noreferrer ugc nofollow"}, the project management guru and Professor of Major Program Management:
+You can boil all that down into a single phrase, coined by [Bent Flyvbjerg](https://www.linkedin.com/in/flyvbjerg/){target=_blank rel="noreferrer nofollow"}, the project management guru and Professor of Major Program Management:
 
 > Think slow, act fast
 {.bq-alt}
 
-See Flyberg's book, [*How Big Things Get Done*](https://sites.prh.com/how-big-things-get-done-book){target=_blank rel="noreferrer ugc nofollow"} for all the deep thinking behind this pithy phrase.{.smaller .margin-inline-start-lg}
+See Flyberg's book, [*How Big Things Get Done*](https://sites.prh.com/how-big-things-get-done-book){target=_blank rel="noreferrer nofollow"} for all the deep thinking behind this pithy phrase.{.smaller .margin-inline-start-lg}
 
 It's cheaper and quicker to find problems and see things fail when you're still planning your work. Reduce uncertainty with low-cost research, testing, prototyping, and then roll those insights into better planning.
 

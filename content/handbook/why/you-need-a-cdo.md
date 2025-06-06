@@ -103,7 +103,7 @@ As the business grows in its capabilities and its size, the capacity for deliver
 
 Importantly, the delivery principal should build themselves out of the systems and processes they design.
 
-[Jake Goldman](https://www.linkedin.com/in/jacobgoldman/){target=_blank rel="noreferrer nofollow ugc noopener"}, president and founder of [10up](https://10up.com/){target=_blank rel="noreferrer ugc noopener"}, talks about the importance of thinking about delivery processes as a product of the business itself.
+[Jake Goldman](https://www.linkedin.com/in/jacobgoldman/){target=_blank rel="noreferrer nofollow noopener"}, president and founder of [10up](https://10up.com/){target=_blank rel="noreferrer noopener"}, talks about the importance of thinking about delivery processes as a product of the business itself.
 
 They should be understood by everyone on the team, easy to explain to customers, replicable by those in the delivery team who need to use them. Moreover, if a customer or project needs to switch delivery personnel for whatever reason, it should not feel like a totally different experience.
 
@@ -113,9 +113,9 @@ However, it’s easy to confuse the focus between *processes* on the one hand an
 
 Customers want something done to achieve something specific — they want a particular outcome, to get what they're paying for. The delivery processes are the means of enabling that.
 
-[Tom Willmot](https://www.linkedin.com/in/tomwillmot/){target=_blank rel="noreferrer nofollow ugc noopener"}, CEO of [Human Made](https://humanmade.com/){target=_blank rel="noreferrer ugc noopener"}, talks of how easy it is for a business to focus on strictly following delivery processes. Effective delivery practices enable scaling — Human Made was able to take on into 7-figure client projects as their systems became more robust and comprehensive. But it's easy to see the process as the end in itself and, in doing so, lose sight of the outcomes that are the actual goal.
+[Tom Willmot](https://www.linkedin.com/in/tomwillmot/){target=_blank rel="noreferrer nofollow noopener"}, CEO of [Human Made](https://humanmade.com/){target=_blank rel="noreferrer noopener"}, talks of how easy it is for a business to focus on strictly following delivery processes. Effective delivery practices enable scaling — Human Made was able to take on into 7-figure client projects as their systems became more robust and comprehensive. But it's easy to see the process as the end in itself and, in doing so, lose sight of the outcomes that are the actual goal.
 
-At [Syde](https://syde.com/){target=_blank rel="noreferrer ugc noopener"}, CEO [Alex Frison](https://www.linkedin.com/in/alexfrison/){target=_blank rel="noreferrer nofollow ugc noopener"} is very clear that project management processes are important but can get too extreme. Instead, he says, a delivery director needs to be pragmatic and make space for common sense.
+At [Syde](https://syde.com/){target=_blank rel="noreferrer noopener"}, CEO [Alex Frison](https://www.linkedin.com/in/alexfrison/){target=_blank rel="noreferrer nofollow noopener"} is very clear that project management processes are important but can get too extreme. Instead, he says, a delivery director needs to be pragmatic and make space for common sense.
 
 Jake Goldman calls this *delivery jazz* — those essential delivery systems and practices provide a solid, confident foundation for creativity and agility, creating room for experts to lean into their expertise, adapting to context and applying innovation to tackle the specific needs.
 
