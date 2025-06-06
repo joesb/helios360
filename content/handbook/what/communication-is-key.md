@@ -81,7 +81,7 @@ A ninth, 'existential–moral' has also been proposed.
 
 Usually, people will favour anything from 2 to 4 of these types. Most will make use of all to some degree, though everyone will undoubtedly find some particularly hard. Rarely would anyone depend on one type alone.
 
-There's no need to discuss Gardner's [theory of multiple intelligences](https://en.wikipedia.org/wiki/Theory_of_multiple_intelligences){target=_blank rel="nofollow ugc noreferrer"} fully here (though [reading further on multiple intelligences](https://www.verywellmind.com/gardners-theory-of-multiple-intelligences-2795161){target=_blank rel="nofollow ugc noreferrer"} could be rewarding), and certainly the thesis has [important criticisms](https://en.wikipedia.org/wiki/Theory_of_multiple_intelligences#Criticism){target=_blank rel="nofollow ugc noreferrer"} that should temper an overblown enthusiasm for the concept.
+There's no need to discuss Gardner's [theory of multiple intelligences](https://en.wikipedia.org/wiki/Theory_of_multiple_intelligences){target=_blank rel="nofollow noreferrer"} fully here (though [reading further on multiple intelligences](https://www.verywellmind.com/gardners-theory-of-multiple-intelligences-2795161){target=_blank rel="nofollow noreferrer"} could be rewarding), and certainly the thesis has [important criticisms](https://en.wikipedia.org/wiki/Theory_of_multiple_intelligences#Criticism){target=_blank rel="nofollow noreferrer"} that should temper an overblown enthusiasm for the concept.
 
 Nonetheless, there are some helpful insights to learn and absorb without needing to adopt Gardner's theory wholesale.
 

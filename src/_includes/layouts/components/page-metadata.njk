@@ -9,11 +9,11 @@
           {% set pageURL %}{{ pageUri | url | absoluteUrl(env.prodUrl) }}{% endset %}
           {% set pageTitle %}‘{{ title }}’{% endset %}
           {% set encodable = ["I'm reading", pageTitle, "on Helios360:", pageURL] %}
-          <span class="metadata__share_item"><a href="https://bsky.app/intent/compose?text={{ encodable | join(' ') | encodeUri }}" title="Share on Bluesky" class="bluesky" target="_blank" rel="nofollow ugc noopener" title="Share to Bluesky"><span class="visually-hidden">Share to Bluesky</span></a></span>
+          <span class="metadata__share_item"><a href="https://bsky.app/intent/compose?text={{ encodable | join(' ') | encodeUri }}" title="Share on Bluesky" class="bluesky" target="_blank" rel="nofollow noopener" title="Share to Bluesky"><span class="visually-hidden">Share to Bluesky</span></a></span>
           <span class="metadata__divider divider"></span>
           {% set pageUri %}{{ page.url }}?referrer=linkedin.com{% endset %}
           {% set pageURL %}{{ pageUri | url | absoluteUrl(env.prodUrl) }}{% endset %}
           {% set encodable = ["I'm reading", pageTitle, "on Helios360"] %}
-          <span class="metadata__share_item"><a href="https://www.linkedin.com/sharing/share-offsite/?url={{ pageURL | encodeUri}}" title="Share on LinkedIn" class="linkedin" target="_blank" rel="nofollow ugc noopener" title="Share to LinkedIn"><span class="visually-hidden">Share to LinkedIn</span></a></span>
+          <span class="metadata__share_item"><a href="https://www.linkedin.com/sharing/share-offsite/?url={{ pageURL | encodeUri}}" title="Share on LinkedIn" class="linkedin" target="_blank" rel="nofollow noopener" title="Share to LinkedIn"><span class="visually-hidden">Share to LinkedIn</span></a></span>
         </div>
       </div>
