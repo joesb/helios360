@@ -32,7 +32,14 @@ As a delivery principal, your role demands that you sit in a peculiar place.
 
 *👉*{.drop-first .drop-first-vsm .margin-inline-end-md} On the other, your job is to understand in depth the why and the what of the customer's goals, and work to achieve the right outcome to match those objectives.{.padding-inline-start-lg}
 
-That puts the Chief Delivery Officer in a particularly unusual place, in between two things — your organisation and your customer — in a place where you're not quite one thing or the other. The CDO has to look both ways:
+> The Chief Delivery Officer is there to see that customers get what they’ve asked for, and to ensure consistency in customer experience.{.large}
+>
+> *[Jake Goldman](https://www.linkedin.com/in/jacobgoldman/){target=_blank rel="noreferrer nofollow noopener"}, president & founder, [10up](https://10up.com/){target=_blank rel="noreferrer noopener"}, partner, [Fueled](https://fueled.com/){target=_blank rel="noreferrer noopener"}*
+{.content-canvas-item-wide-left .content-canvas-item-left--span-2 .bq-alt-2}
+
+That puts the Chief Delivery Officer in a particularly unusual place, in between two things — your organisation and your customer — in a place where you're not quite one thing or the other.{.content-canvas-item-right}
+
+The CDO has to look both ways:{.content-canvas-item-right}
 
 - to comprehend what the client wants to achieve and represent that to the business so that it can prepare all that's needed to reach those outcomes
 - to understand that the business itself has objectives and capabilities, and what it does for its customers has to align with those goals as well
@@ -65,9 +72,14 @@ You continually put the case for the expertise and capabilities of your business
 
 &nbsp;
 
-That can be an uncomfortable place to sit — in the middle, as both things and neither at the same time. And it's certainly a demanding role as well.
+> CDOs that are *too* customer facing effectively go and stand with the customer. There's lots of positives to that — clients love you! *But*, it can mean they're not acting enough for the interests of the business.{.large}
+>
+> *[Tom Willmot](https://www.linkedin.com/in/tomwillmot/){target=_blank rel="noreferrer nofollow noopener"}, CEO, [Human Made](https://humanmade.com/){target=_blank rel="noreferrer noopener"}*
+{.content-canvas-item-wide-left .content-canvas-item-left--span-2 .bq-alt-2}
 
-But it's absolutely necessary if you are going to get the best for both your business and your customers.
+That can be an uncomfortable place to sit — in the middle, as both things and neither at the same time. And it's certainly a demanding role as well.{.content-canvas-item-right}
+
+But it's absolutely necessary if you are going to get the best for both your business and your customers.{.content-canvas-item-right}
 
 ## Three-way advocacy
 

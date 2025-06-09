@@ -65,7 +65,7 @@ In the earliest phases of a small or young company though, he says, the business
 
 That can scale a bit, maybe being adequate up to 2 or 3 simultaneous customers, but it quickly becomes fragile. As the business grows, something more thoroughgoing is needed.
 
-[Karim Marucci](https://www.linkedin.com/in/karimmarucchi/){target=_blank rel="noreferrer nofollow noopener"}, CEO of [Crowd Favorite](https://crowdfavorite.com/){target=_blank rel="noreferrer noopener"}, goes even further.
+[Karim Marucchi](https://www.linkedin.com/in/karimmarucchi/){target=_blank rel="noreferrer nofollow noopener"}, CEO of [Crowd Favorite](https://crowdfavorite.com/){target=_blank rel="noreferrer noopener"}, goes even further.
 
 Having a CDO in position is essential, he says, if the business is going to grow past the 60/75 person threshold. It's at this stage that you're creating value in the value chain for the customer and that's only possible with any consistency with a delivery principal in place.
 
