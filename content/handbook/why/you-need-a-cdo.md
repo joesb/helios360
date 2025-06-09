@@ -103,9 +103,13 @@ As the business grows in its capabilities and its size, the capacity for deliver
 
 Importantly, the delivery principal should build themselves out of the systems and processes they design.
 
-[Jake Goldman](https://www.linkedin.com/in/jacobgoldman/){target=_blank rel="noreferrer nofollow noopener"}, president and founder of [10up](https://10up.com/){target=_blank rel="noreferrer noopener"}/[Fueled](https://fueled.com/){target=_blank rel="noreferrer noopener"}, talks about the importance of thinking about delivery processes as a product of the business itself.
+[Jake Goldman](https://www.linkedin.com/in/jacobgoldman/){target=_blank rel="noreferrer nofollow noopener"}, president and founder of [10up](https://10up.com/){target=_blank rel="noreferrer noopener"}/[Fueled](https://fueled.com/){target=_blank rel="noreferrer noopener"}, talks about the importance of thinking about delivery processes as a product of the business itself. They should be:
 
-They should be understood by everyone on the team, easy to explain to customers, replicable by those in the delivery team who need to use them. Moreover, if a customer or project needs to switch delivery personnel for whatever reason, it should not feel like a totally different experience.
+- understood by everyone on the team,
+- easy to explain to customers,
+- replicable by those in the delivery team who need to use them.
+
+Moreover, if a customer or project needs to switch delivery personnel for whatever reason, he argues, it should not feel like a totally different experience.
 
 ### Delivery as jazz
 
