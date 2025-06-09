@@ -47,6 +47,15 @@ There are clear metrics for some of these. Others will take a bit of discussion 
 
 ## Making sense of what to measure
 
+Each of the eight categories above often go together in pairs. Though they're not the same as each other, you could think of each pair as two sides of a coin.
+
+For [Karim Marucci](https://www.linkedin.com/in/karimmarucchi/){target=_blank rel="noreferrer nofollow noopener"}, CEO of [Crowd Favorite](https://crowdfavorite.com/){target=_blank rel="noreferrer noopener"}, the first four are the main focus of a delivery director and therefore the starting place to understand their impact:
+
+> The task of the CDO is to look for the value created by the sum of the parts.
+>
+> Firstly, the value created for clients in the success of the work they've commissioned. Then secondly, value generated in the agency’s standing, enhancing its reputation.
+{.bq-alt}
+
 ### 1. Delivery success and client satisfaction
 
 The top of the list is where the CDO gets the basics done — consistently achieving successful outcomes for your customers. That's true whether you're a creative or technical service business, a product or SaaS company with a professional services wrap-around, a heavy engineering firm, a not-for-profit organisation, or whatever — doing what you say you'll do for your clients is the primary task of a CDO.
