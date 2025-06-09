@@ -10,7 +10,7 @@ jumbotron: |
   Here we look at all that, plus some specific issues about the reach and influence that the CDO has to make changes and improvements in the organisation.
 pending: false
 date: 2025-02-05
-updated: 2025-04-03T17:25:09Z
+updated: 2025-06-09T16:25:09Z
 eleventyNavigation:
   key: The CDO role
   parent: What makes a CDO?
@@ -75,7 +75,7 @@ The first dimension involves acknowledging that a Chief Delivery Officer is an e
 
 A CDO needs to be able to work closely with other leaders in the organisation.
 
-The CDO cannot solve all the problems the business faces, obviously, but that is the precisely remit of the executive team together — to combine the experience and wisdom accumulated in their distinct specialisms to work together to achieve the goals and objectives of the business, and together to overcome the difficulties and challenges presented to the organisation.
+The CDO cannot solve all the problems the business faces, obviously. That is the precisely remit of the executive team together — to combine the experience and wisdom accumulated in their distinct specialisms to work together to achieve the goals and objectives of the business, and together to overcome the difficulties and challenges presented to the organisation.
 
 The process of delivering products and/or services for the company is a unique component of that effort. Service delivery is a part of the business that clients experience most closely. In some contexts, it's the essential component.
 
@@ -88,6 +88,8 @@ The process of delivering products and/or services for the company is a unique c
 In other words, the company's reputation is built on how you deliver for customers.
 
 Service delivery does not sit in sweet isolation, of course. It's a core part of the whole customer journey, but that starts way before services are being delivered in the marketing phase and sales experience. And it continues on afterwards, too, into the live service stage where clients should be successful in using what they've bought, and look to buy more from the business, all being well.
+
+For enterprise Wordpress agency [XWP](https://xwp.co/){target=_blank rel="noreferrer noopener"}, this is precisely why the CEO, [Myles Lagolago-Craig](https://www.linkedin.com/in/myleslc/){target=_blank rel="noreferrer nofollow noopener"}, sees delivery as a dimension of sales and marketing. For him, the company and its customers have a positive gain that comes with the commercial focus sitting in creative tension with delivery practices.
 
 Coherence throughout that customer journey is vital.
 
@@ -106,7 +108,11 @@ There's two areas of focus when deciding how to shape the service delivery:
 1. aligned with **business goals**
 2. aligned with **customer needs**
 
-**Note:** the term 'customer' is being used in a very broad sense with this second focus, and tucked inside are *users* — the people who will actually be using the thing being addressed in your delivery project.{.smaller .italic}
+{% Note true, "content-note-warning", %}
+NOTE:{.h3-style}
+
+The term 'customer' is being used in a very broad sense with this second focus, and tucked inside are *users* — the people who will actually be using the thing being addressed in your delivery project.
+{% endNote %}
 
 These two are distinct from each other, and it's rare to find them parallel let alone convergent. They may even be perpendicular. As a consequence, the role of the CDO requires the ability to hold a creative tension between business goals and customer (and user) needs.
 
