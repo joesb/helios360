@@ -40,7 +40,7 @@ In the question above there's a presumption of success — that the Chief Delive
 
 > The role of the CDO is the only way to differentiate yourself as a business.{.large}
 >
-> *[Karim Marucci](https://www.linkedin.com/in/karimmarucchi/){target=_blank rel="noreferrer nofollow noopener"}, CEO, [Crowd Favorite](https://crowdfavorite.com/){target=_blank rel="noreferrer noopener"}*
+> *[Karim Marucchi](https://www.linkedin.com/in/karimmarucchi/){target=_blank rel="noreferrer nofollow noopener"}, CEO, [Crowd Favorite](https://crowdfavorite.com/){target=_blank rel="noreferrer noopener"}*
 {.content-canvas-item-wide-left .content-canvas-item-left--span-2 .bq-alt-2}
 
 This section will also cover how you can get the best our of your CDO — what do you actually do when you have a delivery principal on board?{.content-canvas-item-right}
@@ -49,6 +49,6 @@ And finally we'll take a view of things through the lens of metrics — how to u
 
 With all those questions covered that should put us in a strong position to understanding why your organisation needs a Chief Delivery Officer.
 
-Karim Marucci, CEO of Wordpress agency Crowd Favorite, believes that the role of the CDO is the essential way a professional services business can distinguish itself and grow into maturity.
+Karim Marucchi, CEO of Wordpress agency Crowd Favorite, believes that the role of the CDO is the essential way a professional services business can distinguish itself and grow into maturity.
 
 In this chapter we're going to find out exactly why. Excellent.

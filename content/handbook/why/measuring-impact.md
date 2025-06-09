@@ -49,7 +49,7 @@ There are clear metrics for some of these. Others will take a bit of discussion 
 
 Each of the eight categories above often go together in pairs. Though they're not the same as each other, you could think of each pair as two sides of a coin.
 
-For [Karim Marucci](https://www.linkedin.com/in/karimmarucchi/){target=_blank rel="noreferrer nofollow noopener"}, CEO of [Crowd Favorite](https://crowdfavorite.com/){target=_blank rel="noreferrer noopener"}, the first four are the main focus of a delivery director and therefore the starting place to understand their impact:
+For [Karim Marucchi](https://www.linkedin.com/in/karimmarucchi/){target=_blank rel="noreferrer nofollow noopener"}, CEO of [Crowd Favorite](https://crowdfavorite.com/){target=_blank rel="noreferrer noopener"}, the first four are the main focus of a delivery director and therefore the starting place to understand their impact:
 
 > The task of the CDO is to look for the value created by the sum of the parts.
 >

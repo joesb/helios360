@@ -121,7 +121,7 @@ Customers want something done to achieve something specific — they want a par
 
 At [Syde](https://syde.com/){target=_blank rel="noreferrer noopener"}, CEO [Alex Frison](https://www.linkedin.com/in/alexfrison/){target=_blank rel="noreferrer nofollow noopener"} is very clear that project management processes are important but can get too extreme. Instead, he says, a delivery director needs to be pragmatic and make space for common sense.
 
-Jake Goldman calls this *delivery jazz* — those essential delivery systems and practices provide a solid, confident foundation for creativity and agility, creating room for experts to lean into their expertise, adapting to context and applying innovation to tackle the specific needs.
+[Jake Goldman](https://www.linkedin.com/in/jacobgoldman/){target=_blank rel="noreferrer nofollow noopener"} calls this *delivery jazz* — those essential delivery systems and practices provide a solid, confident foundation for creativity and agility, creating room for experts to lean into their expertise, adapting to context and applying innovation to tackle the specific needs.
 
 The delivery principal, then, must hold the tension in a fundamental balancing act between:
 
