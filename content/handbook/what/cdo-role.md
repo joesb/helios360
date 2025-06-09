@@ -40,11 +40,22 @@ The CDO also affects elements across the whole business, like an Operations (COO
 
 {% ImgFigure 'Focused colleagues having briefing in an office. <a href="https://www.pexels.com/photo/focused-colleagues-having-briefing-in-office-5324892/" target="_blank" rel="noopener">Photo</a> by <a href="https://www.pexels.com/@shvetsa/" target="_blank" rel="noopener">Anna Shvets</a>.', image.side_classes %}![Focused colleagues having briefing in an office](/public/images/source/pexels-shvetsa-5324892.jpg){.image-rounded eleventy:widths="200,350"}{% endImgFigure %}
 
-But the role of a Chief Delivery Officer stands out for some important and distinctive reasons.{.content-canvas-item-main-left-main-end}
+But the CDO position stands out for some important and distinctive reasons.{.content-canvas-item-main-left-main-end}
 
-Here we'll explored what those are, why they're important — both for the CDO and for the business — and how they frame the position and function of the CDO in the organisation.{.content-canvas-item-main-left-main-end}
+Here we'll explored what those are, why they're important — both for the CDO and for the business — and how they frame the position and function of the head of delivery in the organisation.{.content-canvas-item-main-left-main-end}
 
 The role of Chief Delivery Officer is a relatively new label for a set of duties and responsibilities in the organisation. Previously these functions might have been handled by someone at a different level in the business who reports, directly or maybe indirectly, to someone at executive level — maybe the Chief Operating Officer, say. Here we are going to examine the case for viewing this position as an executive-level role in itself.
+
+> There's so many skills that are essential in this role — the delivery principal is one of the hardest things to hire for!{.large}
+>
+> *[Alex Frison](https://www.linkedin.com/in/alexfrison/){target=_blank rel="noreferrer nofollow noopener"}, CEO, [Syde](https://syde.com/){target=_blank rel="noreferrer noopener"}*
+{.content-canvas-item-wide-left .content-canvas-item-left--span-2 .bq-alt-2}
+
+A consistent insight from CEOs and founders, though, is that the CDO role is both vital to the business and it's also one of the hardest positions to fill, especially in a dynamic and growing organisation.{.content-canvas-item-right}
+
+It's important to understand what you're talking about when you're taking on the position of delivery director.{.content-canvas-item-right}
+
+So, with that said, let's dive right on in to examining the role itself.
 
 ---
 

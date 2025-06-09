@@ -2,7 +2,7 @@
 title: Filling the Chief Delivery Officer role
 description: The CDO role is one of the hardest (and most important) to hire for
 layout: page.njk
-date: 2025-06-02T16:52:49Z
+date: 2025-06-00T11:52:49Z
 pending: false
 jumbotron: |
   The Chief Delivery Officer role is one of the hardest to hire for.
@@ -32,6 +32,17 @@ To complicate things more, the person who fills this role often plays a crucial 
 Consequently, filling this role is both very important and very challenging.
 
 I spoke to several CEOs/founders to hear their specific experiences of appointing someone to the role of delivery principal. This section is largely taken from their insights.
+
+> There's so many skills that are essential in this role — the delivery principal is one of the hardest things to hire for!{.large}
+>
+> *[Alex Frison](https://www.linkedin.com/in/alexfrison/){target=_blank rel="noreferrer nofollow noopener"}, CEO, [Syde](https://syde.com/){target=_blank rel="noreferrer noopener"}*
+{.content-canvas-item-wide-left .content-canvas-item-left--span-2 .bq-alt-2}
+
+A consistent insight from these CEOs and founders is that the CDO role is vital to the business, but it's also one of the hardest positions to fill.{.content-canvas-item-right}
+
+This section looks at some of the reasons why and what you might do about it.{.content-canvas-item-right}
+
+So, when you're looking to appoint a CDO what do you need to bear in mind?
 
 ---
 
