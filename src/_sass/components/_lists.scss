@@ -64,3 +64,21 @@ ol {
     }
   }
 }
+
+.bullet-list-secondary-color {
+  li {
+    &::marker,
+    &::before {
+      color: var(--color-brand-secondary);
+    }
+  }
+}
+
+.bullet-list-bold {
+  li {
+    &::marker,
+    &::before {
+      font-weight: bold;
+    }
+  }
+}

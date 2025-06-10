@@ -344,7 +344,7 @@ export default async function(eleventyConfig) {
       symbol: "#",
       level: [1,2,3,4],
     }),
-    slugify: eleventyConfig.getFilter("slug")
+    slugify: eleventyConfig.getFilter("slugify")
   }).use(markdownItAttrs).use(markdownItUnderline).use(markdownItDefList);
   eleventyConfig.setLibrary("md", markdownLibrary);
 
