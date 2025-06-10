@@ -293,9 +293,77 @@ Be consistent, stay focused — the credibility will build itself.
 
 ## People-centric
 
-- especially high emotional intelligence (EQ)
-- cheerleader for people and initiatives
-- recruit good people
+Delivery leadership is many things, but it is particularly people-centred.
+
+You may be making sure customer's get what they're trying to achieve, overseeing processes and practices, setting standards and making sure they're maintained, and so on … but all of that involves people — your customers and their teams; everyone in your delivery teams; the wider business, the leadership, and other colleagues.
+
+### Especially high emotional intelligence (EQ)
+
+An essential quality of a high performing Chief Delivery Officer is that they have *unusually high emotional intelligence* — the ability to perceive, understand, and manage emotions in one's self and in others. It's what helps you to maintain composure under stress rather than jump off the deep end.
+
+There's several reasons why high EQ is a vital trait for a CDO, some of which we've touched on above. In particular:
+
+- The delivery process is, in part, an expression of the character of the business — it's your job to work out how to do that best
+- You'll need to influence people with authenticity — so they follow your leadership, and so that you can effect change
+- Things will get escalated to you — challenges in projects, with customers, amongst team members, etc. — and you'll need to handle and resolve these challenges
+
+So, what does a high EQ look like? There's many characteristics of someone with high emotional intelligence, but here's 12 that should be at the forefront.
+
+If you're a CDO already, these are probably things you'll recognise. If you're aspiring to a CDO role, these are traits for you to consider in particular. If you're looking to hire a CDO, these are qualities you should be looking out for in the appointment process:
+
+1. **Self-awareness**{.h4-style .text-color-brand-secondary}
+    Being highly aware of one's own emotions, behaviours, responses, triggers, and patterns, sensitive to one's emotional state at any given moment and able keep a check on one's self.
+2. **Self-knowledge**{.h4-style .text-color-brand-secondary}
+    Reflecting on ourselves and our history leads to a deeper awareness of who we are as human beings, including our strengths, weaknesses, values, and level of integrity. This may uncover things we’d rather not acknowledge.
+3. **Self-effacing**{.h4-style .text-color-brand-secondary}
+    Confident and standing up for opinions or principles, but recognising that you don’t know everything and being willing to learn from others, not seeking praise or requiring affirmation in order to pursue something.
+4. **Empathetic**{.h4-style .text-color-brand-secondary}
+    Perceive, understand, and sense other people’s emotions, feelings, moods, and perspectives, requiring social awareness and reading social cues, body language, and other forms of communication.
+5. **Strong impulse control**{.h4-style .text-color-brand-secondary}
+    An advanced trait that involves your ability to control, regulate, and manage your emotions, impulses, and behaviour.
+6. **Self-disciplined**{.h4-style .text-color-brand-secondary}
+    Exerting control over trains of thought and mental states leading to self-regulation and discipline towards difficult tasks, goals, and long-term achievements.
+7. **Authentic**{.h4-style .text-color-brand-secondary}
+    Someone who is open, genuine, and true to themselves, full of integrity such that they're the same person sliced in any direction.
+8. **Resilient**{.h4-style .text-color-brand-secondary}
+    Someone who is difficult to offend, having a thicker skin than usual, who is aware of other people’s emotions and psychology, and understands when not to take things personally.
+9. **Adaptable**{.h4-style .text-color-brand-secondary}
+    Adjusting well to changes, understanding how to respond to new environments, and can adapt their social approaches to suit other people’s needs.
+10. **Taking a moment to think**{.h4-style .text-color-brand-secondary}
+    Able to pause, reflect, and compose one's self before reacting, being especially aware of emotional triggers.
+11. **Able to apologise**{.h4-style .text-color-brand-secondary}
+    Courageous and confident enough to apologise, swallowing one's pride, with apologies that are sincere, heartfelt, and meaningful – not dismissive, fake, or filled with gaslighting.
+{.bullet-list-secondary-color .bullet-list-bold}
+12. **Good with feedback**{.h4-style .text-color-brand-secondary}
+    Feedback is tricky — both giving and receiving — yet also essential for success. It can be sensitive and personal, especially when talking about something difficult, and managing emotions is vital.
+
+### Cheerleader for people and initiatives
+
+A CDO is playing a team sport, and high performance teams play at their best when they have all the means necessary to be their best self.
+
+#### Cheerleader for people
+
+An effective CDO is looking out for every person in their team. There's several dimensions to this.
+
+**Firstly, noticing what they're up to.**{.text-color-brand-secondary} When there's notable things they achieve, a high performing CDO will point that out. They will always aim to say that to them personally, one to one. But often it's also important to do that in a public forum, to note what they've done or contributed and thank that person so that peers and colleagues see that public praise as well — in a shared communication space, like a chat channel, internal newsletter or group email, say.
+
+Ideally, you'll be doing that for people outside your immediate team(s) as well — there's plenty of places and spaces where larger internal groups are convened, for multifunction initiatives or 'town hall' events, for instance.
+
+And where you can, it's good to do that for your customer and their team members, too. Notice things, and say a personal and a public thanks to them … and make sure that's passed up their management chain too, if you can.
+
+**Secondly, the CDO has the back of everyone in their team.**{.text-color-brand-secondary} When there's difficulties of whatever sort, the CDO is there and able to lend a hand.
+
+That may mean helping directly, or finding others who can. But that also means making sure the burden is shared and no one is struggling or suffering alone.
+
+**And thirdly, the effective CDO is looking for the best for their team.**{.text-color-brand-secondary} That means looking our for opportunities — to try out something new, to participate in an initiative, say, or work alongside someone who can help them take a step up; to get some training, attend a course or class, or present at a conference, maybe.
+
+### Recruiting good people
+
+You'll also need to recruit people, good people, to join your team and your company. Running effective appointment processes is key to this.
+
+There's lots to say on this, most of it is stuff that has already been said well elsewhere. What I would say in particular is that 'structured interviews' are especially powerful, and I'm a rather big fan of 'situational structured interviews'. In essence, structured interviews try to make it possible to compare apples with apples by asking the same questions to each candidate. Situational questions try to prevent people gaming the interview — they ask hypothetical and forward-facing questions, often based on a mini scenario, ‘what would you do … ’, etc., so that candidates use their reasoning rather than just rely on their work history (which privileges the experienced).
+
+If that's something you're unfamiliar with, I highly recommend you do some reading to find out about it — this [introduction to structured interviews from Indeed](https://www.indeed.com/career-advice/interviewing/structured-interviews){target=_blank rel="noreferrer nofollow"} is as good a place to start as anywhere, but do please read further than that.
 
 ---
 
