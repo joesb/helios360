@@ -8,6 +8,8 @@
   padding-block: var(--size-fluid-4);
   color: var(--color-brand-white);
   font-size: smaller;
+  position: relative;
+  z-index: 1;
 
   a {
     font-size: smaller;
