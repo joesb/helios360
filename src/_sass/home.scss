@@ -93,11 +93,12 @@
 @include rt.respond-to('medium') {
   .eclipse {
     position: fixed;
-    top: calc(52vh - 7.5rem);
+    top: calc(50vh - 7.5rem);
+    bottom: 10vw;
     right: 2vw;
     z-index: 0;
-    width: 15rem;
-    height: 15rem;
+    width: 20rem;
+    height: 20rem;
     display: grid;
     align-items: center;
 
