@@ -14,7 +14,7 @@
 
   @else if $condition == 'large' { @media only screen and (min-width: variables.$break-large) { @content; } }
 
-  @else if $condition == 'extra-large' { @media only screen and (min-width: variables.$break-extra-large) { @content; } }
+  @else if ($condition == 'extra-large' or $condition == "vlarge") { @media only screen and (min-width: variables.$break-extra-large) { @content; } }
 
   @else if $condition == 'largest' { @media only screen and (min-width: variables.$break-largest) { @content; } }
 

@@ -97,23 +97,24 @@
     bottom: 10vw;
     right: 2vw;
     z-index: 0;
-    width: 20rem;
-    height: 20rem;
+    width: 18rem;
+    height: 18rem;
     display: grid;
     align-items: center;
+    justify-content: right;
 
     &::after {
       display: block;
       content: " ";
       background-image: url("/public/images/eclipse.jpg");
       background-size: contain;
-      width: clamp(5rem, 30vw, 20rem);
-      height: clamp(5rem, 30vw, 20rem);
+      width: clamp(5rem, 25vw, 18rem);
+      height: clamp(5rem, 25vw, 18rem);
     }
   }
 }
 
-@include rt.respond-to('large') {
+@include rt.respond-to('extra-large') {
     .eclipse {
       right: 7.5vw;
     }
