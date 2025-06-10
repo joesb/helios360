@@ -357,6 +357,12 @@ That may mean helping directly, or finding others who can. But that also means m
 
 **And thirdly, the effective CDO is looking for the best for their team.**{.text-color-brand-secondary} That means looking our for opportunities — to try out something new, to participate in an initiative, say, or work alongside someone who can help them take a step up; to get some training, attend a course or class, or present at a conference, maybe.
 
+#### Cheerleader for initiatives
+
+A capable CDO is also hunting out problems and then looking for ways to solve them. We'll look at 'problem-sourcing' as a practice or methodology elsewhere, but for now we'll just say that it is just as important if this is a something that comes from someone in the team as anywhere else, just as useful if it's a 'this is an annoying/frustrating thing, grr,' or if it's an 'oooh, this looks like an interesting/novel way to raise our game' thing.
+
+Some may only need small tweaks, but others may require a larger approach. Where that's the case, you'll probably need to dedicate some time, people, and resources to it. And when there's an initiative to respond to a problem, it needs the weight of your position to give it support and to champion its outcomes.
+
 ### Recruiting good people
 
 You'll also need to recruit people, good people, to join your team and your company. Running effective appointment processes is key to this.
