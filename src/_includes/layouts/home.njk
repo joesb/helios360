@@ -10,6 +10,7 @@ page:
     - content-canvas
 ---
 
+      <div class="eclipse"></div>
 
       {% if showTitle != false and primary != true %}
       {% include "layouts/components/title-bar.njk" %}
@@ -19,7 +20,6 @@ page:
         {% if jumbotron %}
           {% include "layouts/components/jumbotron.njk" %}
         {% endif %}
-
         {{ content | safe }}
       {% endif %}
 
