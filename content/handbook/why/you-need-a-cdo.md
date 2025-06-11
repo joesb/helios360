@@ -117,7 +117,7 @@ However, it’s easy to confuse the focus between *processes* on the one hand an
 
 Customers want something done to achieve something specific — they want a particular outcome, to get what they're paying for. The delivery processes are the means of enabling that.
 
-[Tom Willmot](https://www.linkedin.com/in/tomwillmot/){target=_blank rel="noreferrer nofollow noopener"}, CEO of [Human Made](https://humanmade.com/){target=_blank rel="noreferrer noopener"}, talks of how easy it is for a business to focus on strictly following delivery processes. Effective delivery practices enable scaling — Human Made was able to take on into 7-figure client projects as their systems became more robust and comprehensive. But it's easy to see the process as the end in itself and, in doing so, lose sight of the outcomes that are the actual goal.
+[Tom Willmot](https://www.linkedin.com/in/tomwillmot/){target=_blank rel="noreferrer nofollow noopener"}, CEO of [Human Made](https://humanmade.com/){target=_blank rel="noreferrer noopener"}, talks of how easy it is for a business to focus on strictly following delivery processes. Effective delivery practices enable scaling — Human Made was able to take on 7-figure client projects as their systems became more robust and comprehensive. But it's easy to see the process as the end in itself and, in doing so, lose sight of the outcomes that are the actual goal.
 
 At [Syde](https://syde.com/){target=_blank rel="noreferrer noopener"}, CEO [Alex Frison](https://www.linkedin.com/in/alexfrison/){target=_blank rel="noreferrer nofollow noopener"} is very clear that project management processes are important but can get too extreme. Instead, he says, a delivery director needs to be pragmatic and make space for common sense.
 
@@ -145,9 +145,9 @@ An effective CDO, in tandem with the commercial principals, will have the custom
 
 As a consequence, the CDO will bring an essential unifying view to those things in the business that often are otherwise disconnected, joining together marketing with relationship management, design with finance with sales, engineering with HR, and so on.{.content-canvas-item-right}
 
-For exactly this reason, [Myles Lagolago-Craig](https://www.linkedin.com/in/myleslc/){target=_blank rel="noreferrer nofollow noopener"}, the CEO of [XWP](https://xwp.co/){target=_blank rel="noreferrer noopener"}, a global digital agency based in Australia, has deliberately placed their delivery director in the commercial team, for this close alignment and specific context.
+For exactly this reason, [Myles Lagolago-Craig](https://www.linkedin.com/in/myleslc/){target=_blank rel="noreferrer nofollow noopener"}, the CEO of [XWP](https://xwp.co/){target=_blank rel="noreferrer noopener"}, a global digital agency, has deliberately placed their delivery director in the commercial team, for this close alignment and specific context.
 
-The intention is that the character of the business, its voice and it's messaging, are unified in the customer experience so that there's a consistent experience from beginning to end.
+The intention is that the character of the business, its voice and its messaging, are unified in the customer experience so that there's a consistent experience from beginning to end.
 
 ### Bringing organisational change
 
