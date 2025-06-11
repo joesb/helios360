@@ -49,6 +49,6 @@ And finally we'll take a view of things through the lens of metrics — how to u
 
 With all those questions covered that should put us in a strong position to understanding why your organisation needs a Chief Delivery Officer.
 
-Karim Marucchi, CEO of Wordpress agency Crowd Favorite, believes that the role of the CDO is the essential way a professional services business can distinguish itself and grow into maturity.
+[Karim Marucchi](https://www.linkedin.com/in/karimmarucchi/){target=_blank rel="noreferrer nofollow noopener"}, CEO of Wordpress agency Crowd Favorite, believes that the role of the CDO is the essential way a professional services business can distinguish itself and grow into maturity.
 
 In this chapter we're going to find out exactly why. Excellent.
