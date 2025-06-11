@@ -38,7 +38,7 @@ I spoke to several CEOs/founders to hear their specific experiences of appointin
 > *[Alex Frison](https://www.linkedin.com/in/alexfrison/){target=_blank rel="noreferrer nofollow noopener"}, CEO, [Syde](https://syde.com/){target=_blank rel="noreferrer noopener"}*
 {.content-canvas-item-wide-left .content-canvas-item-left--span-2 .bq-alt-2}
 
-A consistent insight from these CEOs and founders is that the CDO role is vital to the business, but it's also one of the hardest positions to fill.{.content-canvas-item-right}
+A consistent insight, thought, is both that the CDO role is vital to the business and also that it's one of most difficult positions to fill, whether by growing or promoting someone from within, or appointing through hiring.{.content-canvas-item-right}
 
 This section looks at some of the reasons why and what you might do about it.{.content-canvas-item-right}
 
@@ -54,7 +54,7 @@ The particular mix of characteristics and strengths needed in this position in t
 
 > The person you need at 10 people is not the same person that you need at 30 people, at 75, at 150, at 300 or beyond.{.large}
 >
-> *Jake Goldman, president and founder, [10up](https://10up.com/){target=_blank rel="noreferrer noopener"}/[Fueled](https://fueled.com/){target=_blank rel="noreferrer noopener"}*
+> *[Jake Goldman](https://www.linkedin.com/in/jacobgoldman/){target=_blank rel="noreferrer nofollow noopener"}, president and founder, [10up](https://10up.com/){target=_blank rel="noreferrer noopener"}/[Fueled](https://fueled.com/){target=_blank rel="noreferrer noopener"}*
 {.content-canvas-item-wide-left .content-canvas-item-left--span-2 .bq-alt-2}
 
 Jake has seen the challenges of these stages of growth up close at 10up and latterly in the merger with Fueled.{.content-canvas-item-right}
