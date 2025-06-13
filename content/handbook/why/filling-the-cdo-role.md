@@ -24,12 +24,15 @@ image:
 pagemeta:
   show: true
 ---
+{% ImgFigure 'Man and woman talking in an office. <a href="https://www.pexels.com/photo/man-and-woman-talking-in-office-4343450/" target="_blank" rel="noopener">Photo</a> by <a href="https://www.pexels.com/@edmond-dantes/" target="_blank" rel="noopener">Edmond Dantès</a> on Pexels.', image.classes %}
+![Man and woman talking in an office](/public/images/source/pexels-edmond-dantes-4343450.jpg){.image-rounded eleventy:widths="200,350,500,780"}
+{% endImgFigure %}
 
-When appointing for the role of delivery principal you're looking for a very special set of traits and capabilities. Those are discussed in detail in the [What makes a CDO?](/handbook/what/) section. For now, it's important to establish that there's a fundamental set of soft and hard skills that have to intersect in a high performance Chief Delivery Officer.
+When appointing for the role of delivery principal you're looking for a very special set of traits and capabilities. Those are discussed in detail in the [What makes a CDO?](/handbook/what/) section. For now, it's important to establish that there's a fundamental set of soft and hard skills that have to intersect in a high performance Chief Delivery Officer.{.content-canvas-item-main-left-main-end}
 
-To complicate things more, the person who fills this role often plays a crucial part in the growth and development of the business.
+To complicate things more, the person who fills this role often plays a crucial part in the growth and development of the business.{.content-canvas-item-main-left-main-end}
 
-Consequently, filling this role is both very important and very challenging.
+Consequently, filling this role is both very important and very challenging.{.content-canvas-item-main-left-main-end}
 
 I spoke to several CEOs/founders to hear their specific experiences of appointing someone to the role of delivery principal. This section is largely taken from their insights.
 
@@ -38,7 +41,7 @@ I spoke to several CEOs/founders to hear their specific experiences of appointin
 > *[Alex Frison](https://www.linkedin.com/in/alexfrison/){target=_blank rel="noreferrer nofollow noopener"}, CEO, [Syde](https://syde.com/){target=_blank rel="noreferrer noopener"}*
 {.content-canvas-item-wide-left .content-canvas-item-left--span-2 .bq-alt-2}
 
-A consistent insight, thought, is both that the CDO role is vital to the business and also that it's one of most difficult positions to fill, whether by growing or promoting someone from within, or appointing through hiring.{.content-canvas-item-right}
+A consistent insight, though, is both that the CDO role is *vital to the business* and also that it's *one of most difficult positions to fill*, whether by growing or promoting someone from within, or appointing through hiring.{.content-canvas-item-right}
 
 This section looks at some of the reasons why and what you might do about it.{.content-canvas-item-right}
 
