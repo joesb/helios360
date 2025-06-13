@@ -385,19 +385,36 @@ Inevitably, though, difficulties arise. In these circumstances, the CDO is the b
 
 Your delivery strategy will be oriented towards being systematic and bringing consistency to customer outcomes.
 
-In the early days, it's likely that you will have to focus on bringing order out of chaos. Chaotic patterns of behaviour often arise during times of high growth, when practices and methodologies that worked in a smaller business are no longer fit for purpose.
+{% ImgFigure 'Woman crouching on a desk among flying papers in an office. <a href="https://www.pexels.com/photo/woman-crouching-on-desk-among-flying-papers-in-office-8468818/" target="_blank" rel="noopener">Photo</a> by <a href="https://www.pexels.com/@cottonbro/" target="_blank" rel="noopener">cottonbro studio</a> on Pexels.', image.side_classes %}
+![Woman crouching on a desk among flying papers in an office](/public/images/source/pexels-cottonbro-8468818.jpg){.image-rounded eleventy:widths="200,350,500,780"}
+{% endImgFigure %}
 
-[Syde](https://syde.com/){target=_blank rel="noreferrer noopener"}, Europe's largest Wordpress agency, experienced a period of hyper-growth when several large projects in a row meant they more than tripled in size in a year. Although it was a great period for the business, CEO [Alex Frison](https://www.linkedin.com/in/alexfrison/){target=_blank rel="noreferrer nofollow noopener"} says it was also not very efficient for them as a business. They were extremely pressured, with no time to share knowledge, to celebrate wins or learn from failures, no time to share tools and practices or to influence the wider business. There were just so few people with time and headspace. And this was precisely why they needed to recruit a head of delivery.
+In the early days, it's likely that you will have to focus on bringing order out of chaos. Chaotic patterns of behaviour often arise during times of high growth, when practices and methodologies that worked in a smaller business are no longer fit for purpose.{.content-canvas-item-main-left-main-end}
 
-#### Beware of chaos addicts
+[Syde](https://syde.com/){target=_blank rel="noreferrer noopener"}, Europe's largest Wordpress agency, experienced a period of hyper-growth when several large projects in a row meant they more than tripled in size in a year.{.content-canvas-item-main-left-main-end}
 
-Some people are naturally gifted at staying calm when the pressure mounts and the most capable CDOs will likely have this quality. Be aware that sometimes this is a mask for a chaos junky — those who are most alive when things get intense.
+Although it was a great period for the business, CEO [Alex Frison](https://www.linkedin.com/in/alexfrison/){target=_blank rel="noreferrer nofollow noopener"} was aware through it all that they were also not very efficient.{.content-canvas-item-main-left-main-end}
+
+The business was extremely pressured, with no time to share knowledge, to celebrate wins or learn from failures, no time to share tools and practices or to influence the wider business. There were just so few people with time and headspace.
+
+And this was precisely why they needed to recruit a delivery principal.
+
+#### Beware of chaos addicts!
+
+Some people are naturally gifted at staying calm when the pressure mounts and the most capable CDOs will likely have this quality.
 
 > When there’s arson, the first suspects are the fire fighters.{.large}
 >
 > *[Karim Marucchi](https://www.linkedin.com/in/karimmarucchi/){target=_blank rel="noreferrer nofollow noopener"}, CEO, [Crowd Favorite](https://crowdfavorite.com/){target=_blank rel="noreferrer noopener"}*
 {.content-canvas-item-wide-left .content-canvas-item-left--span-2 .bq-alt-2}
 
+Be aware that sometimes this is a mask for a chaos junky — those who are most alive when things get intense.{.content-canvas-item-right}
+
+They see themselves as the calm centre of the maelstrom, the necessary heart of things who makes stuff happen in that upheaval.{.content-canvas-item-right}
+
+These sorts of people are more interested in maintaining an atmosphere of busyness than bringing consistency and calm.
+
+[Jake Goldman](https://www.linkedin.com/in/jacobgoldman/){target=_blank rel="noreferrer nofollow noopener"}, president and founder of [10up](https://10up.com/){target=_blank rel="noreferrer noopener"} and partner of [Fueled](https://fueled.com/){target=_blank rel="noreferrer noopener"} has seen CDOs that perceive themselves as *jazz artists* — adapting to the needs and expectations of both business and clients. But he believes these are people who thrive in chaos, and that's not what a healthy  business needs, especially as it grows into maturity.
 
 ### Resilience
 
