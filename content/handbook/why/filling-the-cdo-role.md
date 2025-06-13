@@ -24,11 +24,13 @@ image:
 pagemeta:
   show: true
 ---
+When appointing for the role of delivery principal you're looking for a very special set of traits and capabilities. 
+
 {% ImgFigure 'Man and woman talking in an office. <a href="https://www.pexels.com/photo/man-and-woman-talking-in-office-4343450/" target="_blank" rel="noopener">Photo</a> by <a href="https://www.pexels.com/@edmond-dantes/" target="_blank" rel="noopener">Edmond Dantès</a> on Pexels.', image.classes %}
 ![Man and woman talking in an office](/public/images/source/pexels-edmond-dantes-4343450.jpg){.image-rounded eleventy:widths="200,350,500,780"}
 {% endImgFigure %}
 
-When appointing for the role of delivery principal you're looking for a very special set of traits and capabilities. Those are discussed in detail in the [What makes a CDO?](/handbook/what/) section. For now, it's important to establish that there's a fundamental set of soft and hard skills that have to intersect in a high performance Chief Delivery Officer.{.content-canvas-item-main-left-main-end}
+Those are discussed in detail in the [What makes a CDO?](/handbook/what/) section. For now, it's important to establish that there's a fundamental set of soft and hard skills that have to intersect in a high performance Chief Delivery Officer.{.content-canvas-item-main-left-main-end}
 
 To complicate things more, the person who fills this role often plays a crucial part in the growth and development of the business.{.content-canvas-item-main-left-main-end}
 
