@@ -8,7 +8,7 @@ jumbotron: |
   Let's look at each in turn.
 pending: false
 date: 2025-03-04
-updated: 2025-06-10T16:15:16Z
+updated: 2025-06-13T16:45:16Z
 pagemeta:
   show: true
 eleventyNavigation:
@@ -379,7 +379,33 @@ The CDO's duty is to bring order and consistency to complex things, and smooth p
 
 Inevitably, though, difficulties arise. In these circumstances, the CDO is the beating heart of things and the way you respond under pressure has a fundamental impact on your team, your customers, the projects, and the wider business.
 
-### Comfortable with spinning plates
+### The art of plate spinning
+
+Normal business will mean multiple client projects, departmental initiatives, whole-business targets, and so on running simultaneously. In particular as CDO, you will have a strategy that you're trying to execute, one that will have numerous strands to it.
+
+As with a circus performer keeping plates upright and spinning in the air, many of these things will progress under their own steam for a while but will inevitably require you to intervene to encourage them to progress as needed — towards the right customer outcomes, in support of organisational goals and priorities and so on.
+
+At times, several plates will begin to wobble at the same time, requiring simultaneous intervention. That can be exhausting.
+
+And at times like this you will need to evaluate just how many things can run in parallel, whether your attention and focus (and that of your team and wider colleagues) is becoming too dilute.
+
+Most importantly, you will need to regularly take your pulse (and that of your team) to guard against being overburdened or worse. Burnout will be catastrophic, for you, your colleagues, and the business.
+
+Nonetheless, a high performing CDO will necessarily be a master at spinning plates. And whilst the ability to give due focus is important, hyperfocus that excludes attention on multiple things simultaneously could be problematic.
+
+#### Plates of paradox
+
+There are some paradoxes in keep multiple things running simultaneously.
+
+*👉*{.drop-first .drop-first-vsm .margin-inline-end-md}Whilst organisational change is integral to your work, and business transformation is inevitable, continuity in corporate identity is vital for it to be meaningful.{.padding-inline-start-lg}
+
+In other words, *change* must be balanced by *stability*.{.padding-inline-start-lg .large .margin-block-end-vlg}
+
+*👉*{.drop-first .drop-first-vsm .margin-inline-end-md}A key outcome of your work as CDO is consistency. High quality project delivery and customer outcomes that can be relied on, time after time, are critical to the success of the business. But consistency can harden into rigidity, which may result in stagnation.{.padding-inline-start-lg}
+
+Instead, consistency should be seen as a foundation for jazz — for innovation and experimentation, a safety net that enables you and your teams to embrace new technologies and new approaches to achieve better outcomes.{.padding-inline-start-lg}
+
+In other words, *consistency* must be balanced by *variability*.{.padding-inline-start-lg .large}
 
 ### Tamer of chaos
 
