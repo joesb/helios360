@@ -48,7 +48,7 @@ Excellence in communication is an essential quality for a CDO.
 
 *👉*{.drop-first .drop-first-vsm .margin-inline-end-md} A CDO will need to lean on a deep *emotional intelligence*, understanding what individuals, team members and whole groups both want and need. In particular, the CDO will need to be able to perceive often what is not being said, to project one's self into another person's experience and discern how they may be feeling, how things will be heard from their point of view, or the challenges they may be facing. Often times, it is important to do this ahead of time, to anticipate how things could land and to act in advance accordingly and with wisdom.{.padding-inline-start-lg}
 
-{% ImgFigure '<a href="https://www.pexels.com/photo/photo-of-man-talking-to-a-woman-3182747/" target="_blank" rel="noopener ugc">Photo</a> by <a href="https://www.pexels.com/@fauxels/" target="_blank" rel="noopener ugc">fauxels</a>', image.classes %}
+{% ImgFigure '<a href="https://www.pexels.com/photo/photo-of-man-talking-to-a-woman-3182747/" target="_blank" rel="noopener">Photo</a> by <a href="https://www.pexels.com/@fauxels/" target="_blank" rel="noopener">fauxels</a>', image.classes %}
 ![Photo of a Woman Talking to a Man](/public/images/source/pexels-fauxels-3182747.jpg){.image-rounded eleventy:widths="200,350,500"}
 {% endImgFigure %}
 
@@ -81,7 +81,7 @@ A ninth, 'existential–moral' has also been proposed.
 
 Usually, people will favour anything from 2 to 4 of these types. Most will make use of all to some degree, though everyone will undoubtedly find some particularly hard. Rarely would anyone depend on one type alone.
 
-There's no need to discuss Gardner's [theory of multiple intelligences](https://en.wikipedia.org/wiki/Theory_of_multiple_intelligences){target=_blank rel="nofollow ugc noreferrer"} fully here (though [reading further on multiple intelligences](https://www.verywellmind.com/gardners-theory-of-multiple-intelligences-2795161){target=_blank rel="nofollow ugc noreferrer"} could be rewarding), and certainly the thesis has [important criticisms](https://en.wikipedia.org/wiki/Theory_of_multiple_intelligences#Criticism){target=_blank rel="nofollow ugc noreferrer"} that should temper an overblown enthusiasm for the concept.
+There's no need to discuss Gardner's [theory of multiple intelligences](https://en.wikipedia.org/wiki/Theory_of_multiple_intelligences){target=_blank rel="nofollow noreferrer"} fully here (though [reading further on multiple intelligences](https://www.verywellmind.com/gardners-theory-of-multiple-intelligences-2795161){target=_blank rel="nofollow noreferrer"} could be rewarding), and certainly the thesis has [important criticisms](https://en.wikipedia.org/wiki/Theory_of_multiple_intelligences#Criticism){target=_blank rel="nofollow noreferrer"} that should temper an overblown enthusiasm for the concept.
 
 Nonetheless, there are some helpful insights to learn and absorb without needing to adopt Gardner's theory wholesale.
 

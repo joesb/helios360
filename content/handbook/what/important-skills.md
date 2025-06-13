@@ -32,7 +32,7 @@ So, we've established that [communication is the key skill for a delivery princi
 
 Here's a list of seven CDO super-powers, and we'll look at each below.
 
-{% ImgFigure 'A hand holding a folder of Top Secret files. <a href="https://www.pexels.com/photo/a-person-holding-a-folder-of-a-top-secret-files-label-8371715/" target="_blank" rel="noopener ugc">Photo</a> by <a href="https://www.pexels.com/@cottonbro/" target="_blank" rel="noopener ugc">cottonbro studio</a> on Pexels.', image.classes %}![A hand holding a folder of Top Secret files](/public/images/source/pexels-cottonbro-8371715.jpg){.image-rounded eleventy:widths="200,350,500,780"}{% endImgFigure %}
+{% ImgFigure 'A hand holding a folder of Top Secret files. <a href="https://www.pexels.com/photo/a-person-holding-a-folder-of-a-top-secret-files-label-8371715/" target="_blank" rel="noopener">Photo</a> by <a href="https://www.pexels.com/@cottonbro/" target="_blank" rel="noopener">cottonbro studio</a> on Pexels.', image.classes %}![A hand holding a folder of Top Secret files](/public/images/source/pexels-cottonbro-8371715.jpg){.image-rounded eleventy:widths="200,350,500,780"}{% endImgFigure %}
 
 ## Building relationships
 
@@ -52,7 +52,7 @@ Occasionally, the CDO will need to go toe-to-toe with colleagues to advocate for
 
 It's astonishingly important to spend social time with people.
 
-{% ImgFigure 'Women eating cakes and looking at a cellphone. <a href="https://www.pexels.com/photo/women-eating-cakes-and-looking-at-a-cellphone-4347208/" target="_blank" rel="noopener ugc">Photo</a> by <a href="https://www.pexels.com/@edmond-dantes/" target="_blank" rel="noopener ugc">Edmond Dantès</a> on Pexels.', image.side_classes %}![Women eating cakes and looking at a cellphone](/public/images/source/pexels-edmond-dantes-4347208.jpg){.image-rounded eleventy:widths="200,350"}{% endImgFigure %}
+{% ImgFigure 'Women eating cakes and looking at a cellphone. <a href="https://www.pexels.com/photo/women-eating-cakes-and-looking-at-a-cellphone-4347208/" target="_blank" rel="noopener">Photo</a> by <a href="https://www.pexels.com/@edmond-dantes/" target="_blank" rel="noopener">Edmond Dantès</a> on Pexels.', image.side_classes %}![Women eating cakes and looking at a cellphone](/public/images/source/pexels-edmond-dantes-4347208.jpg){.image-rounded eleventy:widths="200,350"}{% endImgFigure %}
 
 Taking time out to share a piece of cake, to have a coffee with a colleague, or breakfast, or if food's not your thing then going for a walk together — it's powerful.{.content-canvas-item-main-left-main-end}
 
@@ -96,7 +96,7 @@ Build respect, then, and you lay the ground to achieve great things.
 
 As with many aspects of the CDO role, being able to hold a creative tension between strategy and execution is a distinctive quality.
 
-{% ImgFigure 'Hiker exploring in Torres del Paine, Chile. <a href="https://www.pexels.com/photo/exploring-17301681/" target="_blank" rel="noopener ugc">Photo</a> by <a href="https://www.pexels.com/@marek-piwnicki-3907296/" target="_blank" rel="noopener ugc">Marek Piwnicki</a>.', image.side_classes %}![Hiker exploring in Torres del Paine, Chile](/public/images/source/pexels-marek-piwnicki-3907296-17301681.jpg){.image-rounded eleventy:widths="200,350"}{% endImgFigure %}
+{% ImgFigure 'Hiker exploring in Torres del Paine, Chile. <a href="https://www.pexels.com/photo/exploring-17301681/" target="_blank" rel="noopener">Photo</a> by <a href="https://www.pexels.com/@marek-piwnicki-3907296/" target="_blank" rel="noopener">Marek Piwnicki</a>.', image.side_classes %}![Hiker exploring in Torres del Paine, Chile](/public/images/source/pexels-marek-piwnicki-3907296-17301681.jpg){.image-rounded eleventy:widths="200,350"}{% endImgFigure %}
 
 The role requires you to do both — to see far ahead, and determine how to get where you're going; and, to take one step at a time on the path you've set, without getting distracted or discouraged.{.content-canvas-item-main-left-main-end}
 
@@ -203,12 +203,12 @@ Of course, it won't all be plain sailing, and we'll talk about the quality of [r
 
 This is one of the [key heuristics for delivery leadership](/handbook/delivery/heuristics/) that you'll already know well, but when doing stuff it's vital to take time up front to think things through thoroughly before you get on with implementing things.
 
-You can boil all that down into a single phrase, coined by [Bent Flyvbjerg](https://www.linkedin.com/in/flyvbjerg/){target=_blank rel="noreferrer ugc nofollow"}, the project management guru and Professor of Major Program Management:
+You can boil all that down into a single phrase, coined by [Bent Flyvbjerg](https://www.linkedin.com/in/flyvbjerg/){target=_blank rel="noreferrer nofollow"}, the project management guru and Professor of Major Program Management:
 
 > Think slow, act fast
 {.bq-alt}
 
-See Flyberg's book, [*How Big Things Get Done*](https://sites.prh.com/how-big-things-get-done-book){target=_blank rel="noreferrer ugc nofollow"} for all the deep thinking behind this pithy phrase.{.smaller .margin-inline-start-lg}
+See Flyberg's book, [*How Big Things Get Done*](https://sites.prh.com/how-big-things-get-done-book){target=_blank rel="noreferrer nofollow"} for all the deep thinking behind this pithy phrase.{.smaller .margin-inline-start-lg}
 
 It's cheaper and quicker to find problems and see things fail when you're still planning your work. Reduce uncertainty with low-cost research, testing, prototyping, and then roll those insights into better planning.
 
@@ -222,7 +222,7 @@ If change is foreseen or forced on you, then Agile methodologies are extremely h
 
 Strong organisational skills are one of the most important dimensions of your work as a CDO, and these are something that will have been a feature of your career all along, no doubt.
 
-{% ImgFigure 'Close-up shot of a person pointing at an evidence board. <a href="https://www.pexels.com/photo/close-up-shot-of-a-person-pointing-at-evidence-board-8369524/" target="_blank" rel="noopener ugc">Photo</a> by <a href="https://www.pexels.com/@cottonbro/" target="_blank" rel="noopener ugc">cottonbro studio</a>.', image.side_classes %}![Close-up shot of a person pointing at an evidence board](/public/images/source/pexels-cottonbro-8369524.jpg){.image-rounded eleventy:widths="200,350"}{% endImgFigure %}
+{% ImgFigure 'Close-up shot of a person pointing at an evidence board. <a href="https://www.pexels.com/photo/close-up-shot-of-a-person-pointing-at-evidence-board-8369524/" target="_blank" rel="noopener">Photo</a> by <a href="https://www.pexels.com/@cottonbro/" target="_blank" rel="noopener">cottonbro studio</a>.', image.side_classes %}![Close-up shot of a person pointing at an evidence board](/public/images/source/pexels-cottonbro-8369524.jpg){.image-rounded eleventy:widths="200,350"}{% endImgFigure %}
 
 But organisational skills are functional skills that need to be focussed through a specific lens that we might call *structured thinking* — the ability to …{.content-canvas-item-main-left-main-end}
 
@@ -263,7 +263,7 @@ If a project or a customer needs to switch the project manager for any reason (i
 
 The art of [building relationships](#building-relationships) discussed above is built in part on credibility.
 
-{% ImgFigure 'Group of people listening intently to a presentation. <a href="https://www.pexels.com/photo/group-of-people-listening-intently-to-a-presentation-18999533/" target="_blank" rel="noopener ugc">Photo</a> by <a href="https://www.pexels.com/@bertellifotografia/" target="_blank" rel="noopener ugc">Matheus Bertelli</a>.', image.side_classes %}![Group of people listening intently to a presentation](/public/images/source/pexels-bertellifotografia-18999533.jpg){.image-rounded eleventy:widths="200,350"}{% endImgFigure %}
+{% ImgFigure 'Group of people listening intently to a presentation. <a href="https://www.pexels.com/photo/group-of-people-listening-intently-to-a-presentation-18999533/" target="_blank" rel="noopener">Photo</a> by <a href="https://www.pexels.com/@bertellifotografia/" target="_blank" rel="noopener">Matheus Bertelli</a>.', image.side_classes %}![Group of people listening intently to a presentation](/public/images/source/pexels-bertellifotografia-18999533.jpg){.image-rounded eleventy:widths="200,350"}{% endImgFigure %}
 
 A CDO must be credible to the CEO, the founder(s) and the board, their colleagues, the business as a whole, and vitally, to customers.{.content-canvas-item-main-left-main-end}
 

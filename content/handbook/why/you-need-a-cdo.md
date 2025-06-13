@@ -2,7 +2,7 @@
 title: Why an organisation needs a Chief Delivery Officer
 description: A CDO brings the integration between vision, strategy, and execution that you need to excel.
 layout: page.njk
-date: 2025-03-18T17:11:49Z
+date: 2025-06-06T15:41:29Z
 pending: false
 jumbotron: |
   Whether you're a services business or a product company, you need to deliver work for your clients. Often it's the part of the business that your clients experience most closely and, done well, is a foundation stone for your reputation.
@@ -39,7 +39,7 @@ It's worth reflecting here, though — *did the business actually get along just
 
 There's at least two answers to that question.
 
-{% ImgFigure '<a href="https://www.pexels.com/photo/photo-of-people-sitting-beside-wooden-table-3182762/" target="_blank" rel="noopener ugc">Photo</a> by <a href="https://www.pexels.com/@fauxels/" target="_blank" rel="noopener ugc">fauxels</a>', image.classes %}![People sitting around a wooden table while they work](/public/images/source/pexels-fauxels-3182762.jpg){.image-rounded eleventy:widths="200,350,500"}{% endImgFigure %}
+{% ImgFigure '<a href="https://www.pexels.com/photo/photo-of-people-sitting-beside-wooden-table-3182762/" target="_blank" rel="noopener">Photo</a> by <a href="https://www.pexels.com/@fauxels/" target="_blank" rel="noopener">fauxels</a>', image.classes %}![People sitting around a wooden table while they work](/public/images/source/pexels-fauxels-3182762.jpg){.image-rounded eleventy:widths="200,350,500"}{% endImgFigure %}
 
 Firstly, of course they did — they wouldn’t be in business otherwise.{.content-canvas-item-main-left-main-end}
 
@@ -49,7 +49,7 @@ Sometimes, it's obvious that something's not working — stressed staff, unhappy
 
 Sometimes, it's only through interpreting secondary symptoms that you realise there's a problem — the business feels like it's hit a ceiling of growth that it just can't push through, say. Sometimes, it's just a sense that the founder(s) or CEO has that things could be better.
 
-## Delivery, governance, strategy
+## Delivery, governance, strategy, and jazz
 
 Projects need people to lead them.
 
@@ -101,13 +101,53 @@ As the business grows in its capabilities and its size, the capacity for deliver
 
 … and so on.
 
+Importantly, the delivery principal should build themselves out of the systems and processes they design.
+
+[Jake Goldman](https://www.linkedin.com/in/jacobgoldman/){target=_blank rel="noreferrer nofollow noopener"}, president and founder of [10up](https://10up.com/){target=_blank rel="noreferrer noopener"}/[Fueled](https://fueled.com/){target=_blank rel="noreferrer noopener"}, talks about the importance of thinking about delivery processes as a product of the business itself. They should be:
+
+- understood by everyone on the team,
+- easy to explain to customers,
+- replicable by those in the delivery team who need to use them.
+
+Moreover, if a customer or project needs to switch delivery personnel for whatever reason, he argues, it should not feel like a totally different experience.
+
+### Delivery as jazz
+
+However, it’s easy to confuse the focus between *processes* on the one hand and *outcomes* on the other.
+
+Customers want something done to achieve something specific — they want a particular outcome, to get what they're paying for. The delivery processes are the means of enabling that.
+
+[Tom Willmot](https://www.linkedin.com/in/tomwillmot/){target=_blank rel="noreferrer nofollow noopener"}, CEO of [Human Made](https://humanmade.com/){target=_blank rel="noreferrer noopener"}, talks of how easy it is for a business to focus on strictly following delivery processes. Effective delivery practices enable scaling — Human Made was able to take on 7-figure client projects as their systems became more robust and comprehensive. But it's easy to see the process as the end in itself and, in doing so, lose sight of the outcomes that are the actual goal.
+
+At [Syde](https://syde.com/){target=_blank rel="noreferrer noopener"}, CEO [Alex Frison](https://www.linkedin.com/in/alexfrison/){target=_blank rel="noreferrer nofollow noopener"} is very clear that project management processes are important but can get too extreme. Instead, he says, a delivery director needs to be pragmatic and make space for common sense.
+
+[Jake Goldman](https://www.linkedin.com/in/jacobgoldman/){target=_blank rel="noreferrer nofollow noopener"} calls this *delivery jazz* — those essential delivery systems and practices provide a solid, confident foundation for creativity and agility, creating room for experts to lean into their expertise, adapting to context and applying innovation to tackle the specific needs.
+
+The delivery principal, then, must hold the tension in a fundamental balancing act between:
+
+- systematic and thoroughgoing processes on the one hand, and
+- space for creativity, innovation and situational agility on the other.
+
+Delivery … and jazz.
+
 ## The value of a CDO
 
 All together, a Chief Delivery Officer brings a whole-organisation and cross-functional perspective to what the business does for its customers.
 
-An effective CDO will have the customer's complete journey, from first encounter to repeat business, in their sights as the design a delivery strategy fit for use and then execute it to embed it in the business.
+> It's absolutely necessary to have a delivery director, someone with that full overview of things — for capacity planning, knowledge and skills sharing, processes and so on.{.large}
+>
+> But it's also about handling the culture shift issues as you grow — is this all happening the right way? That stuff, that's what the CDO does.{.large}
+>
+> *[Alex Frison](https://www.linkedin.com/in/alexfrison/){target=_blank rel="noreferrer nofollow noopener"}, CEO, [Syde](https://syde.com/){target=_blank rel="noreferrer noopener"}, Europe's biggest WordPress agency*
+{.content-canvas-item-wide-left .content-canvas-item-left--span-2 .bq-alt-2}
 
-As a consequence, the CDO will bring an essential unifying view to those things in the business that often are otherwise disconnected, joining together marketing with relationship management, design with finance with sales, engineering with HR, and so on. The intention is that the character of the business, its voice and it's messaging, are unified in the customer experience so that there's a consistent experience from beginning to end.
+An effective CDO, in tandem with the commercial principals, will have the customer's complete journey in their sights, from first encounter to repeat business, as they design a delivery strategy fit for use and then execute it to embed it in the business.{.content-canvas-item-right}
+
+As a consequence, the CDO will bring an essential unifying view to those things in the business that often are otherwise disconnected, joining together marketing with relationship management, design with finance with sales, engineering with HR, and so on.{.content-canvas-item-right}
+
+For exactly this reason, [Myles Lagolago-Craig](https://www.linkedin.com/in/myleslc/){target=_blank rel="noreferrer nofollow noopener"}, the CEO of [XWP](https://xwp.co/){target=_blank rel="noreferrer noopener"}, a global digital agency, has deliberately placed their delivery director in the commercial team, for this close alignment and specific context.
+
+The intention is that the character of the business, its voice and its messaging, are unified in the customer experience so that there's a consistent experience from beginning to end.
 
 ### Bringing organisational change
 

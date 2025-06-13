@@ -10,7 +10,7 @@ jumbotron: |
   Here we look at all that, plus some specific issues about the reach and influence that the CDO has to make changes and improvements in the organisation.
 pending: false
 date: 2025-02-05
-updated: 2025-04-03T17:25:09Z
+updated: 2025-06-09T16:25:09Z
 eleventyNavigation:
   key: The CDO role
   parent: What makes a CDO?
@@ -38,13 +38,21 @@ The CDO is a domain specialist, like the C-suite peers with Financial (CFO), Mar
 
 The CDO also affects elements across the whole business, like an Operations (COO) or Data (the *other* CDO 😉) principal.
 
-{% ImgFigure 'Focused colleagues having briefing in an office. <a href="https://www.pexels.com/photo/focused-colleagues-having-briefing-in-office-5324892/" target="_blank" rel="noopener ugc">Photo</a> by <a href="https://www.pexels.com/@shvetsa/" target="_blank" rel="noopener ugc">Anna Shvets</a>.', image.side_classes %}![Focused colleagues having briefing in an office](/public/images/source/pexels-shvetsa-5324892.jpg){.image-rounded eleventy:widths="200,350"}{% endImgFigure %}
+{% ImgFigure 'Focused colleagues having briefing in an office. <a href="https://www.pexels.com/photo/focused-colleagues-having-briefing-in-office-5324892/" target="_blank" rel="noopener">Photo</a> by <a href="https://www.pexels.com/@shvetsa/" target="_blank" rel="noopener">Anna Shvets</a>.', image.side_classes %}![Focused colleagues having briefing in an office](/public/images/source/pexels-shvetsa-5324892.jpg){.image-rounded eleventy:widths="200,350"}{% endImgFigure %}
 
-But the role of a Chief Delivery Officer stands out for some important and distinctive reasons.{.content-canvas-item-main-left-main-end}
+But the CDO position stands out for some important and distinctive reasons.{.content-canvas-item-main-left-main-end}
 
-Here we'll explored what those are, why they're important — both for the CDO and for the business — and how they frame the position and function of the CDO in the organisation.{.content-canvas-item-main-left-main-end}
+Here we'll explored what those are, why they're important — both for the CDO and for the business — and how they frame the position and function of the head of delivery in the organisation.{.content-canvas-item-main-left-main-end}
 
 The role of Chief Delivery Officer is a relatively new label for a set of duties and responsibilities in the organisation. Previously these functions might have been handled by someone at a different level in the business who reports, directly or maybe indirectly, to someone at executive level — maybe the Chief Operating Officer, say. Here we are going to examine the case for viewing this position as an executive-level role in itself.
+
+A consistent insight from CEOs and founders, though, is that the CDO role is both vital to the business and it's also one of the hardest positions to fill, especially in a dynamic and growing organisation. [Alex Frison](https://www.linkedin.com/in/alexfrison/){target=_blank rel="noreferrer nofollow noopener"}, CEO of [Syde](https://syde.com/){target=_blank rel="noreferrer noopener"}, Europe's largest Wordpress agency, says that it's a challenge precisely because there's so many skills that are essential in the role.
+
+We'll cover all that in detail in this chapter, and come back to it throughout the rest of the *Handbook*.
+
+To begin, though, it's important to understand what you're talking about when you're taking on the position of delivery director.
+
+So, let's dive right on in to examining the role itself.
 
 ---
 
@@ -64,7 +72,7 @@ The first dimension involves acknowledging that a Chief Delivery Officer is an e
 
 A CDO needs to be able to work closely with other leaders in the organisation.
 
-The CDO cannot solve all the problems the business faces, obviously, but that is the precisely remit of the executive team together — to combine the experience and wisdom accumulated in their distinct specialisms to work together to achieve the goals and objectives of the business, and together to overcome the difficulties and challenges presented to the organisation.
+The CDO cannot solve all the problems the business faces, obviously. That is the precisely remit of the executive team together — to combine the experience and wisdom accumulated in their distinct specialisms to work together to achieve the goals and objectives of the business, and together to overcome the difficulties and challenges presented to the organisation.
 
 The process of delivering products and/or services for the company is a unique component of that effort. Service delivery is a part of the business that clients experience most closely. In some contexts, it's the essential component.
 
@@ -77,6 +85,8 @@ The process of delivering products and/or services for the company is a unique c
 In other words, the company's reputation is built on how you deliver for customers.
 
 Service delivery does not sit in sweet isolation, of course. It's a core part of the whole customer journey, but that starts way before services are being delivered in the marketing phase and sales experience. And it continues on afterwards, too, into the live service stage where clients should be successful in using what they've bought, and look to buy more from the business, all being well.
+
+For enterprise Wordpress agency [XWP](https://xwp.co/){target=_blank rel="noreferrer noopener"}, this is precisely why the CEO, [Myles Lagolago-Craig](https://www.linkedin.com/in/myleslc/){target=_blank rel="noreferrer nofollow noopener"}, sees delivery as a dimension of sales and marketing. For him, the company and its customers have a positive gain that comes with the commercial focus sitting in creative tension with delivery practices.
 
 Coherence throughout that customer journey is vital.
 
@@ -95,7 +105,11 @@ There's two areas of focus when deciding how to shape the service delivery:
 1. aligned with **business goals**
 2. aligned with **customer needs**
 
-**Note:** the term 'customer' is being used in a very broad sense with this second focus, and tucked inside are *users* — the people who will actually be using the thing being addressed in your delivery project.{.smaller .italic}
+{% Note true, "content-note-warning", %}
+NOTE:{.h3-style}
+
+The term 'customer' is being used in a very broad sense with this second focus, and tucked inside are *users* — the people who will actually be using the thing being addressed in your delivery project.
+{% endNote %}
 
 These two are distinct from each other, and it's rare to find them parallel let alone convergent. They may even be perpendicular. As a consequence, the role of the CDO requires the ability to hold a creative tension between business goals and customer (and user) needs.
 
@@ -127,7 +141,16 @@ The CDO is bringing a specific focus to the organisation: delivering for custome
 
 Of course, the business will already have been doing this for a long time — whether its a service business, where service delivery is the essence of their offer, or a product business where client services are a wrap-around element for their product, the company will not have been able to get to the current place without delivering stuff for customers.
 
-However, the arrival of a Chief Delivery Officer is a signal that the business intends to raise the prominence of its clients' experience — that the customer journey will have a new importance for the organisation, that it's essential to the future of the business. It's a really good sign if the organisation wants to bring customers into the heart of what they do. We'll talk more about the motivations for this elsewhere. For now, though, keep in mind that understanding what motivations are the driving for of this move is really important when you're taking on the role and responsibilities of a Chief Delivery Officer.
+> How are you keeping your customers at the sharp end of their decision making?{.large}
+>
+> *[Karim Marucchi](https://www.linkedin.com/in/karimmarucchi/){target=_blank rel="noreferrer nofollow noopener"}, CEO, [Crowd Favorite](https://crowdfavorite.com/){target=_blank rel="noreferrer noopener"}*
+{.content-canvas-item-wide-left .content-canvas-item-left--span-2 .bq-alt-2}
+
+However, the arrival of a Chief Delivery Officer is a signal that the business intends to raise the prominence of its clients' experience — that the customer journey will have a new importance for the organisation, that it's essential to the future of the business.{.content-canvas-item-right}
+
+It's a really good sign if the organisation wants to bring customers into the heart of what they do.{.content-canvas-item-right}
+
+We'll talk more about the motivations for this elsewhere. For now, though, keep in mind that understanding what motivations are the driving for of this move is really important when you're taking on the role and responsibilities of a Chief Delivery Officer.
 
 That means the CDO is responsible for the whole delivery lifecycle for the company's customers (the actual elements of the lifecycle are outside this current discussion — we'll cover that elsewhere), from one end to another, ensuring coherence, professionalism and agility throughout. That requires a multi-dimensional perspective on what is meant by service or project delivery.
 
