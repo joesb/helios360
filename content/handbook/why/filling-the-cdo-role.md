@@ -16,7 +16,7 @@ eleventyNavigation:
 tags:
   - '#handbookWhy'
 image:
-  social: content/public/images/source/pexels-fauxels-3182762.jpg
+  social: content/public/images/source/pexels-edmond-dantes-4343450.jpg
   classes:
     - content-canvas-item-wide-left-sm
     - content-canvas-item-left--span-3
