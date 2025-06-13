@@ -10,7 +10,7 @@ jumbotron: |
   We also look at the essential qualities and skills of a CDO, with unusual mastery in communication and as a capable advocate for customer and team, as well as outlining seven other key skills for a CDO.{.small}
 pending: false
 date: 2025-03-25T13:15:21Z
-updated: 2025-03-28T10:45:21Z
+updated: 2025-06-13T11:45:21Z
 eleventyNavigation:
   key: What makes a CDO?
   parent: Handbook
@@ -52,3 +52,29 @@ All share things in common, however, and this section explores those commonaliti
 The chapter may also be useful for founders and executive teams considering adding a CDO to the organisation:
 
 - What skills and characteristics should you be looking for when you're recruiting someone to this role?
+
+CEOs of professional services businesses understand that the delivery principal sits at the heart of the business, and close to those responsible for the commercial leadership.
+
+> When the company grows, consistency becomes more important and, counterintuitively, being systematic creates space for a flow and a rhythm.{.large}
+>
+> *[Jake Goldman](https://www.linkedin.com/in/jacobgoldman/){target=_blank rel="noreferrer nofollow noopener"}, president and founder, [10up](https://10up.com/){target=_blank rel="noreferrer noopener"}/[Fueled](https://fueled.com/){target=_blank rel="noreferrer noopener"}*
+{.content-canvas-item-wide-left .content-canvas-item-left--span-2 .bq-alt-2}
+
+It is a vital position with an overview of outcomes for customers, setting and maintaining the processes and practices of client delivery, providing a safe space for creativity, and a place in which expertise can shine.{.content-canvas-item-right}
+
+They recognise the role of CDO is a strange one though, serving the needs of the customer, the team, and the business simultaneously in creative tension.{.content-canvas-item-right}
+
+The skill set needed is different according to business needs, but there are some fundamental soft skills:
+
+- High EQ
+- Strong communication skills
+- Diplomacy
+- Strong organisational skills
+- Outcome oriented
+- Process driven
+- Forecasting and capacity management
+- Knowledge and skills sharing
+- Strong sense of team — we’re doing this together
+- Set standards, and hold people accountable to them
+
+This chapter covers all these and more.
