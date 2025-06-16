@@ -20,6 +20,7 @@ eleventyNavigation:
   root: Handbook
   footer: true
 image:
+  social: ./content/public/images/handbook-cover.jpg
   classes:
     - content-canvas-item-wide-left-sm
     - content-canvas-item-left--span-3
