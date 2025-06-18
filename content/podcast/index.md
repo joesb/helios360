@@ -46,7 +46,7 @@ And we’ll share our experiences of what it actually takes to deliver successfu
 
 Plus we’ll have some fascinating guests to hear their own stories, the lessons they learned and the scars they earned.
 
-**Deliver That!** — the Chief Delivery Officer’s podcast
+**Deliver That!** — the Chief Delivery Officer’s podcast{.large}
 
 No filters. No fluff.
 
