@@ -15,6 +15,7 @@ eleventyNavigation:
   key: Podcast
   parent: Home
   order: 90
+  hideMainNav: true
   footer: true
 image:
   social: ./content/public/images/podcast/DeliverThat-Podcast-Artwork-03-01.jpg
