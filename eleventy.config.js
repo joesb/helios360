@@ -160,6 +160,10 @@ export default async function(eleventyConfig) {
     }
   );
 
+  eleventyConfig.addPairedShortcode("ContentGrid", (content, classes = '') => {
+    return '<div class="content-grid' + ( classes ? ` ${classes}` : '') +'">' + content + '</div>';
+  });
+
   // Images
   eleventyConfig.addShortcode("image", async function (src, alt, cls, widths = [300, 620], sizes = "100vh", picCls = "") {
 		let metadata = await Image(src, {

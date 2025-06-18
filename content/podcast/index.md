@@ -27,13 +27,11 @@ helpcardStyles:
     - helpcard--background--grey
     - helpcard--center-content
     - helpcard--narrow
-    - content-canvas-item-left
   hs2:
     - helpcard--background
     - helpcard--background--grey
     - helpcard--center-content
     - helpcard--narrow
-    - content-canvas-item-right
 ---
 
 {% ImgFigure '', image.classes %}
@@ -56,13 +54,17 @@ Just honest conversations about what happens in project delivery, and how big th
 
 ---
 
-## Your hosts:
+{% ContentGrid "content-canvas-item-wide-left-more grid-columns-2 margin-block" %}
+
+## Your hosts:{.content-grid-column-span-2}
 
 {% HelpCard true, helpcardStyles.hs1 %}
-![Steve Hunton](/public/images/steve-h-portrait.jpg){.image-greyscale-25 .image-rounded eleventy:widths="200,350,425"}
+![Steve Hunton](/public/images/steve-h-portrait-lg-pixelated.jpg){.image-greyscale-25 .image-rounded eleventy:widths="200,350,425"}
 {.margin-block-none}
 
 ### Steve Hunton{.hide-permalink}
+
+Steve would rather be mastering the gentle art of origami.
 
 {% endHelpCard %}
 
@@ -72,4 +74,8 @@ Just honest conversations about what happens in project delivery, and how big th
 
 ### Joe Baker{.hide-permalink}
 
+Joe's spirit animal is a squirrel carrying a bottle of wine up a tree.
+
 {% endHelpCard %}
+
+{% endContentGrid %}
