@@ -34,6 +34,7 @@ helpcardStyles:
     - helpcard--center-content
     - helpcard--narrow
 ---
+{% Markdown %}
 
 {% ImgFigure '', image.classes %}
 ![Deliver That! The Project Delivery Podcast](/public/images/podcast/DeliverThat-Podcast-Artwork-03-01.jpg){.image-rounded eleventy:widths="200,350,500"}
@@ -80,3 +81,47 @@ Joe's spirit animal is a squirrel carrying a bottle of wine up a tree.
 {% endHelpCard %}
 
 {% endContentGrid %}
+
+---
+
+{% endMarkdown %}
+
+<h2 id="contact-form" class="margin-block-lg">Ask a question</h2>
+
+<p>Got a question for the podcast? Ask away!</p>
+
+
+<form method="POST" action="/api/submit" class="site-form contact-form">
+
+  <div class="form-group form-group--input">
+    <label for="i-fullname">Your name</label>
+    <input id="i-fullname" type="text" name="fullname" pattern="[A-Za-z ]+" required />
+  </div>
+
+  <div class="form-group form-group--input">
+    <label for="i-email">Email address</label>
+    <input id="i-email" type="email" name="email" required />
+  </div>
+
+  <label id="honey" for="contact-name">Contact name
+      <input type="text" id="contact-name" name="contact-name">
+  </label>
+
+  <input type="hidden" id="is-podcaster" name="is-podcaster">
+
+  <hr />
+
+  <div class="form-group form-group--input margin-block-start-md">
+    <label for="i-subject">Subject</label>
+    <input id="i-subject" type="text" name="subject" required />
+  </div>
+
+  <div class="form-group form-group--input">
+    <label for="i-message">Your message</label>
+    <textarea id="i-message" name="message" required rows="5" cols="33"></textarea>
+  </div>
+
+  <div class="form-group form-group--submit">
+    <button type="submit">Submit</button>
+  </div>
+</form>
