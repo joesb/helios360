@@ -59,6 +59,14 @@ Just honest conversations about what happens in project delivery, and how big th
 ## Your hosts:
 
 {% HelpCard true, helpcardStyles.hs1 %}
+![Steve Hunton](/public/images/steve-h-portrait.jpg){.image-greyscale-50 .image-rounded eleventy:widths="200,350,425"}
+{.margin-block-none}
+
+### Steve Hunton{.hide-permalink}
+
+{% endHelpCard %}
+
+{% HelpCard true, helpcardStyles.hs2 %}
 ![Joe Baker](/public/images/me-july-2024-portrait.jpeg){.image-greyscale-50 .image-rounded eleventy:widths="200,350,425"}
 {.margin-block-none}
 
