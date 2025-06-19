@@ -1,0 +1,96 @@
+---
+layout: base.njk
+image:
+  path: /public/images/podcast/DeliverThat-Podcast-Artwork-03-01.jpg
+  alt: "Podcast episode artwork"
+  social: ./content/public/images/podcast/DeliverThat-Podcast-Artwork-03-01.jpg
+  widths: [150, 200]
+  class: []
+  pictureClass: 
+    list: []
+page:
+  classes:
+    - content-canvas
+    - page
+    - type-page
+showNav: true
+type: episode
+navOptions:
+  listElement: "ul"
+  listItemElement: "li"
+  listClass: "index-nav--list"
+  listItemClass: "index-nav--list-item"
+  listItemHasChildrenClass: "index-nav--list-item--has-children"
+  listParentItemClass: "index-nav--list-item--parent"
+  activeListItemClass: "index-nav--list-item--active"
+  activeParentListItemClass: "index-nav--list-item--active--parent"
+  activeAnchorClass: "index-nav--list-item--link--active"
+  activeKey: eleventyNavigation.key
+  anchorClass: "index-nav--item--link"
+pagemeta:
+  show: false
+  readingTime: true
+eleventyComputed:
+  meta:
+    author:
+      name: "{{ metadata.author.name }}"
+    published: "{{ date | iso8601 }}"
+    modified: "{% if changed %}{{ changed | iso8601 }}{% endif %}"
+---
+
+      {% if showTitle != false and primary != true %}
+      {% include "layouts/components/title-bar.njk" %}
+      {% endif %}
+
+      {% if pending %}
+
+				{% if image.path %}
+					{% Markdown %}![{{ image.alt }}]({{ image.path }}){.image-rounded eleventy:widths="200,350"}{% endMarkdown %}
+				{% endif %}
+
+				{% if jumbotron %}
+				{% include "layouts/components/jumbotron.njk" %}
+				{% endif %}
+
+			{% include "layouts/components/page-item-pending.njk" %}
+
+			{% else %}
+				{% if image.path %}
+					{% Markdown %}![{{ image.alt }}]({{ image.path }}){.image-rounded eleventy:widths="200,350"}{% endMarkdown %}
+				{% endif %}
+
+        {% if showContent != false %}
+          {% if jumbotron %}
+            {% include "layouts/components/jumbotron.njk" %}
+          {% endif %}
+
+          {% if showTOC != false %}
+          {% set tocContent = content | toc %}
+          {% if tocContent | length %}
+          <aside>
+            <h2 class="h3-style">Covered here:</h2>
+            {{ tocContent | safe }}
+          </aside>
+          {% endif %}
+          {% endif %}
+
+          {% if pagemeta.show %}
+          {% include "layouts/components/page-metadata.njk" %}
+          {% endif %}
+
+          {{ content | safe }}
+        {% endif %}
+
+      {% endif %}
+
+      {% if showNav %}
+      <div class="site-content content-canvas-item-full-right content-canvas-item-right--span-4 content-canvas-span-start-content-top index-nav">
+
+			  {% include "layouts/components/index-nav.njk" %}
+
+		  </div>
+      {% endif %}
+
+{% if pageLinks %}
+  {% include "layouts/components/page-pagelinks.njk" %}
+{% endif %}

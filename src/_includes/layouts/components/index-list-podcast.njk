@@ -1,0 +1,85 @@
+  <ul class="index-list index-list-podcast index-list--{{ items | length }}">
+    {% set cls = cycler("odd", "even") %}
+    {% set sze = cycler("large","small") %}
+    {% set listLen = items | length %}
+    {% if listLen == 2 %}
+    {% set sze = cycler("large") %}
+    {% endif %}
+    {% for item in items %}
+      {% set vr = cls.next() %}
+      {% if loop.index != 1 and vr == "even" %}
+      {% set trash = sze.next() %}
+      {% endif %}
+
+      <li class="faux-block-link-parent index-list__item index-list__item-{{ loop.index }}{% if loop.first %} index-list__item-first{% endif %} index-list__item-{{ vr }}{% if loop.index != 1 %} index-list__item-{{ sze.next() }}{% endif %}{% if item.data.image.path %} index-list__item--picture{% endif %}">
+        <div class="index-list__item__content">
+          {# TAGS #}
+          {% if item.data.tags and showTags !== false %}
+          {% set itemTags = [] %}
+          {%- for tag in item.data.tags %}
+            {% if tag | starts_with("#", true) %}
+            {% set itemTags = (itemTags.push(tag), itemTags) %}
+            {% endif %}
+          {% endfor %}
+          {# Have we got tags to show? #}
+          {% if itemTags.length %}
+          <div class="metadata__tags tags">
+          {% for tag in itemTags %}
+            <span class="metadata__tags__tag">{{ tag }}</span>
+            {% if loop.last !== true %}
+            <span class="metadata__divider divider"></span>
+            {% endif %}
+          {% endfor %}
+          </div>
+          {% endif %}
+          {% endif %}
+          {# TITLE #}
+          <h3>{{ item.data.title }}</h3>
+          {# DESCRIPTION #}
+          {% if (listAllDescriptions or loop.first) and item.data.description %}
+          <div class="description">
+          {{ item.data.description | markdown | safe }}
+          </div>
+          {% endif %}
+          {# METADATA #}
+          {# Only show metadata if explicitly wanted #}
+          {% if metadata.cards.show %}
+          <div class="metadata item-meta">
+            <time class="item-date" datetime="{{ item.date | readableDate("yyyy-LL-dd") }}">{{ item.date | readableDate("dd/LL/yyyy") }}</time>
+            <span class="divider"></span>
+            <span class="item-duration">{{ item.data.duration }}</span></div>
+          </div>
+          {% endif %}
+          {# MORE BUTTON #}
+          {% if listAllMoreButton %}
+          <div class="link">
+            <span class="single-meta-item single-meta-forward text-color-brand-primary" title="Learn more about {{ item.data.title }}">Learn more</span>
+          </div>
+          {% endif %}
+        {% if item.data.image.path %}
+					{% Markdown true %}![{{ item.data.image.alt }}]({{ item.data.image.path }}){.image-rounded eleventy:widths="200,350" eleventy:pictureattr:class="index-list__item__picture"}{% endMarkdown %}
+        {% endif %}
+        </div>
+        <a href="{{ item.url | url }}"{% activepath item.url, page.url %} class="faux-block-link" aria-label="{{ item.data.title }}"></a>
+      </li>
+    {% endfor %}
+    </ul>
+
+{% if showPaginationNav !== false and pagination.pages|length > 1 %}
+
+    <nav class="pagination">
+      <ol>
+        <li class="pagination-item first">{% if page.url != pagination.href.first %}<a href="{{ pagination.href.first }}"><span title="First">First</span></a>{% else %}<span title="First">First</span>{% endif %}</li>
+        <li class="pagination-item previous">{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}"><span title="Previous">Previous</span></a>{% else %}<span title="Previous">Previous</span>{% endif %}</li>
+    {% for pageEntry in pagination.pages %}
+        {% if page.url == pagination.hrefs[ loop.index0 ] %}
+        <li>Page {{loop.index}} of {{ pagination.hrefs | length }}</li>
+        {% endif %}
+        {# <li><a href="{{ pagination.hrefs[ loop.index0 ] }}"{% if page.url == pagination.hrefs[ loop.index0 ] %} class="current" aria-current="page"{% endif %}>{{ loop.index }}</a></li> #}
+    {% endfor %}
+        <li class="pagination-item next">{% if pagination.href.next %}<a href="{{ pagination.href.next }}"><span title="Next">Next</span></a>{% else %}<span title="Next">Next</span>{% endif %}</li>
+        <li class="pagination-item last">{% if page.url != pagination.href.last %}<a href="{{ pagination.href.last }}"><span title="Last">Last</span></a>{% else %}<span title="Last">Last</span>{% endif %}</li>
+      </ol>
+    </nav>
+
+{% endif %}
