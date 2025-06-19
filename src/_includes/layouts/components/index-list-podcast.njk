@@ -22,16 +22,16 @@
             {% endif %}
           {% endfor %}
           {# Have we got tags to show? #}
-          {% if itemTags.length %}
-          <div class="metadata__tags tags">
-          {% for tag in itemTags %}
-            <span class="metadata__tags__tag">{{ tag }}</span>
-            {% if loop.last !== true %}
-            <span class="metadata__divider divider"></span>
+            {% if itemTags.length %}
+            <div class="metadata__tags tags">
+            {% for tag in itemTags %}
+              <span class="metadata__tags__tag">{{ tag }}</span>
+              {% if loop.last !== true %}
+              <span class="metadata__divider divider"></span>
+              {% endif %}
+            {% endfor %}
+            </div>
             {% endif %}
-          {% endfor %}
-          </div>
-          {% endif %}
           {% endif %}
           {# TITLE #}
           <h3>{{ item.data.title }}</h3>
@@ -47,7 +47,7 @@
           <div class="metadata item-meta">
             <time class="item-date" datetime="{{ item.date | readableDate("yyyy-LL-dd") }}">{{ item.date | readableDate("dd/LL/yyyy") }}</time>
             <span class="divider"></span>
-            <span class="item-duration">{{ item.data.duration }}</span></div>
+            <span class="item-duration">{{ item.data.duration }}</span>
           </div>
           {% endif %}
           {# MORE BUTTON #}
@@ -56,14 +56,14 @@
             <span class="single-meta-item single-meta-forward text-color-brand-primary" title="Learn more about {{ item.data.title }}">Learn more</span>
           </div>
           {% endif %}
-        {% if item.data.image.path %}
-					{% Markdown true %}![{{ item.data.image.alt }}]({{ item.data.image.path }}){.image-rounded eleventy:widths="200,350" eleventy:pictureattr:class="index-list__item__picture"}{% endMarkdown %}
-        {% endif %}
         </div>
+        {% if item.data.image.path %}
+          {% Markdown true %}![{{ item.data.image.alt }}]({{ item.data.image.path }}){.image-rounded eleventy:widths="200,350" eleventy:pictureattr:class="index-list__item__picture"}{% endMarkdown %}
+        {% endif %}
         <a href="{{ item.url | url }}"{% activepath item.url, page.url %} class="faux-block-link" aria-label="{{ item.data.title }}"></a>
       </li>
-    {% endfor %}
-    </ul>
+  {% endfor %}
+  </ul>
 
 {% if showPaginationNav !== false and pagination.pages|length > 1 %}
 

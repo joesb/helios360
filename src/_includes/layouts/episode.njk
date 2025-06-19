@@ -55,14 +55,15 @@ eleventyComputed:
 			{% include "layouts/components/page-item-pending.njk" %}
 
 			{% else %}
-				{% if image.path %}
-					{% Markdown %}![{{ image.alt }}]({{ image.path }}){.image-rounded eleventy:widths="200,350"}{% endMarkdown %}
-				{% endif %}
 
         {% if showContent != false %}
           {% if jumbotron %}
             {% include "layouts/components/jumbotron.njk" %}
           {% endif %}
+
+				{% if image.path %}
+					{% Markdown %}![{{ image.alt }}]({{ image.path }}){.image-rounded eleventy:widths="200,350"}{% endMarkdown %}
+				{% endif %}
 
           {% if showTOC != false %}
           {% set tocContent = content | toc %}
