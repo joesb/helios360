@@ -13,7 +13,7 @@ eleventyNavigation:
   parent: Home
   root: Home
   order: 100
-  hide: true
+  hideMainNav: true
   footer: true
 ---
 

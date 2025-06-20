@@ -55,7 +55,11 @@
   gap: var(--size-1);
 }
 
-@include rt.respond-to('medium') {
+@include rt.respond-to('small') {
+  .grid-columns-2 {
+    @include grid.grid-columns-2();
+  }
+
   .content-grid-item-span-2 {
     grid-column: 1 / span 2;
   }

@@ -7,6 +7,7 @@ image:
   widthsSmall: [300, 620]
 showNav: true
 listAllDescriptions: true
+indexListType: standard
 type: page
 navOptions:
   listElement: "ul"
@@ -89,11 +90,16 @@ pagemeta:
 
       {% endif %}
       <div class="content-canvas-item-wide">
-        {% if indexListType and indexListType == "simple" %}
+      {% if indexListType %}
+        {% if indexListType == "simple" %}
       {% include "layouts/components/index-list-simple.njk" %}
+        {% elif indexListType == "podcast" %}
+      {% include "layouts/components/index-list-podcast.njk" %}
         {% else %}
       {% include "layouts/components/index-list.njk" %}
         {% endif %}
+
+      {% endif %}
       </div>
     </aside>
     {% endif %}

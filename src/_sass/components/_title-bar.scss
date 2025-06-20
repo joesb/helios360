@@ -10,3 +10,12 @@
     font-size: var(--font-size-fluid-4);
   }
 }
+
+.title-bar--supertitle {
+  .single-meta-back {
+    &::before {
+      position: absolute;
+      left: -1.5rem;
+    }
+  }
+}

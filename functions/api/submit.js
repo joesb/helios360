@@ -9,12 +9,14 @@ export async function onRequestPost(context) {
     // Convert FormData to JSON
     // NOTE: Allows multiple values per key
     let output = {};
+    let podcaster = input.has('is-podcaster');
     for (let [key, value] of input) {
       let tmp = output[key];
       if (tmp === undefined) {
         output[key] = value;
-      } else {
-        output[key] = [].concat(tmp, value);
+      }
+       else {
+        output[key] = (podcaster && key == 'subject') ? [].concat(tmp, 'Podcast question: ' + value) : [].concat(tmp, value);
       }
     }
     // output: {
