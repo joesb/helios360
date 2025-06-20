@@ -237,6 +237,7 @@
 
   .index-list__item {
     min-height: px-to-rem.px-to-rem(54px);
+    min-width: 100%;
     display: grid;
     grid-template-areas: 
       "picture content";
