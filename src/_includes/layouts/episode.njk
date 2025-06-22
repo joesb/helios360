@@ -29,8 +29,9 @@ navOptions:
   activeKey: eleventyNavigation.key
   anchorClass: "index-nav--item--link"
 pagemeta:
-  show: false
-  readingTime: true
+  show: true
+  publishDate: true
+  readingTime: false
 eleventyComputed:
   meta:
     author:
@@ -63,7 +64,7 @@ eleventyComputed:
           {% endif %}
 
 				{% if image.path %}
-					{% Markdown %}![{{ image.alt }}]({{ image.path }}){.image-rounded eleventy:widths="200,350"}{% endMarkdown %}
+					{% Markdown true %}![{{ image.alt }}]({{ image.path }}){.image-rounded eleventy:widths="200,350" eleventy:pictureattr:class="content-canvas-item-right margin-block-lg"}{% endMarkdown %}
 				{% endif %}
 
           {% if showTOC != false %}

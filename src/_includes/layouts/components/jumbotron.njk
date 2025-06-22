@@ -1,5 +1,5 @@
       {# {{ data | debug | safe }} #}
-      <div class="jumbotron{% if layout == 'home.njk' %} content-canvas-item-asdwide-right{% else %} content-canvas-item-wide-left-more{% endif %} margin-block-start-sml margin-block-end-md">
+      <div class="jumbotron{% if layout == 'home.njk' %} content-canvas-item-wide-right{% elif layout == 'episode.njk' %} content-canvas-item-out-left{% else %} content-canvas-item-wide-left-more{% endif %} margin-block-start-sml margin-block-end-md">
 
         {{ jumbotron | markdown | safe }}
         
