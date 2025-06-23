@@ -49,6 +49,11 @@ showTags: false
 metadata:
   cards:
     show: true
+appLinks:
+  apple: https://podcasts.apple.com/us/podcast/deliver-that-trailer/id1822252579?i=1000714174139
+  spotify:
+  playerfm:
+  amazon: https://music.amazon.com/podcasts/e0a4b1d8-6019-4fe2-aabb-eb3c2635c21c
 ---
 {% Markdown %}
 
@@ -67,6 +72,35 @@ And we’ll share our experiences of what it actually takes to deliver successfu
 Plus we’ll have some fascinating guests to hear their own stories, the lessons they learned and the scars they earned.
 
 **Deliver That!** — the project delivery podcast{.large}
+
+---
+
+## Subscribe where you get your podcasts
+
+{% ContentGrid "grid-columns-2 content-grid--gap-small margin-block-lg podcast-apps" %}
+
+{% if appLinks.apple %}
+<div class="podcast-apps--app podcast-apps--app--apple">
+  <a href="{{ appLinks.apple }}" target="_blank" rel="noopener noreferrer"><span></span></a>
+</div>
+{% endif %}
+{% if appLinks.spotify %}
+<div class="podcast-apps--app podcast-apps--app--spotify">
+  <a href="{{ appLinks.spotify }}" target="_blank" rel="noopener noreferrer"><span></span></a>
+</div>
+{% endif %}
+{% if appLinks.playerfm %}
+<div class="podcast-apps--app podcast-apps--app--playerfm">
+  <a href="{{ appLinks.playerfm }}" target="_blank" rel="noopener noreferrer"><span></span></a>
+</div>
+{% endif %}
+{% if appLinks.amazon %}
+<div class="podcast-apps--app podcast-apps--app--amazon">
+  <a href="{{ appLinks.amazon }}" target="_blank" rel="noopener noreferrer"><span></span></a>
+</div>
+{% endif %}
+
+{% endContentGrid %}
 
 ---
 

@@ -211,3 +211,53 @@ em {
     font-style: normal;
   }
 }
+
+.podcast-apps {
+  grid-template-columns: repeat(auto-fill, minmax(3.5rem, 1fr));
+}
+
+.podcast-apps--app {
+
+  span {
+    display: block;
+    width: 3.5rem;
+    height: 3.5rem;
+    mask-size: 90%;
+    mask-position: center;
+    mask-repeat: no-repeat;
+    background-color: var(--color-brand-primary);
+    transition: all .2s ease;
+  }
+
+  &:hover {
+    span {
+      mask-size: 100%;
+      background-color: var(--color-brand-primary-dark);
+      transition: all .2s ease;
+    }
+  }
+
+  &.podcast-apps--app--apple {
+    span {
+      mask-image: url("/public/images/icons/apple-podcasts-logo-blk.svg");
+    }
+  }
+
+  &.podcast-apps--app--spotify {
+    span {
+      mask-image: url("/public/images/icons/spotify-logo-blk.svg");
+    }
+  }
+
+  &.podcast-apps--app--playerfm {
+    span {
+      mask-image: url("/public/images/icons/playerfm-logo-blk.svg");
+    }
+  }
+
+  &.podcast-apps--app--amazon {
+    span {
+      mask-image: url("/public/images/icons/amazon-logo-blk.svg");
+    }
+  }
+}

@@ -82,6 +82,44 @@ eleventyComputed:
           {% endif %}
 
           {{ content | safe }}
+
+          <hr>
+
+          <h2 class="h3-style heading-wide">Listen where you get your podcasts</h2>
+
+          {% ContentGrid "grid-columns-2 content-grid--gap-small margin-block-lg podcast-apps" %}
+          
+          {% if appLinks.apple %}
+          <div class="podcast-apps--app podcast-apps--app--apple">
+            <a href="{{ appLinks.apple }}" target="_blank" rel="noopener noreferrer"><span></span></a>
+          </div>
+          {% endif %}
+          {% if appLinks.spotify %}
+          <div class="podcast-apps--app podcast-apps--app--spotify">
+            <a href="{{ appLinks.spotify }}" target="_blank" rel="noopener noreferrer"><span></span></a>
+          </div>
+          {% endif %}
+          {% if appLinks.playerfm %}
+          <div class="podcast-apps--app podcast-apps--app--playerfm">
+            <a href="{{ appLinks.playerfm }}" target="_blank" rel="noopener noreferrer"><span></span></a>
+          </div>
+          {% endif %}
+          {% if appLinks.amazon %}
+          <div class="podcast-apps--app podcast-apps--app--amazon">
+            <a href="{{ appLinks.amazon }}" target="_blank" rel="noopener noreferrer"><span></span></a>
+          </div>
+          {% endif %}
+
+          {% endContentGrid %}
+
+          {% if embedCode %}
+          <hr>
+
+          <h2 class="h3-style heading-wide">Or listen here</h2>
+
+          {{ embedCode | safe }}
+
+          {% endif %}
         {% endif %}
 
       {% endif %}
