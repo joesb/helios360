@@ -260,4 +260,10 @@ em {
       mask-image: url("/public/images/icons/amazon-logo-blk.svg");
     }
   }
+
+  &.podcast-apps--app--youtube {
+    span {
+      mask-image: url("/public/images/icons/youtube-logo-blk.svg");
+    }
+  }
 }

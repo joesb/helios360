@@ -99,14 +99,19 @@ eleventyComputed:
             <a href="{{ appLinks.spotify }}" target="_blank" rel="noopener noreferrer"><span></span></a>
           </div>
           {% endif %}
-          {% if appLinks.playerfm %}
-          <div class="podcast-apps--app podcast-apps--app--playerfm">
-            <a href="{{ appLinks.playerfm }}" target="_blank" rel="noopener noreferrer"><span></span></a>
-          </div>
-          {% endif %}
           {% if appLinks.amazon %}
           <div class="podcast-apps--app podcast-apps--app--amazon">
             <a href="{{ appLinks.amazon }}" target="_blank" rel="noopener noreferrer"><span></span></a>
+          </div>
+          {% endif %}
+          {% if appLinks.youtube %}
+          <div class="podcast-apps--app podcast-apps--app--youtube">
+            <a href="{{ appLinks.youtube }}" target="_blank" rel="noopener noreferrer"><span></span></a>
+          </div>
+          {% endif %}
+          {% if appLinks.playerfm %}
+          <div class="podcast-apps--app podcast-apps--app--playerfm">
+            <a href="{{ appLinks.playerfm }}" target="_blank" rel="noopener noreferrer"><span></span></a>
           </div>
           {% endif %}
 
