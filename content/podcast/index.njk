@@ -54,6 +54,7 @@ appLinks:
   spotify:
   playerfm:
   amazon: https://music.amazon.com/podcasts/e0a4b1d8-6019-4fe2-aabb-eb3c2635c21c
+  youtube: https://www.youtube.com/playlist?list=PLF9vjPE6U13u2pEAluerDWgH91i6A5q4H
 ---
 {% Markdown %}
 
@@ -97,14 +98,19 @@ Plus we’ll have some fascinating guests to hear their own stories, the lessons
   <a href="{{ appLinks.spotify }}" target="_blank" rel="noopener noreferrer"><span></span></a>
 </div>
 {% endif %}
-{% if appLinks.playerfm %}
-<div class="podcast-apps--app podcast-apps--app--playerfm">
-  <a href="{{ appLinks.playerfm }}" target="_blank" rel="noopener noreferrer"><span></span></a>
-</div>
-{% endif %}
 {% if appLinks.amazon %}
 <div class="podcast-apps--app podcast-apps--app--amazon">
   <a href="{{ appLinks.amazon }}" target="_blank" rel="noopener noreferrer"><span></span></a>
+</div>
+{% endif %}
+{% if appLinks.youtube %}
+<div class="podcast-apps--app podcast-apps--app--youtube">
+  <a href="{{ appLinks.youtube }}" target="_blank" rel="noopener noreferrer"><span></span></a>
+</div>
+{% endif %}
+{% if appLinks.playerfm %}
+<div class="podcast-apps--app podcast-apps--app--playerfm">
+  <a href="{{ appLinks.playerfm }}" target="_blank" rel="noopener noreferrer"><span></span></a>
 </div>
 {% endif %}
 
