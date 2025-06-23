@@ -114,27 +114,32 @@ html {
 }
 
 :where(hr) {
-  background-color: unset;
-  height: unset;
   display: grid;
   justify-content: center;
   margin-block: var(--size-fluid-3);
 
-  &:after {
-    content: "...";
-    letter-spacing: var(--size-3);
-    font-size: var(--font-size-5);
-    color: var(--color-brand-secondary);
-    margin-inline: auto;
-  }
-
-  &.left {
-    justify-content: left;
+  &:not(.alt) {
+  background-color: unset;
+  height: unset;
 
     &:after {
-      margin-inline-start: var(--size-9);
+      content: "...";
+      letter-spacing: var(--size-3);
+      font-size: var(--font-size-5);
+      color: var(--color-brand-secondary);
+      margin-inline: auto;
+    }
+
+    &.left {
+      justify-content: left;
+
+      &:after {
+        margin-inline-start: var(--size-9);
+      }
     }
   }
+
+
 }
 
 :where(dd) {

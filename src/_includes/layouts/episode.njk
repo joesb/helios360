@@ -1,0 +1,137 @@
+---
+layout: base.njk
+image:
+  path: /public/images/podcast/DeliverThat-Podcast-Artwork-03-01.jpg
+  alt: "Podcast episode artwork"
+  social: ./content/public/images/podcast/DeliverThat-Podcast-Artwork-03-01.jpg
+  widths: [150, 200]
+  class: []
+  pictureClass: 
+    list: []
+page:
+  classes:
+    - content-canvas
+    - page
+    - type-page
+showNav: true
+supertitleLinkBack: "/podcast/"
+type: episode
+navOptions:
+  listElement: "ul"
+  listItemElement: "li"
+  listClass: "index-nav--list"
+  listItemClass: "index-nav--list-item"
+  listItemHasChildrenClass: "index-nav--list-item--has-children"
+  listParentItemClass: "index-nav--list-item--parent"
+  activeListItemClass: "index-nav--list-item--active"
+  activeParentListItemClass: "index-nav--list-item--active--parent"
+  activeAnchorClass: "index-nav--list-item--link--active"
+  activeKey: eleventyNavigation.key
+  anchorClass: "index-nav--item--link"
+pagemeta:
+  show: true
+  publishDate: true
+  readingTime: false
+eleventyComputed:
+  meta:
+    author:
+      name: "{{ metadata.author.name }}"
+    published: "{{ date | iso8601 }}"
+    modified: "{% if changed %}{{ changed | iso8601 }}{% endif %}"
+---
+
+      {% if showTitle != false and primary != true %}
+      {% include "layouts/components/title-bar.njk" %}
+      {% endif %}
+
+      {% if pending %}
+
+				{% if image.path %}
+					{% Markdown %}![{{ image.alt }}]({{ image.path }}){.image-rounded eleventy:widths="200,350"}{% endMarkdown %}
+				{% endif %}
+
+				{% if jumbotron %}
+				{% include "layouts/components/jumbotron.njk" %}
+				{% endif %}
+
+			{% include "layouts/components/page-item-pending.njk" %}
+
+			{% else %}
+
+        {% if showContent != false %}
+          {% if jumbotron %}
+            {% include "layouts/components/jumbotron.njk" %}
+          {% endif %}
+
+				{% if image.path %}
+					{% Markdown true %}![{{ image.alt }}]({{ image.path }}){.image-rounded eleventy:widths="200,350" eleventy:pictureattr:class="content-canvas-item-right margin-block-lg"}{% endMarkdown %}
+				{% endif %}
+
+          {% if showTOC != false %}
+          {% set tocContent = content | toc %}
+          {% if tocContent | length %}
+          <aside>
+            <h2 class="h3-style">Covered here:</h2>
+            {{ tocContent | safe }}
+          </aside>
+          {% endif %}
+          {% endif %}
+
+          {% if pagemeta.show %}
+          {% include "layouts/components/page-metadata.njk" %}
+          {% endif %}
+
+          {{ content | safe }}
+
+          <hr>
+
+          <h2 class="h3-style heading-wide">Listen where you get your podcasts</h2>
+
+          {% ContentGrid "grid-columns-2 content-grid--gap-small margin-block-lg podcast-apps" %}
+          
+          {% if appLinks.apple %}
+          <div class="podcast-apps--app podcast-apps--app--apple">
+            <a href="{{ appLinks.apple }}" target="_blank" rel="noopener noreferrer"><span></span></a>
+          </div>
+          {% endif %}
+          {% if appLinks.spotify %}
+          <div class="podcast-apps--app podcast-apps--app--spotify">
+            <a href="{{ appLinks.spotify }}" target="_blank" rel="noopener noreferrer"><span></span></a>
+          </div>
+          {% endif %}
+          {% if appLinks.playerfm %}
+          <div class="podcast-apps--app podcast-apps--app--playerfm">
+            <a href="{{ appLinks.playerfm }}" target="_blank" rel="noopener noreferrer"><span></span></a>
+          </div>
+          {% endif %}
+          {% if appLinks.amazon %}
+          <div class="podcast-apps--app podcast-apps--app--amazon">
+            <a href="{{ appLinks.amazon }}" target="_blank" rel="noopener noreferrer"><span></span></a>
+          </div>
+          {% endif %}
+
+          {% endContentGrid %}
+
+          {% if embedCode %}
+          <hr>
+
+          <h2 class="h3-style heading-wide">Or listen here</h2>
+
+          {{ embedCode | safe }}
+
+          {% endif %}
+        {% endif %}
+
+      {% endif %}
+
+      {% if showNav %}
+      <div class="site-content content-canvas-item-full-right content-canvas-item-right--span-4 content-canvas-span-start-content-top index-nav">
+
+			  {% include "layouts/components/index-nav.njk" %}
+
+		  </div>
+      {% endif %}
+
+{% if pageLinks %}
+  {% include "layouts/components/page-pagelinks.njk" %}
+{% endif %}

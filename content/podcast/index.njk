@@ -1,0 +1,183 @@
+---
+title: Deliver That! Podcast
+description:  A podcast about delivery leadership for projects, teams, and programs — the big concepts, real-life stories from the front line, and everything involved in the role of a Chief Delivery Officer.
+layout: section.njk
+type: page
+date: 2025-06-23T14:29:44Z
+jumbotron: |
+  What does it take to get big stuff done?
+  
+  Why do things go wrong?
+  And what can you do to prevent that?
+  
+  &nbsp;
+
+  **Deliver That!** is a podcast about delivery leadership for projects, teams, and programs — the big concepts, real-life stories from the front line, and everything involved in the role of a Chief Delivery Officer.{.small}
+
+  No filters. No fluff.{.small}
+
+  Just honest conversations about what happens in project delivery, and how big things really get done.{.small}
+eleventyNavigation:
+  key: Podcast
+  title: Deliver That! Podcast
+  parent: Home
+  order: 90
+  hideMainNav: true
+  footer: true
+image:
+  social: ./content/public/images/podcast/DeliverThat-Podcast-Artwork-03-01.jpg
+  classes:
+    - content-canvas-item-wide-left-sm
+    - content-canvas-item-left--span-3
+  widths: [150, 200]
+helpcardStyles:
+  hs1:
+    - helpcard--background
+    - helpcard--background--grey
+    - helpcard--center-content
+    - helpcard--narrow
+  hs2:
+    - helpcard--background
+    - helpcard--background--grey
+    - helpcard--center-content
+    - helpcard--narrow
+listTitle: Episodes
+listSource: podcastEpisodes
+listAllMoreButton: false
+indexListType: "podcast"
+showTags: false
+metadata:
+  cards:
+    show: true
+appLinks:
+  apple: https://podcasts.apple.com/us/podcast/deliver-that-trailer/id1822252579?i=1000714174139
+  spotify:
+  playerfm:
+  amazon: https://music.amazon.com/podcasts/e0a4b1d8-6019-4fe2-aabb-eb3c2635c21c
+---
+{% Markdown %}
+
+---{.alt}
+
+{% ImgFigure '', image.classes %}
+![Deliver That! The Project Delivery Podcast](/public/images/podcast/DeliverThat-Podcast-Artwork-03-01.jpg){.image-rounded eleventy:widths="200,350,500"}
+{% endImgFigure %}
+
+For over two decades we’ve delivered more digital transformation projects than we care to count … and not all of them went to plan.{.content-canvas-item-main-left-main-end}
+
+We discuss it all — what works in delivery leadership and what doesn’t, and what’s important in the ideas behind the buzzwords.{.content-canvas-item-main-left-main-end}
+
+And we’ll share our experiences of what it actually takes to deliver successful outcomes.{.content-canvas-item-main-left-main-end}
+
+Plus we’ll have some fascinating guests to hear their own stories, the lessons they learned and the scars they earned.
+
+**Deliver That!** — the project delivery podcast{.large}
+
+{% endMarkdown %}
+
+<div class="margin-block-vlg">
+  <iframe title="Deliver That! Trailer" allowtransparency="true" height="150" width="100%" style="border: none; min-width: min(100%, 430px);height:150px;" scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=w8wkp-18e3aec-pb&from=pb6admin&share=1&download=1&rtl=0&fonts=Arial&skin=1&font-color=auto&logo_link=episode_page&btn-skin=654771" loading="lazy"></iframe>
+</div>
+
+{% Markdown %}
+
+---
+
+## Subscribe where you get your podcasts
+
+{% ContentGrid "grid-columns-2 content-grid--gap-small margin-block-lg podcast-apps" %}
+
+{% if appLinks.apple %}
+<div class="podcast-apps--app podcast-apps--app--apple">
+  <a href="{{ appLinks.apple }}" target="_blank" rel="noopener noreferrer"><span></span></a>
+</div>
+{% endif %}
+{% if appLinks.spotify %}
+<div class="podcast-apps--app podcast-apps--app--spotify">
+  <a href="{{ appLinks.spotify }}" target="_blank" rel="noopener noreferrer"><span></span></a>
+</div>
+{% endif %}
+{% if appLinks.playerfm %}
+<div class="podcast-apps--app podcast-apps--app--playerfm">
+  <a href="{{ appLinks.playerfm }}" target="_blank" rel="noopener noreferrer"><span></span></a>
+</div>
+{% endif %}
+{% if appLinks.amazon %}
+<div class="podcast-apps--app podcast-apps--app--amazon">
+  <a href="{{ appLinks.amazon }}" target="_blank" rel="noopener noreferrer"><span></span></a>
+</div>
+{% endif %}
+
+{% endContentGrid %}
+
+---
+
+{% ContentGrid "content-canvas-item-wide-left-more grid-columns-2 margin-block" %}
+
+## Your hosts:{.content-grid-item-span-2}
+
+{% HelpCard true, helpcardStyles.hs1 %}
+![Steve Hunton](/public/images/steve-h-portrait.jpg){.image-greyscale-25 .image-rounded eleventy:widths="200,350,425"}
+{.margin-block-none}
+
+### Steve Hunton{.hide-permalink}
+
+Steve would rather be mastering the gentle art of origami.
+
+{% endHelpCard %}
+
+{% HelpCard true, helpcardStyles.hs2 %}
+![Joe Baker](/public/images/me-july-2024-portrait.jpeg){.image-greyscale-50 .image-rounded eleventy:widths="200,350,425"}
+{.margin-block-none}
+
+### Joe Baker{.hide-permalink}
+
+Joe's spirit animal is a squirrel carrying a bottle of wine up a tree.
+
+{% endHelpCard %}
+
+{% endContentGrid %}
+
+---
+
+{% endMarkdown %}
+
+<h2 id="contact-form" class="margin-block-lg">Ask a question</h2>
+
+<p>Got a question for the podcast? Ask away!</p>
+<p class="small italic">No funny business — we only use contact details to respond to questions, nothing else.</p>
+
+<form method="POST" action="/api/submit" class="site-form contact-form">
+
+  <div class="form-group form-group--input">
+    <label for="i-fullname">Your name</label>
+    <input id="i-fullname" type="text" name="fullname" pattern="[A-Za-z ]+" required />
+  </div>
+
+  <div class="form-group form-group--input">
+    <label for="i-email">Email address</label>
+    <input id="i-email" type="email" name="email" required />
+  </div>
+
+  <label id="honey" for="contact-name">Contact name
+      <input type="text" id="contact-name" name="contact-name">
+  </label>
+
+  <input type="hidden" id="is-podcaster" name="is-podcaster">
+
+  <hr />
+
+  <div class="form-group form-group--input margin-block-start-md">
+    <label for="i-subject">Subject</label>
+    <input id="i-subject" type="text" name="subject" required />
+  </div>
+
+  <div class="form-group form-group--input">
+    <label for="i-message">Your message</label>
+    <textarea id="i-message" name="message" required rows="5" cols="33"></textarea>
+  </div>
+
+  <div class="form-group form-group--submit">
+    <button type="submit">Submit</button>
+  </div>
+</form>

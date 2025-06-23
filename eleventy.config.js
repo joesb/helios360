@@ -160,6 +160,10 @@ export default async function(eleventyConfig) {
     }
   );
 
+  eleventyConfig.addPairedShortcode("ContentGrid", (content, classes = '') => {
+    return '<div class="content-grid' + ( classes ? ` ${classes}` : '') +'">' + content + '</div>';
+  });
+
   // Images
   eleventyConfig.addShortcode("image", async function (src, alt, cls, widths = [300, 620], sizes = "100vh", picCls = "") {
 		let metadata = await Image(src, {
@@ -291,6 +295,12 @@ export default async function(eleventyConfig) {
     return nav.length ? sortByOrder(nav, 'eleventyNavigation') : [];
   });
 
+  // Podcast episode collection
+  eleventyConfig.addCollection('podcastEpisodes', (collection) => {
+    var episodes = collection.getFilteredByGlob('./content/podcast/ep*.md');
+    return episodes.length ? sortByDate(episodes) : [];
+  });
+
   eleventyConfig.addFilter('sortByDate', (collection, andSticky = true) => {
     return sortByDate(collection, andSticky);
   });
@@ -325,6 +335,16 @@ export default async function(eleventyConfig) {
     });
   }
 
+  // Sort by episode number
+  function sortByEpNumber(collection, andSticky = true) {
+    return collection.sort((a, b) => {
+      if (andSticky && b.data.sticky) return -1;
+      else if (a.data.number < b.data.number) return -1;
+      else if (a.data.number > b.data.number) return 1;
+      else return 0;
+    });
+  }
+
   function trimTrailingChars(s, charToTrim) {
     var regExp = new RegExp(charToTrim + "+$");
     var result = s.replace(regExp, "");
@@ -352,8 +372,8 @@ export default async function(eleventyConfig) {
     return markdownLibrary.render(content);
   });
 
-  eleventyConfig.addPairedShortcode("Markdown", function(content) {
-    return markdownLibrary.render(content);
+  eleventyConfig.addPairedShortcode("Markdown", function(content, ril = false) {
+    return ril ? markdownLibrary.renderInline(content) : markdownLibrary.render(content);
   });
 
   eleventyConfig.addPassthroughCopy('content/public/');
