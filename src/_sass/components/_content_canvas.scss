@@ -375,6 +375,10 @@
     &.content-canvas-item-left--span-3 {
       grid-row: span 3;
     }
+
+    &.content-canvas-item-left--span-4 {
+      grid-row: span 4;
+    }
   }
 
   .pull-right {
