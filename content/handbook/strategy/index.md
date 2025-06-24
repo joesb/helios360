@@ -8,12 +8,16 @@ jumbotron: |
   And how do you pick up an existing delivery strategy, work out what's working and what isn't, and make improvements that stick?
 pending: false
 date: 2025-03-24T14:54:03Z
-updated: 2025-06-24T17:12:29Z
+updated: 2025-06-24T17:52:29Z
 eleventyNavigation:
   key: Building a delivery strategy
   parent: Handbook
   root: Handbook
   order: 30
+listTitle: In this section
+listSource: handbookStrategy
+listAllMoreButton: true
+listItemTitle: nav
 tags:
   - '#handbookPromoted'
 image:
@@ -34,11 +38,10 @@ We begin by sketching out that environment and how to go about understanding who
 
 We'll take a look at the sort of things you should be considering in your first 30 and first 100 days. To do that, we'll go into some more depth on a few things you'll need to do from the start that we've outlined already as the [key skills of a CDO](/handbook/what/important-skills/), things like building relationships and establishing your credibility.
 
-The chapter then advocates for a two-pronged approach to building out your approach in the business built on a thoroughgoing understanding of the [relationship between strategy and tactics](/handbook/what/important-skills/#strategic-vision-tactical-view) that we've described a little in the previous chapter.
+The chapter then advocates for a two-pronged approach to building out your approach in the business built on a thoroughgoing understanding of the [relationship between a strategic vision and a tactical view](/handbook/what/important-skills/#strategic-vision-tactical-view) that we've described a little in the previous chapter.
 
-- **Strategy:**{.h3-style}
-    Walking up the hill to see the horizon
-- **Tactics:**{.h3-style}
-    Doing the ground work at ground level
+**Strategy:**{.h4-style} walking up the hill to see the horizon
+**Tactics:**{.h4-style} doing the ground work at ground level
+{.padding-inline-start-vlg}
 
 We'll round things out with some practical steps to join things up in the midst of BAU.

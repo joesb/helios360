@@ -295,6 +295,12 @@ export default async function(eleventyConfig) {
     return nav.length ? sortByOrder(nav, 'eleventyNavigation') : [];
   });
 
+  // Handbook: Strategy collection
+  eleventyConfig.addCollection('handbookStrategy', (collection) => {
+    var nav = collection.getFilteredByTag('#handbookStrategy');
+    return nav.length ? sortByOrder(nav, 'eleventyNavigation') : [];
+  });
+
   // Podcast episode collection
   eleventyConfig.addCollection('podcastEpisodes', (collection) => {
     var episodes = collection.getFilteredByGlob('./content/podcast/ep*.md');
