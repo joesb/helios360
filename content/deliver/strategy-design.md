@@ -2,7 +2,7 @@
 title: Strategy Design
 layout: page.njk
 type: page
-description: Effective delivery strategy, operating model and implementation tools that align with your business goals
+description: Outcome-oriented project strategy, operating model and implementation tools that align with your business goals
 jumbotron: |
   **Your organisation's delivery strategy needs to align with your business goals, your operating capabilities, your sector and specialism, and your clients' needs.**
 
