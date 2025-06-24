@@ -192,7 +192,7 @@ export default async function(eleventyConfig) {
 	});
 
   eleventyConfig.addAsyncShortcode("imageData", async function(src) {
-    var picture = await getPictureData(src, [800]);
+    var picture = await getPictureData(src, [1200]);
     return picture.jpeg[0].url;
   });
 
