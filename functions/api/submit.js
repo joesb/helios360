@@ -16,7 +16,7 @@ export async function onRequestPost(context) {
         output[key] = value;
       }
        else {
-        output[key] = (podcaster && key == 'subject') ? [].concat(tmp, 'Podcast question: ' + value) : [].concat(tmp, value);
+        output[key] = [].concat(tmp, value);
       }
     }
     // output: {
@@ -42,7 +42,7 @@ ${output.message}`;
       from: context.env.SENDER_EMAIL,
       replyTo: output.email,
       to: context.env.RECIPIENT_EMAIL,
-      subject: `[Helios360] Contact form request from ${output.fullname}: ${output.subject}`,
+      subject: `[Helios360` + (podcaster ? ` | podcaster` : ``) + `] Contact form request from ${output.fullname}: ${output.subject}`,
       text: messageContent,
     });
     console.log({data, error});
