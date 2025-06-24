@@ -493,13 +493,20 @@ Rest and rejuvenation are absolutely essential. Never treat them as an optional 
 
 What that down-time looks like is different for each person, but good sleep, good nutrition, exercise, time with friends and family, time in nature, time for hobbies and pastimes — all are things to include, where possible.
 
-Capacity (i.e. avoiding overload) and rest (i.e. ensuring enough) are such essential dynamics that at several companies now I've built a traffic light system for me and my team to keep track of things.
+{% Note true, "content-note-info content-canvas-item-wide-left-more", "yes" %}
+**Power-up: traffic lights**{.h3-style}
+{.border-bottom .margin-block-end-lg}
 
-- current tasks per person as % of full capacity
+Capacity (i.e. avoiding overload) and rest (i.e. ensuring enough) are such essential dynamics that at several companies now I've built a *traffic light system*{.larger} for me and my team to keep track of things. 
+
+This tracks these elements at the top level and then gives a green/red/amber light for each person in the team:
+
+- Current tasks as % of full capacity
   - 75–85% is the green zone
-- time elapsed since last time off work
+- Time elapsed since last time off work
   - and duration of last PTO
-    - the odd day or long weekend is fine, but full weeks are better for recharging
+    - the odd day or long weekend is fine
+    - but full weeks (or longer!) are better for recharging
 
 I've then used that as the basis of both planning and of caring for my team, making sure everyone has:
 
@@ -513,6 +520,8 @@ I've then used that as the basis of both planning and of caring for my team, mak
     - no emails, calls, or notifications
     - no drop-in meetings
   - time to not think about work at all
+
+{% endNote %}
 
 ---
 
