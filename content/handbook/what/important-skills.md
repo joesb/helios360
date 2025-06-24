@@ -8,7 +8,7 @@ jumbotron: |
   Let's look at each in turn.
 pending: false
 date: 2025-03-04
-updated: 2025-06-24T12:45:16Z
+updated: 2025-06-24T15:05:16Z
 pagemeta:
   show: true
 eleventyNavigation:
@@ -526,3 +526,13 @@ I've then used that as the basis of both planning and of caring for my team, mak
 ---
 
 ## Lucky!
+
+And finally, the successful Chief Delivery Officer will need a healthy sprinkling of luck.
+
+{% ImgFigure 'A man wearing an angel costume. <a href="https://www.pexels.com/photo/a-man-wearing-an-angel-costume-8512734/" target="_blank" rel="noopener">Photo</a> by <a href="https://www.pexels.com/@koolshooters/" target="_blank" rel="noopener">KoolShooters</a>.', image.side_classes %}![A man wearing an angel costume](/public/images/source/pexels-koolshooters-8512734.jpg){.image-rounded eleventy:widths="200,350"}{% endImgFigure %}
+
+Every CDO will encounter surprising situations, difficult clients and challenging colleagues, a conservative organisational culture, institutional muscle-memory and more factors that make forward progress difficult. Their luck will determine on the proportion of each of these they face simultaneously and how much effort is therefore required to overcome the things thrown at them.{.content-canvas-item-main-left-main-end}
+
+Highly competent and capable people can find themselves confronting a once-in-a-century event. Unlucky people might have 3 or 4 in a year. No one can be expected to prevail against such difficulties, let alone thrive.{.content-canvas-item-main-left-main-end}
+
+Let's pray that never happens to you. But make a purification offering to the gods of good fortune, just in case.{.content-canvas-item-main-left-main-end}
