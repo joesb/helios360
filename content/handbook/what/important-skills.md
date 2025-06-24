@@ -529,7 +529,7 @@ I've then used that as the basis of both planning and of caring for my team, mak
 
 And finally, the successful Chief Delivery Officer will need a healthy sprinkling of luck.
 
-{% ImgFigure 'Paper with lucky tickets taped to a wall. <a href="https://www.pexels.com/photo/a-paper-taped-on-a-wall-3826581/" target="_blank" rel="noopener">Photo</a> by <a href="https://www.pexels.com/@cottonbro/" target="_blank" rel="noopener">cottonbro studio</a>.', image.side_classes %}![Paper with lucky tickets taped to a wall](/public/images/source/pexels-cottonbro-3826581.jpg){.image-rounded eleventy:widths="200,350"}{% endImgFigure %}
+{% ImgFigure 'A man wearing an angel costume. <a href="https://www.pexels.com/photo/a-man-wearing-an-angel-costume-8512734/" target="_blank" rel="noopener">Photo</a> by <a href="https://www.pexels.com/@koolshooters/" target="_blank" rel="noopener">KoolShooters</a>.', image.side_classes %}![A man wearing an angel costume](/public/images/source/pexels-koolshooters-8512734.jpg){.image-rounded eleventy:widths="200,350"}{% endImgFigure %}
 
 Every CDO will encounter surprising situations, difficult clients and challenging colleagues, a conservative organisational culture, institutional muscle-memory and more factors that make forward progress difficult. Their luck will determine on the proportion of each of these they face simultaneously and how much effort is therefore required to overcome the things thrown at them.{.content-canvas-item-main-left-main-end}
 
