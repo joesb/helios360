@@ -444,6 +444,76 @@ These sorts of people are more interested in maintaining an atmosphere of busyne
 
 ### Resilience
 
+The intensity of the CDO's position, the responsibility of delivering big stuff, relentless scrutiny, and the weighty demands of a people-centric and outcome-focused role make for a perfect storm of pressure.
+
+{% ImgFigure 'Two yellow flowers surrounded by rocks. <a href="https://www.pexels.com/photo/two-yellow-flowers-surrounded-by-rocks-1028930/" target="_blank" rel="noopener">Photo</a> by <a href="https://www.pexels.com/@nacho-juarez-386052/" target="_blank" rel="noopener">Nacho Juárez</a> on Pexels.', image.side_classes %}
+![Two yellow flowers surrounded by rocks](/public/images/source/pexels-nacho-juarez-386052-1028930.jpg){.image-rounded eleventy:widths="200,350,500,780"}
+{% endImgFigure %}
+
+Without effective ways to handle them, these can result in stress, risking poor decision-making, depression, burnout, or other long-term physical and mental health consequences.{.content-canvas-item-main-left-main-end}
+
+Resilience is the antidote to this, something of a necessity for a high performing delivery principal.{.content-canvas-item-main-left-main-end}
+
+Resilience is less about how to manage stress, and more about how you equip yourself with the tools that improve your effectiveness in your role as well as your quality of life overall.{.content-canvas-item-main-left-main-end}
+
+#### Resilience: nature, nurture, environment
+
+[Resilience is a complex thing](https://pmc.ncbi.nlm.nih.gov/articles/PMC10251360/){target=_blank rel="noreferrer noopener"}, with multiple aspects interacting to determine one's ability to respond to pressure and resist it turning into stress.
+
+Innate personality and character traits provide the primary determinant, but our baseline resilience also adaptable and can be trained, like a muscle — intentional practice can help improve our sustainable performance.
+
+#### Understand your capacity
+
+You'll be familiar with 'velocity' as a measure of capacity — it's used a lot in Agile project management to understand how many story points a delivery team can achieve in a given time (a two-week sprint, say).
+
+You could also adapt the concept to understand your personal capacity and use it as a barometer of your risk of overload. In particular, if you're taking on stuff that exceeds your normal velocity then that's a sign that fatigue is approaching if you're not careful.
+
+For example, work that happens outside normal office hours should be a warning of heavey weather ahead!
+
+#### Manage your cognitive load
+
+Your brain is your greatest asset but it has a limited capacity. When it's overloaded then everything degrades — so-called cognitive function drops, and fatigue sets in. You can help yourself, though.
+
+- Decision-making is essential, but low-value decisions are a load you don't need.
+  - Automate whatever you can
+  - Delegate wherever possible
+  - Empower by default
+- Recognise the signs of fatigue
+  - Delay big and important things, if necessary
+  - Be careful how you communicate with a fatigued brain and body
+    - Never send emails when you're tired!
+- Schedule high-impact things for the times of the day when you're most energised
+  - For some that's the first thing, for others later on, etc.
+
+#### Rest and recovery is vital, not optional
+
+Fatigue is so detrimental to your performance that preventing exhaustion must be one of your main aims in life.
+
+Rest and rejuvenation are absolutely essential. Never treat them as an optional extra.
+
+What that down-time looks like is different for each person, but good sleep, good nutrition, exercise, time with friends and family, time in nature, time for hobbies and pastimes — all are things to include, where possible.
+
+Capacity (i.e. avoiding overload) and rest (i.e. ensuring enough) are such essential dynamics that at several companies now I've built a traffic light system for me and my team to keep track of things.
+
+- current tasks per person as % of full capacity
+  - 75–85% is the green zone
+- time elapsed since last time off work
+  - and duration of last PTO
+    - the odd day or long weekend is fine, but full weeks are better for recharging
+
+I've then used that as the basis of both planning and of caring for my team, making sure everyone has:
+
+- the right amount of interesting stuff to do
+  - enough to stay engaged and challenged
+  - not so much they're exhausted
+- good time away from the daily demands
+  - plenty of short breaks — proper weekends, odd days off
+  - no problematic long gaps between holidays
+  - fully downing tools
+    - no emails, calls, or notifications
+    - no drop-in meetings
+  - time to not think about work at all
+
 ---
 
 ## Lucky!
