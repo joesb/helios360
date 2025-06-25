@@ -10,7 +10,7 @@ jumbotron: |
   Here we look at all that, plus some specific issues about the reach and influence that the CDO has to make changes and improvements in the organisation.
 pending: false
 date: 2025-02-05
-updated: 2025-06-25T16:12:09Z
+updated: 2025-06-25T16:52:09Z
 eleventyNavigation:
   key: The CDO role
   parent: What makes a CDO?
@@ -130,10 +130,10 @@ The customer has bought something{.text-color-brand-secondary}
   : And they should rightly expect something in return
 
 The customer is not always right{.text-color-brand-secondary}
-  : Despite the adage, your highest duty is to bring clarity to your clients, to help them achieve the right outcomes — you do that as experts in your field, and you bring that expertise to your delivery
+  : Despite the adage, your highest duty is to bring clarity to your clients, to help them achieve the right outcomes — you do that as experts in your domain, that's and you bring that expertise to your delivery
 
 The business has a vision and a direction of travel{.text-color-brand-secondary}
-  : What you do for your clients must allow the company to take the next step on the path there
+  : What you do for your clients must allow the company to take the next step on the path to where it's going
 
 The business doesn't need to get there in one go{.text-color-brand-secondary}
   : The path to the business's goals will be a zigzag route. Some latitude is important — as long as the trend is in the right direction, all good. And there's lots to learn along the way, lots of which could end up being useful for the journey as a whole.
