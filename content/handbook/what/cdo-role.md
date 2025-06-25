@@ -130,7 +130,7 @@ The customer has bought something{.text-color-brand-secondary}
   : And they should rightly expect something in return
 
 The customer is not always right{.text-color-brand-secondary}
-  : Despite the adage, your highest duty is to bring clarity to your clients, to help them achieve the right outcomes — you do that as experts in your domain, that's and you bring that expertise to your delivery
+  : Despite the adage, your highest duty is to bring clarity to your clients, to help them achieve the right outcomes — you do that as experts in your domain, and you bring that expertise to your delivery
 
 The business has a vision and a direction of travel{.text-color-brand-secondary}
   : What you do for your clients must allow the company to take the next step on the path to where it's going
