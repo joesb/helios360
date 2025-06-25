@@ -10,7 +10,7 @@ jumbotron: |
   Here we look at all that, plus some specific issues about the reach and influence that the CDO has to make changes and improvements in the organisation.
 pending: false
 date: 2025-02-05
-updated: 2025-06-09T16:25:09Z
+updated: 2025-06-25T15:22:09Z
 eleventyNavigation:
   key: The CDO role
   parent: What makes a CDO?
@@ -44,9 +44,11 @@ But the CDO position stands out for some important and distinctive reasons.{.con
 
 Here we'll explored what those are, why they're important — both for the CDO and for the business — and how they frame the position and function of the head of delivery in the organisation.{.content-canvas-item-main-left-main-end}
 
-The role of Chief Delivery Officer is a relatively new label for a set of duties and responsibilities in the organisation. Previously these functions might have been handled by someone at a different level in the business who reports, directly or maybe indirectly, to someone at executive level — maybe the Chief Operating Officer, say. Here we are going to examine the case for viewing this position as an executive-level role in itself.
+The role of Chief Delivery Officer is a relatively new label for a set of duties and responsibilities in the organisation. Previously these functions might have been handled by someone at a different level in the business who reports, directly or maybe indirectly, to someone at executive level — maybe the Chief Operating Officer, say.
 
-A consistent insight from CEOs and founders, though, is that the CDO role is both vital to the business and it's also one of the hardest positions to fill, especially in a dynamic and growing organisation. [Alex Frison](https://www.linkedin.com/in/alexfrison/){target=_blank rel="noreferrer nofollow noopener"}, CEO of [Syde](https://syde.com/){target=_blank rel="noreferrer noopener"}, Europe's largest Wordpress agency, says that it's a challenge precisely because there's so many skills that are essential in the role.
+Here we are going to examine the case for viewing this position as an executive-level role in itself, especially for organisations that have a significant component of service delivery or professional services where the reputation of the business is at stake in how those areas are led.
+
+A consistent insight from CEOs and founders, though, is that the CDO role is both vital to the business and it's also one of the hardest positions to fill, especially in a dynamic and growing organisation. [Alex Frison](https://www.linkedin.com/in/alexfrison/){target=_blank rel="noreferrer nofollow noopener"}, CEO of [Syde](https://syde.com/){target=_blank rel="noreferrer noopener"}, Europe's largest Wordpress agency, says that it's a challenge precisely because there's so many skills that are essential in the role. We'll begin to unpack why that's the case.
 
 We'll cover all that in detail in this chapter, and come back to it throughout the rest of the *Handbook*.
 
