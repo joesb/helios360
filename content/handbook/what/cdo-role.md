@@ -10,7 +10,7 @@ jumbotron: |
   Here we look at all that, plus some specific issues about the reach and influence that the CDO has to make changes and improvements in the organisation.
 pending: false
 date: 2025-02-05
-updated: 2025-06-25T15:22:09Z
+updated: 2025-06-25T16:12:09Z
 eleventyNavigation:
   key: The CDO role
   parent: What makes a CDO?
@@ -86,7 +86,14 @@ The process of delivering products and/or services for the company is a unique c
 
 In other words, the company's reputation is built on how you deliver for customers.
 
-Service delivery does not sit in sweet isolation, of course. It's a core part of the whole customer journey, but that starts way before services are being delivered in the marketing phase and sales experience. And it continues on afterwards, too, into the live service stage where clients should be successful in using what they've bought, and look to buy more from the business, all being well.
+> The role of the CDO is the only way to differentiate yourself as a business.{.large}
+>
+> *[Karim Marucchi](https://www.linkedin.com/in/karimmarucchi/){target=_blank rel="noreferrer nofollow noopener"}, CEO, [Crowd Favorite](https://crowdfavorite.com/){target=_blank rel="noreferrer noopener"}*
+{.content-canvas-item-wide-left .bq-alt-2}
+
+Service delivery does not sit in sweet isolation, of course. It's a core part of the whole customer journey, but that starts way before services are being delivered in the marketing phase and sales experience.{.content-canvas-item-right}
+
+And it continues on afterwards, too, into the live service stage where clients should be successful in using what they've bought, and look to buy more from the business, all being well.
 
 For enterprise Wordpress agency [XWP](https://xwp.co/){target=_blank rel="noreferrer noopener"}, this is precisely why the CEO, [Myles Lagolago-Craig](https://www.linkedin.com/in/myleslc/){target=_blank rel="noreferrer nofollow noopener"}, sees delivery as a dimension of sales and marketing. For him, the company and its customers have a positive gain that comes with the commercial focus sitting in creative tension with delivery practices.
 
