@@ -11,7 +11,7 @@ jumbotron: |
   
   Plus, engaging with and unpicking the history into which you're walking.
 pending: false
-date: 2025-06-24T17:55:03Z
+date: 2025-06-26T16:45:03Z
 eleventyNavigation:
   key: Evaluating BAU
   parent: Building a delivery strategy
