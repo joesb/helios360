@@ -165,7 +165,7 @@ export default async function(eleventyConfig) {
   });
 
   // Images
-  eleventyConfig.addShortcode("image", async function (src, alt, cls, widths = [300, 620], sizes = "100vh", picCls = "") {
+  eleventyConfig.addShortcode("image", async function (src, alt, cls, widths = [300, 620], sizes = "auto", picCls = "") {
 		let metadata = await Image(src, {
 			widths,
 			formats: ["webp", "jpeg"],
@@ -292,6 +292,12 @@ export default async function(eleventyConfig) {
   // Handbook: Delivery collection
   eleventyConfig.addCollection('handbookDelivery', (collection) => {
     var nav = collection.getFilteredByTag('#handbookDelivery');
+    return nav.length ? sortByOrder(nav, 'eleventyNavigation') : [];
+  });
+
+  // Handbook: Strategy collection
+  eleventyConfig.addCollection('handbookStrategy', (collection) => {
+    var nav = collection.getFilteredByTag('#handbookStrategy');
     return nav.length ? sortByOrder(nav, 'eleventyNavigation') : [];
   });
 

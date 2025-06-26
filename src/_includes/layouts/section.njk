@@ -3,8 +3,13 @@ layout: base.njk
 primary: true
 image:
   social: ./content/public/images/pexels-stephane-hurbe-1267753-21913865.jpg
-  widths: [300, 620, 1200]
-  widthsSmall: [300, 620]
+  widths: [300, 620, 760]
+  widthsLarge: [300, 620, 1200]
+  sizes: "100vw"
+  figClasses:
+    - content-canvas-item-wide-left-more
+    - margin-block-vlg
+  beforeJT: true
 showNav: true
 listAllDescriptions: true
 indexListType: standard
@@ -38,26 +43,33 @@ pagemeta:
         
       {% if pending %}
 
-				{% if image.path %}
-					<figure class="{{ image.figureClass }}">
-					{% image image.path, image.alt, image.class, image.pictureClass %}
-					{% if image.caption %}
-					<figcaption>{{ image.caption | safe }}{% if image.credit %} {{ image.credit | safe }}{% endif %}</figcaption>
-					{% endif %}
-					</figure>
-				{% endif %}
+          {% if image.path and image.beforeJT %}
+            {% ImgFigure image.caption, image.figClasses %}![{{ image.alt }}]({{ image.path }}){.image-rounded eleventy:widths="{{ image.widths }}" eleventy:formats="webp,jpg"}{% endImgFigure %}
+          {% endif %}
 
-				{% if jumbotron %}
-				{% include "layouts/components/jumbotron.njk" %}
-				{% endif %}
+          {% if jumbotron %}
+            {% include "layouts/components/jumbotron.njk" %}
+          {% endif %}
+
+          {% if image.path and image.beforeJT === false %}
+            {% ImgFigure image.caption, image.figClasses %}![{{ image.alt }}]({{ image.path }}){.image-rounded eleventy:widths="{{ image.widths }}" eleventy:formats="webp,jpg"}{% endImgFigure %}
+          {% endif %}
 
 			{% include "layouts/components/page-item-pending.njk" %}
 
 			{% else %}
+				
+          {% if image.path and image.beforeJT %}
+            {% ImgFigure image.caption, image.figClasses %}![{{ image.alt }}]({{ image.path }}){.image-rounded eleventy:widths="{{ image.widths }}" eleventy:formats="webp,jpg"}{% endImgFigure %}
+          {% endif %}
 
-				{% if jumbotron %}
-				{% include "layouts/components/jumbotron.njk" %}
-				{% endif %}
+          {% if jumbotron %}
+            {% include "layouts/components/jumbotron.njk" %}
+          {% endif %}
+
+          {% if image.path and image.beforeJT === false %}
+            {% ImgFigure image.caption, image.figClasses %}![{{ image.alt }}]({{ image.path }}){.image-rounded eleventy:widths="{{ image.widths }}" eleventy:formats="webp,jpg"}{% endImgFigure %}
+          {% endif %}
 
         {% if pagemeta.show %}
         {% include "layouts/components/page-metadata.njk" %}
