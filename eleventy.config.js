@@ -165,7 +165,7 @@ export default async function(eleventyConfig) {
   });
 
   // Images
-  eleventyConfig.addShortcode("image", async function (src, alt, cls, widths = [300, 620], sizes = "100vh", picCls = "") {
+  eleventyConfig.addShortcode("image", async function (src, alt, cls, widths = [300, 620], sizes = "auto", picCls = "") {
 		let metadata = await Image(src, {
 			widths,
 			formats: ["webp", "jpeg"],

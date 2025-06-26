@@ -24,13 +24,13 @@ image:
   social: content/public/images/source/pexels-rdne-7888728.jpg
   classes:
     - margin-block-end-vlg
+  path: /public/images/source/pexels-rdne-7888728.jpg
+  alt: Woman drinking from a ceramic mug
+  caption: 'Woman drinking from a ceramic mug. <a href="https://www.pexels.com/photo/woman-drinking-on-ceramic-mug-7888728/" target="_blank" rel="noopener">Photo</a> by <a href="https://www.pexels.com/@rdne/" target="_blank" rel="noopener">RDNE</a> on Pexels.'
+  beforeJT: false
 pagemeta:
   show: true
 ---
-
-{% ImgFigure 'Woman drinking from a ceramic mug. <a href="https://www.pexels.com/photo/woman-drinking-on-ceramic-mug-7888728/" target="_blank" rel="noopener">Photo</a> by <a href="https://www.pexels.com/@rdne/" target="_blank" rel="noopener">RDNE</a> on Pexels.', image.classes %}
-![Woman drinking from a ceramic mug](/public/images/source/pexels-rdne-7888728.jpg){.image-rounded eleventy:widths="200,350,500,780"}
-{% endImgFigure %}
 
 This chapter takes seriously the problem of business-as-usual (BAU) and what the delivery landscape looks like on the first day the CDO arrives.
 
