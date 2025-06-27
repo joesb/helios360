@@ -11,7 +11,7 @@
       {% set trash = sze.next() %}
       {% endif %}
 
-      <li class="faux-block-link-parent index-list__item index-list__item-{{ loop.index }}{% if loop.first %} index-list__item-first{% endif %} index-list__item-{{ vr }}{% if loop.index != 1 %} index-list__item-{{ sze.next() }}{% endif %}{% if item.data.image.path %} index-list__item--picture{% endif %}">
+      <li class="faux-block-link-parent index-list__item index-list__item-{{ loop.index }}{% if loop.first %} index-list__item-first{% endif %} index-list__item-{{ vr }}{% if loop.index != 1 %} index-list__item-{{ sze.next() }}{% endif %}">
         <div class="index-list__item__content">
           {% if item.data.tags and showTags !== false %}
           {% set itemTags = [] %}
@@ -52,18 +52,6 @@
             <span class="single-meta-item single-meta-forward text-color-brand-primary" title="Learn more about {{ item.data.title }}">Learn more</span>
           </div>
           {% endif %}
-        {# {% if item.data.image.path %}
-          {% if image.widths %}
-            {% if loop.first %}
-              {% set imageWidths = item.data.image.widths %}
-            {% else %}
-              {% set imageWidths = item.data.image.widthsSmall %}
-            {% endif %}
-          {% else %}
-            {% set imageWidths = item.data.image.widths %}
-          {% endif %}
-          {% image item.data.image.path, item.data.image.alt, item.data.image.class, imageWidths, "100vh", item.data.image.pictureClass.list %}
-        {% endif %} #}
         </div>
         <a href="{{ item.url | url }}"{% activepath item.url, page.url %} class="faux-block-link" aria-label="{{ item.data.title }}"></a>
       </li>
