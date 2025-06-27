@@ -74,7 +74,7 @@ The first dimension involves acknowledging that a Chief Delivery Officer is an e
 
 A CDO needs to be able to work closely with other leaders in the organisation.
 
-The CDO cannot solve all the problems the business faces, obviously. That is the precisely remit of the executive team together — to combine the experience and wisdom accumulated in their distinct specialisms to work together to achieve the goals and objectives of the business, and together to overcome the difficulties and challenges presented to the organisation.
+The CDO cannot solve all the problems the business faces, obviously. That's the remit of the executive team together — to combine the experience and wisdom accumulated in their distinct specialisms to work together to achieve the goals and objectives of the business, and together to overcome the difficulties and challenges presented to the organisation.
 
 The process of delivering products and/or services for the company is a unique component of that effort. Service delivery is a part of the business that clients experience most closely. In some contexts, it's the essential component.
 
