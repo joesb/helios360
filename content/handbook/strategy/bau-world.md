@@ -11,7 +11,7 @@ jumbotron: |
   
   Plus, engaging with and unpicking the history into which you're walking.
 pending: false
-date: 2025-06-26T16:45:03Z
+date: 2025-06-30T16:51:03Z
 eleventyNavigation:
   key: Evaluating BAU
   parent: Building a delivery strategy
@@ -22,10 +22,10 @@ tags:
 pagemeta:
   show: true
 image:
-  social: content/public/images/source/pexels-jakubzerdzicki-16213397.jpg
-  path: /public/images/source/pexels-jakubzerdzicki-16213397.jpg
-  alt: Coffee and barista equipment, thermometer
-  caption: 'Coffee and barista equipment, thermometer. <a href="https://www.pexels.com/photo/coffee-and-barista-equipment-thermometer-16213397/" target="_blank" rel="noopener">Photo</a> by <a href="https://www.pexels.com/@jakubzerdzicki/" target="_blank" rel="noopener">Jakub Zerdzicki</a> on Pexels.'
+  social: content/public/images/source/pexels-mykola128-8660861.jpg
+  path: /public/images/source/pexels-mykola128-8660861.jpg
+  alt: A red rally car having maintenance under a tent
+  caption: 'A red rally car having maintenance under a tent. <a href="https://www.pexels.com/photo/a-red-sedan-parked-under-the-tent-8660861/" target="_blank" rel="noopener">Photo</a> by <a href="https://www.pexels.com/@mykola128/" target="_blank" rel="noopener">Mykola Volkov</a> on Pexels.'
   beforeJT: false
 ---
 
@@ -36,3 +36,57 @@ I've been dropped into the middle of plenty of projects without a meaningful han
 At times, it felt like trying to perform diagnostics and essential maintenance on a rally car that's in the middle of a race, speeding along a forest track taking a bunch of near-misses with trees and hidden dips.
 
 Peak under the bonnet and you may find the engine of a family car, or discover the tyres are bald or too small for the task … or some other way of pushing the analogy too hard.
+
+In reality, you may be fixing a puncture, putting gaffer tape on the bonnet to stop it flipping up and obscuring the driver's view, and pouring petrol into the tank, all while driving the course with a map that only shows roads, not forest tracks.
+
+*Right, the analogy really is worn too thin now.*
+
+Suffice to say, when taking up a new position you're likely to find an organisation that's become accustomed to its ways of working and has been carrying on quite happily for a surprisingly long time. And they may well be unaware that they have problems that need tackling … or maybe don't understand the problems that they have, which will explain a low level of delivery maturity.
+
+When this is the case, get ready for the sensation of holding your hands on your head, for a permanently accelerated heart rate as you're rushing from one chaotic situation to another, or for comments like, 'yeah, we tried that before and it didn't work for us,' or 'marketing/finance/whatever won't like you doing that,' or even the classic, 'that's not the way we do things here.'
+
+---
+
+So, what are we really likely to be stepping into with business-as-usual in project delivery?
+
+In most contexts when taking up a new post, you're likely to see issues related to these areas:
+
+- **Legacy practices**
+  - processes and procedures that worked for a smaller business still being used in a larger one
+  - working in silos, little sharing across teams or units
+  - feels like things are frozen in time
+  - limited evidence of adapting and improving
+- **Legacy systems**
+  - bespoke things being created or invented each time, leading to chaotic projects
+  - lots of work-arounds, rules-of-thumb
+  - dependencies on toolkits of specific people as founts-of-all-knowledge, spreadsheets, etc.
+  - limited learning and re-using tools or approaches
+  - technical debt
+  - dependency on technology, poor use of data
+- **Legacy governance**
+  - delivery teams and tasks subservient to customer demands
+  - unable to push back, say no, position the business as experts, etc.
+  - lack of status, standards, observability, analytics
+  - 'one team' delivery practices missing — with clients, within the team, etc.
+  - dependent on waterfall practices, struggling to implement agile, or attempting a hybrid
+- **Thinking fast, acting slow**
+  - too hasty to get going on doing stuff, matched with …
+  - … lack of (or obviously thin) planning or structure
+  - not asking 'why' and/or not taking note of the answers
+  - missing details on outcomes, risks, must-haves, nice-to-haves, and other requirements
+  - bogged down in delivery long grass, having to re-engineer earlier stages
+- **Legacy transformation processes**
+  - organisational culture that's overbearing or rigid, or conversely
+  - organisational culture that's incoherent or absent, subject to change with review
+  - organisation structured in silos
+  - little room left for change or adaptation
+  - lack of trust or respect for accumulated wisdom in wider team
+- **Multiple suppliers**
+  - many software tools, systems, platforms, often for bespoke uses
+  - lack of coherence or rationalisation
+- **Team dynamics**
+  - Where are the master builders?
+  - Do the master builders have the right team to work with?
+  - Are teams in unhealthy competition with each other?
+
+The business will be functioning, delivering stuff, busy people doing things to get stuff done. But just throwing bodies or resources at a problem is not an adequate way to deal with things, and it may well cloud your view of the state of play.
