@@ -11,7 +11,7 @@ jumbotron: |
   
   Plus, engaging with and unpicking the history into which you're walking.
 pending: false
-date: 2025-06-30T16:45:03Z
+date: 2025-06-30T16:51:03Z
 eleventyNavigation:
   key: Evaluating BAU
   parent: Building a delivery strategy
@@ -47,7 +47,9 @@ When this is the case, get ready for the sensation of holding your hands on your
 
 ---
 
-So, what are we really talking about with business-as-usual in project delivery? In most situations, you likely to see issues related to these areas:
+So, what are we really likely to be stepping into with business-as-usual in project delivery?
+
+In most contexts when taking up a new post, you're likely to see issues related to these areas:
 
 - **Legacy practices**
   - processes and procedures that worked for a smaller business still being used in a larger one
@@ -55,9 +57,36 @@ So, what are we really talking about with business-as-usual in project delivery?
   - feels like things are frozen in time
   - limited evidence of adapting and improving
 - **Legacy systems**
-  - bespoke things being created or invented each time
+  - bespoke things being created or invented each time, leading to chaotic projects
   - lots of work-arounds, rules-of-thumb
-  - dependencies on toolkits of specific people, the founts-of-all-knowledge
+  - dependencies on toolkits of specific people as founts-of-all-knowledge, spreadsheets, etc.
   - limited learning and re-using tools or approaches
+  - technical debt
+  - dependency on technology, poor use of data
+- **Legacy governance**
+  - delivery teams and tasks subservient to customer demands
+  - unable to push back, say no, position the business as experts, etc.
+  - lack of status, standards, observability, analytics
+  - 'one team' delivery practices missing — with clients, within the team, etc.
+  - dependent on waterfall practices, struggling to implement agile, or attempting a hybrid
 - **Thinking fast, acting slow**
-  - Too hasty to assume 
+  - too hasty to get going on doing stuff, matched with …
+  - … lack of (or obviously thin) planning or structure
+  - not asking 'why' and/or not taking note of the answers
+  - missing details on outcomes, risks, must-haves, nice-to-haves, and other requirements
+  - bogged down in delivery long grass, having to re-engineer earlier stages
+- **Legacy transformation processes**
+  - organisational culture that's overbearing or rigid, or conversely
+  - organisational culture that's incoherent or absent, subject to change with review
+  - organisation structured in silos
+  - little room left for change or adaptation
+  - lack of trust or respect for accumulated wisdom in wider team
+- **Multiple suppliers**
+  - many software tools, systems, platforms, often for bespoke uses
+  - lack of coherence or rationalisation
+- **Team dynamics**
+  - Where are the master builders?
+  - Do the master builders have the right team to work with?
+  - Are teams in unhealthy competition with each other?
+
+The business will be functioning, delivering stuff, busy people doing things to get stuff done. But just throwing bodies or resources at a problem is not an adequate way to deal with things, and it may well cloud your view of the state of play.
