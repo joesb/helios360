@@ -11,7 +11,7 @@
       {% set trash = sze.next() %}
       {% endif %}
 
-      <li class="faux-block-link-parent index-list__item index-list__item-{{ loop.index }} {% if item.data.image.path %} index-list__item--picture{% endif %}">
+      <li class="faux-block-link-parent index-list__item index-list__item-{{ loop.index }} {% if item.data.image.path %} index-list__item--picture{% endif %}{% if item.data.supertitle %} index-list__item--supertitle{% endif %}">
         <div class="index-list__item__content">
           {# TAGS #}
           {% if item.data.tags and showTags !== false %}
@@ -34,7 +34,10 @@
             {% endif %}
           {% endif %}
           {# TITLE #}
-          <h3>{{ item.data.title }}</h3>
+          {% if item.data.supertitle %}
+          <div class="supertitle">{{ item.data.supertitle }}</div>
+          {% endif %}
+          <h3 class="heading-v-wide margin-block-sml">{{ item.data.title }}</h3>
           {# DESCRIPTION #}
           {% if (listAllDescriptions or loop.first) and item.data.description %}
           <div class="description">
