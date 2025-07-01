@@ -6,7 +6,7 @@ jumbotron: |
   Clear and coherent communication is a fundamental requirement for a Chief Delivery Officer, an essential skill that should be particularly well developed.
   
   The CDO is responsible for effective communication between all parties on projects: clear communication is vital to achieve outcomes. The CDO determines what and how a business communicates with customers and stakeholders. And so the CDO should show distinctive leadership in this key area.{.smaller}
-date: 2025-02-21T10:39:00Z
+date: 2025-07-01T12:29:00Z
 eleventyNavigation:
   key: Excellent communication
   parent: What makes a CDO?
@@ -77,7 +77,7 @@ In the 1970s and '80s, developmental psychologist Howard Gardner proposed the id
 7. Intrapersonal
 8. Naturalistic
 
-A ninth, 'existential–moral' has also been proposed.
+A ninth, 'existential–moral' intelligence, i.e. big picture thinking, has also been proposed.
 
 Usually, people will favour anything from 2 to 4 of these types. Most will make use of all to some degree, though everyone will undoubtedly find some particularly hard. Rarely would anyone depend on one type alone.
 
