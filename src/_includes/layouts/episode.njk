@@ -38,6 +38,17 @@ eleventyComputed:
       name: "{{ metadata.author.name }}"
     published: "{{ date | iso8601 }}"
     modified: "{% if changed %}{{ changed | iso8601 }}{% endif %}"
+appLinks:
+  apple:
+    label: Apple Podcasts
+  spotify:
+    label: Spotify
+  amazon:
+    label: Amazon Music Podcasts
+  youtube:
+    label: YouTube Podcasts
+  playerfm:
+    label: Player FM
 ---
 
       {% if showTitle != false and primary != true %}
@@ -88,32 +99,14 @@ eleventyComputed:
           <h2 class="h3-style heading-wide">Listen where you get your podcasts</h2>
 
           {% ContentGrid "grid-columns-2 content-grid--gap-small margin-block-lg podcast-apps" %}
-          
-          {% if appLinks.apple %}
-          <div class="podcast-apps--app podcast-apps--app--apple">
-            <a href="{{ appLinks.apple }}" target="_blank" rel="noopener noreferrer"><span class="hide-text">Apple Podcasts</span></a>
+
+          {% for key, item in appLinks %}
+            {% if item.url %}
+          <div class="podcast-apps--app podcast-apps--app--{{ key }}">
+            <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer" title="{{ supertitle }} on {{ item.label }}"><span class="hide-text">item.label</span></a>
           </div>
           {% endif %}
-          {% if appLinks.spotify %}
-          <div class="podcast-apps--app podcast-apps--app--spotify">
-            <a href="{{ appLinks.spotify }}" target="_blank" rel="noopener noreferrer"><span class="hide-text">Spotify</span></a>
-          </div>
-          {% endif %}
-          {% if appLinks.amazon %}
-          <div class="podcast-apps--app podcast-apps--app--amazon">
-            <a href="{{ appLinks.amazon }}" target="_blank" rel="noopener noreferrer"><span class="hide-text">Amazon Music Podcasts</span></a>
-          </div>
-          {% endif %}
-          {% if appLinks.youtube %}
-          <div class="podcast-apps--app podcast-apps--app--youtube">
-            <a href="{{ appLinks.youtube }}" target="_blank" rel="noopener noreferrer"><span class="hide-text">YouTube Podcasts</span></a>
-          </div>
-          {% endif %}
-          {% if appLinks.playerfm %}
-          <div class="podcast-apps--app podcast-apps--app--playerfm">
-            <a href="{{ appLinks.playerfm }}" target="_blank" rel="noopener noreferrer"><span class="hide-text">Player FM</span></a>
-          </div>
-          {% endif %}
+          {% endfor %}
 
           {% endContentGrid %}
 
