@@ -229,7 +229,7 @@ This is about understanding how the company pulls together towards its common go
 
 ### Communicating *how* with the business
 
-When you join the business, then, you'll need to spend time with particular subject matter experts in the business. That' i's definitely those involved in delivering the services or products that the business offers. But it will absolutely include numerous others as well.
+When you join the business, then, you'll need to spend time with particular subject matter experts in the business. That's definitely those involved in delivering the services or products that the business offers. But it will absolutely include numerous others as well.
 
 - **The CEO and/or founders**{.text-color-brand-secondary}, to understand the essence of the business, where it's come from and where it's going, and the specifics of its plans for next 6 months, year, 3 years, 5 years, and 10 years.
 - **The Chief Operating Officer (COO) and/or managing director (MD)**{.text-color-brand-secondary}, to understand the key processes and frameworks for how the business runs
