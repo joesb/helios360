@@ -1,0 +1,43 @@
+@use "../tools/respond-to" as rt;
+
+// Coloured backgrounds
+
+.section-coloured-bg,
+.section-coloured-bg--primary {
+  --section-coloured-bg: var(--color-brand-primary);
+  --section-coloured-bg-text: var(--color-text-black);
+  background-color: var(--section-coloured-bg);
+  color: var(--section-coloured-bg-text);
+}
+
+.section-coloured-bg--secondary {
+  --section-coloured-bg: var(--color-brand-secondary);
+}
+
+.section-coloured-bg--tertiary {
+  --section-coloured-bg: var(--color-brand-tertiary);
+}
+
+.section-coloured-bg--white {
+  --section-coloured-bg: var(--color-brand-white);
+}
+
+.section-bg--podcast {
+  align-items: center;
+  
+  &::after {
+    display: block;
+    content: ' ';
+    background-image: none;
+
+    @include rt.respond-to('medium') {
+      background-image: url("/public/images/deliver-that-logo-240.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 100%;
+      min-height: 8rem;
+      max-height: 16rem;
+    } 
+  }
+}

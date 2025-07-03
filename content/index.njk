@@ -42,6 +42,9 @@ helpcardStyles:
   - helpcard--center
   - helpcard--center-content
   - helpcard--narrow
+classes:
+  podcastBG:
+    - section-bg--podcast
 ---
 
 <div class="content-canvas-item-wide">
@@ -110,7 +113,9 @@ Specialist super-powers for generative AI, conversational AI and AI agent contex
 
 <hr />
 
-{% ColourBG  %}
+{% ColourBG 'primary', classes.podcastBG %}
+
+  <div class="podcast-content">
 
   {% Markdown %}
 
@@ -126,5 +131,7 @@ Specialist super-powers for generative AI, conversational AI and AI agent contex
   Just honest conversations about what happens in project delivery, and how big things really get done.{.smaller}
 
   {% endMarkdown %}
+
+  </div>
 
 {% endColourBG %}

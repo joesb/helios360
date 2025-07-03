@@ -174,7 +174,7 @@ export default async function(eleventyConfig) {
   // - white
   // - grey
   eleventyConfig.addPairedShortcode("ColourBG", (content, color, classes = []) => {
-    return '<div class="section-coloured-bg margin-block-vlg padding-block-lg content-canvas-item-full content-canvas' + (color ? ' section-coloured-bg--' + color : '') + ( classes.length ? ' ' + classes.join(' ') : '' ) + '">' + content  + '</div>';
+    return '<div class="section-coloured-bg margin-block-vlg padding-block-vlg content-canvas-item-full content-canvas' + (color ? ' section-coloured-bg--' + color : '') + ( classes.length ? ' ' + classes.join(' ') : '' ) + '">' + content  + '</div>';
   });
 
   // Images

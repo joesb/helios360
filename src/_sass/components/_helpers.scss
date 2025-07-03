@@ -1,4 +1,6 @@
 @use "../tools/mixins" as mx;
+@use "../tools/px-to-rem" as ptr;
+@use "../tools/respond-to" as rt;
 
 // Margin helpers
 .margin-sml {
@@ -210,6 +212,10 @@
   padding-inline-end: var(--size-5) !important;
 }
 
+.padding-block-vlg {
+  padding-block: var(--size-8) !important;
+}
+
 .padding-inline-vlg {
   padding-inline: var(--size-8) !important;
 }
@@ -266,9 +272,3 @@
   @include mx.border(block-end, 5px);
 }
 
-// Coloured backgrounds
-
-.section-coloured-bg {
-  background-color: var(--color-brand-primary);
-  color: var(--color-text-black);
-}

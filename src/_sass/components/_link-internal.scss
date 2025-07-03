@@ -157,7 +157,8 @@
   display: inline-block;
   font-family: var(--font-headings);
   background-color: var(--color-brand-primary);
-  color: var(--color-black);
+  --single-meta-button--text-color: var(--color-brand-black);
+  color: var(--single-meta-button--text-color);
   padding-inline : var(--size-6) var(--size-7);
   padding-block: var(--size-3);
   border-radius: var(--size-3);
@@ -166,7 +167,7 @@
 
   &:hover {
     background-color: var(--color-brand-primary-dark);
-    color: var(--color-black);
+    --single-meta-button--text-color: var(--color-brand-black);
     text-decoration: none;
     border-radius: var(--size-1);
     transition: all 0.2s ease;
@@ -181,8 +182,12 @@
   }
 
   &.single-meta-button--black {
-  background-color: var(--color-brand-black);
-  color: var(--color-brand-primary);
+    background-color: var(--color-brand-black);
+    --single-meta-button--text-color: var(--color-brand-primary);
+
+    &:hover {
+      --single-meta-button--text-color: var(--color-brand-primary);
+    }
   }
 }
 
