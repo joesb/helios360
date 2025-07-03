@@ -1,0 +1,97 @@
+---
+layout: home.njk
+type: page
+title: "Delivery leadership for ambitious businesses"
+description: Specialist consulting for project and service delivery. Fractional Chief Delivery Officer. Project leadership for creative agencies and SaaS businesses.
+jumbotron: |
+  Good client projects are more than stand-ups and burndowns. It needs smart strategy and tactics that match. And it needs deep skills of communication, relationship building, and credibility.
+
+  Great businesses know that high performance customer projects form the foundation of their reputation, and drives both health and growth.
+
+  Find out how [we can help](/deliver/).
+
+  ---{.margin-block-none}
+
+  [The Chief Delivery Officer's Handbook](/handbook/){.single-meta-forward .vsmall .emphasis}
+showTitle: true
+showContent: true
+isHome: true
+page:
+  titleClasses:
+    - primary-font
+date: 2025-03-27T17:21:47Z
+updated: 2025-06-24T16:48:12Z
+eleventyNavigation:
+  key: Home Alt
+  hideMainNav: true
+  footer: false
+pagination:
+  data: collections.servicePromoted
+  size: 4
+  alias: items
+  generatePageOnEmptyData: true
+listAllDescriptions: true
+listAllMoreButton: true
+indexListType: standard
+styles:
+  - home.css
+sitemap:
+  priority: 1
+helpcardStyles:
+  - helpcard--background
+  - helpcard--background--grey
+  - helpcard--center
+  - helpcard--center-content
+  - helpcard--narrow
+---
+
+<div class="content-canvas-item-wide">
+
+<h2 class="h3-style uppercase">We deliver:</h2>
+
+{% include "layouts/components/index-list-simple.njk" %}
+</div>
+
+<hr />
+
+{% HelpCard true, helpcardStyles %}
+![Joe Baker](/public/images/me-july-2024-portrait.jpeg){.image-greyscale-50 .image-rounded eleventy:widths="200,350,425"}
+{.margin-block-none}
+
+## Joe Baker
+
+Joe has over 25 years of digital and IT consultancy sector experience, leading large-scale digital solutions for strategic programmes with national and international scale and impact that accelerate sales, grow user engagement and enable effective service delivery.
+
+He is an expert delivery principal with skills and capabilities covering client services project management, product professional services, governance and control, stakeholder management, and leading cross-functional and multi-disciplinary multinational teams.
+
+Joe has particular expertise in regulated industries and central government digital transformation projects. He has a specialist focus on delivering value in generative AI and AI agent services.
+
+Follow Joe on [LinkedIn](https://www.linkedin.com/in/joesb/){target=_blank rel="noreferrer noopener"} and [Bluesky](https://bsky.app/profile/helios360.co.uk){target=_blank rel="noreferrer noopener"}.
+
+{% endHelpCard %}
+
+
+{# <div class="content-canvas-item-wide">
+
+{% include "layouts/components/index-handbook-promoted-hp.njk" %}
+
+<p><a href="/handbook/" class="single-meta-forward">More from <em>The Chief Delivery Officer's Handbook</em></a></p>
+
+</div> #}
+
+<hr />
+
+{% Markdown %}
+
+[Deliver That! podcast](/podcast/){.single-meta-forward .single-meta-button .single-meta-forward-button .large .bold}
+{.center}
+
+A new podcast about delivery leadership.{.bold .large}
+
+The big concepts, real-life stories from the front line, and everything involved in the role of a CDO.{.bold}
+
+No filters. No fluff.{.smaller}
+
+Just honest conversations about what happens in project delivery, and how big things really get done.{.smaller}
+
+{% endMarkdown %}

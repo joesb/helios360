@@ -29,7 +29,7 @@ navigationOptions:
 
   {% include "layouts/components/head.njk" %}
 
-  {% if page.url == "/" %}
+  {% if page.url == "/" or isHome == true %}
     {% set bodyClass = "home" %} 
   {% else %}
     {% set bodyClass = "not-home" %}
