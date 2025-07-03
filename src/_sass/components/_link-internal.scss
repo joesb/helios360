@@ -179,6 +179,11 @@
       background-color: var(--color-brand-secondary-dark);
     }
   }
+
+  &.single-meta-button--black {
+  background-color: var(--color-brand-black);
+  color: var(--color-brand-primary);
+  }
 }
 
 .single-meta-forward-button {

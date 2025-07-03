@@ -1,26 +1,6 @@
 @use "../tools/mixins" as mx;
 
 // Margin helpers
-.margin-none {
-  margin: 0 !important;
-}
-
-.margin-block-none {
-  margin-block: 0 !important;
-}
-
-.margin-block-start-none {
-  margin-block-start: 0 !important;
-}
-
-.margin-block-end-none {
-  margin-block-end: 0 !important;
-}
-
-.margin-inline-none {
-  margin-inline: 0 !important;
-}
-
 .margin-sml {
   margin: var(--size-2) !important;
 }
@@ -131,6 +111,26 @@
 
 .margin-inline-end-vlg {
   margin-inline-end: var(--size-8) !important;
+}
+
+.margin-none {
+  margin: 0 !important;
+}
+
+.margin-block-none {
+  margin-block: 0 !important;
+}
+
+.margin-block-start-none {
+  margin-block-start: 0 !important;
+}
+
+.margin-block-end-none {
+  margin-block-end: 0 !important;
+}
+
+.margin-inline-none {
+  margin-inline: 0 !important;
 }
 
 // Padding helpers
@@ -264,4 +264,11 @@
 
 .border-block-end-md {
   @include mx.border(block-end, 5px);
+}
+
+// Coloured backgrounds
+
+.section-coloured-bg {
+  background-color: var(--color-brand-primary);
+  color: var(--color-text-black);
 }

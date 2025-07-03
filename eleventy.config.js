@@ -164,6 +164,19 @@ export default async function(eleventyConfig) {
     return '<div class="content-grid' + ( classes ? ` ${classes}` : '') +'">' + content + '</div>';
   });
 
+  // Coloured BG section
+  // 
+  // Color options (always lowercase):
+  // - primary (Icterine ; default)
+  // - secondary (Ming)
+  // - tertiary (Victoria)
+  // - black
+  // - white
+  // - grey
+  eleventyConfig.addPairedShortcode("ColourBG", (content, color, classes = []) => {
+    return '<div class="section-coloured-bg margin-block-vlg padding-block-lg content-canvas-item-full content-canvas' + (color ? ' section-coloured-bg--' + color : '') + ( classes.length ? ' ' + classes.join(' ') : '' ) + '">' + content  + '</div>';
+  });
+
   // Images
   eleventyConfig.addShortcode("image", async function (src, alt, cls, widths = [300, 620], sizes = "auto", picCls = "") {
 		let metadata = await Image(src, {
