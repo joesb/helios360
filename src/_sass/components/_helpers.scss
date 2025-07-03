@@ -1,26 +1,8 @@
 @use "../tools/mixins" as mx;
+@use "../tools/px-to-rem" as ptr;
+@use "../tools/respond-to" as rt;
 
 // Margin helpers
-.margin-none {
-  margin: 0 !important;
-}
-
-.margin-block-none {
-  margin-block: 0 !important;
-}
-
-.margin-block-start-none {
-  margin-block-start: 0 !important;
-}
-
-.margin-block-end-none {
-  margin-block-end: 0 !important;
-}
-
-.margin-inline-none {
-  margin-inline: 0 !important;
-}
-
 .margin-sml {
   margin: var(--size-2) !important;
 }
@@ -133,6 +115,26 @@
   margin-inline-end: var(--size-8) !important;
 }
 
+.margin-none {
+  margin: 0 !important;
+}
+
+.margin-block-none {
+  margin-block: 0 !important;
+}
+
+.margin-block-start-none {
+  margin-block-start: 0 !important;
+}
+
+.margin-block-end-none {
+  margin-block-end: 0 !important;
+}
+
+.margin-inline-none {
+  margin-inline: 0 !important;
+}
+
 // Padding helpers
 .padding-none {
   padding: 0;
@@ -210,6 +212,10 @@
   padding-inline-end: var(--size-5) !important;
 }
 
+.padding-block-vlg {
+  padding-block: var(--size-8) !important;
+}
+
 .padding-inline-vlg {
   padding-inline: var(--size-8) !important;
 }
@@ -265,3 +271,4 @@
 .border-block-end-md {
   @include mx.border(block-end, 5px);
 }
+

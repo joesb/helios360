@@ -42,6 +42,9 @@ helpcardStyles:
   - helpcard--center
   - helpcard--center-content
   - helpcard--narrow
+classes:
+  podcastBG:
+    - section-bg--podcast
 ---
 
 <div class="content-canvas-item-wide">
@@ -110,17 +113,25 @@ Specialist super-powers for generative AI, conversational AI and AI agent contex
 
 <hr />
 
-{% Markdown %}
+{% ColourBG 'primary', classes.podcastBG %}
 
-[Deliver That! podcast](/podcast/){.single-meta-forward .single-meta-button .single-meta-forward-button .large .bold}
-{.center}
+  <div class="podcast-content">
 
-A new podcast about delivery leadership.{.bold .large}
+  {% Markdown %}
 
-The big concepts, real-life stories from the front line, and everything involved in the role of a CDO.{.bold}
+  [Deliver That! podcast](/podcast/){.single-meta-forward .single-meta-button .single-meta-button--black .single-meta-forward-button .large .bold}
+  {.center}
 
-No filters. No fluff.{.smaller}
+  A new podcast about delivery leadership.{.bold .large}
 
-Just honest conversations about what happens in project delivery, and how big things really get done.{.smaller}
+  The big concepts, real-life stories from the front line, and everything involved in the role of a CDO.{.bold}
 
-{% endMarkdown %}
+  No filters. No fluff.{.smaller}
+
+  Just honest conversations about what happens in project delivery, and how big things really get done.{.smaller}
+
+  {% endMarkdown %}
+
+  </div>
+
+{% endColourBG %}
