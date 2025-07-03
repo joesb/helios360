@@ -4,7 +4,7 @@
 			{% if primary != true %}
 			<article class="{% if page.classes %}{{ page.classes | join(" ") }}{% endif %}">
 
-			{% if eleventyNavigation %}
+			{% if eleventyNavigation and isHome !== true %}
 			{% include "layouts/components/page-breadcrumb.njk" %}
 			{% endif %}
 
