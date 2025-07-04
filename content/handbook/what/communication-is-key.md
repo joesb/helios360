@@ -6,7 +6,7 @@ jumbotron: |
   Clear and coherent communication is a fundamental requirement for a Chief Delivery Officer, an essential skill that should be particularly well developed.
   
   The CDO is responsible for effective communication between all parties on projects: clear communication is vital to achieve outcomes. The CDO determines what and how a business communicates with customers and stakeholders. And so the CDO should show distinctive leadership in this key area.{.smaller}
-date: 2025-07-01T12:29:00Z
+date: 2025-07-04T16:29:00Z
 eleventyNavigation:
   key: Excellent communication
   parent: What makes a CDO?
@@ -81,30 +81,34 @@ A ninth, 'existential–moral' intelligence, i.e. big picture thinking, has also
 
 Usually, people will favour anything from 2 to 4 of these types. Most will make use of all to some degree, though everyone will undoubtedly find some particularly hard. Rarely would anyone depend on one type alone.
 
-There's no need to discuss Gardner's [theory of multiple intelligences](https://en.wikipedia.org/wiki/Theory_of_multiple_intelligences){target=_blank rel="nofollow noreferrer"} fully here (though [reading further on multiple intelligences](https://www.verywellmind.com/gardners-theory-of-multiple-intelligences-2795161){target=_blank rel="nofollow noreferrer"} could be rewarding), and certainly the thesis has [important criticisms](https://en.wikipedia.org/wiki/Theory_of_multiple_intelligences#Criticism){target=_blank rel="nofollow noreferrer"} that should temper an overblown enthusiasm for the concept.
+There's no need to discuss Gardner's [theory of multiple intelligences](https://en.wikipedia.org/wiki/Theory_of_multiple_intelligences){target=_blank rel="nofollow noreferrer"} fully here (though [reading further on multiple intelligences](https://www.verywellmind.com/gardners-theory-of-multiple-intelligences-2795161){target=_blank rel="nofollow noreferrer"} could be rewarding). In fact, the thesis has [important criticisms](https://en.wikipedia.org/wiki/Theory_of_multiple_intelligences#Criticism){target=_blank rel="nofollow noreferrer"} that should temper an overblown enthusiasm for the concept.
 
 Nonetheless, there are some helpful insights to learn and absorb without needing to adopt Gardner's theory wholesale.
 
 - People are not uniform. What works well for one person will not work well for another.
+- Everyone engages with things in multiple ways simultaneously, synthesising knowledge from different senses together to form a rounded understanding
+  - So it's incredibly powerful to use combinations of communication modes together …
+    - words, both written and spoken
+    - images and elegant visual design
+    - directed speech and discussion and time for personal reflection
+    - along with physical movement
+    - etc.
+  - … all working in synchrony
 - This simple-powerful understanding is as important in communication as it is in any other work task.
   - In the knowledge economy, even more so.
 - It is also as important for people en masse, in group settings, as it is on an individual scale.
-- In essence, this means that the medium and context of what is being covered is every bit as important as the subject itself. For example:
-  - Some will absorb things by being told; others just can't do that at all.
-  - Some need to touch or move a thing to understand it; others need to see it visually.
-  - Some comprehend things by talking them over; others need to take them away and work with it in their own time.
-  - And so on.
-- When communicating, either individually or en masse, with synchronously (in real time, in a meeting or event, say) or asynchronously (catching up in a recording, reading a document or email or message, say), it's helpful to conceive of several ways to put across the subject or the important information.
-  - If you only communicate in spoken work, in person, then that makes things difficult for those who need time and space to read.
-  - If you only communicate in words then that makes things difficult for those who need to see pictures and diagrams.
+- In essence, this means that the medium and context of what is being covered is every bit as important as the subject itself.
+- When communicating, either individually or en masse, whether synchronously (in real time, in a meeting or event, say) or asynchronously (catching up in a recording, reading a document or email or message, say), it's helpful to conceive of several ways to put across the subject or the important information.
+  - If you only communicate in spoken work, in person, then that makes things difficult for those who benefit from time and space to read.
+  - If you only communicate in words then that makes things difficult for those who find it helpful to see visual representations, diagrams, and pictures.
   - If you only present things once in a static form then that makes things hard for people who need to interact with a thing to understand it.
   - And so on.
 
-Effective communicators will use multiple modes of communicating simultaneously so that their audience will be able to engage in the form that works best for them. They may even use modes of communication that can be used at the time and afterwards as well.
+Effective communicators will use multiple modes of communicating simultaneously so that their audience will be able to engage in the forms that work best for them. They may even use modes of communication that can be used at the time and afterwards as well.
 
-Gifted communicators will know their audience and perceive their favoured intelligence type(s) and speak with them in that mode.
+Gifted communicators will know that their audience will absorb things best when they're able to engage in multiple modes of communication simultaneously.
 
-The most gifted communicators will have their audience think that they are speaking with someone like them — the person sounds like them because their communication is fully rounded and makes strong and healthy use simultaneously of as many modes as possible.
+The most gifted communicators will have their audience think that they are speaking with someone like them — the person sounds like them because their communication is fully rounded and makes strong and healthy use of as many modes as possible at the same time.
 
 ---
 
