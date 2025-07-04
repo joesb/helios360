@@ -238,6 +238,21 @@
   }
 }
 
+.index-list--4 {
+  grid-template-columns: 1fr;
+
+  @include respond-to.respond-to('small') {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .index-list__item-first,
+  .index-list__item,
+  .index-list__item-small,
+  .index-list__item-large {
+    grid-column: span 1;
+  }
+}
+
 .index-list-podcast {
   grid-template-columns: 1fr;
 
@@ -276,20 +291,5 @@
     font-family: var(--font-headings);
     font-size: var(--font-size-fluid-0);
     font-weight: var(--font-weight-medium);
-  }
-}
-
-.index-list--4 {
-  grid-template-columns: 1fr;
-
-  @include respond-to.respond-to('small') {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .index-list__item-first,
-  .index-list__item,
-  .index-list__item-small,
-  .index-list__item-large {
-    grid-column: span 1;
   }
 }
