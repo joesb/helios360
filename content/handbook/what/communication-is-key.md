@@ -104,11 +104,11 @@ Nonetheless, there are some helpful insights to learn and absorb without needing
   - If you only present things once in a static form then that makes things hard for people who need to interact with a thing to understand it.
   - And so on.
 
-Effective communicators will use multiple modes of communicating simultaneously so that their audience will be able to engage in the forms that work best for them. They may even use modes of communication that can be used at the time and afterwards as well.
+*👉*{.drop-first .drop-first-vsm .margin-inline-end-md} **Effective communicators** will use multiple modes of communicating simultaneously so that their audience will be able to engage in the forms that work best for them. They may even use modes of communication that can be used at the time and afterwards as well.{.padding-inline-start-lg}
 
-Gifted communicators will know that their audience will absorb things best when they're able to engage in multiple modes of communication simultaneously.
+*👉*{.drop-first .drop-first-vsm .margin-inline-end-md} **Gifted communicators** will know that their audience will absorb things best when they're able to engage in multiple modes of communication simultaneously.{.padding-inline-start-lg}
 
-The most gifted communicators will have their audience think that they are speaking with someone like them — the person sounds like them because their communication is fully rounded and makes strong and healthy use of as many modes as possible at the same time.
+*👉*{.drop-first .drop-first-vsm .margin-inline-end-md} **The most gifted communicators** will have their audience think that they are speaking with someone like them — the person sounds like them because their communication is fully rounded and makes strong and healthy use of as many modes as possible at the same time.{.padding-inline-start-lg}
 
 ---
 
