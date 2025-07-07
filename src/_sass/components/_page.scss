@@ -249,6 +249,12 @@ em {
     }
   }
 
+  &.podcast-apps--app--audible {
+    span {
+      mask-image: url("/public/images/icons/audible-logo-blk.svg");
+    }
+  }
+
   &.podcast-apps--app--playerfm {
     span {
       mask-image: url("/public/images/icons/playerfm-logo-blk.svg");
