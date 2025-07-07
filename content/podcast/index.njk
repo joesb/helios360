@@ -50,11 +50,24 @@ metadata:
   cards:
     show: true
 appLinks:
-  apple: https://podcasts.apple.com/gb/podcast/deliver-that/id1822252579
-  spotify: https://open.spotify.com/show/2cScXlpNxkh08fYgBUXfd0
-  playerfm: https://player.fm/series/deliver-that-podcast
-  amazon: https://music.amazon.com/podcasts/e0a4b1d8-6019-4fe2-aabb-eb3c2635c21c
-  youtube: https://www.youtube.com/playlist?list=PLC8PV876tLM1Jc1C7t2awmrNt7HhIeVnj
+  apple:
+    label: Apple Podcasts
+    url: https://podcasts.apple.com/gb/podcast/deliver-that/id1822252579
+  spotify:
+    label: Spotify
+    url: https://open.spotify.com/show/2cScXlpNxkh08fYgBUXfd0
+  audible:
+    label: Audible
+    url: https://www.audible.co.uk/podcast/Deliver-That/B0FF4VMN4G
+  amazon:
+    label: Amazon Music Podcasts
+    url: https://music.amazon.com/podcasts/e0a4b1d8-6019-4fe2-aabb-eb3c2635c21c
+  youtube:
+    label: YouTube Podcasts
+    url: https://www.youtube.com/playlist?list=PLC8PV876tLM1Jc1C7t2awmrNt7HhIeVnj
+  playerfm:
+    label: Player FM
+    url: https://player.fm/series/deliver-that-podcast
 ---
 {% Markdown %}
 
@@ -90,31 +103,13 @@ Plus we’ll have some fascinating guests to hear their own stories, the lessons
 
 {% ContentGrid "grid-columns-2 content-grid--gap-small margin-block-lg podcast-apps" %}
 
-{% if appLinks.apple %}
-<div class="podcast-apps--app podcast-apps--app--apple">
-  <a href="{{ appLinks.apple }}" target="_blank" rel="noopener noreferrer" title="{{ title }} on Apple Podcasts"><span class="hide-text">Apple Podcasts</span></a>
-</div>
-{% endif %}
-{% if appLinks.spotify %}
-<div class="podcast-apps--app podcast-apps--app--spotify">
-  <a href="{{ appLinks.spotify }}" target="_blank" rel="noopener noreferrer" title="{{ title }} on Spotify"><span class="hide-text">Spotify</span></a>
-</div>
-{% endif %}
-{% if appLinks.amazon %}
-<div class="podcast-apps--app podcast-apps--app--amazon">
-  <a href="{{ appLinks.amazon }}" target="_blank" rel="noopener noreferrer" title="{{ title }} on Amazon Music Podcasts"><span class="hide-text">Amazon Music Podcasts</span></a>
-</div>
-{% endif %}
-{% if appLinks.youtube %}
-<div class="podcast-apps--app podcast-apps--app--youtube">
-  <a href="{{ appLinks.youtube }}" target="_blank" rel="noopener noreferrer" title="{{ title }} on YouTube Podcasts"><span class="hide-text">YouTube Podcasts</span></a>
-</div>
-{% endif %}
-{% if appLinks.playerfm %}
-<div class="podcast-apps--app podcast-apps--app--playerfm">
-  <a href="{{ appLinks.playerfm }}" target="_blank" rel="noopener noreferrer" title="{{ title }} on Player FM"><span class="hide-text">Player FM</span></a>
-</div>
-{% endif %}
+  {% for key, item in appLinks %}
+    {% if item.url %}
+  <div class="podcast-apps--app podcast-apps--app--{{ key }}">
+    <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer" title="Deliver That! on {{ item.label }}"><span class="hide-text">item.label</span></a>
+  </div>
+  {% endif %}
+  {% endfor %}
 
 {% endContentGrid %}
 
