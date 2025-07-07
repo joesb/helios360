@@ -27,6 +27,7 @@ tags:
   - '#servicePromoted'
 redirect_from:
   - /fractional/
+  - /fractional
 image:
   classes:
     - content-canvas-item-wide-left-sm
