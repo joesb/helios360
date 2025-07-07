@@ -84,7 +84,7 @@ However, your CDO will also need a dedicated budget to support the changes they 
 
 This one is maybe more about the business than the CDO themselves, but …
 
-A particular challenge when an organisation is growing fast is how to give leadership when there's more things happening than you can be involved in directly. One response can be throw a net of processes over the thing — a comprehensive suite of systems and practices to follow that covers all eventualities.
+A particular challenge when an organisation is growing fast is how to give leadership when there's more things happening than you can be involved in directly. One response can be to throw a net of processes over the thing — a comprehensive suite of systems and practices to follow that covers all eventualities.
 
 Processes are a vital foundation to achieving consistent outcomes. But project management is probably not the reason for the reputation the business has built. [Tom Willmot](https://www.linkedin.com/in/tomwillmot/){target=_blank rel="noreferrer nofollow noopener"}, CEO of [Human Made](https://humanmade.com/){target=_blank rel="noreferrer noopener"}, calls it 'remembering that secret sauce' in delivering outcomes for customers.
 
