@@ -47,7 +47,7 @@ When this is the case, get ready for the sensation of holding your hands on your
 
 ---
 
-So, what are we really likely to be stepping into with business-as-usual in project delivery?
+So, what are we really going to be stepping into with business-as-usual in project delivery?
 
 In most contexts when taking up a new post, you're likely to see issues related to these areas:
 
@@ -90,3 +90,9 @@ In most contexts when taking up a new post, you're likely to see issues related 
   - Are teams in unhealthy competition with each other?
 
 The business will be functioning, delivering stuff, busy people doing things to get stuff done. But just throwing bodies or resources at a problem is not an adequate way to deal with things, and it may well cloud your view of the state of play.
+
+Many of these things overlap, of course, so it's worth taking a deeper look to understand these in the context of business-as-usual.
+
+## BAU and ownership
+
+Ongoing client projects and existing customer relationships create the biggest challenge when you take up a CDO position in an organisation.
