@@ -20,6 +20,7 @@ listTitle: In this section
 listSource: handbookWhat
 listAllMoreButton: true
 listItemTitle: nav
+listItemMoreTitle: Keys to the role
 tags:
   - '#handbookPromoted'
   - '#handbookPromotedHP'

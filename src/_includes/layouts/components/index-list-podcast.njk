@@ -56,7 +56,7 @@
           {# MORE BUTTON #}
           {% if listAllMoreButton %}
           <div class="link">
-            <span class="single-meta-item single-meta-forward text-color-brand-primary" title="Learn more about {{ item.data.title }}">Learn more</span>
+            <span class="single-meta-item single-meta-forward text-color-brand-primary" title="Learn more about {{ item.data.title }}">{% if item.data.listItemMoreTitle %}{{ item.data.listItemMoreTitle }}{% else %}Learn more{% endif %}</span>
           </div>
           {% endif %}
         </div>

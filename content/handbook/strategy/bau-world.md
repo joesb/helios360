@@ -12,6 +12,7 @@ jumbotron: |
   Plus, engaging with and unpicking the history into which you're walking.
 pending: false
 date: 2025-07-02T09:51:29Z
+updated: 2025-07-08T17:51:29Z
 eleventyNavigation:
   key: Evaluating BAU
   parent: Building a delivery strategy
@@ -47,7 +48,7 @@ When this is the case, get ready for the sensation of holding your hands on your
 
 ---
 
-So, what are we really likely to be stepping into with business-as-usual in project delivery?
+So, what are we really going to be stepping into with business-as-usual in project delivery?
 
 In most contexts when taking up a new post, you're likely to see issues related to these areas:
 
@@ -90,3 +91,19 @@ In most contexts when taking up a new post, you're likely to see issues related 
   - Are teams in unhealthy competition with each other?
 
 The business will be functioning, delivering stuff, busy people doing things to get stuff done. But just throwing bodies or resources at a problem is not an adequate way to deal with things, and it may well cloud your view of the state of play.
+
+Many of these things overlap, of course, so it's worth taking a deeper look to understand these in the context of business-as-usual.
+
+## BAU and ownership
+
+Ongoing client projects and existing customer relationships create the biggest challenge when you take up a CDO position in an organisation. But at the root of that issue is likely to be a lack of process authority or ownership.
+
+Delivery or project managers may exist in the organisation so that individual client engagements can go from beginning to end. But the existence of a delivery manager or two is not the same as effective ownership of a coherent, high quality customer experience.
+
+Indeed, it may well be evidence that delivery ownership has been shrugged off into a void, with responsibility hanging in a no-man's land between CEO, commercial director and chief operations officer. You may even discover that technical architecture or solution design has a fundamental lack of delivery leadership expertise or authority behind them. Why would the expertise exist if no one has ownership?
+
+Asking this question of your CxO peers would be instructive — who owns the customer experience?
+
+### Review recent work
+
+At this point it's probably worth taking the temperature of recently delivered or closed projects. A close look at the outcomes, the value delivered (to both the customer *and* the business) plus any documentation about the journey from start to finish, and any things learnt or actions taken — all will be instructive and give you a fairly quick assessment of the maturity of delivery practices and processes.

@@ -16,6 +16,7 @@ listTitle: In this section
 listSource: handbookWhy
 listAllMoreButton: true
 # listItemTitle: nav
+listItemMoreTitle: Find out why
 tags:
   - '#handbookPromoted'
   - '#handbookPromotedHP'

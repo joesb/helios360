@@ -19,6 +19,7 @@ eleventyNavigation:
   parent: We Deliver
   root: We Deliver
   order: 50
+listItemMoreTitle: Supercharged scaling
 showTOC: false
 pagemeta:
   show: true
