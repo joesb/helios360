@@ -95,4 +95,8 @@ Many of these things overlap, of course, so it's worth taking a deeper look to u
 
 ## BAU and ownership
 
-Ongoing client projects and existing customer relationships create the biggest challenge when you take up a CDO position in an organisation.
+Ongoing client projects and existing customer relationships create the biggest challenge when you take up a CDO position in an organisation. But at the root of that issue is likely to be a lack of process authority or ownership.
+
+Delivery or project managers may exist in the organisation so that individual client engagements can go from beginning to end. But the existence of a delivery manager or two is not the same as effective ownership of a coherent, high quality customer experience.
+
+Indeed, it may well be evidence that the ownership has been shrugged off into a void, with responsibility hanging in a no-man's land between CEO, commercial director and chief operations officer. You may even discover that technical architecture or solution design may have a fundamental lack of delivery leadership expertise or authority behind them. Why would the expertise exist if no one has ownership?
