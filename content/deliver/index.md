@@ -22,6 +22,7 @@ redirect_from:
 eleventyNavigation:
   key: We Deliver
   parent: Home
+  order: 0
   footer: true
 ---
 

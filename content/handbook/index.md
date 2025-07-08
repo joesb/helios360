@@ -18,6 +18,7 @@ eleventyNavigation:
   parent: Home
   title: The Chief Delivery Officer's Handbook
   root: Handbook
+  order: 10
   footer: true
 image:
   social: ./content/public/images/handbook-cover.jpg
