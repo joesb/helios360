@@ -8,6 +8,7 @@ jumbotron: |
 
   Designed with a focus on modernisation, best-practice adoption, with training and resources to ensure rock solid adoption.
 date: 2025-03-18T16:04:00Z
+listItemMoreTitle: Power up your delivery model
 eleventyNavigation:
   key: Strategy Design
   parent: We Deliver

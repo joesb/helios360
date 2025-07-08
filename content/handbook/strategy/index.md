@@ -18,6 +18,7 @@ listTitle: In this section
 listSource: handbookStrategy
 listAllMoreButton: true
 listItemTitle: nav
+listItemMoreTitle: Build a strategy
 tags:
   - '#handbookPromoted'
 image:

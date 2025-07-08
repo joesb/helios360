@@ -8,6 +8,7 @@ jumbotron: |
 
   With over 20 years of digital and IT consultancy sector experience, we bring the standards, metrics, and execution for first-class project delivery and effective stakeholder management.
 date: 2025-03-18T16:04:00Z
+listItemMoreTitle: Take back control
 eleventyNavigation:
   key: Governance & Control
   root: We Deliver
