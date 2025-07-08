@@ -99,4 +99,10 @@ Ongoing client projects and existing customer relationships create the biggest c
 
 Delivery or project managers may exist in the organisation so that individual client engagements can go from beginning to end. But the existence of a delivery manager or two is not the same as effective ownership of a coherent, high quality customer experience.
 
-Indeed, it may well be evidence that the ownership has been shrugged off into a void, with responsibility hanging in a no-man's land between CEO, commercial director and chief operations officer. You may even discover that technical architecture or solution design may have a fundamental lack of delivery leadership expertise or authority behind them. Why would the expertise exist if no one has ownership?
+Indeed, it may well be evidence that delivery ownership has been shrugged off into a void, with responsibility hanging in a no-man's land between CEO, commercial director and chief operations officer. You may even discover that technical architecture or solution design has a fundamental lack of delivery leadership expertise or authority behind them. Why would the expertise exist if no one has ownership?
+
+Asking this question of your CxO peers would be instructive — who owns the customer experience?
+
+### Review recent work
+
+At this point it's probably worth taking the temperature of recently delivered or closed projects. A close look at the outcomes, the value delivered (to both the customer *and* the business) plus any documentation about the journey from start to finish, and any things learnt or actions taken — all will be instructive and give you a fairly quick assessment of the maturity of delivery practices and processes.
