@@ -7,7 +7,7 @@ jumbotron: |
   **An essential guide to leading delivery projects, teams and programs for agencies, client service businesses and SaaS product companies, with insights and guidance for professional services directors, client services directors, and other delivery principal roles.**
 
   The *Handbook* covers the role of strategy, management and leadership for project delivery for clients within the expectations of ambitious organisations. It also covers how the CDO fits in the context of the c-suite, supporting internal and external stakeholders.{.smaller .margin-block-start-vlg}
-date: 2025-06-05T10:51:04Z
+date: 2025-07-08T17:51:04Z
 listAllDescriptions: true
 listAllMoreButton: true
 listTitle: In the handbook
