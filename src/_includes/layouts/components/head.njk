@@ -67,6 +67,9 @@
     {# {% include "assets/js/inline.js" %} #}
     {% include "assets/js/nav.js" %}
     {# {% include "static/js/site.js" %} #}
+    {% if env.isProd === false %}
+    {% include "assets/js/cls.js" %}
+    {% endif %}
   {% endset %}
   <script defer>{{ js | jsmin | safe }}</script>
   {# <!-- Pagefind JS --> #}
