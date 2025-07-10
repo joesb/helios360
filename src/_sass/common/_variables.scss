@@ -20,10 +20,9 @@ $tablet: $break-medium;
 $desktop: $break-large;
 
 // Fonts
-$primary-font: "Playfair Display", var(--font-serif);
-$secondary-font: "Barlow Condensed", var(--font-sans);
-$headings-font: "Barlow Condensed", var(--font-sans);
-
+$primary-font: "Playfair Display", var(--font-antique);
+$secondary-font: "Barlow Condensed", var(--font-neo-grotesque);
+$headings-font: "Barlow Condensed", Impact, var(--font-neo-grotesque);
 
 // Font weight
 $base-font-weight-light: 300;

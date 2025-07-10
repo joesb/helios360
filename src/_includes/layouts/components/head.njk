@@ -15,6 +15,9 @@
   <meta name="author" itemprop="author" content="{{ metadata.author.name }}">
   <meta name="description" itemprop="description" content="{{ description }}">
 
+  {# Google Fonts #}
+  {% include "layouts/components/head-google-fonts.njk" %}
+
   <!-- Icons -->
   <link rel="apple-touch-icon" sizes="180x180" href="/public/favicon/apple-touch-icon.png" type="image/png">
   <link rel="icon" href="/public/favicon/favicon.png" type="image/png" sizes="16x16">
@@ -29,9 +32,6 @@
   {% if page.url == "/" %}
   <link rel="alternate" type="application/atom+xml" title="{{ metadata.title }}" href="{{ '/feed.xml' | url | absoluteUrl(env.baseUrl) }}">
   {% endif %}
-
-  {# Google Fonts #}
-  {% include "layouts/components/head-google-fonts.njk" %}
   
   {# OpenProps #}
   <link rel="preload" href="//unpkg.com/open-props@1.7.13/open-props.min.css" as="style" fetchPriority="low" onload="this.onload=null;this.rel='stylesheet'">
@@ -67,6 +67,9 @@
     {# {% include "assets/js/inline.js" %} #}
     {% include "assets/js/nav.js" %}
     {# {% include "static/js/site.js" %} #}
+    {% if env.isProd === false %}
+    {% include "assets/js/cls.js" %}
+    {% endif %}
   {% endset %}
   <script defer>{{ js | jsmin | safe }}</script>
   {# <!-- Pagefind JS --> #}
