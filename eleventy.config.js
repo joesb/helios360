@@ -178,7 +178,7 @@ export default async function(eleventyConfig) {
   });
 
   // Images
-  eleventyConfig.addShortcode("image", async function (src, alt, cls, widths = [300, 620], sizes = "auto", picCls = "") {
+  eleventyConfig.addShortcode("image", async function (src, alt, cls, widths = [300, 620], sizes = "auto", picCls = "", imgAttrs = {}) {
 		let metadata = await Image(src, {
 			widths,
 			formats: ["webp", "jpeg"],
@@ -192,7 +192,10 @@ export default async function(eleventyConfig) {
 			sizes,
 			loading: "lazy",
 			decoding: "async",
+      fetchpriority: "auto"
 		};
+
+    let combinedImageAttributes = Object.assign({}, imageAttributes, imgAttrs);
 
     let options = {
       pictureAttributes: {
@@ -201,7 +204,7 @@ export default async function(eleventyConfig) {
     }
 
 		// You bet we throw an error on a missing alt (alt="" works okay)
-		return Image.generateHTML(metadata, imageAttributes, options);
+		return Image.generateHTML(metadata, combinedImageAttributes, options);
 	});
 
   eleventyConfig.addAsyncShortcode("imageData", async function(src) {

@@ -23,6 +23,9 @@ eleventyComputed:
     description: "{% if meta.description %}{{ meta.description }}{% else %}{{ description }}{% endif %}"
 navigationOptions:
   listClass: "inline-list bare-list breadcrumb-list smaller"
+siteLogoImgAttrs:
+  loading: "eager"
+  fetchpriority: "high"
 ---
 <!DOCTYPE html>
 <html {% if section %} data-current="{{ section }}"{% endif %} lang="en">
