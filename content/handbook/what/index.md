@@ -10,7 +10,7 @@ jumbotron: |
   We also look at the essential qualities and skills of a CDO, with unusual mastery in communication and as a capable advocate for customer and team, as well as outlining seven other key skills for a CDO.{.small}
 pending: false
 date: 2025-03-25T13:15:21Z
-updated: 2025-06-13T11:45:21Z
+updated: 2025-07-11T14:45:21Z
 eleventyNavigation:
   key: What makes a CDO?
   parent: Handbook

@@ -1,6 +1,6 @@
 ---
 title: Professionalism, Process … and Jazz
-description: A longer look at some more skills and characteristics that are important for a CDO
+description: Mature organisations demand processes that drive professionalism. Together, that's the foundation for agility, creativity … and jazz.
 layout: page.njk
 jumbotron: |
   As the business matures, it stretches forward towards greater professionalism. Professionalism demands that project delivery processes are comprehensive and robust.
