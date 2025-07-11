@@ -2,7 +2,7 @@
       <div class="header-main__inner content-canvas-item-wide">
         <div class="header-main__logo">
           {% if page.url !== '/' %}<a href="{{ '/' | url }}" class="site-logo" title="{{ metadata.title }}">
-            {% image "./content/public/images/logo-02-03.webp", "Helios360 logo", "site-logo-image", [110,164], "auto", "", siteLogoImgAttrs %}
+            {% image "./content/public/images/logo-02-03.webp", "Helios360 logo", "site-logo-image", siteLogoImg.widths, "auto", "", siteLogoImg.attrs %}
             <div class="h2-style visually-hidden">
               {{ metadata.title }}
               {% if metadata.subtitle %}
@@ -12,7 +12,7 @@
           </a>
           {% else %}
           <span class="site-logo" title="{{ metadata.title }}">
-            {% image "./content/public/images/logo-02-03.webp", "Helios360 logo", "site-logo-image", [164,219], "auto", "", siteLogoImgAttrs %}
+            {% image "./content/public/images/logo-02-03.webp", "Helios360 logo", "site-logo-image", siteLogoImg.widths, "auto", "", siteLogoImg.attrs %}
             <div class="h2-style visually-hidden">
               {{ metadata.title }}
               {% if metadata.subtitle %}

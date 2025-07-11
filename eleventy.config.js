@@ -192,7 +192,8 @@ export default async function(eleventyConfig) {
 			sizes,
 			loading: "lazy",
 			decoding: "async",
-      fetchpriority: "auto"
+      fetchpriority: "auto",
+      "eleventy:ignore" : true
 		};
 
     let combinedImageAttributes = Object.assign({}, imageAttributes, imgAttrs);
