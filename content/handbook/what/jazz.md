@@ -62,6 +62,10 @@ Recognising the shape and characteristics of things breeds a confidence in tackl
 
 These practices and ways of working, smoothed and hardened across a broad set of contexts, allows the business to achieve successful outcomes consistently.
 
+Delivery consistency requires that knowledge, insight, and progress is shared internally also, captured and passed on across the whole delivery unit within the business.
+
+That means thoroughgoing documentation, as the baseline. It also means demonstrations — of client project work and any technical or practical innovations, or other discrete areas of progress in the delivery team. And it means a commitment to standards, and a serious maintenance of those standards too.
+
 ---
 
 ## Professional processes
