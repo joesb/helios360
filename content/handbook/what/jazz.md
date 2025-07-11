@@ -36,15 +36,17 @@ image:
     - margin-block-md
 ---
 
+## Professionalism
+
 As the business matures, it stretches forward towards greater professionalism.
 
 Every business wants to exude a professional air, but what constitutes professionalism is often taken on assumed knowledge rather than stated explicitly.
 
-## The point of professionalism
+### The point of professionalism
 
 There's three intentions when professionalising what the business does, from the perspective of project delivery leadership.
 
-### 1. Calmness
+#### 1. Calmness
 
 Things often become frenetic in organisations. Signing lots of new contracts one on top of another; sudden growth arising from a round of funding; a buyout or merger; challenging client relationships; unexpected churn or staff turnover — all can create chaotic conditions for delivering customer outcomes.
 
@@ -52,13 +54,13 @@ The CDO's role is to usher in calmness when things would otherwise be frenzied. 
 
 In these situations, the Chief Delivery Officer's own calmness is contagious and will spread quickly to clients, to the team, and to the wider business.
 
-### 2. Confidence
+#### 2. Confidence
 
 A capable CDO is a master builder who has seen most things before. That means that even novel situations or events will have a ring of familiarity — aah, it's one of those!
 
 Recognising the shape and characteristics of things breeds a confidence in tackling those challenges with tried and tested practices built on long experience.
 
-### 3. Consistency
+#### 3. Consistency
 
 These practices and ways of working, smoothed and hardened across a broad set of contexts, allows the business to achieve successful outcomes consistently.
 
@@ -66,11 +68,11 @@ Delivery consistency requires that knowledge, insight, and progress is shared in
 
 That means thoroughgoing documentation, as the baseline. It also means demonstrations — of client project work and any technical or practical innovations, or other discrete areas of progress in the delivery team. And it means a commitment to standards, and a serious maintenance of those standards too.
 
-## The essence of professionalism
+### The essence of professionalism
 
 So what are we talking about when we talk of professionalism?
 
-### 1. Ways of working
+#### 1. Ways of working
 
 The processes that you adopt are an encapsulation of how you do you work as an organisation.
 
@@ -78,19 +80,19 @@ That's probably based on a bunch of industry standards, like [Agile project mana
 
 But it's more than that — it's also a way of formalising the distinct practices that your organisation has adopted and found to be the healthiest and happiest ways for you to organise yourselves and achieve your goals.
 
-### 2. Interactions
+#### 2. Interactions
 
 Professionalism also determines how you interact together, both internally as a delivery team and as a business, and also how you interact with your clients.
 
 We'll come back to the [importance of excellent communication](/handbook/what/communication-is-key/) in the next section.
 
-### 3. Value delivered
+#### 3. Value delivered
 
 - value created by the sum of the parts
   - value for clients
   - the agency’s standing
 
-### 4. Efficiency
+#### 4. Efficiency
 
 - reducing unnecessary overheads
 - managing risks
@@ -98,17 +100,17 @@ We'll come back to the [importance of excellent communication](/handbook/what/co
 - well-run meetings
 - the right information at the right time
 
-### 5. Clarity
+#### 5. Clarity
 
 - everyone understands things at each stage
 - easy to inspect
 - analyse, adapt, improve
 
-### 6. Tone of voice
+#### 6. Tone of voice
 
 We have to make this the best client experience possible
 
-## Beware of hyper-growth
+### Beware of hyper-growth
 
 Lots of businesses have moments when they grow quickly.
 
@@ -134,11 +136,11 @@ Can lead to seismic growth, but that also has very significant risks:
 
 ---
 
-## Professional processes
+## Process
 
 Professionalism covers many things, but a large part of that is comprehensive, robust, replicable processes that are clear for customers and staff, reflect the organisation’s persona, and are in tight alignment with business objectives. That is true for client delivery just as it is for any other part of the business.
 
-Importantly, the delivery principal should build themselves out of the systems and processes they design. If a customer or project needs to switch delivery personnel for whatever reason, it should not feel like a totally different experience.
+### Professional processes
 
 That means that delivery processes must become like a product for the business, with all the traits of a product:
 
@@ -147,6 +149,8 @@ That means that delivery processes must become like a product for the business, 
 - designed to fit clear user needs
 - feedback and review baked in
 - adaptation and improvement as a feature
+
+Importantly, the delivery principal should build themselves out of the systems and processes they design. If a customer or project needs to switch delivery personnel for whatever reason, it should not feel like a totally different experience.
 
 However, it’s easy to confuse the focus between processes vs. outcomes. Customers want something done to achieve something specific. The delivery processes are only the means of enabling that.
 
@@ -157,7 +161,7 @@ The delivery principal must hold the tension in a fundamental balancing act betw
 
 Achieving outcomes for customers is a ‘one team’ collaboration between all the experts — in the business and the customer —  enabled by the delivery lead.
 
-## Beware of process over-boil
+### Beware of process over-boil
 
 A particular challenge when an organisation is growing fast:
 
@@ -202,7 +206,7 @@ and we're guarding against
 
 - Chaos
 
-## The trouble with jazz artists
+### The trouble with jazz artists
 
 Can you have a delivery leader growing with the business? Yes, it is possible to have someone grow into the position, of course.
 
