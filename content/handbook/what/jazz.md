@@ -36,7 +36,37 @@ image:
     - margin-block-md
 ---
 
-As the business matures, it stretches forward towards greater professionalism. Professionalism covers many things, but a large part of that is comprehensive, robust, replicable processes that are clear for customers and staff, reflect the organisation’s persona, and are in tight alignment with business objectives. That is true for client delivery just as it is for any other part of the business.
+As the business matures, it stretches forward towards greater professionalism.
+
+Every business wants to exude a professional air, but what constitutes professionalism is often taken on assumed knowledge rather than stated explicitly.
+
+## The point of professionalism
+
+There's three intentions when professionalising what the business does, from the perspective of project delivery leadership.
+
+### 1. Calmness
+
+Things often become frenetic in organisations. Signing lots of new contracts one on top of another; sudden growth arising from a round of funding; a buyout or merger; challenging client relationships; unexpected churn or staff turnover — all can create chaotic conditions for delivering customer outcomes.
+
+The CDO's role is to usher in calmness when things would otherwise be frenzied. Professionalism is the means of achieving that, with mature and methodical systems or actions to handle these turbulent situations.
+
+In these situations, the Chief Delivery Officer's own calmness is contagious and will spread quickly to clients, to the team, and to the wider business.
+
+### 2. Confidence
+
+A capable CDO is a master builder who has seen most things before. That means that even novel situations or events will have a ring of familiarity — aah, it's one of those!
+
+Recognising the shape and characteristics of things breeds a confidence in tackling those challenges with tried and tested practices built on long experience.
+
+### 3. Consistency
+
+These practices and ways of working, smoothed and hardened across a broad set of contexts, allows the business to achieve successful outcomes consistently.
+
+---
+
+## Professional processes
+
+Professionalism covers many things, but a large part of that is comprehensive, robust, replicable processes that are clear for customers and staff, reflect the organisation’s persona, and are in tight alignment with business objectives. That is true for client delivery just as it is for any other part of the business.
 
 Importantly, the delivery principal should build themselves out of the systems and processes they design. If a customer or project needs to switch delivery personnel for whatever reason, it should not feel like a totally different experience.
 
