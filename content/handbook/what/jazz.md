@@ -66,6 +66,48 @@ Delivery consistency requires that knowledge, insight, and progress is shared in
 
 That means thoroughgoing documentation, as the baseline. It also means demonstrations — of client project work and any technical or practical innovations, or other discrete areas of progress in the delivery team. And it means a commitment to standards, and a serious maintenance of those standards too.
 
+## The essence of professionalism
+
+So what are we talking about when we talk of professionalism?
+
+### 1. Ways of working
+
+The processes that you adopt are an encapsulation of how you do you work as an organisation.
+
+That's probably based on a bunch of industry standards, like [Agile project management principles](https://agilealliance.org/agile101/12-principles-behind-the-agile-manifesto/){target=_blank rel="noreferrer noopener"}, or standards that relate to your company's specialism, discipline, sector, or tech stack.
+
+But it's more than that — it's also a way of formalising the distinct practices that your organisation has adopted and found to be the healthiest and happiest ways for you to organise yourselves and achieve your goals.
+
+### 2. Interactions
+
+Professionalism also determines how you interact together, both internally as a delivery team and as a business, and also how you interact with your clients.
+
+We'll come back to the [importance of excellent communication](/handbook/what/communication-is-key/) in the next section.
+
+### 3. Value delivered
+
+- value created by the sum of the parts
+  - value for clients
+  - the agency’s standing
+
+### 4. Efficiency
+
+- reducing unnecessary overheads
+- managing risks
+- forecasts, burndown
+- well-run meetings
+- the right information at the right time
+
+### 5. Clarity
+
+- everyone understands things at each stage
+- easy to inspect
+- analyse, adapt, improve
+
+### 6. Tone of voice
+
+We have to make this the best client experience possible
+
 ---
 
 ## Professional processes
