@@ -108,6 +108,30 @@ We'll come back to the [importance of excellent communication](/handbook/what/co
 
 We have to make this the best client experience possible
 
+## Beware of hyper-growth
+
+Lots of businesses have moments when they grow quickly.
+
+- sometimes planned (e.g. funding round, merger, etc.)
+- sometimes not (e.g. multiple project wins in quick succession)
+
+Can lead to seismic growth, but that also has very significant risks:
+
+- chaotic
+  - jumping from one thing to another
+  - poor governance
+  - poorly resourced
+  - long hours
+  - struggle to satisfy customers, achieve outcomes, etc.
+- uncontrolled
+  - unclear if the growth will hold, will it revert
+  - organisational structures that don’t fit
+  - assigning people to roles without adequate experience
+    - because they’re familiar colleagues
+    - because a quick fix is assumed to be better than no fix
+- lacking professionalism and structure
+  - e.g. using practices, processes, tools, etc. that are applicable in smaller businesses or earlier stages
+
 ---
 
 ## Professional processes
@@ -132,3 +156,73 @@ The delivery principal must hold the tension in a fundamental balancing act betw
 - space for creativity, innovation and situational agility on the other.
 
 Achieving outcomes for customers is a ‘one team’ collaboration between all the experts — in the business and the customer —  enabled by the delivery lead.
+
+## Beware of process over-boil
+
+A particular challenge when an organisation is growing fast:
+
+- how to give leadership when there's more things happening than you can be involved in directly.
+
+One response can be to throw a net of processes over the thing:
+
+- a comprehensive suite of systems and practices to follow that covers all eventualities.
+
+Processes are a vital foundation to achieving consistent outcomes. But!
+
+- Project management is probably not the reason for the reputation the business has built.
+
+---
+
+## And jazz!
+
+It’s easy to confuse the focus between processes vs. outcomes.
+
+Consistency becomes more important the longer a business lives and larger it becomes.
+
+Customers want something done to achieve something specific. The delivery processes are only the means of enabling that.
+
+What is the relationship between process and outcomes? How does one enable the other?
+
+The delivery principal must hold the tension in a fundamental balancing act between:
+
+- systematic and thoroughgoing processes on the one hand, and
+- space for creativity, innovation and situational agility/improvisation on the other.
+
+Achieving outcomes for customers is a ‘one team’ collaboration between all the experts — in the business and the customer —  enabled by the delivery lead.
+
+So we have another C:
+
+- Calmness
+- Confidence
+- Consistency
+  &nbsp;
+- *Creativity*
+
+and we're guarding against
+
+- Chaos
+
+## The trouble with jazz artists
+
+Can you have a delivery leader growing with the business? Yes, it is possible to have someone grow into the position, of course.
+
+That said, often it’s hard:
+
+- Some characters thrive on a lack of structure
+- Brings order to chaos in the way their mind works
+- See themselves as solo jazz artists
+  - Adapting on the fly
+  - Processes and practices flexed to suit business and client’s needs/expectation
+  - Thriving in chaos
+- BUT
+  - Bristles when the company grows
+
+Most importantly:
+
+- Free-for-all is not ok
+
+As the business matures, develops in professionalism, then consistency becomes more important
+
+- Systematic
+- A flow
+- A rhythm
