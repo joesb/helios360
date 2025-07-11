@@ -22,8 +22,7 @@
   }
 
   .site-logo-image {
-    width: clamp(ptr.px-to-rem(80px), 40vw, ptr.px-to-rem(185px));
-    height: auto;
+    width: clamp(ptr.px-to-rem(80px), 40vw, ptr.px-to-rem(164px));
   }
 
   .footer-main__logo {
@@ -39,16 +38,6 @@
 
     .header-main__logo {
       padding-block: var(--size-3);
-    }
-
-    .site-logo {
-      justify-content: left;
-
-      &::before {
-        background-position-x: left;
-        width: clamp(ptr.px-to-rem(216px), 50vw, ptr.px-to-rem(324px));
-        height: clamp(ptr.px-to-rem(72px), 30vh, ptr.px-to-rem(144px));
-      }
     }
   
     .site-logo-image {
