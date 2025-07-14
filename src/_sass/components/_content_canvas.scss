@@ -197,7 +197,7 @@
   } 
 }
 
-@include respond-to.respond-to('medium') {
+@include respond-to.respond-to('small') {
   .content-canvas-item-right {
     width: 100%;
     grid-column: main-mid/main-end;
@@ -217,7 +217,7 @@
 }
 
 .content-canvas-item-out-left {
-  grid-column: wide-start/main-mid;
+  grid-column: main-start/main-end;
 }
 
 .content-canvas-item-mid-wide-right {
@@ -262,6 +262,9 @@
   }
   .content-canvas-item-wide-left-more {
     grid-column: wide-start/main-end;
+  }
+  .content-canvas-item-out-left {
+    grid-column: wide-start/main-mid;
   }
 }
 
