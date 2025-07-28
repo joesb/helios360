@@ -91,7 +91,7 @@
     content: ' ';
     background-image: none;
     grid-row-start: 1;
-    grid-column-start: 7;
+    grid-column-start: main-end;
 
     @include rt.respond-to('medium') {
       background-image: url("/public/images/deliver-that-logo-240.png");
