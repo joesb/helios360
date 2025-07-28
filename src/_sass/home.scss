@@ -25,6 +25,10 @@
     width: clamp(ptr.px-to-rem(80px), 40vw, ptr.px-to-rem(164px));
   }
 
+  .footer-main {
+    margin-block-start: 0;
+  }
+
   .footer-main__logo {
     .site-logo {
       &::before {
