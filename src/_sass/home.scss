@@ -84,6 +84,26 @@
 }
 
 .section-bg--podcast {
+  align-items: center;
+  
+  &::after {
+    display: block;
+    content: ' ';
+    background-image: none;
+    grid-row-start: 1;
+    grid-column-start: 7;
+
+    @include rt.respond-to('medium') {
+      background-image: url("/public/images/deliver-that-logo-240.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 100%;
+      min-height: 8rem;
+      max-height: 16rem;
+    } 
+  }
+
   hr {
     &::after {
       color: var(--color-brand-black);
