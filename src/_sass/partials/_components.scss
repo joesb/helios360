@@ -14,7 +14,6 @@ COMPONENTS
 @use "../components/metadata";
 @use "../components/title-bar";
 @use "../components/index-nav";
-@use "../components/helpers";
 @use "../components/lists";
 @use "../components/social-card";
 @use "../components/social-icons";
@@ -31,3 +30,5 @@ COMPONENTS
 // Index pages
 @use "../components/index-list";
 // @use "../components/pagination";
+
+@use "../components/helpers";

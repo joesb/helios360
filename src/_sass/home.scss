@@ -79,6 +79,14 @@
   display: none;
 }
 
+.section-bg--podcast {
+  hr {
+    &::after {
+      color: var(--color-brand-black);
+    }
+  }
+}
+
 @include rt.respond-to('medium') {
   .eclipse {
     position: fixed;
