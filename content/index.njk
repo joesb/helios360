@@ -22,7 +22,7 @@ page:
   titleClasses:
     - primary-font
 date: 2025-03-27T17:21:47Z
-updated: 2025-07-11T14:38:12Z
+updated: 2025-07-28T11:08:10Z
 eleventyNavigation:
   key: Home
   footer: true
@@ -139,5 +139,40 @@ Specialist super-powers for generative AI, conversational AI and AI agent contex
   {% endMarkdown %}
 
   </div>
+  {% set podItem = collections.podcastEpisodes | first %}
+  {% if podItem | length %}
+  <hr class="margin-block-none" />
+  <div class="podcast-latest">
+    <h2 class="h3-style">Latest episode</h2>
+
+    <ul class="index-list index-list-podcast margin-block-start-lg">
+      <li class="faux-block-link-parent index-list__item index-list__item-1">
+        <div class="index-list__item__content">
+          {% if podItem.data.supertitle %}
+          <div class="supertitle">{{ podItem.data.supertitle }}</div>
+          {% endif %}
+          <h3 class="heading-v-wide margin-block-sml">{{ podItem.data.title }}</h3>
+          {# DESCRIPTION #}
+          {% if podItem.data.description %}
+          <div class="description">
+          {{ podItem.data.description | markdown | safe }}
+          </div>
+          {% endif %}
+          {# METADATA #}
+          <div class="metadata item-meta">
+            <time class="item-date" datetime="{{ podItem.date | readableDate("yyyy-LL-dd") }}">{{ podItem.date | readableDate("dd/LL/yyyy") }}</time>
+            <span class="divider"></span>
+            <span class="item-duration">{{ podItem.data.duration }}</span>
+          </div>
+        </div>
+        {% if podItem.data.image.path %}
+          {% Markdown true %}![{{ podItem.data.image.alt }}]({{ podItem.data.image.path }}){.image-rounded eleventy:widths="200,350" eleventy:pictureattr:class="index-list__item__picture"}{% endMarkdown %}
+        {% endif %}
+        <a href="{{ podItem.url | url }}"{% activepath item.url, page.url %} class="faux-block-link" aria-label="{{ podItem.data.title }}"></a>
+      </li>
+    </ul>
+
+  </div>
+  {% endif %}
 
 {% endColourBG %}
