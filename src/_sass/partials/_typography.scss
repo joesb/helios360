@@ -251,7 +251,7 @@ h6,
 }
 
 .smaller {
-  font-size: smaller;
+  font-size: smaller !important;
 }
 
 .vsmall {
@@ -260,7 +260,7 @@ h6,
 }
 
 .small {
-  font-size: var(--font-size-0);
+  font-size: var(--font-size-0) !important;
   font-weight: var(--font-weight-medium);
 }
 
