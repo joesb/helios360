@@ -324,6 +324,10 @@
     &.content-canvas-item-right--span-4 {
       grid-row: span 4;
 
+      &.content-canvas-span-start-article-top {
+        grid-row: 1 / span 4;
+      }
+
       &.content-canvas-span-start-content-top {
         grid-row: 2 / span 4;
       }

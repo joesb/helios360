@@ -50,6 +50,17 @@
       }
     }
   }
+
+  &.faux-block-link-text-only {
+    transition: all 0.25s ease;
+
+    &:hover {
+      a {
+        transition: all 0.25s ease;
+        color: var(--color-brand-primary-dark);
+      }
+    }
+  }
 }
 
 .faux-block-link {
