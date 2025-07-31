@@ -55,4 +55,30 @@
     {.padding-inline-start-md}
     {% endMarkdown %}
   </div>
+  {% if type == "episode" %}
+  <div class="margin-block-lg podcast-recent">
+    <hr class="left">
+
+    <h2 class="h3-style">Recent episodes</h2>
+    {% set podItems = collections.podcastEpisodes %}
+    {% if podItems | length %}
+    <ul class="bare-list">
+      {% for podItem in podItems %}
+      {% if loop.index0 < 3 %}
+      <li class="faux-block-link-parent faux-block-link-text-only padding-block-end-sml">
+        <a href="{{ podItem.url | url }}" aria-label="{{ podItem.data.title }}"><p class="smaller margin-block-start-sml margin-block-end-none">{{ podItem.data.number | padNumber(3, "0") }} | {{ podItem.data.title }}</p></a>
+        {# METADATA #}
+        <div class="item-meta">
+          <time class="item-date" datetime="{{ podItem.date | readableDate("yyyy-LL-dd") }}">{{ podItem.date | readableDate("dd/LL/yyyy") }}</time>
+          <span class="divider"></span>
+          <span class="item-duration">{{ podItem.data.duration }}</span>
+        </div>
+        <a href="{{ podItem.url | url }}" class="faux-block-link" aria-label="{{ podItem.data.title }}"></a>
+      </li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+  {% endif %}
 </div>

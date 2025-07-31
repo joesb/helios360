@@ -265,6 +265,10 @@ export default async function(eleventyConfig) {
     return trimTrailingChars(text, charToTrim);
   });
 
+  eleventyConfig.addFilter('padNumber', (text, num, char) => {
+    return text.toString().padStart(num, char);
+  })
+
     /* COLLECTIONS */
 
   // Promoted Content collection

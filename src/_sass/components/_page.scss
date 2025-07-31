@@ -53,6 +53,21 @@
   .metadata__tags {
     justify-content: flex-end;
   }
+
+  .index-nav {
+    .metadata,
+    .item-meta {
+      border-bottom-width: 0;
+      padding-block-end: 0;
+      margin-block-end: var(--size-2);
+    }
+
+    .metadata__info,
+    .item-meta,
+    .metadata__tags {
+      justify-content: flex-start;
+    }
+  }
 }
 
 
