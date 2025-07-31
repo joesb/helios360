@@ -8,7 +8,7 @@ jumbotron: |
   Let's look at each in turn.
 pending: false
 date: 2025-03-04
-updated: 2025-06-24T15:05:16Z
+updated: 2025-07-31T11:35:16Z
 pagemeta:
   show: true
 eleventyNavigation:
@@ -138,13 +138,13 @@ Lovely though the views are, you're static on the mountain top. The journey does
 
 To get stuff done you have to come back down to ground level.
 
-If you've put in good planning time, then you'll have a clear step-by-step directions to follow. You'll definitely know the landmarks and way-points. But should know a lot more than that, something close to a turn-by-turn guide to follow.
+If you've put in good planning time, then you'll have clear step-by-step directions to follow. You'll definitely know the landmarks and way-points. But should know a lot more than that, something close to a turn-by-turn guide to follow.
 
 One of the things you should have identified is the challenges and risks to your big venture. In your thorough planning, you'll have worked out how you're going to tackle particular obstacles, the bigger challenges you know are on your path ahead.
 
 This is the definition of *tactics*{.text-color-brand-secondary}, pretty much — how you're going to address specific things that are part of the larger plan, the distinct things you need to achieve or overcome in order to get where you're going.
 
-Your tactics are the hard work you do at ground level, in the day to day. And your tactics are the reason why you've drawn together this specific the team and these particular tools — so that you can handle what you know is coming at you.
+Your tactics are the hard work you do at ground level, in the day to day. And your tactics are the reason why you've drawn together this specific team and these particular tools — so that you can handle what you know is coming at you.
 
 {% Note true, "content-note-info", "yes" %}
 **Note:**{.h3-style}
