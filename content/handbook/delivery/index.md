@@ -27,6 +27,7 @@ image:
   caption: |
     Hummingbird feeding on a vibrant orange flower. <a href="https://www.pexels.com/photo/hummingbird-feeding-on-vibrant-orange-flower-33187253/" target="_blank" rel="noopener">Photo</a> by <a href="https://www.pexels.com/@veronika-andrews-2153322013/" target="_blank" rel="noopener">Veronika Andrews</a> on Pexels.
   beforeJT: false
+  social: content/public/images/source/pexels-veronika-andrews-2153322013-33187253.jpg
 ---
 
 This section is about the business end of delivery leadership. We look at important things to bear in mind when actually delivering work for customers, especially what the means for you as a project management leader.
