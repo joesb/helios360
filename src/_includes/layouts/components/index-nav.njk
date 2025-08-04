@@ -60,7 +60,7 @@
     <hr class="left">
 
     <h2 class="h3-style">Recent episodes</h2>
-    {% set podItems = collections.podcastEpisodes %}
+    {% set podItems = utilities.podcastWithoutCurrent(collections, page.url) %}
     {% if podItems | length %}
     <ul class="bare-list">
       {% for podItem in podItems %}
