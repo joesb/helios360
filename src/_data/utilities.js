@@ -21,6 +21,17 @@ function getfullSectionByName(subjects, name) {
 }
 
 /*
+/ Remove current page from list of podcast episodes.
+*/
+function podcastWithoutCurrent(collections, itemUrl) {
+  let allPodcasts = collections.podcastEpisodes;
+
+  return allPodcasts.filter((page) => {
+    return page.url !== itemUrl;
+  });  
+}
+
+/*
 / Pop the last item off an array and add something new.
 /
 / Can handle a string or array value.
@@ -58,4 +69,4 @@ function pushIn(array, value) {
   return arr;
 }
 
-export default {activePath, getPage, getCollectionByName, getfullSectionByName, popIn, pushIn};
+export default {activePath, getPage, getCollectionByName, getfullSectionByName, podcastWithoutCurrent, popIn, pushIn};
