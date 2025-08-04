@@ -22,6 +22,7 @@ import { minify } from "html-minifier-terser";
 import schema from "@quasibit/eleventy-plugin-schema";
 import pluginTOC from "eleventy-plugin-toc";
 import dotenv from "dotenv/config";
+import minifyXML from "minify-xml";
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function(eleventyConfig) {
@@ -112,7 +113,7 @@ export default async function(eleventyConfig) {
   });
 
   // Minify HTML
-  eleventyConfig.addTransform("htmlmin", function (content) {
+  eleventyConfig.addTransform("minify", function (content) {
 		if ((this.page.outputPath || "").endsWith(".html")) {
 			let minified = minify(content, {
 				useShortDoctype: true,
@@ -122,6 +123,11 @@ export default async function(eleventyConfig) {
 
 			return minified;
 		}
+    else if ((this.page.outputPath || "").endsWith(".xml")) {
+      let minified = minifyXML(content);
+
+      return minified;
+    }
 
 		// If not an HTML output, return content as-is
 		return content;
