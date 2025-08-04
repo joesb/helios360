@@ -1,0 +1,90 @@
+@use "../common/variables";
+@use "../tools/mixins";
+@use "../tools/px-to-rem";
+
+.pagination {
+  margin-top: var(--size-3);
+
+  ol {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: var(--font-size-fluid-00);
+
+    > * {
+      margin-block-end: 0;
+    }
+  }
+
+  .pagination-item {
+    position: relative;
+    margin: px-to-rem.px-to-rem(9px);
+    height: px-to-rem.px-to-rem(27px);
+    font-size: inherit;
+
+    span {
+      @include mixins.hide-text;
+
+      &::before {
+        cursor: not-allowed;
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: inline-block;
+        width: 1rem;
+        font-size: 1.25rem;
+        line-height: 1.25rem;
+        z-index: 2;
+        text-indent: 0;
+      }
+    }
+
+    a {
+      span {
+        &::before {
+          cursor: pointer;
+        }
+      }
+    }
+
+    &.first {
+      span {
+        &::before {
+          content: '\00AB';
+        }
+      }
+    }
+
+    &.previous {
+      span {
+        &::before {
+          content: '\2039';
+        }
+      }
+    }
+
+    &.next {
+      span {
+        &::before {
+          content: '\203A';
+        }
+      }
+    }
+
+    &.last {
+      span {
+        &::before {
+          content: '\00BB';
+        }
+      }
+    }
+  }
+
+  .current {
+    font-weight: var(--font-weight-medium);
+  }
+}

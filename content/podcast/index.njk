@@ -42,9 +42,15 @@ helpcardStyles:
     - helpcard--center-content
     - helpcard--narrow
 listTitle: Episodes
-listSource: podcastEpisodes
+listSource:
 listAllMoreButton: false
 indexListType: "podcast"
+paginationContentID: episodes
+pagination:
+  data: collections.podcastEpisodes
+  size: 5
+  alias: items
+  generatePageOnEmptyData: true
 showTags: false
 metadata:
   cards:

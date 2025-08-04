@@ -13,6 +13,7 @@ image:
 showNav: true
 listAllDescriptions: true
 indexListType: standard
+paginationContentID: pg-section
 type: page
 navOptions:
   listElement: "ul"
@@ -94,7 +95,7 @@ pagemeta:
     {% endif %}
 
     {% if pagination.data or items.length %}
-    <aside class="site-content content-canvas">
+    <aside class="site-content content-canvas" {% if paginationContentID %} id="{{ paginationContentID }}"{% endif %}>
       {% if listTitle %}
       <hr>
 
