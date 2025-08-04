@@ -229,11 +229,11 @@ export default async function(eleventyConfig) {
     return metadata;
   };
 
-  eleventyConfig.addPairedShortcode("ImgFigure", function(content, caption, classes = [], md = true) {
+  eleventyConfig.addPairedShortcode("ImgFigure", function(content, caption = false, classes = [], md = true) {
     if (caption) {
       caption = '<figcaption>' + caption + '</figcaption>';
     }
-    return '<figure' + (classes.length ? ' class="' + classes.join(" ") + '"' : '') + '>' + (md ? markdownLibrary.renderInline(content) : content) + caption +'</figure>';
+    return '<figure' + (classes.length ? ' class="' + classes.join(" ") + '"' : '') + '>' + (md ? markdownLibrary.renderInline(content) : content) + (caption ? caption : '') +'</figure>';
   });
 
   eleventyConfig.addFilter('maxDate', (list) => {
