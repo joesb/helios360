@@ -21,10 +21,10 @@
     "sass:build": "sass --style=expanded ./src/_sass/:./src/_includes/assets/css/ && npx postcss ./src/_includes/assets/css/*.css --use autoprefixer -d ./src/_includes/assets/css"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy": "^3.1.2",
     "@11ty/eleventy-img": "^6.0.4",
     "@11ty/eleventy-navigation": "^0.3.5",
-    "@11ty/eleventy-plugin-rss": "^2.0.3",
+    "@11ty/eleventy-plugin-rss": "^2.0.4",
     "@quasibit/eleventy-plugin-schema": "^1.11.1",
     "autoprefixer": "^10.4.21",
     "clean-css": "^5.3.3",

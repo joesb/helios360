@@ -56,24 +56,26 @@ export default async function(eleventyConfig) {
     speed: '850 characters per minute',
     style: "short"
   });
-  eleventyConfig.addPlugin(feedPlugin, {
-		type: "atom", // or "rss", "json"
-		outputPath: "/feed.xml",
-		collection: {
-			name: "all", // iterate over `collections.all`
-			limit: 100,  // 0 means no limit
-		},
-		metadata: {
-			language: "en",
-			title: "Helios360",
-			subtitle: "Management Consulting for Client Services and Gen-AI Delivery",
-			base: "https://helios360.co.uk",
-			author: {
-				name: "Joe Baker",
-				email: "", // Optional
-			}
-		}
-	});
+
+  // eleventyConfig.addPlugin(feedPlugin, {
+	// 	type: "atom", // or "rss", "json"
+	// 	outputPath: "/feed.xml",
+	// 	collection: {
+	// 		name: "all", // iterate over `collections.all`
+	// 		limit: 100,  // 0 means no limit
+	// 	},
+	// 	metadata: {
+	// 		language: "en",
+	// 		title: "Helios360",
+	// 		subtitle: "Management Consulting for Client Services and Gen-AI Delivery",
+	// 		base: "https://helios360.co.uk",
+	// 		author: {
+	// 			name: "Joe Baker",
+	// 			email: "", // Optional
+	// 		}
+	// 	}
+	// });
+
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
 		// which file extensions to process
 		extensions: "html",
@@ -122,7 +124,7 @@ export default async function(eleventyConfig) {
 			let minified = minify(content, {
 				useShortDoctype: true,
 				removeComments: true,
-				collapseWhitespace: isProd,
+				collapseWhitespace: isProd
 			});
 
 			return minified;
