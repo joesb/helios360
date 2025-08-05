@@ -1,0 +1,33 @@
+---
+permalink: "feed.xml"
+eleventyExcludeFromCollections: true
+metadata:
+  language: "en"
+  title: "Helios360"
+  description: "Delivery leadership for ambitious businesses"
+  base: "https://helios360.co.uk/"
+  author:
+    name: "Joe Baker"
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ metadata.language or page.lang }}">
+  <title>{{ metadata.title }}</title>
+  <subtitle>{{ metadata.description }}</subtitle>
+  <link href="{{ permalink | htmlBaseUrl(metadata.base) }}" rel="self" />
+  <link href="{{ metadata.base | addPathPrefixToFullUrl }}" />
+  <updated>{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+  <id>{{ metadata.base | addPathPrefixToFullUrl }}</id>
+  <author>
+    <name>{{ metadata.author.name }}</name>
+  </author>
+  {%- for post in collections.all | reverse %}
+  {%- set absolutePostUrl %}{{ post.url | htmlBaseUrl(metadata.base) }}{% endset %}
+  <entry>
+    <title>{{ post.data.title }}</title>
+    <link href="{{ absolutePostUrl }}" />
+    <updated>{% if page.data.updated %}{{ post.updated | dateToRfc3339 }}{% else %}{{ post.date | dateToRfc3339 }}{% endif %}</updated>
+    <id>{{ absolutePostUrl }}</id>
+    <content type="html">{{ post.content | renderTransforms(post.data.page, metadata.base) }}</content>
+  </entry>
+  {%- endfor %}
+</feed>
