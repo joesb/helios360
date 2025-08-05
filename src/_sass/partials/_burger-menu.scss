@@ -33,7 +33,8 @@
   display: inline-block;
   vertical-align: middle;
 
-  div {
+  span {
+    display: block;
     width: 100%;
     height: ptr.px-to-rem(3px);
     transition: 0.3s ease-in-out;
@@ -46,26 +47,27 @@
 .open-mobile {
   overflow: hidden;
 
-  // .js-closed {
     .header-main__menu__burger {
-      div {
+      span {
         background-color: var(--color-brand-primary);
-      }
-      div:nth-child(1) {
-        transition: 0.3s ease-in-out;
-        display: none;
-      }
-      div:nth-child(2) {
-        transition: 0.3s ease-in-out;
-        transform: rotate(45deg);
-        margin-bottom: ptr.px-to-rem(-3px);
-      }
-      div:nth-child(3) {
-        transition: 0.3s ease-in-out;
-        transform: rotate(-45deg);
-      }
+      
+        &:nth-child(1) {
+          transition: 0.3s ease-in-out;
+          display: none;
+        }
+      
+        &:nth-child(2) {
+          transition: 0.3s ease-in-out;
+          transform: rotate(45deg);
+          margin-bottom: ptr.px-to-rem(-3px);
+        }
+      
+        &:nth-child(3) {
+          transition: 0.3s ease-in-out;
+          transform: rotate(-45deg);
+        }
     }
-  // }
+  }
 }
 
 @include respond-to.respond-to('medium') {
