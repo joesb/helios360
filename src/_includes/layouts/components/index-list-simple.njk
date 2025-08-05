@@ -1,11 +1,14 @@
-  <ul class="index-list index-list-simple index-list--{{ items | length}}">
+{% if listLen === undefined %}
+  {% set listLen = items.length %}
+{% endif %}
+  <ul class="index-list index-list-simple index-list--{{ listLen }}">
     {% set cls = cycler("odd", "even") %}
     {% set sze = cycler("large","small") %}
-    {% set listLen = items | length %}
     {% if listLen == 2 %}
     {% set sze = cycler("large") %}
     {% endif %}
-    {% for item in items %}
+    {% for i in range (0, listLen) %}
+      {% set item = items[i] %}
       {% set vr = cls.next() %}
       {% if loop.index != 1 and vr == "even" %}
       {% set trash = sze.next() %}
@@ -91,4 +94,12 @@
       </ol>
     </nav>
 
+{% endif %}
+
+{% if indexListSuffix %}
+
+  {% Markdown %}
+  {{ indexListSuffix }}
+  {% endMarkdown %}
+  
 {% endif %}

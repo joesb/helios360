@@ -258,6 +258,7 @@
   .index-list__item {
     min-height: px-to-rem.px-to-rem(54px);
     min-width: 100%;
+    grid-column: unset;
     display: grid;
     grid-template-areas: 
       "picture content";
@@ -270,7 +271,7 @@
 
   .index-list__item__content {
     padding: clamp(var(--size-3), 2.5vw, var(--size-4));
-    grid-template-rows: minmax(2rem, 1fr) 2fr auto;
+    grid-template-rows: minmax(2rem, 1fr) 1.5fr auto;
     grid-area: content;
   }
 
@@ -281,7 +282,7 @@
 
   .index-list__item--supertitle {
     .index-list__item__content {
-      grid-template-rows: 1.5rem minmax(2rem, 1fr) 2fr auto;
+      grid-template-rows: 1.5rem minmax(2rem, 1fr) 1.5fr auto;
     }
   }
 
@@ -294,5 +295,25 @@
 
   .description {
     color: var(--color-brand-white);
+  }
+}
+
+.index-list-podcast-latest {
+  grid-template-columns: repeat(auto-fill, minmax(30ch, 1fr));
+
+  .index-list__item {
+    &:not(.index-list__item-first) {
+      .description {
+        :where(p) {
+          font-size: var(--font-size-fluid-00);
+        }
+      }
+    }
+  }
+
+  .index-list__item-first {
+    grid-column: 1 / -1;
+    min-height: px-to-rem.px-to-rem(325px);
+    grid-template-columns: minmax(4rem, 16rem) auto;
   }
 }

@@ -108,10 +108,13 @@ pagemeta:
       {% include "layouts/components/index-list-simple.njk" %}
         {% elif indexListType == "podcast" %}
       {% include "layouts/components/index-list-podcast.njk" %}
+        {% elif indexListType == "podcastLatest" %}
+      {% include "layouts/components/index-list-podcast-latest.njk" %}
         {% else %}
       {% include "layouts/components/index-list.njk" %}
         {% endif %}
-
+      {% else %}
+      {% include "layouts/components/index-list.njk" %}
       {% endif %}
       </div>
     </aside>

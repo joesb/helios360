@@ -1,11 +1,14 @@
-  <ul class="index-list index-list--{{ items | length}}">
+{% if listLen === undefined %}
+  {% set listLen = items.length %}
+{% endif %}
+  <ul class="index-list index-list--{{ listLen }}">
     {% set cls = cycler("odd", "even") %}
     {% set sze = cycler("large","small") %}
-    {% set listLen = items | length %}
     {% if listLen == 2 %}
     {% set sze = cycler("large") %}
     {% endif %}
-    {% for item in items %}
+    {% for i in range (0, listLen) %}
+      {% set item = items[i] %}
       {% set vr = cls.next() %}
       {% if loop.index != 1 and vr == "even" %}
       {% set trash = sze.next() %}
@@ -15,7 +18,7 @@
         <div class="index-list__item__content">
           {% if item.data.tags and showTags !== false %}
           {% set itemTags = [] %}
-          {%- for tag in item.data.tags %}
+          {% for tag in item.data.tags %}
             {% if tag | starts_with("#", true) %}
             {% set itemTags = (itemTags.push(tag), itemTags) %}
             {% endif %}
@@ -41,9 +44,9 @@
           {# Only show metadata if explicitly wanted #}
           {% if metadata.cards.show %}
           <div class="metadata item-meta">
-            <time class="item-date" datetime="{{ item.date | readableDate("yyyy-LL-dd") }}">{{ item.date | readableDate("LLLL yyyy") }}</time>
+            <time class="item-date" datetime="{{ item.date | readableDate("yyyy-LL-dd") }}">{{ item.date | readableDate("d LLLL yyyy") }}</time>
             <span class="divider"></span>
-            <span class="item-reading-time">{{ item.content | timeToRead }} read</span></div>
+            <span class="item-reading-time">{{ item.content | timeToRead }} read</span>
           </div>
           {% endif %}
          {# MORE BUTTON #}
@@ -75,4 +78,12 @@
       </ol>
     </nav>
 
+{% endif %}
+
+{% if indexListSuffix %}
+
+  {% Markdown %}
+  {{ indexListSuffix }}
+  {% endMarkdown %}
+  
 {% endif %}
