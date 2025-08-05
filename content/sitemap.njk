@@ -14,7 +14,7 @@ tagFilter:
   {% for item in page.data.pagination.pages %}
   {% set pageUrl %}{% if loop.index0 > 0 %}{{ page.url }}/{{ loop.index0}}/{% else %}{{ page.url }}{% endif %}{% endset %}
   <url>
-      <loc>{{ pageUrl | url | absoluteUrl(metadata.url) }}</loc>
+      <loc>{{ pageUrl | htmlBaseUrl(metadata.base) }}</loc>
       <lastmod>{% if page.data.updated %}{{ page.data.updated | dateToRfc3339 }}{% else %}{{ page.date | dateToRfc3339 }}{% endif %}</lastmod>{% if page.data.sitemap.changefreq %}
       <changefreq>{{ page.data.sitemap.changefreq }}</changefreq>{% endif %}{% if page.data.sitemap.priority %}
       <priority>{{ page.data.sitemap.priority }}</priority>{% endif %}
@@ -22,7 +22,7 @@ tagFilter:
   {% endfor %}
 {% else %}
   <url>
-      <loc>{{ page.url | url | absoluteUrl(metadata.url) }}</loc>
+      <loc>{{ page.url | htmlBaseUrl(metadata.base) }}</loc>
       <lastmod>{% if page.data.updated %}{{ page.data.updated | dateToRfc3339 }}{% else %}{{ page.date | dateToRfc3339 }}{% endif %}</lastmod>{% if page.data.sitemap.changefreq %}
       <changefreq>{{ page.data.sitemap.changefreq }}</changefreq>{% endif %}{% if page.data.sitemap.priority %}
       <priority>{{ page.data.sitemap.priority }}</priority>{% endif %}

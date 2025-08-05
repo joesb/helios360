@@ -1,21 +1,14 @@
 ---
 permalink: "feed.xml"
 eleventyExcludeFromCollections: true
-metadata:
-  language: "en"
-  title: "Helios360"
-  description: "Delivery leadership for ambitious businesses"
-  base: "https://helios360.co.uk/"
-  author:
-    name: "Joe Baker"
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ metadata.language or page.lang }}">
   <title>{{ metadata.title }}</title>
-  <subtitle>{{ metadata.description }}</subtitle>
+  <subtitle>{{ metadata.summary }}</subtitle>
   <link href="{{ permalink | htmlBaseUrl(metadata.base) }}" rel="self" />
   <link href="{{ metadata.base | addPathPrefixToFullUrl }}" />
-  <updated>{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+  <updated>{{ collections.all | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
   <id>{{ metadata.base | addPathPrefixToFullUrl }}</id>
   <author>
     <name>{{ metadata.author.name }}</name>
