@@ -27,6 +27,10 @@ import minifyXML from "minify-xml";
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function(eleventyConfig) {
 
+  const environment = process.env.ELEVENTY_ENV;
+  const PROD_ENV = 'production';
+  const isProd = environment === PROD_ENV;
+
   // Add the dev server middleware manually
   eleventyConfig.addPlugin(IdAttributePlugin, {
     selector: "h1,h2,h3,h4,h5,h6", // default
@@ -118,7 +122,7 @@ export default async function(eleventyConfig) {
 			let minified = minify(content, {
 				useShortDoctype: true,
 				removeComments: true,
-				collapseWhitespace: true,
+				collapseWhitespace: isProd,
 			});
 
 			return minified;

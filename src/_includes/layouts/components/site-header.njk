@@ -1,4 +1,4 @@
-    <header role="banner" class="header-main content-canvas">
+    <header class="header-main content-canvas">
       <div class="header-main__inner content-canvas-item-wide">
         <div class="header-main__logo">
           {% if page.url !== '/' %}<a href="{{ '/' | url }}" class="site-logo" title="{{ metadata.title }}">
@@ -11,7 +11,7 @@
             </div>
           </a>
           {% else %}
-          <span class="site-logo" title="{{ metadata.title }}">
+          <div class="site-logo" title="{{ metadata.title }}">
             {% image "./content/public/images/logo-02-03.webp", "Helios360 logo", "site-logo-image", siteLogoImg.widths, "auto", "", siteLogoImg.attrs %}
             <div class="h2-style visually-hidden">
               {{ metadata.title }}
@@ -19,7 +19,7 @@
               <div class="h2-style not-bold">{{ metadata.subtitle }}</div>
               {% endif %}
             </div>
-          </span>
+          </div>
           {% endif %}
         </div>
         <div class="header-main__nav" id="main-navigation">
@@ -35,9 +35,9 @@
           <div class="header-main__menu__text closed-text visually-hidden" aria-label="Open menu">Menu</div>
           <div class="header-main__menu__text open-text visually-hidden" aria-label="Close menu">Close</div>
           <div class="header-main__menu__burger">
-            <div></div>
-            <div></div>
-            <div></div>
+            <span></span>
+            <span></span>
+            <span></span>
           </div>
         </button>
         {% endif %}
