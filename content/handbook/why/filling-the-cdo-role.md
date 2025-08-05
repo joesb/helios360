@@ -2,8 +2,7 @@
 title: Filling the Chief Delivery Officer role
 description: The CDO role is one of the hardest (and most important) to hire for
 layout: page.njk
-date: 2025-06-01T11:52:49Z
-updated: 2025-06-13T12:52:49Z
+date: 2025-06-13T12:52:49Z
 pending: false
 jumbotron: |
   The Chief Delivery Officer role is one of the hardest to hire for.

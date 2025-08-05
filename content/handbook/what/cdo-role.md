@@ -9,8 +9,7 @@ jumbotron: |
 
   Here we look at all that, plus some specific issues about the reach and influence that the CDO has to make changes and improvements in the organisation.
 pending: false
-date: 2025-02-05
-updated: 2025-06-25T16:52:09Z
+date: 2025-06-25T16:52:09Z
 eleventyNavigation:
   key: The CDO role
   parent: What makes a CDO?

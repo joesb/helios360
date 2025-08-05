@@ -9,8 +9,7 @@ jumbotron: |
   
   The CDO's task then is to deliver outcomes focused on true value and the commercial promise of new technologies.
 pending: false
-date: 2024-12-04
-updated: 2025-04-01T11:27:33Z
+date: 2025-04-01T11:27:33Z
 eleventyNavigation:
   key: Innovation and hype
   parent: Handbook

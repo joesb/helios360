@@ -7,8 +7,7 @@ jumbotron: |
 
   Let's look at each in turn.
 pending: false
-date: 2025-03-04
-updated: 2025-07-31T11:35:16Z
+date: 2025-07-31T11:35:16Z
 pagemeta:
   show: true
 eleventyNavigation:

@@ -2,8 +2,7 @@
 title: Privacy Policy
 description: Site privacy policy statements
 layout: page.njk
-date: 2025-04-23T16:07:32Z
-updated: 2025-06-10T17:07:32Z
+date: 2025-06-10T17:07:32Z
 showTOC: false
 eleventyNavigation:
   key: Privacy Policy

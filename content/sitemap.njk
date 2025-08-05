@@ -3,19 +3,15 @@ permalink: /sitemap.xml
 layout:
 eleventyExcludeFromCollections: true
 date: Last Modified
-tagFilter:
-    - all
-    - promotedContent
-    - handbookPromoted
 ---
-<?xml version="1.0" encoding="utf-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{% for page in collections.all | sortByDate %}{% if page.url !== '/feed.xml' %}
+<?xml version="1.0" encoding="utf-8"?>{% set pages = collections.all | sortByDate(false) %}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{% for page in pages %}
 {% if page.data.pagination.pages.length > 0 %}
   {% for item in page.data.pagination.pages %}
   {% set pageUrl %}{% if loop.index0 > 0 %}{{ page.url }}/{{ loop.index0}}/{% else %}{{ page.url }}{% endif %}{% endset %}
   <url>
       <loc>{{ pageUrl | htmlBaseUrl(metadata.base) }}</loc>
-      <lastmod>{% if page.data.updated %}{{ page.data.updated | dateToRfc3339 }}{% else %}{{ page.date | dateToRfc3339 }}{% endif %}</lastmod>{% if page.data.sitemap.changefreq %}
+      <lastmod>{{ page.date | dateToRfc3339 }}</lastmod>{% if page.data.sitemap.changefreq %}
       <changefreq>{{ page.data.sitemap.changefreq }}</changefreq>{% endif %}{% if page.data.sitemap.priority %}
       <priority>{{ page.data.sitemap.priority }}</priority>{% endif %}
   </url>
@@ -23,11 +19,10 @@ tagFilter:
 {% else %}
   <url>
       <loc>{{ page.url | htmlBaseUrl(metadata.base) }}</loc>
-      <lastmod>{% if page.data.updated %}{{ page.data.updated | dateToRfc3339 }}{% else %}{{ page.date | dateToRfc3339 }}{% endif %}</lastmod>{% if page.data.sitemap.changefreq %}
+      <lastmod>{{ page.date | dateToRfc3339 }}</lastmod>{% if page.data.sitemap.changefreq %}
       <changefreq>{{ page.data.sitemap.changefreq }}</changefreq>{% endif %}{% if page.data.sitemap.priority %}
       <priority>{{ page.data.sitemap.priority }}</priority>{% endif %}
   </url>
-{% endif %}
 {% endif %}
 {% endfor %}
 </urlset>

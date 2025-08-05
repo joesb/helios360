@@ -3,8 +3,7 @@ title: Fractional Chief Delivery Officer for ambitious businesses
 layout: page.njk
 type: page
 description: Expert customer delivery director working with UK- & US-based CEOs and founders.
-date: 2025-03-21T15:59:47Z
-updated: 2025-06-24T16:48:19Z
+date: 2025-06-24T16:48:19Z
 jumbotron: |
   Struggling with scaling? Wrestling with workload? Need to smarten up your strategy, management and client delivery leadership?{.bold}
 

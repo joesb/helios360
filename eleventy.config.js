@@ -366,8 +366,6 @@ export default async function(eleventyConfig) {
   function sortByDate(collection, andSticky = true) {
     return collection.sort((a, b) => {
       if (andSticky && b.data.sticky) return -1;
-      else if (a.data.date < b.data.updated) return -1;
-      else if (a.data.date > b.data.updated) return 1;
       else if (a.data.date < b.data.date) return -1;
       else if (a.data.date > b.data.date) return 1;
       else return 0;

@@ -8,7 +8,6 @@ jumbotron: |
   That builds the firm foundation for delivery jazz — situational agility, creativity, and innovation.
 pending: false
 date: 2025-07-11T11:36:00Z
-# updated: 2025-06-24T15:05:16Z
 pagemeta:
   show: true
 eleventyNavigation:
