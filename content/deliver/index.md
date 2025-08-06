@@ -19,6 +19,7 @@ showNav: false
 indexListType: simple
 redirect_from:
   - /delivery/
+  - /podcast/hire/
 eleventyNavigation:
   key: We Deliver
   parent: Home
