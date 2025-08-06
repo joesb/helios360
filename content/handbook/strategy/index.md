@@ -7,7 +7,7 @@ jumbotron: |
 
   And how do you pick up an existing delivery strategy, work out what's working and what isn't, and make improvements that stick?
 pending: false
-date: 2025-06-26T16:42:29Z
+date: 2025-08-06T09:42:29Z
 eleventyNavigation:
   key: Building a delivery strategy
   parent: Handbook
@@ -36,7 +36,7 @@ This chapter takes seriously the problem of business-as-usual (BAU) and what the
 
 We begin by sketching out that environment and how to go about understanding who is making delivery decisions, how and why they are being made that way, and ways of engaging with and unpicking the history into which you're walking.
 
-We'll take a look at the sort of things you should be considering in your first 30 and first 100 days. To do that, we'll go into some more depth on a few things you'll need to do from the start that we've outlined already as the [key skills of a CDO](/handbook/what/important-skills/), things like building relationships and establishing your credibility.
+We'll take a look at the sort of things you should be considering in your first 30, your first 100 days, and your first 300 days. To do that, we'll go into some more depth on a few things you'll need to do from the start that we've outlined already as the [key skills of a CDO](/handbook/what/important-skills/), things like building relationships and establishing your credibility.
 
 The chapter then advocates for a two-pronged approach to building out your approach in the business built on a thoroughgoing understanding of the [relationship between a strategic vision and a tactical view](/handbook/what/important-skills/#strategic-vision-tactical-view) that we've described a little in the previous chapter.
 
