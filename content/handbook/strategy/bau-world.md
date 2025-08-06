@@ -11,7 +11,7 @@ jumbotron: |
   
   Plus, engaging with and unpicking the history into which you're walking.
 pending: false
-date: 2025-07-08T17:51:29Z
+date: 2025-08-06T10:51:29Z
 eleventyNavigation:
   key: Evaluating BAU
   parent: Building a delivery strategy
@@ -105,4 +105,34 @@ Asking this question of your CxO peers would be instructive — who owns the cus
 
 ### Review recent work
 
-At this point it's probably worth taking the temperature of recently delivered or closed projects. A close look at the outcomes, the value delivered (to both the customer *and* the business) plus any documentation about the journey from start to finish, and any things learnt or actions taken — all will be instructive and give you a fairly quick assessment of the maturity of delivery practices and processes.
+At this point it's probably worth taking the temperature of recently delivered or closed projects.
+
+Here's what you should be inspecting:
+
+- **A close look at the outcomes**
+  - What was actually achieved?
+  - What was the client/user/team review and feedback?
+- **The value delivered**, to both
+  - The customer, *and*
+  - The business
+- **Any documentation about the journey** from start to finish, including things like
+  - Task boards
+  - Sprint planning, review, and retrospective docs
+  - Velocity tracking
+  - Process documentation
+  - Handover notes
+  - Project diary, if one's been kept
+  - Technical debt records
+- **What's been learnt at each step?**
+  - What actions were taken to overcome challenges?
+
+All will be instructive and give you a fairly quick assessment of the maturity of delivery practices and processes.
+
+There's one last aspect to review, though, and important enough to call out separately:
+
+- **Internal and external influences**
+  - What affected the way the project proceeded?
+  - What internal factors determined the flow?
+  - What external pressures created constraints or demands?
+
+What you're look at here is where authority sits in the organisation. Or, how much freedom is there currently for product or service teams to do their job? Your discoveries here will shape where you will need to push in order to create the necessary space for the teams in your delivery division.
