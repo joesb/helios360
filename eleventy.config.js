@@ -344,6 +344,12 @@ export default async function(eleventyConfig) {
     return sortByDate(collection, andSticky);
   });
 
+  eleventyConfig.addFilter('excludePages', (collection, excludedURLs = []) => {
+    return collection.filter((item) => {
+      return excludedURLs.includes(item.url) ? 0 : 1;
+    });
+  });
+
   function sortByOrder(collection, field = 'order', andSticky = false) {
     if (field == 'eleventyNavigation') {
       return collection.sort((a, b) => {

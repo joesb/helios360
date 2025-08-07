@@ -3,6 +3,8 @@ permalink: "feed.xml"
 eleventyExcludeFromCollections: true
 eleventyImport:
   collections: ["all"]
+excludeURLs:
+  - /podcast/hire/
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ metadata.language or page.lang }}">
@@ -15,7 +17,7 @@ eleventyImport:
   <author>
     <name>{{ metadata.author.name }}</name>
   </author>
-  {%- for post in collections.all | reverse %}
+  {%- for post in collections.all | excludePages(excludeURLs) | reverse %}
   {%- set absolutePostUrl %}{{ post.url | htmlBaseUrl(metadata.base) }}{% endset %}
   <entry>
     <title>{{ post.data.title }}</title>

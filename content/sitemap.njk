@@ -3,8 +3,10 @@ permalink: /sitemap.xml
 layout:
 eleventyExcludeFromCollections: true
 date: Last Modified
+excludeURLs:
+  - /podcast/hire/
 ---
-<?xml version="1.0" encoding="utf-8"?>{% set pages = collections.all | sortByDate(false) %}
+<?xml version="1.0" encoding="utf-8"?>{% set pages = collections.all | sortByDate(false) | excludePages(excludeURLs) %}
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{% for page in pages %}
 {% if page.data.pagination.pages.length > 0 %}
   {% for item in page.data.pagination.pages %}
