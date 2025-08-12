@@ -11,7 +11,7 @@ jumbotron: |
   
   Plus, engaging with and unpicking the history into which you're walking.
 pending: false
-date: 2025-08-06T10:51:29Z
+date: 2025-08-012T09:51:29Z
 eleventyNavigation:
   key: Evaluating BAU
   parent: Building a delivery strategy
@@ -43,7 +43,7 @@ In reality, you may be fixing a puncture, putting gaffer tape on the bonnet to s
 
 Suffice to say, when taking up a new position you're likely to find an organisation that's become accustomed to its ways of working and has been carrying on quite happily for a surprisingly long time. And they may well be unaware that they have problems that need tackling … or maybe don't understand the problems that they have, which will explain a low level of delivery maturity.
 
-When this is the case, get ready for the sensation of holding your hands on your head, for a permanently accelerated heart rate as you're rushing from one chaotic situation to another, or for comments like, 'yeah, we tried that before and it didn't work for us,' or 'marketing/finance/whatever won't like you doing that,' or even the classic, 'that's not the way we do things here.'
+When this is the case, get ready for the sensation of holding your head in your hands, get ready for a permanently accelerated heart rate as you're rushing from one chaotic situation to another, and especially get ready for for comments like, 'yeah, we tried that before and it didn't work for us,' or 'marketing/finance/whatever won't like you doing that,' or even the classic, 'that's not the way we do things here.'
 
 ---
 
