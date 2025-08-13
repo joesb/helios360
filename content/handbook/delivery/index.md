@@ -7,9 +7,9 @@ jumbotron: |
 
   So, instead: *think slow, act fast.*
   
-  Or, the subtle art of getting stuff done.
+  Or, engage in the subtle art of getting stuff done.
 pending: false
-date: 2025-08-01T12:35:21Z
+date: 2025-08-12T11:05:21Z
 listTitle: In this section
 listSource: handbookDelivery
 listAllMoreButton: true
@@ -45,3 +45,7 @@ We look at all the stages of the project lifecycle, from the very beginning to t
 7. Retirement and decommissioning
 
 In particular, we look at the principles that should guide the Chief Delivery Officer at every point in that lifecycle, the things that bring coherence in practices and consistency in outcomes, time after time.
+
+As a point of reference, this section includes some [essential heuristics](/handbook/delivery/heuristics/) for project delivery leadership — fast and frugal rules of thumb, learnt from 20+ years of experience, reading, and researching to simplify complex things, and help service and project delivery start out on the right track and stay there.
+
+*Take these to heart, learn them by rote, and let them guide your instincts as you work hard to get big stuff done.*
