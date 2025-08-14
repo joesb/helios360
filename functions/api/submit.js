@@ -28,7 +28,7 @@ export async function onRequestPost(context) {
     const honeypot = output["contact-name"]
     // Return early with pretend confirmation if bot hit honeypot
     if (honeypot !== "") {
-      return Response.redirect("https://helios360.co.uk/contact-confirmation", 303)
+      return Response.redirect("https://helios360.co.uk/contact-confirmation/", 303)
     }
 
     const messageContent = `Sender: ${output.fullname} — ${output.email}
@@ -47,12 +47,12 @@ ${output.message}`;
     });
     console.log({data, error});
     if (error) {
-      return Response.redirect("https://helios360.co.uk/404", 303)
+      return Response.redirect("https://helios360.co.uk/404/", 303)
     } else {
-      return Response.redirect("https://helios360.co.uk/contact-confirmation", 303)
+      return Response.redirect("https://helios360.co.uk/contact-confirmation/", 303)
     }
   } catch (err) {
     console.log(err);
-    return Response.redirect("https://helios360.co.uk/404?error=json_parsing", 303)
+    return Response.redirect("https://helios360.co.uk/404/?error=json_parsing", 303)
   }
 }
