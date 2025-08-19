@@ -3,13 +3,13 @@ title: The CDO and the art of getting things done
 layout: section.njk
 description: "Think slow, act fast, or the factors involved in the hard work of getting stuff done"
 jumbotron: |
-  When it comes to delivering for clients, it's common to want to be seen doing things, being busy, making stuff happen. But that's the straight and easy road to Problemsville.
+  When it comes to delivering for clients, it's common to want to be seen doing work, being busy, making stuff happen. But that's the straight and easy road to Problemsville.
 
   So, instead: *think slow, act fast.*
   
   Or, engage in the subtle art of getting stuff done.
 pending: false
-date: 2025-08-12T11:05:21Z
+date: 2025-08-19T16:25:21Z
 listTitle: In this section
 listSource: handbookDelivery
 listAllMoreButton: true
@@ -30,9 +30,9 @@ image:
   social: content/public/images/source/pexels-veronika-andrews-2153322013-33187253.jpg
 ---
 
-This section is about the business end of delivery leadership. We look at important things to bear in mind when actually delivering work for customers, especially what the means for you as a project management leader.
+This section is about the business end of delivery leadership. We look at important matters to bear in mind when actually delivering work for customers, especially what the means for you as a project management leader.
 
-These are the things that are the basis of your project delivery strategy: the particular methods, practices, processes, and tools that you'll need your teams to employ whenever they're delivering for clients. And they're the things that people in your teams will draw on in the tactical world of day-to-day where your strategy is executed.
+These vital aspects are the basis of your project delivery strategy: the particular methods, practices, processes, and tools that you'll need your teams to employ whenever they're delivering for clients. And they're the things that people in your teams will draw on in the tactical world of the day-to-day, the place where your strategy is executed.
 
 We look at all the stages of the project lifecycle, from the very beginning to the very end, covering:
 
