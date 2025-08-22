@@ -10,7 +10,7 @@
   }
 
   @include rt.respond-to('medium') {
-    grid-template-rows: minmax(40vh, 50vh) auto auto;
+    grid-template-rows: minmax(35vh, 45vh) auto auto;
   }
 
   .header-main__logo {
@@ -112,6 +112,30 @@
 }
 
 @include rt.respond-to('medium') {
+  .home-content {
+    &.content-canvas {
+      grid-template-columns:
+        [full-start]
+          minmax(0, 1vw)
+        [wide-start]
+          minmax(5ch, auto)
+        [main-start]
+          minmax(8ch, 12ch)
+        [main-left]
+          minmax(8ch, 12ch)
+        [main-mid]
+          minmax(8ch, 12ch)
+        [main-right]
+          minmax(5ch, 12ch)
+        [main-end]
+          minmax(15ch, auto)
+        [wide-end]
+        minmax(0, 1vw)
+        [full-end];
+      grid-auto-flow: row;
+    }
+  }
+
   .eclipse {
     position: fixed;
     top: calc(50vh - 7.5rem);
@@ -131,6 +155,32 @@
       background-size: contain;
       width: clamp(5rem, 25vw, 18rem);
       height: clamp(5rem, 25vw, 18rem);
+    }
+  }
+}
+
+@include rt.respond-to('large') {
+  .home-content {
+    &.content-canvas {
+      grid-template-columns:
+        [full-start]
+          minmax(0, 1vw)
+        [wide-start]
+          minmax(5ch, auto)
+        [main-start]
+          minmax(8ch, 15ch)
+        [main-left]
+          minmax(8ch, 15ch)
+        [main-mid]
+          minmax(8ch, 15ch)
+        [main-right]
+          minmax(8ch, 15ch)
+        [main-end]
+          minmax(15ch, auto)
+        [wide-end]
+        minmax(0, 1vw)
+        [full-end];
+      grid-auto-flow: row;
     }
   }
 }
