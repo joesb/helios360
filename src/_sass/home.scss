@@ -164,9 +164,9 @@
     &.content-canvas {
       grid-template-columns:
         [full-start]
-          minmax(0, 1vw)
+          minmax(2vw, auto)
         [wide-start]
-          minmax(5ch, auto)
+          minmax(10vw, 20ch)
         [main-start]
           minmax(8ch, 15ch)
         [main-left]
@@ -176,9 +176,9 @@
         [main-right]
           minmax(8ch, 15ch)
         [main-end]
-          minmax(15ch, auto)
+          minmax(10vw, 20ch)
         [wide-end]
-        minmax(0, 1vw)
+        minmax(2vw, auto)
         [full-end];
       grid-auto-flow: row;
     }
