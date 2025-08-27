@@ -934,9 +934,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-email/render@npm:1.1.2":
-  version: 1.1.2
-  resolution: "@react-email/render@npm:1.1.2"
+"@react-email/render@npm:1.2.1":
+  version: 1.2.1
+  resolution: "@react-email/render@npm:1.2.1"
   dependencies:
     html-to-text: ^9.0.5
     prettier: ^3.5.3
@@ -944,7 +944,7 @@ __metadata:
   peerDependencies:
     react: ^18.0 || ^19.0 || ^19.0.0-rc
     react-dom: ^18.0 || ^19.0 || ^19.0.0-rc
-  checksum: e36cb2b6a32cabb28a62988b551e7f21bfc572bb139abc51706741767775eebbd13162b4beda5b3c03d133fdc18d965bfbccc0043ea8dc61e1fd7efad83d0090
+  checksum: f61038b35ac6504f5d01e14c215850afb58eaa45d86a4bcce235ff6daacdd9d3f9355a1978e26350ce647e252e8dd53d37effb309432a7cad558d102ada1ba65
   languageName: node
   linkType: hard
 
@@ -2372,6 +2372,7 @@ __metadata:
     "@11ty/eleventy-navigation": ^0.3.5
     "@11ty/eleventy-plugin-rss": ^2.0.4
     "@quasibit/eleventy-plugin-schema": ^1.11.1
+    "@react-email/render": 1.2.1
     "@types/markdown-it": ^14.1.2
     autoprefixer: ^10.4.21
     clean-css: ^5.3.3
@@ -2392,7 +2393,7 @@ __metadata:
     postcss-cli: ^11.0.1
     react: ^19.1.1
     react-dom: ^19.1.1
-    resend: ^4.8.0
+    resend: ^6.0.1
     rimraf: ^6.0.1
     sass: ^1.91.0
     sass-autoprefixer: ^1.0.1
@@ -3907,12 +3908,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resend@npm:^4.8.0":
-  version: 4.8.0
-  resolution: "resend@npm:4.8.0"
-  dependencies:
-    "@react-email/render": 1.1.2
-  checksum: 5af4ced767c4411d4acca9f5398e9d2938481768082bc7a69a6c6ba383bf90d7b8c800e6bd54aeffc487011b45ae07bd392d34e2882dba6d5f146ed7676d900d
+"resend@npm:^6.0.1":
+  version: 6.0.1
+  resolution: "resend@npm:6.0.1"
+  peerDependencies:
+    "@react-email/render": ^1.1.0
+  peerDependenciesMeta:
+    "@react-email/render":
+      optional: true
+  checksum: b8df5ea30072f96975cceadb48cb4c8acac1b4676ae98953972d09a7d38d7600eb4aa1343c09a7aa3846c329b3cd688bfd97a250e647c28f2407f3f16205c48a
   languageName: node
   linkType: hard
 
