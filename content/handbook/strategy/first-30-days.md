@@ -90,11 +90,13 @@ You can use these questions as a personal prompt as you let all these things mar
 - Are they aware those problems need tackling?
 - Do they understand the problems they have?
 
-Be particularly aware of responses like:
+As you're listening, be aware particularly of responses like:
 
 - 'oh, that's the way we do things around here,' or
-- 'well, that's how Serena prefers things to be done,' or worse
+- 'well, that's how Serena/Jeff/whoever prefers things to be done,' or worse
 - 'ah, we've tried that before and it just doesn't work for us'.
+
+They may suggest other deeper seated problems to pick up.
 
 ### Who's making delivery decisions?
 
