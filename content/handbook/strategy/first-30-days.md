@@ -2,7 +2,7 @@
 title: Your first 30 days in post as CDO
 description: What are the first priorities when starting in a new Chief Delivery Officer role?
 layout: page.njk
-date: 2025-08-28T15:21:29Z
+date: 2025-08-29T15:51:29Z
 jumbotron: |
   So you've landed in your new role. How do you get up and running?
   
@@ -41,11 +41,11 @@ Let's dive in.
 
 Although there'll be lots of questions you'll want to ask at the beginning, there's some specific things that should shape how you start trying to gauge the state of play.
 
-### What’s going on?
+### What’s going on?{.h2-style .content-canvas-item-left}
 
 Starting in a new role as Chief Delivery Officer, you're walking into an organisation that’s accustomed to a certain way of working. We've just looked at the [challenges of interpreting and evaluating business-as-usual](/handbook/strategy/bau-world/), so there's no need to reiterate here. At this point, rather than getting your hands around ongoing customer projects, the day-to-day of product development, or other aspects of BAU, instead you're mind is on how the delivery unit and individual teams are operating.
 
-#### Taking the temperature
+#### Taking the temperature{.h3-style}
 
 Although the interview process before you start should've laid out the most important issues to address there's only so much you can find out in that context, and there's a strong chance that some aspects may've been actively hidden from you behind a veneer of sorts.
 
@@ -69,7 +69,7 @@ Ask open questions, about the challenges they're facing, the opportunities they 
 
 You'll be amazed to hear how some delivery difficulties are actually interconnected company-wide issues.
 
-##### Who should you meet with?
+##### Who should you meet with?{.h4-style}
 
 In the main, it probably means department heads or leaders of teams or units within the business, but don't overlook talking to regular team members as well. You should be trying to look at things from as many different angles as you can to get a full and complete picture.
 
@@ -77,7 +77,7 @@ Everyone is busy, but directors and execs are notoriously hard to get time with.
 
 And make sure you go beyond your part of the business, too — colleagues in product, sales and marketing, customer support and client success, legal, finance, operations, and so on, all have important perspectives on things that you'll be feeling from the customer delivery end of things.
 
-##### What to listen for
+##### What to listen for{.h4-style}
 
 As you talk with folks inevitably they'll tell you about problems, and you should be particularly attentive to the things that are being brought to the surface. Some will be obvious, others less so and may only be apparent when you've had some time to reflect.
 
@@ -98,14 +98,34 @@ As you're listening, be aware particularly of responses like:
 
 They may suggest other deeper seated problems to pick up.
 
-### Who's making delivery decisions?
+### Who's got their hands on the reigns?{.h2-style .content-canvas-item-left}
 
-How are decisions being made?
-How do they get made that way?
-What’s driving them?
-And why?
+Every organisation has its internal politics, the tensions over status, power, the direction of travel, and what's considered 'best' inside the business. You may not want to be involved, you may not *need* to get involved, but you'll definitely need to understand the political dimension of the organisation.
 
-### How did we get here?
+A full understanding may be a tall order for the first 30 days but you'll need to do your best to examine it, specifically so you can avoid treading on trapdoors or, worse, landmines through unwitting missteps.
+
+There are people whose support you will need or whose agenda you will need to align with, key stakeholders or sponsors, as you seek to make changes in the business.
+
+There's a more pointed aspect of the politics for you, though.
+
+#### Who's making delivery decisions?{.h3-style}
+
+The more direct impact on your area of the business is who's actually making decisions about project delivery.
+
+As you're eating your body eight in cake and listening as people talk, you'll be wanting to understand what determines how customer outcomes are achieved.
+
+You may find there's disconnected commitments made by the commercial division. You may find overreach or excessive caution in the legal department. You may find HR processes that put unhelpful brakes on hiring. You may find executives or other senior leaders who are irrepressible micromanagers. You may find a CTO or principal engineers who have a single hammer in their toolkit, and everything looks like a nail. Or any number of other issues.
+
+Whatever's going on, you need to get to the bottom of the factors that shape delivery decisions.
+
+- How are customer delivery decisions being made?
+- How do they get made that way?
+- What’s driving them?
+- And why?
+
+The answers you find to these questions are a vital component in your assessment of the state-of-play during this first crucial month.
+
+### How did we get here?{.h2-style .content-canvas-item-left}
 
 Unpicking the history you're walking into
 
