@@ -270,7 +270,7 @@
 
 @include respond-to.respond-to('medium') {
   .content-canvas-item-left {
-    grid-column: main-start/main-mid;
+    grid-column: wide-start/main-mid;
   }
   .content-canvas-item-wide-left-sm {
     grid-column: wide-start/main-left;
