@@ -165,7 +165,9 @@ Whatever this is, it may in truth be a Trojan Horse — attractive on the outsid
 
 And to say it again — *at this point, you know the least about the business.* So, be careful of hidden consequences.
 
-If it's a genuine win, if you know for sure there are no problematic downsides … go for your life. In all other circumstances, though, caution may be the better part of valour, as they say.
+If it's a genuine win, if you know for sure there are no problematic downsides … go for your life.
+
+In all other circumstances, though, caution may be the better part of valour, as they say.
 
 <!-- 
 ## The First Practical Steps
