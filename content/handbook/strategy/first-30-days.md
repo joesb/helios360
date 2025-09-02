@@ -29,6 +29,8 @@ image:
     - content-canvas-item-wide-left-sm
     - content-canvas-item-left--span-3
     - margin-block-md
+  side_classes_2:
+    - content-canvas-item-wide-left-more
 ---
 
 It's best to approach this from two directions. First, what are the questions that should be on your mind in those first 30 days? And second, what practical things do you want to achieve before the first month is out?
@@ -144,6 +146,8 @@ Rather, your focus in the first 30 days is on getting a headline view of the lie
 Of the subjects highlighted before (practices; tooling and systems; governance; planning; processes; organisational structure; metrics, analytics, learning; supplier relationships; team dynamics), your conversations should give you a sense fairly quickly of the areas that may be causing problems. Once you have a sense of the areas of concern, you can then conduct more of an in-depth exploration in which you'll look at the decisions and the events that resulted in the current situation.
 
 ## Quick wins, and their perils
+
+{% ImgFigure 'Black and white photography of a wooden Trojan Horse. <a href="https://www.pexels.com/photo/black-and-white-photography-of-a-wooden-trojan-horse-13384971/" target="_blank" rel="noopener">Photo</a> by <a href="https://www.pexels.com/@simlibas/" target="_blank" rel="noopener">Ayşe İpek</a>.', image.side_classes_2 %}![Black and white photography of a wooden Trojan Horse](/public/images/source/pexels-simlibas-13384971.jpg){.image-rounded eleventy:widths="200,350,575,760"}{% endImgFigure %}
 
 In the first 30 days, new CDOs often want to prove their worth or value to the business. Often that means keeping an ear out for one or two obvious things that are causing friction, easy things to pick out and change — the quick wins, the low-hanging fruit. You may even have people coming to you with suggestions of things to do that, with apparently small effort, would make a big impact.
 
