@@ -161,9 +161,9 @@ Ask yourself some questions:
 - If it's so quick to do, why has no one done it already?
 - If the benefit is obvious, why are things still messy?
 
-Whatever this is, it may in truth be a Trojan Horse — attractive on the outside, but hiding serious dangers on the inside. And to say it again — *at this point, you know the least about the business.*
+Whatever this is, it may in truth be a Trojan Horse — attractive on the outside, but hiding serious dangers on the inside.
 
-So, be careful of hidden consequences.
+And to say it again — *at this point, you know the least about the business.* So, be careful of hidden consequences.
 
 If it's a genuine win, if you know for sure there are no problematic downsides … go for your life. In all other circumstances, though, caution may be the better part of valour, as they say.
 
