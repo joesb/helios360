@@ -2,7 +2,7 @@
 title: Your first 30 days in post as CDO
 description: What are the first priorities when starting in a new Chief Delivery Officer role?
 layout: page.njk
-date: 2025-08-29T15:51:29Z
+date: 2025-09-02T14:18:29Z
 jumbotron: |
   So you've landed in your new role. How do you get up and running?
   
@@ -29,6 +29,8 @@ image:
     - content-canvas-item-wide-left-sm
     - content-canvas-item-left--span-3
     - margin-block-md
+  side_classes_2:
+    - content-canvas-item-wide-left-more
 ---
 
 It's best to approach this from two directions. First, what are the questions that should be on your mind in those first 30 days? And second, what practical things do you want to achieve before the first month is out?
@@ -41,7 +43,7 @@ Let's dive in.
 
 Although there'll be lots of questions you'll want to ask at the beginning, there's some specific things that should shape how you start trying to gauge the state of play.
 
-### What’s going on?{.h2-style .content-canvas-item-left}
+### What’s going on?{.h2-style}
 
 Starting in a new role as Chief Delivery Officer, you're walking into an organisation that’s accustomed to a certain way of working. We've just looked at the [challenges of interpreting and evaluating business-as-usual](/handbook/strategy/bau-world/), so there's no need to reiterate here. At this point, rather than getting your hands around ongoing customer projects, the day-to-day of product development, or other aspects of BAU, instead you're mind is on how the delivery unit and individual teams are operating.
 
@@ -98,7 +100,7 @@ As you're listening, be aware particularly of responses like:
 
 They may suggest other deeper seated problems to pick up.
 
-### Who's got their hands on the reigns?{.h2-style .content-canvas-item-left}
+### Who's got their hands on the reigns?{.h2-style}
 
 Every organisation has its internal politics, the tensions over status, power, the direction of travel, and what's considered 'best' inside the business. You may not want to be involved, you may not *need* to get involved, but you'll definitely need to understand the political dimension of the organisation.
 
@@ -112,7 +114,7 @@ There's a more pointed aspect of the politics for you, though.
 
 The more direct impact on your area of the business is who's actually making decisions about project delivery.
 
-As you're eating your body eight in cake and listening as people talk, you'll be wanting to understand what determines how customer outcomes are achieved.
+As you're eating your body weight in cake and listening as people talk, you'll be wanting to understand what determines how customer outcomes are achieved.
 
 You may find there's disconnected commitments made by the commercial division. You may find overreach or excessive caution in the legal department. You may find HR processes that put unhelpful brakes on hiring. You may find executives or other senior leaders who are irrepressible micromanagers. You may find a CTO or principal engineers who have a single hammer in their toolkit, and everything looks like a nail. Or any number of other issues.
 
@@ -125,9 +127,47 @@ Whatever's going on, you need to get to the bottom of the factors that shape del
 
 The answers you find to these questions are a vital component in your assessment of the state-of-play during this first crucial month.
 
-### How did we get here?{.h2-style .content-canvas-item-left}
+#### Finding the room where it happens
 
-Unpicking the history you're walking into
+While you're talking to all the stakeholders and interested parties in this first month you should be on the hunt for the heartbeat of the organisation. That may not be the executive team or board meetings, necessarily — it may be going on elsewhere.
+
+What are the crucial meetings or events where things get decided or actions chosen? What do you need to get invited to? Who do you need to be connected with in order to be properly 'plugged in' to the business? Are there particular people or events that act as gatekeepers or conduits to progress? And can you help out?
+
+### How did we get here?{.h2-style}
+
+Part of understanding the politics, the patterns, and the problems of the new organisation is understanding what's happened to bring the business to this point, hiring you. Or, to phrase it differently, you want to understand the history you're walking into.
+
+That's a tall order for your first month, but you probably ought to make a solid start on unpacking the backstory, even if that's just the most recent stuff.
+
+We've already discussed joining in the middle of [business-as-usual](/handbook/strategy/bau-world/), where we covered the headlines of [the areas to assess to gauge the story so far](/handbook/strategy/bau-world/#whats-the-story-so-far). There's no need to rehash that here.
+
+Rather, your focus in the first 30 days is on getting a headline view of the lie of the land.
+
+Of the subjects highlighted before (practices; tooling and systems; governance; planning; processes; organisational structure; metrics, analytics, learning; supplier relationships; team dynamics), your conversations should give you a sense fairly quickly of the areas that may be causing problems. Once you have a sense of the areas of concern, you can then conduct more of an in-depth exploration in which you'll look at the decisions and the events that resulted in the current situation.
+
+## Quick wins, and their perils
+
+{% ImgFigure 'Black and white photography of a wooden Trojan Horse. <a href="https://www.pexels.com/photo/black-and-white-photography-of-a-wooden-trojan-horse-13384971/" target="_blank" rel="noopener">Photo</a> by <a href="https://www.pexels.com/@simlibas/" target="_blank" rel="noopener">Ayşe İpek</a>.', image.side_classes_2 %}![Black and white photography of a wooden Trojan Horse](/public/images/source/pexels-simlibas-13384971.jpg){.image-rounded eleventy:widths="200,350,575,760"}{% endImgFigure %}
+
+In the first 30 days, new CDOs often want to prove their worth or value to the business. Often that means keeping an ear out for one or two obvious things that are causing friction, easy things to pick out and change — the quick wins, the low-hanging fruit. You may even have people coming to you with suggestions of things to do that, with apparently small effort, would make a big impact.
+
+Consider these carefully.
+
+At this point in time, you have the least amount of knowledge of the business and its ways of working. That means there's a lot of stuff you don't know, especially the ramifications or consequences of any changes you may make.
+
+Ask yourself some questions:
+
+- If it's such a good idea, why hasn't it been done before?
+- If it's so quick to do, why has no one done it already?
+- If the benefit is obvious, why are things still messy?
+
+Whatever this is, it may in truth be a Trojan Horse — attractive on the outside, but hiding serious dangers on the inside.
+
+And to say it again — *at this point, you know the least about the business.* So, be careful of hidden consequences.
+
+If it's a genuine win, if you know for sure there are no problematic downsides … go for your life.
+
+In all other circumstances, though, caution may be the better part of valour, as they say.
 
 <!-- 
 ## The First Practical Steps
