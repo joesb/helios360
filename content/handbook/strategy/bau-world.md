@@ -11,7 +11,7 @@ jumbotron: |
   
   Plus, engaging with and unpicking the history into which you're walking.
 pending: false
-date: 2025-08-12T09:51:29Z
+date: 2025-00-02T13:01:29Z
 eleventyNavigation:
   key: Evaluating BAU
   parent: Building a delivery strategy
@@ -47,6 +47,8 @@ When this is the case, get ready for the sensation of holding your head in your 
 
 ---
 
+## What's the story so far?
+
 So, what are we really going to be stepping into with business-as-usual in project delivery?
 
 In most contexts when taking up a new post, you're likely to see issues related to these areas:
@@ -81,6 +83,13 @@ In most contexts when taking up a new post, you're likely to see issues related 
   - organisation structured in silos
   - little room left for change or adaptation
   - lack of trust or respect for accumulated wisdom in wider team
+- **Lack of inspection and learning**
+  - few metrics set, or
+  - measuring the wrong stuff
+  - monitoring is overlooked or missing
+  - analytics are inadequate or not in place
+  - feedback is given little attention, if any
+  - learning and improvement cycle is out of shape, if it's happening at all
 - **Multiple suppliers**
   - many software tools, systems, platforms, often for bespoke uses
   - lack of coherence or rationalisation
