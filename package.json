@@ -47,7 +47,7 @@
     "sass": "^1.91.0",
     "sass-autoprefixer": "^1.0.1",
     "uglify-js": "^3.19.3",
-    "wrangler": "^4.33.0"
+    "wrangler": "^4.33.1"
   },
   "dependencies": {
     "@react-email/render": "1.2.1",

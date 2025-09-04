@@ -233,16 +233,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cloudflare/unenv-preset@npm:2.6.3":
-  version: 2.6.3
-  resolution: "@cloudflare/unenv-preset@npm:2.6.3"
+"@cloudflare/unenv-preset@npm:2.7.0":
+  version: 2.7.0
+  resolution: "@cloudflare/unenv-preset@npm:2.7.0"
   peerDependencies:
     unenv: 2.0.0-rc.19
-    workerd: ^1.20250802.0
+    workerd: ^1.20250816.0
   peerDependenciesMeta:
     workerd:
       optional: true
-  checksum: 441e21e30722c9dd7f3b6e124ee80ed4d7f41f8974b9ff9198914827e95e8afc9556139dc6a5d81c2a71a9750ae0d69b28f3b081018e1eaca3f688f36c73ca8b
+  checksum: 87c3f0cc8528480eda5157eb092d63a78177402fefb91a09119f61d83bbb469b211ea314047441e790c30abe0d1d8c894089d6e2c4023dc05101dc9751ff8c09
   languageName: node
   linkType: hard
 
@@ -2391,7 +2391,7 @@ __metadata:
     sass: ^1.91.0
     sass-autoprefixer: ^1.0.1
     uglify-js: ^3.19.3
-    wrangler: ^4.33.0
+    wrangler: ^4.33.1
   languageName: unknown
   linkType: soft
 
@@ -3029,9 +3029,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"miniflare@npm:4.20250823.0":
-  version: 4.20250823.0
-  resolution: "miniflare@npm:4.20250823.0"
+"miniflare@npm:4.20250823.1":
+  version: 4.20250823.1
+  resolution: "miniflare@npm:4.20250823.1"
   dependencies:
     "@cspotcode/source-map-support": 0.8.1
     acorn: 8.14.0
@@ -3047,7 +3047,7 @@ __metadata:
     zod: 3.22.3
   bin:
     miniflare: bootstrap.js
-  checksum: 14101874b1cca6c8306324fee4fbb0ab907516d0c2aa50e328642569c33a5c1debd49434c78d92604b75d3e06c824672b68d13482b233a467602b491d6d3d694
+  checksum: 5f389f8437244a71320e37991a746963d13c3f92022d4ec41e5377604b0c5e803a1105f0e06cef98238b47555aa114ad7bab52cfcdcdfad241495993ed30e9e9
   languageName: node
   linkType: hard
 
@@ -4647,16 +4647,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"wrangler@npm:^4.33.0":
-  version: 4.33.0
-  resolution: "wrangler@npm:4.33.0"
+"wrangler@npm:^4.33.1":
+  version: 4.33.1
+  resolution: "wrangler@npm:4.33.1"
   dependencies:
     "@cloudflare/kv-asset-handler": 0.4.0
-    "@cloudflare/unenv-preset": 2.6.3
+    "@cloudflare/unenv-preset": 2.7.0
     blake3-wasm: 2.1.5
     esbuild: 0.25.4
     fsevents: ~2.3.2
-    miniflare: 4.20250823.0
+    miniflare: 4.20250823.1
     path-to-regexp: 6.3.0
     unenv: 2.0.0-rc.19
     workerd: 1.20250823.0
@@ -4671,7 +4671,7 @@ __metadata:
   bin:
     wrangler: bin/wrangler.js
     wrangler2: bin/wrangler.js
-  checksum: 126bef578094b2add0dc225aea0ae44467e290296fe204518310443a311064ab098521396b122150107631ee7f3b0780ebb1538eb0bc6cfec85972d06ba62674
+  checksum: b0ff90a71aefcb88e698d6ee4ec8ccd2c6afcdd48033087602e7ce441256e14edd0eaf2506a8df960025d353464954b896e512e372b13fd02639bc8393860782
   languageName: node
   linkType: hard
 
