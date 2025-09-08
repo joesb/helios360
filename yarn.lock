@@ -2374,7 +2374,7 @@ __metadata:
     eleventy-plugin-toc: ^1.1.5
     html-minifier-terser: ^7.2.0
     inspect: ^0.0.2
-    luxon: ^3.7.1
+    luxon: ^3.7.2
     markdown-it: ^14.1.0
     markdown-it-anchor: ^9.2.0
     markdown-it-attrs: ^4.3.1
@@ -2880,10 +2880,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"luxon@npm:^3.6.1, luxon@npm:^3.7.1":
+"luxon@npm:^3.6.1":
   version: 3.7.1
   resolution: "luxon@npm:3.7.1"
   checksum: 19e5b20304f2e558b1e5e1f4f04f227419642d373f7c10ccf8f0e7d63c05828187a6aa39d70caf87d18a4834800dcbf29cf5f5d81d03c7d2471cd0b61cee97f6
+  languageName: node
+  linkType: hard
+
+"luxon@npm:^3.7.2":
+  version: 3.7.2
+  resolution: "luxon@npm:3.7.2"
+  checksum: fc115fd6a7acc2adb7df3476d20c672beb2985d2a034294282f2c31de8c07f29a15460f5a2b7dd0107797be0dab545ddbc64862662b059fb18c1931a726064f4
   languageName: node
   linkType: hard
 
