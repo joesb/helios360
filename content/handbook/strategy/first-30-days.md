@@ -94,7 +94,7 @@ You can use these questions as a personal prompt as you let all these things mar
 
 As you're listening, be aware particularly of responses like:
 
-- 'oh, that's the way we do things around here,' or
+- 'oh, that's just the way we do things around here,' or
 - 'well, that's how Serena/Jeff/whoever prefers things to be done,' or worse
 - 'ah, we've tried that before and it just doesn't work for us'.
 
