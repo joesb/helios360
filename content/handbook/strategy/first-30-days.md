@@ -2,13 +2,13 @@
 title: Your first 30 days in post as CDO
 description: What are the first priorities when starting in a new Chief Delivery Officer role?
 layout: page.njk
-date: 2025-09-02T14:18:29Z
+date: 2025-09-08T09:14:29Z
 jumbotron: |
   So you've landed in your new role. How do you get up and running?
   
   How can understand the lie of the land? How can you work out what you're dealing with?
 
-  Here we break down the first month, looking at what things should you ought to focus on immediately to prepare yourself to take the road to success.
+  Here we break down the first month, looking at what things you should focus on immediately to prepare yourself to take the road to success.
 eleventyNavigation:
   key: The first 30 days
   parent: Building a delivery strategy
