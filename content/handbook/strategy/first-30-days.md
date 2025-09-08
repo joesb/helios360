@@ -6,7 +6,7 @@ date: 2025-09-08T09:14:29Z
 jumbotron: |
   So you've landed in your new role. How do you get up and running?
   
-  How can understand the lie of the land? How can you work out what you're dealing with?
+  How can you understand the lie of the land? How can you work out what you're dealing with?
 
   Here we break down the first month, looking at what things you should focus on immediately to prepare yourself to take the road to success.
 eleventyNavigation:
