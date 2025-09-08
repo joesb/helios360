@@ -50,7 +50,7 @@
     "wrangler": "^4.33.1"
   },
   "dependencies": {
-    "@react-email/render": "1.2.1",
+    "@react-email/render": "1.2.2",
     "@types/markdown-it": "^14.1.2",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
