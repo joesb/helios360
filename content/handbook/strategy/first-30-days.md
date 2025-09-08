@@ -8,7 +8,7 @@ jumbotron: |
   
   How can you understand the lie of the land? How can you work out what you're dealing with?
 
-  Here we break down the first month, looking at what things you should focus on immediately to prepare yourself to take the road to success.
+  Here we dissect the first month, looking at what things you should focus on immediately to prepare yourself to take the road to success.
 eleventyNavigation:
   key: The first 30 days
   parent: Building a delivery strategy
@@ -169,16 +169,6 @@ If it's a genuine win, if you know for sure there are no problematic downsides â
 
 In all other circumstances, though, caution may be the better part of valour, as they say.
 
-<!-- 
-## The First Practical Steps
+---
 
-
-- Relationships
-- Needs
-- Objectives
-- Ideas
-- Risks
-- Metrics
-- Stakeholders
-
-â†’ Strategy -->
+So, knowing what we need to be thinking about, now let's take a look at some [practical things to do in the first 30 days](/handbook/strategy/first-30-days/practical-steps/){.single-meta-forward}
