@@ -21,6 +21,7 @@ tags:
   - '#handbookStrategy'
 redirect_from:
   - /first30days/
+  - /first30days
 image:
   social: content/public/images/source/pexels-anastasia-shuraeva-8028269.jpg
   path: /public/images/source/pexels-anastasia-shuraeva-8028269.jpg
