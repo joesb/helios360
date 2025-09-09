@@ -13,12 +13,15 @@
   },
   "scripts": {
     "build:full": "(yarn install --immutable-cache) && (yarn sass:build) && (npx @11ty/eleventy --dryrun) && (npx @11ty/eleventy)",
-    "clean": "npx rimraf -v _site/ src/_includes/assets/css/* content/public/img/* || true",
-    "watch": "npx eleventy --watch",
-    "go": "yarn serve",
-    "serve": "(yarn clean) && (yarn sass:build) && (npx @11ty/eleventy --dryrun) && npx @11ty/eleventy --serve & sass --watch --style=expanded ./src/_sass/:./src/_includes/assets/css/",
+    "util:clean": "npx rimraf -v _site/ src/_includes/assets/css/* content/public/img/* || true",
+    "11ty:build": "(yarn sass:build) && (npx @11ty/eleventy --dryrun) && (npx @11ty/eleventy)",
+    "11ty:watch": "(yarn util:clean) && (yarn sass:build) && (npx @11ty/eleventy --dryrun) && npx @11ty/eleventy --watch",
+    "11ty:serve": "(yarn util:clean) && (yarn sass:build) && (npx @11ty/eleventy --dryrun) && npx @11ty/eleventy --serve && sass:watch",
+    "go": "yarn 11ty:serve",
     "wrangler": "npx wrangler pages dev _site",
-    "sass:build": "sass --style=expanded ./src/_sass/:./src/_includes/assets/css/ && npx postcss ./src/_includes/assets/css/*.css --use autoprefixer -d ./src/_includes/assets/css"
+    "wrangler:dev": "npx wrangler dev _site --live-reload",
+    "sass:build": "sass --style=expanded ./src/_sass/:./src/_includes/assets/css/ && npx postcss ./src/_includes/assets/css/*.css --use autoprefixer -d ./src/_includes/assets/css",
+    "sass:watch": "sass --watch --style=expanded ./src/_sass/:./src/_includes/assets/css/"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.1.2",

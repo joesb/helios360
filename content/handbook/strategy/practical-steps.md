@@ -8,7 +8,7 @@ jumbotron: |
 
   You know what you need to be thinking about. But what actions should you take?
 
-  Here's some practical things you can do, stuff that will help you understand the task ahead and how you can take it on.
+  Here's some pragmatic and functional things you can put into play, stuff that will help you understand the task ahead and how you can take it on.
 eleventyNavigation:
   key: Practical steps
   parent: The first 30 days
@@ -34,18 +34,22 @@ image:
     - content-canvas-item-wide-left-more
 ---
 
-## Practical steps in the first 30 days
+So, your first month, real world. What do you actually do?
 
-### Needs and objectives
+## Needs and objectives
 
-### Building relationships
 
-### Stakeholder mapping
 
-### Review recent work
+## Building relationships
 
-### Risk assessment
+## Stakeholder mapping
 
-### Metrics and measuring what's meaningful
+A stakeholder map pic here
 
-### A plan
+## Review recent work
+
+## Risk assessment
+
+## Metrics and measuring what's meaningful
+
+## A plan
