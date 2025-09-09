@@ -272,6 +272,22 @@ h6,
   font-size: var(--font-size-fluid-1);
 }
 
+.vlarge {
+  font-size: var(--font-size-fluid-2);
+}
+
+.lineheight-1 {
+  line-height: var(--font-lineheight-1);
+}
+
+.lineheight-2 {
+  line-height: var(--font-lineheight-2);
+}
+
+.lineheight-3 {
+  line-height: var(--font-lineheight-3);
+}
+
 .text-inherit {
   font-size: inherit;
 }
