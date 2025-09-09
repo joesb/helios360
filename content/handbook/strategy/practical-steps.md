@@ -24,7 +24,7 @@ image:
   social: content/public/images/source/pexels-anastasia-shuraeva-8027923.jpg
   path: /public/images/source/pexels-anastasia-shuraeva-8027923.jpg
   alt: A woman holding a coffee and a map in a mountain landscape
-  caption: 'A woman holding a coffee and a map in a mountain landscape. <a href="https://www.pexels.com/photo/a-woman-holding-a-kettle-and-a-paper-8027923/" target="_blank" rel="noopener">Photo</a> by <a href="https://www.pexels.com/@anastasia-shuraeva/" target="_blank" rel="noopener">Anastasia Shuraeva</a> on Pexels.'
+  caption: 'Preparing for a journey. <a href="https://www.pexels.com/photo/a-woman-holding-a-kettle-and-a-paper-8027923/" target="_blank" rel="noopener">Photo</a> by <a href="https://www.pexels.com/@anastasia-shuraeva/" target="_blank" rel="noopener">Anastasia Shuraeva</a> on Pexels.'
   beforeJT: true
   side_classes:
     - content-canvas-item-wide-left-sm
