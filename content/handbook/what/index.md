@@ -55,6 +55,10 @@ The chapter may also be useful for founders and executive teams considering addi
 
 CEOs of professional services businesses understand that the delivery principal sits at the heart of the business, and close to those responsible for the commercial leadership.
 
+It's a vital position with an overview of outcomes for customers, setting and maintaining the processes and practices of client delivery, providing a safe space for creativity, and a place in which expertise can shine.
+
+Highly effective CEOs recognise the role of delivery director is a strange one though, serving the needs of the customer, the team, and the business simultaneously in creative tension.
+
 {% ColourBG 'tertiary' %}
   {% Markdown %}
 > “When the company grows, consistency becomes more important and, counter-intuitively, being systematic creates space for a flow and a rhythm.”{.vlarge .medium .lineheight-1 .italic .primary-font}
@@ -63,10 +67,6 @@ CEOs of professional services businesses understand that the delivery principal 
 {.padding-block-lg .content-canvas-item-wide-left-more}
   {% endMarkdown %}
 {% endColourBG %}
-
-Chief Delivery Officer is a vital position with an overview of outcomes for customers, setting and maintaining the processes and practices of client delivery, providing a safe space for creativity, and a place in which expertise can shine.
-
-Highly effective CEOs recognise the role of CDO is a strange one though, serving the needs of the customer, the team, and the business simultaneously in creative tension.
 
 The skill set needed is different according to business needs, but there are some fundamental soft skills:
 
