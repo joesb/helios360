@@ -43,7 +43,7 @@ In the question above there's a presumption of success — that the Chief Delive
 
 {% ColourBG 'tertiary' %}
   {% Markdown %}
-> “The role of the CDO is the only way to differentiate yourself as a business.”{.vlarge .medium .lineheight-1 .italic}
+> “The role of the CDO is the only way to differentiate yourself as a business.”{.vlarge .medium .lineheight-1 .italic .primary-font}
 >
 > *[Karim Marucchi](https://www.linkedin.com/in/karimmarucchi/){target=_blank rel="noreferrer nofollow noopener"}, CEO, [Crowd Favorite](https://crowdfavorite.com/){target=_blank rel="noreferrer noopener"}*{.large .medium .secondary-font .lineheight-1}
 {.padding-block-lg .content-canvas-item-wide-left-more}

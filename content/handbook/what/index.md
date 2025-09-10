@@ -57,7 +57,7 @@ CEOs of professional services businesses understand that the delivery principal 
 
 {% ColourBG 'tertiary' %}
   {% Markdown %}
-> “When the company grows, consistency becomes more important and, counterintuitively, being systematic creates space for a flow and a rhythm.”{.vlarge .medium .lineheight-1 .italic}
+> “When the company grows, consistency becomes more important and, counterintuitively, being systematic creates space for a flow and a rhythm.”{.vlarge .medium .lineheight-1 .italic .primary-font}
 >
 > [Jake Goldman](https://www.linkedin.com/in/jacobgoldman/){target=_blank rel="noreferrer nofollow noopener"}, president and founder, [10up](https://10up.com/){target=_blank rel="noreferrer noopener"}/[Fueled](https://fueled.com/){target=_blank rel="noreferrer noopener"} {.large .medium .secondary-font .lineheight-1}
 {.padding-block-lg .content-canvas-item-wide-left-more}
