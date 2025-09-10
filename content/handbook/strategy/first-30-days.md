@@ -56,11 +56,19 @@ Although the interview process before you start should've laid out the most impo
 
 In this first 30 days, fully understanding what you're letting yourself in for is fundamental.
 
-To do that, you need to use your thermometer to take the temperature of the organisation. You're trying to find out not so much what the business does but how it does it.
-
 {% ImgFigure 'Man in black suit sitting beside woman in white long-sleeve shirt, having lunch. <a href="https://www.pexels.com/photo/man-in-black-suit-jacket-sitting-beside-woman-in-white-long-sleeve-shirt-holding-brown-paper-cup-8165409/" target="_blank" rel="noopener">Photo</a> by <a href="https://www.pexels.com/@mart-production/" target="_blank" rel="noopener">MART PRODUCTION</a>.', image.side_classes %}![Man in black suit jacket sitting beside woman in white long-sleeve shirt holding brown paper cup](/public/images/source/pexels-mart-production-8165409.jpg){.image-rounded eleventy:widths="200,350"}{% endImgFigure %}
 
+To do that, you need to use your thermometer to take the temperature of the organisation. You're trying to find out not so much what the business does but how it does it.
+
 And that starts with listening. Lots of listening. Going out of your way to listen. And then listening some more.{.content-canvas-item-main-left-main-end}
+
+{% ColourBG 'quaternary' %}
+  <blockquote class="padding-block-lg content-canvas-item-wide-left-more">
+  {% Markdown %}
+    In this first 30 days, fully understanding what you're letting yourself in for is fundamental.{.vlarge .bold .headings-font .lineheight-1}
+  {% endMarkdown %}
+  </blockquote>
+{% endColourBG %}
 
 Take as much time as you can to meet with people. Invite people for morning coffee, or lunch, or afternoon tea, or a walk around the block. Travel to where they are, if they're in a different office and you can — making an effort and meeting in person is powerful. Meet on a video call. Whatever. Just meet with people.{.content-canvas-item-main-left-main-end}
 
@@ -111,6 +119,14 @@ A full understanding may be a tall order for the first 30 days but you'll need t
 
 There are people whose support you will need or whose agenda you will need to align with, key stakeholders or sponsors, as you seek to make changes in the business.
 
+{% ColourBG 'quaternary' %}
+  <blockquote class="padding-block-lg content-canvas-item-wide-left-more">
+  {% Markdown %}
+    You may not want to be involved, you may not *need* to get involved, but you'll definitely need to understand the political dimension of the organisation.{.vlarge .bold .headings-font .lineheight-1}
+  {% endMarkdown %}
+  </blockquote>
+{% endColourBG %}
+
 There's a more pointed aspect of the politics for you, though.
 
 #### Who's making delivery decisions?{.h3-style}
@@ -144,9 +160,17 @@ That's a tall order for your first month, but you probably ought to make a solid
 
 We've already discussed joining in the middle of [business-as-usual](/handbook/strategy/bau-world/), where we covered the headlines of [the areas to assess to gauge the story so far](/handbook/strategy/bau-world/#whats-the-story-so-far). There's no need to rehash that here.
 
-Rather, your focus in the first 30 days is on getting a headline view of the lie of the land.
+Rather, your focus in the first 30 days is on getting a high-altitude view of the lie of the land.
 
 Of the subjects highlighted before (practices; tooling and systems; governance; planning; processes; organisational structure; metrics, analytics, learning; supplier relationships; team dynamics), your conversations should give you a sense fairly quickly of the areas that may be causing problems. Once you have a sense of the areas of concern, you can then conduct more of an in-depth exploration in which you'll look at the decisions and the events that resulted in the current situation.
+
+{% ColourBG 'quaternary' %}
+  <blockquote class="padding-block-lg content-canvas-item-wide-left-more">
+  {% Markdown %}
+    Your focus in the first 30 days is on getting a high-altitude view of the lie of the land.{.vlarge .bold .headings-font .lineheight-1}
+  {% endMarkdown %}
+  </blockquote>
+{% endColourBG %}
 
 ## Quick wins, and their perils
 
