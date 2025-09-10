@@ -6,7 +6,7 @@ jumbotron: |
   Why does a business need a Chief Delivery Officer (CDO) or some sort of delivery principal? They'll add costs and disrupt the organisation, and the business got along fine without one, right?
   
   So why might you need one?
-date: 2025-06-11T12:44:21Z
+date: 2025-09-10T14:44:21Z
 eleventyNavigation:
   key: Why organisations need a CDO
   parent: Handbook
