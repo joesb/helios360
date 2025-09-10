@@ -55,14 +55,18 @@ The chapter may also be useful for founders and executive teams considering addi
 
 CEOs of professional services businesses understand that the delivery principal sits at the heart of the business, and close to those responsible for the commercial leadership.
 
-> When the company grows, consistency becomes more important and, counterintuitively, being systematic creates space for a flow and a rhythm.{.large}
+{% ColourBG 'tertiary' %}
+  {% Markdown %}
+> “When the company grows, consistency becomes more important and, counterintuitively, being systematic creates space for a flow and a rhythm.”{.vlarge .medium .lineheight-1 .italic}
 >
-> *[Jake Goldman](https://www.linkedin.com/in/jacobgoldman/){target=_blank rel="noreferrer nofollow noopener"}, president and founder, [10up](https://10up.com/){target=_blank rel="noreferrer noopener"}/[Fueled](https://fueled.com/){target=_blank rel="noreferrer noopener"}*
-{.content-canvas-item-wide-left .content-canvas-item-left--span-2 .bq-alt-2}
+> [Jake Goldman](https://www.linkedin.com/in/jacobgoldman/){target=_blank rel="noreferrer nofollow noopener"}, president and founder, [10up](https://10up.com/){target=_blank rel="noreferrer noopener"}/[Fueled](https://fueled.com/){target=_blank rel="noreferrer noopener"} {.large .medium .secondary-font .lineheight-1}
+{.padding-block-lg .content-canvas-item-wide-left-more}
+  {% endMarkdown %}
+{% endColourBG %}
 
-It is a vital position with an overview of outcomes for customers, setting and maintaining the processes and practices of client delivery, providing a safe space for creativity, and a place in which expertise can shine.{.content-canvas-item-right}
+It is a vital position with an overview of outcomes for customers, setting and maintaining the processes and practices of client delivery, providing a safe space for creativity, and a place in which expertise can shine.
 
-They recognise the role of CDO is a strange one though, serving the needs of the customer, the team, and the business simultaneously in creative tension.{.content-canvas-item-right}
+They recognise the role of CDO is a strange one though, serving the needs of the customer, the team, and the business simultaneously in creative tension.
 
 The skill set needed is different according to business needs, but there are some fundamental soft skills:
 

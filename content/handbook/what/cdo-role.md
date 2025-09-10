@@ -61,9 +61,14 @@ So, let's dive right on in to examining the role itself.
 
 We've already set out a definition of the Chief Delivery Officer previously, at the [beginning of this *Handbook*](/handbook/#what-is-a-chief-delivery-officer), but it may be useful to reiterate some of that here.
 
-> The Chief Delivery Officer (CDO) is a key leadership role.
+{% ColourBG %}
+  {% Markdown %}
+> The Chief Delivery Officer (CDO) is a key leadership role.{.vlarge .medium .secondary-font .lineheight-1}
 >
-> Normally an executive-level role, the CDO works closely with other leaders in the organisation to align the client delivery strategy with both the business goals and customers' needs.
+> Normally an executive-level role, the CDO works closely with other leaders in the organisation to align the client delivery strategy with both the business goals and customers' needs.{.large .medium .secondary-font .lineheight-1}
+{.padding-block-lg .content-canvas-item-wide-left-more}
+  {% endMarkdown %}
+{% endColourBG %}
 
 Let's divide this opening section into two parts.
 
@@ -104,6 +109,15 @@ Coherence throughout that customer journey is vital.
 
 In summary, then, the Chief Delivery Officer is the person responsible for how you deliver your services and products. That gives them a distinctive and vital contribution to role to play at the executive level.
 
+{% ColourBG 'secondary' %}
+  {% Markdown %}
+> The Chief Delivery Officer is the person responsible for how you deliver your services and products.{.large .bold .secondary-font .lineheight-1}
+>
+> That gives them a distinctive and vital contribution to role to play at the executive level.{.large .medium .secondary-font .lineheight-1}
+{.padding-block-lg .content-canvas-item-wide-left-more}
+  {% endMarkdown %}
+{% endColourBG %}
+
 ### Delivery alignment
 
 The second part here is about the orientation of the company's service delivery, both the strategy and the execution.
@@ -143,7 +157,16 @@ The business doesn't need to get there in one go{.text-color-brand-secondary}
 
 So, now it's time to get more specific, taking on the next section of our [working definition of a CDO](/handbook/#what-is-a-chief-delivery-officer):
 
-> A Chief Delivery Officer is responsible for the successful delivery of projects through the entire delivery lifecycle, from discovery, planning and design through execution and onwards into live service and evaluation. This usually means the delivery of a service for customers, commonly in creative and digital agencies or for product or SaaS companies, but could just as well apply in large infrastructure or transformation projects and programs as well.
+{% ColourBG %}
+  {% Markdown %}
+> A Chief Delivery Officer is responsible for the successful delivery of projects through the entire delivery lifecycle …{.vlarge .bold .headings-font .lineheight-1}
+>
+> … from discovery, planning and design through execution and onwards into live service and evaluation.{.large .bold .headings-font .lineheight-1}
+>
+> This usually means the delivery of a service for customers, commonly in creative and digital agencies or for product or SaaS companies, but could just as well apply in large infrastructure or transformation projects and programs as well.{.large .medium .headings-font .lineheight-1}
+{.padding-block-lg .content-canvas-item-wide-left-more}
+  {% endMarkdown %}
+{% endColourBG %}
 
 The CDO is bringing a specific focus to the organisation: delivering for customers.
 
@@ -178,7 +201,14 @@ Yes, you're ensuring work for customers moves smoothly through all the steps, fr
 
 The next part of our [working definition of a CDO](/handbook/#what-is-a-chief-delivery-officer) describes an element that is often overlooked:
 
-> More than overseeing delivery, though, the Chief Delivery Officer is the focus point for a customer's experience of the business. Service delivery is often the part of the business that clients experience most closely and, done well, is a foundation stone for an organisation's reputation.
+{% ColourBG %}
+  {% Markdown %}
+> More than overseeing delivery, though, the Chief Delivery Officer is the focus point for a customer's experience of the business.{.vlarge .bold .secondary-font .lineheight-1}
+>
+> Service delivery is often the part of the business that clients experience most closely and, done well, is a foundation stone for an organisation's reputation.{.large .medium .secondary-font .lineheight-1}
+{.padding-block-lg .content-canvas-item-wide-left-more}
+  {% endMarkdown %}
+{% endColourBG %}
 
 A customer's most direct experience of the business is at the time they are using what it offers. This period is crucial for defining the organisation's reputation.
 
@@ -198,9 +228,16 @@ This is the realm of the Chief Delivery Officer — what customers experience of
 
 And now, in the final part of the [working definition of a CDO](/handbook/#what-is-a-chief-delivery-officer), we look at some of the details and how the CDO brings those details to all work in harmony together:
 
-> Consequently, the CDO takes the responsibility for a large part of the customer journey.
+{% ColourBG %}
+  {% Markdown %}
+> Consequently, the CDO takes the responsibility for a large part of the customer journey.{.vlarge .bold .secondary-font .lineheight-1}
 >
-> They design and execute a delivery strategy that aligns with the company's business goals, operating capabilities, sector and specialisms, and their clients' needs. They lead and support the company's delivery teams — the delivery managers, designers, engineers, consultants, analysts, and so on — making sure they have the training, resources, tools, processes and guidance that results in coherence across the business and enables consistently high-quality outcomes for customers.
+> They design and execute a delivery strategy that aligns with the company's business goals, operating capabilities, sector and specialisms, and their clients' needs.{.large .medium .secondary-font .lineheight-1}
+>
+> They lead and support the company's delivery teams — the delivery managers, designers, engineers, consultants, analysts, and so on — making sure they have the training, resources, tools, processes and guidance that results in coherence across the business and enables consistently high-quality outcomes for customers.{.large .medium .secondary-font .lineheight-1}
+{.padding-block-lg .content-canvas-item-wide-left-more}
+  {% endMarkdown %}
+{% endColourBG %}
 
 What this means in practice is your task.
 

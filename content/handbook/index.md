@@ -4,9 +4,11 @@ description: An essential guide to leading delivery projects, teams and programs
 layout: section.njk
 type: page
 jumbotron: |
-  **An essential guide to leading delivery projects, teams and programs for agencies, client service businesses and SaaS product companies, with insights and guidance for professional services directors, client services directors, and other delivery principal roles.**
+  **An essential guide to leading delivery projects, teams and programs for agencies, client service businesses and SaaS product companies.**
 
   The *Handbook* covers the role of strategy, management and leadership for project delivery for clients within the expectations of ambitious organisations. It also covers how the CDO fits in the context of the c-suite, supporting internal and external stakeholders.{.smaller .margin-block-start-vlg}
+
+  Vital insights and guidance for CDOs, professional services directors, client services directors, and other delivery principal roles.{.small}
 date: 2025-09-08T12:51:04Z
 listAllDescriptions: true
 listAllMoreButton: true
@@ -22,6 +24,12 @@ eleventyNavigation:
   footer: true
 image:
   social: ./content/public/images/handbook-cover.jpg
+  path: /public/images/source/pexels-cottonbro-6767008.jpg
+  alt: A basketball team in a huddle
+  caption: |
+    An essential playbook for project and delivery leadership. <a href="https://www.pexels.com/photo/a-basketball-team-in-a-huddle-6767008/" target="_blank" rel="noopener">Photo</a> by <a href="https://www.pexels.com/@cottonbro/" target="_blank" rel="noopener">cottonbro studio</a>
+  widths: [300, 620, 760, 830]
+  beforeJT: false
   classes:
     - content-canvas-item-wide-left-sm
     - content-canvas-item-left--span-3
@@ -37,15 +45,21 @@ redirect_from:
 
 *The CDO's Handbook* brings together 25 years' experience of project delivery from all angles, as team member, specialism lead, project manager, professional and client services lead, as both provider and customer, working hand-in-glove with sales and customer success teams.
 
-This manual is the result — a thoroughgoing guidebook for service delivery for agencies and product companies.
+This manual is the result.
 
-{% ImgFigure '<a href="https://www.pexels.com/photo/a-basketball-team-in-a-huddle-6767008/" target="_blank" rel="noopener">Photo</a> by <a href="https://www.pexels.com/@cottonbro/" target="_blank" rel="noopener">cottonbro studio</a>', image.classes %}
-![A Basketball Team in a Huddle](/public/images/source/pexels-cottonbro-6767008.jpg){.image-rounded eleventy:widths="200,350,500"}
-{% endImgFigure %}
+{% ColourBG %}
+  {% Markdown %}
 
-A combination of a playbook and a reference tool, *The Handbook* is designed to accelerate your route to learning, with insights into the role of Chief Delivery Officer (CDO), a Client Services Director (CSD) or Project Management Office lead (PMO), their place in the business and their role with customers.{.content-canvas-item-main-left-main-end}
+> ## The Chief Delivery Officer's Handbook{.italic .h1-style}
+>
+> A thoroughgoing guidebook for project and service delivery for agencies and product companies.{.vlarge .medium .secondary-font .lineheight-1}
+{.padding-block-lg .content-canvas-item-wide-left-more}
+  {% endMarkdown %}
+{% endColourBG %}
 
-Most importantly, it puts the role into the context of a C-suite player for organisations that understand that their success depends on high performance client projects.{.content-canvas-item-main-left-main-end}
+A combination of a playbook and a reference tool, *The Handbook* is designed to accelerate your route to learning, with insights into the role of Chief Delivery Officer (CDO), a Client Services Director (CSD) or Project Management Office principal (PMO), their place in the business and their role with customers.
+
+Most importantly, it puts the role into the context of a C-suite player for organisations that understand that their success depends on high performance client projects.
 
 The *Handbook* covers everything you need to know, written in an accessible and practical manner for those who wish to understand their role better, for those wanting to step up into this role, or for founder-owners who are considering what this role may add to their executive team.
 

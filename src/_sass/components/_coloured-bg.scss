@@ -20,6 +20,15 @@
       font-style: italic;
     }
   }
+
+  a {
+    color: var(--section-coloured-bg-text);
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
 }
 
 .section-coloured-bg--secondary {
