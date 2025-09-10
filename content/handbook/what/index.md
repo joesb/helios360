@@ -7,7 +7,7 @@ jumbotron: |
 
   Here we break down the role itself, as both a domain specialist and affecting the business as a whole, looking at what's distinctive in the client delivery portfolio from others in the C-suite.{.small}
 
-  We also look at the essential qualities and skills of a CDO, with unusual mastery in communication and as a capable advocate for customer and team, as well as outlining seven other key skills for a CDO.{.small}
+  We also look at the essential qualities and skills of a CDO, with unusual mastery in communication and as a capable advocate for customer and team, as well as outlining seven other key skills.{.small}
 pending: false
 date: 2025-09-10T14:45:21Z
 eleventyNavigation:
