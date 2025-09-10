@@ -16,7 +16,7 @@
     "util:clean": "npx rimraf -v _site/ src/_includes/assets/css/* content/public/img/* || true",
     "11ty:build": "(yarn sass:build) && (npx @11ty/eleventy --dryrun) && (npx @11ty/eleventy)",
     "11ty:watch": "(yarn util:clean) && (yarn sass:build) && (npx @11ty/eleventy --dryrun) && npx @11ty/eleventy --watch",
-    "11ty:serve": "(yarn util:clean) && (yarn sass:build) && (npx @11ty/eleventy --dryrun) && npx @11ty/eleventy --serve && sass:watch",
+    "11ty:serve": "(yarn util:clean) && (yarn sass:build) && (npx @11ty/eleventy --dryrun) && (npx @11ty/eleventy --serve & yarn sass:watch)",
     "go": "yarn 11ty:serve",
     "wrangler": "npx wrangler pages dev _site",
     "wrangler:dev": "npx wrangler dev _site --live-reload",
