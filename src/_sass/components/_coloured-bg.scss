@@ -8,6 +8,18 @@
   --section-coloured-bg-text: var(--color-text-black);
   background-color: var(--section-coloured-bg);
   color: var(--section-coloured-bg-text);
+
+  :where(blockquote,:not(blockquote)>cite) {
+    border-color: var(--section-coloured-bg-text);
+    border-inline-start-width: 0;
+    margin-inline-start: unset;
+    max-inline-size: var(--size-content-4);
+    font-style: initial;
+
+    em {
+      font-style: italic;
+    }
+  }
 }
 
 .section-coloured-bg--secondary {
@@ -16,6 +28,16 @@
 
 .section-coloured-bg--tertiary {
   --section-coloured-bg: var(--color-brand-tertiary);
+  --section-coloured-bg-text: var(--color-text-white);
+}
+
+.section-coloured-bg--quaternary {
+  --section-coloured-bg: var(--color-brand-quaternary);
+}
+
+.section-coloured-bg--quinary {
+  --section-coloured-bg: var(--color-brand-quinary);
+  --section-coloured-bg-text: var(--color-text-white);
 }
 
 .section-coloured-bg--white {

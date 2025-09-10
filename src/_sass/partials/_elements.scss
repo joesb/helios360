@@ -21,6 +21,8 @@ html {
   --color-brand-primary: var(--color-icterine);
   --color-brand-secondary: var(--color-ming);
   --color-brand-tertiary: var(--color-victoria);
+  --color-brand-quaternary: var(--color-viridian);
+  --color-brand-quinary: var(--color-affair);
   --color-brand-text: var(--color-white);
   --color-brand-white: var(--color-white);
   --color-brand-black: var(--color-black);
@@ -64,6 +66,7 @@ html {
 
   --size-header-4: 45ch;
   --size-header-5: 55ch;
+  --size-content-4: 75ch;
 
   // Sizes
   --size-fluid-000: clamp(0.125rem, 0.5vw, 0.25rem);
