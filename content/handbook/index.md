@@ -50,7 +50,7 @@ This manual is the result.
 {% ColourBG %}
   {% Markdown %}
 
-> ## The Chief Delivery Officer's Handbook{.italic .h1-style}
+> ## The CDO's Handbook{.italic .h1-style}
 >
 > A thoroughgoing guidebook for project and service delivery for agencies and product companies.{.vlarge .medium .secondary-font .lineheight-1}
 {.padding-block-lg .content-canvas-item-wide-left-more}
