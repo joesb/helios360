@@ -63,9 +63,9 @@ We've already set out a definition of the Chief Delivery Officer previously, at 
 
 {% ColourBG %}
   {% Markdown %}
-> The Chief Delivery Officer (CDO) is a key leadership role.{.vlarge .medium .secondary-font .lineheight-1}
+> The Chief Delivery Officer (CDO) is a key leadership role.{.vlarge .medium .headings-font .lineheight-1}
 >
-> Normally an executive-level role, the CDO works closely with other leaders in the organisation to align the client delivery strategy with both the business goals and customers' needs.{.large .medium .secondary-font .lineheight-1}
+> Normally an executive-level role, the CDO works closely with other leaders in the organisation to align the client delivery strategy with both the business goals and customers' needs.{.large .medium .headings-font .lineheight-1}
 {.padding-block-lg .content-canvas-item-wide-left-more}
   {% endMarkdown %}
 {% endColourBG %}
