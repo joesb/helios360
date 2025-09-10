@@ -22,11 +22,13 @@
   }
 
   a {
-    color: var(--section-coloured-bg-text);
-    text-decoration: underline;
+    &:not(.single-meta-button) {
+      color: var(--section-coloured-bg-text);
+      text-decoration: underline;
 
-    &:hover {
-      text-decoration: none;
+      &:hover {
+        text-decoration: none;
+      }
     }
   }
 }
