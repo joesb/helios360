@@ -112,6 +112,12 @@ However, your focus when you're asking these questions goes beyond just re-hashi
 
 You should probably consider doing the same with heads of departments and others significant people who aren't part of the exec team.
 
+### The delivery unit's needs
+
+As well as the objectives of the business, you need to understand how the customer/project delivery unit works as a whole, how individual teams work within it, what needs they have and what challenges they face.
+
+Some of this will come from observation and one-to-one discussions, but some may need a more structured approach.
+
 #### 3. Workshops with the delivery team
 
 Whilst ad hoc or impromptu conversations with delivery personnel are important, as we said previously, you may also consider running a workshop or two to help you understand how things work in this new organisation.
