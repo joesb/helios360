@@ -20,6 +20,17 @@
       font-style: italic;
     }
   }
+
+  a {
+    &:not(.single-meta-button) {
+      color: var(--section-coloured-bg-text);
+      text-decoration: underline;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
 }
 
 .section-coloured-bg--secondary {
