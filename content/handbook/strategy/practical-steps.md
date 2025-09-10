@@ -2,7 +2,7 @@
 title: Practical steps for your first 30 days as CDO
 description: What are the first priorities when starting in a new Chief Delivery Officer role?
 layout: page.njk
-date: 2025-09-08T09:14:29Z
+date: 2025-09-10T11:34:29Z
 jumbotron: |
   So you're in your new role. What do you actually do in the first month?
 
@@ -75,10 +75,10 @@ The agenda of your first meeting, or a follow-up if necessary, should include an
     - How does the CEO perceive the place of customer and project outcomes in the life and future of the business?
 
 {% ColourBG 'secondary' %}
-  <blockquote class="padding-block-lg content-canvas-item-wide-left">
+  <blockquote class="padding-block-lg content-canvas-item-wide-left-more">
   {% Markdown %}
 
-  A full discussion with the CEO on the mission and goals of the business, and how it's working to achieve those.{.vlarge .bold .headings-font .lineheight-1}
+  You should have a full discussion with the CEO on the mission and goals of the business, and how it's working to achieve those.{.vlarge .bold .headings-font .lineheight-1}
 
   {% endMarkdown %}
   </blockquote>
@@ -101,7 +101,7 @@ However, your focus when you're asking these questions goes beyond just re-hashi
     - and if so, what?
 
 {% ColourBG 'secondary' %}
-  <blockquote class="padding-block-lg content-canvas-item-wide-left">
+  <blockquote class="padding-block-lg content-canvas-item-wide-left-more">
   {% Markdown %}
 
   How do the objectives cascade down into actionable goals in each part of the organisation?{.vlarge .bold .headings-font .lineheight-1}
@@ -114,8 +114,41 @@ You should probably consider doing the same with heads of departments and others
 
 #### 3. Workshops with the delivery team
 
+Whilst ad hoc or impromptu conversations with delivery personnel are important, as we said previously, you may also consider running a workshop or two to help you understand how things work in this new organisation.
 
+Here's a couple of suggestions. You may have other thoughts yourself.
 
+##### 3.1. Hold a project post-mortem{.margin-block-end-lg}
+
+Take a recent client project and conduct a retrospective or post-mortem together. Doesn't need to be one that's been problematic or failed — in fact, assessing a successful one is probably more politically astute.
+
+You should run this using a Retrospective meeting format (i.e. what went well?; what didn't go well?; what could be improved or tried?; what did we learn?).
+
+You probably ought to send a questionnaire in advance, for those who like some unpressured thinking time, with variations on these questions (e.g. use the 4 Ls — 2/3 things you liked, lacked, longed for, learned).
+
+You should definitely capture the outcomes and send a summary or recap to everyone.
+
+##### 3.2 Write the CEOs speech{.margin-block-end-lg}
+
+Take ideas for a new product or service for the business based on recent learning or a specific project outcome. Choose one.
+
+Imagine that it's going to be launched in 12/18 months following an extended effort by the delivery team. The CEO will give a speech at an industry conference to announce it.
+
+Split into 2/3 teams and write the CEOs speech. Each team presents it to the wider group.
+
+##### Paying attention{.margin-block-end-lg}
+
+As well as the specific outcomes, you're really listening for the undercurrents in these workshops.
+
+- How do these people work together?
+- How do they feel about the work they do?
+- How do they feel about the business as a whole and their contribution to it's goals?
+- What are their gripes and frustrations?
+- Are there obvious challenges or difficulties?
+
+The things you detect will start to form the basis of the strategy you'll need to be putting in place.
+
+<!-- 
 ## Building relationships{.content-canvas-item-wide-left-more}
 
 ## Stakeholder mapping
@@ -128,4 +161,4 @@ A stakeholder map pic here
 
 ## Metrics and measuring what's meaningful
 
-## A plan
+## A plan -->
