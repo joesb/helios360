@@ -1,6 +1,7 @@
 @use "sass:color";
 @use "../tools/px-to-rem" as ptr;
 @use "../tools/respond-to" as rt;
+@use "../common/site-palette" as sp;
 
 .page {
   position: relative;
@@ -55,6 +56,9 @@
   }
 
   .index-nav {
+    background: color.adjust(sp.$color-black, $alpha: -0.75);
+    padding: 1rem;
+
     .metadata,
     .item-meta {
       border-bottom-width: 0;
