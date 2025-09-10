@@ -57,16 +57,16 @@ CEOs of professional services businesses understand that the delivery principal 
 
 {% ColourBG 'tertiary' %}
   {% Markdown %}
-> “When the company grows, consistency becomes more important and, counterintuitively, being systematic creates space for a flow and a rhythm.”{.vlarge .medium .lineheight-1 .italic .primary-font}
+> “When the company grows, consistency becomes more important and, counter-intuitively, being systematic creates space for a flow and a rhythm.”{.vlarge .medium .lineheight-1 .italic .primary-font}
 >
 > [Jake Goldman](https://www.linkedin.com/in/jacobgoldman/){target=_blank rel="noreferrer nofollow noopener"}, president and founder, [10up](https://10up.com/){target=_blank rel="noreferrer noopener"}/[Fueled](https://fueled.com/){target=_blank rel="noreferrer noopener"} {.large .medium .secondary-font .lineheight-1}
 {.padding-block-lg .content-canvas-item-wide-left-more}
   {% endMarkdown %}
 {% endColourBG %}
 
-It is a vital position with an overview of outcomes for customers, setting and maintaining the processes and practices of client delivery, providing a safe space for creativity, and a place in which expertise can shine.
+Chief Delivery Officer is a vital position with an overview of outcomes for customers, setting and maintaining the processes and practices of client delivery, providing a safe space for creativity, and a place in which expertise can shine.
 
-They recognise the role of CDO is a strange one though, serving the needs of the customer, the team, and the business simultaneously in creative tension.
+Highly effective CEOs recognise the role of CDO is a strange one though, serving the needs of the customer, the team, and the business simultaneously in creative tension.
 
 The skill set needed is different according to business needs, but there are some fundamental soft skills:
 
