@@ -2,7 +2,7 @@
 title: Practical steps for your first 30 days as CDO
 description: What are the first priorities when starting in a new Chief Delivery Officer role?
 layout: page.njk
-date: 2025-09-10T11:34:29Z
+date: 2025-09-11T16:24:29Z
 jumbotron: |
   So you're in your new role. What do you actually do in the first month?
 
@@ -29,9 +29,10 @@ image:
   side_classes:
     - content-canvas-item-wide-left-sm
     - content-canvas-item-left--span-3
-    - margin-block-md
+    - margin-block-vlg
   side_classes_2:
     - content-canvas-item-wide-left-more
+    - margin-block-vlg
 ---
 
 So, your first month, real world. What do you actually do?
@@ -155,12 +156,78 @@ As well as the specific outcomes, you're really listening for the undercurrents 
 The things you detect will start to form the basis of the strategy you'll need to be putting in place.
 
 <!-- 
-## Building relationships{.content-canvas-item-wide-left-more}
+## Building relationships{.content-canvas-item-wide-left-more} -->
+
+---
 
 ## Stakeholder mapping
 
-A stakeholder map pic here
+A really useful exercise to understand the organisation and who's concerned with what you is to create a stakeholder map. You may be familiar with this sort of thing already, so if so here's a refresher.
 
+### Factors to consider
+
+What you're trying to examine with this sort of task is how the organisation will respond to what you do in your work.
+
+1. **Who has the most influence on your freedom of movement?**
+    - Or, whose say-so will determine what you can and can't do?
+2. **Which people will be most affected by changes you make?**
+    - Or, if and when you change things, whose day-to-day will change (for better or worse)?
+3. **Who controls the resources?**
+    - That's *all* the resources — finances, people, technology, time, and so on.
+4. **How should you handle important people who actually won’t be considered stakeholders?**
+    - Some people will think of themselves as stakeholders but, in fact, only need to be informed of changes.
+
+There's many ways that you can do that but the outcome might look something like this chart below.
+
+{% ImgFigure 'An example stakeholder map.', image.side_classes_2 %}![A stakeholder map chart](/public/images/handbook/Helios360-StakeholderMap.png){.image-rounded eleventy:widths="200,350,575,760,1200"}{% endImgFigure %}
+
+This is only example data, of course, all completely made up, and likely missing a good number of job roles out, too. That said, this is an illustration of how the exercise can help build your conception of the organisation, and how it can shape how to approach your role and impact.
+
+If you're trying to work out how to score individuals in the organisation, remember that you're trying to determine the top motivations and interests of your stakeholders. When deciding the driving force of stakeholders, consider:​
+
+- Who has a financial stake/interest.
+- Who has an emotional interest (don’t underestimate this; if this project was someone’s “baby,” keeping them happy and in the loop is critical).
+- What are the top motivations for each stakeholder?
+- Who are the biggest supporters?
+- ​Who are the biggest non-supporters or naysayers?
+
+{% ColourBG 'secondary' %}
+  {% Markdown %}
+> How will the organisation respond to what you do?{.vlarge .bold .headings-font .lineheight-1}
+>
+> What are the top motivations and interests of key people?{.large .medium .lineheight-1}
+{.padding-block-lg .content-canvas-item-wide-left-more}
+
+  {% endMarkdown %}
+{% endColourBG %}
+
+### The map you produce
+
+The idea with this chart is to end up with 4 quadrants.
+
+{% ImgFigure 'The quadrants of a stakeholder map.', image.side_classes_2 %}![A stakeholder map chart divided in quarters](/public/images/handbook/Helios360-StakeholderMap-Quarters.png){.image-rounded eleventy:widths="200,350,575,760,1200"}{% endImgFigure %}
+
+1. **Work with**
+    - Those you'll work with most directly in developing and executing your strategy. These are also people with skin in the game, who will influence what you do and be affected by the choices you make.
+2. **Consult with**
+    - Those whose views are important and probably have a fair bit of authority, but won't be so affected by directly by changes you make, and certainly not in their daily work.
+3. **Keep satisfied**
+    - People who will affected and probably need to adapt how they work — so don't frustrate them! — but they'll be responsive rather than active agents in your changes.
+4. **Keep informed**
+    - These are probably not actual stakeholders, but will nonetheless take a keen interest in what you do. Some may be marginal cases, but be ruthless — over-consulting will kill your progress.
+
+**Note:** there are other approaches to charting things that could work, such as the Three I-s method — influence; interest; impact. Do whatever's most appropriate for your context.{.smaller .italic}
+
+### When you have your map
+
+It's important to be as empirical as possible, so make sure you validate what you've produced.
+
+- Check it over with key people and review each person's position on the chart.
+- Change as needed, making a record of the reasoning if that's helpful.
+
+Once you have finalised, this is the basis of an engagement plan — both now, in this first 30 days, and ongoing as you and your strategy get more embedded. So, review it regularly, and update it throughout your tenure.
+
+<!-- 
 ## Review recent work
 
 ## Risk assessment
