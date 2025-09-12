@@ -193,9 +193,9 @@ If you're trying to work out how to score individuals in the organisation, remem
 
 {% ColourBG 'secondary' %}
   {% Markdown %}
-> How will the organisation respond to what you do?{.vlarge .bold .headings-font .lineheight-1}
+> What are the motivations and interests of your stakeholders?{.vlarge .bold .headings-font .lineheight-1}
 >
-> What are the top motivations and interests of your stakeholders?{.large .medium .lineheight-1}
+> How will the organisation respond to what you do?{.large .medium .lineheight-1}
 {.padding-block-lg .content-canvas-item-wide-left-more}
 
   {% endMarkdown %}
