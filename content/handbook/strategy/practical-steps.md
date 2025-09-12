@@ -195,7 +195,7 @@ If you're trying to work out how to score individuals in the organisation, remem
   {% Markdown %}
 > How will the organisation respond to what you do?{.vlarge .bold .headings-font .lineheight-1}
 >
-> What are the top motivations and interests of key people?{.large .medium .lineheight-1}
+> What are the top motivations and interests of your stakeholders?{.large .medium .lineheight-1}
 {.padding-block-lg .content-canvas-item-wide-left-more}
 
   {% endMarkdown %}
