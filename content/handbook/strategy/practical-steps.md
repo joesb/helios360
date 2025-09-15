@@ -215,12 +215,10 @@ The idea with this chart is to end up with 4 quadrants.
     - Those whose views are important and probably have a fair bit of authority, but won't be so affected by directly by changes you make, and certainly not in their daily work.
 3. **Keep satisfied**
     - or *Approval*
-    - People who will be affected and probably need to adapt how they work — so don't frustrate them! — but they'll be responsive rather than active agents in your changes.
-    - Or, people who may have some governance or other control over how you execute your work, such as HR, legal or finance, say.
+    - People who will affected and probably need to adapt how they work — so don't frustrate them! — but they'll be responsive rather than active agents in your changes.
 4. **Keep informed**
     - or *Inform*
-    - These are probably not actual stakeholders, but will nonetheless take a keen interest in what you do.
-    - Some may be marginal cases, but it's good to be hard-nosed in assigning people to this grouping — over-consulting will kill your progress.
+    - These are probably not actual stakeholders, but will nonetheless take a keen interest in what you do. Some may be marginal cases, but be ruthless — over-consulting will kill your progress.
 
 **Note:** there are other approaches to charting things that could work, such as the Three I-s method — influence; interest; impact. Do whatever's most appropriate for your context.{.smaller .italic}
 
