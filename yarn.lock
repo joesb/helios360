@@ -2391,7 +2391,7 @@ __metadata:
     sass: ^1.92.1
     sass-autoprefixer: ^1.0.1
     uglify-js: ^3.19.3
-    wrangler: ^4.35.0
+    wrangler: ^4.37.0
   languageName: unknown
   linkType: soft
 
@@ -3036,9 +3036,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"miniflare@npm:4.20250906.0":
-  version: 4.20250906.0
-  resolution: "miniflare@npm:4.20250906.0"
+"miniflare@npm:4.20250906.2":
+  version: 4.20250906.2
+  resolution: "miniflare@npm:4.20250906.2"
   dependencies:
     "@cspotcode/source-map-support": 0.8.1
     acorn: 8.14.0
@@ -3047,14 +3047,14 @@ __metadata:
     glob-to-regexp: 0.4.1
     sharp: ^0.33.5
     stoppable: 1.1.0
-    undici: ^7.10.0
+    undici: 7.14.0
     workerd: 1.20250906.0
     ws: 8.18.0
     youch: 4.1.0-beta.10
     zod: 3.22.3
   bin:
     miniflare: bootstrap.js
-  checksum: 30b0431c4caa4ccb71b5a593c640f8ca9639289707bc8ac9bc3726edb7be298bf4a5c888fe7e3c7ba196257a4ea07d777fa3f891309a8b07f0f22a7de6b036a6
+  checksum: 39c6ee055f4b8ee9124943e978a8379dc8dfd350135f81646f2e92b746346fe306a37177031cdac598e4fd8b1129b47d04c1945eeb8ddbf5d32f94b247ca7f69
   languageName: node
   linkType: hard
 
@@ -4486,17 +4486,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"undici@npm:7.14.0":
+  version: 7.14.0
+  resolution: "undici@npm:7.14.0"
+  checksum: bf1edb9c5dd3becd4ec7342a5ceef5f18b6a731a197087bcbc98d09aa027dbf82c6461844ccb4af51bd2146d1858933f81501905f851aaead2429846f96a9e7d
+  languageName: node
+  linkType: hard
+
 "undici@npm:^6.19.5":
   version: 6.21.3
   resolution: "undici@npm:6.21.3"
   checksum: a2af0601deece36acbcc11ef722f36ad3c1e035d3065b9fbb36987487f7b69904046fa95c18f228a872ca45441f156fcaacd948fc920b0a97d0c1ab78ea63c04
-  languageName: node
-  linkType: hard
-
-"undici@npm:^7.10.0":
-  version: 7.15.0
-  resolution: "undici@npm:7.15.0"
-  checksum: 9bae69237618f232b1baff38530478cc1b5d692e6bce1051aeb9e6a4c0d56c9596008adaa9c60ceda5ee0520023d8fd42830bbee2defa285e9c5d14844342ef5
   languageName: node
   linkType: hard
 
@@ -4654,16 +4654,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"wrangler@npm:^4.35.0":
-  version: 4.35.0
-  resolution: "wrangler@npm:4.35.0"
+"wrangler@npm:^4.37.0":
+  version: 4.37.0
+  resolution: "wrangler@npm:4.37.0"
   dependencies:
     "@cloudflare/kv-asset-handler": 0.4.0
     "@cloudflare/unenv-preset": 2.7.3
     blake3-wasm: 2.1.5
     esbuild: 0.25.4
     fsevents: ~2.3.2
-    miniflare: 4.20250906.0
+    miniflare: 4.20250906.2
     path-to-regexp: 6.3.0
     unenv: 2.0.0-rc.21
     workerd: 1.20250906.0
@@ -4678,7 +4678,7 @@ __metadata:
   bin:
     wrangler: bin/wrangler.js
     wrangler2: bin/wrangler.js
-  checksum: 875004a496fdf4c61cf8a4613b0ea1f5867b2216c5ed227b2546513861f34b397506a8339165dddaeb12d7790d7583f05e447ae8407cd76761060fbcaf73d587
+  checksum: 4e50948da26fa4da98ffa632dc8892e66a1ca37a25415fbe6c16e6dbc3269671354f833e9c92fd65d4903faed7d0c59f5d5eaa57ce7081b0aa766658941a6a09
   languageName: node
   linkType: hard
 
