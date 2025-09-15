@@ -241,7 +241,7 @@ It's important to be as empirical as possible, so make sure you validate what yo
 - Check it over with key people and review each person's position on the chart.
 - Change as needed, making a record of the reasoning if that's helpful.
 
-Once you have finalised, this is the basis of an engagement plan — both now, in this first 30 days, and ongoing as you and your strategy get more embedded. So, review it regularly, and update it throughout your tenure.
+Once you have your map finalised, this is the basis of an engagement plan — both now, in this first 30 days, and ongoing as you and your strategy get more embedded. So, review it regularly, and update it throughout your tenure.
 
 <!-- 
 ## Review recent work
