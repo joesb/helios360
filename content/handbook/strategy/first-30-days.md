@@ -2,7 +2,7 @@
 title: Your first 30 days in post as CDO
 description: What are the first priorities when starting in a new Chief Delivery Officer role?
 layout: page.njk
-date: 2025-09-08T09:14:29Z
+date: 2025-09-16T14:44:28Z
 jumbotron: |
   So you've landed in your new role. How do you get up and running?
   
