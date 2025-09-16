@@ -9,7 +9,7 @@ jumbotron: |
   The *Handbook* covers the role of strategy, management and leadership for project delivery for clients within the expectations of ambitious organisations. It also covers how the CDO fits in the context of the c-suite, supporting internal and external stakeholders.{.smaller .margin-block-start-vlg}
 
   Vital insights and guidance for CDOs, professional services directors, client services directors, and other delivery principal roles.{.small}
-date: 2025-09-10T15:11:04Z
+date: 2025-09-16T15:01:20Z
 listAllDescriptions: true
 listAllMoreButton: true
 listTitle: In the handbook
@@ -52,7 +52,7 @@ This manual is the result.
 
 > ## The CDO's Handbook{.italic .h1-style}
 >
-> A thoroughgoing guidebook for project and service delivery for agencies and product companies.{.vlarge .medium .secondary-font .lineheight-1}
+> A thoroughgoing guide for project and service delivery leadership in ambitious agencies and product companies.{.vlarge .medium .secondary-font .lineheight-1}
 {.padding-block-lg .content-canvas-item-wide-left-more}
   {% endMarkdown %}
 {% endColourBG %}
