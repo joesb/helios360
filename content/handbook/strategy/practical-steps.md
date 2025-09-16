@@ -80,13 +80,10 @@ The agenda of your first meeting, or a follow-up if necessary, should include an
     - How does the CEO perceive the place of customer and project outcomes in the life and future of the business?
 
 {% ColourBG 'secondary' %}
-  <blockquote class="padding-block-lg content-canvas-item-wide-left-more">
   {% Markdown %}
-
-  You should have a full discussion with the CEO on the mission and goals of the business, and how it's working to achieve those.{.vlarge .bold .headings-font .lineheight-1}
-
+> You should have a full discussion with the CEO on the mission and goals of the business, and how it's working to achieve those.{.vlarge .bold .headings-font .lineheight-1}
+{.padding-block-lg .content-canvas-item-wide-left-more}
   {% endMarkdown %}
-  </blockquote>
 {% endColourBG %}
 
 Follow your discussion with the CEO with any reading you can — documents and documentation on the objectives (current and past) and their outcomes, including slide decks, board reports, memos, and more. It's important to understand how this stuff is summarised, and how it's communicated to the wider organisation.
@@ -106,13 +103,10 @@ However, your focus when you're asking these questions goes beyond just re-hashi
     - and if so, what?
 
 {% ColourBG 'secondary' %}
-  <blockquote class="padding-block-lg content-canvas-item-wide-left-more">
   {% Markdown %}
-
-  How do the objectives cascade down into actionable goals in each part of the organisation?{.vlarge .bold .headings-font .lineheight-1}
-
+> How do the objectives cascade down into actionable goals in each part of the organisation?{.vlarge .bold .headings-font .lineheight-1}
+{.padding-block-lg .content-canvas-item-wide-left-more}
   {% endMarkdown %}
-  </blockquote>
 {% endColourBG %}
 
 You should probably consider doing the same with heads of departments and others significant people who aren't part of the exec team.

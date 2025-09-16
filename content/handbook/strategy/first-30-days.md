@@ -63,11 +63,10 @@ To do that, you need to use your thermometer to take the temperature of the orga
 And that starts with listening. Lots of listening. Going out of your way to listen. And then listening some more.{.content-canvas-item-main-left-main-end}
 
 {% ColourBG 'quaternary' %}
-  <blockquote class="padding-block-lg content-canvas-item-wide-left-more">
   {% Markdown %}
-    In this first 30 days, fully understanding what you're letting yourself in for is fundamental.{.vlarge .bold .headings-font .lineheight-1}
+> In this first 30 days, fully understanding what you're letting yourself in for is fundamental.{.vlarge .bold .headings-font .lineheight-1}
+{.padding-block-lg .content-canvas-item-wide-left-more}
   {% endMarkdown %}
-  </blockquote>
 {% endColourBG %}
 
 Take as much time as you can to meet with people. Invite people for morning coffee, or lunch, or afternoon tea, or a walk around the block. Travel to where they are, if they're in a different office and you can — making an effort and meeting in person is powerful. Meet on a video call. Whatever. Just meet with people.{.content-canvas-item-main-left-main-end}
@@ -120,11 +119,10 @@ A full understanding may be a tall order for the first 30 days but you'll need t
 There are people whose support you will need or whose agenda you will need to align with, key stakeholders or sponsors, as you seek to make changes in the business.
 
 {% ColourBG 'quaternary' %}
-  <blockquote class="padding-block-lg content-canvas-item-wide-left-more">
   {% Markdown %}
-    You may not want to be involved, you may not *need* to get involved, but you'll definitely need to understand the political dimension of the organisation.{.vlarge .bold .headings-font .lineheight-1}
+> You may not want to be involved, you may not *need* to get involved, but you'll definitely need to understand the political dimension of the organisation.{.vlarge .bold .headings-font .lineheight-1}
+{.padding-block-lg .content-canvas-item-wide-left-more}
   {% endMarkdown %}
-  </blockquote>
 {% endColourBG %}
 
 There's a more pointed aspect of the politics for you, though.
@@ -165,11 +163,10 @@ Rather, your focus in the first 30 days is on getting a high-altitude view of th
 Of the subjects highlighted before (practices; tooling and systems; governance; planning; processes; organisational structure; metrics, analytics, learning; supplier relationships; team dynamics), your conversations should give you a sense fairly quickly of the areas that may be causing problems. Once you have a sense of the areas of concern, you can then conduct more of an in-depth exploration in which you'll look at the decisions and the events that resulted in the current situation.
 
 {% ColourBG 'quaternary' %}
-  <blockquote class="padding-block-lg content-canvas-item-wide-left-more">
   {% Markdown %}
-    Your focus in the first 30 days is on getting a high-altitude view of the lie of the land.{.vlarge .bold .headings-font .lineheight-1}
+> Your focus in the first 30 days is on getting a high-altitude view of the lie of the land.{.vlarge .bold .headings-font .lineheight-1}
+{.padding-block-lg .content-canvas-item-wide-left-more}
   {% endMarkdown %}
-  </blockquote>
 {% endColourBG %}
 
 ## Quick wins, and their perils
