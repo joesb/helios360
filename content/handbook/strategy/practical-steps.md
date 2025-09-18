@@ -26,6 +26,8 @@ image:
   alt: A woman holding a coffee and a map in a mountain landscape
   caption: 'Preparing for a journey. <a href="https://www.pexels.com/photo/a-woman-holding-a-kettle-and-a-paper-8027923/" target="_blank" rel="noopener">Photo</a> by <a href="https://www.pexels.com/@anastasia-shuraeva/" target="_blank" rel="noopener">Anastasia Shuraeva</a> on Pexels.'
   beforeJT: true
+  main_classes:
+    - margin-block-lg
   side_classes:
     - content-canvas-item-wide-left-sm
     - content-canvas-item-left--span-3
@@ -238,10 +240,53 @@ It's important to be as empirical as possible, so make sure you validate what yo
 Once you have your map finalised, this is the basis of an engagement plan — both now, in this first 30 days, and ongoing as you and your strategy get more embedded. So, review it regularly, and update it throughout your tenure.
 
 <!-- 
-## Review recent work
+## Review recent work -->
 
-## Risk assessment
+---
 
+## Assess the risks
+
+{% ImgFigure 'A clear view of what’s ahead. <a href="https://unsplash.com/photos/white-and-red-kanji-text-kjqTlMHLci4" target="_blank" rel="noopener noreferrer">Photo</a> by <a href="https://unsplash.com/@dallimonti" target="_blank" rel="noopener noreferrer">Andrés Dallimonti</a> on Unsplash.', image.main_classes %}![Two pilots sitting a plane cockpit](/public/images/source/andres-dallimonti-kjqTlMHLci4-unsplash.jpg){.image-rounded .image-border eleventy:widths="200,350,575,760"}{% endImgFigure %}
+
+We'll talk in [more detail elsewhere](/handbook/delivery/) *(page forthcoming)*{.small} about better approaches to managing risks. However you go about it, the point here is that risk assessment is a helpful practice for getting yourself oriented when you first start at in your new role as a director of project or service delivery.
+
+The point of an assessment of risks at this stage is layered:
+
+- to understand the forces, internal and external, that you're may confront
+- the likelihood of them having affecting the delivery unit in the business
+- the scale of the impact they might have
+- whether they can be mitigated
+  - and if so, how
+- and how that will your ability to design and successfully execute your strategy
+
+The outcome of your assessment will shape the plans that you put in place.
+
+### Altitudes of thinking
+
+ What's worth stressing here is that that you should be approaching this by thinking of risks at different altitudes.
+
+1. Global
+2. National
+3. Organisation
+4. Service
+5. Team
+{reversed}
+
+By separating out the altitudes of risk in this manner you can adjust the way you think about them. Risks at different altitudes impact in different ways, and therefore demand that we respond differently.
+
+#### Global and National
+
+Political, social, societal and technological factors all operate at this level.
+
+Most are fairly slow-moving, appear with plenty of warning (election cycles, say) and any risk posed can be easier to mitigate as a result (though some are very uncertain, such as the political and economic impacts of Brexit, the US tariff regime, etc.). Some (war, say) are exceedingly rare, in the main, and probably don't need to feature on your register. Others may seem unlikely but can appear quickly with devastating effects. As we've seen in recent years with the Covid-19 pandemic, there are risks that operate at a global level that have clear and direct impacts at personal level.
+
+The risks are real, though our response is less about removing the risk and rather the actions we might need to take.
+
+(On the risk of pandemic, note also that global disease is no less likely now than it was in 2020, and global attitudes to healthcare responses, vaccines in particular, are shifting under continuing pressure from adherents to conspiracy theories.){.italic}
+
+It's worth remembering also that there's some risks operating at the Global and National level that don't separate neatly between the two — societal and market fluctuations or full-on shocks are often both, for instance.
+
+<!-- 
 ## Metrics and measuring what's meaningful
 
 ## A plan -->
