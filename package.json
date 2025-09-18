@@ -57,7 +57,7 @@
     "@types/markdown-it": "^14.1.2",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "resend": "^6.0.3"
+    "resend": "^6.1.0"
   },
   "packageManager": "yarn@3.8.7"
 }
