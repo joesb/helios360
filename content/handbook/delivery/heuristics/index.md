@@ -7,6 +7,9 @@ jumbotron: |
   
   Here are a set of heuristics for Chief Delivery Officers and delivery principals — fast and frugal rules of thumb — learnt from 20+ years of experience, reading, and researching to simplify complex things, and help service and project delivery start out on the right track and stay there.{.smaller}
 date: 2025-08-19T16:23:06Z
+redirect_from:
+  - /heuristics/
+  - /heuristics
 tags:
   - '#handbookDelivery'
   - '#handbookPromotedHP'
