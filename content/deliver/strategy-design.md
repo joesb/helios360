@@ -1,5 +1,5 @@
 ---
-title: Strategy Design
+title: Strategy Design and Consultancy
 layout: page.njk
 type: page
 description: Outcome-oriented project strategy, operating model and implementation tools that align with your business goals
@@ -7,7 +7,7 @@ jumbotron: |
   **Your organisation's delivery strategy needs to align with your business goals, your operating capabilities, your sector and specialism, and your clients' needs.**
 
   Designed with a focus on modernisation, best-practice adoption, with training and resources to ensure rock solid adoption.
-date: 2025-03-18T16:04:00Z
+date: 2025-09-30T09:51:00Z
 listItemMoreTitle: Power up your delivery model
 eleventyNavigation:
   key: Strategy Design
