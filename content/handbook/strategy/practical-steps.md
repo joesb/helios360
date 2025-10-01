@@ -246,9 +246,9 @@ Once you have your map finalised, this is the basis of an engagement plan — bo
 
 ## Assess the risks
 
-{% ImgFigure 'A clear view of what’s ahead. <a href="https://unsplash.com/photos/white-and-red-kanji-text-kjqTlMHLci4" target="_blank" rel="noopener noreferrer">Photo</a> by <a href="https://unsplash.com/@dallimonti" target="_blank" rel="noopener noreferrer">Andrés Dallimonti</a> on Unsplash.', image.main_classes %}![Two pilots sitting a plane cockpit](/public/images/source/andres-dallimonti-kjqTlMHLci4-unsplash.jpg){.image-rounded .image-border eleventy:widths="200,350,575,760"}{% endImgFigure %}
+{% ImgFigure 'A clear view of what’s ahead. <a href="https://unsplash.com/photos/white-and-red-kanji-text-kjqTlMHLci4" target="_blank" rel="noopener noreferrer">Photo</a> by <a href="https://unsplash.com/@dallimonti" target="_blank" rel="noopener noreferrer">Andrés Dallimonti</a> on Unsplash.', image.side_classes_2 %}![Two pilots sitting a plane cockpit](/public/images/source/andres-dallimonti-kjqTlMHLci4-unsplash.jpg){.image-rounded-lg .image-border eleventy:widths="200,350,575,760,1980"}{% endImgFigure %}
 
-We'll talk in [more detail elsewhere](/handbook/delivery/) *(page forthcoming)*{.small} about better approaches to managing risks. However you go about it, the point here is that risk assessment is a helpful practice for getting yourself oriented when you first start at in your new role as a director of project or service delivery.
+We'll talk in [more detail elsewhere](/handbook/delivery/) *(page forthcoming)*{.small} about better approaches to managing risks. However you go about it, the point here is that risk assessment is a helpful practice for getting yourself oriented when you first start in your new role as a director of project or service delivery.
 
 The point of an assessment of risks at this stage is layered:
 
@@ -260,6 +260,14 @@ The point of an assessment of risks at this stage is layered:
 - and how that will your ability to design and successfully execute your strategy
 
 The outcome of your assessment will shape the plans that you put in place.
+
+{% ColourBG 'secondary' %}
+  {% Markdown %}
+> An assessment of risks is a helpful practice to get oriented when you start a new delivery leadership role.{.vlarge .bold .headings-font .lineheight-1}
+{.padding-block-lg .content-canvas-item-wide-left-more}
+
+  {% endMarkdown %}
+{% endColourBG %}
 
 ### Altitudes of thinking
 
@@ -274,19 +282,51 @@ The outcome of your assessment will shape the plans that you put in place.
 
 By separating out the altitudes of risk in this manner you can adjust the way you think about them. Risks at different altitudes impact in different ways, and therefore demand that we respond differently.
 
-#### Global and National
+#### Global and National{.border-block-end .heading-full}
 
 Political, social, societal and technological factors all operate at this level.
 
-Most are fairly slow-moving, appear with plenty of warning (election cycles, say) and any risk posed can be easier to mitigate as a result (though some are very uncertain, such as the political and economic impacts of Brexit, the US tariff regime, etc.). Some (war, say) are exceedingly rare, in the main, and probably don't need to feature on your register. Others may seem unlikely but can appear quickly with devastating effects. As we've seen in recent years with the Covid-19 pandemic, there are risks that operate at a global level that have clear and direct impacts at personal level.
+*👉*{.drop-first .drop-first-vsm .margin-inline-end-md}Most are fairly slow-moving, appear with plenty of warning (election cycles, say) and any risk posed can be easier to mitigate as a result (though some are very uncertain, such as the political and economic impacts of Brexit, the US tariff regime, etc.).{.padding-inline-start-lg}
+
+*👉*{.drop-first .drop-first-vsm .margin-inline-end-md}Others may seem unlikely but can appear quickly with devastating effects. As we've seen in recent years with the Covid-19 pandemic, there are risks that operate at a global level that have clear and direct impacts at personal level.{.padding-inline-start-lg}
+
+*👉*{.drop-first .drop-first-vsm .margin-inline-end-md}Some (war, say) are exceedingly rare, in the main, and probably don't need to feature on your register.{.padding-inline-start-lg}
 
 The risks are real, though our response is less about removing the risk and rather the actions we might need to take.
 
-(On the risk of pandemic, note also that global disease is no less likely now than it was in 2020, and global attitudes to healthcare responses, vaccines in particular, are shifting under continuing pressure from adherents to conspiracy theories.){.italic}
+{% Note true, 'content-note-info' %}
+**On the risk of pandemic**, note also that global disease is no less likely now than it was in 2020, and global attitudes to healthcare responses, vaccines in particular, are shifting under continuing pressure from adherents to conspiracy theories.{.italic}
+{% endNote %}
 
 It's worth remembering also that there's some risks operating at the Global and National level that don't separate neatly between the two — societal and market fluctuations or full-on shocks are often both, for instance.
 
+#### Organisational{.border-block-end .heading-full}
+
+At this level we're considering the risks that face the organisation. In general, you should be considering things in these areas:
+
+- **strategic risks** — what will impact how the business can achieve its goals, and long-term health?
+  - e.g. shifts in technology or market; competition; strategic capabilities; etc.
+- **operational risks** — what issues with processes, people, or systems may impede operations?
+  - e.g. scalability of key IT/software; key talent retention; data vulnerabilities; unscaling workflows; supply chain dependencies; etc.
+- **financial risks** — what will affect the financial stability and longevity of the business?
+  - e.g. runway; access to funding; loan liabilities; market or economic volatility, including inflationary pressures; taxation changes; etc.
+- **compliance risks** — meeting regulatory, legal, or industry standards
+  - e.g. changes in regulatory climate, such as with Brexit; data management regulation; changes to tax or employment law; etc.
+
+Many of these dimensions may feature in business-as-usual, the things the organisation naturally faces and remediates in the course of business.
+
+But it's vital to take a good, hard look at organisational risks — clear and specific issues must be identified wherever possible.
+
+You do not want to get caught out by [Donald Rumsfeld's ‘unknown unknowns’](https://en.wikipedia.org/wiki/There_are_unknown_unknowns) through a lack of thoroughness or due diligence.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/REWeBzGuzCc?si=iRrftPCXTJ1qEm5N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="margin-block-vlg"></iframe>
+
+<!-- #### Service{.border-block-end .heading-full} -->
+
 <!-- 
+---
+
 ## Metrics and measuring what's meaningful
 
+<!-- 
 ## A plan -->

@@ -266,6 +266,9 @@
   .content-canvas-item-out-left {
     grid-column: wide-start/main-mid;
   }
+  .content-canvas-item-out-left-from-full {
+    grid-column: full-start/main-end;
+  }
 }
 
 @include respond-to.respond-to('medium') {
