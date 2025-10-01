@@ -246,7 +246,7 @@ Once you have your map finalised, this is the basis of an engagement plan — bo
 
 ## Assess the risks
 
-{% ImgFigure 'A clear view of what’s ahead. <a href="https://unsplash.com/photos/white-and-red-kanji-text-kjqTlMHLci4" target="_blank" rel="noopener noreferrer">Photo</a> by <a href="https://unsplash.com/@dallimonti" target="_blank" rel="noopener noreferrer">Andrés Dallimonti</a> on Unsplash.', image.side_classes_2 %}![Two pilots sitting a plane cockpit](/public/images/source/andres-dallimonti-kjqTlMHLci4-unsplash.jpg){.image-rounded-lg .image-border eleventy:widths="200,350,575,760,1980"}{% endImgFigure %}
+{% ImgFigure 'A clear view of what’s ahead. <a href="https://unsplash.com/photos/white-and-red-kanji-text-kjqTlMHLci4" target="_blank" rel="noopener noreferrer">Photo</a> by <a href="https://unsplash.com/@dallimonti" target="_blank" rel="noopener noreferrer">Andrés Dallimonti</a> on Unsplash.', image.side_classes_2 %}![Two pilots sitting a plane cockpit](/public/images/source/andres-dallimonti-kjqTlMHLci4-unsplash.jpg){.image-rounded-lg .image-border eleventy:widths="200,350,575,760"}{% endImgFigure %}
 
 We'll talk in [more detail elsewhere](/handbook/delivery/) *(page forthcoming)*{.small} about better approaches to managing risks. However you go about it, the point here is that risk assessment is a helpful practice for getting yourself oriented when you first start in your new role as a director of project or service delivery.
 
@@ -281,6 +281,8 @@ The outcome of your assessment will shape the plans that you put in place.
 {reversed}
 
 By separating out the altitudes of risk in this manner you can adjust the way you think about them. Risks at different altitudes impact in different ways, and therefore demand that we respond differently.
+
+{% ImgFigure 'Altitudes of thinking about risk.', image.side_classes_2 %}![Diagram of risks at different altitudes](/public/images/handbook/risk-radar-altitudes.png){eleventy:widths="200,350,575,760"}{% endImgFigure %}
 
 #### Global and National{.border-block-end .heading-full}
 
