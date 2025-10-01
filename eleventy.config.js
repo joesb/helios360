@@ -162,7 +162,7 @@ export default async function(eleventyConfig) {
 
   eleventyConfig.addPairedShortcode("Note", function(content, mdContent = false, classes, useIcon = false) { 
       content = mdContent ? markdownLibrary.render(content) : content;
-      return '<div class="content-note margin-block-lg padding-md' + ( classes ? ' ' + classes : '' ) + (useIcon ? ' content-note-use-icon' : '') + '">' + content + '</div>'
+      return '<div class="content-note margin-block-lg padding-md' + ( classes ? ' ' + (Array.isArray(classes) ? classes.join(' ') : classes) : '' ) + (useIcon ? ' content-note-use-icon' : '') + '">' + content + '</div>'
     }
   );
 
