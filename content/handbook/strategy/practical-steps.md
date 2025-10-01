@@ -179,7 +179,7 @@ What you're trying to examine with this sort of task is how the organisation wil
 
 There's many ways that you can do that but the outcome might look something like this chart below.
 
-{% ImgFigure 'An example stakeholder map.', image.side_classes_2 %}![A stakeholder map chart](/public/images/handbook/Helios360-StakeholderMap.png){.image-rounded eleventy:widths="200,350,575,760,1200"}{% endImgFigure %}
+{% ImgFigure 'An example stakeholder map.', image.side_classes_2 %}![A stakeholder map chart](/public/images/handbook/Helios360-StakeholderMap.png){.image-rounded eleventy:widths="200,350,575,840,1200"}{% endImgFigure %}
 
 This is only example data, of course, all completely made up, and likely missing a good number of job roles out, too. That said, this is an illustration of how the exercise can help build your conception of the organisation, and how it can shape how to approach your role and impact.
 
@@ -205,7 +205,7 @@ If you're trying to work out how to score individuals in the organisation, remem
 
 The idea with this chart is to end up with 4 quadrants.
 
-{% ImgFigure 'The quadrants of a stakeholder map.', image.side_classes_2 %}![A stakeholder map chart divided in quarters](/public/images/handbook/Helios360-StakeholderMap-Quarters.png){.image-rounded eleventy:widths="200,350,575,760,1200"}{% endImgFigure %}
+{% ImgFigure 'The quadrants of a stakeholder map.', image.side_classes_2 %}![A stakeholder map chart divided in quarters](/public/images/handbook/Helios360-StakeholderMap-Quarters.png){.image-rounded eleventy:widths="200,350,575,840,1200"}{% endImgFigure %}
 
 1. **Work with**
     - or *Involve* in shorthand
@@ -226,7 +226,7 @@ The idea with this chart is to end up with 4 quadrants.
 
 Data for the above came from a simple spreadsheet looking like this.
 
-{% ImgFigure 'Stakeholder map source spreadsheet.', image.side_classes_2 %}![A stakeholder map chart divided in quarters](/public/images/handbook/Helios360-StakeholderMap-spreadsheet.png){.image-rounded .image-border .padding-sml eleventy:widths="200,350,575,760,1200"}{% endImgFigure %}
+{% ImgFigure 'Stakeholder map source spreadsheet.', image.side_classes_2 %}![A stakeholder map chart divided in quarters](/public/images/handbook/Helios360-StakeholderMap-spreadsheet.png){.image-rounded .image-border .padding-sml eleventy:widths="200,350,575,840,1200"}{% endImgFigure %}
 
 You can check out [the stakeholder map spreadsheet](https://docs.google.com/spreadsheets/d/1wYiPak-4_1yDZJLIv1mCOsB4luJXRFC3isfeZLQ1TQc/edit?gid=1011499677#gid=1011499677){target=_blank rel="nofollow noreferrer"} for yourself.{.smaller}
 
@@ -246,7 +246,7 @@ Once you have your map finalised, this is the basis of an engagement plan — bo
 
 ## Assess the risks
 
-{% ImgFigure 'A clear view of what’s ahead. <a href="https://unsplash.com/photos/white-and-red-kanji-text-kjqTlMHLci4" target="_blank" rel="noopener noreferrer">Photo</a> by <a href="https://unsplash.com/@dallimonti" target="_blank" rel="noopener noreferrer">Andrés Dallimonti</a> on Unsplash.', image.side_classes_2 %}![Two pilots sitting a plane cockpit](/public/images/source/andres-dallimonti-kjqTlMHLci4-unsplash.jpg){.image-rounded-lg .image-border eleventy:widths="200,350,575,760"}{% endImgFigure %}
+{% ImgFigure 'A clear view of what’s ahead. <a href="https://unsplash.com/photos/white-and-red-kanji-text-kjqTlMHLci4" target="_blank" rel="noopener noreferrer">Photo</a> by <a href="https://unsplash.com/@dallimonti" target="_blank" rel="noopener noreferrer">Andrés Dallimonti</a> on Unsplash.', image.side_classes_2 %}![Two pilots sitting a plane cockpit](/public/images/source/andres-dallimonti-kjqTlMHLci4-unsplash.jpg){.image-rounded-lg .image-border eleventy:widths="200,350,575,840"}{% endImgFigure %}
 
 We'll talk in [more detail elsewhere](/handbook/delivery/) *(page forthcoming)*{.small} about better approaches to managing risks. However you go about it, the point here is that risk assessment is a helpful practice for getting yourself oriented when you first start in your new role as a director of project or service delivery.
 
@@ -282,7 +282,7 @@ The outcome of your assessment will shape the plans that you put in place.
 
 By separating out the altitudes of risk in this manner you can adjust the way you think about them. Risks at different altitudes impact in different ways, and therefore demand that we respond differently.
 
-{% ImgFigure 'Altitudes of thinking about risk.', image.side_classes_2 %}![Diagram of risks at different altitudes](/public/images/handbook/risk-radar-altitudes.png){eleventy:widths="200,350,575,760"}{% endImgFigure %}
+{% ImgFigure 'Altitudes of thinking about risk.', image.side_classes_2 %}![Diagram of risks at different altitudes](/public/images/handbook/risk-radar-altitudes.png){eleventy:widths="200,350,575,840"}{% endImgFigure %}
 
 #### Global and National{.border-block-end .heading-full}
 
