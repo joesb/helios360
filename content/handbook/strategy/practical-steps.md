@@ -2,7 +2,7 @@
 title: Practical steps for your first 30 days as CDO
 description: What are the first priorities when starting in a new Chief Delivery Officer role?
 layout: page.njk
-date: 2025-10-01T15:24:24Z
+date: 2025-10-06T11:54:24Z
 jumbotron: |
   So you're in your new role. What do you actually do in the first month?
 
@@ -284,7 +284,7 @@ By separating out the altitudes of risk in this manner you can adjust the way yo
 
 {% ImgFigure 'Altitudes of thinking about risk.', image.side_classes_2 %}![Diagram of risks at different altitudes](/public/images/handbook/risk-radar-altitudes.png){eleventy:widths="200,350,575,840"}{% endImgFigure %}
 
-#### Global and National{.border-block-end .heading-full}
+#### Global and national levels{.border-block-end .heading-full}
 
 Political, social, societal and technological factors all operate at this level.
 
@@ -302,7 +302,7 @@ The risks are real, though our response is less about removing the risk and rath
 
 It's worth remembering also that there's some risks operating at the Global and National level that don't separate neatly between the two — societal and market fluctuations or full-on shocks are often both, for instance.
 
-#### Organisational{.border-block-end .heading-full}
+#### Organisational level{.border-block-end .heading-full}
 
 At this level we're considering the risks that face the organisation. In general, you should be considering things in these areas:
 
@@ -322,6 +322,29 @@ But it's vital to take a good, hard look at organisational risks — clear and s
 You do not want to get caught out by [Donald Rumsfeld's ‘unknown unknowns’](https://en.wikipedia.org/wiki/There_are_unknown_unknowns) through a lack of thoroughness or due diligence.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/REWeBzGuzCc?si=iRrftPCXTJ1qEm5N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="margin-block-vlg"></iframe>
+
+#### Service (or product) level{.border-block-end .heading-full}
+
+Here of course we're concerned with risks to the service or services being offered or run by the business.
+
+The risks here will vary according to sector, industry, specialism, and so on. That said, there are common perspectives to understand and interpret the risks regardless of the specific context.
+
+1. **Take a walk-through**{.h5-style}
+    You'll obviously have some demonstrations anyway, to understand what the business does and how it does it. But do that with a risk hat on, aiming to spot and discuss potential hazards.
+2. **Consult the specialists**{.h5-style}
+    Team members have the most experience about delivering the products and services, and therefore the greatest understanding of what can go wrong, how, when, and what can be done about it.
+3. **Review incidents**{.h5-style}
+    Assess past outages or other deterioration events — there may be obvious issues or repeating patterns. What was done to fix things, how much effort did it take, and what changes where made as a result?
+
+    *Given this is just your first 30 days, you'll need to prioritise this for recent and/or large incidents.*
+4. **Consider scale, severity, scope, and nature**{.h5-style}
+    - Who could be harmed (i.e. staff, business, customers, general public, etc.)?
+      - and by a loss or degradation of what parts of the service or product?
+    - What is the actual harm they might experience (i.e. financial, physical, reputation, etc.)?
+5. **Understand commitments**{.h5-style}
+    What has the business committed to doing for customers or clients, or for end-users? What are the contractual obligations, and the penalties or forfeits incurred?
+
+What you're trying to achieve here is to understand both what's important and what's vulnerable in how the business operates and what it offers to its customers. Your job is to ensure safety and security in the services you deliver and products you offer, so you must know what you have to guard and where you'll need to build resilience or strength.
 
 <!-- #### Service{.border-block-end .heading-full} -->
 
