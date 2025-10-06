@@ -2,7 +2,7 @@
 title: Practical steps for your first 30 days as CDO
 description: What are the first priorities when starting in a new Chief Delivery Officer role?
 layout: page.njk
-date: 2025-10-06T11:54:24Z
+date: 2025-10-06T15:34:24Z
 jumbotron: |
   So you're in your new role. What do you actually do in the first month?
 
@@ -345,6 +345,60 @@ The risks here will vary according to sector, industry, specialism, and so on. T
     What has the business committed to doing for customers or clients, or for end-users? What are the contractual obligations, and the penalties or forfeits incurred?
 
 What you're trying to achieve here is to understand both what's important and what's vulnerable in how the business operates and what it offers to its customers. Your job is to ensure safety and security in the services you deliver and products you offer, so you must know what you have to guard and where you'll need to build resilience or strength.
+
+#### Team level{.border-block-end .heading-full}
+
+And then finally, you're assessment of risk should review the delivery team.
+
+At the team level you're looking at a number of things.
+
+- **Technology**, particularly
+  - tools, platforms, and ecosystems used
+  - performance and reliability
+  - their fitness for usage
+  - their robustness and broad applicability
+  - testing, automation, quality engineering
+  - security practices
+  - attitude to new technologies and adoption
+  - skills coverage
+  - future-proofing
+- **People**, particularly
+  - personnel, skills and capabilities
+  - team formation and structures
+  - team dynamics and interactions
+  - team practices and behaviours
+  - team roles, responsibilities, and leadership
+  - team robustness and resilience
+  - training, learning, knowledge-sharing
+  - capacity
+  - future needs
+- **Processes**, particularly
+  - project management methodologies and adherence
+  - project ceremonies
+  - project roles and responsibilities
+  - security procedures and protocols
+  - data management practices
+  - quality assurance
+- **Knowledge**, particularly
+  - documentation, for projects and processes
+  - knowledge-sharing
+  - learning and development practices and processes
+- **Clients**, particularly
+  - responding to change
+  - building plans
+  - demanding or problematic client relationships
+  - stakeholder management issues
+  - governance practices and quality
+
+From a risk assessment perspective, here you're aiming to get a clear view of how likely things are to go wrong within the team, where are the weak points that are likely to give way, and *if* they do buckle *then* how resilient are the team.
+
+---
+
+We've covered a lot of dimensions here, but this is not meant to be proscriptive — you don't need to do *all* of this stuff in a risk assessment at this early stage, and in the limits of your first 30 days you certainly won't be able to.
+
+Rather, laying it all out here is about putting things into your mind to consider as you get your feet under the table. Some things will chime with you as you go walk-about in your new role, a nudge to take to consider the things that may merit a closer look.
+
+We'll take a look in a later section of *The Handbook* at some alternative and usefully [practical ways of actually looking at risks](/handbook/delivery/), knowing what's important to keep an eye on, and then actually keeping track.
 
 <!-- #### Service{.border-block-end .heading-full} -->
 
