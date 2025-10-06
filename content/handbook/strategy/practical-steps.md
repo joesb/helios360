@@ -394,7 +394,7 @@ From a risk assessment perspective, here you're aiming to get a clear view of ho
 
 ---
 
-We've covered a lot of dimensions here, but this is not meant to be proscriptive — you don't need to do *all* of this stuff in a risk assessment, and in the limits of your first 30 days you certainly won't be able to.
+We've covered a lot of dimensions here, but this is not meant to be proscriptive — you don't need to do *all* of this stuff in a risk assessment at this early stage, and in the limits of your first 30 days you certainly won't be able to.
 
 Rather, laying it all out here is about putting things into your mind for to consider as you get your feet under the table — some things will chime with you as you go walk-about in your new role, a nudge to take to consider the things that may merit a closer look.
 
