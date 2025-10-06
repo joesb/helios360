@@ -387,6 +387,8 @@ At the team level you're looking at a number of things.
   - responding to change
   - building plans
   - demanding or problematic client relationships
+  - stakeholder management issues
+  - governance practices and quality
 
 From a risk assessment perspective, here you're aiming to get a clear view of how likely things are to go wrong within the team, where are the weak points that are likely to give way, and *if* they do buckle *then* how resilient are the team.
 
