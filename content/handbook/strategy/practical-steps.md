@@ -396,7 +396,7 @@ From a risk assessment perspective, here you're aiming to get a clear view of ho
 
 We've covered a lot of dimensions here, but this is not meant to be proscriptive — you don't need to do *all* of this stuff in a risk assessment at this early stage, and in the limits of your first 30 days you certainly won't be able to.
 
-Rather, laying it all out here is about putting things into your mind for to consider as you get your feet under the table — some things will chime with you as you go walk-about in your new role, a nudge to take to consider the things that may merit a closer look.
+Rather, laying it all out here is about putting things into your mind to consider as you get your feet under the table. Some things will chime with you as you go walk-about in your new role, a nudge to take to consider the things that may merit a closer look.
 
 We'll take a look in a later section of *The Handbook* at some alternative and usefully [practical ways of actually looking at risks](/handbook/delivery/), knowing what's important to keep an eye on, and then actually keeping track.
 
