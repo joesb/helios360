@@ -3,5 +3,9 @@ name = "submit"
 main = "functions/api/submit.js"
 compatibility_date = "2022-12-05"
 
+[assets]
+directory = "_site"
+not_found_handling = "404-page"
+
 [observability.logs]
 enabled = true
