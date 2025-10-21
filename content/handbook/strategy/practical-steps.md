@@ -400,12 +400,39 @@ Rather, laying it all out here is about putting things into your mind to conside
 
 We'll take a look in a later section of *The Handbook* at some alternative and usefully [practical ways of actually looking at risks](/handbook/delivery/), knowing what's important to keep an eye on, and then actually keeping track.
 
-<!-- #### Service{.border-block-end .heading-full} -->
-
-<!-- 
 ---
 
 ## Metrics and measuring what's meaningful
+
+How will you know if you're making progress? Only if you have something that matters that should change by what you do, which you can measure.
+
+You're an experienced project delivery leader, so you'll completely understand the virtues of effective metrics. You'll also have plenty of experience of project metrics. That said, it's important to review what to measure and why.
+
+### What matters?
+
+A key task for this first month is to identify the desired outcome (or outcomes) of what you'll be doing. The [sections above](#needs-and-objectives) describe practical steps to determine that — the objectives of the business, and the needs of the delivery unit, in particular.
+
+That work will inevitably identify lots of important things. Some will align with or compliment each other. Others may well contradict or be at cross-purposes. You'll need to sift through it all.
+
+When you refine all this, though, you need to identify *what actually matters*.
+
+*👉*{.drop-first .drop-first-vsm .margin-inline-end-md} What key thing (or things) is the important thing that will actually make a tangible difference?{.padding-inline-start-lg .margin-block-vlg}
+
+It's better for focus if you can identify *just one thing*. If necessary, two is fine; three at the most. If you have any more than that then it's unlikely you've found what actually matters — if so, keep thinking, keep refining. Besides a lack of focus, it's hard to align all the efforts in 4, 5 or more dimensions.
+
+When it comes to putting that key thing/things into words, *keep the end in mind* — where do you want to get to in the end? E.g.
+
+- increase customer satisfaction
+- increase customer retention or repeat business
+- improve profitability across projects
+- scale team performance
+- increase the number of concurrent customer projects
+- improve market- or sector-share
+
+etc.
+
+<!-- ### How can you measure it?
+
 
 <!-- 
 ## A plan -->
