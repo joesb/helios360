@@ -416,9 +416,17 @@ That work will inevitably identify lots of important things. Some will align wit
 
 When you refine all this, though, you need to identify *what actually matters*.
 
-*👉*{.drop-first .drop-first-vsm .margin-inline-end-md} What key thing (or things) is the important thing that will actually make a tangible difference?{.padding-inline-start-lg .margin-block-vlg}
+{% ColourBG 'secondary' %}
+  {% Markdown %}
+> What key thing (or things) will actually make a tangible difference?{.vlarge .bold .headings-font .lineheight-1}
+{.padding-block-lg .content-canvas-item-wide-left-more}
+
+  {% endMarkdown %}
+{% endColourBG %}
 
 It's better for focus if you can identify *just one thing*. If necessary, two is fine; three at the most. If you have any more than that then it's unlikely you've found what actually matters — if so, keep thinking, keep refining. Besides a lack of focus, it's hard to align all the efforts in 4, 5 or more dimensions.
+
+So, one is best.
 
 When it comes to putting that key thing/things into words, *keep the end in mind* — where do you want to get to in the end? E.g.
 
@@ -431,8 +439,48 @@ When it comes to putting that key thing/things into words, *keep the end in mind
 
 etc.
 
-<!-- ### How can you measure it?
+### How can you measure it?
 
+Having identified your key objective/s, how will you know if what you're doing is helping you take steps towards that goal?
+
+You need to identify some things you can measure — some quality of the thing that you will aim to change in a way that is quantifiable. Your efforts shouldn't alter these things directly — that'd be manipulating the results. They're the measurable consequence of the things you will do to achieve the outcomes you want.
+
+With each of those items above you should be able to add the phrase ‘… as measured by *&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;*{.underline}’ at the end. The blank is your metric. E.g.
+
+- increase customer satisfaction, as measured by
+  - net promoter score
+  - survey results
+  - continuing revenue per customer
+  - customer churn
+  - market share
+
+etc.
+
+Whatever you choose as a metric it should be meaningful for your what you want to achieve. In other words, using this single example of customer satisfaction, not all of those 5 metrics will be helpful indicators for the outcome you want to see. Choose the 2 or 3 that will show the steps you're taking are on the right path. And as before, too many metrics will dilute your focus; some may even be somewhat contradictory.
+
+### How much is enough?
+
+An objective often has a place where you know you've arrived. With your metrics, that probably means going beyond the ‘… as measured by *&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;*{.underline}’ formulation, instead describe *the amount of change* you want to achieve.
+
+{% ColourBG 'secondary' %}
+  {% Markdown %}
+> So, how much change do you want to see?{.vlarge .bold .headings-font .lineheight-1}
+{.padding-block-lg .content-canvas-item-wide-left-more}
+
+  {% endMarkdown %}
+{% endColourBG %}
+
+In some circumstances, just moving the needle at all is valid. At other times, you need to make a marked impact on things. If and where possible, consider putting an actual number on the difference you want to achieve.
+
+To decide how much is enough, think about:
+
+- what change is easily achievable, you're pretty confident you can manage?
+- what will take a stretch to achieve?
+- what improvement is just stupidly overambitious, inevitably unattainable?
+
+---
+
+This of course sounds a lot like the OKRs methodology — objectives and key results. Some of you may have noticed this already. OKRs are perfect for this sort of thing, in particular for the way they can align with business strategy. If objectives and key results is a new concept for you, [Atlassian have a good OKRs intro](https://www.atlassian.com/agile/agile-at-scale/okr){target=_blank rel="noopener noreferrer"}.
 
 <!-- 
 ## A plan -->
