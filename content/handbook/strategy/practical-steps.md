@@ -2,7 +2,7 @@
 title: Practical steps for your first 30 days as CDO
 description: What are the first priorities when starting in a new Chief Delivery Officer role?
 layout: page.njk
-date: 2025-10-06T15:34:24Z
+date: 2025-10-22T12:08:14Z
 jumbotron: |
   So you're in your new role. What do you actually do in the first month?
 
