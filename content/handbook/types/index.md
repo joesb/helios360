@@ -8,7 +8,7 @@ jumbotron: |
 
   It's important to understand yourself so you can play your strongest game, and understand the team and the support you need around you to help you and the business perform at your best.{.smaller}
 pending: false
-date: 2025-10-28T10:31:01Z
+date: 2025-10-28T10:41:01Z
 eleventyNavigation:
   key: What kind of CDO are you?
   parent: Handbook
