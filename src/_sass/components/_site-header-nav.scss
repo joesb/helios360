@@ -13,15 +13,12 @@
   flex-flow: row wrap;
   justify-content: flex-end;
   gap: 0.25rem;
+  font-family: var(--font-secondary);
 }
 
 .main-nav--list--item-link {
-  font-weight: var(--font-weight-light);
+  font-size: var(--font-size-fluid-02);
   margin-block-end: var(--size-2);
-
-  &.current {
-    font-weight: var(--font-weight-medium);
-  }
 }
 
 @include rt.respond-to('medium') {
