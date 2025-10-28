@@ -4,9 +4,11 @@ description: |
   Understanding yourself as a CDO and working out how to describe that to colleagues, peers and employers
 layout: section.njk
 jumbotron: |
-  The Chief Delivery Officer role that is evolving still in both service and product businesses, with major differences in the model in different sectors or types of organisation. At times, the position and value still needs to be proven.
+  The Chief Delivery Officer role is evolving still in both service and product businesses, with major differences in the model in different sectors or types of organisation.
+  
+  At times, the position and value still needs to be proven.
 
-  Here we look at how to position yourself as a Chief Delivery Officer, and where to go to get help to do so.{.smaller}
+  Here we look at how to position yourself as a Chief Delivery Officer, and where to go to get help to do so.
 pending: true
 date: 2024-12-17
 eleventyNavigation:
