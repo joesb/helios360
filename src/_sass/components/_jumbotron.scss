@@ -18,6 +18,11 @@
     // line-height: 1.35;
   }
 
+  :where(.vsmall) {
+    font-size: var(--font-size-fluid-00);
+    font-weight: var(--font-weight-medium);
+  }
+
   :where(a) {
     margin-block:calc(var(--size-00)*-1);
     margin-inline: calc(var(--size-1)*-1);

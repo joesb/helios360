@@ -60,8 +60,13 @@
     max-height: 65vh;
 
     :where(p) {
-      font-size: var(--font-size-fluid-02);
+      font-size: var(--font-size-fluid-011);
       line-height: var(--font-lineheight-3);
+    }
+
+    :where(.vsmall) {
+      font-size: var(--font-size-fluid-0);
+      font-weight: var(--font-weight-medium);
     }
   }
 
