@@ -4,11 +4,11 @@ description: |
   CDOs come from a wide range of skills and experience: what are you like?
 layout: section.njk
 jumbotron: |
-  Chief Delivery Officer have a wide range of skills and experiences they bring to the table. Where do you sit on that spectrum? Where are your strengths and weaknesses?
+  Chief Delivery Officers have a wide range of skills and experiences they bring to the table. Where do you sit on that spectrum? Where are your strengths and weaknesses?
 
   It's important to understand yourself so you can play your strongest game, and understand the team and the support you need around you to help you and the business perform at your best.{.smaller}
 pending: false
-date: 2025-03-31T10:31:09Z
+date: 2025-10-28T10:31:01Z
 eleventyNavigation:
   key: What kind of CDO are you?
   parent: Handbook
@@ -20,9 +20,14 @@ tags:
 
 ## Chief Delivery Officer (CDO) vs Client Services Director (CSD)
 
-Where are the differences between these two roles? Does your role, skills, experience or focus tend more towards commercial responsibilities, closer to the sales and account management end of the spectrum?
+Although there's plenty of cross-over, there are some important the differences between these two roles.
 
-Both are closely attentive to customer satisfaction, of course, but CDOs are more broadly focused on service delivery and overall project execution, while CSDs concentrate on the commercial relationship and ongoing success of a specific client or client portfolio.
+- Does your role, skills, experience or focus tend more towards commercial responsibilities?
+- Do you gravitate closer to the sales and account management end of the spectrum?
+
+If so, you'll probably have greater affinity with a CSD role.
+
+Both CDO and CSD are closely attentive to customer satisfaction, of course, but Delivery Directors are more broadly focused on service delivery and overall project execution, while Client Service Directors concentrate on the commercial relationship and ongoing success of a specific client or client portfolio.
 
 More on this distinction coming shortly.
 

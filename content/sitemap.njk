@@ -7,7 +7,7 @@ excludeURLs:
   - /podcast/hire/
 ---
 <?xml version="1.0" encoding="utf-8"?>{% set pages = collections.all | sortByDate(false) | excludePages(excludeURLs) %}
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{% for page in pages %}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{% for page in pages %}{% if page.data.pending !== true %}
 {% if page.data.pagination.pages.length > 0 %}
   {% for item in page.data.pagination.pages %}
   {% set pageUrl %}{% if loop.index0 > 0 %}{{ page.url }}/{{ loop.index0}}/{% else %}{{ page.url }}{% endif %}{% endset %}
@@ -26,5 +26,5 @@ excludeURLs:
       <priority>{{ page.data.sitemap.priority }}</priority>{% endif %}
   </url>
 {% endif %}
-{% endfor %}
+{% endif %}{% endfor %}
 </urlset>
