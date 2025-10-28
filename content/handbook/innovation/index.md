@@ -1,6 +1,6 @@
 ---
-title: The Chief Delivery Officer, disruption, innovation and hype
-description: How to stay sharp and focused on a technology’s commercial promise without being dazzled by novelties
+title: Disruption, innovation and hype
+description: How to stay sharp and focused on a technology’s commercial promise without being dazzled by shiny novelties
 layout: section.njk
 jumbotron: |
   The CDO has a foot in two camps — the client's needs, and the delivery team's capabilities. You can create what's exactly right for the needs of the real-world, plus you know just what your team can deliver and how to get there.
