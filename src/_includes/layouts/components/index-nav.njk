@@ -13,16 +13,16 @@
     <div class="bold">In this section</div>
     {% set navPages = collections.all | eleventyNavigation(eleventyNavigation.root) %}
     {# {{ navPages | debug | safe }} #}
-    {% macro renderNavListItem(entry, index) %}
+    {% macro renderNavListItem(entry, depth, index = 1) %}
     {% if entry.hide != true %}
-    <{{ navOptions.listItemElement }} class="{% if navOptions.listItemClass%}{{ navOptions.listItemClass }}{% endif %}{% if entry.children.length !== 0 and navOptions.listItemHasChildrenClass%} {{ navOptions.listItemHasChildrenClass }} {{ navOptions.listParentItemClass }}--level-{{ index }}{% endif %}{% activepath entry.url, page.url, navOptions.activeListItemClass, ' ' %}">
-      <a href="{{ entry.url }}" class="{% activepath entry.url, page.url, navOptions.activeAnchorClass %}">{{ entry.title }}</a>
+    <{{ navOptions.listItemElement }} class="{% if navOptions.listItemClass%}{{ navOptions.listItemClass }}{% endif %}{% if entry.children.length !== 0 and navOptions.listItemHasChildrenClass%} {{ navOptions.listItemHasChildrenClass }} {{ navOptions.listParentItemClass }}--level-{{ depth }}{% endif %}{% activepath entry.url, page.url, navOptions.activeListItemClass, ' ' %}">
+      <a href="{{ entry.url }}" class="{% activepath entry.url, page.url, navOptions.activeAnchorClass %}">{% if eleventyNavigation.root == "Handbook" and depth == 1 %}{{ index | padNumber(2, "0") }}. {% endif %}{{ entry.title }}</a>
       {% if entry.children.length !== 0 %}
         {% if utilities.activePath(entry.url, page.url) %}
       <{{ navOptions.listElement }}{% if navOptions.listClass%} class="{{ navOptions.listClass }}"{% endif %}>
         {% for child in entry.children %}
-        {% set depth = index + 1 %}
-        {{ renderNavListItem(child, depth) }}
+        {% set depth = depth + 1 %}
+        {{ renderNavListItem(child, depth, loop.index) }}
         {% endfor %}
       </{{ navOptions.listElement }}>
         {% else %}
@@ -38,8 +38,8 @@
     <div {% if navOptions.listClass%} class="{{ navOptions.listClass }}--container"{% endif %}>
       <{{ navOptions.listElement }}{% if navOptions.listClass%} class="{{ navOptions.listClass }}"{% endif %}>
       {% for entry in navPages %}
-      {% set index = 1 %}
-      {{ renderNavListItem(entry, index) }}
+      {% set depth = 1 %}
+      {{ renderNavListItem(entry, depth, loop.index) }}
       {% endfor %}
       </{{ navOptions.listElement }}>
     </div>
