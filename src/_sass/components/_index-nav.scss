@@ -120,19 +120,13 @@
     line-height: var(--font-lineheight-2);
 
     li {
-      a {
         padding-inline-start: 1rem;
-      }
 
       li {
-        a {
           padding-inline-start: 1.5rem;
-        } 
 
         li {
-          a {
             padding-inline-start: 2rem;
-          } 
         }
       }
     }
