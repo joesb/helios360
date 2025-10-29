@@ -9,7 +9,7 @@ jumbotron: |
   
   Or, engage in the subtle art of getting stuff done.
 pending: false
-date: 2025-08-19T16:25:21Z
+date: 2025-10-29T11:13:21Z
 listTitle: In this section
 listSource: handbookDelivery
 listAllMoreButton: true
@@ -43,6 +43,7 @@ We look at all the stages of the project lifecycle, from the very beginning to t
 5. Building and developing
 6. Live service and improvements
 7. Retirement and decommissioning
+{start=0}
 
 In particular, we look at the principles that should guide the Chief Delivery Officer at every point in that lifecycle, the things that bring coherence in practices and consistency in outcomes, time after time.
 
