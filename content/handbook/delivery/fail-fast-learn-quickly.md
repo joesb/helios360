@@ -17,6 +17,8 @@ tags:
   - '#handbookDelivery'
 redirect_from:
   - /handbook/delivery/heuristics/fail-fast-learn-quickly/
+  - /fail-fast-learn-quickly
+  - /fail-fast-learn-quickly/
 image:
   social: content/public/images/source/pexels-gustavo-fring-7489033.jpg
   classes:
