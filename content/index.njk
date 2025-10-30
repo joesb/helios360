@@ -22,7 +22,7 @@ isHome: true
 page:
   titleClasses:
     - primary-font
-date: 2025-10-28T14:00:32Z
+date: 2025-10-30T12:36:32Z
 eleventyNavigation:
   key: Home
   footer: true
@@ -45,9 +45,14 @@ helpcardStyles:
   - helpcard--center-content
   - helpcard--narrow
 classes:
+  handbookBG:
+    - section-bg--handbook
+    - margin-block-none
+    - faux-block-link-parent
   podcastBG:
     - section-bg--podcast
-    - margin-block-end-none
+    - margin-block-none
+    - faux-block-link-parent
 ---
 
 <div class="content-canvas-item-wide">
@@ -63,7 +68,7 @@ classes:
 ![Joe Baker](/public/images/me-july-2024-portrait.jpeg){.image-greyscale-50 .image-rounded .person-headshot eleventy:widths="200,350,405"}
 {.margin-block-none}
 
-## Joe Baker
+## Joe Baker{.hide-permalink}
 
 Joe has over 25 years of digital and IT consultancy sector experience, leading large-scale digital solutions and transformation projects for strategic programmes with national and international scale and impact that accelerate sales, grow user engagement and enable effective service delivery.
 
@@ -116,14 +121,28 @@ Specialist super-powers for ambitious generative AI, conversational AI and AI ag
 
 <hr />
 
+{% ColourBG 'secondary', classes.handbookBG %}
+  <div class="handbook-content">
+    {% Markdown %}
+  ## The Chief Delivery Officer's Handbook{.hide-permalink}
+
+  An essential guide to leading delivery projects, teams and programs for agencies, client service businesses and SaaS product companies.{.large .margin-block-end-vlg}
+
+  [The CDO's Handbook](/handbook/){.single-meta-forward .single-meta-button .single-meta-button--black .single-meta-forward-button .large .bold}
+  {.center}
+
+  [](/handbook/){.faux-block-link aria-label="Check out The Chief Delivery Officer's Handbook"}
+    {% endMarkdown %}
+  </div>
+{% endColourBG %}
+
 {% ColourBG 'primary', classes.podcastBG %}
 
   <div class="podcast-content">
 
   {% Markdown %}
 
-  [Deliver That! podcast](/podcast/){.single-meta-forward .single-meta-button .single-meta-button--black .single-meta-forward-button .large .bold}
-  {.center}
+  ## Deliver That! podcast{.hide-permalink}
 
   A new podcast about delivery leadership.{.bold .large}
 
@@ -133,14 +152,18 @@ Specialist super-powers for ambitious generative AI, conversational AI and AI ag
 
   Just honest conversations about what happens in project delivery, and how big things really get done.{.smaller}
 
-  Co-hosted by Joe Baker &amp; Steve Hunton.{.smaller .margin-block-vlg}
+  Co-hosted by Joe Baker &amp; Steve Hunton.{.smaller}
 
-  Subscribe wherever you get your podcasts.{.smaller .margin-block-start-vlg}
+  Subscribe wherever you get your podcasts.{.smaller .margin-block-end-vlg}
 
+  [Deliver That! podcast](/podcast/){.single-meta-forward .single-meta-button .single-meta-button--black .single-meta-forward-button .large .bold}
+  {.center}
+
+  [](/podcast/){.faux-block-link aria-label="Check out Deliver That!"}
   {% endMarkdown %}
 
   </div>
-  {% set podItem = collections.podcastEpisodes | first %}
+  {% set podItem = collections.podcastEpisodes | keyItem("1") %}
   {% if podItem | length %}
   <hr class="margin-block-none" />
   <div class="podcast-latest">
