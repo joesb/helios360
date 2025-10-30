@@ -185,8 +185,8 @@ export default async function(eleventyConfig) {
   // - black
   // - white
   // - grey
-  eleventyConfig.addPairedShortcode("ColourBG", (content, color, classes = []) => {
-    return '<div class="section-coloured-bg margin-block-vlg padding-block-vlg content-canvas-item-full content-canvas' + (color ? ' section-coloured-bg--' + color : '') + ( classes.length ? ' ' + classes.join(' ') : '' ) + '">' + content  + '</div>';
+  eleventyConfig.addPairedShortcode("ColourBG", (content, color, classes = [], full = true, contentCanvas = true) => {
+    return '<div class="section-coloured-bg margin-block-vlg padding-block-vlg' + (full ? ' content-canvas-item-full' : '') + (contentCanvas ? ' content-canvas' : '') + (color ? ' section-coloured-bg--' + color : '') + ( classes.length ? ' ' + classes.join(' ') : '' ) + '">' + content  + '</div>';
   });
 
   // Images
@@ -279,7 +279,11 @@ export default async function(eleventyConfig) {
 
   eleventyConfig.addFilter('padNumber', (text, num, char) => {
     return text.toString().padStart(num, char);
-  })
+  });
+
+  eleventyConfig.addFilter('keyItem', (collection, key) => {
+    return collection[key];
+  });
 
     /* COLLECTIONS */
 

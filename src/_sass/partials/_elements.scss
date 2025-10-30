@@ -32,6 +32,12 @@ html {
   --color-brand-primary-dark: #{sp.$color-icterine-rgba-darker};
   --color-brand-secondary-light: #{sp.$color-ming-rgba-lighter};
   --color-brand-secondary-dark: #{sp.$color-ming-rgba-darker};
+  --color-brand-tertiary-light: #{sp.$color-viridian-rgba-lighter};
+  --color-brand-tertiary-dark: #{sp.$color-viridian-rgba-darker};
+  --color-brand-quaternary-light: #{sp.$color-victoria-rgba-lighter};
+  --color-brand-quaternary-dark: #{sp.$color-victoria-rgba-darker};
+  --color-brand-quinary-light: #{sp.$color-affair-rgba-lighter};
+  --color-brand-quinary-dark: #{sp.$color-affair-rgba-darker};
 
   // Text colours
   --color-text-black: var(--color-brand-black);

@@ -31,24 +31,55 @@
       }
     }
   }
+
+  &.faux-block-link-parent {
+    &:hover {
+      transition: all 0.25s ease;
+      --section-coloured-bg: var(--color-brand-primary-dark);
+    } 
+  }
 }
 
 .section-coloured-bg--secondary {
   --section-coloured-bg: var(--color-brand-secondary);
+
+  &.faux-block-link-parent {
+    &:hover {
+      --section-coloured-bg: var(--color-brand-secondary-dark);
+    }
+  }
 }
 
 .section-coloured-bg--tertiary {
   --section-coloured-bg: var(--color-brand-tertiary);
   --section-coloured-bg-text: var(--color-text-white);
+
+  &.faux-block-link-parent {
+    &:hover {
+      --section-coloured-bg: var(--color-brand-tertiary-dark);
+    }
+  }
 }
 
 .section-coloured-bg--quaternary {
   --section-coloured-bg: var(--color-brand-quaternary);
+
+  &.faux-block-link-parent {
+    &:hover {
+      --section-coloured-bg: var(--color-brand-quaternary-dark);
+    }
+  }
 }
 
 .section-coloured-bg--quinary {
   --section-coloured-bg: var(--color-brand-quinary);
   --section-coloured-bg-text: var(--color-text-white);
+
+  &.faux-block-link-parent {
+    &:hover {
+      --section-coloured-bg: var(--color-brand-quinary-dark);
+    }
+  }
 }
 
 .section-coloured-bg--white {

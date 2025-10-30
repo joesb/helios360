@@ -55,6 +55,10 @@
   gap: var(--size-1);
 }
 
+.content-grid-set--no-gap {
+  gap: 0;
+}
+
 @include rt.respond-to('small') {
   .grid-columns-2 {
     @include grid.grid-columns-2();
