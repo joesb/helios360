@@ -2444,7 +2444,7 @@ __metadata:
     react-dom: ^19.2.0
     resend: ^6.2.0
     rimraf: ^6.1.0
-    sass: ^1.93.2
+    sass: ^1.94.1
     sass-autoprefixer: ^1.0.1
     uglify-js: ^3.19.3
     wrangler: ^4.43.0
@@ -4050,9 +4050,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.93.2":
-  version: 1.93.2
-  resolution: "sass@npm:1.93.2"
+"sass@npm:^1.94.1":
+  version: 1.94.1
+  resolution: "sass@npm:1.94.1"
   dependencies:
     "@parcel/watcher": ^2.4.1
     chokidar: ^4.0.0
@@ -4063,7 +4063,7 @@ __metadata:
       optional: true
   bin:
     sass: sass.js
-  checksum: ae466ac93687ee84a427e2e7600df3a3adde74c1ddb72ec793f6276933d96ecea373467b342bc9059f6ead71b2786041a05f12221ed0044f1e6b65223a399e8e
+  checksum: 714c8c8ad96474c9d41c897842c9159e3ec42fde86c9dfa530a7444608547cca99f70128d7596c20b974eaceb56be0bfe30146cf2fa522923fb9c07dad0caf9d
   languageName: node
   linkType: hard
 
