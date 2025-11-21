@@ -11,7 +11,7 @@ curl -i -X POST https://api.indexnow.org/IndexNow \
     "host": "helios360.co.uk",
     "key":"44ce983d229a4af5bc3794403478dc39",
     "keyLocation": "https://helios360.co.uk/44ce983d229a4af5bc3794403478dc39.txt",
-    "urlList": [{% for page in collections.all | excludePages(excludeURLs) | sortByDate(false) %}{% if page.data.pending !== true %}
+    "urlList": [{% for page in collections.all | excludePages(excludeURLs) | sortByDate(false) | reverse %}{% if page.data.pending !== true %}
       "{{ page.url | url | absoluteUrl(metadata.url) }}"{% if not loop.last %},{% endif %}{% endif %}{% endfor %}
     ]
   }'
