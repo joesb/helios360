@@ -54,7 +54,7 @@
   "dependencies": {
     "@react-email/render": "1.4.0",
     "@types/markdown-it": "^14.1.2",
-    "react": "^19.2.0",
+    "react": "^19.2.1",
     "react-dom": "^19.2.0",
     "resend": "^6.5.2",
     "wrangler": "^4.51.0"
