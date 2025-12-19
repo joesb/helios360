@@ -957,17 +957,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-email/render@npm:1.4.0":
-  version: 1.4.0
-  resolution: "@react-email/render@npm:1.4.0"
+"@react-email/render@npm:2.0.0":
+  version: 2.0.0
+  resolution: "@react-email/render@npm:2.0.0"
   dependencies:
     html-to-text: ^9.0.5
     prettier: ^3.5.3
-    react-promise-suspense: ^0.3.4
   peerDependencies:
     react: ^18.0 || ^19.0 || ^19.0.0-rc
     react-dom: ^18.0 || ^19.0 || ^19.0.0-rc
-  checksum: a7a70bb796f738f03e7d269b0a94d070d7265534ef5a744494c50bc0a9525101c8c7f1331b0fc09a23ae12429959e542b90891270c774fd3037d2a7a5a4eee04
+  checksum: 0e29b58245da284897ec332d400d0bf84536cf56bb4bfc1cf82ac4e7a92d0549eff145223b2e811a3c6d2cd2ef19799092e238d26c72510153ce7dfc9701b507
   languageName: node
   linkType: hard
 
@@ -2146,13 +2145,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-deep-equal@npm:^2.0.1":
-  version: 2.0.1
-  resolution: "fast-deep-equal@npm:2.0.1"
-  checksum: b701835a87985e0ec4925bdf1f0c1e7eb56309b5d12d534d5b4b69d95a54d65bb16861c081781ead55f73f12d6c60ba668713391ee7fbf6b0567026f579b7b0b
-  languageName: node
-  linkType: hard
-
 "fast-sha256@npm:^1.3.0":
   version: 1.3.0
   resolution: "fast-sha256@npm:1.3.0"
@@ -2411,7 +2403,7 @@ __metadata:
     "@11ty/eleventy-navigation": ^1.0.5
     "@11ty/eleventy-plugin-rss": ^2.0.4
     "@quasibit/eleventy-plugin-schema": ^1.11.1
-    "@react-email/render": 1.4.0
+    "@react-email/render": 2.0.0
     "@types/markdown-it": ^14.1.2
     autoprefixer: ^10.4.23
     clean-css: ^5.3.3
@@ -3843,15 +3835,6 @@ __metadata:
   peerDependencies:
     react: ^19.2.3
   checksum: cb1f95df052802f5332cae78303b7fc6f58092d5c7f8d01f0401188b2e0157c1d273a041b900fcc4801f730c70ed17249bd5af170038692878ebe257f641488b
-  languageName: node
-  linkType: hard
-
-"react-promise-suspense@npm:^0.3.4":
-  version: 0.3.4
-  resolution: "react-promise-suspense@npm:0.3.4"
-  dependencies:
-    fast-deep-equal: ^2.0.1
-  checksum: fff75d53b27e2c9e045cc0ead296bb6b93b82a92b0bfb69ed0063e69b0043ce464bb3cdedea2ca0ee507b6bf9efe3ff700ccba7921b07d70831fbda54bef2fb7
   languageName: node
   linkType: hard
 
