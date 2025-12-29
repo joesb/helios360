@@ -957,16 +957,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-email/render@npm:2.0.0":
-  version: 2.0.0
-  resolution: "@react-email/render@npm:2.0.0"
+"@react-email/render@npm:2.0.1":
+  version: 2.0.1
+  resolution: "@react-email/render@npm:2.0.1"
   dependencies:
     html-to-text: ^9.0.5
     prettier: ^3.5.3
   peerDependencies:
     react: ^18.0 || ^19.0 || ^19.0.0-rc
     react-dom: ^18.0 || ^19.0 || ^19.0.0-rc
-  checksum: 0e29b58245da284897ec332d400d0bf84536cf56bb4bfc1cf82ac4e7a92d0549eff145223b2e811a3c6d2cd2ef19799092e238d26c72510153ce7dfc9701b507
+  checksum: b6cb98d7a0e9122c44b3303e80b5e49a9e1fa053b143433363a1ace258712065ede744dcb188dcbd97487b1576f11eb37f61fc669ca78406f7b3b51b96f35856
   languageName: node
   linkType: hard
 
@@ -2403,7 +2403,7 @@ __metadata:
     "@11ty/eleventy-navigation": ^1.0.5
     "@11ty/eleventy-plugin-rss": ^2.0.4
     "@quasibit/eleventy-plugin-schema": ^1.11.1
-    "@react-email/render": 2.0.0
+    "@react-email/render": 2.0.1
     "@types/markdown-it": ^14.1.2
     autoprefixer: ^10.4.23
     clean-css: ^5.3.3
