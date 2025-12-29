@@ -948,12 +948,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@quasibit/eleventy-plugin-schema@npm:^1.11.1":
-  version: 1.11.1
-  resolution: "@quasibit/eleventy-plugin-schema@npm:1.11.1"
+"@quasibit/eleventy-plugin-schema@npm:^1.12.0":
+  version: 1.12.0
+  resolution: "@quasibit/eleventy-plugin-schema@npm:1.12.0"
   peerDependencies:
-    "@11ty/eleventy": ^0.11.0 || ^0.12.0 || ^1.0.0 || ^2.0.0 || ^3.0.0
-  checksum: 1a59fc657610754e7e64d6924193cf39e197a92028f697816213ff59660a81271f74dfdd7eec0f87f902300e993344880e1ef948f780cf03958bc6b3438dfd0b
+    "@11ty/eleventy": ">=0.11.0"
+  checksum: f8ef82572e22263cc513abdf1a729dc5d9389191ad9f7fa5bf4ed5854a6ac8742826480d5f9707bf248d55aca4d85ec8496005ae32162ccd45ad8d92905802e7
   languageName: node
   linkType: hard
 
@@ -2402,7 +2402,7 @@ __metadata:
     "@11ty/eleventy-img": ^6.0.4
     "@11ty/eleventy-navigation": ^1.0.5
     "@11ty/eleventy-plugin-rss": ^2.0.4
-    "@quasibit/eleventy-plugin-schema": ^1.11.1
+    "@quasibit/eleventy-plugin-schema": ^1.12.0
     "@react-email/render": 2.0.0
     "@types/markdown-it": ^14.1.2
     autoprefixer: ^10.4.23
