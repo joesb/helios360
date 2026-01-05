@@ -948,25 +948,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@quasibit/eleventy-plugin-schema@npm:^1.11.1":
-  version: 1.11.1
-  resolution: "@quasibit/eleventy-plugin-schema@npm:1.11.1"
+"@quasibit/eleventy-plugin-schema@npm:^1.12.0":
+  version: 1.12.0
+  resolution: "@quasibit/eleventy-plugin-schema@npm:1.12.0"
   peerDependencies:
-    "@11ty/eleventy": ^0.11.0 || ^0.12.0 || ^1.0.0 || ^2.0.0 || ^3.0.0
-  checksum: 1a59fc657610754e7e64d6924193cf39e197a92028f697816213ff59660a81271f74dfdd7eec0f87f902300e993344880e1ef948f780cf03958bc6b3438dfd0b
+    "@11ty/eleventy": ">=0.11.0"
+  checksum: f8ef82572e22263cc513abdf1a729dc5d9389191ad9f7fa5bf4ed5854a6ac8742826480d5f9707bf248d55aca4d85ec8496005ae32162ccd45ad8d92905802e7
   languageName: node
   linkType: hard
 
-"@react-email/render@npm:2.0.0":
-  version: 2.0.0
-  resolution: "@react-email/render@npm:2.0.0"
+"@react-email/render@npm:2.0.1":
+  version: 2.0.1
+  resolution: "@react-email/render@npm:2.0.1"
   dependencies:
     html-to-text: ^9.0.5
     prettier: ^3.5.3
   peerDependencies:
     react: ^18.0 || ^19.0 || ^19.0.0-rc
     react-dom: ^18.0 || ^19.0 || ^19.0.0-rc
-  checksum: 0e29b58245da284897ec332d400d0bf84536cf56bb4bfc1cf82ac4e7a92d0549eff145223b2e811a3c6d2cd2ef19799092e238d26c72510153ce7dfc9701b507
+  checksum: b6cb98d7a0e9122c44b3303e80b5e49a9e1fa053b143433363a1ace258712065ede744dcb188dcbd97487b1576f11eb37f61fc669ca78406f7b3b51b96f35856
   languageName: node
   linkType: hard
 
@@ -2402,8 +2402,8 @@ __metadata:
     "@11ty/eleventy-img": ^6.0.4
     "@11ty/eleventy-navigation": ^1.0.5
     "@11ty/eleventy-plugin-rss": ^2.0.4
-    "@quasibit/eleventy-plugin-schema": ^1.11.1
-    "@react-email/render": 2.0.0
+    "@quasibit/eleventy-plugin-schema": ^1.12.0
+    "@react-email/render": 2.0.1
     "@types/markdown-it": ^14.1.2
     autoprefixer: ^10.4.23
     clean-css: ^5.3.3
@@ -2426,7 +2426,7 @@ __metadata:
     react-dom: ^19.2.3
     resend: ^6.6.0
     rimraf: ^6.1.2
-    sass: ^1.97.0
+    sass: ^1.97.1
     sass-autoprefixer: ^1.0.1
     uglify-js: ^3.19.3
     wrangler: ^4.56.0
@@ -4000,9 +4000,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.97.0":
-  version: 1.97.0
-  resolution: "sass@npm:1.97.0"
+"sass@npm:^1.97.1":
+  version: 1.97.1
+  resolution: "sass@npm:1.97.1"
   dependencies:
     "@parcel/watcher": ^2.4.1
     chokidar: ^4.0.0
@@ -4013,7 +4013,7 @@ __metadata:
       optional: true
   bin:
     sass: sass.js
-  checksum: d626ba7eca647a72b401f032d4ca9d58dc4b1626329e4949ef174b8ba597a444097fcbcce340049f1c40f67a632cec00020c5453720d4c3ad14d03e7653c4bc4
+  checksum: 71797cb97197ae2b015f2ab9d83d7f49c15c1a75e9c87013607d2d11ee9d23c29d6c09217db35fee56cb193e7cd54d79287cc5f7f6da6e7e346127e055c96404
   languageName: node
   linkType: hard
 
