@@ -49,17 +49,17 @@
     "postcss": "^8.5.6",
     "postcss-cli": "^11.0.1",
     "rimraf": "^6.1.2",
-    "sass": "^1.97.1",
+    "sass": "^1.97.2",
     "sass-autoprefixer": "^1.0.1",
     "uglify-js": "^3.19.3"
   },
   "dependencies": {
-    "@react-email/render": "2.0.1",
+    "@react-email/render": "2.0.2",
     "@types/markdown-it": "^14.1.2",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
-    "resend": "^6.6.0",
-    "wrangler": "^4.56.0"
+    "resend": "^6.7.0",
+    "wrangler": "^4.59.1"
   },
   "packageManager": "yarn@3.8.7"
 }
