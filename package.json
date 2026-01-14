@@ -54,7 +54,7 @@
     "uglify-js": "^3.19.3"
   },
   "dependencies": {
-    "@react-email/render": "2.0.1",
+    "@react-email/render": "2.0.2",
     "@types/markdown-it": "^14.1.2",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
