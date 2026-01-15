@@ -13,7 +13,7 @@ jumbotron: |
   
   This chapter, then, is aimed at the business stakeholders.
 pending: false
-date: 2026-01-12T14:48:12Z
+date: 2026-01-15T13:48:12Z
 eleventyNavigation:
   key: Your place in the business
   parent: Handbook
