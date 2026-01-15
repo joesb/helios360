@@ -5,7 +5,7 @@ layout: section.njk
 jumbotron: |
   Here we look at how the CDO relates to the rest of the business.
   
-  In particular, we examine how the CDO is different from a Chief Customer Officer, and how that role relates to the product or service leaders in the organisation and those leading other delivery-centric disciplines, as well as to those responsible for other essential business functions.
+  In particular, we examine how the CDO is different from a Chief Customer Officer, and how that role relates to other leaders in the organisation.
   
   Most important, we shine a light on the vital relationship with the Chief Executive Officer (CEO).
 
