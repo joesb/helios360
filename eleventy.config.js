@@ -337,6 +337,12 @@ export default async function(eleventyConfig) {
     return nav.length ? sortByOrder(nav, 'eleventyNavigation') : [];
   });
 
+  // Handbook: Inside collection
+  eleventyConfig.addCollection('handbookInside', (collection) => {
+    var nav = collection.getFilteredByTag('#handbookInside');
+    return nav.length ? sortByOrder(nav, 'eleventyNavigation') : [];
+  });
+
   // Podcast episode collection
   eleventyConfig.addCollection('podcastEpisodes', (collection) => {
     var episodes = collection.getFilteredByGlob('./content/podcast/ep*.md');

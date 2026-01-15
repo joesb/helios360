@@ -19,6 +19,11 @@ eleventyNavigation:
   parent: Handbook
   root: Handbook
   order: 40
+listSource: handbookInside
+listAllMoreButton: true
+listTitle: In this section
+pagemeta:
+  show: true
 tags:
   - '#handbookPromoted'
 image:
