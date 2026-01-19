@@ -2584,7 +2584,7 @@ __metadata:
     postcss-cli: ^11.0.1
     react: ^19.2.3
     react-dom: ^19.2.3
-    resend: ^6.7.0
+    resend: ^6.8.0
     rimraf: ^6.1.2
     sass: ^1.97.2
     sass-autoprefixer: ^1.0.1
@@ -4004,9 +4004,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resend@npm:^6.7.0":
-  version: 6.7.0
-  resolution: "resend@npm:6.7.0"
+"resend@npm:^6.8.0":
+  version: 6.8.0
+  resolution: "resend@npm:6.8.0"
   dependencies:
     svix: 1.84.1
   peerDependencies:
@@ -4014,7 +4014,7 @@ __metadata:
   peerDependenciesMeta:
     "@react-email/render":
       optional: true
-  checksum: 44b886db10f9e19a184cfd61f64e731d4c91e41bf139558b8ccc25b7de1f1eae2bf4d94901e6d2b61471649a1dd402fa9bb1dcd3c74cbb8f76c4e6d1378d160c
+  checksum: 7844fe86496aab77ca40f6c87fea249d1bfa1f8df3dfa9d533829c81e822f11bacc15e796c78ef2e805d710de9804f823b146022c681e610680da30dbb5fb896
   languageName: node
   linkType: hard
 
