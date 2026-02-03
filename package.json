@@ -56,7 +56,7 @@
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
     "resend": "^6.8.0",
-    "wrangler": "^4.59.3"
+    "wrangler": "^4.61.1"
   },
   "packageManager": "yarn@4.12.0"
 }
