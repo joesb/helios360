@@ -3,8 +3,9 @@
  */
 import { Resend } from "resend";
 
-async function onRequestPost(context) {
+export async function onRequestPost(context) {
   try {
+    throw new Error('Test error');
     let input = await context.request.formData();
     // Convert FormData to JSON
     // NOTE: Allows multiple values per key
@@ -53,8 +54,6 @@ ${output.message}`;
     }
   } catch (err) {
     console.log(err);
-    return Response.redirect("https://helios360.co.uk/404/?error=json_parsing", 303)
+    return new Response.redirect("https://helios360.co.uk/404/?error=json_parsing", 303)
   }
 }
-
-export default { onRequestPost }
