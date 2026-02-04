@@ -2,6 +2,7 @@
 name = "submit"
 main = "functions/api/submit.js"
 compatibility_date = "2022-12-05"
+compatibility_flags = [ "nodejs_compat" ]
 
 [assets]
 directory = "_site"
