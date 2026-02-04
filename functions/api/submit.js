@@ -3,7 +3,7 @@
  */
 import { Resend } from "resend";
 
-async function onRequestPost(context) {
+export async function onRequestPost(context) {
   try {
     let input = await context.request.formData();
     // Convert FormData to JSON
@@ -57,4 +57,4 @@ ${output.message}`;
   }
 }
 
-export { onRequestPost }
+// export { onRequestPost }
