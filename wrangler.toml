@@ -1,8 +1,8 @@
 # wrangler.toml (wrangler v4.0.0^)
 name = "submit"
 main = "functions/api/submit.js"
-compatibility_date = "2026-02-04"
 compatibility_flags = [ "nodejs_compat" ]
+compatibility_date = "2026-02-04"
 
 [assets]
 directory = "_site"
