@@ -3,7 +3,7 @@
  */
 import { Resend } from "resend";
 
-export async function onRequestPost(context) {
+async function onRequestPost(context) {
   try {
     let input = await context.request.formData();
     // Convert FormData to JSON
@@ -56,3 +56,5 @@ ${output.message}`;
     return Response.redirect("https://helios360.co.uk/404/?error=json_parsing", 303)
   }
 }
+
+export default { onRequestPost }
