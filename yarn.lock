@@ -2377,7 +2377,7 @@ __metadata:
     postcss-cli: "npm:^11.0.1"
     react: "npm:^19.2.4"
     react-dom: "npm:^19.2.4"
-    resend: "npm:6.8.0"
+    resend: "npm:6.9.3"
     rimraf: "npm:^6.1.3"
     sass: "npm:^1.97.3"
     sass-autoprefixer: "npm:^1.0.1"
@@ -3423,6 +3423,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"postal-mime@npm:2.7.3":
+  version: 2.7.3
+  resolution: "postal-mime@npm:2.7.3"
+  checksum: 10c0/f8f036b3947e506d3a4a9501501f7a05acd27c7c274fc207c093a0b28eb2c97a4fa295d0fbe55551f33d87c21684401562811767adaa60918adb99a9149d324b
+  languageName: node
+  linkType: hard
+
 "postcss-cli@npm:^11.0.1":
   version: 11.0.1
   resolution: "postcss-cli@npm:11.0.1"
@@ -3719,17 +3726,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resend@npm:6.8.0":
-  version: 6.8.0
-  resolution: "resend@npm:6.8.0"
+"resend@npm:6.9.3":
+  version: 6.9.3
+  resolution: "resend@npm:6.9.3"
   dependencies:
+    postal-mime: "npm:2.7.3"
     svix: "npm:1.84.1"
   peerDependencies:
     "@react-email/render": "*"
   peerDependenciesMeta:
     "@react-email/render":
       optional: true
-  checksum: 10c0/97ea528c988a0f77b3672ea7c378213f18facb4dc3099472fced7c5d37dec99bdff36f1bd3b15e1953479d486e0fadf50ffdef20249109595d2cf0b94de13696
+  checksum: 10c0/797bef578fb34906ec09213379131b5d24240071311180018745347fab0bd5e613aa1339b151239aeea6d9a06d5b3a19a47bfe5f9baf21e5abf50259c86b1b47
   languageName: node
   linkType: hard
 
