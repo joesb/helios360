@@ -28,8 +28,8 @@
     "@11ty/eleventy-img": "^6.0.4",
     "@11ty/eleventy-navigation": "^1.0.5",
     "@11ty/eleventy-plugin-rss": "^2.0.4",
-    "@quasibit/eleventy-plugin-schema": "^1.12.0",
-    "autoprefixer": "^10.4.24",
+    "@quasibit/eleventy-plugin-schema": "^1.13.0",
+    "autoprefixer": "^10.4.27",
     "clean-css": "^5.3.3",
     "dotenv": "^17.3.1",
     "eleventy-plugin-time-to-read": "^1.3.0",
@@ -43,10 +43,10 @@
     "markdown-it-deflist": "^3.0.0",
     "markdown-it-underline": "^1.0.1",
     "minify-xml": "^4.5.2",
-    "postcss": "^8.5.6",
+    "postcss": "^8.5.8",
     "postcss-cli": "^11.0.1",
     "rimraf": "^6.1.3",
-    "sass": "^1.97.3",
+    "sass": "^1.98.0",
     "sass-autoprefixer": "^1.0.1",
     "uglify-js": "^3.19.3"
   },
@@ -56,7 +56,7 @@
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "resend": "6.9.3",
-    "wrangler": "^4.71.0"
+    "wrangler": "^4.73.0"
   },
   "packageManager": "yarn@4.12.0"
 }
