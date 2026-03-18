@@ -415,6 +415,9 @@ export default async function(eleventyConfig) {
       class: "direct-link do-not-display",
       symbol: "#",
       level: [1,2,3,4],
+      renderAttrs: () => ({
+        'aria-label': `Permalink`
+      })
     }),
     slugify: eleventyConfig.getFilter("slugify")
   }).use(markdownItAttrs).use(markdownItUnderline).use(markdownItDefList);

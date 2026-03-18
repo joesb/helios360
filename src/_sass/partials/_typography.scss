@@ -47,11 +47,12 @@ h6,
 
   // heading direct link hover
   &:not(.hide-permalink, .title-bar--title) {
-    margin-inline-start: calc(px.px-to-rem(18px) * -1);
-    padding-inline-start: px.px-to-rem(18px);
+    margin-inline-start: calc(px.px-to-rem(36px) * -1);
+    padding-inline-start: px.px-to-rem(36px);
 
     .direct-link {
       font-size: var(--font-size-fluid-0);
+      line-height: 1rem;
       font-weight: var(--font-weight-regular);
 
       &.do-not-display {
@@ -64,7 +65,16 @@ h6,
 
     &:hover {
       .do-not-display {
-        display: inline;
+        display: inline-block;
+        background-color: var(--color-grey-light);
+        border-radius: var(--radius-2);
+        padding: var(--size-2);
+        transition: all 0.25s ease;
+
+        &:hover {
+          transition: all 0.25s ease;
+          background-color: var(--color-grey-lighter);
+        }
       }
     }
   }
