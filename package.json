@@ -24,10 +24,10 @@
     "sass:watch": "sass --watch --style=expanded ./src/_sass/:./src/_includes/assets/css/"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy": "^3.1.5",
     "@11ty/eleventy-img": "^6.0.4",
     "@11ty/eleventy-navigation": "^1.0.5",
-    "@11ty/eleventy-plugin-rss": "^2.0.4",
+    "@11ty/eleventy-plugin-rss": "^3.0.0",
     "@quasibit/eleventy-plugin-schema": "^1.13.0",
     "autoprefixer": "^10.4.27",
     "clean-css": "^5.3.3",
@@ -56,7 +56,7 @@
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "resend": "6.9.4",
-    "wrangler": "^4.75.0"
+    "wrangler": "^4.77.0"
   },
   "packageManager": "yarn@4.12.0"
 }
