@@ -8,7 +8,7 @@ import Image from "@11ty/eleventy-img";
 import { eleventyImageOnRequestDuringServePlugin } from "@11ty/eleventy-img";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
-import pluginRss from "@11ty/eleventy-plugin-rss";
+import rssPlugin from "@11ty/eleventy-plugin-rss";
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import timeToRead  from "eleventy-plugin-time-to-read";
 import CleanCSS from "clean-css";
@@ -44,7 +44,7 @@ export default async function(eleventyConfig) {
   eleventyConfig.addPlugin(InputPathToUrlTransformPlugin);
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPlugin(eleventyImageOnRequestDuringServePlugin);
-  eleventyConfig.addPlugin(pluginRss);
+  eleventyConfig.addPlugin(rssPlugin);
   eleventyConfig.addPlugin(schema);
   eleventyConfig.addPlugin(pluginTOC, {
     tags: ['h2', 'h3', 'h4'],
