@@ -1128,16 +1128,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-email/render@npm:2.0.4":
-  version: 2.0.4
-  resolution: "@react-email/render@npm:2.0.4"
+"@react-email/render@npm:2.0.5":
+  version: 2.0.5
+  resolution: "@react-email/render@npm:2.0.5"
   dependencies:
     html-to-text: "npm:^9.0.5"
     prettier: "npm:^3.5.3"
   peerDependencies:
     react: ^18.0 || ^19.0 || ^19.0.0-rc
     react-dom: ^18.0 || ^19.0 || ^19.0.0-rc
-  checksum: 10c0/47bb26bc31c7ccaf7995ce39742e22a72e32af7c7d03d2e39f3b6c8b19079c575646c34aa099ce73f7d755062b87d60320b54bbc89135f80a0bf54d069b77c9c
+  checksum: 10c0/6c7e6b4f4dc28e2c061400de8cc761c0cf418238baa3345a3bef7679ab3392d1e81ec3b45d7f02f0c7b3c3c85ee13ea8db15b651efec2fe510ee5d7cafdfda23
   languageName: node
   linkType: hard
 
@@ -2327,7 +2327,7 @@ __metadata:
     "@11ty/eleventy-navigation": "npm:^1.0.5"
     "@11ty/eleventy-plugin-rss": "npm:^3.0.0"
     "@quasibit/eleventy-plugin-schema": "npm:^1.13.0"
-    "@react-email/render": "npm:2.0.4"
+    "@react-email/render": "npm:2.0.5"
     "@types/markdown-it": "npm:^14.1.2"
     autoprefixer: "npm:^10.4.27"
     clean-css: "npm:^5.3.3"
