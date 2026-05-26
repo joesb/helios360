@@ -2317,7 +2317,7 @@ __metadata:
     postcss-cli: "npm:^11.0.1"
     react: "npm:^19.2.5"
     react-dom: "npm:^19.2.4"
-    resend: "npm:6.12.2"
+    resend: "npm:6.12.4"
     rimraf: "npm:^6.1.3"
     sass: "npm:^1.99.0"
     sass-autoprefixer: "npm:^1.0.1"
@@ -3605,18 +3605,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resend@npm:6.12.2":
-  version: 6.12.2
-  resolution: "resend@npm:6.12.2"
+"resend@npm:6.12.4":
+  version: 6.12.4
+  resolution: "resend@npm:6.12.4"
   dependencies:
     postal-mime: "npm:2.7.4"
-    svix: "npm:1.90.0"
+    standardwebhooks: "npm:1.0.0"
   peerDependencies:
     "@react-email/render": "*"
   peerDependenciesMeta:
     "@react-email/render":
       optional: true
-  checksum: 10c0/24de17d936aa03727b466d8dc44bd18151d5d0c8a5fd2318b9eb67780ce9d1eddc0b0b862083319fb99439c0112d115106ecea93d2f66ac7b30fb50844b5ba5c
+  checksum: 10c0/092681171100dc704848c2bf67d7ab3ffe8ebbf6683e127a453cb45110a12c59654fd878ea2300dcc0d56fcb05558657c9d696216357d02f823a2bea305bb26c
   languageName: node
   linkType: hard
 
@@ -4081,16 +4081,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svix@npm:1.90.0":
-  version: 1.90.0
-  resolution: "svix@npm:1.90.0"
-  dependencies:
-    standardwebhooks: "npm:1.0.0"
-    uuid: "npm:^10.0.0"
-  checksum: 10c0/11d7885ccdfe0b08f978a45afa9b51c4e57c8c63f86d75139e9803f0aa2563c5f7b8f5a20e280ad2850e31ba7c155f2c4c0ab56a0fa4518ae08a40973dedc51d
-  languageName: node
-  linkType: hard
-
 "tar@npm:^7.5.4":
   version: 7.5.13
   resolution: "tar@npm:7.5.13"
@@ -4236,15 +4226,6 @@ __metadata:
   version: 1.0.2
   resolution: "util-deprecate@npm:1.0.2"
   checksum: 10c0/41a5bdd214df2f6c3ecf8622745e4a366c4adced864bc3c833739791aeeeb1838119af7daed4ba36428114b5c67dcda034a79c882e97e43c03e66a4dd7389942
-  languageName: node
-  linkType: hard
-
-"uuid@npm:^10.0.0":
-  version: 10.0.0
-  resolution: "uuid@npm:10.0.0"
-  bin:
-    uuid: dist/bin/uuid
-  checksum: 10c0/eab18c27fe4ab9fb9709a5d5f40119b45f2ec8314f8d4cf12ce27e4c6f4ffa4a6321dc7db6c515068fa373c075b49691ba969f0010bf37f44c37ca40cd6bf7fe
   languageName: node
   linkType: hard
 
