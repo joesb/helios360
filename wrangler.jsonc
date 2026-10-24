@@ -2,6 +2,7 @@
   "\"$schema\"": "./node_modules/wrangler/config-schema.json",
   "name": "submit",
   "main": "functions/api/submit.js",
+  "pages_build_output_dir": "_site",
   "compatibility_flags": [
     "nodejs_compat"
   ],
